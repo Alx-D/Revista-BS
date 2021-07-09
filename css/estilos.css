@@ -61,9 +61,11 @@ a {
 }
 .indicador {
   font-size: 26px;
-  font-weight: 400;
-  margin-bottom: 15px;
+  font-weight: 400;  
   color: #000100;
+}
+.mb-15{
+  margin-bottom: 15px;
 }
 
 /* 001 HEADER */
@@ -207,16 +209,15 @@ header{
   margin-bottom: 5px;
 }
 .ind-esp-edi-a {
-  font-size: 21.52px;
-  margin-top: 4px;
-  margin-bottom: 4px;
-  color: #275c6d;
+  font-size: 21px;
+  margin: 4px 0 4px;
+  color: var(--verde-logo-1);
 }
 .especial-cbz-th {
   font-size: 28px;
   font-weight: 700;
-  line-height: 32px;
-  margin-bottom: 5px;
+  line-height: 1.2;
+  margin-bottom: 3px;
   color: black;
 }
 .especial-cbz-th:hover {
@@ -224,16 +225,16 @@ header{
 }
 .especial-txt-th {
   font-size: 18px;
-  line-height: 24px;
+  line-height: 1.2;
   color: black;
 }
 .mes-col-1 hr {
   margin-top: 10px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 .editorial-cbz-th {
   font-size: 24px;  
-  line-height: 30px;
+  line-height: 1.2;
   font-weight: 600;
   color: black;
 }
@@ -831,7 +832,7 @@ header{
 }
 @media screen and (max-width: 980px){
   .indicador {
-    font-size: 2.5vw;
+    font-size: 2.4vw;
   }
   .header-row-1, .header-row-1 {
     margin-bottom: 0;
@@ -855,7 +856,15 @@ header{
   .covid-preventivo p {
     font-size: 2.3vw;
   }
-    .editorial-cbz-th {  
+  .mes-col-1 hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .especial-cbz-th {
+    font-size: 25px;
+    margin-bottom: 3px;
+  }
+  .editorial-cbz-th {  
     font-size: 23px;
   }
   .mes-col-2 {
@@ -1013,10 +1022,10 @@ header{
   .mes-hr-2{
     width: 100%;
   }
-  .ind-esp-edi-a {
+  /* .ind-esp-edi-a {
     margin-top: 3px;
     margin-bottom: 3px;
-  }
+  } */
   .esp-edi-th-bx a{
     margin-top: 3%;
   }
