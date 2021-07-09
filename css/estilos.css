@@ -169,22 +169,22 @@ header{
 
 /* 002 PREVENTIVO COVID */
 .covid-preventivo {
-  margin: 30px auto 30px;
+  margin: 1.875rem auto 1.875rem;
   background-color: red;
   line-height: 1.2;
-  padding: 10px 0 10px;
+  padding: 0.625rem 0 0.625rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .covid-preventivo p span {
-  font-size: 28px;
+  font-size: 1.9vw;
   font-family: "Nunito Sans", sans-serif;
   font-weight: bolder;
   color: rgb(250, 240, 151);
 }
 .covid-preventivo p {
-  font-size: 28px;
+  font-size: 1.9vw;
   font-family: "Nunito Sans", sans-serif; 
   font-weight: bolder;
   color: white;
@@ -206,34 +206,33 @@ header{
   width: 96%;
 }
 .ind-impr-a {
-  margin-bottom: 5px;
+  margin-bottom: 0.3125rem;
 }
 .ind-esp-edi-a {
-  font-size: 21px;
-  margin: 4px 0 4px;
+  font-size: 1.3vw;
+  margin: 0.25rem 0 0.25rem;
   color: var(--verde-logo-1);
 }
 .especial-cbz-th {
-  font-size: 28px;
-  font-weight: 700;
+  font-size: 2vw;
   line-height: 1.2;
-  margin-bottom: 3px;
+  font-weight: 700;  
+  margin-bottom: 0.1875rem;
   color: black;
 }
 .especial-cbz-th:hover {
   color: slategrey;
 }
 .especial-txt-th {
-  font-size: 18px;
+  font-size: 1.25vw;
   line-height: 1.2;
   color: black;
 }
 .mes-col-1 hr {
-  margin-top: 10px;
-  /* margin-bottom: 10px; */
+  margin-top: 0.625rem;
 }
 .editorial-cbz-th {
-  font-size: 24px;  
+  font-size: 1.5vw;  
   line-height: 1.2;
   font-weight: 600;
   color: black;
@@ -252,8 +251,8 @@ header{
 }
 .nota-mes-ceja {  
   background-color: #b3272d;
-  font-size: 20px;
-  line-height: 37px;
+  font-size: 1.6vw;
+  line-height: 1.6;
   font-weight: bolder;
   text-align: center;
   color: white;
@@ -263,10 +262,10 @@ header{
 }
 .nota-mes-foto-bx {
   width: 100%;
-  height: 420px;
+  /* height: auto; */
   float: left;
   overflow: hidden;
-  background: #612f8c;
+  background: #612f8c
 }
 .nota-mes-foto-bx img {
   width: 100%;
@@ -825,14 +824,26 @@ header{
 }
 
 /* ------M E D I A S----------- */
+@media screen and (max-width: 1300px){
+  .covid-preventivo {
+    margin: 15px auto 30px;
+  }
+}
 @media screen and (max-width: 1080px){
+  .contenedor{
+    width: 90%;
+  }
   .menu li a {
     font-size: 14px;
+  }
+  .covid-preventivo {
+    margin: 20px auto 30px;
   }
 }
 @media screen and (max-width: 980px){
   .indicador {
     font-size: 2.4vw;
+    color: red;
   }
   .header-row-1, .header-row-1 {
     margin-bottom: 0;
@@ -854,7 +865,7 @@ header{
   }
   .covid-preventivo p span,
   .covid-preventivo p {
-    font-size: 2.3vw;
+    font-size: 2.2vw;
   }
   .mes-col-1 hr {
     margin-top: 5px;
@@ -870,9 +881,7 @@ header{
   .mes-col-2 {
     flex-basis: 52%;
   }
-  .nota-mes-ceja {  
-    font-size: 17px;
-    line-height: 1.6;
+  .nota-mes-ceja {
     padding: 0 10px;
   }
   .nota-mes-foto-bx {
