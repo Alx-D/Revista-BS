@@ -152,7 +152,7 @@ header{
 }
 .menu ul {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between;  
 }
 .menu ul li {
   display: inline-block;
@@ -162,12 +162,12 @@ header{
   font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
-  color: #000100;
+  color: #000100;  ;
 }
 
 /* 002 PREVENTIVO COVID */
 .covid-preventivo {
-  margin: 1.875rem auto 1.875rem;
+  margin: 30px auto 30px;
   background-color: red;
   line-height: 1.2;
   padding: 10px 0 10px;
@@ -201,8 +201,7 @@ header{
   flex-basis: 18%;
 }
 .mes-col-1 img {
-  width: 181px;
-  height: 218px;
+  width: 96%;
 }
 .ind-impr-a {
   margin-bottom: 5px;
@@ -233,9 +232,9 @@ header{
   margin-bottom: 10px;
 }
 .editorial-cbz-th {
-  font-weight: 600;
-  font-size: 24px;
+  font-size: 24px;  
   line-height: 30px;
+  font-weight: 600;
   color: black;
 }
 .editorial-cbz-th:hover {
@@ -245,7 +244,6 @@ header{
 /* ESTE MES Nota Mes */
 .mes-col-2 {
   flex-basis: 55%;
-  /* height: 575px;  */
   transition: all 400ms;
 }
 .hv01:hover {
@@ -254,25 +252,26 @@ header{
 .nota-mes-ceja {  
   background-color: #b3272d;
   font-size: 20px;
+  line-height: 37px;
   font-weight: bolder;
   text-align: center;
   color: white;
-  line-height: 37px;
   padding: 0 15px;
   position: absolute;
   z-index: 20;
 }
-.nota-mes-foto {
+.nota-mes-foto-bx {
   width: 100%;
   height: 420px;
   float: left;
   overflow: hidden;
+  background: #612f8c;
 }
-.nota-mes-foto img {
-  height: 100%;
+.nota-mes-foto-bx img {
+  width: 100%;
 }
 .nota-mes-ceja-th {
-  margin-top: 420px;
+  /* margin-top: 420px; */
   width: 120px;
   height: 23px;
   background-color: #612f8c;
@@ -282,7 +281,8 @@ header{
   text-align: center;
   color: white;
   margin-bottom: 8px;
-  z-index: 200;
+  z-index: 500;
+  display: inline-block;
 }
 
 /* ceja morada?? */
@@ -293,11 +293,9 @@ header{
   margin-bottom: 4px;
   color: black;
 }
-
 .nota-mes-cbz:hover {
   color: slategrey;
 }
-
 .nota-mes-txt {
   font-size: 20px;
   line-height: 28px;
@@ -305,20 +303,17 @@ header{
 }
 
 /* ESTE MES Banners verticales */
-
 /* 250x250 */
 .mes-col-3 {
   flex-basis: 23%;
 }
 .banner-vertical-250x250 {
-  width: 250px;
-  height: 250px;
+  width: 100%;
+  height: auto;
   float: right;
 }
-.banner-vertical-portada-abajo {
-  width: 250px;
-  height: 250px;
-  float: right;
+.banner-vertical-250x250 img{
+  width: 100%;
 }
 .bv-ajuste70 {
   margin-bottom: 70px;
@@ -835,15 +830,57 @@ header{
   }
 }
 @media screen and (max-width: 980px){
+  .indicador {
+    font-size: 2.5vw;
+  }
   .header-row-1, .header-row-1 {
     margin-bottom: 0;
   }
   .revista-bs-logo-bx{
     align-self: center;
   }
+  .facebook {
+    font-size: 1.5vw;
+  }
+  .header-row-2 {
+    margin-bottom: 0.1875rem;
+  }
   .menu li a {
     font-size: 13px;
   }
+  .covid-preventivo {
+    margin: 1.25rem auto 1.875rem;
+  }
+  .covid-preventivo p span,
+  .covid-preventivo p {
+    font-size: 2.3vw;
+  }
+    .editorial-cbz-th {  
+    font-size: 23px;
+  }
+  .mes-col-2 {
+    flex-basis: 52%;
+  }
+  .nota-mes-ceja {  
+    font-size: 17px;
+    line-height: 1.6;
+    padding: 0 10px;
+  }
+  .nota-mes-foto-bx {
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 890px){
+  .contenedor{
+    width: 88vw;
+  }
+  .menu li a {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 768px){
+
 }
 @media screen and (max-width: 640px){
   .indicador {
@@ -892,7 +929,7 @@ header{
   }
   .header-leyenda-femeson {
     font-size: 2vw;
-    line-height: 180%;
+    line-height: 1.2;
     font-weight: 300;
     text-align: center;
     color: #444;
