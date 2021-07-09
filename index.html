@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/estilos.css">
+  <!-- <link rel="stylesheet" href="normalize.css"> -->
+  <meta name="description" content="Artículos sobre el cuidado de la salud y prevención de enfermedades">
+  <meta name="keywords"
+    content="salud, saludable, vida, cuidado, bienestar, prevención, enfermedades, nutrición, psicología, niños, familia, adultos mayores, femeson, sonora">
+  <link rel="icon" type="image/png" href="imgs/Revista-BS-favicon.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,300;0,400;1,400&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/7c1b686291.js" crossorigin="anonymous"></script>
+  <title>REVISTAaa BS, salud para vivir con sentido</title>
+</head>
+
+<body>
+  <header class="contenedor" >
+        
+    <!-- HEADER MOBILE -->
+    <div class="header-cont-mobile">
+    
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    
+      <div class="logo-mobile-bx">
+        <a href="index.html">
+          <img src="imgs/Revista-BS-logo-m.png">
+        </a>
+      </div>
+      <div class="lema-mobile-bx">
+        <img src="imgs/lema.png">
+      </div>
+    
+      <i class="fas fa-search"></i>
+        
+      <p class="f1 header-leyenda-femeson">Órgano de vinculación y divulgación de la Federación Médica de Sonora</p>    
+    </div>
+
+    <!-- HEADER DESKTOP -->
+    <div class="header-cont">
+      <div class="header-col-izq">
+        <div class="revista-bs-logo-bx">
+          <a href="index.html">
+            <img class="logo-header" src="imgs/Revista-BS-logo-header.png" alt="Revista BS">
+          </a>
+        </div>
+      </div>
+
+      <i class="fas fa-search"></i>
+
+      <div class="header-col-der">
+        
+        <div class="header-row-1">
+
+          <div class="facebook">
+            <a class="f1" href="https://www.facebook.com">
+              <i class="fab fa-facebook fa-lg"></i> Revista BS
+            </a></div>
+
+          <div class="femeson-logo-bx"><img src="imgs/femeson-escudo.png" alt=""></div>
+        </div>
+
+        <div class="header-row-2">
+
+          <div class="lema-bx">
+            <img src="imgs/lema.png">
+          </div>
+
+          <div id="buscador">
+            <form>
+              <input type="text" placeholder="Buscar">             
+            </form>
+          </div>
+        </div>
+
+        <nav>
+          <div class="menu" id="menu-enlaces">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Revista</a></li>
+              <li><a href="#">Artículos por tema</a></li>
+              <li><a href="#">Artículos por especialidad médica</a></li>
+              <li><a href="#">Directorio médico</a></li>
+              <li><a href="#">Femeson</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </div>          
+        </nav>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+  </header>
+
+  <!-- PREVENTIVO COVID  -->
+  <div class="contenedor covid-preventivo">
+    <a href="#">
+      <p><i class="fas fa-exclamation-circle fa-lg"></i><span> COVID-19:</span> INFORMACIÓN IMPORTANTE, ARTÍCULOS
+        RELACIONADOS</p>
+    </a>
+  </div>
+
+  <!-- PREVENTIVOS EDICION IMPRESA, SECCION ESPECIAL Y EDITORIAL -->
+
+  <section id="mes" class="contenedor">
+
+    <div class="mes-cont">
+      <div class="mes-col-1">
+        <div class="impresa-th-bx">
+          <a href="imgs/REVISTA-BS-248.pdf" target="blank">
+  
+            <p class="f2 indicador ind-impr-a">EDICIÓN IMPRESA</p>
+  
+            <figure><img src="imgs/portada-Revista-BS-248.jpg" alt="Revista BS #248"></figure>
+          </a>
+        </div>
+
+        <hr class="mes-hr-1">
+
+        <div class="esp-edi-th-bx">
+          <a href="#">
+            <p class="f2 indicador ind-esp-edi-a">Especial</p>
+  
+            <h2 class="f1 especial-cbz-th">Recuperemos la salud</h2>
+  
+            <p class="f1 especial-txt-th">Prevención en cada especialidad</p>
+          </a>
+  
+          <hr class="mes-hr-2">
+  
+          <a href="2021-01/editorial-2021-01.html">
+            <p class="f2 indicador ind-esp-edi-a">Editorial</p>
+            <h2 class="f1 editorial-cbz-th">Programa de Vacunación contra Covid-19</h2>
+          </a>
+        </div>
+      </div>
+
+      <!-- Nota Mes -->
+      <div class="mes-col-2 hv01">
+
+        <div class="f1 nota-mes-ceja">ESTE MES</div>
+
+        <a href="2021-01/para-abrazarlos-otra-vez.html">
+
+          <div class="nota-mes-foto">
+            <img src="2021-01/imgs/248-Redaccion-BS-VACUNA-COVID-01-mes.jpg">
+          </div>
+
+          <div class="f2 nota-mes-ceja-th">ADULTOS MAYORES</div>
+
+          <h2 class="f1 nota-mes-cbz">Para abrazarlos otra vez</h2>
+
+          <p class="f1 nota-mes-txt">El 24 de diciembre de 2020 arrancó el programa de vacunación contra
+            Covid-19 en México, entérese de lo que hay que saber respecto a la inmunización.</p>
+        </a>
+      </div>
+
+      <!-- Banners verticales 250x250 -->
+      <div class="mes-col-3">
+        <div class="banner-vertical-250x250 bv-ajuste70">
+          <a href="#">
+            <img src="imgs/Hospital-GobEdo.png" width="250" height="250px" alt="">
+          </a>
+        </div>
+
+        <div class="banner-vertical-250x250">
+          <a href="#">
+            <img src="imgs/Hospital-GobEdo.png" width="250" height="250px" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="clear"></div>
+
+  <!-- BANNER HORIZONTAL PORTADA 01 -->
+  <div class="contenedor bnr-hz-01">
+    <a href="https://hondapremium.com/" target="blank"><img src="imgs/Honda-diciembre-2020.png"></a>
+  </div>
+  <div class="bnr-hz-mob">Banner mobile</div>
+
+  <!-- ARTICULOS -->
+  <section class="contenedor" id="articulos-preventivos">
+    <div class="articulos-preventivos-cont">
+      <div class="articulos-prev-col-1">
+
+        <div class="articulo-prev-card">
+          <a href="2021-01/mejores-condiciones-cirugia-oncologica.html">
+            <div class="f2 ceja-med naranjao">ADULTOS MAYORES</div>
+            <div class="articulo-prev-card-foto">
+              <img src="2021-01/imgs/248-Dr-Mario-Alvarez-Bojorquez-HABITOS-CIRUGIA-1-card.jpg" alt="">
+            </div>
+            <h2 class="f1">Buscando las mejores condiciones en caso de cirugía oncológica</h2>
+            <p class="f1 articulo-prev-card-autor">Dr. Mario Álvarez Bojórquez</p>
+            <p class="f1 articulo-prev-card-autor-especialidad">Cirujano Oncólogo</p>
+          </a>
+        </div>
+
+        <div class="articulo-prev-card">
+          <a href="2021-01/ejercicio-y-salud-cardiaca-en-la-justa-medida.html">
+            <div class="f2 ceja-med azulc">ADULTOS MAYORES</div>
+            <div class="articulo-prev-card-foto">
+              <img src="2021-01/imgs/248-Dr-Ivan-Serna-Santamaria-EJERCICIO-CORAZON-1-card.jpg" alt="">
+            </div>
+            <h2 class="f1">Ejercicio y salud cardiaca en la justa medida</h2>
+            <p class="f1 articulo-prev-card-autor">Dr. Iván Serna Santamaría</p>
+            <p class="f1 articulo-prev-card-autor-especialidad">Cardiología y Rehabilitación Cardiaca</p>
+          </a>
+        </div>
+
+        <div class="articulo-prev-card">
+          <a href="2021-01/dormir-bien-para-dormir-mejor.html">
+            <div class="f2 ceja-med azulo">ADULTOS MAYORES</div>
+            <div class="articulo-prev-card-foto">
+              <img src="2021-01/imgs/248-Dr-Luis-Avila-Gamez-HIGIENE-SUENO-03-card.jpg" alt="">
+            </div>
+            <h2 class="f1">Higiene del sueño: Dormir bien para vivir mejor</h2>
+            <p class="f1 articulo-prev-card-autor">Dr. Luis Daniel Ávila Gámez</p>
+            <p class="f1 articulo-prev-card-autor-especialidad">Médico Psiquiatra</p>
+          </a>
+        </div>
+
+        <div class="articulo-prev-card">
+          <a href="2021-01/enfermedades-respiratorias-distinguir-es-la-clave.html">
+            <div class="f2 ceja-med rojoc">ADULTOS MAYORES</div>
+            <div class="articulo-prev-card-foto">
+              <img src="2021-01/imgs/248-Redaccion-BS-ENFERMEDADES-RESPIRATORIAS-2-card.jpg" alt="">
+            </div>
+            <h2 class="f1">En enfermedades respiratorias distinguir es la clave</h2>
+            <p class="f1 articulo-prev-card-autor">Redacción BS</p>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="articulos-prev-col-2">
+
+        <!-- Banner vertical 300x440 -->
+        <div class="banner-vertical-300x440">
+          <a href="#"></a>
+        </div>
+
+        <!-- Mas leidas -->
+        <div class="mas-leidas">
+          <p class="f2 indicador ind-mas-a">MÁS LEÍDAS</p>
+          <ol>
+            <li><a href="#">
+                <h3>Cinco ejercicios para mantener su sistema nervioso sano</h3>
+              </a>
+            </li>
+            <li><a href="#">
+                <h3>La enfermedad mental en la expresión pictórica de Van Gogh</h3>
+              </a>
+            </li>
+            <li><a href="#">
+                <h3>¿Sospecha de meningitis? acuda pronto a su médico</h3>
+              </a>
+            </li>
+            <li><a href="#">
+                <h3>Factores que afectan la altura durante el crecimiento </h3>
+              </a>
+            </li>
+            <li><a href="#">
+                <h3>La depresión aparece cuando existen conflictos graves</h3>
+              </a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="clear"></div>
+
+  <!-- BANNER HORIZONTAL PORTADA -->
+  <div class="contenedor bnr-hz-01">
+    <a href="https://www.hospitalsanjosehermosillo.com/" target="blank"><img src="imgs/Hospital-San-Jose.jpg"></a>
+  </div>
+
+  <!-- ESPECIAL PREVENTIVO -->
+  <section id="especial-preventivo">
+    <div class="contenedor esp-prev-cont">
+      <div class="esp-prev-col-izq">
+        <p class="f2 indicador ind-esp-a">SECCIÓN ESPECIAL</p>
+        <a href="#">
+          <img class="especial-prev-cbz" src="2021-01/imgs/248-secc-especial-head.png" alt="Recuperemos la salud">
+          <p class="f2 especial-prev-sumario">PREVENCIÓN EN CADA ESPECIALIDAD</p>
+        </a>
+
+        <ul class="esp-prev-lista-izq">
+          <li>
+            <a href="#">
+              <p class="f1 esp-prev-item"> <strong>Dr. Daniel Evodio Espinoza
+                  Cruz</strong><br>Ginecología y obstetricia
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p class="f1 esp-prev-item"> <strong>Dr. Dennis Eulogio
+                  Reyes</strong><br>Otorrinolaringología</p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <p class="f1 esp-prev-item"> <strong>Dr. Renny del Valle García
+                  Marcano</strong><br>Cirugía
+                oncológica</p>
+            </a>
+          </li>
+
+          <li>
+            <a href="#">
+              <p class="f1 esp-prev-item"> <strong>Dra. Venezia Jasset Jordán
+                  Bustamante</strong><br>Ortodoncia</p>
+            </a>
+          </li>
+        </ul>
+        <ul class="esp-prev-lista-der">
+          <li>
+            <a href="#">
+              <p class="f1 esp-prev-item"> <strong>Dr. Sergio Miranda Gallardo</strong><br>Neumología
+                pediátrica</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p class="f1 esp-prev-item"> <strong>Dr. Brenda Yolanda Moreno
+                  Denogean</strong><br>Cirugía
+                Pediátrica y del
+                Recién Nacido</p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p class="f1 esp-prev-item"> <strong>Nut. Paola Angelina Moreno
+                  Monge</strong><br>Nutrición
+              </p>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <p class="f1 esp-prev-item"> <strong>Dr. Joel Ernesto Verdugo
+                  Correa</strong><br>Nefrología
+              </p>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="esp-prev-col-der">
+        <a href="#">
+          <figure class="esp-prev-foto"><img src="imgs/248-Secc-Esp-Recuperemos-la-salud.jpg" alt="">
+          </figure>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="clear"></div>
+
+  <!-- SECCION VIDEOS -->
+  <section id="videos-preventivo">
+
+    <div class="videos-prev-ind-bx">
+      <p class="f2 indicador ind-videos-prev-a">ENTREVISTAS CON DESTACADOS PROFESIONALES DE LA SALUD</p>
+    </div>
+
+    <div class="contenedor frames">
+      <div class="video-prev-marco"><iframe
+          src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F173877484011914%2F&show-text=true&width=560"
+          width="340" height="323" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+          allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+          allowFullScreen="true"></iframe></div>
+      <div class="video-prev-marco"><iframe
+          src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F810442452776999%2F&show-text=true&width=560"
+          width="340" height="323" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+          allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+          allowFullScreen="true"></iframe></div>
+      <div class="video-prev-marco"><iframe
+          src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F525927658301628%2F&show-text=true&width=560"
+          width="340" height="323" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+          allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+          allowFullScreen="true"></iframe></div>
+      <div class="video-prev-marco"><iframe
+          src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F578736536323489%2F&show-text=true&width=560"
+          width="340" height="323" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+          allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+          allowFullScreen="true"></iframe></div>
+      <div class="video-prev-marco"><iframe
+          src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F528299161426710%2F&show-text=true&width=560"
+          width="340" height="323" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+          allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+          allowFullScreen="true"></iframe></div>
+      <div class="video-prev-marco"><iframe
+          src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F210765110006727%2F&show-text=true&width=560"
+          width="340" height="323" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+          allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+          allowFullScreen="true"></iframe></div>
+    </div>
+  </section>
+
+  <div id="ajuste-despues-videos"></div>
+
+  <!-- BANNER HORIZONTAL PORTADA -->
+  <div class="contenedor bnr-hz-01">
+    <a href="https://hondapremium.com/" target="blank"><img src="imgs/Honda-diciembre-2020.png"></a>
+  </div>
+
+  <!-- SALUD PARA VIVIR -->
+  <section id="salud-para-vivir-prev" class="contenedor">
+    <p class="f2 indicador">SALUD PARA VIVIR CON SENTIDO</p>
+    <div class="salud-para-prev-cont">
+      <a href="#" class="salud-para-prev-card">
+        <div>
+          <div class="f2 ceja-med verde">NUTRICIÓN</div>
+          <div class="salud-para-prev-card-foto"><img
+              src="2021-01/imgs/248-Lillian-Figueroa-ALIMENTOS-ORGANICOS-1-card.jpg" alt="">
+          </div>
+          <h2 class="salud-para-prev-card-cbz3r
+                        ">Alimentos orgánicos por su salud y <br> el medio ambiente</h2>
+        </div>
+      </a>
+      <a href="#" class="salud-para-prev-card">
+        <div>
+          <div class="f2 ceja-med azulc">NIÑ@S</div>
+          <div class="salud-para-prev-card-foto"><img
+              src="2021-01/imgs/248-Lizeth-Navarro-Vazquez-NINOS-METAS-2-card.jpg" alt="">
+          </div>
+          <h2 class="salud-para-prev-card-cbz2r">Niños y metas de año nuevo</h2>
+        </div>
+      </a>
+      <a href="#" class="salud-para-prev-card">
+        <div>
+          <div class="f2 ceja-med morado">NIÑ@S</div>
+          <div class="salud-para-prev-card-foto"><img
+              src="2021-01/imgs/248-Dra-Diana-Muro-Zepeda-HABITOS-SALUDABLES-2-card.jpg" alt="">
+          </div>
+          <h2 class="salud-para-prev-card-cbz2r">Hábitos saludables en la infancia</h2>
+        </div>
+      </a>
+      <a href="#" class="salud-para-prev-card">
+        <div>
+          <div class="f2 ceja-med naranjao">NUTRICIÓN</div>
+          <div class="salud-para-prev-card-foto"><img
+              src="2021-01/imgs/248-Dr-Rafael-Inigo-Pavlovich-EJERCICIO-BENEFICIOS-1-card.jpg" alt="">
+          </div>
+          <h2 class="salud-para-prev-card-cbz2r">Movimiento: regreso a los orígenes</h2>
+        </div>
+      </a>
+      <a href="#" class="salud-para-prev-card">
+        <div>
+          <div class="f2 ceja-med rojoc">ADULTOS MAYORES</div>
+          <div class="salud-para-prev-card-foto"><img
+              src="2021-01/imgs/248-Dra-Ana-Martinez-Ayala-ENT-TERCERA-EDAD-1-card.jpg" alt="">
+          </div>
+          <h2 class="salud-para-prev-card-cbz2r">ENT y tercera edad: Contra el reloj</h2>
+        </div>
+      </a>
+      <a href="#" class="salud-para-prev-card" style="visibility: hidden;">
+      </a>
+    </div>
+  </section>
+
+  <!-- NUESTRAS EDICIONES CARRUSEL -->
+  <section id="ediciones-carrusel" class="contenedor">
+    <p class="f2 indicador">NUESTRAS EDICIONES</p>
+    <div id="ediciones-carrusel-cont">
+      <a href="#" class="ediciones-flecha-izq"><img src="imgs/flecha-izq.png" /></a>
+      <a href="#" class="ediciones-flecha-der"><img src="imgs/flecha-der.png" /></a>
+      <div class="ediciones-carrusel-banda">
+        <div class="ediciones-carrusel-portada" id="ediciones-carrusel-portada-0">
+          <img src="imgs/portada-Revista-BS-248.jpg" width="208" height="250" title="RevistaBS #248" />
+          <h4 class="f1 ediciones-carr-portada-num">Revista BS #248</h4>
+        </div>
+        <div class="ediciones-carrusel-portada" id="ediciones-carrusel-portada-1">
+          <img src="imgs/portada-Revista-BS-247.jpg" width="208" height="250" title="RevistaBS #247" />
+          <h4 class="f1 ediciones-carr-portada-num">Revista BS #247</h4>
+        </div>
+        <div class="ediciones-carrusel-portada" id="ediciones-carrusel-portada-2">
+          <img src="imgs/portada-Revista-BS-246.jpg" width="208" height="250" title="RevistaBS #246" />
+          <h4 class="f1 ediciones-carr-portada-num">Revista BS #246</h4>
+        </div>
+        <div class="ediciones-carrusel-portada" id="ediciones-carrusel-portada-3">
+          <img src="imgs/portada-Revista-BS-245.jpg" width="208" height="250" title="RevistaBS #245" />
+          <h4 class="f1 ediciones-carr-portada-num">Revista BS #245</h4>
+        </div>
+        <div class="ediciones-carrusel-portada" id="ediciones-carrusel-portada-4">
+          <img src="imgs/portada-Revista-BS-244.jpg" width="208" height="250" title="RevistaBS #244" />
+          <h4 class="f1 ediciones-carr-portada-num">Revista BS #244</h4>
+        </div>
+        <div class="ediciones-carrusel-portada" id="ediciones-carrusel-portada-5">
+          <img src="imgs/portada-Revista-BS-243.jpg" width="208" height="250" title="RevistaBS #243" />
+          <h4 class="f1 ediciones-carr-portada-num">Revista BS #243</h4>
+        </div>
+        <div class="ediciones-carrusel-portada" id="ediciones-carrusel-portada-6">
+          <img src="imgs/portada-Revista-BS-242.jpg" width="208" height="250" title="RevistaBS #242" />
+          <h4 class="f1 ediciones-carr-portada-num">Revista BS #242</h4>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script>
+      var current = 0;
+      var imagenes = new Array();
+
+      $(document).ready(function () {
+        var numImages = 6;
+        if (numImages <= 3) {
+          $('.ediciones-flecha-der').css('display', 'none');
+          $('.ediciones-flecha-izq').css('display', 'none');
+        }
+        $('.ediciones-flecha-izq').on('click', function () {
+          if (current > 0) {
+            current = current - 1;
+          } else {
+            current = numImages - 3;
+          }
+          $(".ediciones-carrusel-banda").animate({ "left": -($('#ediciones-carrusel-portada-' + current).position().left) }, 600);
+          return false;
+        });
+        $('.ediciones-flecha-izq').on('hover', function () {
+          $(this).css('opacity', '0.5');
+        }, function () {
+          $(this).css('opacity', '1');
+        });
+        $('.ediciones-flecha-der').on('hover', function () {
+          $(this).css('opacity', '0.5');
+        }, function () {
+          $(this).css('opacity', '1');
+        });
+        $('.ediciones-flecha-der').on('click', function () {
+          if (numImages > current + 3) {
+            current = current + 1;
+          } else {
+            current = 0;
+          }
+          $(".ediciones-carrusel-banda").animate({ "left": -($('#ediciones-carrusel-portada-' + current).position().left) }, 600);
+          return false;
+        });
+      });
+    </script>
+  </section>
+
+  <!-- BANNER HORIZONTAL PORTADA -->
+  <div class="contenedor bnr-hz-01">
+    <a href="https://www.hospitalsanjosehermosillo.com/" target="blank"><img src="imgs/Hospital-San-Jose.jpg"></a>
+  </div>
+
+  <!-- EVENTOS PREVENTIVOS -->
+  <section id="eventos-preventivos" class="contenedor">
+    <p class="f2 indicador">EVENTOS Y ACTIVIDADES EN PRO DE LA SALUD</p>
+    <div class="eventos-prev-cont">
+      <div class="evento-prev-col-1">
+        <a href="#">
+          <div class="evento-prev-col-1-foto">
+            <figure><img src="imgs/245-Redaccion-BS-CAMINATA-SAN-JOSE-1.jpg" alt="">
+              <figcaption class="f1 evento-prev-col-1-cbz"><strong>Caravana rosa:</strong> Caminata por la
+                Vida
+              </figcaption>
+            </figure>
+          </div>
+        </a>
+      </div>
+      <div class="evento-prev-col-2">
+        <div class="evento-prev-card">
+          <a class="f1" href="#">
+            <figure><img src="imgs/245-Redaccion-BS-CAMINATA-SAN-JOSE-1.jpg" alt="">
+              <figcaption>1 Mesa directiva del Colegio Médico de Hermosillo</figcaption>
+            </figure>
+          </a>
+        </div>
+        <div class="evento-prev-card"> <a class="f1" href="#">
+            <figure><img src="imgs/245-Redaccion-BS-CAMINATA-SAN-JOSE-1.jpg" alt="">
+              <figcaption>2 Reconocimiento al Dr. Filiberto Pérez Duarte</figcaption>
+            </figure>
+          </a></div>
+        <div class="evento-prev-card"> <a class="f1" href="#">
+            <figure><img src="imgs/245-Redaccion-BS-CAMINATA-SAN-JOSE-1.jpg" alt="">
+              <figcaption>3 Primer transplante hepático de donador vivo</figcaption>
+            </figure>
+          </a>
+        </div>
+        <div class="evento-prev-card"> <a class="f1" href="#">
+            <figure><img src="imgs/245-Redaccion-BS-CAMINATA-SAN-JOSE-1.jpg" alt="">
+              <figcaption>4 Carrera por la Salud</figcaption>
+            </figure>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SALUD EN CORTO CARRUSEL -->
+  <section id="corto-carrusel" class="contenedor">
+    <p class="f2 indicador">SALUD EN CORTO</p>
+    <div id="corto-carrusel-cont">
+      <a href="#" class="corto-flecha-izq"><img src="imgs/flecha-izq-220h.png" /></a>
+      <a href="#" class="corto-flecha-der"><img src="imgs/flecha-der-220h.png" /></a>
+
+      <div class="corto-carrusel-banda">
+        <div class="corto-carrusel-nota" id="corto-carrusel-nota-0">
+          <a class="f1" href="#">
+            <figure>
+              <img src="imgs/245-Redaccion-BS-CAMINATA-SAN-JOSE-1.jpg" />
+              <figcaption>Insomnio, problema <br> de salud pública</figcaption>
+            </figure>
+          </a>
+        </div>
+        <div class="corto-carrusel-nota" id="corto-carrusel-nota-1">
+          <a class="f1" href="#">
+            <figure>
+              <img src="imgs/245-Redaccion-BS-CAMINATA-SAN-JOSE-1.jpg" />
+              <figcaption>Niños hiperactivos <br> y TDAH</figcaption>
+            </figure>
+          </a>
+        </div>
+        <div class="corto-carrusel-nota" id="corto-carrusel-nota-2">
+          <a class="f1" href="#">
+            <figure>
+              <img src="imgs/245-Redaccion-BS-CAMINATA-SAN-JOSE-1.jpg" />
+              <figcaption>Alergias según la región del mundo</figcaption>
+            </figure>
+          </a>
+        </div>
+        <div class="corto-carrusel-nota" id="corto-carrusel-nota-3">
+          <a class="f1" href="#">
+            <figure>
+              <img src="imgs/245-Redaccion-BS-CAMINATA-SAN-JOSE-1.jpg" />
+              <figcaption>Mascotas y <br> la limpieza de la casa</figcaption>
+            </figure>
+          </a>
+        </div>
+        <div class="corto-carrusel-nota" id="corto-carrusel-nota-4">
+          <a class="f1" href="#">
+            <figure>
+              <img src="imgs/245-Redaccion-BS-CAMINATA-SAN-JOSE-1.jpg" />
+              <figcaption>Se fatiga muy rápido, hora de un examen</figcaption>
+            </figure>
+          </a>
+        </div>
+        <div class="corto-carrusel-nota" id="corto-carrusel-nota-5">
+          <a class="f1" href="#">
+            <figure>
+              <img src="imgs/245-Redaccion-BS-CAMINATA-SAN-JOSE-1.jpg" />
+              <figcaption>Cáncer de mama: que tan frecuente se autoexplora</figcaption>
+            </figure>
+          </a>
+        </div>
+        <div class="corto-carrusel-nota" id="corto-carrusel-nota-6">
+          <a class="f1" href="#">
+            <figure>
+              <img src="imgs/245-Redaccion-BS-CAMINATA-SAN-JOSE-1.jpg" />
+              <figcaption>Comida grasosa: cuánto es mucho</figcaption>
+            </figure>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script>
+      var current = 0;
+      var imagenes = new Array();
+
+      $(document).ready(function () {
+        var numImages = 6;
+        if (numImages <= 3) {
+          $('.corto-flecha-der').css('display', 'none');
+          $('.corto-flecha-izq').css('display', 'none');
+        }
+        $('.corto-flecha-izq').on('click', function () {
+          if (current > 0) {
+            current = current - 1;
+          } else {
+            current = numImages - 3;
+          }
+          $(".corto-carrusel-banda").animate({ "left": -($('#corto-carrusel-nota-' + current).position().left) }, 600);
+          return false;
+        });
+        $('.corto-flecha-izq').on('hover', function () {
+          $(this).css('opacity', '0.5');
+        }, function () {
+          $(this).css('opacity', '1');
+        });
+        $('.corto-flecha-der').on('hover', function () {
+          $(this).css('opacity', '0.5');
+        }, function () {
+          $(this).css('opacity', '1');
+        });
+        $('.corto-flecha-der').on('click', function () {
+          if (numImages > current + 3) {
+            current = current + 1;
+          } else {
+            current = 0;
+          }
+          $(".corto-carrusel-banda").animate({ "left": -($('#corto-carrusel-nota-' + current).position().left) }, 600);
+          return false;
+        });
+      });
+    </script>
+  </section>
+
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-pleca-1">
+      <div class="f1 footer-mision">COMUNICAMOS VALOR</div>
+    </div>
+
+    <div class="footer-pleca-2">
+
+      <div class="contenedor footer-cont">
+
+        <img src="imgs/Revista-BS-logo-footer.png" width="120px" height="94px">
+
+        <div class="f1 footer-col-1">
+          <p class="footer-derechos">
+            <strong>©2021 Revista BS <br> Todos los derechos reservados</strong>
+          </p>
+          <p>Sin previa autorización, queda expresamente prohibida la publicación, retransmisión, edición y
+            cualquier otro uso de los contenidos.</p>
+          <a href="#">Política de Privacidad</a>
+          <a href="#">Términos y Condiciones</a>
+        </div>
+
+        <div class="f1 footer-col-2">
+          <p class="anunciese">Anúnciese con nosotros</p>
+
+          <p class="tel">
+            <i class="fas fa-phone-alt"></i>(662) 236 25 00
+          </p>
+
+          <a href="mailto:publicidad@buenasalud.org">
+            <i class="fas fa-envelope"></i> publicidad@buenasalud.org
+          </a>
+
+          <p class="domicilio">
+            <i class="fas fa-map-marker-alt"></i> Quinta Mayor 181 Col. Las Quintas,
+            Hermosillo, Sonora, México CP 83240
+          </p>
+        </div>
+
+        <div class="contacto-boton">
+          <a href="#">
+            <p><strong>Síganos en</strong></p>
+            <p><i class="fab fa-facebook"></i> Revista BS</p>
+          </a>
+        </div>
+      </div>
+  </footer>
+
+  <script>
+    var menu_enlaces = document.getElementById("menu-enlaces");
+    function showMenu() {
+      menu_enlaces.style.left = "0";
+    }
+    function hideMenu() {
+      menu_enlaces.style.left = "-200px";
+    }
+  </script>
+
+  <!-- SCRIPT CARRUSEL DE FOTOS SECC ESTE MES
+    <script>
+        var slideIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("slide");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > x.length) { slideIndex = 1 }
+            x[slideIndex - 1].style.display = "block";
+            setTimeout(carousel, 6000);
+        }
+    </script> -->
+
+</body>
+
+</html>
