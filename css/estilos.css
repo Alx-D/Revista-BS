@@ -76,13 +76,16 @@ header{
   margin-top: 2.5rem;
 }
 .fa-bars{
-  display: none;
+  display: none !important;
+  visibility: hidden;
 }
 .fa-search{
-  display: none;
+  display: none !important;
+  visibility: hidden;
 }
 .fa-times{
-  display: none;
+  display: none !important;
+  visibility: hidden;
 }
 .header-cont {
   display: flex;
