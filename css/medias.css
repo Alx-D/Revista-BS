@@ -1,0 +1,223 @@
+/* ------M E D I A S----------- */
+@media screen and (max-width: 980px){
+  .indicador {
+    font-size: 2.4vw;
+    color: red;
+  }
+  .header-row-1, .header-row-1 {
+    margin-bottom: 0;
+  }
+  .revista-bs-logo-bx{
+    align-self: center;
+  }
+  .facebook {
+    font-size: 1.5vw;
+  }
+  .header-row-2 {
+    margin-bottom: 0.1875rem;
+  }
+  .menu li a {
+    font-size: 13px;
+  }
+  .covid-preventivo {
+    margin: 1.25rem auto 1.875rem;
+  }
+  .covid-preventivo p span,
+  .covid-preventivo p {
+    font-size: 2.2vw;
+  }
+  .mes-col-1 hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .especial-cbz-th {
+    font-size: 25px;
+    margin-bottom: 3px;
+  }
+  .editorial-cbz-th {  
+    font-size: 23px;
+  }
+  .mes-col-2 {
+    flex-basis: 52%;
+  }
+  .nota-mes-ceja {
+    padding: 0 10px;
+  }
+  .nota-mes-foto-bx {
+    width: 100%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 890px){
+  .contenedor{
+    width: 88vw;
+  }
+  .menu li a {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 640px){
+  .indicador {
+    font-size: 4vw;
+  }
+  .contenedor{
+    width: 92vw;
+  }
+  header{
+    margin: 0 auto;
+    margin-top: 1.5625rem;
+    position: relative;
+  }
+  .header-cont-mobile{
+    display: block;
+  }
+  .fa-bars {  
+    font-size: 6vw;
+    top: 14%;  
+    position: absolute;
+    color: #333;  
+  }
+  .header-col-izq{
+    display: none;
+  }
+  .logo-mobile-bx{
+    width: 62%;
+    margin: 0 auto 2vh;
+  }
+  .logo-mobile-bx img{
+    width: 100%;
+  }
+  .lema-mobile-bx{
+    width: 75%;
+    margin: 0 auto;
+  }
+  .lema-mobile-bx img{
+    width: 100%;
+  }
+  .fa-search {
+    font-size: 6vw;
+    top: 14%;
+    right: 0;
+    position: absolute; 
+    color: #444;    
+  }
+  .header-leyenda-femeson {
+    font-size: 2vw;
+    line-height: 1.2;
+    font-weight: 300;
+    text-align: center;
+    color: #444;
+    text-transform: uppercase;    
+    margin-top: 5px;
+    border-bottom: 1px solid #999;
+  }
+  .header-row-1,
+  .header-row-2{
+    display: none;
+  }
+  .menu {
+    width: 200px;
+    height: 100vh;
+    text-align: left;
+    top: 0;
+    left: -200px;
+    position: fixed;
+    background-color: var(--verde-logo-1);
+    z-index: 30;
+    transition: 1s;
+  }
+  .menu ul {
+    display: block;
+    padding: 35px;
+  }
+  .menu ul li { 
+    margin-bottom: 20px;
+  }
+  nav .fas {
+    display: block;
+    color: #fff;
+    margin: 25px 0 0 25px;
+    font-size: 22px;
+    cursor: pointer;
+}
+  .menu ul li a {
+    font-size: 1.125rem;
+    color: #fff;
+  }
+  .covid-preventivo {
+    margin: 0.875rem auto 0.9375rem;    
+  }
+  .covid-preventivo p span {
+    font-size: 3.1vw;
+    font-family: "Oswald", sans-serif;
+  }
+  .covid-preventivo p {
+    font-size: 3.1vw;
+    font-family: "Oswald", sans-serif;
+  }
+  .mes-cont {
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+  }
+  .mes-col-1{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 25px;
+  }
+  .impresa-th-bx{
+    flex-basis: 100%; 
+  }
+  .mes-col-1 img {
+    width: 100%;
+    height: auto;
+  }
+  .mes-hr-1{
+    display: none;
+  }  
+  .esp-edi-th-bx{
+    flex-basis: 100%;
+    margin-left: 4.5%;
+    padding-right: 10px;
+    display: flex;
+    flex-wrap: wrap;  
+    align-content: center;
+  }
+  .mes-hr-2{
+    width: 100%;
+  }
+  /* .ind-esp-edi-a {
+    margin-top: 3px;
+    margin-bottom: 3px;
+  } */
+  .esp-edi-th-bx a{
+    margin-top: 3%;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .logo-mobile-bx{
+    margin: 0 auto 1.4vh;
+  }
+  .header-leyenda-femeson {
+    font-size: 2.2vw;    
+  }
+  .covid-preventivo p span {
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+  }
+  .covid-preventivo p {
+    font-size: 18px;
+    font-family: "Oswald", sans-serif;
+  }
+  .esp-edi-th-bx a{
+    margin-top: 0;
+  }
+  .especial-cbz-th {
+    margin-bottom: 4px;
+  }
+}

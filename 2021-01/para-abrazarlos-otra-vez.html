@@ -9,7 +9,7 @@
     <meta name="description" content="Artículos sobre el cuidado de la salud y prevención de enfermedades">
     <meta name="keywords"
         content="salud, saludable, vida, cuidado, bienestar, prevención, enfermedades, nutrición, psicología, niños, familia, adultos mayores, femeson, sonora">
-    <link rel="icon" type="image/png" href="../imgs/Revista_BS_favicon.png">
+    <link rel="icon" type="image/png" href="../imgs/Revista-BS-favicon.png">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap" rel="stylesheet">
     <link
@@ -21,53 +21,92 @@
 </head>
 
 <body>
-    <header>
-        <div id="revista_bs_logo">
-            <img src="../imgs/Revista_BS_logo_header.png" alt="Revista BS">
+  <header class="contenedor" >
+        
+    <!-- HEADER MOBILE -->
+    <div class="header-cont-mobile">
+    
+      <i class="fas fa-bars" onclick="showMenu()"></i>
+    
+      <div class="logo-mobile-bx">
+        <a href="index.html">
+          <img src="/imgs/Revista-BS-logo-m.png">
+        </a>
+      </div>
+      <div class="lema-mobile-bx">
+        <img src="imgs/lema.png">
+      </div>
+    
+      <i class="fas fa-search"></i>
+        
+      <p class="f1 header-leyenda-femeson">Órgano de vinculación y divulgación de la Federación Médica de Sonora</p>    
+    </div>
+
+    <!-- HEADER DESKTOP -->
+    <div class="header-cont">
+      <div class="header-col-izq">
+        <div class="revista-bs-logo-bx">
+          <a href="index.html">
+            <img class="logo-header" src="/imgs/Revista-BS-logo-header.png" alt="Revista BS">
+          </a>
         </div>
-        <div id="header_bx">
-            <div class="redes_femeson">
-                <div class="facebook">
-                    <a class="f1" href="https://www.facebook.com">
-                        <i class="fab fa-facebook fa-lg"></i> Revista BS
-                    </a>
-                </div>
-                <div id="femeson_logo"><img src="../imgs/femeson_escudo.png" alt=""></div>
-            </div>
-            <div class="slogan_buscador">
-                <div id="slogan">
-                    <img src="../imgs/slogan.png" alt="">
-                </div>
-                <div id="buscador">
-                    <form>
-                        <input class="search_field" type="text">
-                        <input class="buscar_icono" type="submit">
-                    </form>
-                </div>
-            </div>
-            <nav>
-                <ul class="menu">
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="#">Revista</a></li>
-                    <li><a href="#">Artículos por tema</a></li>
-                    <li><a href="#">Artículos por especialidad médica</a></li>
-                    <li><a href="#">Directorio médico</a></li>
-                    <li><a href="#">Femeson</a></li>
-                    <li><a href="#">Contacto</a></li>
-                </ul>
-            </nav>
+      </div>
+
+      <i class="fas fa-search"></i>
+
+      <div class="header-col-der">
+        
+        <div class="header-row-1">
+
+          <div class="facebook">
+            <a class="f1" href="https://www.facebook.com">
+              <i class="fab fa-facebook fa-lg"></i> Revista BS
+            </a></div>
+
+          <div class="femeson-logo-bx"><img src="/imgs/femeson-escudo.png" alt=""></div>
         </div>
-        <div class="clear"></div>
-    </header>
+
+        <div class="header-row-2">
+
+          <div class="lema-bx">
+            <img src="/imgs/lema.png">
+          </div>
+
+          <div id="buscador">
+            <form>
+              <input type="text" placeholder="Buscar">             
+            </form>
+          </div>
+        </div>
+
+        <nav>
+          <div class="menu" id="menu-enlaces">
+            <i class="fas fa-times" onclick="hideMenu()"></i>
+            <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Revista</a></li>
+              <li><a href="#">Artículos por tema</a></li>
+              <li><a href="#">Artículos por especialidad médica</a></li>
+              <li><a href="#">Directorio médico</a></li>
+              <li><a href="#">Femeson</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </div>          
+        </nav>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+  </header>
 
     <!-- BANNER HORIZONTAL -->
-    <div class="banner_horizontal_1100x122">
-        <a href="https://www.hospitalsanjosehermosillo.com/" target="blank"><img src="../imgs/Hospital_San_Jose.jpg"
+    <div class="banner-horizontal-1100x122">
+        <a href="https://www.hospitalsanjosehermosillo.com/" target="blank"><img src="../imgs/Hospital-San-Jose.jpg"
                 width="1100px" height="122px" alt=""></a>
     </div>
 
-    <article id="col_6">
-        <div class="f2 ceja_gde morado">ADULTOS MAYORES</div>
+    <article id="col-6">
+        <div class="f2 ceja-gde morado">ADULTOS MAYORES</div>
         <p class="f1 fecha">Enero 2021</p>
 
         <h1 class="cabeza">Para abrazarlos otra vez</h1>
@@ -75,25 +114,25 @@
         <p class="sumario">El 24 de diciembre de 2020 arrancó el programa de vacunación contra Covid-19 en México,
             entérese de lo que hay que saber respecto a la inmunización</p>
 
-        <figure class="nota_fototop">
+        <figure class="nota-fototop">
             <img src="../2021-01/imgs/248-Redaccion-BS-VACUNA-COVID-01-top.jpg" alt="">
         </figure>
 
         <!-- COMPARTIR -->
-        <div class="barra_compartir_bx">
+        <div class="barra-compartir-bx">
             <i class="fa fa-share"></i>
             <p class="f1 compartir"> Compartir</p>
 
-            <a href="#" class="fab fa-whatsapp whatsapp_compartir" title="Enviar por Whatsapp"></a>
+            <a href="#" class="fab fa-whatsapp whatsapp-compartir" title="Enviar por Whatsapp"></a>
 
-            <a href="#" class="fab fa-facebook fa-lg facebook_compartir" title="Compartir en Facebook"></a>
+            <a href="#" class="fab fa-facebook fa-lg facebook-compartir" title="Compartir en Facebook"></a>
 
-            <a href="#" class="fas fa-envelope envelope_compartir" title="Enviar por correo electrónico"></a>
+            <a href="#" class="fas fa-envelope envelope-compartir" title="Enviar por correo electrónico"></a>
 
-            <a href="#" class="fas fa-link link_compartir" title="Copiar enlace"></a>
+            <a href="#" class="fas fa-link link-compartir" title="Copiar enlace"></a>
         </div>
 
-        <div class="credito_bx"><p class="f1 credito_autor"><strong>Redacción BS</strong></p></div>
+        <div class="credito-bx"><p class="f1 credito-autor"><strong>Redacción BS</strong></p></div>
 
         <div class="texto">
             <p>Las vacunas contra Covid-19 son la esperanza en el horizonte para salir de la pandemia
@@ -134,9 +173,9 @@
                 enfermedad (Infobae).</p>
 
             <!-- RECUADRO -->
-            <div class="recuadro_color azulc">
-                <p class="f2 rc_color_cbz_1r">No baje la guardia</p>
-                <hr class="separador_blanco">
+            <div class="recuadro-color azulc">
+                <p class="f2 rc-color-cbz-1r">No baje la guardia</p>
+                <hr class="separador-blanco">
                 <ul>
                     <li>Recomendaciones de higiene y distanciamiento continúan</li>
                     <li><b>Ojo:</b> puede infectarse antes de generar inmunidad</li>
@@ -183,7 +222,7 @@
             <p>Quienes tienen antecedentes de reacciones alérgicas graves que no están relacionadas a
                 vacunas u otros medicamentos inyectables, pueden vacunarse y deben ser monitoreados por 30 días.</p>
 
-            <figure class="nota_foto">
+            <figure class="nota-foto">
                 <img src="../2021-01/imgs/248-Redaccion-BS-VACUNA-COVID-02-nota.jpg" alt="">
             </figure>
 
@@ -215,42 +254,42 @@
     <!-- ASIDE -->
     <aside>
         <!-- AJUSTE ALTURA -->
-        <div class="ajuste_altura_0001"></div>
+        <div class="ajuste-altura-0001"></div>
 
         <!-- BANNER VERTICAL -->
-        <div class="banner_vertical_300x300">
+        <div class="banner-vertical-300x300">
             <a href="#">
-                <img src="../imgs/Hospital_GobEdo.png" width="300" height="300px">
+                <img src="../imgs/Hospital-GobEdo.png" width="300" height="300px">
             </a>
         </div>
 
         <!-- TEMAS DE INTERES -->
         <div id="interes">
             <hr style="border-top: 4px solid">
-            <p class="f2 indicador interes_indicador_ajuste">TEMAS DE INTERÉS</p>
+            <p class="f2 indicador interes-indicador-ajuste">TEMAS DE INTERÉS</p>
 
-            <div class="interes_item">
+            <div class="interes-item">
                 <a href="#">
                     <img src="../2021-01/imgs/248-Lillian-Figueroa-ALIMENTOS-ORGANICOS-1-th.jpg" alt="">
                     <p>Alimentos orgánicos por su salud y el medio ambiente</p>
                 </a>
             </div>
 
-            <div class="interes_item">
+            <div class="interes-item">
                 <a href="#">
                     <img src="../2021-01/imgs/248-Dra-Ana-Martinez-Ayala-ENT-TERCERA-EDAD-1-th.jpg" alt="">
                     <p>ENT y tercera edad: Contra el reloj</p>
                 </a>
             </div>
 
-            <div class="interes_item">
+            <div class="interes-item">
                 <a href="#">
                     <img src="../2021-01/imgs/248-Dr-Mario-Alvarez-Bojorquez-HABITOS-CIRUGIA-1-th.jpg" alt="">
                     <p>Buscando las mejores condiciones en caso de cirugía oncológica</p>
                 </a>
             </div>
 
-            <div class="interes_item">
+            <div class="interes-item">
                 <a href="#">
                     <img src="../2021-01/imgs/248-Redaccion-BS-ENFERMEDADES-RESPIRATORIAS-2-th.jpg" alt="">
                     <p>En enfermedades respiratorias distinguir es la clave</p>
@@ -259,15 +298,15 @@
         </div>
 
         <!-- BANNERS VERTICALES -->
-        <div class="banner_vertical_300x300">
+        <div class="banner-vertical-300x300">
             <a href="#">
-                <img src="../imgs/Hospital_GobEdo.png" width="300" height="300px">
+                <img src="../imgs/Hospital-GobEdo.png" width="300" height="300px">
             </a>
         </div>
 
-        <div class="banner_vertical_300x300">
+        <div class="banner-vertical-300x300">
             <a href="#">
-                <img src="../imgs/Hospital_GobEdo.png" width="300" height="300px">
+                <img src="../imgs/Hospital-GobEdo.png" width="300" height="300px">
             </a>
         </div>
     </aside>
@@ -275,23 +314,23 @@
     <div class="clear"></div>
 
     <!-- BANNER HORIZONTAL -->
-    <div class="banner_horizontal_1100x122">
-        <a href="https://www.hospitalsanjosehermosillo.com/" target="blank"><img src="../imgs/Hospital_San_Jose.jpg"
+    <div class="banner-horizontal-1100x122">
+        <a href="https://www.hospitalsanjosehermosillo.com/" target="blank"><img src="../imgs/Hospital-San-Jose.jpg"
                 width="1100px" height="122px" alt=""></a>
     </div>
 
-    <div class="altura_ajuste_footer"></div>
+    <div class="altura-ajuste-footer"></div>
 
     <!-- FOOTER -->
     <footer>
-        <div class="footer_lema">COMUNICAMOS VALOR</div>
-        <div id="footer_pleca_gris"></div>
-        <div class="footer_bx">
+        <div class="footer-lema">COMUNICAMOS VALOR</div>
+        <div id="footer-pleca-gris"></div>
+        <div class="footer-bx">
 
-            <img src="../imgs/Revista_BS_logo_footer.png" width="120px" height="94px" alt="Revista BS logotipo">
+            <img src="../imgs/Revista-BS-logo-footer.png" width="120px" height="94px" alt="Revista BS logotipo">
 
-            <div class="footer_derechos_bx">
-                <p class="footer_derechos">
+            <div class="footer-derechos-bx">
+                <p class="footer-derechos">
                     <strong>©2021 Revista BS <br> Todos los derechos reservados</strong>
                 </p>
                 <p>Sin previa autorización, queda expresamente prohibida la publicación, retransmisión, edición y
@@ -300,7 +339,7 @@
                 <a href="#">Términos y Condiciones</a>
             </div>
 
-            <div class="f1 footer_contacto_bx">
+            <div class="f1 footer-contacto-bx">
                 <p class="f1 anunciese">Anúnciese con nosotros</p>
 
                 <p class="f1 tel"> <i class="fas fa-phone-alt"></i> (662) 236 25 00</p>
@@ -310,7 +349,7 @@
                     Hermosillo, Sonora, México CP 83240</p>
             </div>
 
-            <div class="contacto_boton">
+            <div class="contacto-boton">
                 <a href="#">
                     <p><strong>Síganos en</strong></p>
                     <p><i class="fab fa-facebook"></i> Revista BS</p>
