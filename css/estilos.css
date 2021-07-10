@@ -59,8 +59,15 @@ a {
 .verde1 {
   background: #275c6d;
 }
+/* ::-webkit-scrollbar {
+  display: none;
+} */
+.contenedor{
+  width: 95vw;
+  max-width: 1100px;
+}
 .indicador {
-  font-size: 1.8vw;
+  font-size: 1.625rem;
   font-weight: 400;  
   color: #000100;
 }
@@ -69,10 +76,6 @@ a {
 }
 
 /* 001 HEADER */
-.contenedor{
-  width: 85%;
-  max-width: 1100px;
-}
 header{
   margin: 0 auto;
   margin-top: 2.5rem;
@@ -169,7 +172,7 @@ header{
 
 /* 002 PREVENTIVO COVID */
 .covid-preventivo {
-  margin: 1.875rem auto 1.875rem;
+  margin: 1.5625rem auto 1.875rem;
   background-color: red;
   line-height: 1.2;
   padding: 0.625rem 0 0.625rem;
@@ -178,13 +181,13 @@ header{
   align-items: center;
 }
 .covid-preventivo p span {
-  font-size: 1.9vw;
+  font-size: 27px;
   font-family: "Nunito Sans", sans-serif;
   font-weight: bolder;
   color: rgb(250, 240, 151);
 }
 .covid-preventivo p {
-  font-size: 1.9vw;
+  font-size: 27px;
   font-family: "Nunito Sans", sans-serif; 
   font-weight: bolder;
   color: white;
@@ -440,9 +443,8 @@ header{
 }
 
 /* 005 ESPECIAL PREVENTIVO */
-
 #especial-preventivo {
-  width: 100vw;
+  width: 98vw;
   background: #db813f;
   margin-bottom: 50px;
 }
@@ -496,7 +498,7 @@ header{
 
 /* 006 SECCION VIDEOS */
 #videos-preventivo {
-  width: 100vw;
+  width: 98vw;  
   background: #242527;
   margin-bottom: 50px;
 }
@@ -725,7 +727,7 @@ header{
 
 /* FOOTER */
 .footer-pleca-1 {
-  width: 100vw;
+  width: 98vw;
   background: #275c6d;
 }
 .footer-mision {
@@ -737,65 +739,54 @@ header{
   letter-spacing: 1px;
 }
 .footer-pleca-2 {
-  width: 100vw;
+  width: 98vw;
   height: 240px;
   background: #e6e6de;
 }
-
 .footer-cont {
   margin: 0 auto;
   padding-top: 20px;
   display: flex;
 }
-
 .footer-cont img {
   margin-right: 65px;
 }
-
 .footer-col-1 {
   width: 28%;
   margin-right: 70px;
 }
-
 .footer-col-1 p {
   font-size: 15px;
   line-height: 19px;
   margin-bottom: 7px;
 }
-
 .footer-col-1 a {
   font-size: 13px;
   text-decoration: underline;
   margin-right: 10px;
 }
-
 .footer-col-2 {
   width: 37%;
 }
-
 .anunciese {
   font-size: 21px;
   font-weight: 600;
   margin-bottom: 7px;
 }
-
 .tel {
   font-size: 19px;
   margin-bottom: 7px;
 }
-
 .footer-col-2 a {
   font-size: 19px;
   text-decoration: underline;
   display: inline-block;
   margin-bottom: 12px;
 }
-
 .domicilio {
   font-size: 15px;
   line-height: 1.4;
 }
-
 .contacto-boton {
   width: 150px;
   height: 70px;
@@ -808,13 +799,11 @@ header{
   padding-top: 6px;
   box-shadow: 5px 6px 10px 0px #c2c2c2;
 }
-
 .contacto-boton p {
   font-family: "Nunito Sans", sans-serif;
   font-size: 18px;
   color: #fff;
 }
-
 .contacto-boton:hover {
   background-color: #2d69bd;
 }
@@ -824,246 +813,18 @@ header{
 }
 
 /* ------M E D I A S----------- */
-@media screen and (max-width: 1300px){
-  .covid-preventivo {
-    margin: 15px auto 30px;
+@media screen and (max-width: 1024px){
+  .contenedor {
+    width: 95vw
   }
-}
-@media screen and (max-width: 1080px){
-  .contenedor{
-    width: 90%;
-  }
-  .menu li a {
-    font-size: 14px;
-  }
-  .covid-preventivo {
-    margin: 20px auto 30px;
-  }
-}
-@media screen and (max-width: 980px){
-  .indicador {
-    font-size: 2.4vw;
-    color: red;
-  }
-  .header-row-1, .header-row-1 {
-    margin-bottom: 0;
-  }
-  .revista-bs-logo-bx{
-    align-self: center;
-  }
-  .facebook {
-    font-size: 1.5vw;
-  }
-  .header-row-2 {
-    margin-bottom: 0.1875rem;
-  }
-  .menu li a {
-    font-size: 13px;
-  }
-  .covid-preventivo {
-    margin: 1.25rem auto 1.875rem;
-  }
-  .covid-preventivo p span,
-  .covid-preventivo p {
-    font-size: 2.2vw;
-  }
-  .mes-col-1 hr {
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-  .especial-cbz-th {
-    font-size: 25px;
-    margin-bottom: 3px;
-  }
-  .editorial-cbz-th {  
-    font-size: 23px;
-  }
-  .mes-col-2 {
-    flex-basis: 52%;
-  }
-  .nota-mes-ceja {
-    padding: 0 10px;
-  }
-  .nota-mes-foto-bx {
-    width: 100%;
-    height: auto;
-  }
-}
-@media screen and (max-width: 890px){
-  .contenedor{
-    width: 88vw;
-  }
-  .menu li a {
-    font-size: 12px;
-  }
-}
-@media screen and (max-width: 768px){
-
 }
 @media screen and (max-width: 640px){
-  .indicador {
-    font-size: 4vw;
-  }
-  .contenedor{
-    width: 92vw;
-  }
-  header{
-    margin: 0 auto;
-    margin-top: 1.5625rem;
-    position: relative;
-  }
-  .header-cont-mobile{
-    display: block;
-  }
-  .fa-bars {  
-    font-size: 6vw;
-    top: 14%;  
-    position: absolute;
-    color: #333;  
-  }
-  .header-col-izq{
-    display: none;
-  }
-  .logo-mobile-bx{
-    width: 62%;
-    margin: 0 auto 2vh;
-  }
-  .logo-mobile-bx img{
-    width: 100%;
-  }
-  .lema-mobile-bx{
-    width: 75%;
-    margin: 0 auto;
-  }
-  .lema-mobile-bx img{
-    width: 100%;
-  }
-  .fa-search {
-    font-size: 6vw;
-    top: 14%;
-    right: 0;
-    position: absolute; 
-    color: #444;    
-  }
-  .header-leyenda-femeson {
-    font-size: 2vw;
-    line-height: 1.2;
-    font-weight: 300;
-    text-align: center;
-    color: #444;
-    text-transform: uppercase;    
-    margin-top: 5px;
-    border-bottom: 1px solid #999;
-  }
-  .header-row-1,
-  .header-row-2{
-    display: none;
-  }
-  .menu {
-    width: 200px;
-    height: 100vh;
-    text-align: left;
-    top: 0;
-    left: -200px;
-    position: fixed;
-    background-color: var(--verde-logo-1);
-    z-index: 30;
-    transition: 1s;
-  }
-  .menu ul {
-    display: block;
-    padding: 35px;
-  }
-  .menu ul li { 
-    margin-bottom: 20px;
-  }
-  nav .fas {
-    display: block;
-    color: #fff;
-    margin: 25px 0 0 25px;
-    font-size: 22px;
-    cursor: pointer;
-}
-  .menu ul li a {
-    font-size: 1.125rem;
-    color: #fff;
-  }
-  .covid-preventivo {
-    margin: 0.875rem auto 0.9375rem;    
-  }
-  .covid-preventivo p span {
-    font-size: 3.1vw;
-    font-family: "Oswald", sans-serif;
-  }
-  .covid-preventivo p {
-    font-size: 3.1vw;
-    font-family: "Oswald", sans-serif;
-  }
-  .mes-cont {
-    width: 100%;
-    display: flex;
-    flex-direction: column; 
-  }
-  .mes-col-1{
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    margin-bottom: 25px;
-  }
-  .impresa-th-bx{
-    flex-basis: 100%; 
-  }
-  .mes-col-1 img {
-    width: 100%;
-    height: auto;
-  }
-  .mes-hr-1{
-    display: none;
-  }  
-  .esp-edi-th-bx{
-    flex-basis: 100%;
-    margin-left: 4.5%;
-    padding-right: 10px;
-    display: flex;
-    flex-wrap: wrap;  
-    align-content: center;
-  }
-  .mes-hr-2{
-    width: 100%;
-  }
-  /* .ind-esp-edi-a {
-    margin-top: 3px;
-    margin-bottom: 3px;
-  } */
-  .esp-edi-th-bx a{
-    margin-top: 3%;
+  .contenedor {
+    width: 92vw
   }
 }
 
-@media screen and (max-width: 480px){
-  .logo-mobile-bx{
-    margin: 0 auto 1.4vh;
-  }
-  .header-leyenda-femeson {
-    font-size: 2.2vw;    
-  }
-  .covid-preventivo p span {
-    font-size: 18px;
-    font-family: "Oswald", sans-serif;
-  }
-  .covid-preventivo p {
-    font-size: 18px;
-    font-family: "Oswald", sans-serif;
-  }
-  .esp-edi-th-bx a{
-    margin-top: 0;
-  }
-  .especial-cbz-th {
-    margin-bottom: 4px;
-  }
-}
-
-/* ------------------------------ */
+/* ----F I N - M E D I A S---- */
 
 /* CABEZA NOTA */
 .ceja-gde {
@@ -1078,13 +839,11 @@ header{
   margin-right: 15px;
   display: inline;
 }
-
 .fecha {
   font-size: 14px;
   display: inline;
   color: #66666e;
 }
-
 .editorial-cbz {
   font-family: "Nunito Sans", sans-serif;
   font-size: 50px;
@@ -1092,7 +851,6 @@ header{
   margin-top: 20px;
   margin-bottom: 25px;
 }
-
 .balazo {
   font-family: "Nunito Sans", sans-serif;
   font-size: 21.6px;
@@ -1101,11 +859,9 @@ header{
   margin-top: 25px;
   color: #656565;
 }
-
 .balazo span {
   font-weight: 500;
 }
-
 .cabeza {
   font-family: "Oswald", sans-serif;
   font-size: 64px;
@@ -1115,7 +871,6 @@ header{
   margin-top: 15px;
   margin-bottom: 15px;
 }
-
 .sumario {
   font-family: "Nunito Sans", sans-serif;
   font-size: 22px;
@@ -1124,32 +879,27 @@ header{
   margin-bottom: 25px;
   color: #656565;
 }
-
 .nota-fototop {
   margin-bottom: 10px;
 }
 
 /* BARRA COMPARTIR */
-
 .barra-compartir-bx {
   height: 30px;
   display: flex;
   align-items: center;
   margin-bottom: 40px;
 }
-
 .fa-share {
   font-size: 18px;
   margin-right: 5px;
   color: #9999a1;
 }
-
 .compartir {
   font-size: 16px;
   margin-right: 15px;
   color: #66666e;
 }
-
 .whatsapp-compartir {
   font-size: 25px;
   color: #25d366;
@@ -1157,7 +907,6 @@ header{
   padding: 5px;
   margin-right: 10px;
 }
-
 .facebook-compartir {
   font-size: 25px;
   color: #1677f2;
@@ -1165,7 +914,6 @@ header{
   padding: 5px;
   margin-right: 10px;
 }
-
 .envelope-compartir {
   font-size: 23px;
   color: #676869;
@@ -1173,7 +921,6 @@ header{
   padding: 5px;
   margin-right: 10px;
 }
-
 .link-compartir {
   font-size: 20px;
   color: #676869;
@@ -1183,7 +930,6 @@ header{
 }
 
 /* CREDITO */
-
 .credito-foto-bx {
   width: 100%;
   height: 72px;
@@ -1191,11 +937,9 @@ header{
   align-items: center;
   margin-bottom: 35px;
 }
-
 .credito-bx {
   margin-bottom: 35px;
 }
-
 .credito-foto {
   width: 72px;
   height: 72px;
@@ -1203,41 +947,33 @@ header{
   overflow: hidden;
   margin-right: 15px;
 }
-
 .credito-foto img {
   width: 100%;
 }
-
 .credito-autor {
   font-size: 15px;
   line-height: 1.3;
 }
-
 .credito-autor strong {
   color: #275c6d;
 }
-
 .credito-autor i {
   font-size: 13px;
 }
 
 /* NOTA */
-
 #col-6 {
   width: 60%;
   float: left;
 }
-
 .texto {
   font-family: "Nunito Sans", sans-serif;
   font-size: 18px;
   line-height: 1.6;
 }
-
 .texto p {
   margin-bottom: 10px;
 }
-
 .descanso {
   font-family: "Nunito Sans", sans-serif;
   font-size: 20px;
@@ -1246,7 +982,6 @@ header{
   margin-top: 40px;
   margin-bottom: 5px;
 }
-
 .texto-resaltado {
   font-size: 18px;
   line-height: 30px;
@@ -1255,11 +990,9 @@ header{
   margin-top: 30px;
   margin-bottom: 80px;
 }
-
 .texto li {
   margin-left: 15px;
 }
-
 .fuente {
   font-size: 13.6px;
   font-weight: 300;
@@ -1606,39 +1339,30 @@ th {
 }
 
 /* COLORES BACKGROUND */
-
 .rojoc {
   background: #b3272d;
 }
-
 .rojoo {
   background: #953829;
 }
-
 .verde {
   background: #6dab51;
 }
-
 .azulo {
   background: #344497;
 }
-
 .azulc {
   background: #0094d7;
 }
-
 .naranjao {
   background: #db813f;
 }
-
 .naranjac {
   background: #ebb730;
 }
-
 .morado {
   background: #612f8c;
 }
-
 .verde1 {
   background: #275c6d;
 }
