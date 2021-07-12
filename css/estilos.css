@@ -63,6 +63,9 @@ a {
   width: 95vw;
   max-width: 1100px;
 }
+.m-0a{
+  margin: 0 auto;
+}
 .indicador {
   font-size: 25px;
   font-weight: 400;  
@@ -198,9 +201,6 @@ header{
 }
 
 /* 003 ESTE MES Preventivos */
-#mes{
-  margin: 0 auto;
-}
 .mes-cont{
   display: flex;
   justify-content: space-between;
@@ -328,9 +328,7 @@ header{
 }
 
 /* 004 ARTICULOS */
-#articulos-preventivos {
-  margin: 0 auto;
-}
+
 .articulos-preventivos-cont{
   display: flex;
   justify-content: space-between;
@@ -378,7 +376,7 @@ header{
   position: absolute;
   z-index: 20;
 }
-#articulos-preventivos h2 {
+.articulos-prev-col-1 h2 {
   font-size: 35px; 
   line-height: 1.15;
   font-weight: 700;  
@@ -476,9 +474,9 @@ header{
 }
 .esp-prev-item {
   font-size: 16px;
+  line-height: 1.2;
   font-weight: 400;
   color: #fff;
-  line-height: 19px;
 }
 .esp-prev-item:hover {
   color: rgb(8, 69, 148);
@@ -490,37 +488,34 @@ header{
   align-content: center;
 }
 .esp-prev-foto {
-  width: 470px;
+  width: 100%;
   height: 420px;
   align-self: center;
 }
 
-/* 006 SECCION VIDEOS */
+/* SECCION VIDEOS */
 #videos-preventivo {
   width: 98vw;  
   background: #242527;
   margin-bottom: 50px;
 }
-.videos-prev-ind-bx {
-  width: 95vw;
-  max-width: 1100px;
-  margin: 0 auto;
-}
 .ind-videos-prev-a {
-  padding-top: 15px;
+  padding-top: 20px;
   margin-bottom: 20px;
   color: #fff;
 }
 .frames {
-  margin: 0 auto;
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  padding-bottom: 20px;
+  background: darkblue;
 }
-.video-prev-marco {
-  width: 340px;
+.video-prev-bx {
+  width: 30%;
   height: 323px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   background: #fff;
 }
 
