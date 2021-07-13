@@ -260,6 +260,19 @@ header{
   position: absolute;
   z-index: 20;
 }
+.nota-mes-ceja2 {  
+  background-color: yellow;
+  font-size: 20px;
+  line-height: 1.6;
+  font-weight: bolder;
+  text-align: center;
+  color: red;
+  padding: 0 15px;
+  margin-left: 200px;
+  position: absolute;
+  z-index: 20;
+}
+
 .nota-mes-foto-bx {
   width: 100%;
   float: left;
@@ -327,8 +340,7 @@ header{
   display: none;
 }
 
-/* 004 ARTICULOS */
-
+/* ARTICULOS */
 .articulos-preventivos-cont{
   display: flex;
   justify-content: space-between;
@@ -433,7 +445,6 @@ header{
   margin-bottom: 50px;
 }
 .esp-prev-cont {
-  margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-content: center;
@@ -509,19 +520,19 @@ header{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  margin-bottom: 50px;
   padding-bottom: 20px;
-  background: darkblue;
 }
 .video-prev-bx {
-  width: 30%;
-  height: 323px;
+  width: 31%;
   margin-bottom: 30px;
   background: #fff;
 }
 
-/* 007 SALUD PARA VIVIR */
-#salud-para-vivir-prev {
-  margin: 0 auto 20px;
+/* SALUD PARA VIVIR */
+#salud-para-prev {
+  margin-bottom: 20px;
+  background: yellowgreen;
 }
 .salud-para-prev-cont {
   display: flex;
@@ -545,14 +556,11 @@ header{
   width: 344px;
   height: 220px;
 }
-#salud-para-vivir-prev h2 {
+#salud-para-prev h2 {
   font-family: "Nunito Sans", sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 36px;
-}
-#salud-para-vivir-prev h2:hover {
-  color: slategrey;
 }
 .salud-para-prev-card-cbz3r {
   margin-top: 15px;
