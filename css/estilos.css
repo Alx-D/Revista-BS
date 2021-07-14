@@ -31,6 +31,7 @@ a {
   --rojo-oscuro: #953829;
   --rojo: #b3272d;
   --verde-logo-1: #275c6d;
+  --gris-claro: #e6e6de;
 }
 .rojoc {
   background: #c3242b;
@@ -580,11 +581,13 @@ header{
   position: relative;
   overflow: hidden;
 }
-#ediciones-carrusel-cont .ediciones-flecha-izq {
+#ediciones-carrusel-cont 
+.ediciones-flecha-izq {
   position: absolute;
   z-index: 10;
 }
-#ediciones-carrusel-cont .ediciones-flecha-der {
+#ediciones-carrusel-cont 
+.ediciones-flecha-der {
   position: absolute;
   right: 0px;
   z-index: 10;
@@ -600,7 +603,6 @@ header{
   height: 250px;
   float: left;
   margin-left: 40px;
-  /* text-align:center; */
 }
 .ediciones-carrusel-banda img {
   cursor: pointer;
@@ -612,6 +614,19 @@ header{
   text-align: center;
   font-weight: 400;
 }
+.ediciones-carr-mas-bx{
+  width: 100%;
+  height: 100%;
+  display: flex;  
+}
+.ediciones-carr-mas{
+  font-size: 22px;
+  color: red;
+  margin: auto;
+}
+.ediciones-carr-mas:hover{
+  transform: scale(1.1);
+}
 
 /* EVENTOS PREVENTIVOS */
 #eventos-preventivos {
@@ -619,58 +634,46 @@ header{
 }
 .eventos-prev-cont {
   display: flex;
+  justify-content: space-between;
 }
 .evento-prev-col-1 {
-  flex-basis: 52%;
-  /* height: 438px; */
-  /* float: left; */
-  transition: all 300ms;
+  flex-basis: 50%;
+  transition: all 300ms; 
 }
 .evento-prev-col-1:hover {
-  transform: translateY(-2%);
+  transform: translateY(-1.5%);
 }
 .evento-prev-col-1-foto {
-  width: 576px;
-  height: 438px;
-  overflow: hidden;
+  width: 100%; 
+}
+.evento-prev-col-1-foto img{
+  width: 100%;
 }
 .evento-prev-col-1-cbz {
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 28px;
-  font-weight: 500;
-  margin-top: -60px;
-  margin-left: 15px;
-  color: #fff;
-  text-shadow: 6px 2px 11px rgba(0, 0, 0, 0.8);
-  z-index: 20;
+  font-size: 28px;  
+  margin-top: 5px;
 }
 .evento-prev-col-2 {
+  width: 50%;
   display: flex;
   flex-wrap: wrap;
   align-content: space-between;
 }
 .evento-prev-card {
-  width: 232px;
-  height: 209px;
-  float: right;
+  width: 44%;
+  height: 200px;
   margin-left: 26px;
   transition: all 300ms;
-  overflow: hidden;
 }
 .evento-prev-card:hover {
   transform: translateY(-2%);
 }
-.evento-prev-card figure {
-  width: 232px;
-  height: 168px;
-}
-.evento-prev-card figure img {
-  height: 100%;
-  background-position: center;
+.evento-prev-card img {
+  width: 100%;
 }
 .evento-prev-card figcaption {
-  line-height: 20px;
-  z-index: 50;
+  line-height: 1.2;
+  z-index: 20;
 }
 .evento-prev-card figcaption:hover {
   color: slategrey;
@@ -717,9 +720,9 @@ header{
   width: 100%;
 }
 .corto-carrusel-nota figcaption {
-  font-size: 19px;
-  font-weight: 600;
-  line-height: 24px;
+  font-size: 18px;
+  line-height: 1.2;
+  font-weight: 600;  
 }
 .corto-carrusel-nota figcaption:hover {
   color: slategrey;
@@ -728,11 +731,11 @@ header{
 /* FOOTER */
 .footer-pleca-1 {
   width: 98vw;
-  background: #275c6d;
+  background: var(--verde-logo-1)
 }
 .footer-mision {
   font-size: 19px;
-  line-height: 45px;
+  line-height: 2.4;
   font-weight: 700;
   color: #fff;
   text-align: center;
@@ -741,7 +744,7 @@ header{
 .footer-pleca-2 {
   width: 98vw;
   height: 240px;
-  background: #e6e6de;
+  background: var(--gris-claro)
 }
 .footer-cont {
   margin: 0 auto;
@@ -752,8 +755,9 @@ header{
   margin-right: 65px;
 }
 .footer-col-1 {
-  width: 28%;
+  width: 32%;
   margin-right: 70px;
+  /* background: var(--naranja-oscuro); */
 }
 .footer-col-1 p {
   font-size: 15px;
@@ -767,6 +771,7 @@ header{
 }
 .footer-col-2 {
   width: 37%;
+  /* background: yellowgreen; */
 }
 .anunciese {
   font-size: 21px;
