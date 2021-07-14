@@ -753,8 +753,7 @@ header{
 }
 .footer-col-1 {
   width: 40%;
-  margin: 0 50px;
-  /* background: var(--naranja-oscuro); */
+  margin: 0 50px;  
 }
 .footer-col-1 p {
   font-size: 15px;
@@ -768,7 +767,6 @@ header{
 }
 .footer-col-2 {
   width: 40%;
-  /* background: yellowgreen; */
 }
 .footer-col-2 p{
   font-size: 19px;  
@@ -808,10 +806,54 @@ header{
 /* ------M E D I A S----------- */
 @media screen and (max-width: 1024px){
   .contenedor {
-    width: 95vw
+    width: 94vw
+  }
+  .indicador {
+    font-size: 20px; 
   }
   .ind-esp-edi-a{
     font-size: 20px;
+  }
+  .header-col-izq,
+  .header-row-1,
+  .lema-bx,
+  #buscador{
+    display: none;
+  }
+  .header-cont-mobile{
+    display: block;
+  }
+  .menu {    
+    width: 45%;
+    height: 100vh;
+    text-align: left;
+    top: 0;
+    left: 0px;
+    position: fixed;
+    background: var(--verde-logo-1);
+    z-index: 30;
+    transition: 1s;
+  }
+  .menu ul {
+    padding: 35px;
+  }
+  .menu ul li {
+    display: block;
+    margin-bottom: 20px;
+  }
+  nav .fas {
+    display: block;
+    color: #fff;
+    margin: 25px 0 0 25px;
+    font-size: 22px;
+    cursor: pointer;
+}
+  .menu ul li a {
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
   }
 }
 @media screen and (max-width: 640px){
