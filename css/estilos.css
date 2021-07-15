@@ -88,15 +88,15 @@ header{
   margin-top: 1.875rem;
 }
 .fa-bars{
-  display: none !important;
+  display: none;
   visibility: hidden;
 }
 .fa-search{
-  display: none !important;
+  display: none;
   visibility: hidden;
 }
 .fa-times{
-  display: none !important;
+  display: none;
   visibility: hidden;
 }
 .header-cont {
@@ -111,7 +111,7 @@ header{
 .revista-bs-logo-bx img {
   width: 100%;
 }
-.header-cont-mobile{
+.header-mobile-cont{
   display: none;
 }
 .header-col-der {
@@ -806,29 +806,68 @@ header{
 /* ------M E D I A S----------- */
 @media screen and (max-width: 1024px){
   .contenedor {
-    width: 94vw
+    width: 92vw
   }
   .indicador {
     font-size: 20px; 
-  }
-  .ind-esp-edi-a{
-    font-size: 20px;
-  }
+  }  
   .header-col-izq,
   .header-row-1,
   .lema-bx,
   #buscador{
-    display: none;
+    display: none !important; 
   }
-  .header-cont-mobile{
+  .header-mobile-cont{
     display: block;
+  }  
+  .header-mobile-row-1{
+    display: flex;
+    align-content: center;
+  }
+  .fa-bars,
+  .fa-search {
+    display: block !important;
+    font-size: 35px;
+    /* REVISAR MEDIDA RESP */
+    align-self: center;
+    color: #333;
+    z-index: 22;
+  }
+  .logo-mobile-bx {
+    width: 45%;
+    margin: 0 auto 18px;
+  }
+  .logo-mobile-bx img {
+    width: 100%;
+  }
+  .lema-mobile-bx {
+    width: 55%;
+    margin: 0 auto 10px;
+  }
+  .lema-mobile-bx img {
+    width: 100%;
+  }
+  .header-leyenda-femeson-bx {
+    width: 100%;
+    margin: 0 auto;
+    background: #275c6d;
+  }
+  .header-leyenda-femeson {
+    font-size: 15px;
+    /* letter-spacing: 1px; */
+    line-height: 1.8;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 5px;
   }
   .menu {    
     width: 45%;
     height: 100vh;
     text-align: left;
     top: 0;
-    left: 0px;
+    left: -500px;
     position: fixed;
     background: var(--verde-logo-1);
     z-index: 30;
@@ -840,6 +879,9 @@ header{
   .menu ul li {
     display: block;
     margin-bottom: 20px;
+  }
+  .menu li {
+    display: block;    
   }
   nav .fas {
     display: block;
@@ -854,6 +896,9 @@ header{
     font-weight: 400;
     text-transform: uppercase;
     color: #fff;
+  }
+  .ind-esp-edi-a{
+    font-size: 20px;
   }
 }
 @media screen and (max-width: 640px){
