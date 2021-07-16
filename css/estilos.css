@@ -939,6 +939,7 @@ header{
     transition: all 400ms;
   }
   .ind-impr-a {
+    color: red;
     margin-bottom: 0.3125rem;
   }
   .ind-esp-edi-a {
