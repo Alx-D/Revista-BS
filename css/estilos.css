@@ -803,7 +803,7 @@ header{
   top: 1px;
 }
 
-/* ------M E D I A S----------- */
+/* ------M E D I A S------- */
 @media screen and (max-width: 1024px){
   .contenedor {
     width: 92vw
@@ -900,7 +900,7 @@ header{
     font-size: 20px;
   }
 
-  /* PREVENTIVO COVID TABLET */
+  /* PREVENTIVO COVID */
   .covid-preventivo {
     margin: 25px auto 30px;
     background-color: red;
@@ -922,6 +922,96 @@ header{
     font-weight: bolder;
     color: white;
     text-align: center;
+  }
+
+  /* ESTE MES Preventivos */
+  .mes-cont{
+    display: flex;
+    justify-content: space-between;
+  }
+  .mes-col-1{
+    flex-basis: 23%;
+  }
+  .mes-col-1 img {
+    width: 96%;
+  }
+  .impresa-th-bx{
+    transition: all 400ms;
+  }
+  .ind-impr-a {
+    margin-bottom: 0.3125rem;
+  }
+  .ind-esp-edi-a {
+    font-size: 21.5px;
+    margin: 0.25rem 0 0.25rem;
+    color: var(--verde-logo-1);
+  }
+  .especial-cbz-th {
+    font-size: 27.5px;
+    line-height: 1.2;
+    font-weight: 700;  
+    margin-bottom: 0.1875rem;
+    color: black;
+  }
+  .especial-txt-th {
+    font-size: 18px;
+    line-height: 1.2;
+    color: black;
+  }
+  .mes-col-1 hr {
+    margin-top: 0.625rem;
+  }
+  .editorial-cbz-th {
+    font-size: 23px;  
+    line-height: 1.3;
+    font-weight: 600;
+    color: black;
+  }
+
+/* ESTE MES Nota Mes */
+  .mes-col-2 {
+    flex-basis: 72%;  
+  }
+  .nota-mes-ceja {
+    font-size: 18px;
+  }  
+  .nota-mes-foto-bx {
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    background: var(--morado)
+  }
+  .nota-mes-foto-bx img {
+    width: 100%;
+  }
+  .nota-mes-ceja-th {
+    background-color: var(--morado);
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: bolder;
+    text-align: center;
+    color: white;
+    padding: 0 10px;  
+    margin-bottom: 10px;  
+    display: inline-block;
+    z-index: 20;
+  }
+  .nota-mes-cbz {
+    font-size: 45px;
+    line-height: 48px;
+    margin-bottom: 4px;
+    color: black;
+  }
+  .nota-mes-txt {
+    font-size: 20px;
+    line-height: 1.4;
+    color: black;
+  }
+
+/* ESTE MES Banners verticales */
+/* 250x250 */
+  .mes-col-3 {
+    display: none;
   }
 }
 
