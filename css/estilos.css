@@ -67,11 +67,6 @@ a {
 .m-0a{
   margin: 0 auto;
 }
-.indicador {
-  font-size: 25px;
-  font-weight: 400;  
-  color: #000100;
-}
 .mb-15{
   margin-bottom: 15px;
 }
@@ -203,7 +198,7 @@ header{
 
 /* ESTE MES Preventivos */
 .mes-cont{
-  display: flex;
+  display: flex;  
   justify-content: space-between;
 }
 .mes-col-1{
@@ -215,10 +210,12 @@ header{
 .impresa-th-bx{
   transition: all 400ms;
 }
-.ind-impr-a {
+.impr-ind {
+  font-size: 25px;
+  font-weight: 400;  
   margin-bottom: 0.3125rem;
 }
-.ind-esp-edi-a {
+.esp-edi-ind {
   font-size: 21.5px;
   margin: 0.25rem 0 0.25rem;
   color: var(--verde-logo-1);
@@ -419,7 +416,9 @@ header{
   width: 100%;
   height: auto;
 }
-.ind-mas-a {
+.mas-ind {
+  font-size: 25px;
+  font-weight: 400; 
   text-align: center;
   margin-bottom: 5px;
   color: #ff5252;
@@ -452,7 +451,9 @@ header{
 .esp-prev-col-1 {
   flex-basis: 55%;
 }
-.ind-esp-a {
+.esp-prev-ind {
+  font-size: 25px;
+  font-weight: 400; 
   margin-top: 15px;
   margin-bottom: 5px;
   color: #fff;
@@ -510,7 +511,9 @@ header{
   background: #242527;
   margin-bottom: 50px;
 }
-.ind-videos-prev-a {
+.videos-prev-ind {
+  font-size: 25px;
+  font-weight: 400; 
   padding-top: 20px;
   margin-bottom: 20px;
   color: #fff;
@@ -532,6 +535,11 @@ header{
 /* SALUD PARA VIVIR */
 #salud-para-prev {
   margin-bottom: 20px;
+}
+.salud-para-prev-ind{
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 15px; 
 }
 .salud-para-prev-cont {
   display: flex;
@@ -575,6 +583,11 @@ header{
 /* NUESTRAS EDICIONES CARRUSEL */
 #ediciones-carrusel {
   margin: 0 auto 50px;
+}
+.edi-carr-ind{
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 15px; 
 }
 #ediciones-carrusel-cont {
   height: 280px;
@@ -636,6 +649,11 @@ header{
   display: flex;
   justify-content: space-between;
 }
+.eventos-prev-ind{
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 15px; 
+}
 .evento-prev-col-1 {
   flex-basis: 50%;
   transition: all 300ms; 
@@ -687,6 +705,11 @@ header{
   height: 220px;
   position: relative;
   overflow: hidden;
+}
+.corto-carr-ind {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 15px; 
 }
 #corto-carrusel-cont .corto-flecha-izq {
   position: absolute;
@@ -809,7 +832,7 @@ header{
     width: 92vw
   }
   .indicador {
-    font-size: 20px; 
+    font-size: 22px !important;
   }  
   .header-col-izq,
   .header-row-1,
@@ -902,50 +925,23 @@ header{
 
   /* PREVENTIVO COVID */
   .covid-preventivo {
-    margin: 25px auto 30px;
-    background-color: red;
-    line-height: 1.2;
-    padding: 10px 0 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 0px auto 30px; 
   }
   .covid-preventivo p span {
     font-size: 25px;
-    font-family: "Nunito Sans", sans-serif;
-    font-weight: bolder;
-    color: rgb(250, 240, 151);
   }
   .covid-preventivo p {
-    font-size: 25px;
-    font-family: "Nunito Sans", sans-serif; 
-    font-weight: bolder;
-    color: white;
-    text-align: center;
+    font-size: 25px; 
   }
 
   /* ESTE MES Preventivos */
-  .mes-cont{
-    display: flex;
-    justify-content: space-between;
-  }
   .mes-col-1{
     flex-basis: 23%;
   }
-  .mes-col-1 img {
-    width: 96%;
-  }
-  .impresa-th-bx{
-    transition: all 400ms;
-  }
-  .ind-impr-a {
-    color: red;
-    margin-bottom: 0.3125rem;
-  }
   .ind-esp-edi-a {
-    font-size: 21.5px;
+    font-size: 5px;
     margin: 0.25rem 0 0.25rem;
-    color: var(--verde-logo-1);
+    color: red;
   }
   .especial-cbz-th {
     font-size: 27.5px;
