@@ -179,10 +179,10 @@ header{
 
 /* PREVENTIVO COVID */
 .covid-preventivo {
-  margin: 1.5625rem auto 1.875rem;
+  margin: 25px auto 30px;
   background-color: red;
   line-height: 1.2;
-  padding: 0.625rem 0 0.625rem;
+  padding: 10px 0 10px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -826,41 +826,40 @@ header{
   }
   .fa-bars,
   .fa-search {
-    display: block !important;
-    font-size: 35px;
-    /* REVISAR MEDIDA RESP */
+    display: block;
+    visibility: visible;
+    font-size: 2rem;
     align-self: center;
     color: #333;
     z-index: 22;
   }
   .logo-mobile-bx {
-    width: 45%;
-    margin: 0 auto 18px;
+    width: 50%;
+    margin: 0 auto 20px;
   }
   .logo-mobile-bx img {
     width: 100%;
   }
   .lema-mobile-bx {
-    width: 55%;
-    margin: 0 auto 10px;
+    width: 65%;
+    margin: 0 auto 15px;
   }
   .lema-mobile-bx img {
-    width: 100%;
+    width: 100%;    
   }
-  .header-leyenda-femeson-bx {
+  .header-leyenda-femeson {
     width: 100%;
     margin: 0 auto;
     background: #275c6d;
   }
-  .header-leyenda-femeson {
-    font-size: 15px;
-    /* letter-spacing: 1px; */
-    line-height: 1.8;
+  .header-leyenda-femeson p {
+    font-size: 15px;  
+    line-height: 1.2;
     font-weight: 400;
     text-align: center;
+    padding: 5px 0 5px;
     color: #fff;
     text-transform: uppercase;
-    margin-top: 5px;
   }
   .menu {    
     width: 45%;
@@ -900,13 +899,38 @@ header{
   .ind-esp-edi-a{
     font-size: 20px;
   }
+
+  /* PREVENTIVO COVID TABLET */
+  .covid-preventivo {
+    margin: 25px auto 30px;
+    background-color: red;
+    line-height: 1.2;
+    padding: 10px 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .covid-preventivo p span {
+    font-size: 25px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: bolder;
+    color: rgb(250, 240, 151);
+  }
+  .covid-preventivo p {
+    font-size: 25px;
+    font-family: "Nunito Sans", sans-serif; 
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+  }
 }
+
+
 @media screen and (max-width: 640px){
   .contenedor {
     width: 92vw
   }
 }
-
 /* ----F I N - M E D I A S---- */
 
 /* CABEZA NOTA */
@@ -1441,4 +1465,3 @@ th {
 .verde1 {
   background: #275c6d;
 }
-
