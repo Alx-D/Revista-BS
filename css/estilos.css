@@ -365,10 +365,10 @@ header{
   float: left;
   overflow: hidden;
 }
-.articulo-prev-foto-bx img{
+.articulo-prev-foto-bx img {
   height: 100%;  
 }
-.articulo-prev-cabezal {
+.articulo-prev-cbx-bx {
   margin: auto 15px auto 24px;
 }
 .articulos-prev-col-1 div:last-child {
@@ -1008,6 +1008,46 @@ header{
 /* ESTE MES Banners verticales */
 /* 250x250 */
   .mes-col-3 {
+    display: none;
+  }
+  /* BANNER HORIZONTAL 1100x122 */
+  .bnr-hz-01{ 
+    margin: 40px auto 50px;
+  }
+  /* ARTICULOS */
+  .articulos-preventivos-cont{
+    display: block
+  }
+  .articulos-prev-col-1{
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .articulo-prev-card {
+    width: 48%;
+    display: block;
+    height: auto;
+    margin-bottom: 40px;
+  }
+  .articulo-prev-foto-bx{
+    width: 100%;
+    /* min-width: 100%; */  
+  }
+  .articulo-prev-foto-bx img {
+    width: 100%;
+  }
+  .articulo-prev-cbx-bx {
+    margin: 100px;
+    /* padding: auto 15px auto 24px; */
+    background: #db813f;
+  }
+  .articulos-cbz {
+    font-size: 30px; 
+  }
+
+    /* ARTICULOS Aside */
+  .articulos-prev-col-2{
     display: none;
   }
 }
