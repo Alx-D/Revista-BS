@@ -343,7 +343,7 @@ header{
   justify-content: space-between;
 }
 .articulos-prev-col-1{
-  flex-basis: 70%;
+  flex-basis: 70%; 
 }
 .articulo-prev-card {
   width: 100%;
@@ -368,11 +368,9 @@ header{
 .articulo-prev-foto-bx img {
   height: 100%;  
 }
-.articulo-prev-cbx-bx {
-  margin: auto 15px auto 24px;
-}
-.articulos-prev-col-1 div:last-child {
-  margin-bottom: 0px;
+.articulo-prev-cbz-bx {
+  margin: 0 15px 0 24px;  
+  align-self: center;
 }
 .ceja-med {
   font-size: 11px;
@@ -385,18 +383,18 @@ header{
   position: absolute;
   z-index: 20;
 }
-.articulos-cbz {
+.articulos-prev-cbz {
   font-size: 35px; 
   line-height: 1.15;
   font-weight: 700;  
 }
 .articulo-prev-card-autor {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 700;
   margin-top: 10px;
 }
 .articulo-prev-card-autor-especialidad {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 400;
 }
 
@@ -405,7 +403,6 @@ header{
   flex-basis: 27%;
   display: flex;
   flex-wrap: wrap;
-  align-content: space-between;
 }
 .banner-vertical-300x430 {
   width: 100%;
@@ -466,14 +463,16 @@ header{
   Width: 100%;
 }
 .especial-prev-sumario {
-  font-size: 31px;
+  font-size: 29px;
+  letter-spacing: 2px;
+  line-height: 1.2;
   font-weight: 300;
   color: white;
   margin-bottom: 10px;
 }
 .esp-prev-lista-bx {
   width: 100%;
-  margin-top: 12px; 
+  margin-top: 20px; 
   display: flex;
   justify-content: space-between;  
 }
@@ -889,7 +888,7 @@ header{
     height: 100vh;
     text-align: left;
     top: 0;
-    left: -500px;
+    left: -700px;
     position: fixed;
     background: var(--verde-logo-1);
     z-index: 30;
@@ -1032,20 +1031,22 @@ header{
   }
   .articulo-prev-foto-bx{
     width: 100%;
-    /* min-width: 100%; */  
+    margin-bottom: 10px;
   }
   .articulo-prev-foto-bx img {
     width: 100%;
   }
-  .articulo-prev-cbx-bx {
-    margin: 100px;
-    /* padding: auto 15px auto 24px; */
-    background: #db813f;
+  .articulo-prev-cbz-bx {
+    margin: 0 6% 4% 6%;
+    align-self: center;  
   }
-  .articulos-cbz {
+  .articulos-prev-cbz {
     font-size: 30px; 
   }
-
+  .articulo-prev-card-autor-especialidad {
+    font-size: 13px;
+    font-weight: 400;
+  }
     /* ARTICULOS Aside */
   .articulos-prev-col-2{
     display: none;
