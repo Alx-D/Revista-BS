@@ -259,7 +259,7 @@ header{
   z-index: 20;
 }
 .nota-mes-ceja2 {  
-  background-color: rgb(255, 220, 0);
+  background-color: greenyellow;
   font-size: 20px;
   line-height: 1.2;
   font-weight: bolder;
@@ -443,6 +443,13 @@ header{
   background: #db813f;
   margin-bottom: 50px;
 }
+.esp-prev-ind {
+  font-size: 25px;
+  font-weight: 400; 
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #fff;
+}
 .esp-prev-cont {
   display: flex;
   justify-content: space-between;
@@ -451,24 +458,19 @@ header{
 .esp-prev-col-1 {
   flex-basis: 55%;
 }
-.esp-prev-ind {
-  font-size: 25px;
-  font-weight: 400; 
-  margin-top: 15px;
-  margin-bottom: 5px;
-  color: #fff;
-}
-.especial-prev-cbz {
-  Width: 95%;
+.especial-prev-cbz-bx {
+  width: 97%;
   margin-bottom: 4px;
 }
-.especial-prev-cbz img {
-  Width: 100%;
+.especial-prev-cbz-bx img {
+  width: 100%;
 }
 .especial-prev-sumario {
+  width: 95%;
   font-size: 29px;
   letter-spacing: 2px;
   line-height: 1.2;
+  text-align: center;
   font-weight: 300;
   color: white;
   margin-bottom: 10px;
@@ -481,6 +483,7 @@ header{
 }
 .esp-prev-lista-izq,
 .esp-prev-lista-der {
+  width: 48%;
   margin-right: 14px;
 }
 #especial-preventivo li {
@@ -501,10 +504,13 @@ header{
   flex-wrap: wrap;
   align-content: center;
 }
-.esp-prev-foto {
+.esp-prev-foto-bx {
   width: 100%;
   height: 420px;
   align-self: center;
+}
+.bnr-esp, .br-none  {
+  display: none;
 }
 
 /* SECCION VIDEOS */
@@ -1086,7 +1092,56 @@ header{
   .mas-leidas li:last-child {
     display: none;
   }
-  
+  .bnr-esp {
+    display: block;
+  }
+  .br-inline{
+    display: inline;
+  }
+
+  /* SECC ESPECIAL */
+  .especial-prev-sumario {
+    font-size: 25px;
+  }
+}
+@media screen and (max-width: 980px){
+  .esp-prev-cont {
+    flex-direction: column;
+  }
+  .esp-prev-col-1 {
+    width: 100%;  
+  }
+  .especial-prev-cbz-bx {
+    width: 80%;
+    margin: 0 auto;  
+  }
+  .especial-prev-sumario {
+    font-size: 29px;
+    margin-top: 10px;
+  }
+  .br-inline {
+    display: none;
+  }
+  .esp-prev-lista-bx {
+    width: 85%;
+    margin: 30px auto 10px auto;
+  }
+  .esp-prev-lista-izq,
+  .esp-prev-lista-der {
+  margin-right: 0px;
+}
+  .esp-prev-col-2 {
+    width: 85%;
+    margin: 0 auto;  
+  }
+  .esp-prev-foto-bx {
+    width: 100%;
+    height: auto; 
+    margin: 0 auto;
+  }
+  .esp-prev-foto-bx img {
+    width: 100%;
+  }
 }
 
 
