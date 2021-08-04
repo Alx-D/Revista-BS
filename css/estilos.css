@@ -598,6 +598,7 @@ header{
 /* NUESTRAS EDICIONES CARRUSEL */
 #ediciones-carrusel {
   margin: 0 auto 50px;
+  background: #25d366;
 }
 .edi-carr-ind{
   font-size: 25px;
@@ -625,12 +626,13 @@ header{
   left: 0px;
   position: absolute;
   z-index: 0;
+  background: #db813f;
 }
 .ediciones-carrusel-banda>div {
   width: 208px;
   height: 250px;
-  float: left;
   margin-left: 40px;
+  float: left;  
 }
 .ediciones-carrusel-banda img {
   cursor: pointer;
@@ -1110,7 +1112,29 @@ header{
   .especial-prev-sumario {
     font-size: 25px;
   }
+
+  /* SALUD PARA */
+  .bnr-vl-02 {
+    display: block;
+  }
+
+  /* CARR EDICIONES */
+  .ediciones-flecha-izq, .ediciones-flecha-der {
+    display: none;
+  }
+  .ediciones-carrusel-banda {
+    width: unset;
+    left: unset;
+    position: unset;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  .ediciones-carrusel-banda>div {
+    float: unset;
+    display: inline-block;
+  }
 }
+
 @media screen and (max-width: 980px){
   .esp-prev-cont {
     flex-direction: column;
@@ -1148,21 +1172,7 @@ header{
   }
   .esp-prev-foto-bx img {
     width: 100%;
-  }
-
-  /* SALUD PARA */
-  .bnr-vl-02 {
-    display: block;
-  }
-
-  /* CARR EDICIONES */
-  .ediciones-carrusel-banda {
-    overflow: auto;
-    white-space: nowrap;
-  }
-  .ediciones-carrusel-banda>div {
-    display: inline-block;
-  }
+  }  
 }
 
 
