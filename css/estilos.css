@@ -1419,7 +1419,7 @@ header {
     margin: 0 20px 0 30px;
   }
   .footer-icon {
-    display: none;
+    display: none !important;
   }
   .footer-col-2 {
     width: 35%;
