@@ -1437,7 +1437,7 @@ header {
     }
   }
 
-  @media screen and (max-width: 720px){  
+  @media screen and (max-width: 730px){  
   .footer-row-1 {
     width: 98vw;
     background: red;
