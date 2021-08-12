@@ -1415,6 +1415,10 @@ header {
 
 @media screen and (max-width: 824px){
   /* FOOTER */
+  .footer-row-1 {
+    width: 98vw;
+    background: red;
+  }
   .footer-col-1 {
     margin: 0 20px 0 30px;
   }
@@ -1438,7 +1442,7 @@ header {
     }
     .footer-row-1 {
       width: 98vw;
-      background: red;
+      background: var(--verde-logo-1);
     }
 
   }
