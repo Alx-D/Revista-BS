@@ -81,6 +81,12 @@ a {
   max-width: 1100px;
 }
 
+.indicador {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
 .m-0a {
   margin: 0 auto;
 }
@@ -98,7 +104,6 @@ a {
 }
 
 /* HEADER */
-
 header {
   margin: 0 auto;
   margin-top: 1.875rem;
@@ -216,7 +221,6 @@ header {
 }
 
 /* PREVENTIVO COVID */
-
 .covid-preventivo {
   margin: 25px auto 30px;
   background-color: red;
@@ -243,7 +247,6 @@ header {
 }
 
 /* ESTE MES Preventivos */
-
 .mes-cont {
   display: flex;
   justify-content: space-between;
@@ -262,10 +265,8 @@ header {
   transition: all 400ms;
 }
 
-.impr-ind {
-  font-size: 25px;
-  font-weight: 400;
-  margin-bottom: 0.3125rem;
+.impr-inda {
+  margin-bottom: 5px;
 }
 
 .esp-edi-ind {
@@ -300,7 +301,6 @@ header {
 }
 
 /* ESTE MES Nota Mes */
-
 .mes-col-2 {
   flex-basis: 54%;
   transition: all 400ms;
@@ -506,9 +506,7 @@ header {
   height: auto;
 }
 
-.mas-ind {
-  font-size: 25px;
-  font-weight: 400;
+.mas-inda {
   text-align: center;
   margin-bottom: 5px;
   color: #ff5252;
@@ -536,9 +534,7 @@ header {
   margin-bottom: 50px;
 }
 
-.esp-prev-ind {
-  font-size: 25px;
-  font-weight: 400;
+.esp-prev-inda {
   margin-top: 15px;
   margin-bottom: 5px;
   color: #fff;
@@ -618,16 +614,14 @@ header {
   display: none;
 }
 
-/* SECCION VIDEOS */
+/* VIDEOS */
 #videos-preventivo {
   width: 98vw;
   background: #242527;
   margin-bottom: 50px;
 }
 
-.videos-prev-ind {
-  font-size: 25px;
-  font-weight: 400;
+.videos-prev-inda {
   padding-top: 20px;
   margin-bottom: 20px;
   color: #fff;
@@ -651,12 +645,6 @@ header {
 /* SALUD PARA VIVIR */
 #salud-para-prev {
   margin-bottom: 20px;
-}
-
-.salud-para-prev-ind {
-  font-size: 25px;
-  font-weight: 400;
-  margin-bottom: 15px;
 }
 
 .salud-para-prev-cont {
@@ -718,12 +706,6 @@ header {
   margin: 0 auto 50px;
 }
 
-.edi-carr-ind {
-  font-size: 25px;
-  font-weight: 400;
-  margin-bottom: 15px;
-}
-
 #ediciones-carrusel-cont {
   height: 280px;
   position: relative;
@@ -780,12 +762,6 @@ header {
 .eventos-prev-cont {
   display: flex;
   justify-content: space-between;
-}
-
-.eventos-prev-ind {
-  font-size: 25px;
-  font-weight: 400;
-  margin-bottom: 15px;
 }
 
 .evento-prev-col-1 {
@@ -860,12 +836,6 @@ header {
   overflow: hidden;
 }
 
-.corto-carr-ind {
-  font-size: 25px;
-  font-weight: 400;
-  margin-bottom: 15px;
-}
-
 #corto-carrusel-cont .corto-flecha-izq {
   position: absolute;
   z-index: 10;
@@ -912,7 +882,7 @@ header {
 }
 
 /* FOOTER */
-.footer-pleca-1 {
+.footer-row-1 {
   width: 98vw;
   background: var(--verde-logo-1)
 }
@@ -924,7 +894,7 @@ header {
   letter-spacing: 1px;
   color: #fff;
 }
-.footer-pleca-2 {
+.footer-row-2 {
   width: 98vw;
   height: 240px;
   background: var(--gris-claro)
@@ -937,6 +907,12 @@ header {
 .footer-col-1 {
   width: 35%;
   margin: 0 30px 0 70px;
+}
+.footer-BSlogo-bx {
+  width: 150px;
+}
+.footer-BSlogo-bx img {
+  width: 100%;
 }
 .anunciese, .footer-tel {
   font-size: 19px;
@@ -1006,7 +982,9 @@ header {
   .indicador {
     font-size: 22px !important;
   }
-  .header-col-izq, .header-row-1, .lema-bx, #buscador {
+  .header-col-izq, 
+  .header-row-1, 
+  .lema-bx, #buscador {
     display: none !important;
   }
   .header-mobile-cont {
@@ -1300,6 +1278,7 @@ header {
     float: unset;
     display: inline-block;
   }
+
   /* FOOTER */
   .footer-col-1 {
     margin: 0 25px 0 40px;
@@ -1411,32 +1390,63 @@ header {
   }
 
   /* FOOTER */
+  .footer-BSlogo-bx {
+    width: 120px;
+  }
+  .footer-BSlogo-bx img {
+    width: 100%;
+  }
   .footer-col-1 {
     margin: 0 25px 0 35px;
   }
   .footer-email {
-    font-size: 16px;
-  }
+  font-size: 16px;
+  }  
   .contacto-boton {
-    margin-left: 30px;
+    width: 140px;
+    height: 64px;
+    margin-top: 15px;
+    margin-left: 15px;
+  }
+  .contacto-boton p {
+    font-size: 16px; 
   }
 }
 
-@media screen and (max-width: 880px){
-
-}
-
-
-@media screen and (max-width: 640px) {
-  .contenedor {
-    width: 92vw
+@media screen and (max-width: 824px){
+  /* FOOTER */
+  .footer-col-1 {
+    margin: 0 20px 0 30px;
+  }
+  .footer-icon {
+    display: none;
+  }
+  .footer-col-2 {
+    width: 35%;
   }
 }
+
+
+  @media screen and (max-width: 768px){
+    .contenedor {
+      width: 92vw;
+    }
+
+    .indicador {
+      font-size: 21px;
+      font-weight: 400;
+      margin-bottom: 15px;
+    }
+
+  }
+
+
+
+
 
 /* ----F I N - M E D I A S---- */
 
 /* CABEZA NOTA */
-
 .ceja-gde {
   width: 87px;
   height: 27px;
@@ -1554,7 +1564,6 @@ header {
 }
 
 /* CREDITO */
-
 .credito-foto-bx {
   width: 100%;
   height: 72px;
