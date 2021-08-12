@@ -1437,22 +1437,22 @@ header {
     }
   }
 
-@media screen and (max-width: 400px){  
+@media screen and (max-width: 500px){  
   .footer-row-1 {
     background: yellowgreen;
   }
 }
-@media screen and (max-width: 390px){  
+@media screen and (max-width: 490px){  
   .footer-row-1 {
     background: aqua;
   }
 }
-@media screen and (max-width: 380px){  
+@media screen and (max-width: 480px){  
   .footer-row-1 {
     background: blueviolet;
   }
 }
-@media screen and (max-width: 370px){  
+@media screen and (max-width: 470px){  
   .footer-row-1 {
     background: chocolate;
   }
@@ -1462,32 +1462,32 @@ header {
     background: darkblue;
   }
 }
-@media screen and (max-width: 350px){  
+@media screen and (max-width: 450px){  
   .footer-row-1 {
     background: firebrick;
   }
 }
-@media screen and (max-width: 340px){  
+@media screen and (max-width: 440px){  
   .footer-row-1 {
     background: hotpink;
   }
 }
-@media screen and (max-width: 330px){  
+@media screen and (max-width: 430px){  
   .footer-row-1 {
     background: indigo;
   }
 }
-@media screen and (max-width: 320px){  
+@media screen and (max-width: 420px){  
   .footer-row-1 {
     background: khaki;
   }
 }
-@media screen and (max-width: 310px){  
+@media screen and (max-width: 410px){  
   .footer-row-1 {
     background: lightgray;
   }
 }
-@media screen and (max-width: 300px){  
+@media screen and (max-width: 400px){  
   .footer-row-1 {
     background: magenta;
   }
