@@ -1431,11 +1431,14 @@ header {
     .contenedor {
       width: 92vw;
     }
-
     .indicador {
       font-size: 21px;
       font-weight: 400;
       margin-bottom: 15px;
+    }
+    .footer-row-1 {
+      width: 98vw;
+      background: red;
     }
 
   }
