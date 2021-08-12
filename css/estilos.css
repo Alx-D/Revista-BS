@@ -1414,11 +1414,7 @@ header {
 }
 
 @media screen and (max-width: 824px){
-  /* FOOTER */
-  .footer-row-1 {
-    width: 98vw;
-    background: red;
-  }
+  /* FOOTER */  
   .footer-col-1 {
     margin: 0 20px 0 30px;
   }
@@ -1430,7 +1426,6 @@ header {
   }
 }
 
-
   @media screen and (max-width: 768px){
     .contenedor {
       width: 92vw;
@@ -1440,14 +1435,14 @@ header {
       font-weight: 400;
       margin-bottom: 15px;
     }
-    .footer-row-1 {
-      width: 98vw;
-      background: var(--verde-logo-1);
-    }
-
   }
 
-
+  @media screen and (max-width: 720px){  
+  .footer-row-1 {
+    width: 98vw;
+    background: red;
+  }
+}
 
 
 
