@@ -26,6 +26,13 @@ a {
 .f3 {
   font-family: "Roboto Condensed", sans-serif;
 }
+.guion {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  word-wrap: break-word;
+}
 
 :root {
   --naranja-claro: #ebb730;
@@ -269,9 +276,9 @@ header {
   margin-bottom: 5px;
 }
 
-.esp-edi-ind {
+.esp-edi-inda {
   font-size: 21.5px;
-  margin: 0.25rem 0 0.25rem;
+  margin: 4px 0 4px;
   color: var(--verde-logo-1);
 }
 
@@ -279,7 +286,7 @@ header {
   font-size: 27.5px;
   line-height: 1.2;
   font-weight: 700;
-  margin-bottom: 0.1875rem;
+  margin-bottom: 3px;
   color: black;
 }
 
@@ -290,7 +297,7 @@ header {
 }
 
 .mes-col-1 hr {
-  margin-top: 0.625rem;
+  margin-top: 10px;
 }
 
 .editorial-cbz-th {
@@ -318,7 +325,7 @@ header {
   z-index: 20;
 }
 
-.nota-mes-ceja2 {
+/* .nota-mes-ceja2 {
   background-color: greenyellow;
   font-size: 20px;
   line-height: 1.2;
@@ -329,7 +336,7 @@ header {
   margin-left: 200px;
   position: absolute;
   z-index: 20;
-}
+} */
 
 .nota-mes-foto-bx {
   width: 100%;
@@ -357,7 +364,7 @@ header {
 
 .nota-mes-cbz {
   font-size: 47px;
-  line-height: 48px;
+  line-height: 1.2;
   margin-bottom: 4px;
   color: black;
 }
@@ -981,6 +988,7 @@ header {
   }
   .indicador {
     font-size: 22px !important;
+    line-height: 1.2;
   }
   .header-col-izq, 
   .header-row-1, 
@@ -1064,10 +1072,8 @@ header {
     font-weight: 400;
     text-transform: uppercase;
     color: #fff;
-  }
-  .ind-esp-edi-a {
-    font-size: 20px;
-  }
+  } 
+
   /* PREVENTIVO COVID */
   .covid-preventivo {
     margin: 0px auto 30px;
@@ -1078,36 +1084,12 @@ header {
   .covid-preventivo p {
     font-size: 25px;
   }
+
   /* ESTE MES Preventivos */
   .mes-col-1 {
     flex-basis: 23%;
-  }
-  .ind-esp-edi-a {
-    font-size: 5px;
-    margin: 0.25rem 0 0.25rem;
-    color: red;
-  }
-  .especial-cbz-th {
-    font-size: 27.5px;
-    line-height: 1.2;
-    font-weight: 700;
-    margin-bottom: 0.1875rem;
-    color: black;
-  }
-  .especial-txt-th {
-    font-size: 18px;
-    line-height: 1.2;
-    color: black;
-  }
-  .mes-col-1 hr {
-    margin-top: 0.625rem;
-  }
-  .editorial-cbz-th {
-    font-size: 23px;
-    line-height: 1.3;
-    font-weight: 600;
-    color: black;
-  }
+  }  
+
   /* ESTE MES Nota Mes */
   .mes-col-2 {
     flex-basis: 72%;
@@ -1115,38 +1097,10 @@ header {
   .nota-mes-ceja {
     font-size: 18px;
   }
-  .nota-mes-foto-bx {
-    width: 100%;
-    float: left;
-    overflow: hidden;
-    background: var(--morado)
-  }
-  .nota-mes-foto-bx img {
-    width: 100%;
-  }
-  .nota-mes-ceja-th {
-    background-color: var(--morado);
-    font-size: 14px;
-    line-height: 1.6;
-    font-weight: bolder;
-    text-align: center;
-    color: white;
-    padding: 0 10px;
-    margin-bottom: 10px;
-    display: inline-block;
-    z-index: 20;
-  }
   .nota-mes-cbz {
     font-size: 45px;
-    line-height: 48px;
-    margin-bottom: 4px;
-    color: black;
   }
-  .nota-mes-txt {
-    font-size: 20px;
-    line-height: 1.4;
-    color: black;
-  }
+  
   /* ESTE MES Bnrs verticales */
   /* 250x250 */
   .none-1024 {
@@ -1426,72 +1380,147 @@ header {
   }
 }
 
-  @media screen and (max-width: 768px){
-    .contenedor {
-      width: 92vw;
-    }
-    .indicador {
-      font-size: 21px;
-      font-weight: 400;
-      margin-bottom: 15px;
-    }
+@media screen and (max-width: 768px){
+  .contenedor {
+    width: 92vw;
   }
+  .indicador {
+    font-size: 21px;
+    font-weight: 400;      
+    margin-bottom: 15px;
+  }
+}
 
-@media screen and (max-width: 900px){  
-  .footer-row-1 {
+@media screen and (max-width: 480px){
+  .indicador {
+    font-size: 15px !important;
+  }
+  /* PREVENTIVO COVID */
+  .covid-preventivo {
+    margin: 0px auto 20px;
+  }
+  .covid-preventivo p span {
+    font-size: 16px;
+  }
+  .covid-preventivo p {
+    font-size: 16px;
+  }  
+  /* ESTE MES Preventivos */
+  .mes-col-1 {
+    flex-basis: 40%;
+  }
+  .impr-inda {
+    margin-bottom: 7px;
+  }
+  .esp-edi-inda {
+    font-size: 14.5px;
+    margin: 3px 0 3px;
+  }
+  .especial-cbz-th {
+    font-size: 19px;
+  }
+  .especial-txt-th {
+    font-size: 13px;    
+  }
+  .mes-col-1 hr {
+    margin-top: 5px;
+  }
+  .editorial-cbz-th {
+    font-size: 17px;
+  }
+  .mes-col-2 {
+    width: 60%;
+  }
+  .nota-mes-ceja {
+    font-size: 13px;
+    padding: 0 6px;
+  }
+  .nota-mes-ceja-th {
+    font-size: 9px;
+    padding: 0 7px; 
+    margin-bottom: 10px;
+  }
+  .nota-mes-cbz {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+  .nota-mes-txt {
+    font-size: 15px;
+  }
+  
+}
+
+
+
+
+
+/* @media screen and (max-width: 900px){  
+  .footer-row-1::after {
     background: yellowgreen;
+    content: '900';
   }
 }
 @media screen and (max-width: 890px){  
-  .footer-row-1 {
+  .footer-row-1::after {
     background: aqua;
+    content: '890';
   }
 }
 @media screen and (max-width: 880px){  
-  .footer-row-1 {
+  .footer-row-1::after {
     background: blueviolet;
+    content: '880';
   }
 }
 @media screen and (max-width: 870px){  
-  .footer-row-1 {
+  .footer-row-1::after {
     background: chocolate;
+    content: '870';
+    font-size: 16px;
   }
 }
 @media screen and (max-width: 860px){  
-  .footer-row-1 {
-    background: darkblue;
+  .footer-row-1::after {
+    background: lightblue;
+    content: '860';
   }
 }
 @media screen and (max-width: 850px){  
-  .footer-row-1 {
+  .footer-row-1::after {
     background: firebrick;
+    content: '850';
   }
 }
 @media screen and (max-width: 840px){  
-  .footer-row-1 {
+  .footer-row-1::after {
     background: hotpink;
+    content: '840';
   }
 }
 @media screen and (max-width: 830px){  
-  .footer-row-1 {
-    background: indigo;
+  .footer-row-1::after {
+    background: rgb(180, 32, 44);
+    content: '830';
   }
 }
 @media screen and (max-width: 820px){  
-  .footer-row-1 {
+  .footer-row-1::after {
     background: khaki;
+    content: '820';
   }
 }
 @media screen and (max-width: 810px){  
-  .footer-row-1 {
+  .footer-row-1::after {
     background: lightgray;
+    content: '810';
   }
 }
 @media screen and (max-width: 800px){  
-  .footer-row-1 {
+  .footer-row-1::after {
     background: magenta;
+    content: '800';
   }
-}
+} */
 
 
 
