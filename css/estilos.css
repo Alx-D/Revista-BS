@@ -313,7 +313,7 @@ header {
   transition: all 400ms;
 }
 
-.nota-mes-ceja {
+.mes-top-ceja {
   background-color: var( --rojo);
   font-size: 20px;
   line-height: 1.6;
@@ -338,18 +338,18 @@ header {
   z-index: 20;
 } */
 
-.nota-mes-foto-bx {
+.mes-top-foto-bx {
   width: 100%;
   float: left;
   overflow: hidden;
   background: var(--morado)
 }
 
-.nota-mes-foto-bx img {
+.mes-top-foto-bx img {
   width: 100%;
 }
 
-.nota-mes-ceja-th {
+.mes-top-ceja-th {
   background-color: var(--morado);
   font-size: 14px;
   line-height: 1.6;
@@ -362,14 +362,14 @@ header {
   z-index: 20;
 }
 
-.nota-mes-cbz {
+.mes-top-cbz  {
   font-size: 47px;
   line-height: 1.2;
   margin-bottom: 4px;
   color: black;
 }
 
-.nota-mes-txt {
+.mes-top-sumario {
   font-size: 20px;
   line-height: 1.4;
   color: black;
@@ -650,11 +650,11 @@ header {
 }
 
 /* SALUD PARA VIVIR */
-#salud-para-prev {
+#spara-prev {
   margin-bottom: 20px;
 }
 
-.salud-para-prev-cont {
+.spara-prev-cont {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -668,7 +668,7 @@ header {
   margin-bottom: 45px;
 }
 
-.salud-para-prev-card {
+.spara-prev-card {
   width: 31%;
   margin-bottom: 45px;
   background: #fff;
@@ -676,34 +676,28 @@ header {
   transition: all 300ms;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.24);
 }
-
-.salud-para-prev-card:hover {
+.spara-prev-card:hover {
   box-shadow: 0px 7px 14px rgba(0, 0, 0, 0.16);
   transform: translateY(-2%);
 }
-
-.salud-para-prev-card-foto {
+.spara-prev-card-foto {
   width: 100%;
   height: auto;
 }
-
-.salud-para-prev-card-foto img {
+.spara-prev-card-foto img {
   width: 100%;
 }
-
-.salud-para-cbz-bx {
+.spara-prev-card-cbz-bx {
   width: 100%;
   display: flex;
   padding-top: 14px;
   padding-bottom: 15px;
 }
-
-.cbz-3r {
+.spara-prev-card-cbz-3r {
   font-size: 30px;
   margin: 0 24px 0 24px;
 }
-
-.cbz-2r {
+.spara-prev-card-cbz-2r {
   font-size: 30px;
   margin: 0 24px 0 24px;
 }
@@ -767,67 +761,93 @@ header {
 }
 
 .eventos-prev-cont {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(2, auto);
+  gap: 3%;
+
+  /* display: flex;
+  flex-wrap: wrap; */
 }
 
-.evento-prev-col-1 {
+/* .evento-prev-col-1 {
   flex-basis: 52%;
   transition: all 300ms;
 }
-
 .evento-prev-col-1:hover {
   transform: translateY(-1.5%);
 }
-
 .evento-prev-col-1-foto {
   width: 100%;
 }
-
 .evento-prev-col-1-foto img {
   width: 100%;
 }
-
 .evento-prev-col-1-cbz {
   font-size: 27px;
   margin-top: 5px;
 }
-
 .evento-prev-col-1-foto p {
   display: none;
 }
-
 .evento-prev-col-2 {
   width: 45%;
   margin-left: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-}
+} */
+/* .evento-prev-card-gde {
+  width: 45%;
+  height: auto;
+  overflow: hidden;
+  transition: all 300ms;
+  background: #1778f2;
+} */
 
 .evento-prev-card {
-  width: 47%;
-  height: 200px;
+  width: 100%;
   transition: all 300ms;
+  /* background: #953829; */
 }
+.evento-prev-card-foto {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+  /* height: auto; */
+  background: #ebb730;
+}
+.evento-prev-card img {
+  width: 40%;
+}
+.evento-prev-card-cbz-bx {
+  width: 100%;
+
+}
+.evento-prev-card-cbz {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-top: 10px;
+}
+
+/* .spara-prev-card-cbz-bx {
+  width: 100%;
+  display: flex;
+  padding-top: 14px;
+  padding-bottom: 15px;
+}
+.spara-prev-card-cbz-3r {
+  font-size: 30px;
+  margin: 0 24px 0 24px;
+} */
 
 .evento-prev-card:nth-child(1) {
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
 }
-
 .evento-prev-card:hover {
   transform: translateY(-2%);
 }
-
-.evento-prev-card img {
-  width: 100%;
-}
-
-.evento-prev-card figcaption {
-  line-height: 1.2;
-  z-index: 20;
-}
-
 .evento-prev-card figcaption:hover {
   color: slategrey;
 }
@@ -1094,10 +1114,10 @@ header {
   .mes-col-2 {
     flex-basis: 72%;
   }
-  .nota-mes-ceja {
+  .mes-top-ceja {
     font-size: 18px;
   }
-  .nota-mes-cbz {
+  .mes-top-cbz  {
     font-size: 45px;
   }
   
@@ -1184,8 +1204,8 @@ header {
   .br-inline {
     display: inline;
   }
-  /* SECC ESPECIAL */
-  #salud-para-prev {
+  /* ESPECIAL */
+  #spara-prev {
     margin-bottom: -10px;
   }
   .especial-prev-sumario {
@@ -1211,12 +1231,10 @@ header {
     float: unset;
     display: inline-block;
   }
-
   /* EVENTOS */
   #eventos-preventivos {
     margin: 0 auto 30px;
   }
-
   /* CORTO */
   .corto-flecha-izq, .corto-flecha-der {
     display: none;
@@ -1232,7 +1250,6 @@ header {
     float: unset;
     display: inline-block;
   }
-
   /* FOOTER */
   .footer-col-1 {
     margin: 0 25px 0 40px;
@@ -1265,7 +1282,8 @@ header {
     width: 85%;
     margin: 30px auto 10px auto;
   }
-  .esp-prev-lista-izq, .esp-prev-lista-der {
+  .esp-prev-lista-izq, 
+  .esp-prev-lista-der {
     margin-right: 0px;
   }
   .esp-prev-col-2 {
@@ -1325,24 +1343,26 @@ header {
 
 @media screen and (max-width: 920px) {
   /* SALUD PARA */
-  .cbz-3r {
+  .spara-cbz-3r {
     font-size: 25px;
     margin: 0 24px 0 24px;
   }
-  .cbz-2r {
+  .spara-cbz-2r {
     font-size: 25px;
     margin: 0 24px 0 24px;
   }
   /* CARRUSEL EDICIONES */
+  #ediciones-carrusel {
+    margin-top: -10px;
+  }
   #ediciones-carrusel-cont {
-    height: 200px;
+    height: 220px;  
   }
   .ediciones-carrusel-banda>div {
     width: 166px;
     height: 200px;
     margin-left: 35px;
   }
-
   /* FOOTER */
   .footer-BSlogo-bx {
     width: 120px;
@@ -1389,6 +1409,16 @@ header {
     font-weight: 400;      
     margin-bottom: 15px;
   }
+  .editorial-cbz-th {
+    font-size: 21px;
+  }
+  .mes-top-cbz {
+    font-size: 43px;
+  } 
+}
+
+@media screen and (max-width: 640px){
+  
 }
 
 @media screen and (max-width: 480px){
@@ -1431,20 +1461,20 @@ header {
   .mes-col-2 {
     width: 60%;
   }
-  .nota-mes-ceja {
+  .mes-top-ceja {
     font-size: 13px;
     padding: 0 6px;
   }
-  .nota-mes-ceja-th {
+  .mes-top-ceja-th {
     font-size: 9px;
     padding: 0 7px; 
     margin-bottom: 10px;
   }
-  .nota-mes-cbz {
+  .mes-top-cbz {
     font-size: 30px;
     margin-bottom: 5px;
   }
-  .nota-mes-txt {
+  .mes-top-sumario {
     font-size: 15px;
   }
   
