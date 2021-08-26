@@ -33,7 +33,6 @@ a {
   hyphens: auto;
   word-wrap: break-word;
 }
-
 :root {
   --naranja-claro: #ebb730;
   --naranja-oscuro: #db813f;
@@ -46,66 +45,51 @@ a {
   --verde-logo-1: #275c6d;
   --gris-claro: #e6e6de;
 }
-
 .rojoc {
   background: #c3242b;
 }
-
 .rojoo {
   background: #a1262a;
 }
-
 .verde {
   background: #6dab51;
 }
-
 .azulo {
   background: #344497;
 }
-
 .azulc {
   background: #0094d7;
 }
-
 .naranjao {
   background: #db813f;
 }
-
 .naranjac {
   background: #ebb730;
 }
-
 .morado {
   background: #612f8c;
 }
-
 .verde1 {
   background: #275c6d;
 }
-
 .contenedor {
   width: 95vw;
   max-width: 1100px;
 }
-
 .indicador {
   font-size: 25px;
   font-weight: 400;
   margin-bottom: 15px;
 }
-
 .m-0a {
   margin: 0 auto;
 }
-
 .mb-15 {
   margin-bottom: 15px;
 }
-
 .hv-txt-01:hover {
   color: slategrey;
 }
-
 .hv-trns-01:hover {
   transform: translateY(-1%);
 }
@@ -115,45 +99,36 @@ header {
   margin: 0 auto;
   margin-top: 1.875rem;
 }
-
 .fa-bars {
   display: none;
   visibility: hidden;
 }
-
 .fa-search {
   display: none;
   visibility: hidden;
 }
-
 .fa-times {
   display: none;
   visibility: hidden;
 }
-
 .header-cont {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .header-col-izq {
   flex-basis: 19%;
   margin-right: 2%;
 }
-
 .revista-bs-logo-bx img {
   width: 100%;
 }
-
 .header-mobile-cont {
   display: none;
 }
-
 .header-col-der {
   flex-basis: 82%;
 }
-
 .header-row-1 {
   width: 100%;
   display: flex;
@@ -167,20 +142,16 @@ header {
   font-weight: 700;
   margin-right: 3%;
 }
-
 .facebook a {
   color: #1677f2;
 }
-
 .femeson-logo-bx {
   width: 5%;
   height: auto;
 }
-
 .femeson-logo-bx img {
   width: 100%;
 }
-
 .header-row-2 {
   width: 100%;
   display: flex;
@@ -188,19 +159,15 @@ header {
   justify-content: space-between;
   margin-bottom: 0.25rem;
 }
-
 .lema-bx {
   width: 65%;
 }
-
 .lema-bx img {
   width: 100%;
 }
-
 #buscador {
   width: 32%;
 }
-
 #buscador input[type="text"] {
   width: 100%;
   border: 2px solid #aaa;
@@ -208,23 +175,19 @@ header {
   padding: 4%;
   margin-bottom: 0.625rem;
 }
-
 .menu ul {
   display: flex;
   justify-content: space-between;
 }
-
 .menu ul li {
   display: inline-block;
 }
-
 .menu li a {
   font-family: "Oswald", sans-serif;
   font-size: 16px;
   font-weight: 400;
   text-transform: uppercase;
-  color: #000100;
-  ;
+  color: #000100;  
 }
 
 /* PREVENTIVO COVID */
@@ -237,14 +200,12 @@ header {
   justify-content: center;
   align-items: center;
 }
-
 .covid-preventivo p span {
   font-size: 27px;
   font-family: "Nunito Sans", sans-serif;
   font-weight: bolder;
   color: rgb(250, 240, 151);
 }
-
 .covid-preventivo p {
   font-size: 27px;
   font-family: "Nunito Sans", sans-serif;
@@ -258,30 +219,24 @@ header {
   display: flex;
   justify-content: space-between;
 }
-
 .mes-col-1 {
   flex-basis: 18%;
   margin-right: 2.5%;
 }
-
 .mes-col-1 img {
   width: 96%;
 }
-
 .impresa-th-bx {
   transition: all 400ms;
 }
-
 .impr-inda {
   margin-bottom: 5px;
 }
-
 .esp-edi-inda {
   font-size: 21.5px;
   margin: 4px 0 4px;
   color: var(--verde-logo-1);
 }
-
 .especial-cbz-th {
   font-size: 27.5px;
   line-height: 1.2;
@@ -289,17 +244,14 @@ header {
   margin-bottom: 3px;
   color: black;
 }
-
 .especial-txt-th {
   font-size: 18px;
   line-height: 1.2;
   color: black;
 }
-
 .mes-col-1 hr {
   margin-top: 10px;
 }
-
 .editorial-cbz-th {
   font-size: 23px;
   line-height: 1.3;
@@ -312,7 +264,6 @@ header {
   flex-basis: 54%;
   transition: all 400ms;
 }
-
 .mes-top-ceja {
   background-color: var( --rojo);
   font-size: 20px;
@@ -324,31 +275,15 @@ header {
   position: absolute;
   z-index: 20;
 }
-
-/* .nota-mes-ceja2 {
-  background-color: greenyellow;
-  font-size: 20px;
-  line-height: 1.2;
-  font-weight: bolder;
-  text-align: center;
-  color: red;
-  padding: 0 15px;
-  margin-left: 200px;
-  position: absolute;
-  z-index: 20;
-} */
-
 .mes-top-foto-bx {
   width: 100%;
   float: left;
   overflow: hidden;
   background: var(--morado)
 }
-
 .mes-top-foto-bx img {
   width: 100%;
 }
-
 .mes-top-ceja-th {
   background-color: var(--morado);
   font-size: 14px;
@@ -361,8 +296,7 @@ header {
   display: inline-block;
   z-index: 20;
 }
-
-.mes-top-cbz  {
+.mes-top-cbz {
   font-size: 47px;
   line-height: 1.2;
   margin-bottom: 4px;
@@ -477,7 +411,7 @@ header {
   display: flex;
   flex-wrap: wrap;
 }
-.boxflex {
+.ocar1024 {
   display: none;
 }
 .bnr-vl-01 {
@@ -1053,7 +987,6 @@ header {
   }
   .articulo-prev-card-autor-especialidad {
     font-size: 13px;
-    font-weight: 400;
   }
   /* ARTICULOS Aside */
   .articulos-prev-col-2 {
@@ -1061,12 +994,11 @@ header {
     align-content: center;
     justify-content: space-between;
     margin-bottom: 40px;
-    /* background: #ebb730; */
   }
   .bnr-vl-01 {
     display: none;
   }
-  .boxflex {
+  .ocar1024 {
     flex-basis: 65%;
     display: flex;
     align-content: center;
@@ -1332,83 +1264,93 @@ header {
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 740px){
   .contenedor {
     width: 92vw;
   }
-  .indicador {
-    font-size: 21px;
-    font-weight: 400;      
-    margin-bottom: 15px;
+  /* MES */
+  .mes-cont {
+    display: flex;
+    flex-direction: column;
+  }
+  .mes-col-1 {
+    flex-basis: 100%;
+    padding: 0 5% 0 5%;
+    display: flex;
+    margin-right: unset;
+    margin-bottom: 50px;
+  }
+  .impresa-th-bx {
+    width: 48%;
+    margin-right: 20px;    
+  }
+  .esp-edi-th-bx {
+    margin-left: 20px;
+    align-self: center;
+  }
+  .esp-edi-inda {
+    font-size: 24px;
+  }
+  .especial-cbz-th {
+    font-size: 32px;
+  }
+  .especial-txt-th {
+    font-size: 24px;
   }
   .editorial-cbz-th {
-    font-size: 21px;
+    font-size: 27px;
+  }
+  .mes-top-ceja-th {
+    font-size: 16px;
   }
   .mes-top-cbz {
-    font-size: 43px;
-  } 
+    font-size: 50px;
+  }
+  .mes-top-sumario {
+    font-size: 22px;
+  }
+
+/* BANNER HORIZONTAL */
+.bnr-hz-01 {
+  margin: 70px auto 70px;
+}
+
+/* ARTICULOS */
+.ceja-med {
+  font-size: 14px;
+}
+.articulo-prev-card {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.articulo-prev-foto-bx {
+  margin-bottom: 15px;
+}
+.articulo-prev-cbz-bx {
+  margin: 0 4% 4% 4%;
+}
+.articulos-prev-cbz {
+  font-size: 36px;
+}
+.articulo-prev-card-autor {
+  font-size: 16px; 
+  margin-top: 15px;
+}
+.articulo-prev-card-autor-especialidad {
+  font-size: 16px;
+}
+
+
+
+  
+
 }
 
 @media screen and (max-width: 640px){
   
 }
 
-@media screen and (max-width: 480px){
-  .indicador {
-    font-size: 15px !important;
-  }
-  /* PREVENTIVO COVID */
-  .covid-preventivo {
-    margin: 0px auto 20px;
-  }
-  .covid-preventivo p span {
-    font-size: 16px;
-  }
-  .covid-preventivo p {
-    font-size: 16px;
-  }  
-  /* ESTE MES Preventivos */
-  .mes-col-1 {
-    flex-basis: 40%;
-  }
-  .impr-inda {
-    margin-bottom: 7px;
-  }
-  .esp-edi-inda {
-    font-size: 14.5px;
-    margin: 3px 0 3px;
-  }
-  .especial-cbz-th {
-    font-size: 19px;
-  }
-  .especial-txt-th {
-    font-size: 13px;    
-  }
-  .mes-col-1 hr {
-    margin-top: 5px;
-  }
-  .editorial-cbz-th {
-    font-size: 17px;
-  }
-  .mes-col-2 {
-    width: 60%;
-  }
-  .mes-top-ceja {
-    font-size: 13px;
-    padding: 0 6px;
-  }
-  .mes-top-ceja-th {
-    font-size: 9px;
-    padding: 0 7px; 
-    margin-bottom: 10px;
-  }
-  .mes-top-cbz {
-    font-size: 30px;
-    margin-bottom: 5px;
-  }
-  .mes-top-sumario {
-    font-size: 15px;
-  }
+@media screen and (max-width: 480px){  
   
 }
 
@@ -1416,74 +1358,372 @@ header {
 
 
 
-/* @media screen and (max-width: 900px){  
-  .footer-row-1::after {
-    background: yellowgreen;
+@media screen and (max-width: 900px){
+  .wid::after {
+    color: #777;
     content: '900';
-  }
+  }  
 }
 @media screen and (max-width: 890px){  
-  .footer-row-1::after {
-    background: aqua;
+  .wid::after {
+    color: magenta;
     content: '890';
-  }
+  } 
 }
 @media screen and (max-width: 880px){  
-  .footer-row-1::after {
-    background: blueviolet;
+  .wid::after {
+    color: #777;
     content: '880';
-  }
+  } 
 }
 @media screen and (max-width: 870px){  
-  .footer-row-1::after {
-    background: chocolate;
+  .wid::after {
+    color: magenta;
     content: '870';
-    font-size: 16px;
-  }
+  } 
 }
 @media screen and (max-width: 860px){  
-  .footer-row-1::after {
-    background: lightblue;
+  .wid::after {
+    color: #777;
     content: '860';
-  }
+  } 
 }
 @media screen and (max-width: 850px){  
-  .footer-row-1::after {
-    background: firebrick;
+  .wid::after {
+    color: magenta;
     content: '850';
-  }
+  } 
 }
 @media screen and (max-width: 840px){  
-  .footer-row-1::after {
-    background: hotpink;
+  .wid::after {
+    color: #777;
     content: '840';
-  }
+  } 
 }
 @media screen and (max-width: 830px){  
-  .footer-row-1::after {
-    background: rgb(180, 32, 44);
+  .wid::after {
+    color: magenta;
     content: '830';
-  }
+  } 
 }
 @media screen and (max-width: 820px){  
-  .footer-row-1::after {
-    background: khaki;
+  .wid::after {
+    color: #777;
     content: '820';
-  }
+  } 
 }
 @media screen and (max-width: 810px){  
-  .footer-row-1::after {
-    background: lightgray;
+  .wid::after {
+    color: magenta;
     content: '810';
-  }
+  } 
 }
 @media screen and (max-width: 800px){  
-  .footer-row-1::after {
-    background: magenta;
+  .wid::after {
+    color: #777;
     content: '800';
-  }
-} */
-
+  } 
+}
+@media screen and (max-width: 790px){  
+  .wid::after {
+    color: magenta;
+    content: '790';
+  } 
+}
+@media screen and (max-width: 780px){  
+  .wid::after {
+    color: #777;
+    content: '780';
+  } 
+}
+@media screen and (max-width: 770px){  
+  .wid::after {
+    color: magenta;
+    content: '770';
+  } 
+}
+@media screen and (max-width: 760px){  
+  .wid::after {
+    color: #777;
+    content: '760';
+  } 
+}
+@media screen and (max-width: 750px){  
+  .wid::after {
+    color: magenta;
+    content: '750';
+  } 
+}
+@media screen and (max-width: 740px){  
+  .wid::after {
+    color: #777;
+    content: '740';
+  } 
+}
+@media screen and (max-width: 730px){  
+  .wid::after {
+    color: magenta;
+    content: '730';
+  } 
+}
+@media screen and (max-width: 720px){  
+  .wid::after {
+    color: #777;
+    content: '720';
+  } 
+}
+@media screen and (max-width: 710px){  
+  .wid::after {
+    color: magenta;
+    content: '710';
+  } 
+}
+@media screen and (max-width: 700px){  
+  .wid::after {
+    color: #777;
+    content: '700';
+  } 
+}
+@media screen and (max-width: 690px){  
+  .wid::after {
+    color: magenta;
+    content: '690';
+  } 
+}
+@media screen and (max-width: 680px){  
+  .wid::after {
+    color: #777;
+    content: '680';
+  } 
+}
+@media screen and (max-width: 670px){  
+  .wid::after {
+    color: magenta;
+    content: '670';
+  } 
+}
+@media screen and (max-width: 660px){  
+  .wid::after {
+    color: #777;
+    content: '660';
+  } 
+}
+@media screen and (max-width: 650px){  
+  .wid::after {
+    color: magenta;
+    content: '650';
+  } 
+}
+@media screen and (max-width: 640px){  
+  .wid::after {
+    color: #777;
+    content: '640';
+  } 
+}
+@media screen and (max-width: 630px){  
+  .wid::after {
+    color: magenta;
+    content: '630';
+  } 
+}
+@media screen and (max-width: 620px){  
+  .wid::after {
+    color: #777;
+    content: '620';
+  } 
+}
+@media screen and (max-width: 610px){  
+  .wid::after {
+    color: magenta;
+    content: '610';
+  } 
+}
+@media screen and (max-width: 600px){  
+  .wid::after {
+    color: #777;
+    content: '600';
+  } 
+}
+@media screen and (max-width: 590px){  
+  .wid::after {
+    color: magenta;
+    content: '590';
+  } 
+}
+@media screen and (max-width: 580px){  
+  .wid::after {
+    color: #777;
+    content: '580';
+  } 
+}
+@media screen and (max-width: 570px){  
+  .wid::after {
+    color: magenta;
+    content: '570';
+  } 
+}
+@media screen and (max-width: 560px){  
+  .wid::after {
+    color: #777;
+    content: '560';
+  } 
+}
+@media screen and (max-width: 550px){  
+  .wid::after {
+    color: magenta;
+    content: '550';
+  } 
+}
+@media screen and (max-width: 540px){  
+  .wid::after {
+    color: #777;
+    content: '540';
+  } 
+}
+@media screen and (max-width: 530px){  
+  .wid::after {
+    color: magenta;
+    content: '530';
+  } 
+}
+@media screen and (max-width: 520px){  
+  .wid::after {
+    color: #777;
+    content: '520';
+  } 
+}
+@media screen and (max-width: 510px){  
+  .wid::after {
+    color: magenta;
+    content: '510';
+  } 
+}
+@media screen and (max-width: 500px){  
+  .wid::after {
+    color: #777;
+    content: '500';
+  } 
+}
+@media screen and (max-width: 490px){  
+  .wid::after {
+    color: magenta;
+    content: '490';
+  } 
+}
+@media screen and (max-width: 480px){  
+  .wid::after {
+    color: #777;
+    content: '480';
+  } 
+}
+@media screen and (max-width: 470px){  
+  .wid::after {
+    color: magenta;
+    content: '470';
+  } 
+}
+@media screen and (max-width: 460px){  
+  .wid::after {
+    color: #777;
+    content: '460';
+  } 
+}
+@media screen and (max-width: 450px){  
+  .wid::after {
+    color: magenta;
+    content: '450';
+  } 
+}
+@media screen and (max-width: 440px){  
+  .wid::after {
+    color: #777;
+    content: '440';
+  } 
+}
+@media screen and (max-width: 430px){  
+  .wid::after {
+    color: magenta;
+    content: '430';
+  } 
+}
+@media screen and (max-width: 420px){  
+  .wid::after {
+    color: #777;
+    content: '420';
+  } 
+}
+@media screen and (max-width: 410px){  
+  .wid::after {
+    color: magenta;
+    content: '410';
+  } 
+}
+@media screen and (max-width: 400px){  
+  .wid::after {
+    color: #777;
+    content: '400';
+  } 
+}
+@media screen and (max-width: 390px){  
+  .wid::after {
+    color: magenta;
+    content: '390';
+  } 
+}
+@media screen and (max-width: 380px){  
+  .wid::after {
+    color: #777;
+    content: '380';
+  } 
+}
+@media screen and (max-width: 370px){  
+  .wid::after {
+    color: magenta;
+    content: '370';
+  } 
+}
+@media screen and (max-width: 360px){  
+  .wid::after {
+    color: #777;
+    content: '360';
+  } 
+}
+@media screen and (max-width: 350px){  
+  .wid::after {
+    color: magenta;
+    content: '350';
+  } 
+}
+@media screen and (max-width: 340px){  
+  .wid::after {
+    color: #777;
+    content: '340';
+  } 
+}
+@media screen and (max-width: 330px){  
+  .wid::after {
+    color: magenta;
+    content: '330';
+  } 
+}
+@media screen and (max-width: 320px){  
+  .wid::after {
+    color: #777;
+    content: '320';
+  } 
+}
+@media screen and (max-width: 310px){  
+  .wid::after {
+    color: magenta;
+    content: '310';
+  } 
+}
+@media screen and (max-width: 300px){  
+  .wid::after {
+    color: #777;
+    content: '300';
+  } 
+}
 
 
 /* ----F I N - M E D I A S---- */
