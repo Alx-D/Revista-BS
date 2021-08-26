@@ -998,7 +998,7 @@ header {
   .bnr-vl-01 {
     display: none;
   }
-  .ocar1024 {
+  .ocup1024 {
     flex-basis: 65%;
     display: flex;
     align-content: center;
@@ -1281,10 +1281,11 @@ header {
     margin-bottom: 50px;
   }
   .impresa-th-bx {
-    width: 48%;
+    width: 40%;
     margin-right: 20px;    
   }
   .esp-edi-th-bx {
+    width: 55%;
     margin-left: 20px;
     align-self: center;
   }
