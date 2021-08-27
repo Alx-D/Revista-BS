@@ -638,7 +638,6 @@ header {
 /* EVENTOS PREVENTIVOS */
 #eventos-preventivos {
   margin: 0 auto 60px;
-  /* background: lawngreen; */
 }
 .eventos-prev-cont {
   display: grid;
@@ -1134,6 +1133,9 @@ header {
     width: 85%;
     margin: 30px auto 10px auto;
   }
+  .esp-prev-item {
+    font-size: 18px;
+  }
   .esp-prev-lista-izq, 
   .esp-prev-lista-der {
     margin-right: 0px;
@@ -1201,7 +1203,7 @@ header {
 }
 
 @media screen and (max-width: 920px) {
-    /* SALUD PARA */
+  /* SALUD PARA */
   .spara-prev-card {
     width: 48%;
   }  
@@ -1431,7 +1433,7 @@ header {
     width: 100%;
     margin-bottom: 30px;    
   }
-  /* SALUD PARA VIVIR */
+  /* SALUD PARA VIVIR */  
   .spara-prev-cont {
     flex-direction: column;
   }
@@ -1439,6 +1441,9 @@ header {
     width: 100%;
   }
   /* EVENTOS PREVENTIVOS */
+  #eventos-preventivos {
+    margin: 0 auto 20px;    
+  }
   .eventos-prev-cont {
     display: flex;
     flex-direction: column;
@@ -1483,12 +1488,53 @@ header {
   .articulo-prev-card-autor-especialidad {
     font-size: 15px;
   }  
+  /* EVENTOS PREVENTIVOS */
+  #eventos-preventivos {
+    margin: 0 auto 10px;    
+  }
 }
 
 @media screen and (max-width: 480px){
+  /* MES */
+  .mes-top-ceja-th {
+    font-size: 14px;
+  }
+  .mes-top-cbz {
+    font-size: 36px;
+  }
+  .mes-top-sumario {
+    font-size: 18px;
+  }
+  /* ARTICULOS */
+  .articulos-prev-cbz {
+    font-size: 29px;
+  }
+  /* ESPECIAL */
+  .especial-prev-cbz-bx {
+    width: 97%;
+  }  
+  .especial-prev-sumario {
+    font-size: 24px;  
+  }
+  .esp-prev-item {
+    font-size: 18px;  
+    margin-bottom: 15px;
+  }
+  /* SALUD */
+  .spara-prev-card-cbz-3r,
+  .spara-prev-card-cbz-2r {
+    font-size: 26px;  
+  }
+  /* EVENTOS */
+  .evento-prev-card-cbz {
+    font-size: 20px;
+  }
   /* FOOTER */
   .footer-cont {
     padding: 25px 20px 0 20px;   
+  }
+  .footer-mision {
+    font-size: 18px;
   }
   .contacto-boton-pr {
     width: 130px;    
@@ -1496,7 +1542,10 @@ header {
 }
 
 @media screen and (max-width: 340px){
-  /* FOOTER */  
+  /* FOOTER */
+  .footer-mision {
+    font-size: 17px;
+  }
   .contacto-boton-pr {
     display: none; 
   }
@@ -1509,9 +1558,6 @@ header {
     font-size: 17px;   
   }  
 }
-
-
-
 
 
 @media screen and (max-width: 900px){
