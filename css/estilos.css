@@ -436,7 +436,7 @@ header {
 .mas-leidas h3 {
   font-family: "Nunito Sans", sans-serif;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 1.1;
   font-weight: 400;
   color: black;
   padding: 13px 55px 13px 15px;
@@ -1038,6 +1038,9 @@ header {
   .mas-leidas {
     flex-basis: 32%;
   }
+  .mas-inda {
+    text-align: left;
+  }
   .mas-leidas h3 {
     font-family: "Oswald", sans-serif;
     font-size: 18px;
@@ -1293,6 +1296,20 @@ header {
 }
 
 @media screen and (max-width: 768px) {
+  /* MAS LEIDAS */
+  .articulos-prev-col-2 {
+    flex-direction: column;
+  }  
+  .mas-leidas {
+    margin-bottom: 60px;
+  }
+  .mas-leidas h3 {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 600;
+    padding: 17px 55px 17px 15px;
+  }
   /* FOOTER */
   .footer-cont {
     padding: 25px 50px 0 50px; 
@@ -1424,8 +1441,7 @@ header {
     margin-right: unset;
   }
   .esp-prev-item {
-    font-size: 20px;
-    text-align: center;
+    font-size: 20px; 
     margin-bottom: 20px;
   }
   /* VIDEOS */
@@ -1509,6 +1525,10 @@ header {
   .articulos-prev-cbz {
     font-size: 29px;
   }
+  .articulo-prev-card-autor,
+  .articulo-prev-card-autor-especialidad {
+    font-size: 14px;
+  }
   /* ESPECIAL */
   .especial-prev-cbz-bx {
     width: 97%;
@@ -1560,6 +1580,67 @@ header {
 }
 
 
+
+@media screen and (max-width: 1000px){
+  .wid::after {
+    color: #777;
+    content: '1000';
+  }  
+}
+@media screen and (max-width: 990px){  
+  .wid::after {
+    color: magenta;
+    content: '990';
+  } 
+}
+@media screen and (max-width: 980px){  
+  .wid::after {
+    color: #777;
+    content: '980';
+  } 
+}
+@media screen and (max-width: 970px){  
+  .wid::after {
+    color: magenta;
+    content: '970';
+  } 
+}
+@media screen and (max-width: 960px){  
+  .wid::after {
+    color: #777;
+    content: '960';
+  } 
+}
+@media screen and (max-width: 950px){  
+  .wid::after {
+    color: magenta;
+    content: '950';
+  } 
+}
+@media screen and (max-width: 940px){  
+  .wid::after {
+    color: #777;
+    content: '940';
+  } 
+}
+@media screen and (max-width: 930px){  
+  .wid::after {
+    color: magenta;
+    content: '930';
+  } 
+}
+@media screen and (max-width: 920px){  
+  .wid::after {
+    color: #777;
+    content: '920';
+  } 
+}
+@media screen and (max-width: 910px){  
+  .wid::after {
+    color: magenta;
+    content: '9810';
+  } 
+}
 @media screen and (max-width: 900px){
   .wid::after {
     color: #777;
