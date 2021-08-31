@@ -1082,7 +1082,7 @@ header {
     white-space: nowrap;
   }
   .ediciones-carrusel-banda>div {
-    float: unset;
+    float: none;
     display: inline-block;
   }
   /* EVENTOS */
@@ -1104,7 +1104,8 @@ header {
     white-space: nowrap;
   }
   .corto-carrusel-banda>div {
-    float: unset;
+    float: none;
+    /* float: unset; */
     display: inline-block;
   }
   /* FOOTER */
@@ -1382,26 +1383,31 @@ header {
   .impresa-th-bx {
     grid-column: 3/4;
     grid-row: 1/3;
-    margin-left: 30px; 
+    margin-left: 30px;
   }
-  .mes-hr-1 {
+  .mes-hr-1,
+  .mes-hr-2 {
     display: none;
   }
   .esp-th-bx {
     grid-column: 1/3;
     grid-row: 1/2;
+    margin-bottom: 5px;
+  }
+  .mes-hr-1 {
+    display: none;
   }
   .edi-th-bx {
     grid-column: 1/3;
     grid-row: 2/3;
   }
   .ind-impr {
-    font-size: 24px;
+    font-size: 22px;
     margin-bottom: 10px;
     text-align: right;
-  }
+  }  
   .esp-edi-inda {
-    font-size: 24px;
+    font-size: 23px;
   }
   .especial-cbz-th {
     font-size: 32px;
@@ -1493,6 +1499,9 @@ header {
 
 @media screen and (max-width: 680px){
   /* MES */ 
+  .ind-impr {
+    font-size: 21px; 
+  }
   .especial-cbz-th {
     font-size: 29px;
   }
@@ -1527,9 +1536,11 @@ header {
 
 @media screen and (max-width: 580px) {
   /* MES */
+  .mes-col-1 {
+    margin-bottom: 40px;
+  }
   .ind-impr {
-    font-size: 22px;
-    margin-bottom: 10px;
+    font-size: 20px;
   }  
   .especial-cbz-th {
     font-size: 27px;
@@ -1545,7 +1556,7 @@ header {
 @media screen and (max-width: 520px) {
   /* MES */
   .ind-impr {
-    font-size: 21px;
+    font-size: 19px;
   }
   .esp-edi-inda {
     font-size: 20px;
@@ -1562,19 +1573,16 @@ header {
 }
 
 @media screen and (max-width: 480px){
-  /* MES */
-  .mes-col-1 {    
-    grid-template-rows: repeat(3, auto);
-    margin-bottom: 60px;
-  }
+  /* MES */  
   .impresa-th-bx {
     grid-column: 3/4;
-    grid-row: 1/3;
-    margin-left: 30px; 
+    grid-row: 1/2;
+    margin-left: 30px;
   }
   .esp-th-bx {
     grid-column: 1/3;
     grid-row: 1/3;
+    align-self: center;
   }
   .edi-th-bx {
     grid-column: 1/4;
@@ -1582,18 +1590,15 @@ header {
   }
   .ind-impr {
     font-size: 19px;
-  }
-  .esp-edi-inda {
-    font-size: 18px;
-  }
+  }  
   .especial-cbz-th {
-    font-size: 24px;
+    font-size: 27px;
   }
   .especial-txt-th {
-    font-size: 17px;
+    font-size: 22px;
   }
   .editorial-cbz-th {
-    font-size: 18px;
+    font-size: 23px;
   }
   .mes-top-ceja-th {
     font-size: 14px;
@@ -1644,7 +1649,57 @@ header {
   }  
 }
 
+@media screen and (max-width: 420px) {
+  /* MES */
+  .ind-impr {
+    font-size: 18px;
+  }   
+}
+
+@media screen and (max-width: 400px) {
+  /* MES */
+  .ind-impr {
+    font-size: 17px;
+  }
+    .especial-txt-th {
+    font-size: 17px;
+  }  
+}
+
+@media screen and (max-width: 360px) {
+  /* COVID PREV */
+  .covid-preventivo {
+    margin: 0px auto 20px;
+  }
+  /* MES */
+  .ind-impr {
+    font-size: 16px;
+  }
+  .especial-cbz-th {
+    font-size: 24px;
+  }
+  .editorial-cbz-th {
+    font-size: 19px;
+  }
+}
+
 @media screen and (max-width: 340px){
+  /* MES */
+  .ind-impr {
+    font-size: 15px;
+  }
+  .esp-edi-inda {
+    font-size: 18px;
+  }
+  .especial-cbz-th {
+    font-size: 23px;
+  }
+  .especial-txt-th {
+    font-size: 17px;
+  }
+  .editorial-cbz-th {
+    font-size: 19px;
+  }
   /* FOOTER */
   .footer-mision {
     font-size: 17px;
@@ -1661,7 +1716,6 @@ header {
     font-size: 17px;   
   }  
 }
-
 
 
 @media screen and (max-width: 1000px){
