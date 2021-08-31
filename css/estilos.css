@@ -1408,6 +1408,7 @@ header {
   }  
   .esp-edi-inda {
     font-size: 23px;
+    margin: 0 0 4px;
   }
   .especial-cbz-th {
     font-size: 32px;
@@ -1686,16 +1687,17 @@ header {
 @media screen and (max-width: 340px){
   /* MES */
   .ind-impr {
-    font-size: 15px;
+    font-size: 14px;
   }
   .esp-edi-inda {
     font-size: 18px;
-  }
+    margin: 0px 0 2px;
+  }  
   .especial-cbz-th {
     font-size: 23px;
   }
   .especial-txt-th {
-    font-size: 17px;
+    font-size: 16px;
   }
   .editorial-cbz-th {
     font-size: 19px;
