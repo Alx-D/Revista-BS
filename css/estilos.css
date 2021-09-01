@@ -283,7 +283,7 @@ header {
   color: white;
   padding: 0 15px;
   position: absolute;
-  z-index: 20;
+  z-index: 5;
 }
 .mes-top-foto-bx {
   width: 100%;
@@ -304,7 +304,7 @@ header {
   padding: 0 10px;
   margin-bottom: 10px;
   display: inline-block;
-  z-index: 20;
+  z-index: 5;
 }
 .mes-top-cbz {
   font-size: 47px;
@@ -398,7 +398,7 @@ header {
   color: white;
   padding: 0 0.4375rem;
   position: absolute;
-  z-index: 20;
+  z-index: 5;
 }
 .articulos-prev-cbz {
   font-size: 35px;
@@ -612,12 +612,12 @@ header {
 }
 #ediciones-carrusel-cont .ediciones-flecha-izq {
   position: absolute;
-  z-index: 10;
+  z-index: 6;
 }
 #ediciones-carrusel-cont .ediciones-flecha-der {
   position: absolute;
   right: 0px;
-  z-index: 10;
+  z-index: 6;
 }
 .ediciones-carrusel-banda {
   width: 4000px;
@@ -705,12 +705,12 @@ header {
 }
 #corto-carrusel-cont .corto-flecha-izq {
   position: absolute;
-  z-index: 10;
+  z-index: 6;
 }
 #corto-carrusel-cont .corto-flecha-der {
   position: absolute;
   right: 0px;
-  z-index: 10;
+  z-index: 6;
 }
 .corto-carrusel-banda {
   width: 4000px;
@@ -758,8 +758,8 @@ header {
 }
 .footer-row-2 {
   width: 98vw;
-  height: 240px;
-  background: var(--gris-claro)
+  height: auto;
+  background: var(--gris-claro);
 }
 .footer-cont {
   margin: 0 auto;
@@ -861,6 +861,21 @@ header {
   position: relative;
   top: 1px;
 }
+.duarte-firma {
+  width: 260px;
+  margin: 50px auto 0;
+  font-family: sans-serif;
+  font-size: 13px;
+  line-height: 1.8;
+  color: #fff;
+  text-align: center;
+  background: #28539c;  
+  border-radius: 8px;
+}
+.duarte-firma a {
+  color: #fff;
+}
+
 
 /* ------M E D I A S------- */
 @media screen and (max-width: 1024px) {
@@ -1054,10 +1069,10 @@ header {
     .fa-bars, .fa-search {
       display: block;
       visibility: visible;
-      font-size: 2rem;
+      font-size: 32px;
       align-self: center;
       color: #333;
-      z-index: 22;
+      z-index: 9;
     }
     .logo-mobile-bx {
       width: 50%;
@@ -1095,7 +1110,7 @@ header {
       left: -400px;
       position: fixed;
       background: var(--verde-logo-1);
-      z-index: 30;
+      z-index: 10;
       transition: 1s;
     }
     .menu-mobile ul {
@@ -1103,15 +1118,15 @@ header {
     }
     .menu-mobile li {
       display: block;
-      margin-bottom: 35px;
+      margin-bottom: 27px;
     }
     .menu-mobile .fas {
       display: block;
       color: #fff;
-      margin: 25px 0 0 25px;
+      margin: 20px 0 0 20px;
       font-size: 22px;
       cursor: pointer;
-      z-index: 35;
+      z-index: 11;
     }
     .menu-mobile ul li a {
       font-family: "Oswald", sans-serif;
@@ -1375,6 +1390,10 @@ header {
   .contenedor {
     width: 92vw;
   }
+  /* HEADER MOBILE */
+  .fa-bars, .fa-search {
+    font-size: 30px;
+  }
   /* MES */
   .mes-cont {
     display: flex;
@@ -1546,6 +1565,18 @@ header {
 }
 
 @media screen and (max-width: 580px) {
+  /* HEADER MOBILE */
+  .fa-bars, .fa-search {
+    font-size: 28px;
+  }
+  .logo-mobile-bx {
+    width: 60%;
+    margin: 0 auto 10px;
+  }
+  .lema-mobile-bx {
+    width: 70%;
+    margin: 0 auto 10px;
+  }
   /* MES */
   .mes-col-1 {
     margin-bottom: 40px;
@@ -1564,7 +1595,7 @@ header {
   }
   .editorial-cbz-th {
     font-size: 22px;
-  }
+  }  
 }
 
 @media screen and (max-width: 520px) {
@@ -1668,6 +1699,10 @@ header {
 }
 
 @media screen and (max-width: 420px) {
+  /* HEADER MOBILE */
+  .fa-bars, .fa-search {
+    font-size: 26px;
+  }
   /* MES */
   .ind-impr {
     font-size: 18px;
@@ -1684,7 +1719,11 @@ header {
   }  
 }
 
-@media screen and (max-width: 360px) {  
+@media screen and (max-width: 360px) {
+  /* HEADER MOBILE */
+  .fa-bars, .fa-search {
+    font-size: 25px;
+  }
   /* MES */
   .impresa-th-bx {
     margin-left: 15px;    
@@ -1704,6 +1743,17 @@ header {
 }
 
 @media screen and (max-width: 340px){
+  /* HEADER MOBILE */
+  .fa-bars, .fa-search {
+    font-size: 24px;
+  }
+  .logo-mobile-bx {
+    width: 65%;
+    margin: 0 auto 7px;
+  }
+  .lema-mobile-bx {
+    width: 75%; 
+  }
   /* MES */
   .ind-impr {
     font-size: 14px;
