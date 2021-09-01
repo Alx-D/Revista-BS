@@ -48,10 +48,26 @@
       <!-- <div class="header-leyenda-femeson">
         <p class="f1">Órgano de vinculación y divulgación de la Federación Médica de Sonora</p>
       </div> -->
+
+      <nav>
+        <div class="menu-mobile" id="menu-enlaces">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Revista</a></li>
+            <li><a href="#">Artículos por tema</a></li>
+            <li><a href="#">Artículos por especialidad médica</a></li>
+            <li><a href="#">Directorio médico</a></li>
+            <li><a href="#">Femeson</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>      
     </div>
 
     <!-- HEADER DESKTOP -->
     <div class="header-cont">
+
       <div class="header-col-izq">
         <div class="revista-bs-logo-bx">
           <a href="index.html">
@@ -67,7 +83,10 @@
               <i class="fab fa-facebook fa-lg"></i> Revista BS
             </a>
           </div>
-          <div class="femeson-logo-bx"><img src="imgs/femeson-escudo.png" alt=""></div>
+          <p class="f2 femeson-leyenda">Órgano de vinculación y divulgación de <br> la Federación Médica de Sonora</p>
+          <div class="femeson-logo-bx">
+            <img src="imgs/femeson-escudo.png" alt="">
+          </div>
         </div>
 
         <div class="header-row-2">
@@ -82,15 +101,14 @@
         </div>
 
         <nav>
-          <div class="menu" id="menu-enlaces">
-            <i class="fas fa-times" onclick="hideMenu()"></i>
+          <div class="menu-desktop">            
             <ul>
               <li><a href="#">Inicio</a></li>
               <li><a href="#">Revista</a></li>
               <li><a href="#">Artículos por tema</a></li>
               <li><a href="#">Artículos por especialidad médica</a></li>
               <li><a href="#">Directorio médico</a></li>
-              <li><a href="#">Femeson</a></li>
+              <!-- <li><a href="#">Femeson</a></li> -->
               <li><a href="#">Contacto</a></li>
             </ul>
           </div>
@@ -106,7 +124,7 @@
     <a href="#">
       <!-- <p><i class="fas fa-exclamation-circle fa-lg"></i><span> COVID-19:</span> INFORMACIÓN IMPORTANTE, ARTÍCULOS
         RELACIONADOS</p> -->
-        <p>avance al martes 31 11am</p>
+        <p>avance al martes 31 5pm</p>
     </a>
   </div>
 
@@ -915,7 +933,7 @@
       menu_enlaces.style.left = "0";
     }
     function hideMenu() {
-      menu_enlaces.style.left = "-200px";
+      menu_enlaces.style.left = "-400px";
     }
   </script>
 
