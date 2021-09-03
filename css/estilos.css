@@ -465,12 +465,20 @@ header {
 .esp-prev-col-1 {
   flex-basis: 55%;
 }
-.esp-cbz-202108 {
+.esp-cbz-202108-01 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 55px;
+  line-height: 1;
+  color: #f7df7d;
+  margin-top: 10px;
+}
+.esp-cbz-202108-02 {
   font-family: 'Times New Roman', Times, serif;
   font-size: 65px;
   line-height: 1;
+  font-weight: 600;
   color: #f7df7d;
-  margin: 10px 0 15px;
+  margin-bottom: 15px;
 }
 .especial-prev-cbz-bx {
   width: 100%;
@@ -1002,9 +1010,17 @@ header {
     display: inline;
   }
   /* ESPECIAL */
+  .esp-cbz-202108-01 {
+    font-size: 45px;
+    margin-top: 10px;
+  }
+  .esp-cbz-202108-02 {
+    font-size: 55px;
+    margin-bottom: 15px;
+  }
   .especial-prev-sumario {
     font-size: 22px;
-  }
+  }  
   /* SALUD PARA */
   .bnr-vl-02 {
     display: block;
@@ -1148,10 +1164,15 @@ header {
   .esp-prev-col-1 {
     width: 100%;
   }
-  .esp-cbz-202108 {
+  .esp-cbz-202108-01 {
+    font-size: 62px;
     text-align: center;
-    font-size: 85px;
-    margin: 10px 0 25px;
+    margin-top: 10px;
+  }
+  .esp-cbz-202108-02 {
+    font-size: 72px;
+    text-align: center;
+    margin-bottom: 20px;
   }
   .especial-prev-sumario {
     text-align: center;
@@ -1492,6 +1513,12 @@ header {
     width: 100%;
     margin-right: unset;
   }
+  .esp-cbz-202108-01 {
+    font-size: 60px;  
+  }
+  .esp-cbz-202108-02 {
+    font-size: 70px;
+  }
   .esp-prev-item {
     text-align: center;
     font-size: 19px;
@@ -1556,6 +1583,14 @@ header {
   }
   .articulo-prev-card-autor-especialidad {
     font-size: 15px;
+  }
+  /* ESPECIAL */
+  .esp-cbz-202108-01 {
+    font-size: 55px;  
+  }
+  .esp-cbz-202108-02 {
+    font-size: 65px;
+    margin-bottom: 15px;
   }
   /* EVENTOS PREVENTIVOS */
   #eventos-preventivos {
