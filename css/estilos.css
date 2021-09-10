@@ -522,6 +522,9 @@ header {
 .esp-prev-item:hover {
   color: #f97f54;
 }
+.br-none {
+  display: none;
+}
 .esp-prev-col-2 {
   flex-basis: 43%;
   display: flex;
@@ -536,7 +539,7 @@ header {
 .esp-prev-foto-bx img {
   height: 100%;
 }
-.bnr-esp, .br-none {
+.bnr-esp {
   display: none;
 }
 /* VIDEOS */
@@ -1007,9 +1010,6 @@ header {
   .bnr-esp {
     display: block;
   }
-  .br-inline {
-    display: inline;
-  }
   /* ESPECIAL */
   .esp-cbz-202108-01 {
     font-size: 45px;
@@ -1178,10 +1178,7 @@ header {
   .especial-prev-sumario {
     text-align: center;
     font-size: 28px;  
-  }
-  .br-inline {
-    display: none;
-  }
+  } 
   .esp-prev-lista-bx {
     width: 85%;
     margin: 30px auto 10px auto;
@@ -1505,7 +1502,7 @@ header {
   }
   .articulo-prev-card {
     width: 100%;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
   }
   .articulo-prev-foto-bx {
     margin-bottom: 15px;
@@ -1708,6 +1705,7 @@ header {
   }
   /* FOOTER */
   .duarte-firma {
+    width: 225px;
     font-size: 11px;
   }
 }
@@ -1761,12 +1759,19 @@ header {
   .articulos-prev-cbz {
     font-size: 29px;
   }
-  .articulo-prev-card-autor, .articulo-prev-card-autor-especialidad {
+  .articulo-prev-card {
+    margin-bottom: 35px;
+  }
+  .articulo-prev-card-autor, 
+  .articulo-prev-card-autor-especialidad {
     font-size: 14px;
   }
   /* ESPECIAL */
   .especial-prev-cbz-bx {
     width: 97%;
+  }
+  .br-visible480 {
+    display: inline;
   }
   .esp-cbz-202108-01 {
     font-size: 40px;
@@ -1839,6 +1844,9 @@ header {
     font-size: 20px;
     margin-bottom: -15px;
   }
+  .br-visible400 {
+    display: inline;
+  }
 }
 
 @media screen and (max-width: 360px) {
@@ -1864,6 +1872,7 @@ header {
   }
   /* FOOTER */
   .duarte-firma {
+    width: 200px;
     font-size: 10px;
   }
 }
@@ -1896,6 +1905,10 @@ header {
   }
   .editorial-cbz-th {
     font-size: 19px;
+  }
+  /* ESPECIAL */
+  .br-visible340 {
+    display: inline;
   }
   /* FOOTER */
   .footer-mision {
