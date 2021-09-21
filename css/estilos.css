@@ -185,6 +185,10 @@ header {
   padding: 4%;
   margin-bottom: 10px;
 }
+.menu-desktop {
+  width: 98%;
+  margin: 0 auto;
+}
 .menu-desktop ul {
   display: flex;
   justify-content: space-between;
@@ -193,6 +197,7 @@ header {
   display: inline-block;
 }
 .menu-desktop li a {
+  /* font-family: "Nunito Sans", sans-serif; */
   font-family: "Oswald", sans-serif;
   font-size: 18px;
   font-weight: 400;
