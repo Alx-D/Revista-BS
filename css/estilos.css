@@ -1163,6 +1163,12 @@ header {
   .covid-preventivo {
     margin: 0px auto 40px;
   }
+  .covid-preventivo p span {
+    font-size: 23px;
+  }
+  .covid-preventivo p {
+    font-size: 23px;
+  }
   /* ESPECIAL */
   .esp-prev-cont {
     flex-direction: column;
@@ -1257,6 +1263,11 @@ header {
 }
 
 @media screen and (max-width: 920px) {  
+  /* COVID PREV */
+  .covid-preventivo p span,
+  .covid-preventivo p    {
+    font-size: 21px;
+  }
   /* SALUD PARA */
   .spara-prev-card {
     width: 48%;
@@ -1337,6 +1348,11 @@ header {
 }
 
 @media screen and (max-width: 820px) {
+  /* COVID PREV */
+  .covid-preventivo p span,
+  .covid-preventivo p    {
+    font-size: 18px;
+  }
   /* MES */
   .ind-impr {
     font-size: 23px;
@@ -1815,6 +1831,11 @@ header {
   .fa-bars, .fa-search {
     font-size: 26px;
   }
+  /* COVID PREV */
+  .covid-preventivo p span,
+  .covid-preventivo p    {
+    font-size: 16px;
+  }
   /* MES */
   .ind-impr {
     font-size: 18px;
@@ -1859,6 +1880,11 @@ header {
   .fa-bars, .fa-search {
     font-size: 25px;
   }
+  /* COVID PREV */
+  .covid-preventivo p span,
+  .covid-preventivo p    {
+    font-size: 15px;
+  }  
   /* MES */
   .impresa-th-bx {
     margin-left: 15px;
