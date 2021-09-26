@@ -339,9 +339,9 @@ header {
 .bnr-vl-250x250 img {
   width: 100%;
 }
-/* .mb-70 {
+.mb-70 {
   margin-bottom: 70px;
-} */
+}
 .clear {
   clear: both;
 }
@@ -405,7 +405,7 @@ header {
   font-size: 18px;
   text-transform: uppercase;
   color: #0094d7;
-  margin-bottom: 10px;  
+  margin-bottom: 8px;  
 }
 .articulos-prev-cbz {
   font-size: 35px;
@@ -988,8 +988,8 @@ header {
     font-size: 30px;
   }
   .articulos-prev-blz {
-    font-size: 16px;
-    margin-bottom: 8px;  
+    font-size: 17px;
+    margin-bottom: 7px;  
   }
   .articulos-prev-card-autor-especialidad {
     font-size: 13px;
@@ -1746,6 +1746,11 @@ header {
   .mes-top-sumario {
     padding: 0 10px 0 10px;
   }
+  /* ARTICULOS */
+  .articulos-prev-blz {
+    font-size: 16px;
+    margin-bottom: 6px;  
+  }
   /* ESPECIAL */
   /* ESP 202108 */
   /* .esp-cbz-202108-01 {
@@ -1909,6 +1914,10 @@ header {
   /* ARTICULOS */
   .ceja-med {
     font-size: 12px;
+  }
+  .articulos-prev-blz {
+    font-size: 15px;
+    margin-bottom: 5px;  
   }
   .mas-leidas h3 {
     font-size: 18px;
@@ -2651,7 +2660,7 @@ header {
 }
 
 /* NOTA */
-#col-6 {
+.col-6 {
   width: 60%;
   float: left;
 }
@@ -2701,9 +2710,13 @@ header {
 } */
 
 /* NOTA ASIDE  */
-aside {
-  width: 420px;
+.aside-editorial {
+  width: 40%;
   float: right;
+}
+.aside-bnrs {
+  float: right;
+  width: 75%;
 }
 
 /* RECUADROS COLOR Y GRIS*/
@@ -2862,7 +2875,10 @@ th {
 .contacto-autor {
   width: 350px;
   /* height: 300px; */
-  margin-top: 95px;
+  /* margin-top: 95px; */
+  bottom: 0px;
+  align-self: flex-end;
+  justify-self: flex-end;
   float: right;
   background: #344497;
   padding: 25px;
@@ -2950,13 +2966,8 @@ th {
 }
 
 /* ANTERIORES */
-#anteriores {
-  width: 100%;
-  height: 120px;
-  /* background: #ebb730; */
-}
-.anteriores-margen {
-  margin-bottom: 25px;
+.anteriores {
+  margin-bottom: 70px;
 }
 .anteriores-bx {
   width: 100%;
@@ -2976,6 +2987,7 @@ th {
   border-right: 2px solid;
   height: 55px;
 }
+
 
 /* COLORES TEXTO */
 .morado-txt {
