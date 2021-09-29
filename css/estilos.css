@@ -1068,6 +1068,7 @@ header {
 }
 .descanso {
   font-size: 22px;
+  line-height: 1.2;
   font-weight: 700; 
   color: var(--verde-logo-1);
   margin-top: 40px;
@@ -1076,10 +1077,14 @@ header {
 .lista-letra {
   list-style-type: lower-latin;
   margin-right: 50px;
+  line-height: 1.5;
+  margin-bottom: 5px;
 }
 .lista-disco {
   list-style-type: disc;
   margin-right: 50px;
+  line-height: 1.5;
+  margin-bottom: 5px;
 }
 .texto-resaltado-bx {
   width: 90%;
