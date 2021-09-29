@@ -812,9 +812,6 @@ header {
 .footer-BSlogo-bx img {
   width: 100%;
 }
-.contacto-boton-pr {
-  display: none;
-}
 .anunciese, .footer-tel {
   font-size: 19px;
   margin-bottom: 5px;
@@ -874,6 +871,7 @@ header {
   top: 1px;
 }
 .contacto-boton-pr {
+  display: none;
   width: 150px;
   height: 70px;
   border: 3px solid #eee;
@@ -925,13 +923,11 @@ header {
 }
 /* CABEZA NOTA */
 .ceja-gde {
-  width: 87px;
-  height: 27px;
   font-size: 16px;
+  line-height: 1.2;
   text-transform: uppercase;
   text-align: center;
-  color: white;
-  line-height: 27px;
+  color: white;  
   padding: 0 13px;
   margin-right: 15px;
   display: inline;
@@ -943,6 +939,7 @@ header {
 }
 .editorial-cbz {
   font-size: 50px;
+  line-height: 1.2;
   font-weight: 600;
   margin-top: 20px;
   margin-bottom: 25px;
@@ -2433,6 +2430,43 @@ th {
   .contacto-boton-pr {
     width: 130px;
   }
+  /* CABEZA NOTA */
+  .ceja-gde {
+    font-size: 14px;
+  }
+  .fecha {
+    font-size: 13px;
+  }
+  .editorial-cbz {
+    font-size: 40px;
+  }
+  /* COMPARTIR */
+  .whatsapp-compartir,
+  .facebook-compartir {
+    font-size: 22px;
+  } 
+  .envelope-compartir {
+    font-size: 20px;
+  }
+  .link-compartir {
+    font-size: 17px;
+  }
+  /* CREDITO */
+  .credito-autor {
+    font-size: 13px;
+  }
+  /* TEXTO */
+  .texto {
+    font-size: 16px;
+  }
+  .texto p {
+    margin-bottom: 7px;
+  }
+  .descanso {
+    font-size: 19px;
+    margin-top: 30px;
+    margin-bottom: 5px;
+  }
 }
 
 @media screen and (max-width: 420px) {
@@ -2595,7 +2629,7 @@ th {
   }
   .contacto-boton {
     display: block;
-    width: 65%;
+    width: 55%;
     margin-left: 0px;
   }
   .footer-email {
