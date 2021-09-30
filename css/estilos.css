@@ -910,16 +910,17 @@ header {
   color: #fff;
 }
 
-/* -------------------------------------
---------------------------------------- */
+/* ------------------------------
+------------------------------ */
 
 /* NOTA */
 .nota-bx {
-  display: flex;
+  display: grid;
+  grid-template-columns: 60% 40%;
 }
 .col-6 {
-  width: 60%;
-  float: left;  
+  grid-column: 1/2;
+  width: 100%;  
 }
 /* CABEZA NOTA */
 .ceja-gde {
@@ -1112,8 +1113,8 @@ header {
 
 /* NOTA ASIDE  */
 .aside-editorial {
-  width: 40%;
-  float: right;
+  width: 100%;
+  position: relative;
 }
 .aside-bnrs {
   float: right;
@@ -1278,8 +1279,11 @@ th {
 /* CONTACTO */
 .contacto-bx {
   width: 80%;
-  margin-top: 300px;
+  /* margin-top: 300px; */
   float: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
   background: #344497;
   padding: 25px;
   border-radius: 0px 25px 25px 25px;
@@ -1764,7 +1768,7 @@ th {
   .contacto-boton {
     margin-left: 30px;
   }
-  /* RECUADRO 980 */
+  /* RECUADRO */
   .recuadro-gris-cbz {
     font-size: 23px;
   }
@@ -2169,13 +2173,11 @@ th {
   #eventos-preventivos {
     margin: 0 auto 10px;
   }
-    /* EDITORIAL 680*/
+    /* EDITORIAL */
     .nota-bx {
-      flex-direction: column;
-    }
-    .col-6 {
-      width: 100%;  
-    }
+      grid-template-columns: 100%;
+    }   
+    /* ASIDE EDITORIAL */
     .aside-editorial {
       width: 100%;  
     }
@@ -2190,12 +2192,7 @@ th {
       float: none;
       display: table;     
       margin: 25px auto 35px auto;      
-    }
-    .contacto-bx {
-      width: auto;
-      float: left;
-      margin-top: 25px;
-    }
+    }    
     .aside-bnrs {
       display: flex;
       width: 90%;
@@ -2208,8 +2205,12 @@ th {
       margin: 0
     }
     .contacto-bx {
-      margin-bottom: 60px;      
-    }
+      width: auto;
+      float: left;
+      position: unset;
+      margin-top: 25px;
+      margin-bottom: 60px;
+    }    
     .anteriores-bx a {
       font-size: 20px;
       line-height: 1.2;
