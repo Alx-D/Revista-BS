@@ -5,28 +5,22 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
-
 ol, ul {
   list-style: none;
 }
-
 a {
   text-decoration: none;
   color: black;
 }
-
 .f1 {
   font-family: "Nunito Sans", sans-serif;
 }
-
 .f2 {
   font-family: "Oswald", sans-serif;
 }
-
 .f3 {
   font-family: "Roboto Condensed", sans-serif;
 }
-
 .guion {
   -webkit-hyphens: auto;
   -moz-hyphens: auto;
@@ -34,7 +28,6 @@ a {
   hyphens: auto;
   word-wrap: break-word;
 }
-
 :root {
   --naranja-claro: #ebb730;
   --naranja-oscuro: #db813f;
@@ -46,8 +39,9 @@ a {
   --rojo: #b3272d;
   --verde-logo-1: #275c6d;
   --gris-claro: #e6e6de;
+  --gris-medio: #bbbbae;
+  --gris-oscuro: #6d6d70;
 }
-
 .rojoc {
   background: #c3242b;
 }
@@ -301,7 +295,6 @@ header {
   width: 100%;
 }
 .mes-top-ceja-th {
-  background-color: var(--morado);
   font-size: 14px;
   line-height: 1.6;
   font-weight: bolder;
@@ -338,6 +331,12 @@ header {
   float: right;
 }
 .bnr-vl-250x250 img {
+  width: 100%;
+}
+.bnr-250x250 {
+  width: 100%;
+}
+.bnr-250x250 img {
   width: 100%;
 }
 .mb-70 {
@@ -846,7 +845,7 @@ header {
   display: inline-block;
   margin-right: 5px;
 }
-.contacto-boton {
+.btn-siguenos {
   width: 170px;
   height: 70px;
   border: 3px solid #eee;
@@ -858,19 +857,19 @@ header {
   padding-top: 6px;
   box-shadow: 5px 6px 10px 0px #c2c2c2;
 }
-.contacto-boton p {
+.btn-siguenos p {
   font-family: "Nunito Sans", sans-serif;
   font-size: 18px;
   color: #fff;
 }
-.contacto-boton:hover {
+.btn-siguenos:hover {
   background-color: #2d69bd;
 }
-.contacto-boton:active {
+.btn-siguenos:active {
   position: relative;
   top: 1px;
 }
-.contacto-boton-pr {
+.btn-siguenos-pr {
   display: none;
   width: 150px;
   height: 70px;
@@ -883,15 +882,15 @@ header {
   padding-top: 6px;
   box-shadow: 5px 6px 10px 0px #c2c2c2;
 }
-.contacto-boton-pr p {
+.btn-siguenos-pr p {
   font-family: "Nunito Sans", sans-serif;
   font-size: 18px;
   color: #fff;
 }
-.contacto-boton-pr:hover {
+.btn-siguenos-pr:hover {
   background-color: #2d69bd;
 }
-.contacto-boton-pr:active {
+.btn-siguenos-pr:active {
   position: relative;
   top: 1px;
 }
@@ -913,14 +912,19 @@ header {
 /* ------------------------------
 ------------------------------ */
 
-/* NOTA */
+/* NOTAS */
 .nota-bx {
   display: grid;
   grid-template-columns: 60% 40%;
 }
 .col-6 {
   grid-column: 1/2;
-  width: 100%;  
+  width: 100%;
+}
+.col-4 {
+  grid-column: 2/3;
+  width: 100%; 
+  position: relative; 
 }
 /* CABEZA NOTA */
 .ceja-gde {
@@ -938,6 +942,16 @@ header {
   display: inline;
   color: #66666e;
 }
+.balazo { 
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 25px;
+  color: var(--gris-oscuro);
+}
+.balazo span {
+  font-weight: 500;
+}
 .editorial-cbz {
   font-size: 50px;
   line-height: 1.2;
@@ -945,19 +959,7 @@ header {
   margin-top: 20px;
   margin-bottom: 25px;
 }
-.balazo {
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 21.6px;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin-top: 25px;
-  color: #656565;
-}
-.balazo span {
-  font-weight: 500;
-}
-.cabeza {
-  font-family: "Oswald", sans-serif;
+.cabeza-1 {
   font-size: 64px;
   line-height: 1.2;
   font-weight: 400;
@@ -965,16 +967,19 @@ header {
   margin-top: 15px;
   margin-bottom: 15px;
 }
-.sumario {
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 22px;
-  font-weight: 500;
+.sumario-1 {
+  font-size: 24px;
   line-height: 1.5;
+  font-weight: 500;
   margin-bottom: 25px;
-  color: #656565;
+  color: var(--gris-oscuro);
 }
-.nota-fototop {
-  margin-bottom: 10px;
+.nota-foto-top-bx {
+  width: 90%;
+  margin-bottom: 20px;
+}
+.nota-foto-top-bx img {
+  width: 100%;
 }
 
 /* COMPARTIR */
@@ -1024,24 +1029,24 @@ header {
 }
 
 /* CREDITO */
-.credito-foto-bx {
+.credito-bx {
   width: 100%;
   height: 72px;
   display: flex;
   align-items: center;
   margin-bottom: 35px;
 }
-.credito-bx {
+.credito-editorial-bx {
   margin-bottom: 35px;
 }
-.credito-foto {
+.credito-foto-bx {
   width: 72px;
   height: 72px;
   border-radius: 50%;
   overflow: hidden;
   margin-right: 15px;
 }
-.credito-foto img {
+.credito-foto-bx img {
   width: 100%;
 }
 .credito-autor {
@@ -1064,6 +1069,10 @@ header {
 .texto p {
   margin-bottom: 10px;
 }
+.texto p span {
+  font-size: 20px;
+  font-weight: 700;
+}
 .descanso {
   font-size: 22px;
   line-height: 1.2;
@@ -1072,33 +1081,26 @@ header {
   margin-top: 40px;
   margin-bottom: 5px;
 }
-.lista-letra {
-  list-style-type: lower-latin;
-  margin-right: 50px;
-  line-height: 1.5;
-  margin-bottom: 5px;
-}
-.lista-disco {
-  list-style-type: disc;
-  margin-right: 50px;
-  line-height: 1.4;
-  margin-bottom: 5px;
-}
 .texto-resaltado-bx {
   width: 90%;
   padding: 25px;
   background: var(--gris-claro);
   margin-top: 30px;
 }
-.texto-resaltado {
-  font-size: 18px;
-  line-height: 30px;
-  padding: 25px;
-  background: var(--gris-claro);
-  margin-top: 30px;
-}
 .texto li {
-  margin-left: 15px;
+  margin-left: 30px;
+}
+.lista-letra-nota {
+  list-style-type: lower-latin;
+  margin-right: 50px;
+  line-height: 1.5;
+  margin-bottom: 5px; 
+}
+.lista-disco-nota {
+  list-style-type: disc;
+  margin-right: 50px;
+  line-height: 1.4;
+  margin-bottom: 5px;
 }
 .fuente {
   font-size: 13.6px;
@@ -1111,15 +1113,12 @@ header {
   color: var(--gris-claro);
 }
 
-/* NOTA ASIDE  */
-.aside-editorial {
-  width: 100%;
-  position: relative;
-}
-.aside-bnrs {
+/* ASIDE NOTA  */
+.aside-bnrs,
+.aside-bnrs-2 {
   float: right;
   width: 75%;
-  margin-top: 150px;
+  margin-top: 100px;
 }
 
 /* RECUADROS COLOR Y GRIS*/
@@ -1166,9 +1165,10 @@ header {
   border-radius: 17px;
   padding: 25px;
   float: right;
+  margin-top: 25px;
   margin-left: 35px;
-  margin-right: -75px;
-  margin-bottom: 20px;
+  margin-right: -50px;
+  margin-bottom: 25px;
 }
 .rc-color-6col {
   width: 100%;
@@ -1177,28 +1177,25 @@ header {
   margin-top: 35px;
   margin-bottom: 30px;
 }
-.rc-color-cbz-1r {
-  font-family: "Oswald", sans-serif;
+.rc-color-cbz-1r {  
   font-size: 24px;
   line-height: 1.35;
   font-weight: 500;
-  margin-bottom: 15px;
   text-transform: uppercase;
   color: #ffffff;
 }
 .rc-color-texto {
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 20px;
-  font-weight: 300;
+  font-size: 19px;
   line-height: 1.15;
+  font-weight: 300;
   margin-top: 15px;
   color: #ffffff;
 }
 .recuadro-color li {
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 20px;
-  font-weight: 300;
+  font-size: 19px;
   line-height: 1.15;
+  font-weight: 300;
   list-style-type: disc;
   margin-top: 15px;
   margin-left: 17px;
@@ -1257,27 +1254,90 @@ th {
   color: #ffffff;
 }
 
-/* FOTO DE NOTA CON/SIN PIE */
-.nota-foto {
+/* NOTA FOTO CON/SIN PIE */
+/* .nota-foto-izq {
   height: 188px;
   float: left;
   margin: 20px 30px 15px 0px;
-}
-.nota-fotoconpie {
-  height: 260px;
+} */
+.nota-foto-pie-izq {
+  width: 45%;
   float: left;
-  margin: 20px 30px 15px 0px;
+  margin: 15px 30px 50px 0px;
+  overflow: hidden;
 }
-.pie {
-  width: 200px;
-  font-size: 16px;
+.nota-foto-pie-izq img {
+  width: 100%;
+}
+.nota-foto-pie-der {
+  width: 40%;
+  float: right;
+  margin: 15px -10px 50px 30px;
+  overflow: hidden;
+}
+.nota-foto-pie-der img {
+  width: 100%;
+}
+/* .foto2561 {
+  width: 30%;
+  padding: 25px;
+  background: var(--gris-claro);  
+  margin: 40px auto 50px auto;
+}
+.foto2561-bx {
+  width: 95%;
+  margin: 0 auto;
+}
+.foto2561-bx img {
+  width: 100%;
+} */
+.foto2561 p {
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
   font-weight: 300;
   line-height: 1.5;
-  color: magenta;
+}
+.pie {
+  font-size: 18px;
+  line-height: 1.5;
+  font-weight: 300;
+  
 }
 
-/* CONTACTO */
-.contacto-bx {
+/* TEMAS DE INTERES */
+#interes {
+  width: 70%;
+  float: right;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+.interes-ind-a {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.interes-item {
+  width: 100%;
+}
+.interes-item img {
+  width: 100%;
+}
+.interes-item p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+.interes-item:hover {
+  transform: translateY(-2%);
+}
+.interes-item p:hover {
+  color: slategrey;
+}
+
+/* INFO-AUTOR */
+.info-autor-bx {
   width: 80%;
   /* margin-top: 300px; */
   float: right;
@@ -1298,7 +1358,6 @@ th {
   line-height: 1.2;
   font-weight: 600;
   color: #ffffff;
-  margin-bottom: 8px;
 }
 .autor-especialidad {
   font-size: 17px;
@@ -1326,47 +1385,26 @@ th {
   color: #ffffff;
   margin-bottom: 10px;
 }
-.autor-domtel {
+.autor-empresa {
+  font-size: 15.5px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 3px;
+}
+.autor-dom-tel {
   text-indent: -8px;
   margin-left: 17px;
-  font-size: 15.6px;
+  font-size: 15.5px;
   font-weight: 400;
   color: #ffffff;
-  margin-bottom: 3.2px;
+  margin-bottom: 3px;
 }
 .autor-correo {
-  font-size: 15.6px;
-  font-weight: 400;
+  font-size: 15.5px;
+  line-height: 1;
+  font-weight: 200;
   color: #ffffff;
-}
-
-/* TEMAS DE INTERES */
-#interes {
-  width: 300px;
-  float: right;
-  margin-top: 30px;
-  margin-bottom: 100px;
-}
-.interes-indicador-ajuste {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-#interes a img {
-  width: 300px;
-  height: 200px;
-}
-#interes a p {
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 20px;
-  line-height: 1.5;
-  margin-top: 3px;
-  margin-bottom: 30px;
-}
-.interes-item:hover {
-  transform: translateY(-2%);
-}
-.interes-item p:hover {
-  color: slategrey;
+  word-break: break-all;
 }
 
 /* ANTERIORES */
@@ -1572,8 +1610,13 @@ th {
   .footer-col-2 {
     margin: 0 25px 0 40px;
   }
-  .contacto-boton {
+  .btn-siguenos {
     margin-left: 35px;
+  }
+  /* NOTAS */
+  /* RECUADROS */
+  .recuadro-color {
+    margin-right: -20px;
   }
 }
 
@@ -1765,17 +1808,31 @@ th {
   .footer-col-3 a {
     font-size: 13px;
   }
-  .contacto-boton {
+  .btn-siguenos {
     margin-left: 30px;
   }
-  /* RECUADRO */
+  /* NOTAS */
+  .balazo { 
+    font-size: 23px;
+  }
+  .cabeza-1 {
+    font-size: 60px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .sumario-1 {
+    font-size: 22px; 
+    margin-bottom: 20px;
+  }
+
+  /* RECUADROS */
   .recuadro-gris-cbz {
     font-size: 23px;
   }
   .recuadro-gris p {
     font-size: 18px;
   }
-  /* CONTACTO */
+  /* INFO-AUTOR */
   .autor {
     font-size: 20px;
   }
@@ -1855,21 +1912,45 @@ th {
   .footer-email {
     font-size: 16px;
   }
-  .contacto-boton {
+  .btn-siguenos {
     width: 140px;
     height: 64px;
     margin-top: 15px;
     margin-left: 15px;
   }
-  .contacto-boton p {
+  .btn-siguenos p {
     font-size: 16px;
+  }
+  /* NOTAS  */
+  /* CABEZA */
+  .nota-foto-top-bx {
+    width: 95%;
+    display: block;
+    margin-bottom: 20px;
+  }
+  /* RECUADRO COLOR */
+  .recuadro-color {
+    margin-left: 30px;
+    padding: 20px;
+  }
+  .rc-color-cbz-1r {  
+    font-size: 21px;
+  }
+  .rc-color-texto {
+    font-size: 17px;
+    margin-top: 10px;
+  }
+  .recuadro-color li {
+    font-size: 17px;
+    line-height: 1.15;
+    margin-top: 10px;
+    margin-left: 12px;
   }
 }
 
 @media screen and (max-width: 820px) {
   .br-visible820 {
     display: inline;
-
   }
   /* COVID PREV */
   .covid-preventivo p span,
@@ -1899,13 +1980,43 @@ th {
   .footer-email {
     font-size: 15px;
   }
-  /* EDITORIAL */
+  /* NOTAS */
   .editorial-cbz {
     font-size: 45px; 
   }
-  /* ASIDE EDITORIAL */
+  .balazo { 
+    font-size: 22px;
+  }
+  .cabeza-1 {
+    font-size: 55px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  .sumario-1 {
+    font-size: 20px; 
+    margin-bottom: 15px;
+  }
+  
+  /* 820 QNOTA FOTO */
+  .nota-foto-pie-der {
+    margin-right: 0;
+    margin: 15px -10px 50px 30px;
+    overflow: hidden;
+  }
+
+  /* ASIDE NOTAS */
   .aside-bnrs {  
     width: 90%;
+  }
+  /* RECUADROS */
+  .recuadro-color {
+    width: 80%;  
+    border-radius: 13px;
+    margin-top: 25px;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-left: auto;    
+    float: none;
   }
 }
 
@@ -1939,7 +2050,7 @@ th {
     align-items: center;
     margin-bottom: 20px;
   }
-  .contacto-boton-pr {
+  .btn-siguenos-pr {
     display: inline-block;
     margin: auto 0 auto;
   }
@@ -1966,7 +2077,7 @@ th {
     font-size: 16px;
     margin-bottom: 15px;
   }
-  .contacto-boton {
+  .btn-siguenos {
     display: none;
   }  
 }
@@ -2173,13 +2284,13 @@ th {
   #eventos-preventivos {
     margin: 0 auto 10px;
   }
-    /* EDITORIAL */
+    /* NOTAS */
     .nota-bx {
       grid-template-columns: 100%;
     }   
-    /* ASIDE EDITORIAL */
-    .aside-editorial {
-      width: 100%;  
+    /* ASIDE NOTAS */
+    .col-4 {
+      grid-column: 1/2;
     }
     .noneup680 {
       display: block;
@@ -2187,6 +2298,7 @@ th {
     .nonedw680 {
       display: none !important;
     }
+    /* RECUADROS */
     .recuadro-gris {  
       width: auto; 
       float: none;
@@ -2198,19 +2310,45 @@ th {
       width: 90%;
       float: none;
       margin: 50px auto;
-      justify-content: space-between;    
+      justify-content: space-between;
+    }
+    .aside-bnrs-2 {
+      display: flex;
+      width: 75%;
+      float: none;
+      /* margin: 50px auto; */
+      margin-top: 50px;
+      margin-right: auto;
+      margin-bottom: 70px;
+      margin-left: auto;
     }
     .bnr-vl-250x250 {
       width: 45%;
-      margin: 0
+      margin: 0;
     }
-    .contacto-bx {
-      width: auto;
+    /* TEMAS DE INTERES */
+    #interes {
+      width: 90%;
+      float: none;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 30px;
+      margin-bottom: 70px;
+    }
+    .interes-item p {
+      font-size: 24px;
+      margin-top: 8px;
+      margin-bottom: 50px;
+    }
+    /* INFO-AUTOR */
+    .info-autor-bx {
+      width: 80%;
       float: left;
       position: unset;
       margin-top: 25px;
       margin-bottom: 60px;
-    }    
+    }
+    /* ANTERIORES */
     .anteriores-bx a {
       font-size: 20px;
       line-height: 1.2;
@@ -2264,7 +2402,7 @@ th {
   .especial-prev-sumario {
     font-size: 25px;
   }
-  /* EDITORIAL */
+  /* NOTAS */
   .aside-bnrs {
     flex-direction: column;
     margin: 60px auto;  
@@ -2280,7 +2418,7 @@ th {
 }
 
 @media screen and (max-width: 520px) {
-  /* MES */
+  /* QMES */
   .ind-impr {
     font-size: 19px;
   }
@@ -2300,12 +2438,12 @@ th {
   .mes-top-sumario {
     padding: 0 10px 0 10px;
   }
-  /* ARTICULOS */
+  /* QARTICULOS */
   .articulos-prev-blz {
     font-size: 16px;
     margin-bottom: 6px;  
   }
-  /* ESPECIAL */
+  /* QESPECIAL */
   /* ESP 202108 */
   /* .esp-cbz-202108-01 {
     font-size: 45px;
@@ -2322,14 +2460,25 @@ th {
   .esp-prev-item {
     font-size: 18px;
   }
-  /* FOOTER */
+  /* QFOOTER */
   .duarte-firma {
     width: 225px;
     font-size: 11px;
   }
-  /* EDITORIAL */
+  /* QNOTAS */
     .anteriores-bx a {
     font-size: 17px;
+  }
+  /* QNOTAS-FOTOS */
+  .nota-foto-pie-izq {
+    width: 100%;
+    float: none;
+    margin: 30px auto 40px;
+  }
+  .nota-foto-pie-der {
+    width: 100%;
+    float: right;
+    margin: 30px 0 25px 40px;
   }
 }
 
@@ -2428,7 +2577,7 @@ th {
   .footer-mision {
     font-size: 17px;
   }
-  .contacto-boton-pr {
+  .btn-siguenos-pr {
     width: 130px;
   }
   /* CABEZA NOTA */
@@ -2468,6 +2617,13 @@ th {
     margin-top: 30px;
     margin-bottom: 5px;
   }
+  .texto-resaltado-bx {
+    padding: 20px;
+  }
+  .pie {
+    font-size: 15px;
+  }
+
 }
 
 @media screen and (max-width: 420px) {
@@ -2496,6 +2652,41 @@ th {
   .esp-cbz-202108-02 {  
     margin-bottom: 10px;
   }   */
+  /* INFO-AUTOR */
+.sobre-autor {
+  font-size: 13px;
+}
+.autor {
+  font-size: 18px;
+  margin-bottom: 6px;
+}
+.autor-especialidad {
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+.autor-certificaciones {
+  font-size: 13px;
+  margin-bottom: 7px;
+}
+.autor-cedulas {
+  font-size: 11px;
+  margin-bottom: 7px;
+}
+.autor-cargo {
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+/* .autor-domtel {
+  text-indent: -8px;
+  margin-left: 17px;
+  font-size: 15.6px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 3.2px;
+} */
+.autor-correo {
+  font-size: 14.5px;
+}
   /* ANTERIORES */
   .anteriores-bx {
     flex-direction: column;
@@ -2508,7 +2699,7 @@ th {
   }
   .lv {
     display: none;
-  }
+  }  
 
 }
 
@@ -2625,10 +2816,10 @@ th {
   .footer-mision {
     font-size: 15px;
   }
-  .contacto-boton-pr {
+  .btn-siguenos-pr {
     display: none;
   }
-  .contacto-boton {
+  .btn-siguenos {
     display: block;
     width: 55%;
     margin-left: 0px;
