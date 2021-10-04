@@ -845,7 +845,7 @@ header {
   display: inline-block;
   margin-right: 5px;
 }
-.btn-siguenos {
+.btn-siganos {
   width: 170px;
   height: 70px;
   border: 3px solid #eee;
@@ -857,19 +857,19 @@ header {
   padding-top: 6px;
   box-shadow: 5px 6px 10px 0px #c2c2c2;
 }
-.btn-siguenos p {
+.btn-siganos p {
   font-family: "Nunito Sans", sans-serif;
   font-size: 18px;
   color: #fff;
 }
-.btn-siguenos:hover {
+.btn-siganos:hover {
   background-color: #2d69bd;
 }
-.btn-siguenos:active {
+.btn-siganos:active {
   position: relative;
   top: 1px;
 }
-.btn-siguenos-pr {
+.btn-siganos-pr {
   display: none;
   width: 150px;
   height: 70px;
@@ -882,15 +882,15 @@ header {
   padding-top: 6px;
   box-shadow: 5px 6px 10px 0px #c2c2c2;
 }
-.btn-siguenos-pr p {
+.btn-siganos-pr p {
   font-family: "Nunito Sans", sans-serif;
   font-size: 18px;
   color: #fff;
 }
-.btn-siguenos-pr:hover {
+.btn-siganos-pr:hover {
   background-color: #2d69bd;
 }
-.btn-siguenos-pr:active {
+.btn-siganos-pr:active {
   position: relative;
   top: 1px;
 }
@@ -1119,14 +1119,6 @@ header {
   color: var(--gris-claro);
 }
 
-/* 1ASIDE NOTA  */
-.aside-bnrs,
-.aside-bnrs-2 {
-  float: right;
-  width: 75%;
-  margin-top: 100px;
-}
-
 /* 1RECUADROS COLOR Y GRIS*/
 .noneup680 {
   display: none;
@@ -1190,7 +1182,6 @@ header {
   margin-right: -50px;
   margin-bottom: 25px;
 }
-
 /* AVERIGUAR CLASE */
 /* .rc-color-6col {
   width: 100%;
@@ -1204,6 +1195,7 @@ header {
   font-size: 25px;
   line-height: 1.35;
   font-weight: 500;
+  margin-bottom: 10px;
   text-transform: uppercase;
   color: #ffffff;
 }
@@ -1253,8 +1245,8 @@ header {
 /* .rc-gris-editorial-6col {
   width: 100%;
   margin-top: 30px;
-  background: #dbdbd2; */
-}
+  background: #dbdbd2;
+} */
 .tabla-gris-6col {
   width: 100%;
   /* margin: auto; */
@@ -1329,9 +1321,15 @@ th {
   font-size: 18px;
   line-height: 1.5;
   font-weight: 300;
-
 }
 
+/* 1ASIDE NOTA  */
+.aside-bnrs,
+.aside-bnrs-2 {
+  float: right;
+  width: 75%;
+  margin-top: 100px;
+}
 /* TEMAS DE INTERES */
 #interes {
   width: 70%;
@@ -1638,7 +1636,7 @@ th {
   .footer-col-2 {
     margin: 0 25px 0 40px;
   }
-  .btn-siguenos {
+  .btn-siganos {
     margin-left: 35px;
   }
   /* NOTAS */
@@ -1836,7 +1834,7 @@ th {
   .footer-col-3 a {
     font-size: 13px;
   }
-  .btn-siguenos {
+  .btn-siganos {
     margin-left: 30px;
   }
   /* NOTAS */
@@ -1844,7 +1842,7 @@ th {
     font-size: 23px;
   }
   .cabeza-1 {
-    font-size: 60px;
+    font-size: 62px;
     margin-top: 12px;
     margin-bottom: 12px;
   }
@@ -1933,13 +1931,13 @@ th {
   .footer-email {
     font-size: 16px;
   }
-  .btn-siguenos {
+  .btn-siganos {
     width: 140px;
     height: 64px;
     margin-top: 15px;
     margin-left: 15px;
   }
-  .btn-siguenos p {
+  .btn-siganos p {
     font-size: 16px;
   }
   /* 1NOTAS  */
@@ -2010,6 +2008,14 @@ th {
     font-size: 15px;
   }
   /* NOTAS */
+  /* COMPARTIR */
+  .compartir-bx {
+    margin-bottom: 35px;
+  }
+  .credito-bx {
+    margin-bottom: 30px;
+  }
+  /* 1CABEZA */
   .editorial-cbz {
     font-size: 50px;
   }
@@ -2017,7 +2023,7 @@ th {
     font-size: 22px;
   }
   .cabeza-1 {
-    font-size: 55px;
+    font-size: 57px;
     margin-top: 12px;
     margin-bottom: 12px;
   }
@@ -2025,14 +2031,12 @@ th {
     font-size: 20px;
     margin-bottom: 15px;
   }
-
-  /* 820 QNOTA FOTO */
+  /* 1FOTONOTA */
   .nota-foto-pie-der {
     margin-right: 0;
     margin: 15px -10px 50px 30px;
     overflow: hidden;
   }
-
   /* ASIDE NOTAS */
   .aside-bnrs {
     width: 90%;
@@ -2094,9 +2098,9 @@ th {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
-  .btn-siguenos-pr {
+  .btn-siganos-pr {
     display: inline-block;
     margin: auto 0 auto;
   }
@@ -2114,16 +2118,16 @@ th {
     display: inline-block;
   }
   .anunciese, .footer-tel, .footer-email {
-    margin-bottom: 10px;
+    margin-bottom: 7px;
   }
   .footer-email {
     font-size: 19px;
   }
   .footer-direccion {
     font-size: 16px;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
   }
-  .btn-siguenos {
+  .btn-siganos {
     display: none;
   }
   /* 1NOTAS */
@@ -2341,7 +2345,7 @@ th {
     grid-template-columns: 100%;
   }
   .balazo {
-    font-size: 20px;
+    font-size: 23px;
   }
   /* ASIDE NOTAS */
   .col-4 {
@@ -2452,14 +2456,21 @@ th {
     font-size: 25px;
   }
   /* 1NOTAS */
+    /* COMPARTIR */
+.compartir-bx {
+  margin-bottom: 30px;
+}
   /* 1CREDITO */
+  .credito-bx {
+    margin-bottom: 25px;
+  }
   .credito-foto-bx {
     width: 56px;
     height: 56px;
     margin-right: 13px;
   }
   .cabeza-1 {
-    font-size: 50px;
+    font-size: 52px;
   }
   /* 1ASIDE NOTAS */
   .aside-bnrs {
@@ -2477,7 +2488,7 @@ th {
 }
 
 @media screen and (max-width: 520px) {
-  /* QMES */
+  /* 1MES */
   .ind-impr {
     font-size: 19px;
   }
@@ -2497,12 +2508,12 @@ th {
   .mes-top-sumario {
     padding: 0 10px 0 10px;
   }
-  /* QARTICULOS */
+  /* 1ARTICULOS */
   .articulos-prev-blz {
     font-size: 16px;
     margin-bottom: 6px;
   }
-  /* QESPECIAL */
+  /* ESPECIAL */
   /* ESP 202108 */
   /* .esp-cbz-202108-01 {
     font-size: 45px;
@@ -2519,16 +2530,16 @@ th {
   .esp-prev-item {
     font-size: 18px;
   }
-  /* QFOOTER */
+  /* 1FOOTER */
   .duarte-firma {
     width: 225px;
     font-size: 11px;
   }
-  /* QNOTAS */
+  /* 1NOTAS */
     .anteriores-bx a {
     font-size: 17px;
   }
-  /* QNOTAS-FOTOS */
+  /* 1NOTAS-FOTOS */
   .nota-foto-pie-izq {
     width: 100%;
     float: none;
@@ -2630,10 +2641,10 @@ th {
   }
   /* 1NOTAS */
   .balazo {
-    font-size: 18px;
+    font-size: 21px;
   }
   .cabeza-1 {
-  font-size: 45px;
+  font-size: 47px;
   margin-top: 11px;
   margin-bottom: 11px;
   }
@@ -2649,7 +2660,7 @@ th {
   .footer-mision {
     font-size: 17px;
   }
-  .btn-siguenos-pr {
+  .btn-siganos-pr {
     width: 130px;
   }
   /* CABEZA NOTA */
@@ -2681,7 +2692,7 @@ th {
   /* TEXTO */
   .texto {
     font-size: 14px;
-    line-height: 1.5;
+    line-height: 1.4;
   }
   .texto p {
     margin-bottom: 7px;
@@ -2887,12 +2898,12 @@ th {
   }
   /* FOOTER */
   .footer-mision {
-    font-size: 15px;
+    font-size: 14px;
   }
-  .btn-siguenos-pr {
+  .btn-siganos-pr {
     display: none;
   }
-  .btn-siguenos {
+  .btn-siganos {
     display: block;
     width: 55%;
     margin-left: 0px;
