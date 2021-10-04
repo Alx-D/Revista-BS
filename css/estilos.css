@@ -944,6 +944,7 @@ header {
 }
 .balazo {
   font-size: 24px;
+  line-height: 1.1;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 25px;
@@ -960,7 +961,7 @@ header {
   margin-bottom: 25px;
 }
 .cabeza-1 {
-  font-size: 64px;
+  font-size: 65px;
   line-height: 1.2;
   font-weight: 400;
   text-transform: uppercase;
@@ -1079,7 +1080,6 @@ header {
   font-weight: 700;
   color: var(--verde-logo-1);
   margin-top: 40px;
-  margin-bottom: 5px;
 }
 .texto-resaltado-bx {
   width: 90%;
@@ -1093,7 +1093,7 @@ header {
 .lista-letra-nota {
   list-style-type: lower-latin;
   margin-right: 50px;
-  line-height: 1.5;
+  line-height: 1.4;
   margin-bottom: 5px;
 }
 .lista-disco-nota {
@@ -1119,7 +1119,7 @@ header {
   color: var(--gris-claro);
 }
 
-/* ASIDE NOTA  */
+/* 1ASIDE NOTA  */
 .aside-bnrs,
 .aside-bnrs-2 {
   float: right;
@@ -1127,11 +1127,12 @@ header {
   margin-top: 100px;
 }
 
-/* RECUADROS COLOR Y GRIS*/
+/* 1RECUADROS COLOR Y GRIS*/
 .noneup680 {
   display: none;
 }
-.rc-gris-editorial {
+/* BORRAR, YA EN HTML ENE2021 */
+/* .rc-gris-editorial {
   width: 90%;
   margin-top: 150px;
   float: right;
@@ -1165,7 +1166,7 @@ header {
   color: #3b79c9;
   float: left;
   margin-left: -30px;
-}
+} */
 .rc-color {
   width: 40%;
   border-radius: 17px;
@@ -1200,7 +1201,7 @@ header {
 } */
 .rc-color-cbz-1r,
 .rc-gris-cbz-1r {
-  font-size: 24px;
+  font-size: 25px;
   line-height: 1.35;
   font-weight: 500;
   text-transform: uppercase;
@@ -1210,7 +1211,7 @@ header {
   color: #333;
 }
 .rc-color-texto {
-  font-size: 19px;
+  font-size: 21px;
   line-height: 1.15;
   font-weight: 300;
   margin-top: 15px;
@@ -1219,7 +1220,7 @@ header {
 .rc-color li,
 .rc-gris li {
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 19px;
+  font-size: 21px;
   line-height: 1.15;
   font-weight: 300;
   list-style-type: disc;
@@ -1248,10 +1249,11 @@ header {
 }
 
 /* TABLA */
-.rc-gris-editorial-6col {
+/* CLASE NO USADA EN HTML CHECAR TABLAS*/
+/* .rc-gris-editorial-6col {
   width: 100%;
   margin-top: 30px;
-  background: #dbdbd2;
+  background: #dbdbd2; */
 }
 .tabla-gris-6col {
   width: 100%;
@@ -1848,15 +1850,8 @@ th {
   }
   .sumario-1 {
     font-size: 22px;
+    line-height: 1.4;
     margin-bottom: 20px;
-  }
-
-  /* RECUADROS */
-  .rc-gris-editorial-cbz {
-    font-size: 23px;
-  }
-  .rc-gris-editorial p {
-    font-size: 18px;
   }
   /* INFO-AUTOR */
   .autor {
@@ -1921,11 +1916,11 @@ th {
   .epccgde {
     font-size: 22px;
   }
-  /* CORTO */
+  /* 1CORTO */
   .corto-carrusel-nota figcaption {
     font-size: 20px;
   }
-  /* FOOTER */
+  /* 1FOOTER */
   .footer-BSlogo-bx {
     width: 120px;
   }
@@ -1947,8 +1942,14 @@ th {
   .btn-siguenos p {
     font-size: 16px;
   }
-  /* NOTAS  */
-  /* CABEZA */
+  /* 1NOTAS  */
+  /* 1CREDITO */
+  .credito-foto-bx {
+    width: 66px;
+    height: 66px;
+    margin-right: 15px;
+  }
+  /* 1CABEZA */
   .nota-foto-top-bx {
     width: 95%;
     display: block;
@@ -1959,14 +1960,16 @@ th {
     margin-left: 30px;
     padding: 20px;
   }
-  .rc-color-cbz-1r {
-    font-size: 21px;
+  .rc-color-cbz-1r,
+  .rc-gris-cbz-1r {
+    font-size: 23px;
   }
   .rc-color-texto {
     font-size: 17px;
     margin-top: 10px;
   }
-  .rc-color li {
+  .rc-color li,
+  .rc-gris li {
     font-size: 17px;
     line-height: 1.15;
     margin-top: 10px;
@@ -2038,11 +2041,28 @@ th {
   .rc-color {
     width: 80%;
     border-radius: 13px;
+  }
+  .rc-gris {
+    width: 80%;
+  }
+  .rc-float-izq {
+    float: none;
     margin-top: 25px;
     margin-right: auto;
     margin-bottom: 25px;
     margin-left: auto;
+  }
+  .rc-float-der {
     float: none;
+    margin-top: 25px;
+    margin-left: 35px;
+    margin-right: -50px;
+    margin-bottom: 25px;
+  }
+  /* 1INTERES */
+  .interes-item p {
+    font-size: 17px;
+    line-height: 1.3;
   }
 }
 
@@ -2105,6 +2125,12 @@ th {
   }
   .btn-siguenos {
     display: none;
+  }
+  /* 1NOTAS */
+  /* 1CREDITO */
+  .credito-foto-bx {
+    width: 60px;
+    height: 60px;
   }
 }
 
@@ -2310,75 +2336,72 @@ th {
   #eventos-preventivos {
     margin: 0 auto 10px;
   }
-    /* NOTAS */
-    .nota-bx {
-      grid-template-columns: 100%;
-    }
-    /* ASIDE NOTAS */
-    .col-4 {
-      grid-column: 1/2;
-    }
-    .noneup680 {
-      display: block;
-    }
-    .nonedw680 {
-      display: none !important;
-    }
-    /* RECUADROS */
-    .rc-gris-editorial {
-      width: auto;
-      float: none;
-      display: table;
-      margin: 25px auto 35px auto;
-    }
-    .aside-bnrs {
-      display: flex;
-      width: 90%;
-      float: none;
-      margin: 50px auto;
-      justify-content: space-between;
-    }
-    .aside-bnrs-2 {
-      display: flex;
-      width: 75%;
-      float: none;
-      /* margin: 50px auto; */
-      margin-top: 50px;
-      margin-right: auto;
-      margin-bottom: 70px;
-      margin-left: auto;
-    }
-    .bnr-vl-250x250 {
-      width: 45%;
-      margin: 0;
-    }
-    /* TEMAS DE INTERES */
-    #interes {
-      width: 90%;
-      float: none;
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 30px;
-      margin-bottom: 70px;
-    }
-    .interes-item p {
-      font-size: 24px;
-      margin-top: 8px;
-      margin-bottom: 50px;
-    }
-    /* INFO-AUTOR */
-    .info-autor-bx {
-      width: 80%;
-      float: left;
-      position: unset;
-      margin-top: 25px;
-      margin-bottom: 60px;
-    }
-    /* ANTERIORES */
-    .anteriores-bx a {
-      font-size: 20px;
-      line-height: 1.2;
-    }
+  /* NOTAS */
+  .nota-bx {
+    grid-template-columns: 100%;
+  }
+  .balazo {
+    font-size: 20px;
+  }
+  /* ASIDE NOTAS */
+  .col-4 {
+    grid-column: 1/2;
+  }
+  .noneup680 {
+    display: block;
+  }
+  .nonedw680 {
+    display: none !important;
+  }
+  /* 1ASIDE NOTAS */
+  .aside-bnrs {
+    display: flex;
+    width: 90%;
+    float: none;
+    margin: 50px auto;
+    justify-content: space-between;
+  }
+  .aside-bnrs-2 {
+    display: flex;
+    width: 75%;
+    float: none;
+    /* margin: 50px auto; */
+    margin-top: 50px;
+    margin-right: auto;
+    margin-bottom: 70px;
+    margin-left: auto;
+  }
+  .bnr-vl-250x250 {
+    width: 45%;
+    margin: 0;
+  }
+  /* TEMAS DE INTERES */
+  #interes {
+    width: 90%;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 70px;
+  }
+  .interes-item p {
+    font-size: 22px;
+    margin-top: 8px;
+    margin-bottom: 50px;
+  }
+  /* INFO-AUTOR */
+  .info-autor-bx {
+    width: 80%;
+    float: left;
+    position: unset;
+    margin-top: 25px;
+    margin-bottom: 60px;
+  }
+  /* ANTERIORES */
+  .anteriores-bx a {
+    font-size: 20px;
+    line-height: 1.2;
+  }
 }
 
 @media screen and (max-width: 580px) {
@@ -2428,7 +2451,17 @@ th {
   .especial-prev-sumario {
     font-size: 25px;
   }
-  /* NOTAS */
+  /* 1NOTAS */
+  /* 1CREDITO */
+  .credito-foto-bx {
+    width: 56px;
+    height: 56px;
+    margin-right: 13px;
+  }
+  .cabeza-1 {
+    font-size: 50px;
+  }
+  /* 1ASIDE NOTAS */
   .aside-bnrs {
     flex-direction: column;
     margin: 60px auto;
@@ -2586,17 +2619,30 @@ th {
     font-size: 18px;
     margin-bottom: 15px;
   }
-
-  /* SALUD */
+  /* 1SALUD PARA */
   .spara-prev-card-cbz-3r,
   .spara-prev-card-cbz-2r {
     font-size: 28px;
   }
-  /* EVENTOS */
+  /* 1EVENTOS */
   .evento-prev-card-cbz {
     font-size: 20px;
   }
-  /* FOOTER */
+  /* 1NOTAS */
+  .balazo {
+    font-size: 18px;
+  }
+  .cabeza-1 {
+  font-size: 45px;
+  margin-top: 11px;
+  margin-bottom: 11px;
+  }
+  .sumario-1 {
+    font-size: 18px;
+    line-height: 1.3;
+    margin-bottom: 15px;
+  }
+  /* 1FOOTER */
   .footer-cont {
     padding: 25px 20px 0 20px;
   }
@@ -2608,13 +2654,14 @@ th {
   }
   /* CABEZA NOTA */
   .ceja-gde {
-    font-size: 14px;
+    font-size: 13px;
+    padding: 0 10px;
   }
   .fecha {
-    font-size: 13px;
+    font-size: 12px;
   }
   .editorial-cbz {
-    font-size: 45px;
+    font-size: 40px;
   }
   /* COMPARTIR */
   .whatsapp-compartir,
@@ -2633,7 +2680,8 @@ th {
   }
   /* TEXTO */
   .texto {
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 1.5;
   }
   .texto p {
     margin-bottom: 7px;
@@ -2641,7 +2689,6 @@ th {
   .descanso {
     font-size: 19px;
     margin-top: 30px;
-    margin-bottom: 5px;
   }
   .texto-resaltado-bx {
     padding: 20px;
