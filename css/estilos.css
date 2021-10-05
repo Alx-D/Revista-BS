@@ -1108,15 +1108,21 @@ header {
   line-height: 1.4;
   margin-bottom: 5px;
 }
-.fuente {
+/* AVERIGUAR DONDE SE USO CLASE */
+/* .fuente {
   font-size: 13.6px;
   font-weight: 300;
   margin-top: 25px;
   margin-bottom: 15px;
-}
+} */
 .fa-square {
   font-size: 12px;
   color: var(--gris-claro);
+}
+.txt-fuente {
+  font-size: 14px;
+  margin-top: 25px;
+  line-height: 1;
 }
 
 /* 1RECUADROS COLOR Y GRIS*/
@@ -1315,9 +1321,10 @@ th {
 .fotonota-pie-der img {
   width: 100%;
 }
-.fotonota-pie-der figure img {
+/* AVERIGUAR */
+/* .fotonota-pie-der figure img {
   width: 60%;
-}
+} */
 /* .foto2561 {
   width: 30%;
   padding: 25px;
