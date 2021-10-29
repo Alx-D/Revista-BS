@@ -449,8 +449,8 @@ header {
 /* 1ESPECIAL */
 #esp1 {
   width: 98vw;
-  background: #fcf3e8;
   margin-bottom: 50px;
+  background: #f7e3ea;
 }
 .esp1-inda {
   margin-top: 15px;
@@ -467,40 +467,49 @@ header {
 .cbz-esp1-bx {
   width: 100%;
 }
+.cbz-esp1{
+  font-size: 52px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: #4375af;
+  margin-bottom: 5px;
+}
 .sum-esp1 {
   width: 100%;
   font-size: 26px;
   line-height: 1.2;
-  text-transform: uppercase;
-  font-weight: 400;
-  color: #82a841;
-  margin-bottom: 30px;
+  font-weight: bold;
+  color: #cb0f74;
+  margin-bottom: 20px;
 }
 .lista-esp1-bx {
   width: 100%;
-  margin-top: 20px;
   display: flex;
   justify-content: space-between;
 }
 .lista-esp1-izq {
-  width: 48%;
+  width: 51%;
   margin-right: 14px;
 }
 .lista-esp1-der {
-  width: 50%;
+  width: 48%;
   margin-right: 14px;
 }
 #esp1 li {
   margin-bottom: 13px;
 }
 .item-esp1 {
-  font-size: 18px;
+  font-size: 17px;
   line-height: 1.2;
   font-weight: 400;
-  color: #846340;
+  color: #4375af;
+}
+.item-esp1 span{
+  color: #555;
 }
 .item-esp1:hover {
-  color: #f97f54;
+  color: #cb0f74;
 }
 .br-none {
   display: none;
@@ -510,6 +519,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
+  background: #e097b2;
 }
 .foto-esp1-bx {
   width: 100%;
@@ -522,6 +532,124 @@ header {
 .bnr-esp1 {
   display: none;
 }
+@media screen and (max-width: 1024px){
+  .sum-esp1 {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 980px){
+  .cont-esp1 {
+    flex-direction: column;
+  }
+  .col1-esp1 {
+    width: 100%;
+  }
+  .cbz-esp1-bx {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .cbz-esp1 {
+    font-size: 57px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .sum-esp1 {
+    text-align: center;
+    font-size: 30px;
+  }
+  .lista-esp1-bx {
+    width: 85%;
+    margin: 0px auto 10px auto;
+  }
+  .item-esp1 {
+    font-size: 18px;
+  }
+  .lista-esp1-izq,
+  .lista-esp1-der {
+    margin-right: 0px;
+  }
+  .col2-esp1 {
+    width: 85%;
+    margin: 0 auto;
+  }
+  .foto-esp1-bx {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+  }
+  .foto-esp1-bx img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 740px){
+  .lista-esp1-bx {
+    flex-direction: column;
+  }
+  .lista-esp1-izq,
+  .lista-esp1-der {
+    width: 100%;
+    margin-right: unset;
+  }
+  .item-esp1 {
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 580px){
+  .cbz-esp1 {
+    font-size: 52px;
+  }
+  .sum-esp1 {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 520px){
+  .sum-esp1 {
+    font-size: 25px;
+    line-height: 1.2;
+  }
+  .item-esp1 {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 480px){
+  .cbz-esp1-bx {
+    width: 97%;
+  }
+  .cbz-esp1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  .br-visible480 {
+    display: inline;
+  }
+  .item-esp1 {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 420px){
+  .br-visible420 {
+    display: inline;
+  }
+}
+@media screen and (max-width: 400px){
+  .cbz-esp1 {
+    font-size: 45px;
+  }
+  .br-visible400 {
+    display: inline;
+  }
+}
+@media screen and (max-width: 340px){
+  .cbz-esp1 {
+    font-size: 42px;
+  }
+  .br-visible340 {
+    display: inline;
+  }
+}
+
 /* 1VIDEOS */
 #vid1 {
   width: 98vw;
@@ -1666,19 +1794,10 @@ th {
   .bnr-esp1 {
     display: block;
   }
-  /* ESPECIAL */
-  /* ESP 202108 */
-  /* .esp-cbz-202108-01 {
-    font-size: 45px;
-    margin-top: 10px;
-  }
-  .esp-cbz-202108-02 {
-    font-size: 55px;
-    margin-bottom: 15px;
-  } */
-  .sum-esp1 {
+  /* 1ESPECIAL */
+  /* .sum-esp1 {
     font-size: 22px;
-  }
+  } */
   /* SALUD PARA */
   .bnr-vl-02 {
     display: block;
@@ -1825,7 +1944,7 @@ th {
     font-size: 23px;
   }
   /* ESPECIAL */
-  .cont-esp1 {
+  /* .cont-esp1 {
     flex-direction: column;
   }
   .col1-esp1 {
@@ -1835,18 +1954,7 @@ th {
     width: 90%;
     margin: 0 auto;
   }
-  /* ESP 202108 */
-  /* .esp-cbz-202108-01 {
-    font-size: 62px;
-    text-align: center;
-    margin-top: 10px;
-  }
-  .esp-cbz-202108-02 {
-    font-size: 72px;
-    text-align: center;
-    margin-bottom: 20px;
-  } */
-  .cbz-esp1-2021-09 {
+  .cbz-esp1 {
     font-size: 57px;
     text-align: center;
     margin-bottom: 15px;
@@ -1857,7 +1965,7 @@ th {
   }
   .lista-esp1-bx {
     width: 85%;
-    margin: 30px auto 10px auto;
+    margin: 0px auto 10px auto;
   }
   .item-esp1 {
     font-size: 18px;
@@ -1877,7 +1985,8 @@ th {
   }
   .foto-esp1-bx img {
     width: 100%;
-  }
+  } */
+
   /* VIDEOS */
   .frames {
     width: 98%;
@@ -2060,9 +2169,6 @@ th {
 }
 
 @media screen and (max-width: 820px) {
-  .br-visible820 {
-    display: inline;
-  }
   /* COVID PREV */
   .covid-preventivo p span,
   .covid-preventivo p {
@@ -2306,7 +2412,7 @@ th {
     font-size: 16px;
   }
   /* ESPECIAL */
-  .lista-esp1-bx {
+  /* .lista-esp1-bx {
     flex-direction: column;
   }
   .lista-esp1-izq,
@@ -2314,19 +2420,11 @@ th {
     width: 100%;
     margin-right: unset;
   }
-  /* ESP 202108 */
-  /* .esp-cbz-202108-01 {
-    font-size: 60px;
-    margin-top: 20px;
-  }
-  .esp-cbz-202108-02 {
-    font-size: 70px;
-  } */
   .item-esp1 {
     text-align: center;
     font-size: 19px;
     margin-bottom: 20px;
-  }
+  } */
   /* VIDEOS */
   .vid1-bx {
     width: 100%;
@@ -2394,16 +2492,8 @@ th {
   .autoresp-art1 {
     font-size: 15px;
   }
-  /* ESPECIAL */
-  /* ESP 202108 */
-  /* .esp-cbz-202108-01 {
-    font-size: 55px;
-  }
-  .esp-cbz-202108-02 {
-    font-size: 65px;
-    margin-bottom: 15px;
-  } */
-  /* EVENTOS PREVENTIVOS */
+/* ESPECIAL */
+
 /* EVENTOS PREVENTIVOS */
   #ev1 {
     margin: 0 auto 10px;
@@ -2522,21 +2612,16 @@ th {
   .editorial-cbz-th {
     font-size: 22px;
   }
-  /* ESPECIAL */
-  /* ESP 202108 */
-  /* .esp-cbz-202108-01 {
-    font-size: 50px;
-    margin-bottom: 4px;
-  }
-  .esp-cbz-202108-02 {
-    font-size: 55px;
-  } */
-  .cbz-esp1-2021-09 {
+
+  /* 1ESPECIAL */
+/* ESPECIAL CSS MES */
+  /* .cbz-esp1 {
     font-size: 52px;
   }
   .sum-esp1 {
     font-size: 25px;
-  }
+  } */
+
   /* 1NOTAS */
     /* COMPARTIR */
 .compartir-bx {
@@ -2596,22 +2681,13 @@ th {
     margin-bottom: 6px;
   }
   /* ESPECIAL */
-  /* ESP 202108 */
-  /* .esp-cbz-202108-01 {
-    font-size: 45px;
-    margin-bottom: 4px;
-  }
-  .esp-cbz-202108-02 {
-    font-size: 50px;
-  } */
-  .sum-esp1 {
+  /* .sum-esp1 {
     font-size: 24px;
-    line-height: 1.4;
-    margin-bottom: -10px;
+    line-height: 1.2;
   }
   .item-esp1 {
     font-size: 18px;
-  }
+  } */
   /* 1FOOTER */
   .duarte-firma {
     width: 225px;
@@ -2693,28 +2769,22 @@ th {
   .autoresp-art1 {
     font-size: 14px;
   }
-  /* ESPECIAL */
-  .cbz-esp1-bx {
+  /* 1ESPECIAL */
+  /* .cbz-esp1-bx {
     width: 97%;
+  }
+  .cbz-esp1 {
+    font-size: 48px;
+    margin-bottom: 10px;
   }
   .br-visible480 {
     display: inline;
   }
-  /* ESP 202108 */
-  /* .esp-cbz-202108-01 {
-    font-size: 40px;
-  }
-  .esp-cbz-202108-02 {
-    font-size: 45px;
-  } */
-  .cbz-esp1-2021-09 {
-    font-size: 48px;
-    margin-bottom: 10px;
-  }
   .item-esp1 {
-    font-size: 18px;
+    font-size: 20px;
     margin-bottom: 15px;
-  }
+  } */
+
   /* 1SALUD PARA */
   .cbz-spv1 {
     font-size: 28px;
@@ -2816,14 +2886,7 @@ th {
     font-size: 18px;
   }
   /* ESPECIAL */
-  /* ESP 202108 */
-  /* .esp-cbz-202108-01 {
-    font-size: 35px;
-    margin-bottom: 0;
-  }
-  .esp-cbz-202108-02 {
-    margin-bottom: 10px;
-  }   */
+
   /* INFO-AUTOR */
 .sobre-autor {
   font-size: 13px;
@@ -2895,16 +2958,15 @@ th {
     font-size: 18px;
   }
   /* ESPECIAL */
-  .cbz-esp1-2021-09 {
+  /* .cbz-esp1 {
     font-size: 46px;
   }
   .sum-esp1 {
-    font-size: 20px;
-    margin-bottom: -15px;
+    font-size: 22px;
   }
   .br-visible400 {
     display: inline;
-  }
+  } */
 }
 
 @media screen and (max-width: 360px) {
@@ -2978,12 +3040,10 @@ th {
     font-size: 19px;
   }
   /* ESPECIAL */
-  .cbz-esp1-2021-09 {
+  /* .cbz-esp1 {
     font-size: 40px;
-  }
-  .br-visible340 {
-    display: inline;
-  }
+  } */
+
   /* FOOTER */
   .footer-mision {
     font-size: 14px;
