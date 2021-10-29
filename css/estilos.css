@@ -794,6 +794,7 @@ header {
 }
 .foto-card-ev1-bx {
   width: 100%;
+  margin-bottom: 5px;
 }
 .foto-card-ev1-bx img {
   width: 100%;
@@ -801,7 +802,8 @@ header {
 }
 .cbz-ev1-bx {
   width: 100%;
-  display: flex;
+  /* display: flex; */
+  /* REVISAR SI ES NECESARIO DISP FLX */
 }
 .cbz-ev1 {
   font-size: 18px;
@@ -809,16 +811,21 @@ header {
   line-height: 1.2;
   margin-top: 4px;
 }
-.cbz-ev1-a {
-  font-size: 27px;
+.cbz-ev1-top {
+  font-size: 32px;
+  font-weight: bold;
 }
+
 /* .card-ev1:nth-child(2) {
   margin-bottom: 10px;
 } */
 .card-ev1:hover {
   transform: translateY(-2%);
 }
-.card-ev1 h2:hover {
+.cbz-ev1-bx:hover {
+  color: slategrey;
+}
+.cbz-ev1-top:hover {
   color: slategrey;
 }
 
@@ -1821,7 +1828,7 @@ th {
   .cbz-ev1 {
     font-size: 16px;
   }
-  .cbz-ev1-a {
+  .cbz-ev1-top {
     font-size: 24px;
   }
   /* CORTO */
@@ -2015,7 +2022,7 @@ th {
   .cbz-ev1 {
     font-size: 20px;
   }
-  .cbz-ev1-a {
+  .cbz-ev1-top {
     font-size: 20px;
   }
   /* FOOTER */
@@ -2104,7 +2111,7 @@ th {
   .cbz-ev1 {
     font-size: 20px;
   }
-  .cbz-ev1-a {
+  .cbz-ev1-top {
     font-size: 22px;
   }
   /* 92CORTO */
