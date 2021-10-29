@@ -1043,14 +1043,14 @@ header {
   color: #66666e;
 }
 .balazo-1 {
-  font-size: 24px;
+  font-size: 26px;
   line-height: 1.1;
   font-weight: 700;
   text-transform: uppercase;
   margin-top: 40px;
   color: var(--gris-oscuro);
 }
-.balazo span {
+.balazo-1 span {
   font-weight: 500;
 }
 .editorial-cbz {
@@ -1075,11 +1075,11 @@ header {
   margin-bottom: 18px;
   color: var(--gris-oscuro);
 }
-.fotonota-top-bx {
+.foto-nota-top-bx {
   width: 90%;
   margin-bottom: 20px;
 }
-.fotonota-top-bx img {
+.foto-nota-top-bx img {
   width: 100%;
 }
 
@@ -1493,31 +1493,35 @@ th {
 }
 
 /* NOTA FOTO CON/SIN PIE */
-/* .fotonota-izq {
+/* .foto-nota-izq {
   height: 188px;
   float: left;
   margin: 20px 30px 15px 0px;
 } */
-.fotonota-pie-izq {
+.foto-nota-pie-izq {
   width: 45%;
   float: left;
   margin: 25px 30px 40px 0px;
   overflow: hidden;
 }
-.fotonota-pie-izq img {
+.foto-nota-pie-izq img {
   width: 100%;
 }
-.fotonota-pie-der {
+.foto-nota-pie-der {
   width: 40%;
   float: right;
   margin: 15px -10px 50px 30px;
   overflow: hidden;
 }
-.fotonota-pie-der img {
+.pie-nota-bx {
+  width: 100%;
+  padding: 15px;
+}
+.foto-nota-pie-der img {
   width: 100%;
 }
 /* AVERIGUAR */
-/* .fotonota-pie-der figure img {
+/* .foto-nota-pie-der figure img {
   width: 60%;
 } */
 /* .foto2561 {
@@ -2043,8 +2047,8 @@ th {
     margin-left: 30px;
   }
   /* NOTAS */
-  .balazo {
-    font-size: 23px;
+  .balazo-1 {
+    font-size: 24px;
   }
   .cabeza-1 {
     font-size: 62px;
@@ -2148,7 +2152,7 @@ th {
     margin-right: 15px;
   }
   /* 1CABEZA */
-  .fotonota-top-bx {
+  .foto-nota-top-bx {
     width: 95%;
     display: block;
     margin-bottom: 20px;
@@ -2216,7 +2220,7 @@ th {
   .editorial-cbz {
     font-size: 50px;
   }
-  .balazo {
+  .balazo-1 {
     font-size: 22px;
   }
   .cabeza-1 {
@@ -2228,8 +2232,8 @@ th {
     font-size: 20px;
     margin-bottom: 15px;
   }
-  /* 1FOTONOTA */
-  .fotonota-pie-der {
+  /* 1FOTO-NOTA */
+  .foto-nota-pie-der {
     margin-right: 0;
     margin: 15px -10px 50px 30px;
     overflow: hidden;
@@ -2519,7 +2523,7 @@ th {
   .nota-bx {
     grid-template-columns: 100%;
   }
-  .balazo {
+  .balazo-1 {
     font-size: 23px;
   }
   /* 1RECUADROS */
@@ -2705,12 +2709,12 @@ th {
     font-size: 17px;
   }
   /* 1NOTAS-FOTOS */
-  .fotonota-pie-izq {
+  .foto-nota-pie-izq {
     width: 100%;
     float: none;
     margin: 30px auto 40px;
   }
-  .fotonota-pie-der {
+  .foto-nota-pie-der {
     width: 100%;
     float: none;
     margin: 30px auto 40px;
@@ -2801,7 +2805,7 @@ th {
     font-size: 20px;
   }
   /* 1NOTAS */
-  .balazo {
+  .balazo-1 {
     font-size: 21px;
   }
   .cabeza-1 {
