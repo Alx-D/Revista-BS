@@ -1181,8 +1181,27 @@ header {
   color: var(--verde-logo-1);
   margin-top: 40px;
 }
+.texto-resaltado{
+  font-size: 22px;
+}
+.qqq{
+  width: 100%;
+  display: flex;
+  background: lightyellow;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+.barra{
+  width: 20px;
+  height: auto (-5%);
+  margin-left: 20px;
+  margin-right: 30px;
+  /* align-self: center; */
+  background: #275c6d;
+}
 .texto-resaltado-bx {
-  width: 90%;
+  width: 95%;
   padding: 25px;
   background: var(--gris-claro);
   margin-top: 30px;
