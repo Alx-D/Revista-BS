@@ -1539,6 +1539,25 @@ th {
 .foto-nota-pie-der img {
   width: 100%;
 }
+
+/* FOTO NOTA CENTRADA */
+.foto-nota-pie-cnt {
+  width: 80%;
+  margin: 30px auto 45px auto;
+  background: var(--gris-claro);
+}
+.foto-nota-pie-cnt figure {
+  display: flex;
+}
+.foto-nota-pie-cnt figure img {
+  width: 65%;
+}
+.foto-nota-pie-cnt figcaption {
+  float: right;
+  padding: 10px 10px 10px 25px;
+  align-self: center;
+}
+
 /* AVERIGUAR */
 /* .foto-nota-pie-der figure img {
   width: 60%;
@@ -1564,15 +1583,21 @@ th {
 } */
 .pie {
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 1.3;
   font-weight: 300;
 }
 /* 1ASIDE NOTA  */
-.aside-bnrs,
-.aside-bnrs-2 {
+.aside-bnrs-up {
   float: right;
   width: 75%;
-  margin-top: 100px;
+  margin-top: 50px;
+}
+.aside-bnrs-stic {
+  float: right;
+  width: 75%;
+  margin-top: 50px;
+  position: sticky;
+  top: 40px;
 }
 /* TEMAS DE INTERES */
 #interes {
@@ -1877,11 +1902,6 @@ th {
   .btn-siganos {
     margin-left: 35px;
   }
-  /* NOTAS */
-  /* RECUADROS */
-  .rc-color {
-    margin-right: -20px;
-  }
 }
 
 @media screen and (max-width: 980px) {
@@ -2141,7 +2161,7 @@ th {
   .card-corto1-carr figcaption {
     font-size: 20px;
   }
-  /* 1FOOTER */
+  /* 92FOOTER */
   .footer-BSlogo-bx {
     width: 120px;
   }
@@ -2163,22 +2183,36 @@ th {
   .btn-siganos p {
     font-size: 16px;
   }
-  /* 1NOTAS  */
-  /* 1CREDITO */
+  /* 92NOTAS  */
+  /* 92CREDITO */
   .credito-foto-bx {
     width: 66px;
     height: 66px;
     margin-right: 15px;
   }
-  /* 1CABEZA */
+  /* 92CABEZA */
   .foto-nota-top-bx {
     width: 95%;
     display: block;
     margin-bottom: 20px;
   }
-  /* RECUADRO COLOR */
+  /* 92FOTO NOTA CENTRADA */
+.foto-nota-pie-cnt {
+  width: 90%;
+  margin-bottom: 35px;
+}
+.foto-nota-pie-cnt figure {
+  display: initial;
+}
+.foto-nota-pie-cnt figure img {
+  width: 100%;
+}
+.foto-nota-pie-cnt figcaption {
+  float: none;
+  padding: 10px 15px 20px 15px;
+}
+  /* 92RECUADRO COLOR */
   .rc-color {
-    margin-left: 30px;
     padding: 20px;
   }
   .rc-color-cbz-1r,
@@ -2258,8 +2292,8 @@ th {
     overflow: hidden;
   }
   /* 1ASIDE NOTAS */
-  .aside-bnrs {
-    width: 90%;
+  .aside-bnrs-stic {
+    width: 85%;
   }
   /* 1RECUADROS */
   .rc-float-der {
@@ -2338,6 +2372,22 @@ th {
     width: 60px;
     height: 60px;
   }
+      /* RECUADROS */
+      .rc-color {
+        width: 80%;
+        border-radius: 13px;
+      }
+      .rc-gris {
+        width: 80%;
+      }
+      .rc-float-izq,
+      .rc-float-der {
+        float: none;
+        margin-top: 25px;
+        margin-right: auto;
+        margin-bottom: 25px;
+        margin-left: auto;
+      }
 }
 
 @media screen and (max-width: 740px) {
@@ -2473,22 +2523,6 @@ th {
     margin: 0 auto 35px;
     height: 350px;
   }
-    /* RECUADROS */
-  .rc-color {
-    width: 80%;
-    border-radius: 13px;
-  }
-  .rc-gris {
-    width: 80%;
-  }
-  .rc-float-izq,
-  .rc-float-der {
-    float: none;
-    margin-top: 25px;
-    margin-right: auto;
-    margin-bottom: 25px;
-    margin-left: auto;
-  }
 }
 
 @media screen and (max-width: 680px) {
@@ -2560,14 +2594,15 @@ th {
   .nonedw680 {
     display: none !important;
   }
-  .aside-bnrs {
+  .aside-bnrs-stic {
     display: flex;
     width: 90%;
     float: none;
     margin: 50px auto;
     justify-content: space-between;
+    position: initial;
   }
-  .aside-bnrs-2 {
+  .aside-bnrs-up {
     display: flex;
     width: 75%;
     float: none;
@@ -2670,7 +2705,8 @@ th {
     font-size: 52px;
   }
   /* 1ASIDE NOTAS */
-  .aside-bnrs {
+  .aside-bnrs-stic {
+    width: 75%;
     flex-direction: column;
     margin: 60px auto;
   }
@@ -2837,6 +2873,15 @@ th {
     line-height: 1.3;
     margin-bottom: 15px;
   }
+    /* 48FOTO NOTA CENTRADA */
+  .foto-nota-pie-cnt {
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+  .foto-nota-pie-cnt figcaption {
+    padding-bottom: 15px;
+  }
   /* 1FOOTER */
   .footer-cont {
     padding: 25px 20px 0 20px;
@@ -2889,7 +2934,7 @@ th {
     padding: 20px;
   }
   .pie {
-    font-size: 15px;
+    font-size: 14px;
   }
   /* 1RECUADROS */
   .rc-fuente {
