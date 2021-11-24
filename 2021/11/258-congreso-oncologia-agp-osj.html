@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/estilos.css">
+  <link rel="stylesheet" href="/css/all.min.css">
+  <meta name="description" content="Artículos sobre el cuidado de la salud y prevención de enfermedades">
+  <meta name="keywords"
+    content="salud, saludable, vida, cuidado, bienestar, prevención, enfermedades, nutrición, psicología, niños, familia, adultos mayores, femeson, sonora">
+  <link rel="icon" type="image/png" href="../imgs/Revista_BS_favicon.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,300;0,400;1,400&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+    rel="stylesheet">
+
+  <title>Revista BS | Salud para vivir con sentido</title>
+</head>
+
+<body>
+  <header class="contenedor">
+
+    <!-- HEADER MOBILE -->
+    <div class="header-mobile-cont">
+
+      <div class="header-mobile-row-1">
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+
+        <div class="logo-mobile-bx">
+          <a href="/index.html">
+            <img src="/imgs/Revista-BS-logo-m.png">
+          </a>
+        </div>
+
+        <i class="fas fa-search"></i>
+      </div>
+
+      <div class="lema-mobile-bx">
+        <img src="/imgs/lema.png">
+      </div>
+
+      <nav>
+        <div class="menu-mobile" id="menu-enlaces">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Revista</a></li>
+            <li><a href="#">Artículos por tema</a></li>
+            <li><a href="#">Directorio médico</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- HEADER DESKTOP -->
+    <div class="header-cont">
+
+      <div class="header-col-izq">
+        <div class="revista-bs-logo-bx">
+          <a href="/index.html">
+            <img class="logo-header" src="/imgs/Revista-BS-logo-header.png" alt="Revista BS">
+          </a>
+        </div>
+      </div>
+
+      <div class="header-col-der">
+        <div class="header-row-1">
+          <div class="facebook">
+            <a class="f1" href="https://www.facebook.com">
+              <i class="fab fa-facebook fa-lg"></i> Revista BS
+            </a>
+          </div>
+          <p class="f2 femeson-leyenda">Órgano de vinculación y divulgación de <br> la Federación Médica de Sonora</p>
+          <div class="femeson-logo-bx">
+            <img src="/imgs/femeson-escudo.png" alt="">
+          </div>
+        </div>
+
+        <div class="header-row-2">
+          <div class="lema-bx">
+            <img src="/imgs/lema.png">
+          </div>
+          <div id="buscador">
+            <form>
+              <input type="text" placeholder="Buscar">
+            </form>
+          </div>
+        </div>
+
+        <nav>
+          <div class="menu-desktop">
+            <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Revista</a></li>
+              <li><a href="#">Artículos por tema</a></li>
+              <li><a href="#">Directorio médico</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+  </header>
+
+  <!-- BANNER HORIZONTAL -->
+  <div class="contenedor bnr-hz-01">
+    <a href="https://hondapremium.com/" target="blank"><img src="/imgs/Honda-diciembre-2020.png"></a>
+  </div>
+
+  <div class="contenedor m-0a nota-bx">
+    <article class="col-6">
+      <div class="f2 ceja-gde naranjao">Cáncer • Congresos</div>
+      <p class="f1 fecha">Noviembre 2021</p>
+
+      <p class="f1 balazo-1">VII Congreso de Oncología AGP-OSJ</p>
+      <h1 class="f2 cabeza-1">Conocimiento ante los desafíos</h1>
+      <p class="f1 sumario-1"></p>
+
+      <figure class="foto-nota-top-bx">
+        <img src="../10" alt="">
+      </figure>
+
+      <!-- COMPARTIR -->
+      <div class="compartir-bx">
+        <i class="fa fa-share"></i>
+        <p class="f1 compartir"> Compartir</p>
+        <a href="#" class="fab fa-whatsapp whatsapp-compartir" title="Enviar por Whatsapp"></a>
+        <a href="#" class="fab fa-facebook fa-lg facebook-compartir" title="Compartir en Facebook"></a>
+        <a href="#" class="fas fa-envelope envelope-compartir" title="Enviar por correo electrónico"></a>
+        <a href="#" class="fas fa-link link-compartir" title="Copiar enlace"></a>
+      </div>
+
+      <!-- CREDITO -->
+      <div class="credito-bx">
+        <figure class="credito-foto-bx">
+          <img src="/imgs/doctores" alt="">
+        </figure>
+
+        <p class="f1 credito-autor"><strong>Dr</strong><br>Esp<br>
+          <a href="mailto:@"><i>correo</i></a>
+        </p>
+      </div>
+
+      <div class="texto">
+
+        <p class="descanso"></p>
+
+        <!-- REMATE -->
+        <i class="fas fa-square"></i>
+
+        <!-- FRASE -->
+        <div class="frase-bx">
+          <div class="frase-barra" style="background: #d7779a;"></div>
+          <p class="frase">Texto</p>
+        </div>
+
+        <!-- TEXTO LISTA ORDENADA INCISO -->
+        <ol>
+          <li class="lista-letra-nota"></li>
+          <li class="lista-letra-nota"></li>
+          <li class="lista-letra-nota"></li>
+        </ol>
+
+        <!-- TEXTO LISTA ORDENADA NUM -->
+        <ol>
+          <li class="lista-num-nota"></li>
+          <li class="lista-num-nota"></li>
+          <li class="lista-num-nota"></li>
+        </ol>
+
+        <!-- TEXTO LISTA DESORDENADA BULLET-->
+        <ul>
+          <li class="lista-disco-nota">Lista</li>
+          <li class="lista-disco-nota">Lista</li>
+          <li class="lista-disco-nota">Lista</li>
+        </ul>
+
+        <!-- TEXTO RESALTADO CAJA GRIS -->
+        <div class="texto-resaltado-bx">
+          <p>Cabeza o texto</p>
+          <ul>
+            <li class="lista-disco-nota">Lista</li>
+            <li class="lista-disco-nota">Lista</li>
+            <li class="lista-disco-nota">Lista</li>
+          </ul>
+        </div>
+
+        <!-- SEPARADOR -->
+        <hr style="background-color: #ccc; height: 5px; border: 0;">
+
+        <!-- RECUADRO COLOR SIN FOTO -->
+        <div class="rc-color morado rc-float-der">
+          <p class="f2 rc-color-cbz-1r">Cabeza</p>
+          <p class="f3 rc-color-texto">Texto recuadro</p>
+          <ul class="rc-color-lista">
+            <li>Lista</li>
+            <li>Lista</li>
+            <li>Lista</li>
+          </ul>
+        </div>
+
+        <!-- CABEZA CORTE GUION -->
+        <p class="f2 rc-color-cbz-1r guion" style="color: black;">Ultraproce&shysa&shydos</p>
+
+        <!-- RECUADRO COLOR CON FOTO-->
+        <div class="rc-gris rc-float-der">
+
+          <div class="rc-foto-bx">
+            <img class="w1200" src="/2021/09/imgs/256-Pod-Fausto-Diaz-PROBLEMAS-PISADA-4.png"
+              style="margin: 0 auto 15px; display: block;">
+
+            <img class="w740" src="/2021/09/imgs/256-Pod-Fausto-Diaz-PROBLEMAS-PISADA-4-740.png"
+              style="margin: 0 auto; display: block;" width="100%">
+          </div>
+
+          <p class="f2 rc-color-cbz-1r guion">Cabeza&shy</p>
+
+          <p class="f2 rc-color-texto" style="color: black; margin: 0;">Texto recuadro</p>
+          <p class="f2 rc-fuente">Fuente</p>
+        </div>
+
+        <!-- RECUADRO GRIS -->
+        <div class="rc-gris rc-float-izq">
+          <p class="f2 rc-gris-cbz-1r">Cabeza</p>
+          <p class="f3 rc-color-texto">Texto</p>
+          <ul class="rc-gris-lista">
+            <li>Lista</li>
+            <li>Lista</li>
+            <li>Lista</li>
+          </ul>
+        </div>
+
+        <!-- FOTO-NOTA CON PIE IZQ -->
+        <div class="foto-nota-pie-izq">
+          <figure>
+            <img src="/2021/" alt="">
+            <figcaption class="f2 pie">Texto pie</figcaption>
+          </figure>
+        </div>
+
+        <!-- FOTO-NOTA CON PIE CENTRADA -->
+        <div class="foto-nota-pie-cnt">
+          <figure>
+            <img src="#"  alt="">
+            <figcaption class="f2 pie">Pie</figcaption>
+          </figure>
+        </div>
+
+        <!-- FOTO-NOTA CON PIE DER -->
+        <div class="foto-nota-pie-der">
+          <figure>
+            <img src="/2021/" alt="">
+            <figcaption class="f2 pie">Texto pie</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <!-- PIE EN RECUADRO COLOR -->
+      <div class="pie-nota-bx" style="background: var(--azul-oscuro);">
+        <figcaption class="f2 pie" style="color: white;">Tras la cirugía conservadora se necesitará radioterapia
+          para disminuir la posibilidad de recurrencia.</figcaption>
+      </div>
+
+    </article>
+
+    <!-- ASIDE NOTA -->
+    <aside class="col-4">
+
+      <!-- BANNERS ASIDE -->
+      <div class="aside-bnrs-2">
+        <div class="bnr-250x250">
+          <a href="#">
+            <img src="/imgs/Hospital-GobEdo.png">
+          </a>
+        </div>
+      </div>
+
+      <!-- TEMAS DE INTERES -->
+      <div id="interes">
+        <hr style="border-top: 4px solid">
+        <p class="f2 indicador interes-ind-a">TEMAS DE INTERÉS</p>
+
+        <div class="interes-item">
+          <a href="#">
+            <img src="/2021/01/imgs/248-Lillian-Figueroa-ALIMENTOS-ORGANICOS-1-th.jpg" alt="">
+            <p>Alimentos orgánicos por su salud y el medio ambiente</p>
+          </a>
+        </div>
+
+        <div class="interes-item">
+          <a href="#">
+            <img src="/2021/01/imgs/248-Dra-Ana-Martinez-Ayala-ENT-TERCERA-EDAD-1-th.jpg" alt="">
+            <p>ENT y tercera edad: Contra el reloj</p>
+          </a>
+        </div>
+
+        <div class="interes-item">
+          <a href="#">
+            <img src="/2021/01/imgs/248-Dr-Mario-Alvarez-Bojorquez-HABITOS-CIRUGIA-1-th.jpg" alt="">
+            <p>Buscando las mejores condiciones en caso de cirugía oncológica</p>
+          </a>
+        </div>
+
+        <div class="interes-item">
+          <a href="#">
+            <img src="/2021/01/imgs/248-Redaccion-BS-ENFERMEDADES-RESPIRATORIAS-2-th.jpg" alt="">
+            <p>En enfermedades respiratorias distinguir es la clave</p>
+          </a>
+        </div>
+      </div>
+
+      <!-- BANNERS ASIDE -->
+      <div class="aside-bnrs">
+        <div class="bnr-vl-250x250 mb-70">
+          <a href="#">
+            <img src="/imgs/Hospital-GobEdo.png">
+          </a>
+        </div>
+
+        <div class="bnr-vl-250x250">
+          <a href="#">
+            <img src="/imgs/Hospital-GobEdo.png">
+          </a>
+        </div>
+      </div>
+
+      <!-- INFO-AUTOR -->
+      <div class="info-autor-bx">
+
+        <p class="f1 sobre-autor">Sobre el autor</p>
+
+        <p class="f1 autor">Dr</p>
+        <p class="f1 autor-especialidad">Esp</p>
+        <p class="f1 autor-certificaciones"></p>
+        <p class="f1 autor-cedulas">Ced</p>
+        <p class="f1 autor-empresa">Cli</p>
+        <p class="f1 autor-dom-tel"><i class="fas fa-map-marker-alt"></i> Dom</p>
+        <a href="tel:">
+          <p class="f1 autor-dom-tel"><i class="fas fa-phone-alt"></i> </p>
+        </a>
+        <p class="f1 autor-dom-tel"><i class="fas fa-exclamation-circle"></i> (662)</p>
+        <a class="f1 autor-correo" href="mailto:"><i class="fas fa-envelope"></i> correo</a>
+        <p class="f1 autor-dom-tel"><i class="fab fa-facebook-square"></i> fb</p>
+        <p class="f1 autor-dom-tel"><i class="fab fa-twitter-square"></i> tw</p>
+        <p class="f1 autor-dom-tel"><i class="fas fa-mouse-pointer"></i> .com</p>
+      </div>
+    </aside>
+  </div>
+
+  <div class="clear" style="margin-bottom: 70px;"></div>
+
+  <!-- BANNER HORIZONTAL -->
+  <div class="contenedor bnr-hz-01" style="margin-top: 20px">
+    <a href="https://www.hospitalsanjosehermosillo.com/" target="blank"><img src="/imgs/Hospital-San-Jose.jpg"></a>
+  </div>
+
+  <div class="altura-ajuste-footer"></div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-row-1">
+      <div class="f1 footer-mision">COMUNICAMOS VALOR</div>
+    </div>
+
+    <div class="footer-row-2">
+      <div class="contenedor footer-cont">
+
+        <div class="footer-col-1">
+          <div class="footer-BSlogo-bx"><img src="/imgs/Revista-BS-logo-footer.png"></div>
+
+          <div class="btn-siganos-pr">
+            <a href="#">
+              <p><strong>Síganos en</strong></p>
+              <p><i class="fab fa-facebook"></i> Revista BS</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="f1 footer-col-2">
+          <p class="anunciese"><strong>Anúnciese con nosotros</strong></p>
+          <p class="footer-tel">
+            <i class="fas fa-phone-alt footer-icon">&nbsp;</i>(662) 236 25 00
+          </p>
+          <a class="footer-email" href="mailto:publicidad@buenasalud.org">
+            <i class="fas fa-envelope footer-icon">&nbsp;</i>publicidad@buenasalud.org </a>
+          <p class="footer-direccion"><i class="fas fa-map-marker-alt footer-icon">&nbsp;</i>Quinta Mayor 181 Col. Las
+            Quintas, Hermosillo, Sonora, México CP 83240</p>
+        </div>
+
+        <div class="f1 footer-col-3">
+          <p><strong>©2021 Revista BS <br> Todos los derechos reservados</strong></p>
+          <p>Sin previa autorización, queda expresamente prohibida la publicación, retransmisión, edición y
+            cualquier otro uso de los contenidos.</p>
+          <a href="#">Política de Privacidad</a>
+          <a style="display: inline-block;" href="#">Términos y Condiciones</a>
+        </div>
+
+        <div class="btn-siganos">
+          <a href="#">
+            <p><strong>Síganos en</strong></p>
+            <p><i class="fab fa-facebook"></i> Revista BS</p>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="duarte-firma">
+        <a href="mailto:duartepublicidad@gmail.com">Sitio desarrollado por <strong>Duarte Publicidad</strong></a>
+      </div>
+
+    </div>
+    <div class="wid"></div>
+  </footer>
+</body>
+
+</html>
