@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/estilos.css">
+  <link rel="stylesheet" href="/css/all.min.css">
+  <meta name="description" content="Artículos sobre el cuidado de la salud y prevención de enfermedades">
+  <meta name="keywords"
+    content="salud, saludable, vida, cuidado, bienestar, prevención, enfermedades, nutrición, psicología, niños, familia, adultos mayores, femeson, sonora">
+  <link rel="icon" type="image/png" href="../imgs/Revista_BS_favicon.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,300;0,400;1,400&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+    rel="stylesheet">
+
+  <title>Revista BS | Salud para vivir con sentido</title>
+</head>
+
+<body>
+  <header class="contenedor">
+
+    <!-- HEADER MOBILE -->
+    <div class="header-mobile-cont">
+
+      <div class="header-mobile-row-1">
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+
+        <div class="logo-mobile-bx">
+          <a href="/index.html">
+            <img src="/imgs/Revista-BS-logo-m.png">
+          </a>
+        </div>
+
+        <i class="fas fa-search"></i>
+      </div>
+
+      <div class="lema-mobile-bx">
+        <img src="/imgs/lema.png">
+      </div>
+
+      <nav>
+        <div class="menu-mobile" id="menu-enlaces">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Revista</a></li>
+            <li><a href="#">Artículos por tema</a></li>
+            <li><a href="#">Directorio médico</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- HEADER DESKTOP -->
+    <div class="header-cont">
+
+      <div class="header-col-izq">
+        <div class="revista-bs-logo-bx">
+          <a href="/index.html">
+            <img class="logo-header" src="/imgs/Revista-BS-logo-header.png" alt="Revista BS">
+          </a>
+        </div>
+      </div>
+
+      <div class="header-col-der">
+        <div class="header-row-1">
+          <div class="facebook">
+            <a class="f1" href="https://www.facebook.com">
+              <i class="fab fa-facebook fa-lg"></i> Revista BS
+            </a>
+          </div>
+          <p class="f2 femeson-leyenda">Órgano de vinculación y divulgación de <br> la Federación Médica de Sonora</p>
+          <div class="femeson-logo-bx">
+            <img src="/imgs/femeson-escudo.png" alt="">
+          </div>
+        </div>
+
+        <div class="header-row-2">
+          <div class="lema-bx">
+            <img src="/imgs/lema.png">
+          </div>
+          <div id="buscador">
+            <form>
+              <input type="text" placeholder="Buscar">
+            </form>
+          </div>
+        </div>
+
+        <nav>
+          <div class="menu-desktop">
+            <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Revista</a></li>
+              <li><a href="#">Artículos por tema</a></li>
+              <li><a href="#">Directorio médico</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+  </header>
+
+  <!-- BANNER HORIZONTAL -->
+  <div class="contenedor bnr-hz-01">
+    <a href="https://hondapremium.com/" target="blank"><img src="/imgs/Honda-diciembre-2020.png"></a>
+  </div>
+
+  <div class="contenedor m-0a nota-bx">
+    <article class="col-6">
+      <div class="f2 ceja-gde naranjao">Renal</div>
+      <p class="f1 fecha">Noviembre 2021</p>
+
+      <p class="f1 balazo-1">Hemodiálisis</p>
+      <h1 class="f2 cabeza-1">Sangre nueva</h1>
+      <p class="f1 sumario-1">La hemodiálisis no es una cura para la insuficiencia renal, pero puede ayudar a que el paciente se sienta mejor y viva más tiempo, conozca cómo funciona esta terapia</p>
+
+      <figure class="foto-nota-top-bx">
+        <img src="../11/imgs/258-Dr-Joel-Verdugo-HEMODIALISIS.jpg" alt="">
+      </figure>
+
+      <!-- COMPARTIR -->
+      <div class="compartir-bx">
+        <i class="fa fa-share"></i>
+        <p class="f1 compartir"> Compartir</p>
+        <a href="#" class="fab fa-whatsapp whatsapp-compartir" title="Enviar por Whatsapp"></a>
+        <a href="#" class="fab fa-facebook fa-lg facebook-compartir" title="Compartir en Facebook"></a>
+        <a href="#" class="fas fa-envelope envelope-compartir" title="Enviar por correo electrónico"></a>
+        <a href="#" class="fas fa-link link-compartir" title="Copiar enlace"></a>
+      </div>
+
+      <!-- CREDITO -->
+      <div class="credito-bx">
+        <figure class="credito-foto-bx">
+          <img src="/imgs/doctores/Dr-Joel-Verdugo-Correa.jpg" alt="">
+        </figure>
+
+        <p class="f1 credito-autor"><strong>Dr. Joel Ernesto Verdugo Correa</strong><br>Enfermedad del riñón y trasplante renal<br>
+          <a href="mailto:dr.verdugo.nefrologo@gmail.com"><i>dr.verdugo.nefrologo@gmail.com</i></a>
+        </p>
+      </div>
+
+      <div class="texto">
+        <p>La hemodiálisis es un tratamiento para filtrar las toxinas y el agua de la sangre como lo hacían los riñones cuando estaban sanos. Ayuda a controlar la presión arterial y a equilibrar los minerales importantes en la sangre como el potasio, el sodio y el calcio.</p>
+
+        <p class="descanso" style="color: var(--rojo);">¿Qué sucede durante la hemodiálisis?</p>
+        <p>Durante la hemodiálisis, se bombea la sangre a través de un filtro, conocido como dializador, fuera del organismo. El dializador también se conoce como “riñón artificial”.</p>
+        <p>Al comienzo de un tratamiento de hemodiálisis, una enfermera colocará dos agujas en el brazo del paciente o conectará a un catéter venoso (previamente colocado por un médico nefrólogo en una vena grande) unas mangueras que van a la máquina.</p>
+        <p>El dializador bombea la sangre a través del filtro y la devuelve al organismo. Durante el proceso, la máquina de diálisis verifica la presión arterial y controla qué tan rápido fluye la sangre a través del filtro así como la velocidad con que se extrae el líquido del organismo.</p>
+
+        <p class="descanso" style="color: var(--rojo);">¿Qué pasa con la sangre del paciente mientras está en el filtro?</p>
+        <p>La sangre pasa por un extremo del filtro y entra a muchas fibras huecas muy delgadas. A medida que la sangre pasa a través de las fibras huecas, la solución de diálisis pasa en dirección opuesta en el exterior de las fibras. Las toxinas de la sangre pasan a la solución de diálisis. La sangre filtrada permanece en las fibras huecas y regresa al cuerpo.</p>
+        <p>El nefrólogo recetará al paciente una solución de diálisis para satisfacer sus necesidades. La solución de diálisis contiene agua y sustancias químicas que se agregan para eliminar de manera segura las toxinas, el exceso de sal y el líquido de la sangre.</p>
+        <p>El médico puede ajustar el equilibrio de los productos químicos en la solución si los análisis de sangre muestran que la sangre tiene demasiada o muy poca cantidad de ciertos minerales como potasio o calcio, o si el paciente tiene problemas como presión arterial baja o calambres musculares durante la diálisis.</p>
+
+        <div class="foto-nota-pie-cnt">
+          <figure>
+            <img src="/2021/11/imgs/258-Dr-Joel-Verdugo-HEMODIALISIS-nt.jpg"  alt="">
+            <figcaption class="f2 pie">El proceso de diálisis permite eliminar toxinas, exceso de sal y de agua de la sangre, sustituyendo así parte de la función de los riñones.</figcaption>
+          </figure>
+        </div>
+
+        <p class="descanso" style="color: var(--rojo);">¿Dónde se recibe el tratamiento?</p>
+        <p>La mayoría de las personas acuden a una unidad de hemodiálisis para recibir el tratamiento. En la unidad de hemodiálisis, el personal médico y enfermería configuran la máquina de diálisis y ayudan al paciente a conectarse. Un equipo de personal de la salud estará disponible para ayudarle. El paciente seguirá asistiendo a consulta con el médico.</p>
+
+        <p class="descanso" style="color: var(--rojo);">¿Puede el dializador hacer todo lo que los riñones del paciente alguna vez hicieron?</p>
+        <p>No. La hemodiálisis puede reemplazar parte de la función renal, pero no toda. La diálisis ayudará a mejorar el nivel de energía del paciente, así también los cambios que realice en su dieta pueden ayudarle a sentirse mejor.</p>
+        <p>Limitar la cantidad de agua y otros líquidos que el paciente bebe y absorbe a través de los alimentos puede ayudar a evitar que se acumule demasiado líquido en el organismo entre tratamientos. Los medicamentos también ayudan a mantener la salud mientras el paciente está en diálisis.</p>
+
+        <p class="descanso" style="color: var(--rojo);">¿Cómo es el horario para el tratamiento?</p>
+        <p>El paciente tendrá un horario fijo para los tratamientos, generalmente tres veces por semana. Cada sesión de diálisis dura aproximadamente 3 a 4 horas.</p>
+
+        <p class="descanso" style="color: var(--rojo);">¿Cómo se prepara el paciente?</p>
+        <p>La diálisis es un tratamiento complejo que toma tiempo entender. Debido a que la mayoría de las personas no se sienten mal sino hasta poco antes de comenzar la diálisis, es probable que aún se sientan bien cuando el médico les hable por primera vez sobre la necesidad de prepararse para recibir diálisis. No se trata de comenzar la diálisis antes de que sea necesario, pero la preparación toma tiempo.</p>
+
+        <p class="descanso" style="color: var(--rojo);">¿Qué cambios tendrá que hacer el paciente cuando comience la hemodiálisis?</p>
+        <ul>
+          <li class="lista-disco-nota">El paciente tendrá que cambiar lo que come y bebe. Limitar el sodio, alimentos ricos en fósforo y la cantidad de líquido que bebe, incluso el líquido que se encuentra en los alimentos</li>
+          <li class="lista-disco-nota">Cuidar el acceso venoso, es la línea vital, por lo tanto debe protegerlo.</li>
+          <li class="lista-disco-nota">El equipo médico puede ajustarle los medicamentos que toma.</li>
+          <li class="lista-disco-nota">El líquido se acumula en el organismo entre los tratamientos de hemodiálisis. Podría necesitar agregar proteínas a la dieta porque la hemodiálisis elimina las proteínas, escoger alimentos con la cantidad adecuada de potasio, tomar vitaminas elaboradas para personas con insuficiencia renal y encontrar formas saludables de agregar calorías a la dieta porque es posible que se sienta con mucho apetito.</li>
+        </ul>
+
+        <p class="descanso" style="color: var(--rojo);">¿Cómo sabe el paciente si la hemodiálisis está funcionando?</p>
+        <p>El paciente sabrá si los tratamientos de hemodiálisis están funcionando dependiendo de cómo se sienta. El nivel de energía puede aumentar y es posible que tenga más apetito. La hemodiálisis reduce la acumulación de sal y líquidos, por lo tanto debería tener menos dificultad respiratoria y menos hinchazón, así como control de su presión arterial.</p>
+        <p>Para aprovechar al máximo el tratamiento de hemodiálisis, el paciente debe mantener su “peso seco” ideal. El peso seco ideal es el peso cuando no se tiene exceso de líquido en el organismo. <i class="fas fa-square"></i></p>
+    </article>
+
+    <!-- ASIDE NOTA -->
+    <aside class="col-4">
+
+      <!-- BANNERS ASIDE -->
+      <div class="aside-bnrs-up">
+        <div class="bnr-250x250">
+          <a href="#">
+            <img src="/imgs/Hospital-GobEdo.png">
+          </a>
+        </div>
+      </div>
+
+      <!-- TEMAS DE INTERES -->
+      <div id="interes">
+        <hr style="border-top: 4px solid">
+        <p class="f2 indicador interes-ind-a">TEMAS DE INTERÉS</p>
+
+        <div class="interes-item">
+          <a href="#">
+            <img src="/2021/01/imgs/248-Lillian-Figueroa-ALIMENTOS-ORGANICOS-1-th.jpg" alt="">
+            <p>Alimentos orgánicos por su salud y el medio ambiente</p>
+          </a>
+        </div>
+
+        <div class="interes-item">
+          <a href="#">
+            <img src="/2021/01/imgs/248-Dra-Ana-Martinez-Ayala-ENT-TERCERA-EDAD-1-th.jpg" alt="">
+            <p>ENT y tercera edad: Contra el reloj</p>
+          </a>
+        </div>
+
+        <div class="interes-item">
+          <a href="#">
+            <img src="/2021/01/imgs/248-Dr-Mario-Alvarez-Bojorquez-HABITOS-CIRUGIA-1-th.jpg" alt="">
+            <p>Buscando las mejores condiciones en caso de cirugía oncológica</p>
+          </a>
+        </div>
+
+        <div class="interes-item">
+          <a href="#">
+            <img src="/2021/01/imgs/248-Redaccion-BS-ENFERMEDADES-RESPIRATORIAS-2-th.jpg" alt="">
+            <p>En enfermedades respiratorias distinguir es la clave</p>
+          </a>
+        </div>
+      </div>
+
+      <!-- BANNERS ASIDE -->
+      <div class="aside-bnrs-stic">
+        <div class="bnr-vl-250x250 mb-70">
+          <a href="#">
+            <img src="/imgs/Hospital-GobEdo.png">
+          </a>
+        </div>
+
+        <div class="bnr-vl-250x250">
+          <a href="#">
+            <img src="/imgs/Hospital-GobEdo.png">
+          </a>
+        </div>
+      </div>
+
+      <!-- INFO-AUTOR -->
+      <div class="info-autor-bx">
+
+        <p class="f1 sobre-autor">Sobre el autor</p>
+
+        <p class="f1 autor">Dr. Joel Ernesto Verdugo Correa</p>
+        <p class="f1 autor-especialidad">Enfermedad del riñón y trasplante renal</p>
+        <p class="f1 autor-cedulas">Cédula profesional: 6741136, universidad Autónoma de Sinaloa; Cédula de especialidad: 10138855, Universidad de Guadalajara</p>
+        <p class="f1 autor-empresa">Hospital San José</p>
+        <p class="f1 autor-dom-tel"><i class="fas fa-map-marker-alt"></i> Blvd. Morelos #340, segundo piso, módulo C</p>
+        <a href="tel:">
+          <p class="f1 autor-dom-tel"><i class="fas fa-phone-alt"></i> (662) 109-0524</p>
+        </a>
+
+        <a class="f1 autor-correo" href="mailto:dr.verdugo.nefrologo@gmail.com"><i class="fas fa-envelope"></i> dr.verdugo.nefrologo@gmail.com</a>
+      </div>
+    </aside>
+  </div>
+
+  <div class="clear" style="margin-bottom: 70px;"></div>
+
+  <!-- BANNER HORIZONTAL -->
+  <div class="contenedor bnr-hz-01" style="margin-top: 20px">
+    <a href="https://www.hospitalsanjosehermosillo.com/" target="blank"><img src="/imgs/Hospital-San-Jose.jpg"></a>
+  </div>
+
+  <div class="altura-ajuste-footer"></div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-row-1">
+      <div class="f1 footer-mision">COMUNICAMOS VALOR</div>
+    </div>
+
+    <div class="footer-row-2">
+      <div class="contenedor footer-cont">
+
+        <div class="footer-col-1">
+          <div class="footer-BSlogo-bx"><img src="/imgs/Revista-BS-logo-footer.png"></div>
+
+          <div class="btn-siganos-pr">
+            <a href="#">
+              <p><strong>Síganos en</strong></p>
+              <p><i class="fab fa-facebook"></i> Revista BS</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="f1 footer-col-2">
+          <p class="anunciese"><strong>Anúnciese con nosotros</strong></p>
+          <p class="footer-tel">
+            <i class="fas fa-phone-alt footer-icon">&nbsp;</i>(662) 236 25 00
+          </p>
+          <a class="footer-email" href="mailto:publicidad@buenasalud.org">
+            <i class="fas fa-envelope footer-icon">&nbsp;</i>publicidad@buenasalud.org </a>
+          <p class="footer-direccion"><i class="fas fa-map-marker-alt footer-icon">&nbsp;</i>Quinta Mayor 181 Col. Las
+            Quintas, Hermosillo, Sonora, México CP 83240</p>
+        </div>
+
+        <div class="f1 footer-col-3">
+          <p><strong>©2021 Revista BS <br> Todos los derechos reservados</strong></p>
+          <p>Sin previa autorización, queda expresamente prohibida la publicación, retransmisión, edición y
+            cualquier otro uso de los contenidos.</p>
+          <a href="#">Política de Privacidad</a>
+          <a style="display: inline-block;" href="#">Términos y Condiciones</a>
+        </div>
+
+        <div class="btn-siganos">
+          <a href="#">
+            <p><strong>Síganos en</strong></p>
+            <p><i class="fab fa-facebook"></i> Revista BS</p>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="duarte-firma">
+        <a href="mailto:duartepublicidad@gmail.com">Sitio desarrollado por <strong>Duarte Publicidad</strong></a>
+      </div>
+
+    </div>
+    <div class="wid"></div>
+  </footer>
+</body>
+
+</html>

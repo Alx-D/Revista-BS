@@ -505,7 +505,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
-  background: #5b88c5;
+  background: white;
 }
 .foto-esp1-bx {
   width: 100%;
@@ -1199,6 +1199,12 @@ header {
   line-height: 1.4;
   margin-bottom: 5px;
 }
+.texto .cita{
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.6;
+}
 /* FRASE */
 .frase-bx{
   width: 100%;
@@ -1281,42 +1287,6 @@ header {
 .noneup680 {
   display: none;
 }
-/* BORRAR, YA EN HTML ENE2021 */
-/* .rc-gris-editorial {
-  width: 90%;
-  margin-top: 150px;
-  float: right;
-  padding: 25px;
-  background: var(--gris-claro);
-}
-.rc-gris-editorial-cbz {
-  font-size: 26px;
-  line-height: 1.4;
-  font-weight: 500;
-  margin-bottom: 17px;
-  text-transform: uppercase;
-  color: #494949;
-  font-stretch: expanded;
-}
-.rc-gris-editorial li {
-  margin-top: 10px;
-  margin-bottom: 15px;
-  margin-left: 30px;
-}
-.rc-gris-editorial p {
-  font-family: "Oswald", sans-serif;
-  font-size: 20px;
-  line-height: 1.4;
-  color: #494949;
-}
-.rc-gris-editorial span {
-  font-family: "Oswald", sans-serif;
-  font-size: 32px;
-  font-weight: 400;
-  color: #3b79c9;
-  float: left;
-  margin-left: -30px;
-} */
 .rc-color {
   width: 40%;
   border-radius: 17px;
@@ -1365,14 +1335,12 @@ header {
   font-size: 20px;
   line-height: 1.15;
   font-weight: 300;
-  margin-top: 15px;
   color: #ffffff;
 }
 .rc-gris-texto {
   font-size: 20px;
   line-height: 1.15;
   font-weight: 400;
-  margin-top: 15px;
 }
 .rc-color-lista li {
   font-family: "Roboto Condensed", sans-serif;
@@ -2157,7 +2125,6 @@ th {
   .rc-color-texto,
   .rc-gris-texto {
     font-size: 18px;
-    margin-top: 15px;
   }
   .rc-color-lista li,
   .rc-gris-lista li {
@@ -2337,11 +2304,11 @@ th {
   }
   /* 768RECUADROS */
   .rc-color {
-    width: 80%;
+    width: fit-content;
     border-radius: 13px;
   }
   .rc-gris {
-    width: 80%;
+    width: fit-content;
   }
   .rc-float-izq,
   .rc-float-der {
@@ -2543,13 +2510,8 @@ th {
     font-size: 23px;
   }
   /* 68RECUADROS */
-  .rc-color, .rc-gris {
-    /* width: fit-content; */
-  /* REVISAR FIT-CONT, PUSE WIDTH90% EN 480 */
+  .rc-color {
     border-radius: 13px;
-  }
-  .fit680{
-    width: fit-content;
   }
   /* 68ASIDE NOTAS */
   .col-4 {
@@ -2897,14 +2859,18 @@ th {
   /* 48RECUADROS */
   .rc-color, .rc-gris {
     width: 90%;
-    border-radius: 13px;
   }
   .rc-fuente {
     font-size: 10px;
   }
   .rc-color-lista li,
   .rc-gris-lista li {
-    font-size: 16px;
+    /* text-wrap: balance; */
+    font-size: 17px;
+  }
+  .rc-color-texto,
+  .rc-gris-texto {
+    font-size: 17px;
   }
   /* 48FOTO NOTA CENTRADA */
   .foto-nota-pie-cnt {
