@@ -1441,6 +1441,7 @@ th {
   width: 100%;
 }
 
+
 /* FOTO NOTA CENTRADA */
 .foto-nota-pie-cnt {
   width: 95%;
@@ -2133,13 +2134,8 @@ th {
     margin-top: 10px;
     margin-left: 12px;
   }
-  /* 92NOTAS-FOTOS */
-  .foto-nota-pie-izq {
-    width: 85%;
-    float: none;
-    margin: 30px auto 40px;
-    background: var(--gris-claro);
-  }
+  /* 92FOTO-NOTAS */
+  .foto-nota-pie-izq,
   .foto-nota-pie-der {
     width: 85%;
     float: none;

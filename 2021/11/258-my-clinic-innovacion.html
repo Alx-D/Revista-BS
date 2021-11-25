@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/estilos.css">
+  <link rel="stylesheet" href="/css/all.min.css">
+  <meta name="description" content="Artículos sobre el cuidado de la salud y prevención de enfermedades">
+  <meta name="keywords"
+    content="salud, saludable, vida, cuidado, bienestar, prevención, enfermedades, nutrición, psicología, niños, familia, adultos mayores, femeson, sonora">
+  <link rel="icon" type="image/png" href="../imgs/Revista_BS_favicon.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,300;0,400;1,400&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+    rel="stylesheet">
+
+  <title>Revista BS | Salud para vivir con sentido</title>
+</head>
+
+<body>
+  <header class="contenedor">
+
+    <!-- HEADER MOBILE -->
+    <div class="header-mobile-cont">
+
+      <div class="header-mobile-row-1">
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+
+        <div class="logo-mobile-bx">
+          <a href="/index.html">
+            <img src="/imgs/Revista-BS-logo-m.png">
+          </a>
+        </div>
+
+        <i class="fas fa-search"></i>
+      </div>
+
+      <div class="lema-mobile-bx">
+        <img src="/imgs/lema.png">
+      </div>
+
+      <nav>
+        <div class="menu-mobile" id="menu-enlaces">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Revista</a></li>
+            <li><a href="#">Artículos por tema</a></li>
+            <li><a href="#">Directorio médico</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- HEADER DESKTOP -->
+    <div class="header-cont">
+
+      <div class="header-col-izq">
+        <div class="revista-bs-logo-bx">
+          <a href="/index.html">
+            <img class="logo-header" src="/imgs/Revista-BS-logo-header.png" alt="Revista BS">
+          </a>
+        </div>
+      </div>
+
+      <div class="header-col-der">
+        <div class="header-row-1">
+          <div class="facebook">
+            <a class="f1" href="https://www.facebook.com">
+              <i class="fab fa-facebook fa-lg"></i> Revista BS
+            </a>
+          </div>
+          <p class="f2 femeson-leyenda">Órgano de vinculación y divulgación de <br> la Federación Médica de Sonora</p>
+          <div class="femeson-logo-bx">
+            <img src="/imgs/femeson-escudo.png" alt="">
+          </div>
+        </div>
+
+        <div class="header-row-2">
+          <div class="lema-bx">
+            <img src="/imgs/lema.png">
+          </div>
+          <div id="buscador">
+            <form>
+              <input type="text" placeholder="Buscar">
+            </form>
+          </div>
+        </div>
+
+        <nav>
+          <div class="menu-desktop">
+            <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Revista</a></li>
+              <li><a href="#">Artículos por tema</a></li>
+              <li><a href="#">Directorio médico</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+    <style>
+      @media screen and (max-width: 920px) {
+        .foto-nota-pie-der {
+          width: 85%;
+          float: none;
+          margin: 30px auto 40px;
+          background: white;
+        }
+        .foto-nota-pie-der figure {
+          display: flex;
+          width: 50%;
+        }
+        .foto-nota-pie-der figcaption {
+          align-self: center;
+          margin-left: 20px;
+          background: var(--gris-claro);
+        }
+      }
+    </style>
+  </header>
+
+  <!-- BANNER HORIZONTAL -->
+  <div class="contenedor bnr-hz-01">
+    <a href="https://hondapremium.com/" target="blank"><img src="/imgs/Honda-diciembre-2020.png"></a>
+  </div>
+
+  <div class="contenedor m-0a nota-bx">
+    <article class="col-6">
+      <div class="f2 ceja-gde naranjao">Publirreportaje</div>
+
+      <p class="f1 balazo-1">My Clinic: innovación</p>
+      <h1 class="f2 cabeza-1">Para crecer en grande, hay que saber cómo ser los mejores</h1>
+      <p class="f1 sumario-1">Desde su inicio en 2014, la doctora Venezia Jordan tenía muy claros los principios y valores que debía tener My Clinic</p>
+
+      <figure class="foto-nota-top-bx">
+        <img src="../11/imgs/258-My-Clinic.jpg" alt="">
+      </figure>
+
+      <!-- COMPARTIR -->
+      <div class="compartir-bx">
+        <i class="fa fa-share"></i>
+        <p class="f1 compartir"> Compartir</p>
+        <a href="#" class="fab fa-whatsapp whatsapp-compartir" title="Enviar por Whatsapp"></a>
+        <a href="#" class="fab fa-facebook fa-lg facebook-compartir" title="Compartir en Facebook"></a>
+        <a href="#" class="fas fa-envelope envelope-compartir" title="Enviar por correo electrónico"></a>
+        <a href="#" class="fas fa-link link-compartir" title="Copiar enlace"></a>
+      </div>
+
+      <!-- CREDITO -->
+      <div class="credito-bx">
+        <p class="f1 credito-autor"><strong>Publirreportaje</strong></p>
+      </div>
+
+      <div class="texto">
+        <p>En My Clinic la idea de ir al dentista no tendría que ser una visita del terror y para esto habría que rodearse de un equipo que tuviera los mismos ideales, el trato a los clientes tendría que ser de máxima excelencia y con precios al alcance de todos.</p>
+        <p>En un año la clínica ha doblado el personal, con lo cual demuestra que hacer las cosas de la mejor manera posible, e intentar lo que al principio se veía imposible convertirlo en un paso más de crecimiento.</p>
+        <p>My Clinic cuenta con la más alta tecnología de todo el Estado de Sonora y sólo se manejan los productos de las gamas top líder mundial. Gracias a ello, la clínica ya se encuentra en el grupo franquiciatario, con lo cual se espera poder tener más clínicas en principio en el estado de Sonora, y en un futuro cercano, en todo México.</p>
+        <p>Para ser un grupo de excelencia, primero los trabajadores tienen que ser una gran familia, donde todos trabajen por un mismo fin, donde se sigue aprendiendo, avanzando y se crea una atmósfera de bienestar para todos. Eso mismo se refleja en ellos y cada cliente que visita la clínica, se siente en un ambiente donde se le cuida y trata con el cariño que se merece.</p>
+
+        <p class="descanso">Innovación a su servicio</p>
+        <p>La principal novedad es la incorporación de iTero 5D, tecnología de imágenes que permite escanear en 3D la estructura interna de los dientes de los pacientes en tiempo real para detectar caries interproximales y evitar radiaciones.</p>
+        <p>En los trabajos dentales, ya no existirá error de ojo humano. Se escanean sus dientes y automáticamente se manda hacer al laboratorio, ya no hay esas pastas que tiene que morder para hacer una dentadura, todo estará listo en un click.</p>
+        <p>Con la ayuda de iTero 5D también se pueden realizar tratamientos estéticos como ortodoncia removible y carillas de la forma más exacta posible.</p>
+
+        <div class="foto-nota-pie-izq">
+          <figure>
+            <img src="/2021/11/imgs/258-My-Clinic-Invisalign.jpg" alt="">
+            <figcaption class="f2 pie">Invisalign consiste en una serie de alineadores removibles.</figcaption>
+          </figure>
+        </div>
+
+        <p class="descanso">Invisalign</p>
+        <p>Es una técnica de ortodoncia invisible que permite corregir los dientes con el objetivo de conseguir la sonrisa deseada. Se caracteriza por el uso de unas férulas removibles, o alineadores, que corrigen la posición de los dientes sin necesidad de utilizar aparatos metálicos.</p>
+        <p>El principal beneficio de Invisalign es que los alineadores son transparentes y extraíbles. Esto permite al paciente disfrutar de la comida y bebida cuando quiera, a diferencia de los aparatos fijos metálicos. También permiten cepillarse los dientes fácilmente y mantener una higiene bucal adecuada.</p>
+        <p>Y como es nuestra promoción de lanzamiento lo tenemos con el 45% de descuento hasta final del 2021. Ahora el tratamiento Invisaling estará disponible para todos, ya que por ser el tratamiento de la más alta tecnología y que desde la primera cita permite conocer cuál será el resultado final de sus dientes y cómo van a lucir, suele ser un tratamiento del más alto coste en ortodoncia.</p>
+        <div class="foto-nota-pie-der">
+          <figure>
+            <img src="/2021/11/imgs/258-My-Clinic-itero5d.jpg" alt="">
+            <figcaption class="f2 pie"><strong>iTero 5D</strong> es un escáner intraoral que permite realizar una reproducción exacta en 3D de la boca del paciente.</figcaption>
+          </figure>
+        </div>
+        <p>En My Clinic queremos que todos puedan soñar y tener lo mejor en ortodoncia estética y es por eso que tenemos el más bajo coste del Estado de Sonora.</p>
+
+        <p class="descanso">Carillas</p>
+        <p>Otra aplicación del iTero 5D es que permite realizar las carillas de porcelana con cero margen de error y por eso se puede decir que la perfección esta en My Clinic.</p>
+        <p>Las carillas de porcelana son un tratamiento de elección para corregir alteraciones dentales de color y forma, cerrar diastemas, reparar fracturas y simultáneamente subsanar ligeras mal posiciones dentales.</p>
+        <p>Es también un tratamiento de elección para las personas que quieren mejorar la estética de su sonrisa, con un resultado que puede aumentar su autoestima.</p>
+
+        <!-- TEXTO RESALTADO CAJA GRIS -->
+        <div class="texto-resaltado-bx">
+          <p class="descanso" style="margin-top: 0;">Beneficios de las carillas dentales</p>
+          <ul>
+            <li class="lista-disco-nota">La porcelana dental permite resolver problemas en dientes rotos o torcidos de forma sencilla.</li>
+            <li class="lista-disco-nota">Su color y forma no suelen variar con el paso del tiempo.</li>
+            <li class="lista-disco-nota">Junto con un blanqueamiento dental, se consigue mejorar
+              y mantener el color original por más tiempo.</li>
+            <li class="lista-disco-nota">No es necesario un mantenimiento en la consulta.</li>
+            <li class="lista-disco-nota">Nadie notará que las lleva puestas.</li>
+            <li class="lista-disco-nota">Tienen gran resistencia. Es muy raro que una carilla de porcelana se rompa.</li>
+            <li class="lista-disco-nota">Dispone de amplia gama de tonalidades y grosores, para adaptar con exactitud la carilla con los dientes de alrededor.</li>
+          </ul>
+        </div>
+    </article>
+
+    <!-- ASIDE NOTA -->
+    <aside class="col-4">
+
+      <!-- BANNERS ASIDE -->
+      <div class="aside-bnrs-up">
+        <div class="bnr-250x250">
+          <a href="#">
+            <img src="/imgs/Hospital-GobEdo.png">
+          </a>
+        </div>
+      </div>
+
+      <!-- TEMAS DE INTERES -->
+      <div id="interes">
+        <hr style="border-top: 4px solid">
+        <p class="f2 indicador interes-ind-a">TEMAS DE INTERÉS</p>
+
+        <div class="interes-item">
+          <a href="#">
+            <img src="/2021/01/imgs/248-Lillian-Figueroa-ALIMENTOS-ORGANICOS-1-th.jpg" alt="">
+            <p>Alimentos orgánicos por su salud y el medio ambiente</p>
+          </a>
+        </div>
+
+        <div class="interes-item">
+          <a href="#">
+            <img src="/2021/01/imgs/248-Dra-Ana-Martinez-Ayala-ENT-TERCERA-EDAD-1-th.jpg" alt="">
+            <p>ENT y tercera edad: Contra el reloj</p>
+          </a>
+        </div>
+
+        <div class="interes-item">
+          <a href="#">
+            <img src="/2021/01/imgs/248-Dr-Mario-Alvarez-Bojorquez-HABITOS-CIRUGIA-1-th.jpg" alt="">
+            <p>Buscando las mejores condiciones en caso de cirugía oncológica</p>
+          </a>
+        </div>
+
+        <div class="interes-item">
+          <a href="#">
+            <img src="/2021/01/imgs/248-Redaccion-BS-ENFERMEDADES-RESPIRATORIAS-2-th.jpg" alt="">
+            <p>En enfermedades respiratorias distinguir es la clave</p>
+          </a>
+        </div>
+      </div>
+
+      <!-- BANNERS ASIDE -->
+      <div class="aside-bnrs-stic">
+        <div class="bnr-vl-250x250 mb-70">
+          <a href="#">
+            <img src="/imgs/Hospital-GobEdo.png">
+          </a>
+        </div>
+
+        <div class="bnr-vl-250x250">
+          <a href="#">
+            <img src="/imgs/Hospital-GobEdo.png">
+          </a>
+        </div>
+      </div>
+
+      <!-- INFO-AUTOR -->
+      <div class="info-autor-bx">
+
+        <p class="f1 sobre-autor">Sobre el autor</p>
+
+        <p class="f1 autor">Dr</p>
+        <p class="f1 autor-especialidad">Esp</p>
+        <p class="f1 autor-certificaciones"></p>
+        <p class="f1 autor-cedulas">Ced</p>
+        <!-- CLINICA -->
+        <p class="f1 autor-empresa">Cli</p>
+        <!-- DOMICILIO -->
+        <p class="f1 autor-dom-tel"><i class="fas fa-map-marker-alt"></i> Dom</p>
+        <!-- TEL -->
+        <a href="tel:">
+          <p class="f1 autor-dom-tel"><i class="fas fa-phone-alt"></i> (662)</p>
+        </a>
+        <!-- URGENCIAS -->
+        <p class="f1 autor-dom-tel"><i class="fas fa-exclamation-circle"></i> (662)</p>
+        <!-- CORREO -->
+        <a class="f1 autor-correo" href="mailto:@"><i class="fas fa-envelope"></i> correo</a>
+        <!-- FB -->
+        <p class="f1 autor-dom-tel"><i class="fab fa-facebook-square"></i> fb</p>
+        <!-- IG -->
+        <p class="f1 autor-dom-tel"><i class="fab fa-instagram-square"></i> ig</p>
+        <!-- TW -->
+        <p class="f1 autor-dom-tel"><i class="fab fa-twitter-square"></i> tw</p>
+        <!-- WEB -->
+        <p class="f1 autor-dom-tel"><i class="fas fa-mouse-pointer"></i> .com</p>
+      </div>
+    </aside>
+  </div>
+
+  <div class="clear" style="margin-bottom: 70px;"></div>
+
+  <!-- BANNER HORIZONTAL -->
+  <div class="contenedor bnr-hz-01" style="margin-top: 20px">
+    <a href="https://www.hospitalsanjosehermosillo.com/" target="blank"><img src="/imgs/Hospital-San-Jose.jpg"></a>
+  </div>
+
+  <div class="altura-ajuste-footer"></div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-row-1">
+      <div class="f1 footer-mision">COMUNICAMOS VALOR</div>
+    </div>
+
+    <div class="footer-row-2">
+      <div class="contenedor footer-cont">
+
+        <div class="footer-col-1">
+          <div class="footer-BSlogo-bx"><img src="/imgs/Revista-BS-logo-footer.png"></div>
+
+          <div class="btn-siganos-pr">
+            <a href="#">
+              <p><strong>Síganos en</strong></p>
+              <p><i class="fab fa-facebook"></i> Revista BS</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="f1 footer-col-2">
+          <p class="anunciese"><strong>Anúnciese con nosotros</strong></p>
+          <p class="footer-tel">
+            <i class="fas fa-phone-alt footer-icon">&nbsp;</i>(662) 236 25 00
+          </p>
+          <a class="footer-email" href="mailto:publicidad@buenasalud.org">
+            <i class="fas fa-envelope footer-icon">&nbsp;</i>publicidad@buenasalud.org </a>
+          <p class="footer-direccion"><i class="fas fa-map-marker-alt footer-icon">&nbsp;</i>Quinta Mayor 181 Col. Las
+            Quintas, Hermosillo, Sonora, México CP 83240</p>
+        </div>
+
+        <div class="f1 footer-col-3">
+          <p><strong>©2021 Revista BS <br> Todos los derechos reservados</strong></p>
+          <p>Sin previa autorización, queda expresamente prohibida la publicación, retransmisión, edición y
+            cualquier otro uso de los contenidos.</p>
+          <a href="#">Política de Privacidad</a>
+          <a style="display: inline-block;" href="#">Términos y Condiciones</a>
+        </div>
+
+        <div class="btn-siganos">
+          <a href="#">
+            <p><strong>Síganos en</strong></p>
+            <p><i class="fab fa-facebook"></i> Revista BS</p>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="duarte-firma">
+        <a href="mailto:duartepublicidad@gmail.com">Sitio desarrollado por <strong>Duarte Publicidad</strong></a>
+      </div>
+
+    </div>
+    <div class="wid"></div>
+  </footer>
+</body>
+
+</html>
