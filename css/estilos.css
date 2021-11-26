@@ -1124,6 +1124,10 @@ header {
   align-items: center;
   margin-bottom: 35px;
 }
+.credito-rd-bx {
+  width: 100%;
+  margin-bottom: 30px;
+}
 .credito-editorial-bx {
   margin-bottom: 35px;
 }
