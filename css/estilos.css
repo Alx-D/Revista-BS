@@ -1004,11 +1004,11 @@ header {
   display: grid;
   grid-template-columns: 60% 40%;
 }
-.col-6 {
+.col-60 {
   grid-column: 1/2;
   width: 100%;
 }
-.col-4 {
+.col-40 {
   grid-column: 2/3;
   width: 100%;
   position: relative;
