@@ -59,6 +59,7 @@ a {
   width: 95vw;
   max-width: 1100px;
 }
+
 /* HEADER */
 header{
   margin: 0 auto;
@@ -284,7 +285,7 @@ article h1{
 }
 
 /* CONTACTO-AUTOR */
-.ctc-bx{
+.ctc{
   width: 100%;
   padding: 25px 0 25px 25px;
   background: var(--azul-oscuro);
@@ -292,70 +293,73 @@ article h1{
   bottom: 0;
   position: absolute;
 }
-.ctc-bx p{
+.ctc p{
   font-family: "Nunito Sans", sans-serif;
   color: white;
 }
-.conozca{
+.ctc-conozca{
   font-size: 27px;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 10px;
 }
-.ct-nombre {
+.ctc-nombre {
   font-size: 23px;
   line-height: 1.2;
   font-weight: 600;
   margin-bottom: 5px;
+  text-transform: unset;
 }
-.autor-especialidad {
-  font-size: 18px;
+.ctc-especialidad {
+  font-size: 20px;
   font-weight: 500;
   margin-bottom: 5px;
 }
-.autor-certificaciones {
+.ctc-certificaciones {
   font-size: 15px;
   font-weight: 400;
   line-height: 1.4;
   margin-bottom: 10px;
 }
-.autor-cedulas {
+.ctc-cedulas {
   font-size: 14px;
   font-weight: 300;
   line-height: 1.4;
   margin-bottom: 5px;
 }
-.autor-empresa {
+.ctc-empresa {
   font-size: 24px;
   font-weight: 400;
   margin-bottom: 8px;
 }
-.autor-dom-tel {
+.ctc-dom-tel {
   text-indent: -10px;
   margin-left: 25px;
-  font-size: 18.5px;
+  font-size: 16.5px;
   font-weight: 300;
   line-height: 1;
   margin-bottom: 10px;
 }
-.autor-correo {
-  font-size: 17.5px;
+.ctc-correo {
+  font-size: 16.5px;
   line-height: 1;
   font-weight: 200;
   display: block;
   margin-bottom: 7px;
   word-break: break-all;
 }
-.contacto-foto{
+.ctc-foto{
   width: 30%;
   float: right;
   height: 165px;
-  /* margin-top: -55px; */
   margin-right: 10px;
   border-radius: 15px;
 }
-.contacto-foto img{
+.ctc-foto img{
   width: 100%;
 }
 
+@media screen and (max-width: 920px){
+  
+}

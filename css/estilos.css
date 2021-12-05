@@ -1548,51 +1548,51 @@ th {
   padding: 25px;
   border-radius: 0px 25px 25px 25px;
 }
-.ctc .sobre {
+.ctc-sobre {
   font-size: 16px;
   color: #ffffff;
   margin-bottom: 10px;
 }
-.ctc .nombre {
+.ctc-nombre {
   font-size: 22px;
   line-height: 1.2;
   font-weight: 600;
   margin-bottom: 5px;
   color: #ffffff;
 }
-.ctc .especialidad {
+.ctc-especialidad {
   font-size: 17px;
   font-weight: 500;
   color: #ffffff;
   margin-bottom: 5px;
 }
-.ctc .certificaciones {
+.ctc-certificaciones {
   font-size: 14.8px;
   font-weight: 400;
   line-height: 1.4;
   color: #ffffff;
   margin-bottom: 10px;
 }
-.ctc .cedulas {
+.ctc-cedulas {
   font-size: 12px;
   font-weight: 300;
   line-height: 1.4;
   color: #ffffff;
   margin-bottom: 10px;
 }
-.ctc .cargo {
+.ctc-cargo {
   font-size: 17px;
   font-weight: 600;
   color: #ffffff;
   margin-bottom: 10px;
 }
-.ctc .empresa {
+.ctc-empresa {
   font-size: 18px;
   font-weight: 400;
   color: #ffffff;
   margin-bottom: 3px;
 }
-.ctc .dom-tel {
+.ctc-dom-tel {
   text-indent: -8px;
   margin-left: 17px;
   font-size: 15.5px;
@@ -1600,7 +1600,7 @@ th {
   color: #ffffff;
   margin-bottom: 3px;
 }
-.ctc .correo {
+.ctc-correo {
   font-size: 15.5px;
   line-height: 1;
   font-weight: 200;
@@ -2007,8 +2007,8 @@ th {
     line-height: 1.4;
     margin-bottom: 20px;
   }
-  /* INFO-AUTOR */
-  .autor {
+  /* CONTACTO-AUTOR */
+  .ctc-nombre {
     font-size: 20px;
   }
 }
@@ -2916,35 +2916,31 @@ th {
     font-size: 18px;
   }
   /* 42ESPECIAL */
-
-
-
-
   /* 42INFO-AUTOR */
-  .sobre-autor {
+  .ctc-sobre{
     font-size: 13px;
   }
-  .autor {
+  .ctc-nombre{
     font-size: 18px;
     margin-bottom: 6px;
   }
-  .autor-especialidad {
+  .ctc-especialidad {
     font-size: 15px;
     margin-bottom: 7px;
   }
-  .autor-certificaciones {
+  .ctc-certificaciones {
     font-size: 13px;
     margin-bottom: 7px;
   }
-  .autor-cedulas {
+  .ctc-cedulas {
     font-size: 11px;
     margin-bottom: 7px;
   }
-  .autor-cargo {
+  .ctc-cargo {
     font-size: 15px;
     margin-bottom: 7px;
   }
-  /* .autor-domtel {
+  /* .ctc-domtel {
     text-indent: -8px;
     margin-left: 17px;
     font-size: 15.6px;
@@ -2952,7 +2948,7 @@ th {
     color: #ffffff;
     margin-bottom: 3.2px;
   } */
-  .autor-correo {
+  .ctc-correo {
     font-size: 14.5px;
   }
   /* 42ANTERIORES */
