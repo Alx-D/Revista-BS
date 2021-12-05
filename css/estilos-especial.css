@@ -65,15 +65,15 @@ header{
 }
 .header-cont{
   display: flex;
-  height: 170px;
-  padding: 30px 30px 30px;
+  height: 190px;
+  padding: 60px 30px 30px;
   justify-content: space-between;
   align-items: center;
   background: #dbdbd2;
 }
 .header-col-1 {
   flex-basis: 15%;
-  margin-right: 1%;
+  margin-right: 3%;
 }
 .revista-bs-logo-bx {
   width: 100%;
@@ -84,28 +84,34 @@ header{
 .header-col-2{
   flex-basis: 70%;
 }
-.header-col-2 h1{
+.indicador {
+  font-size: 23px;
+  font-weight: 400;
+  color: #555;
+  margin-bottom: -5px;
+}
+/* .header-col-2 h1{
   font-size: 45px;
   font-weight: 400;
   letter-spacing: 10px;
   margin-top: 25px;
-}
+} */
 .header-col-2 h1 span{
-  font-size: 45px;
+  font-size: 55px;
   font-weight: 700;
+  letter-spacing: 10px;
 }
 .header-col-2 h3{
-  font-size: 33px;
+  font-size: 32px;
   font-weight: 600;
   /* letter-spacing: 1px; */
-  margin-top: -10px;
+  margin-top: -17px;
 }
 .header-col-3{
-  flex-basis: 10%;
+  flex-basis: 15%;
 }
 .header-col-3 img{
   width: 100%;
-  justify-self: center;
 }
 
 /* NOTA */
@@ -120,17 +126,16 @@ article{
   align-items: flex-end;
   margin-bottom: 5px;
 }
-.diabetes-circulo-bx{
+.circulo-diabetes{
   width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 10px solid #1677f2;
   margin-right: 20px;
-}
-.diabetes-circulo-bx img{
-  width: 100%;
 }
 .nombre{
   font-size: 27px;
   font-weight: 700;
-  margin-bottom: 5px;
   text-transform: uppercase;
   color: #ff6b5b;
 }
@@ -209,7 +214,7 @@ article h1{
 }
 
 /* TEXTO */
-.esp-bx{
+.txt-esp-bx{
   display: grid;
   grid-template-columns: 60% 40%;
 }
@@ -217,16 +222,16 @@ article h1{
   grid-column: 1/2;
   width: 98%;
 }
-.texto-esp{
+.txt-esp{
   font-family: "Nunito Sans", sans-serif;
   font-weight: 300;
   font-size: 20px;
   line-height: 1.6;
 }
-.texto-esp p {
+.txt-esp p {
   margin-bottom: 7px;
 }
-.texto-esp p span {
+.txt-esp p span {
   font-size: 20px;
   font-weight: 700;
 }
@@ -278,36 +283,27 @@ article h1{
   margin-bottom: 15px;
 }
 
-/* CONOZCA */
-.conozca-bx{
+/* CONTACTO-AUTOR */
+.ctc-bx{
   width: 100%;
-  /* display: flex; */
-  background: #344497;
+  padding: 25px 0 25px 25px;
+  background: var(--azul-oscuro);
   border-radius: 20px;
-  /* margin-top: 100px; */
-  align-self: flex-end;
   bottom: 0;
   position: absolute;
-
-  padding: 25px 0 25px 25px;
 }
-/* .conozca-info-bx{
-  width: 80%;
-  float: left;
-  padding: 25px 0 25px 25px;
-} */
-.conozca-bx p{
+.ctc-bx p{
   font-family: "Nunito Sans", sans-serif;
   color: white;
 }
 .conozca{
-  font-size: 30px;
+  font-size: 27px;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 10px;
 }
-.autor {
+.ct-nombre {
   font-size: 23px;
   line-height: 1.2;
   font-weight: 600;
@@ -351,7 +347,7 @@ article h1{
   margin-bottom: 7px;
   word-break: break-all;
 }
-.conozca-foto{
+.contacto-foto{
   width: 30%;
   float: right;
   height: 165px;
@@ -359,7 +355,7 @@ article h1{
   margin-right: 10px;
   border-radius: 15px;
 }
-.conozca-foto img{
+.contacto-foto img{
   width: 100%;
 }
 

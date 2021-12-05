@@ -1445,7 +1445,6 @@ th {
   width: 100%;
 }
 
-
 /* FOTO NOTA CENTRADA */
 .foto-nota-pie-cnt {
   width: 95%;
@@ -1537,8 +1536,8 @@ th {
   color: slategrey;
 }
 
-/* INFO-AUTOR */
-.info-autor-bx {
+/* CONTACTO-AUTOR */
+.ctc {
   width: 80%;
   /* margin-top: 300px; */
   float: right;
@@ -1549,50 +1548,51 @@ th {
   padding: 25px;
   border-radius: 0px 25px 25px 25px;
 }
-.sobre-autor {
+.ctc .sobre {
   font-size: 16px;
   color: #ffffff;
   margin-bottom: 10px;
 }
-.autor {
+.ctc .nombre {
   font-size: 22px;
   line-height: 1.2;
   font-weight: 600;
+  margin-bottom: 5px;
   color: #ffffff;
 }
-.autor-especialidad {
+.ctc .especialidad {
   font-size: 17px;
   font-weight: 500;
   color: #ffffff;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
-.autor-certificaciones {
+.ctc .certificaciones {
   font-size: 14.8px;
   font-weight: 400;
   line-height: 1.4;
   color: #ffffff;
   margin-bottom: 10px;
 }
-.autor-cedulas {
+.ctc .cedulas {
   font-size: 12px;
   font-weight: 300;
   line-height: 1.4;
   color: #ffffff;
   margin-bottom: 10px;
 }
-.autor-cargo {
+.ctc .cargo {
   font-size: 17px;
   font-weight: 600;
   color: #ffffff;
   margin-bottom: 10px;
 }
-.autor-empresa {
+.ctc .empresa {
   font-size: 18px;
   font-weight: 400;
   color: #ffffff;
   margin-bottom: 3px;
 }
-.autor-dom-tel {
+.ctc .dom-tel {
   text-indent: -8px;
   margin-left: 17px;
   font-size: 15.5px;
@@ -1600,7 +1600,7 @@ th {
   color: #ffffff;
   margin-bottom: 3px;
 }
-.autor-correo {
+.ctc .correo {
   font-size: 15.5px;
   line-height: 1;
   font-weight: 200;
@@ -1678,7 +1678,7 @@ th {
   .bnr-hz-01 {
     margin: 40px auto 50px;
   }
-  /* ARTICULOS */
+  /* 1ARTICULOS */
   /* .articulos-preventivos-cont {
     display: block
   } */
@@ -1718,7 +1718,7 @@ th {
   .autoresp-art1 {
     font-size: 13px;
   }
-  /* ARTICULOS Aside */
+  /* 1ARTICULOS Aside */
   .col2-art1 {
     flex-basis: 100%;
     align-content: center;
@@ -2514,7 +2514,7 @@ th {
     border-radius: 13px;
   }
   /* 68ASIDE NOTAS */
-  .col-4 {
+  .col-40 {
     grid-column: 1/2;
   }
   .noneup680 {
@@ -2559,8 +2559,8 @@ th {
     margin-top: 8px;
     margin-bottom: 50px;
   }
-  /* 68INFO-AUTOR */
-  .info-autor-bx {
+  /* 68CONTACTO-AUTOR */
+  .ctc {
     width: 80%;
     float: left;
     position: unset;
