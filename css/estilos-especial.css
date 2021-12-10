@@ -64,7 +64,10 @@ a {
 header{
   margin: 0 auto;
 }
-.header-cont{
+.header-mobile-cont{
+  display: none;
+}
+.header-desktop-cont{
   display: flex;
   padding: 30px 30px 0px 30px;
   justify-content: space-between;
@@ -84,7 +87,6 @@ header{
 }
 .header-col-2{
   width: 60%;
-  /* background: #612f8c; */
 }
 .indicador {
   font-size: 23px;
@@ -139,21 +141,24 @@ article{
   padding: 30px 30px 80px;
   background: #ecebe8;
 }
-.migas{
+.migas {
   font-size: 15px;
   margin-bottom: 20px;
 }
+.migas  .fa-angle-right{
+  font-size: 15px;
+  margin-right: unset;
+}
 .nombre-bx{
-  display: flex;
-  align-items: flex-end;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 .circulo-diabetes{
   width: 60px;
   height: 60px;
+  display: inline-block;
   border-radius: 50%;
-  border: 10px solid #1677f2;
-  margin-right: 20px;
+  border: 9px solid #1677f2;
+  margin-right: 15px;
 
   /* -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
@@ -164,7 +169,11 @@ article{
   line-height: 1.1;
   font-weight: 700;
   text-transform: uppercase;
+  display: inline;
   color: #ff6b5b;
+}
+.brvd680{
+  display: none;
 }
 article h1{
   font-size: 60px;
@@ -623,7 +632,6 @@ article h1{
     width: 55px;
     height: 55px;
     border: 8px solid #1677f2;
-    margin-right: 15px;
   }
   .nombre{
     font-size: 25px;
@@ -663,6 +671,12 @@ article h1{
     font-size: 18px;
   }
   /* NOTA */
+  .circulo-diabetes{
+    width: 50px;
+    height: 50px;
+    border: 7px solid #1677f2;
+    margin-right: 10px;
+  }
   .txt-esp-bx{
     display: initial;
   }
@@ -794,7 +808,105 @@ article h1{
   }
 }
 @media screen and (max-width: 680px){
+  /* HEADER */
+  .header-desktop-cont{
+    display: none;
+  }
+  .header-mobile-cont{
+    display: block;
+    background: #dbdbd2;
+    padding: 15px 0 15px;
+  }
+  .header-mobile-row {
+    display: flex;
+    margin: 15px0 auto;
+    justify-content: space-between;
+  }
+  .fa-bars {
+    font-size: 5vw;
+    margin-left: 20px;
+  }
+  .fa-bars, .fa-angle-right {
+    display: block;
+    visibility: visible;
+    align-self: center;
+    color: #777;
+    z-index: 9;
+  }
+  .fa-angle-right{
+    font-size: 45px;
+    margin-right: 20px;
+  }
+  .hlmbx{
+    display: flex;
+    justify-content: center;
+  }
+  .logo-mobile-bx{
+    width: 20vw;
+    margin-right: 3vw;
+  }
+  .logo-mobile-bx img{
+    width: 100%;
+  }
+  .esp-mobile-bx{
+    align-self: center;
+  }
+  .indicador{
+    font-size: 3vw;
+  }
+  .esp-mobile-bx h1{
+    font-size: 8vw;
+    margin-top: 5px;
+  }
+  .header-mobile-row-1 .flecha-svg-der{
+    align-self: center;
+  }
+  .menu-mobile {
+    width: auto;
+    height: 100vh;
+    text-align: left;
+    top: 0;
+    left: -400px;
+    position: fixed;
+    background: var(--verde-logo-1);
+    z-index: 10;
+    transition: 1s;
+  }
+  .menu-mobile ul {
+    padding: 40px;
+  }
+  .menu-mobile li {
+    display: block;
+    margin-bottom: 27px;
+  }
+  .menu-mobile .fas {
+    display: block;
+    color: #fff;
+    margin: 20px 0 0 20px;
+    font-size: 22px;
+    cursor: pointer;
+    z-index: 11;
+  }
+  .menu-mobile ul li a {
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #fff;
+  }
   /* NOTA */
+  .nombre-bx{
+    display: flex;
+  }
+  .circulo-diabetes{
+    width: 45px;
+    height: 45px;
+    border: 7px solid #1677f2;
+    margin-right: 20px;
+  }
+  .brvd680{
+    display: block;
+  }
   .dr-foto-bx-840vd{
     display: none;
   }
@@ -829,7 +941,38 @@ article h1{
     margin-left: 10px;
   }
 }
+@media screen and (max-width: 580px){
+  /* NOTA */
+  .nombre{
+    font-size: 24px;
+  }
+  article h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  .sumario-esp{
+    font-size: 20px;
+    line-height: 1.4;
+  }
+}
 @media screen and (max-width: 520px){
+  /* 52HEADER */
+  .fa-bars {
+    font-size: 28px;
+    margin-left: 20px;
+  }
+  .fa-angle-right{
+    font-size: 38px;
+    margin-right: 20px;
+  }
+  /* 52NOTA */
+  .migas {
+    font-size: 12px;
+    margin-bottom: 20px;
+  }
+  .migas  .fa-angle-right{
+    font-size: 12px;
+  }
   /* 52FOOTER */
   .duarte-firma {
     width: 225px;
@@ -837,6 +980,20 @@ article h1{
   }
 }
 @media screen and (max-width: 480px){
+  /* NOTA */
+  .circulo-diabetes{
+    width: 40px;
+    height: 40px;
+    border: 6px solid #1677f2;
+    margin-right: 10px;
+  }
+  .nombre{
+    font-size: 22px;
+  }
+  article h1{
+    font-size: 45px;
+    margin-bottom: 10px;
+  }
   /* COMPARTIR */
   .whatsapp-compartir,
   .facebook-compartir {
@@ -876,6 +1033,15 @@ article h1{
   }
 }
 @media screen and (max-width: 420px){
+  /* 42HEADER MOBILE */
+  .fa-bars {
+    font-size: 26px;
+    margin-left: 15px;
+  }
+  .fa-angle-right{
+    font-size: 32px;
+    margin-right: 15px;
+  }
   /* ASIDE */
   .ctc-foto{
     width: 70%;
@@ -883,7 +1049,42 @@ article h1{
     margin: -15px auto 20px;
   }
 }
+@media screen and (max-width: 360px){
+  /* 36HEADER MOBILE */
+  .fa-bars {
+    font-size: 25px;
+  }
+  .fa-angle-right{
+    font-size: 28px;
+  }
+   /* NOTA */
+  .migas {
+    font-size: 10px;
+  }
+  .migas  .fa-angle-right{
+    font-size: 10px;
+  }
+  .circulo-diabetes{
+    width: 35px;
+    height: 35px;
+    border: 6px solid #1677f2;
+  }
+  .nombre{
+    font-size: 20px;
+  }
+  article h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+}
 @media screen and (max-width: 340px){
+  /* 34HEADER MOBILE */
+  .fa-bars {
+    font-size: 24px;
+  }
+  .fa-angle-right{
+    font-size: 26px;
+  }
   /* 34FOOTER */
   .footer-mision {
     font-size: 14px;

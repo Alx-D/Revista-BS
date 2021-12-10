@@ -20,7 +20,43 @@
 
 <body>
   <header class="contenedor">
-    <div class="header-cont">
+    <div class="header-mobile-cont">
+      <div class="header-mobile-row">
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+        <div class="hlmbx">
+          <div class="logo-mobile-bx">
+            <a href="/index.html">
+              <img src="/imgs/Revista-BS-logo-header.png">
+            </a>
+          </div>
+          <div class="esp-mobile-bx">
+            <p class="f2 indicador">SECCIÓN ESPECIAL</p>
+            <h1 class="f1" style="color: #1677f2;">DIABETES</h1>
+          </div>
+        </div>
+          <i class="fas fa-angle-right"><a href=""></a></i>
+      </div>
+
+      <nav>
+        <div class="menu-mobile" id="menu-enlaces">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#">Dra. Rosa María Acuña Ortiz</a></li>
+            <li><a href="#">Dra. Adria Jazmín Almada Córdova</a></li>
+            <li><a href="#">Dr. Rubén Alfredo Cardoza Encinas</a></li>
+            <li><a href="#">Dr. Fernando Platt Soto</a></li>
+            <li><a href="#">Nut. Andrea Larios Coronado</a></li>
+            <li><a href="#">Dra. Irlanda Nataly Lopez Leal</a></li>
+            <li><a href="#">Dra. Glenda Morales Becerra</a></li>
+            <li><a href="#">Fis. Oscar Daniel Flores López</a></li>
+            <li><a href="#">Dr. Francisco Rafael Puebla Zúñiga</a></li>
+            <li><a href="#">Dr. Joel Ernesto Verdugo Correa</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <div class="header-desktop-cont">
       <div class="header-col-1" style="position: relative;">
         <div class="revista-bs-logo-bx">
           <a href="/index.html">
@@ -62,7 +98,7 @@
     </div>
     <div class="nombre-bx">
       <div class="circulo-diabetes"></div>
-      <p class="f1 nombre">Irlanda Nataly Lopez Leal</p>
+      <p class="f1 nombre">Dra. Irlanda Nataly <br class="brvd680"> Lopez Leal</p>
     </div>
     <h1 class="f2">Trato digno y de calidad</h1>
 
@@ -233,8 +269,17 @@
     </div>
 
     <div class="wid"></div>
-
   </footer>
+
+  <script>
+    var menu_enlaces = document.getElementById("menu-enlaces");
+    function showMenu() {
+      menu_enlaces.style.left = "0";
+    }
+    function hideMenu() {
+      menu_enlaces.style.left = "-400px";
+    }
+  </script>
 
 </body>
 
