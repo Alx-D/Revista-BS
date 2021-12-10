@@ -2320,9 +2320,6 @@ th {
 }
 
 @media screen and (max-width: 740px) {
-  .contenedor {
-    width: 92vw;
-  }
   /* 74HEADER MOBILE */
   .fa-bars, .fa-search {
     font-size: 30px;
