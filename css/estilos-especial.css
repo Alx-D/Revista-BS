@@ -78,7 +78,6 @@ header{
 .header-col-1 {
   width: 15%;
   margin-right: 3%;
-  /* background: #25d366; */
 }
 .revista-bs-logo-bx {
   width: 100%;
@@ -115,14 +114,12 @@ header{
 .header-col-3{
   width: 16%;
   margin-right: 15px;
-  /* background: #953829; */
 }
 .header-col-3 img{
   width: 100%;
 }
 .header-col-4{
   flex-basis: 4%;
-  /* background: #db813f; */
 }
 .flecha-svg-der{
   width: 45px;
@@ -815,6 +812,7 @@ article h1{
 @media screen and (max-width: 680px){
   /* HEADER */
   .header-desktop-cont{
+    padding: 30px 25px 0px 25px;
     display: none;
   }
   .header-mobile-cont{
@@ -900,6 +898,9 @@ article h1{
     color: #fff;
   }
   /* NOTA */
+  article{
+    padding: 25px 25px 80px;
+  }
   .nombre-bx{
     display: flex;
   }
@@ -985,7 +986,14 @@ article h1{
   }
 }
 @media screen and (max-width: 480px){
+  /* HEADER */
+  .header-desktop-cont{
+    padding: 30px 20px 0px 20px;
+  }
   /* NOTA */
+  article{
+    padding: 20px 20px 80px;
+  }
   .circulo-diabetes{
     width: 40px;
     height: 40px;
@@ -1013,6 +1021,16 @@ article h1{
   .link-compartir {
     font-size: 17px;
   }
+  /* CREDITO */
+  .credito-rd-bx {
+    margin-bottom: 15px;
+  }
+  .credito-autor {
+    font-size: 13px;
+  }
+  .credito-autor i {
+    font-size: 11px;
+  }
   /* NOTA */
   .txt-esp{
     font-size: 18px;
@@ -1031,7 +1049,7 @@ article h1{
   }
   /* ASIDE */
   .frt{
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.4;
   }
 
@@ -1126,7 +1144,7 @@ article h1{
   }
   .descanso-esp {
     font-size: 20px;
-    margin-top: 25px;
+    margin-top: 20px;
   }
   /* ASIDE */
   .frc, .ctc-conozca{
