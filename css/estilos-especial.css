@@ -160,10 +160,6 @@ article{
   border-radius: 50%;
   border: 9px solid #1677f2;
   margin-right: 15px;
-
-  /* -moz-border-radius: 50%;
-  -webkit-border-radius: 50%;
-  display: inline-block; */
 }
 .nombre{
   font-size: 27px;
@@ -291,6 +287,10 @@ article h1{
   color: var(--verde-logo-1);
   margin-top: 40px;
 }
+.txt-esp-preg{
+  font-weight: 500;
+  margin-top: 20px;
+}
 
 /* ASIDE */
 .col-40{
@@ -390,7 +390,6 @@ article h1{
 .ctc-empresa {
   font-size: 21px;
   font-weight: 500;
-  margin-bottom: 8px;
 }
 .ctc-dom-tel {
   text-indent: -10px;
@@ -398,7 +397,7 @@ article h1{
   font-size: 16.5px;
   font-weight: 300;
   line-height: 1;
-  margin-top: 10px;
+  margin-top: 13px;
 }
 .ctc-correo {
   font-size: 16.5px;
