@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/estilos.css">
+  <link rel="stylesheet" href="/css/all.min.css">
+  <meta name="description" content="Artículos sobre el cuidado de la salud y prevención de enfermedades">
+  <meta name="keywords"
+    content="salud, saludable, vida, cuidado, bienestar, prevención, enfermedades, nutrición, psicología, niños, familia, adultos mayores, femeson, sonora">
+  <link rel="icon" type="image/png" href="../imgs/Revista_BS_favicon.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,300;0,400;1,400&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+    rel="stylesheet">
+
+  <title>Revista BS | Salud para vivir con sentido</title>
+</head>
+
+<body>
+  <header class="contenedor">
+
+    <!-- HEADER MOBILE -->
+    <div class="header-mobile-cont">
+
+      <div class="header-mobile-row-1">
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+
+        <div class="logo-mobile-bx">
+          <a href="/index.html">
+            <img src="/imgs/Revista-BS-logo-m.png">
+          </a>
+        </div>
+
+        <i class="fas fa-search"></i>
+      </div>
+
+      <div class="lema-mobile-bx">
+        <img src="/imgs/lema.png">
+      </div>
+
+      <nav>
+        <div class="menu-mobile" id="menu-enlaces">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Revista</a></li>
+            <li><a href="#">Artículos por tema</a></li>
+            <li><a href="#">Directorio médico</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- HEADER DESKTOP -->
+    <div class="header-cont">
+
+      <div class="header-col-izq">
+        <div class="revista-bs-logo-bx">
+          <a href="/index.html">
+            <img class="logo-header" src="/imgs/Revista-BS-logo-header.png" alt="Revista BS">
+          </a>
+        </div>
+      </div>
+
+      <div class="header-col-der">
+        <div class="header-row-1">
+          <div class="facebook">
+            <a class="f1" href="https://www.facebook.com">
+              <i class="fab fa-facebook fa-lg"></i> Revista BS
+            </a>
+          </div>
+          <p class="f2 femeson-leyenda">Órgano de vinculación y divulgación de <br> la Federación Médica de Sonora</p>
+          <div class="femeson-logo-bx">
+            <img src="/imgs/femeson-escudo.png" alt="">
+          </div>
+        </div>
+
+        <div class="header-row-2">
+          <div class="lema-bx">
+            <img src="/imgs/lema.png">
+          </div>
+          <div id="buscador">
+            <form>
+              <input type="text" placeholder="Buscar">
+            </form>
+          </div>
+        </div>
+
+        <nav>
+          <div class="menu-desktop">
+            <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Revista</a></li>
+              <li><a href="#">Artículos por tema</a></li>
+              <li><a href="#">Directorio médico</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+  </header>
+
+  <!-- BANNER HORIZONTAL -->
+  <div class="contenedor bnr-hz-01">
+    <a href="https://hondapremium.com/" target="blank"><img src="/imgs/Honda-diciembre-2020.png"></a>
+  </div>
+
+  <div class="contenedor m-0a nota-bx">
+    <article class="col-64">
+      <div class="f2 ceja-gde naranjao">Otorrinolaringología</div>
+      <p class="f1 fecha">Diciembre 2021</p>
+
+      <p class="f1 balazo-1">Vértigo</p>
+      <h1 class="f2 cabeza-1">Cuando todo da vueltas</h1>
+      <p class="f1 sumario-1">El vértigo constituye uno de los motivos de consulta ambulatoria más frecuente, la adecuada identificación de sus síntomas es crucial para determinar sus causas</p>
+
+      <figure class="foto-nota-top-bx">
+        <img src="../12/imgs/259-Dra-Margarita-Gracia-Francis-VERTIGO.gif" alt="">
+      </figure>
+
+      <!-- COMPARTIR -->
+      <div class="compartir-bx">
+        <i class="fa fa-share"></i>
+        <p class="f1 compartir"> Compartir</p>
+        <a href="#" class="fab fa-whatsapp whatsapp-compartir" title="Enviar por Whatsapp"></a>
+        <a href="#" class="fab fa-facebook fa-lg facebook-compartir" title="Compartir en Facebook"></a>
+        <a href="#" class="fas fa-envelope envelope-compartir" title="Enviar por correo electrónico"></a>
+        <a href="#" class="fas fa-link link-compartir" title="Copiar enlace"></a>
+      </div>
+
+      <!-- CREDITO -->
+      <div class="credito-bx">
+        <figure class="credito-foto-bx">
+          <img src="/imgs/doctores/Dra-Margarita-Gracia-Francis.jpg" alt="">
+        </figure>
+        <p class="f1 credito-autor"><strong>Dra. María Margarita Gracia Francis</strong><br>Otorrinolaringología<br>
+          <a href="mailto:magygracia@gmail.com"><i>magygracia@gmail.com</i></a>
+        </p>
+      </div>
+
+      <div class="texto">
+        <p>Vértigo se define como la sensación de rotación en el espacio, ya sea del propio paciente o del medio que le rodea. Se puede sentir como estar fuera de balance, dando vueltas, cayendo o inclinándose. Se describe una variedad de síntomas subjetivos y semejantes al vértigo por lo que es importante distinguir entre ellos:</p>
+        <ul class="lista-disco-nota">
+          <li><b>Desequilibrio</b>, inestabilidad postural al estar de pie, que puede ser por una alteración neurológica, debilidad músculo-esquelética o alteraciones visuales.</li>
+          <li><b>Mareo,</b> se puede describir como una sensación de cabeza vacía o estar caminando en un puente colgante.
+            De éstos, el vértigo tiene la mayor prevalencia en la población general (38%), donde vértigo periférico corresponde a más del 90% de las consultas y el central, alrededor del 5 y10%.</li>
+        </ul>
+<p>Este padecimiento es un motivo de consulta frecuente en la práctica ambulatoria y en los servicios de urgencia, llegando a constituir 3 a 5% de las atenciones médicas en adultos.</p>
+
+<p class="descanso">Clasificación</p>
+<p>El vértigo se clasifica en dos grupos: periférico y el central. El primero se debe a un problema en la parte del oído interno que controla el equilibrio, puede ser del laberinto, o estructuras centrales vestibulares del tronco cerebral, lesión o alteración del nervio vestibular, que conecta el oído interno y el tronco encefálico.</p>
+<p>Por su parte, el vértigo central se debe a un problema en el cerebro, que puede involucrar el tronco encefálico o cerebelo, localizado en la parte posterior del cerebro.</p>
+<p>Es importante distinguir la diferencia entre vértigo central o periférico. Generalmente, episodios bruscos, súbitos, e intensos de vértigo, con intervalos asintomáticos, podrían ser periféricos. Por otro lado, la sensación continua, lenta y progresiva de vértigo sugiere un proceso de origen central.</p>
+<p>Generalmente los movimientos de la cabeza o cuerpo pueden exacerbar los síntomas en el vértigo periférico, así como la presencia de síntomas agregados como náuseas, vómito, sudoración o palidez. En el vértigo de origen central no se agregan estos síntomas, pero se presentan dolor de cabeza e inestabilidad.</p>
+<p>Es importante mencionar que si hubo antecedentes de episodios similares o de enfermedades óticas agregadas, como secreción por el oído (otorrea), otitis media aguda de repetición, sugieren un origen periférico.</p>
+
+<p class="descanso">Causas</p>
+<p>Algunas de las principales causas del vértigo periférico son el vértigo postural paroxístico benigno, neuritis vestibular, enfermedad de Meniere, tumores como el neurinoma del acústico, laberintitis (que es una inflamación en una porción del oído interno llamado laberinto), una fístula perilinfática, colesteatoma, herpes zoster ótico.</p>
+<p>Para el vértigo central, las causas pueden ser una hemorragia cerebelar, isquemia del tallo cerebral, insuficiencia vértebrobasilar, tumores, migraña, esclerosis múltiple.</p>
+<p>De los vértigos periféricos, el vértigo postural paroxístico benigno predomina entre los demás, y predomina en la población femenina (2 a 1). Suele aparecer como consecuencia de ciertos cambios en la posición de la cabeza, como inclinar la cabeza hacia adelante o hacia abajo. Puede desaparecer por sí solo en unas semanas, pero de persistir los síntomas, el tratamiento consiste en una serie de movimientos conocidos como maniobra de reposicionamiento canalicular.</p>
+
+<table class="tabla grisc">
+  <thead class="rojoc">
+      <th>Tipos de vértigo</th>
+      <th>Periférico</th>
+      <th>Central</th>
+  </thead>
+  <tr>
+    <td style="font-weight: 400;">Origen</td>
+    <td>Oído</td>
+    <td>Cerebelo</td>
+  </tr>
+  <tr>
+    <td style="font-weight: 400;">Síntomas agregados</td>
+    <td>Vomito, sudoración o palidez</td>
+    <td>Dolor de cabeza e inestabilidad</td>
+  </tr>
+  <tr style="border-bottom: none;">
+    <td style="font-weight: 400;">Inicio</td>
+    <td>Súbito, brusco e intenso</td>
+    <td>Lento y progresivo</td>
+  </tr>
+</table>
+
+<p class="descanso">Vértigo y otros padecimientos</p>
+<p>Estudios han evidenciado al vértigo postural paroxístico benigno con la migraña, predominando también en las mujeres (5 a 1), llamándose vértigo migrañoso. 27 a 33% de las personas con migraña presentan vértigos episódicos. La migraña constituye un factor de predisposición para los vértigos.</p>
+<p>El vértigo puede aparecer antes de la cefalea en forma de aura, ya sea durante el periodo de cefalalgia o después. Con el tiempo, pueden aparecer vértigos años después de que las migrañas hayan desaparecido, por ejemplo, después de la menopausia.</p>
+<p>Su abordaje comprende varias facetas como eliminar los factores desencadenantes como algunos alimentos, estrés, mejorar el sueño; así como fármacos.</p>
+<p>Otro factor de riesgo para la aparición de episodios de vértigo en la mujer son las enfermedades metabólicas, como diabetes y obesidad. Lograr mejorar la calidad de vida de estos pacientes es fundamental por lo que la atención a la obesidad y enfermedades crónicas es crucial.</p>
+<p>Es importante estar atento a la hora de determinar las características del vértigo y de sus síntomas agregados, sean o no de características otológicas. Ante la mínima duda, es esencial consultar con un especialista otorrinolaringólogo o neurólogo. &nbsp;<i class="fas fa-square"></i></p>
+
+
+        <!-- FRASE -->
+        <div class="frase-bx">
+          <div class="frase-barra" style="background: #d7779a;"></div>
+          <p class="frase">Texto</p>
+        </div>
+
+       <!-- TEXTO LISTA DESORDENADA BULLET-->
+
+
+      <!-- TEXTO LISTA ORDENADA INCISO -->
+      <ol class="lista-letra-nota">
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+      </ol>
+
+      <!-- TEXTO LISTA ORDENADA NUM -->
+      <ol class="lista-num-nota">
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+      </ol>
+
+        <!-- TEXTO RESALTADO CAJA GRIS -->
+        <div class="texto-resaltado-bx">
+          <p>Cabeza o texto</p>
+          <ul>
+            <li class="lista-disco-nota">Lista</li>
+            <li class="lista-disco-nota">Lista</li>
+            <li class="lista-disco-nota">Lista</li>
+          </ul>
+        </div>
+
+        <!-- SEPARADOR -->
+        <hr style="background-color: #ccc; height: 5px; border: 0;">
+
+        <!-- RECUADRO COLOR CON FOTO -->
+        <div class="rc-color verde rc-float-der">
+          <div class="rc-foto-bx">
+            <img class="w1200" src="/2021/11/imgs/258-Dra-Rosa-Zazueta-PIEL-DIABETES-nt.jpg"
+              style="margin: 0 auto 15px; display: block;">
+          </div>
+          <p class="f2 rc-color-cbz-1r guion" style="color: white;">Cabeza verde</p>
+          <ul class="rc-color-lista">
+            <li>lista</li>
+            <li>lista</li>
+            <li>lista</li>
+            <li>lista</li>
+          </ul>
+          <p class="f2 rc-fuente" style="color: white; margin-bottom: 0;">Fuente:</p>
+        </div>
+
+        <!-- RECUADRO COLOR SIN FOTO -->
+        <div class="rc-color morado rc-float-der">
+          <p class="f2 rc-color-cbz-1r">Cabeza</p>
+          <p class="f3 rc-color-texto">Texto recuadro</p>
+          <ul class="rc-color-lista">
+            <li>Lista</li>
+            <li>Lista</li>
+            <li>Lista</li>
+          </ul>
+          <p class="f2 rc-fuente" style="color: white; margin-bottom: 0;">Fuente:</p>
+        </div>
+
+        <!-- CABEZA CORTE GUION -->
+        <p class="f2 rc-color-cbz-1r guion" style="color: black;">Ultraproce&shysa&shydos</p>
+
+        <!-- RECUADRO GRIS CON FOTO-->
+        <div class="rc-gris rc-float-der">
+          <div class="rc-foto-bx">
+            <img class="w1200" src="/2021/09/imgs/256-Pod-Fausto-Diaz-PROBLEMAS-PISADA-4.png"
+              style="margin: 0 auto 15px; display: block;">
+
+            <img class="w740" src="/2021/09/imgs/256-Pod-Fausto-Diaz-PROBLEMAS-PISADA-4-740.png"
+              style="margin: 0 auto; display: block;" width="100%">
+          </div>
+          <p class="f2 rc-color-cbz-1r guion">Cabeza&shy</p>
+          <p class="f3 rc-color-texto" style="color: black; margin: 0;">Texto recuadro</p>
+          <ul class="rc-color-lista">
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+          <p class="f2 rc-fuente" style="color: white; margin-bottom: 0;">Fuente:</p>
+        </div>
+
+        <!-- RECUADRO GRIS -->
+        <div class="rc-gris rc-float-izq">
+          <p class="f2 rc-gris-cbz-1r">Cabeza</p>
+          <p class="f3 rc-gris-texto">Texto</p>
+          <ul class="rc-gris-lista">
+            <li>Lista</li>
+            <li>Lista</li>
+            <li>Lista</li>
+          </ul>
+          <p class="f2 rc-fuente" style="color: white; margin-bottom: 0;">Fuente:</p>
+        </div>
+
+        <!-- RECUADRO GRIS -->
+        <div class="rc-gris rc-float-izq">
+          <p class="f2 rc-gris-cbz-1r">Cabeza</p>
+          <div class="f3 rc-gris-texto"></div>
+          <p>Texto</p>
+          <p>Texto</p>
+          <p>Texto</p>
+          <p class="f2 rc-fuente" style="color: white; margin-bottom: 0;">Fuente:</p>
+        </div>
+
+        <!-- FOTO-NOTA CON PIE IZQ -->
+        <div class="foto-nota-pie-izq">
+          <figure>
+            <img src="/2021/" alt="">
+            <figcaption class="f2 pie">Texto pie</figcaption>
+          </figure>
+        </div>
+
+        <!-- FOTO-NOTA CON PIE CENTRADA -->
+        <div class="foto-nota-pie-cnt">
+          <figure>
+            <img src="#" alt="">
+            <figcaption class="f2 pie">Pie</figcaption>
+          </figure>
+        </div>
+
+        <!-- FOTO-NOTA CON PIE DER -->
+        <div class="foto-nota-pie-der">
+          <figure>
+            <img src="/2021/" alt="">
+            <figcaption class="f2 pie">Texto pie</figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <!-- PIE EN RECUADRO COLOR -->
+      <div class="pie-nota-bx" style="background: var(--azul-oscuro);">
+        <figcaption class="f2 pie" style="color: white;">Tras la cirugía conservadora se necesitará radioterapia
+          para disminuir la posibilidad de recurrencia.</figcaption>
+      </div>
+
+    </article>
+
+    <!-- ASIDE NOTA -->
+    <aside class="col-40">
+
+      <!-- BANNERS ASIDE -->
+      <div class="aside-bnrs-up">
+        <div class="bnr-250x250">
+          <a href="#">
+            <img src="/imgs/Hospital-GobEdo.png">
+          </a>
+        </div>
+      </div>
+
+      <!-- TEMAS DE INTERES -->
+      <div id="interes">
+        <hr style="border-top: 4px solid">
+        <p class="f2 indicador interes-ind-a">TEMAS DE INTERÉS</p>
+
+        <div class="interes-item">
+          <a href="#">
+            <img src="/2021/01/imgs/248-Lillian-Figueroa-ALIMENTOS-ORGANICOS-1-th.jpg" alt="">
+            <p>Alimentos orgánicos por su salud y el medio ambiente</p>
+          </a>
+        </div>
+
+        <div class="interes-item">
+          <a href="#">
+            <img src="/2021/01/imgs/248-Dra-Ana-Martinez-Ayala-ENT-TERCERA-EDAD-1-th.jpg" alt="">
+            <p>ENT y tercera edad: Contra el reloj</p>
+          </a>
+        </div>
+
+        <div class="interes-item">
+          <a href="#">
+            <img src="/2021/01/imgs/248-Dr-Mario-Alvarez-Bojorquez-HABITOS-CIRUGIA-1-th.jpg" alt="">
+            <p>Buscando las mejores condiciones en caso de cirugía oncológica</p>
+          </a>
+        </div>
+
+        <div class="interes-item">
+          <a href="#">
+            <img src="/2021/01/imgs/248-Redaccion-BS-ENFERMEDADES-RESPIRATORIAS-2-th.jpg" alt="">
+            <p>En enfermedades respiratorias distinguir es la clave</p>
+          </a>
+        </div>
+      </div>
+
+      <!-- BANNERS ASIDE -->
+      <div class="aside-bnrs-stic">
+        <div class="bnr-vl-250x250 mb-70">
+          <a href="#">
+            <img src="/imgs/Hospital-GobEdo.png">
+          </a>
+        </div>
+
+        <div class="bnr-vl-250x250">
+          <a href="#">
+            <img src="/imgs/Hospital-GobEdo.png">
+          </a>
+        </div>
+      </div>
+
+      <!-- CONTACTO-AUTOR  -->
+      <div class="ctc">
+        <p class="f1 ctc-sobre">Sobre el autor</p>
+        <p class="f1 ctc-nombre">Dra. María Margarita Gracia Francis</p>
+        <p class="f1 ctc-especialidad">Otorrinolaringología y cirugía de cabeza y cuello</p>
+        <p class="f1 ctc-cedulas">Cedula de Especialidad: 11979722; Universidad Nacional Autónoma de México</p>
+        <!-- CLINICA -->
+        <p class="f1 ctc-empresa">Clínica NOVA</p>
+        <!-- DOMICILIO -->
+        <p class="f1 ctc-dom-tel"><i class="fas fa-map-marker-alt"></i> Gastón Madrid #33</p>
+        <a href="tel:">
+          <p class="f1 ctc-dom-tel"><i class="fas fa-phone-alt"></i> (662) 110-7782</p>
+        </a>
+        <a class="f1 ctc-correo" href="mailto:magygracia@gmail.com"><i class="fas fa-envelope"></i> magygracia@gmail.com</a>
+      </div>
+    </aside>
+  </div>
+
+  <div class="clear" style="margin-bottom: 70px;"></div>
+
+  <!-- BANNER HORIZONTAL -->
+  <div class="contenedor bnr-hz-01" style="margin-top: 20px">
+    <a href="https://www.hospitalsanjosehermosillo.com/" target="blank"><img src="/imgs/Hospital-San-Jose.jpg"></a>
+  </div>
+
+  <div class="altura-ajuste-footer"></div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-row-1">
+      <div class="f1 footer-mision">COMUNICAMOS VALOR</div>
+    </div>
+
+    <div class="footer-row-2">
+      <div class="contenedor footer-cont">
+
+        <div class="footer-col-1">
+          <div class="footer-BSlogo-bx"><img src="/imgs/Revista-BS-logo-footer.png"></div>
+
+          <div class="btn-siganos-pr">
+            <a href="#">
+              <p><strong>Síganos en</strong></p>
+              <p><i class="fab fa-facebook"></i> Revista BS</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="f1 footer-col-2">
+          <p class="anunciese"><strong>Anúnciese con nosotros</strong></p>
+          <p class="footer-tel">
+            <i class="fas fa-phone-alt footer-icon">&nbsp;</i>(662) 236 25 00
+          </p>
+          <a class="footer-email" href="mailto:publicidad@buenasalud.org">
+            <i class="fas fa-envelope footer-icon">&nbsp;</i>publicidad@buenasalud.org </a>
+          <p class="footer-direccion"><i class="fas fa-map-marker-alt footer-icon">&nbsp;</i>Quinta Mayor 181 Col. Las
+            Quintas, Hermosillo, Sonora, México CP 83240</p>
+        </div>
+
+        <div class="f1 footer-col-3">
+          <p><strong>©2021 Revista BS <br> Todos los derechos reservados</strong></p>
+          <p>Sin previa autorización, queda expresamente prohibida la publicación, retransmisión, edición y
+            cualquier otro uso de los contenidos.</p>
+          <a href="#">Política de Privacidad</a>
+          <a style="display: inline-block;" href="#">Términos y Condiciones</a>
+        </div>
+
+        <div class="btn-siganos">
+          <a href="#">
+            <p><strong>Síganos en</strong></p>
+            <p><i class="fab fa-facebook"></i> Revista BS</p>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="duarte-firma">
+        <a href="mailto:duartepublicidad@gmail.com">Sitio desarrollado por <strong>Duarte Publicidad</strong></a>
+      </div>
+
+    </div>
+    <div class="wid"></div>
+  </footer>
+</body>
+
+</html>

@@ -1195,16 +1195,19 @@ header {
   margin-top: 30px;
   margin-bottom: 20px;
 }
+.texto-resaltado-bx p{
+  line-height: 1.5;
+}
 .texto li {
   margin-left: 30px;
 }
-.lista-letra-nota {
+.lista-letra-nota li {
   list-style-type: lower-latin;
   margin-right: 50px;
   line-height: 1.4;
   margin-bottom: 5px;
 }
-.lista-disco-nota {
+.lista-disco-nota li {
   list-style-type: disc;
   margin-right: 50px;
   line-height: 1.5;
@@ -1386,6 +1389,7 @@ header {
 .tabla{
   margin-top: 35px;
   width: 100%;
+  border-radius: 20px;
   border-collapse: collapse;
 }
 .separador{
@@ -1400,6 +1404,9 @@ td, th {
   text-align: left;
   border-bottom: #999 1px solid;
 }
+tr:last-child{
+  border-bottom: none;
+}
 th {
   font-weight: 500;
   padding-top: 10px;
@@ -1412,6 +1419,7 @@ th {
     overflow-x: auto;
   }
 }
+/* BORRAR ESTAS CLASES CELDA */
 .celda4-bx {
   margin-top: 20px;
   display: flex;
