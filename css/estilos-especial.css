@@ -333,7 +333,7 @@ article h1{
   display: inline;
 }
 .uni-logo{
-  width: 80px;
+  width: 70px;
   float: left;
   margin-right: 15px;
   margin-bottom: 10px;
@@ -420,8 +420,10 @@ article h1{
 }
 
 /* FOOTER */
-.footer-row-1 {
+footer{
   margin: 0 auto;
+}
+.footer-row-1 {
   background: var(--verde-logo-1)
 }
 .footer-mision {
@@ -433,14 +435,11 @@ article h1{
   color: #fff;
 }
 .footer-row-2 {
-  margin: 0 auto;
   height: auto;
-  padding: 0 30px;
   background: var(--gris-claro);
 }
 .footer-cont {
-  margin: 0 auto;
-  padding-top: 20px;
+  padding: 20px 30px 0;
   display: flex;
 }
 .footer-col-2 {
@@ -768,7 +767,7 @@ article h1{
 @media screen and (max-width: 768px){
   /* 76FOOTER */
   .footer-cont {
-    padding: 25px 20px 0 20px;
+    padding: 25px 40px 0 ;
     flex-direction: column;
   }
   .footer-col-1 {
@@ -1051,10 +1050,9 @@ article h1{
     font-size: 16px;
     line-height: 1.4;
   }
-
   /* 48FOOTER */
   .footer-cont {
-    padding: 25px 0px 0px 0px;
+    padding: 25px 30px 0;
   }
   .footer-mision {
     font-size: 17px;

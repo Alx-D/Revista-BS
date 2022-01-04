@@ -879,7 +879,7 @@ header {
 
 /* 1FOOTER */
 .footer-row-1 {
-  width: 98vw;
+  width: 100vw;
   background: var(--verde-logo-1)
 }
 .footer-mision {
@@ -891,7 +891,7 @@ header {
   color: #fff;
 }
 .footer-row-2 {
-  width: 98vw;
+  width: 100vw;
   height: auto;
   background: var(--gris-claro);
 }
@@ -1404,15 +1404,14 @@ td, th {
   text-align: left;
   border-bottom: #999 1px solid;
 }
-tr:last-child{
+tr:last-child td{
   border-bottom: none;
 }
 th {
-  font-weight: 500;
+  font-weight: 600;
   padding-top: 10px;
   color: white;
 }
-
 @media screen and (max-width:1024px){
   .tabla{
     display: block;
@@ -2276,7 +2275,7 @@ th {
   }
   /* 76FOOTER */
   .footer-cont {
-    padding: 25px 50px 0 50px;
+    padding: 25px 25px 0 25px;
     flex-direction: column;
   }
   .footer-col-1 {
@@ -3044,6 +3043,10 @@ th {
     font-size: 19px;
   }
   /* 36FOOTER */
+  .footer-cont {
+    padding: 25px 15px 0 15px;
+    flex-direction: column;
+  }
   .duarte-firma {
     width: 200px;
     font-size: 10px;
