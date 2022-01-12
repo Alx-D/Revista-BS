@@ -300,6 +300,7 @@ article h1{
   position: relative;
 
   /* display: flex; */
+  /* align-content: space-between; */
   /* flex-direction: column; */
 
   /* grid-column: 2/3;
@@ -313,17 +314,22 @@ article h1{
   background: #5b88c5;
   border-radius: 12px;
   margin-top: 10px;
+  margin-bottom: auto;
 }
 .dr-foto-bx img{
   width: 100%;
   margin-top: -50px;
+}
+.col-40-row-2{
+  position: absolute;
+  bottom: 0;
 }
 .formacion-bx{
   width: 100%;
   background: #ff6b5b;
   border-radius: 12px;
   padding: 25px;
-  margin-top: 450px;
+  /* margin-top: 450px; */
 }
 .frc{
   font-size: 27px;
@@ -351,8 +357,9 @@ article h1{
   padding: 25px;
   background: var(--azul-oscuro);
   border-radius: 12px;
-  bottom: 0;
-  position: absolute;
+  margin-top: 100px;
+  /* bottom: 0; */
+  /* position: absolute; */
 }
 .ctc-bx p{
   font-family: "Nunito Sans", sans-serif;
@@ -700,23 +707,21 @@ footer{
   }
   .dr-foto-bx-vd840 img{
     width: 100%;
-    margin-top: -65px;
+    margin-top: -80px;
     float: right;
-
-    /* shape-margin: 300px; */
-    /* margin-bottom: 30px; */
-
   }
   /* ASIDE */
   .col-40{
     float: none;
     width: 100%;
     overflow: auto;
-
-    /* flex-direction: row; */
   }
   .dr-foto-bx{
     display: none;
+  }
+  .col-40-row-2{
+    width: 100%;
+    position: initial;
   }
   .formacion-bx{
     width: 48%;
@@ -727,6 +732,7 @@ footer{
     width: 48%;
     float: right;
     position: initial;
+    margin-top: 0;
   }
   .ctc-foto{
     width: 10rem;
