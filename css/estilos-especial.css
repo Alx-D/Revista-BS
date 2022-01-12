@@ -73,7 +73,7 @@ header{
   padding: 30px 30px 0px 30px;
   justify-content: space-between;
   align-items: center;
-  background: #dbdbd2;
+  background: #e8e5e0;
 }
 .header-col-1 {
   width: 15%;
@@ -131,13 +131,13 @@ header{
 }
 .remate-esp{
   font-size: 14px;
-  color: white;
+  color: #dbdbd2;
 }
 /* NOTA */
 article{
   margin: 0 auto;
   padding: 30px 30px 80px;
-  background: #ecebe8;
+  background: #f6f6f4;
 }
 .dr-foto-bx-vd420{
   display: none;
@@ -299,6 +299,9 @@ article h1{
   right: 0;
   position: relative;
 
+  /* display: flex; */
+  /* flex-direction: column; */
+
   /* grid-column: 2/3;
   width: 92%;
   justify-self: right;
@@ -306,22 +309,21 @@ article h1{
 }
 .dr-foto-bx{
   width: 100%;
-  height: 400px;
+  height: 450px;
   background: #5b88c5;
-  border-radius: 15px;
-  margin-top: 20px;
+  border-radius: 12px;
+  margin-top: 10px;
 }
 .dr-foto-bx img{
   width: 100%;
-  margin-top: -80px;
+  margin-top: -50px;
 }
-/* FORMACION */
 .formacion-bx{
   width: 100%;
   background: #ff6b5b;
-  border-radius: 15px;
+  border-radius: 12px;
   padding: 25px;
-  margin-top: 350px;
+  margin-top: 450px;
 }
 .frc{
   font-size: 27px;
@@ -348,7 +350,7 @@ article h1{
   width: 100%;
   padding: 25px;
   background: var(--azul-oscuro);
-  border-radius: 15px;
+  border-radius: 12px;
   bottom: 0;
   position: absolute;
 }
@@ -436,7 +438,7 @@ footer{
 }
 .footer-row-2 {
   height: auto;
-  background: var(--gris-claro);
+  background: #e8e5e0;
 }
 .footer-cont {
   padding: 20px 30px 0;
@@ -692,20 +694,26 @@ footer{
     height: 200px;
     float: right;
     background: #5b88c5;
-    border-radius: 15px;
+    border-radius: 12px;
     margin-top: -60px;
     margin-left: 20px;
-    margin-bottom: 17%;
   }
   .dr-foto-bx-vd840 img{
     width: 100%;
     margin-top: -65px;
+    float: right;
+
+    /* shape-margin: 300px; */
+    /* margin-bottom: 30px; */
+
   }
   /* ASIDE */
   .col-40{
     float: none;
     width: 100%;
     overflow: auto;
+
+    /* flex-direction: row; */
   }
   .dr-foto-bx{
     display: none;
@@ -1103,6 +1111,11 @@ footer{
     width: 70%;
     float: unset;
     margin: -15px auto 20px;
+  }
+  .uni-logo{
+    width: 60px;
+    margin-right: 12px;
+    margin-bottom: 5px;
   }
 }
 @media screen and (max-width: 360px){
