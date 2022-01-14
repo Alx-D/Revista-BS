@@ -76,7 +76,6 @@ header{
   padding: 30px 30px 0px 30px;
   justify-content: space-between;
   align-items: center;
-  /* background: #e8e5e0; */
   background: #fae5b6;
 }
 .header-col-1 {
@@ -118,11 +117,10 @@ header{
 .header-col-3{
   width: 16%;
   height: 100%;
-  margin-right: 15px;
+  margin-right: 25px;
 }
 .header-col-3 img{
   width: 100%;
-  mix-blend-mode: multiply;
 }
 .header-col-4{
   flex-basis: 4%;
@@ -160,7 +158,7 @@ article{
   margin-right: unset;
 }
 .nombre-bx{
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .nombre{
   font-size: 27px;
@@ -259,15 +257,9 @@ article h1{
 .txt-esp-bx{
   display: flex;
   justify-content: space-between;
-
-  /* display: grid;
-  grid-template-columns: 60% 40%; */
 }
 .col-60{
   width: 58%;
-
-  /* grid-column: 1/2;
-  width: 98%; */
 }
 .txt-esp{
   font-family: "Nunito Sans", sans-serif;
@@ -293,7 +285,6 @@ article h1{
   font-weight: 500;
   margin-top: 20px;
 }
-
 /* ASIDE */
 .col-40{
   width: 38%;
@@ -301,20 +292,10 @@ article h1{
   right: 0;
   position: relative;
 }
-/* .triangle-up {
-	width: 0;
-	height: 0;
-	border-left: 395px solid transparent;
-	border-right: 0px solid transparent;
-	border-bottom: 50px solid #a4cb7c;
-  margin-bottom: -10px;
-} */
 .dr-foto-bx{
   width: 100%;
-  height: 450px;
-  /* background: #a4cb7c; */
+  height: 500px;
   background-image: url(/2021/12/imgs/259-back-esp.png);
-  margin-top: 10px;
   margin-bottom: auto;
 }
 .dr-foto-bx img{
@@ -347,7 +328,7 @@ article h1{
 }
 .frt{
   font-size: 18px;
-  line-height: 1.5;
+  line-height: 1.4;
   color: #35644d;
 }
 /* CONTACTO-AUTOR */
@@ -402,7 +383,7 @@ article h1{
   font-size: 16.5px;
   font-weight: 300;
   line-height: 1;
-  margin-top: 13px;
+  margin-top: 10px;
 }
 .ctc-correo {
   font-size: 16.5px;
@@ -561,7 +542,7 @@ footer{
     font-size: 21px;
   }
   .header-col-2 h1{
-    font-size: 40px;
+    font-size: 50px;
   }
   .header-col-2 h3{
     font-size: 2.4vw;
@@ -596,12 +577,11 @@ footer{
   .indicador {
     font-size: 20px;
   }
+  .header-col-2 h1{
+    font-size: 47px;
+  }
   .flecha-svg-der{
     width: 35px;
-  }
-  /* ASIDE */
-  .dr-foto-bx{
-    margin-top: 80px;
   }
   /* FOOTER */
   .footer-email {
@@ -632,11 +612,6 @@ footer{
   /* 92NOTA */
   article{
     padding-top: 20px;
-  }
-  .circulo-diabetes{
-    width: 55px;
-    height: 55px;
-    border: 8px solid #1677f2;
   }
   .nombre{
     font-size: 25px;
@@ -676,12 +651,6 @@ footer{
     font-size: 18px;
   }
   /* NOTA */
-  .circulo-diabetes{
-    width: 50px;
-    height: 50px;
-    border: 7px solid #1677f2;
-    margin-right: 10px;
-  }
   .txt-esp-bx{
     display: initial;
   }
@@ -693,11 +662,10 @@ footer{
   }
   .dr-foto-bx-vd840{
     display: block;
+    background-image: url(/2021/12/imgs/259-back-esp.png);
     width: 30%;
-    height: 200px;
+    height: 300px;
     float: right;
-    background: #5b88c5;
-    border-radius: 12px;
     margin-top: -60px;
     margin-left: 20px;
   }
@@ -740,6 +708,9 @@ footer{
   .sumario-esp,
   .compartir-bx {
     margin-bottom: 20px;
+  }
+  .header-col-2 h1{
+    font-size: 45px;
   }
   /* 82FOOTER */
   .footer-col-2 {
@@ -825,7 +796,7 @@ footer{
   }
   .header-mobile-cont{
     display: block;
-    background: #e8e5e0;
+    background: #fae5b6;
     padding: 15px 0 15px;
   }
   .header-mobile-row {
@@ -913,12 +884,6 @@ footer{
   .nombre-bx{
     display: flex;
   }
-  .circulo-diabetes{
-    width: 45px;
-    height: 45px;
-    border: 7px solid #1677f2;
-    margin-right: 20px;
-  }
   .brvd680{
     display: block;
   }
@@ -928,9 +893,8 @@ footer{
   .dr-foto-bx-vd680{
     display: block;
     width: 45%;
+    background-image: url(/2021/12/imgs/259-back-esp.png);
     float: right;
-    background: #5b88c5;
-    border-radius: 15px;
     padding-top: 15px;
     margin-top: -45px;
     margin-left: 20px;
@@ -1002,12 +966,6 @@ footer{
   /* NOTA */
   article{
     padding: 20px 20px 80px;
-  }
-  .circulo-diabetes{
-    width: 40px;
-    height: 40px;
-    border: 6px solid #1677f2;
-    margin-right: 10px;
   }
   .nombre{
     font-size: 22px;
@@ -1086,9 +1044,6 @@ footer{
   .dr-foto-bx-vd680{
     display: none;
   }
-  .circulo-diabetes{
-    display: none;
-  }
   .nombre-bx{
     width: 100%;
     background: #5b88c5;
@@ -1135,11 +1090,6 @@ footer{
   }
   .migas  .fa-angle-right{
     font-size: 10px;
-  }
-  .circulo-diabetes{
-    width: 35px;
-    height: 35px;
-    border: 6px solid #1677f2;
   }
   .nombre{
     font-size: 20px;
