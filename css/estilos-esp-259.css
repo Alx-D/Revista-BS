@@ -168,7 +168,7 @@ article{
   display: inline;
   color: #729a4a;
 }
-.brvd680{
+.brvd480{
   display: none;
 }
 article h1{
@@ -382,7 +382,7 @@ article h1{
   margin-left: 25px;
   font-size: 16.5px;
   font-weight: 300;
-  line-height: 1;
+  line-height: 1.2;
   margin-top: 10px;
 }
 .ctc-correo {
@@ -666,7 +666,7 @@ footer{
     width: 30%;
     height: 300px;
     float: right;
-    margin-top: -60px;
+    margin-top: -40px;
     margin-left: 20px;
   }
   .dr-foto-bx-vd840 img{
@@ -849,7 +849,7 @@ footer{
     height: 100vh;
     text-align: left;
     top: 0;
-    left: -400px;
+    left: -500px;
     position: fixed;
     background: var(--verde-logo-1);
     z-index: 10;
@@ -883,9 +883,6 @@ footer{
   }
   .nombre-bx{
     display: flex;
-  }
-  .brvd680{
-    display: block;
   }
   .dr-foto-bx-vd840{
     display: none;
@@ -970,6 +967,9 @@ footer{
   .nombre{
     font-size: 22px;
   }
+  .brvd480{
+    display: block;
+  }
   article h1{
     font-size: 45px;
     margin-bottom: 10px;
@@ -1017,7 +1017,7 @@ footer{
   /* ASIDE */
   .frt{
     font-size: 16px;
-    line-height: 1.4;
+    line-height: 1.3;
   }
   /* 48FOOTER */
   .footer-cont {
@@ -1046,11 +1046,11 @@ footer{
   }
   .nombre-bx{
     width: 100%;
-    background: #5b88c5;
-    border-radius: 15px;
+    background: #eccd89;
   }
   .nombre{
-    color: white;
+    font-size: 24px;
+    color: #35644d;
     margin-left: 20px;
     align-self: center;
     line-height: 1.2;
@@ -1092,7 +1092,7 @@ footer{
     font-size: 10px;
   }
   .nombre{
-    font-size: 20px;
+    font-size: 22px;
   }
   article h1{
     font-size: 40px;
