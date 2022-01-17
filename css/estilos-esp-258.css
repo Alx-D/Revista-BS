@@ -151,7 +151,7 @@ article{
   margin-right: unset;
 }
 .nombre-bx{
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .circulo-diabetes{
   width: 60px;
@@ -744,6 +744,9 @@ footer{
   .sumario-esp,
   .compartir-bx {
     margin-bottom: 20px;
+  }
+  .nombre-bx{
+    margin-bottom: 15px;
   }
   /* 82FOOTER */
   .footer-col-2 {
