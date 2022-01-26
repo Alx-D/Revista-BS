@@ -584,6 +584,9 @@ header {
   }
 }
 @media screen and (max-width: 740px){
+  .br-visible740{
+    display: block;
+  }
   .lista-esp1-bx {
     flex-direction: column;
   }
@@ -1763,7 +1766,7 @@ th {
   height: 55px;
 }
 
-/* ---------- M E D I A S ---------- */
+/*------MEDIAS SCREEN INICIO GRAL------*/
 @media screen and (max-width: 1024px) {
   .contenedor {
     width: 92vw
@@ -1785,11 +1788,11 @@ th {
   .covid-preventivo p {
     font-size: 25px;
   }
-  /* ESTE MES Preventivos */
+  /* 1MES Preventivos */
   .col1-mes1 {
     flex-basis: 23%;
   }
-  /* ESTE MES Nota Mes */
+  /* 1MES Nota Mes */
   .col2-mes1 {
     flex-basis: 72%;
   }
@@ -1799,7 +1802,7 @@ th {
   .mes1-top-cbz {
     font-size: 45px;
   }
-  /* ESTE MES Bnrs verticales */
+  /* 1MES Bnrs verticales */
   /* 250x250 */
   .none-1024 {
     display: none;
@@ -3726,4 +3729,4 @@ th {
     content: '300';
   }
 }
-/* ----F I N - M E D I A S---- */
+/* ----MEDIAS SCREEN FIN---- */
