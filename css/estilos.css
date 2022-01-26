@@ -202,7 +202,7 @@ header {
   color: white;
   text-align: center;
 }
-/* ESTE MES1 Preventivos */
+/* 1MES Preventivos */
 .cont-mes1 {
   display: flex;
   justify-content: space-between;
@@ -246,7 +246,7 @@ header {
   line-height: 1.3;
   font-weight: 600;
 }
-/* ESTE MES Nota Mes */
+/* 1MES Nota */
 .col2-mes1 {
   flex-basis: 54%;
   transition: all 400ms;
@@ -265,7 +265,7 @@ header {
   width: 100%;
   float: left;
   overflow: hidden;
-  background: #365b49;
+  background: #1c84b7;
 }
 .mes1-top-foto-bx img {
   width: 100%;
@@ -435,14 +435,13 @@ header {
   padding: 13px 55px 13px 15px;
 }
 /* 1ESPECIAL INICIO */
-/* CAMBIOS EN HTML */
 #esp1 {
   width: 98vw;
   margin-bottom: 50px;
 }
 .esp1-inda {
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   color: #666;
 }
 .cont-esp1 {
@@ -457,21 +456,21 @@ header {
   width: 100%;
 }
 .cbz-esp1{
-  font-size: 62px;
-  font-weight: 600;
+  font-size: 55px;
+  font-weight: 500;
   line-height: 1.1;
-  /* text-transform: uppercase; */
-  color: #729a4a;
-  margin-bottom: 5px;
+  text-transform: uppercase;
+  color: #1c84b7;
+  margin-bottom: 15px;
 }
 .sum-esp1 {
   width: 100%;
   font-size: 28px;
   line-height: 1.1;
-  font-weight: 500;
-  text-transform: uppercase;
-  color: #777;
-  margin-bottom: 25px;
+  font-weight: 600;
+  /* text-transform: uppercase; */
+  color: #e37b48;
+  margin-bottom: 30px;
 }
 .lista-esp1-bx {
   width: 100%;
@@ -493,13 +492,13 @@ header {
   font-size: 17px;
   line-height: 1.2;
   font-weight: 400;
-  color: #729a4a;
+  color: #1c84b7;
 }
 .item-esp1 span{
   color: #555;
 }
 .item-esp1:hover {
-  color: #ff6b5b;
+  color: #e37b48;
 }
 .br-none {
   display: none;
@@ -509,7 +508,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
-  background: white;
+  background: #e37b48;
 }
 .foto-esp1-bx {
   width: 100%;
@@ -694,8 +693,14 @@ header {
   height: auto;
   margin-bottom: 45px;
 }
-.card-spv1 {
+.c2{
   width: 46%;
+}
+.c3{
+  width: 31%;
+}
+.card-spv1 {
+  /* width: 46%; */
   /* width: 31%; */
   margin-bottom: 45px;
   background: #fff;
@@ -727,7 +732,7 @@ header {
 }
 .cbz-spv1 {
   font-size: 30px;
-  line-height: 1.3;
+  line-height: 1.2;
 }
 
 /* 1EDICIONES CARRUSEL */
