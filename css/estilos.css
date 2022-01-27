@@ -1325,7 +1325,7 @@ header {
 .lista-disco-nota li {
   list-style-type: disc;
   margin-right: 50px;
-  line-height: 1.5;
+  line-height: 1.4;
   margin-bottom: 5px;
 }
 .lista-num-nota li {
@@ -1549,12 +1549,15 @@ th {
   line-height: 1.15;
   color: #ffffff;
 }
-/* NOTA FOTO CON/SIN PIE */
-/* .foto-nota-izq {
-  height: 188px;
+.foto-nota-izq{
+  width: 45%;
   float: left;
-  margin: 20px 30px 15px 0;
-} */
+  margin: 20px 30px 20px 0;
+  overflow: hidden;
+}
+.foto-nota-izq img {
+  width: 100%;
+}
 .foto-nota-pie-izq {
   width: 45%;
   float: left;
@@ -1563,6 +1566,12 @@ th {
 }
 .foto-nota-pie-izq img {
   width: 100%;
+}
+.foto-nota-der{
+  width: 40%;
+  float: right;
+  margin: 15px -10px 20px 30px;
+  overflow: hidden;
 }
 .foto-nota-pie-der {
   width: 40%;
@@ -1575,6 +1584,9 @@ th {
   padding: 15px;
 }
 .foto-nota-pie-der img {
+  width: 100%;
+}
+.foto-nota-der img {
   width: 100%;
 }
 
@@ -1670,13 +1682,23 @@ th {
 }
 
 /* CONTACTO-AUTOR */
+
+/* CTC EN ASIDE Y HAST ABAJO
 .ctc {
   width: 80%;
-  /* margin-top: 300px; */
   float: right;
   position: absolute;
   bottom: 0;
   right: 0;
+  background: #344497;
+  padding: 25px;
+  border-radius: 0 25px 25px 25px;
+} */
+
+.ctc {
+  width: fit-content;
+  max-width: 70%;
+  margin-top: 50px;
   background: #344497;
   padding: 25px;
   border-radius: 0 25px 25px 25px;
@@ -2271,7 +2293,12 @@ th {
     margin-top: 10px;
     margin-left: 12px;
   }
-  /* 92FOTO-NOTAS */
+  /* 92FOTO-NOTA */
+  .foto-nota-izq, .foto-nota-der {
+    width: 80%;
+    float: none;
+    margin: 30px auto 30px;
+  }
   .foto-nota-pie-izq,
   .foto-nota-pie-der {
     width: 85%;
@@ -2357,6 +2384,11 @@ th {
   /* 82RECUADROS */
   .rc-float-der {
     margin-right: -10px;
+  }
+  /* 82CTC */
+  .ctc{
+    width: fit-content;
+    max-width: 80%;
   }
   /* 82ASIDE NOTAS */
   .aside-bnrs-stic {
@@ -2643,6 +2675,11 @@ th {
   .rc-color {
     border-radius: 13px;
   }
+   /* 68FOTO-NOTA */
+   .foto-nota-izq, .foto-nota-der {
+    width: 70%;
+    margin: 25px auto 25px;
+  }
   /* 68ASIDE NOTAS */
   .col-40 {
     grid-column: 1/2;
@@ -2690,13 +2727,14 @@ th {
     margin-bottom: 50px;
   }
   /* 68CONTACTO-AUTOR */
+  /* CTC EN ASIDE Y HASTA ABAJO
   .ctc {
     width: 80%;
     float: left;
     position: unset;
     margin-top: 25px;
     margin-bottom: 60px;
-  }
+  } */
   /* 68ANTERIORES */
   .anteriores-bx a {
     font-size: 20px;
@@ -3002,7 +3040,7 @@ th {
   .rc-gris-texto {
     font-size: 17px;
   }
-  /* 48FOTO NOTA CENTRADA */
+  /* 48FOTO-NOTA */
   .foto-nota-pie-cnt {
     width: 90%;
     margin-top: 20px;
@@ -3010,6 +3048,15 @@ th {
   }
   .foto-nota-pie-cnt figcaption {
     padding-bottom: 15px;
+  }
+  .foto-nota-izq, .foto-nota-der {
+    width: 80%;
+    margin: 20px auto 20px;
+  }
+  /* 48CTC */
+  .nonedw480{
+    display: none;
+
   }
   /* 48FOOTER */
   .footer-cont {
@@ -3094,7 +3141,6 @@ th {
   .lv {
     display: none;
   }
-
 }
 
 @media screen and (max-width: 400px) {
@@ -3115,6 +3161,10 @@ th {
   }
   .leidas1 h3 {
     font-size: 18px;
+  }
+  /* 40CTC */
+  .ctc{
+    max-width: 100%;
   }
   /* 40ESPECIAL */
   /* .cbz-esp1 {
