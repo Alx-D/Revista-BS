@@ -1552,7 +1552,7 @@ th {
 .foto-nota-izq{
   width: 45%;
   float: left;
-  margin: 20px 30px 20px 0;
+  margin: 20px 30px 15px 0;
   overflow: hidden;
 }
 .foto-nota-izq img {
