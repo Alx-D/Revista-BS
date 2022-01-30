@@ -74,6 +74,7 @@ header{
   justify-content: space-between;
   align-items: center;
   background: #e8e5e0;
+  background: #d3e3ee;
 }
 .header-col-1 {
   width: 15%;
@@ -89,31 +90,26 @@ header{
   width: 60%;
 }
 .indicador {
-  font-size: 23px;
+  font-size: 20px;
   font-weight: 400;
   color: #555;
-  margin-bottom: -5px;
 }
 .header-col-2 h1{
-  font-size: 55px;
+  font-size: 50px;
   line-height: 1.2;
-  font-weight: 700;
-  margin-bottom: -5px;
+  font-weight: 500;
+  color: #1c84b7;
 }
-/* .header-col-2 h1 span{
-  font-size: 55px;
-  font-weight: 700;
-  letter-spacing: 10px;
-} */
 .header-col-2 h3{
-  font-size: 28px;
-  font-weight: 600;
+  font-size: 25px;
+  font-weight: 400;
   line-height: 1;
-  /* letter-spacing: 1px; */
+  color: #e37b48;
 }
 .header-col-3{
   width: 16%;
   margin-right: 15px;
+  background: #e37b48;
 }
 .header-col-3 img{
   width: 100%;
@@ -559,18 +555,6 @@ footer{
 }
 
 /*----- MEDIAS ------*/
-@media screen and (max-width: 1100px) {
-  /* HEADER */
-  .indicador {
-    font-size: 21px;
-  }
-  .header-col-2 h1{
-    font-size: 50px;
-  }
-  .header-col-2 h3{
-    font-size: 2.4vw;
-  }
-}
 @media screen and (max-width: 1024px) {
   /* HEADER */
   .flecha-svg-der{
@@ -598,10 +582,16 @@ footer{
     padding-top: 30px;
   }
   .indicador {
-    font-size: 20px;
+    font-size: 19px;
   }
   .flecha-svg-der{
     width: 35px;
+  }
+  .header-col-2 h1{
+    font-size: 45px;
+  }
+  .header-col-2 h3{
+    font-size: 23px;
   }
   /* ASIDE */
   .dr-foto-bx{
@@ -627,11 +617,14 @@ footer{
 }
 @media screen and (max-width: 920px){
   /* HEADER */
-  .indicador {
-    font-size: 19px;
-  }
   .flecha-svg-der{
     width: 30px;
+  }
+  .header-col-2 h1{
+    font-size: 42px;
+  }
+  .header-col-2 h3{
+    font-size: 22px;
   }
   /* 92NOTA */
   article{
@@ -740,6 +733,13 @@ footer{
   }
 }
 @media screen and (max-width: 820px){
+  /* HEADER */
+  .header-col-2 h1{
+    font-size: 40px;
+  }
+  .header-col-2 h3{
+    font-size: 21px;
+  }
   /* NOTA */
   .sumario-esp,
   .compartir-bx {
@@ -827,17 +827,16 @@ footer{
 @media screen and (max-width: 680px){
   /* HEADER */
   .header-desktop-cont{
-    padding: 30px 25px 0px 25px;
     display: none;
   }
   .header-mobile-cont{
     display: block;
-    background: #e8e5e0;
-    padding: 15px 0 15px;
+    background: #d3e3ee;
+    padding-top: 15px;
   }
   .header-mobile-row {
     display: flex;
-    margin: 15px0 auto;
+    margin: 15px auto;
     justify-content: space-between;
   }
   .fa-bars {
@@ -855,26 +854,34 @@ footer{
     font-size: 45px;
     margin-right: 20px;
   }
-  .hlmbx{
-    display: flex;
-    justify-content: center;
-  }
   .logo-mobile-bx{
-    width: 20vw;
-    margin-right: 3vw;
+    width: 30vw;
+    margin: 0 auto 10px;
   }
   .logo-mobile-bx img{
     width: 100%;
   }
-  .esp-mobile-bx{
-    align-self: center;
-  }
   .indicador{
-    font-size: 3vw;
+    font-size: 2.7vw;
+    text-align: center;
+    margin-bottom: 5px;
+    letter-spacing: 10px;
   }
   .esp-mobile-bx h1{
-    font-size: 8vw;
-    margin-top: 5px;
+    font-size: 7vw;
+    line-height: 1;
+    font-weight: 500;
+    text-align: center;
+    color: #1c84b7;
+    margin-bottom: 5px;
+  }
+  .esp-mobile-bx h3{
+    font-size: 3.8vw;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    color: #e37b48;
+    margin-bottom: 10px;
   }
   .header-mobile-row-1 .flecha-svg-der{
     align-self: center;
@@ -963,9 +970,13 @@ footer{
   }
 }
 @media screen and (max-width: 580px){
+  /* HEADER */
+  .logo-mobile-bx{
+    width: 33vw;
+  }
   /* NOTA */
   .nombre{
-    font-size: 24px;
+  font-size: 24px;
   }
   article h1{
     font-size: 50px;
@@ -1002,8 +1013,11 @@ footer{
 }
 @media screen and (max-width: 480px){
   /* HEADER */
-  .header-desktop-cont{
-    padding: 30px 20px 0px 20px;
+  .logo-mobile-bx{
+    width: 38vw;
+  }
+  .indicador{
+    font-size: 3.3vw;
   }
   /* NOTA */
   article{
@@ -1079,7 +1093,18 @@ footer{
   }
 }
 @media screen and (max-width: 420px){
-  /* 42HEADER MOBILE */
+  /* 42HEADER */
+  .header-mobile-cont{
+    padding-top: 10px;
+  }
+  .logo-mobile-bx{
+    width: 42vw;
+    margin-bottom: 5px;
+  }
+  .indicador{
+    letter-spacing: 7px;
+    margin-bottom: 3px;
+  }
   .fa-bars {
     font-size: 26px;
     margin-left: 15px;
