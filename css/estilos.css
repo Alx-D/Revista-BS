@@ -479,14 +479,14 @@ header {
 }
 .lista-esp1-izq {
   width: 49%;
-  margin-right: 14px;
+  margin-right: 18px;
 }
 .lista-esp1-der {
   width: 49%;
-  margin-right: 14px;
+  margin-right: 12px;
 }
 #esp1 li {
-  margin-bottom: 13px;
+  margin-bottom: 20px;
 }
 .item-esp1 {
   font-size: 17px;
