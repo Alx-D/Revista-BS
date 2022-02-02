@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+ol, ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.f1 {
+  font-family: "Nunito Sans", sans-serif;
+}
+.f2 {
+  font-family: "Oswald", sans-serif;
+}
+.f3 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+.guion {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -epub-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  word-wrap: break-word;
+}
+:root {
+  --naranja-claro: #ebb730;
+  --naranja-oscuro: #db813f;
+  --azul-claro: #0094d7;
+  --azul-oscuro: #344497;
+  --morado: #612f8c;
+  --verde: #6dab51;
+  --rojo-oscuro: #953829;
+  --rojo: #b3272d;
+  --verde-logo-1: #275c6d;
+  --gris-claro: #e6e6de;
+  --gris-medio: #bbbbae;
+  --gris-oscuro: #6d6d70;
+}
+.rojoc {background: #c3242b;}
+.rojoo {background: #a1262a;}
+.verde {background: #6dab51;}
+.azulo {background: #344497;}
+.azulc {background: #0094d7;}
+.naranjao {background: #db813f;}
+.naranjac {background: #ebb730;}
+.morado {background: #612f8c;}
+.verde1 {background: #275c6d;}
+.grisc {background: #e6e6de}
+.grism {background: #bbbbae}
+.griso {background: #6d6d70}
+.lbco{color: white;}
+
+.contenedor {
+  width: 95vw;
+  max-width: 1100px;
+}
+.indicador {
+  font-size: 25px;
+  line-height: 1.2;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.contenedor{
+  margin: 0 auto;
+}
+.plecaTop{
+  display: flex;
+  background: var(--gris-claro);
+  position: relative;
+}
+.inicio{
+  font-size: 16px;
+  font-family: 600;
+  line-height: 2;
+  letter-spacing: 2px;
+  padding: 0 20px;
+  color: white;
+  background: var(--azul-claro);
+}
+.hv-txt-01:hover {
+  background: var(--azul-oscuro);
+}
+.logoRevistaBSAlnz{
+  width: 95px;
+  height: 75px;
+  background: var(--gris-claro);
+  position: absolute;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logoRevistaBSAlnz img{
+  height: 65%;
+}
+section{
+  background: yellowgreen;
+}
+.col5{
+  width: 50%;
+}
+.datos h6{
+  font-size: 16px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 300;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  color: #aaa;
+}
