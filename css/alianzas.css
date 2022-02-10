@@ -12,6 +12,14 @@ a {
   text-decoration: none;
   color: black;
 }
+.guion {
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  -epub-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  word-wrap: break-word;
+}
 .f1 {
   font-family: "Nunito Sans", sans-serif;
 }
@@ -20,14 +28,6 @@ a {
 }
 .f3 {
   font-family: "Roboto Condensed", sans-serif;
-}
-.guion {
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -epub-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-  word-wrap: break-word;
 }
 :root {
   --naranja-claro: #ebb730;
@@ -57,23 +57,57 @@ a {
 .griso {background: #6d6d70}
 .lbco{color: white;}
 
-.contenedor {
-  width: 95vw;
-  max-width: 1100px;
+.hv-bck:hover {
+  background: var(--azul-oscuro);
 }
-.indicador {
-  font-size: 25px;
-  line-height: 1.2;
-  font-weight: 400;
-  margin-bottom: 15px;
+.hv-txt:hover{
+  color: slategrey;
+}
+.hv-trns-01:hover {
+  transform: translateY(-1%);
+}
+.hv-trns-3:hover {
+  transform: translateY(-3%);
 }
 
 .contenedor{
+  width: 95vw;
+  max-width: 1100px;
   margin: 0 auto;
+  display: grid;
+  grid-template-columns: 52% 45%;
+  grid-template-rows: repeat(21, auto);
+  /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
+  gap: 0px 3%;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "pleca pleca"
+    "nombre foto"
+    "nombre foto"
+    "nombre foto"
+    "nombre foto"
+    "nombre foto"
+    "contacto foto"
+    "contacto foto"
+    "contacto ."
+    "formacion ."
+    "formacion ."
+    "experiencia ."
+    "experiencia ."
+    "colaboraciones ."
+    "colaboraciones ."
+    "colaboraciones ."
+    "colaboraciones ."
+    "colaboraciones ."
+    "colaboraciones ."
+    "colaboraciones ."
+    "colaboraciones .";
 }
-.plecaTop{
+.pleca{
+  grid-area: pleca;
   display: flex;
   background: var(--gris-claro);
+  z-index: 10;
   position: relative;
 }
 .inicio{
@@ -85,10 +119,7 @@ a {
   color: white;
   background: var(--azul-claro);
 }
-.hv-txt-01:hover {
-  background: var(--azul-oscuro);
-}
-.logoRevistaBSAlnz{
+.logo-revista-bs-alnz{
   width: 95px;
   height: 75px;
   background: var(--gris-claro);
@@ -97,22 +128,264 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 10;
 }
-.logoRevistaBSAlnz img{
+.logo-revista-bs-alnz img{
   height: 65%;
 }
-section{
-  background: yellowgreen;
+.nombre-bx {
+  grid-area: nombre;
 }
-.col5{
-  width: 50%;
-}
-.datos h6{
+.nombre-bx h6{
   font-size: 16px;
-  font-family: "Roboto Condensed", sans-serif;
   font-weight: 300;
+  text-align: center;
   letter-spacing: 10px;
   text-transform: uppercase;
-  margin-top: 10px;
   color: #aaa;
+  margin-top: 10px;
+  margin-bottom: 210px;
+}
+.nombre{
+  font-size: 65px;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+.espl-ind{
+  display: inline-block;
+  font-size: 23px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 2px 12px 0;
+  background: dodgerblue;
+  color: white;
+  margin-bottom: 10px;
+}
+.especialidad{
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.1;
+  color: #777;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.cedulas{
+  font-size: 11px;
+  font-weight: 400;
+}
+.foto-bx {
+  grid-area: foto;
+  position: sticky;
+  top: 0;
+}
+.foto-bx img{
+  width: 100%;
+}
+.agende{
+  width: 100%;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  padding: 10px;
+  background-color: #db813f;
+  position: absolute;
+  margin-top: 50px;
+}
+.agende a{
+  color: white;
+}
+.contacto-bx {
+  grid-area: contacto;
+  margin-top: 40px;
+}
+.secc-cbz{
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.ctc-empresa {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.contacto-bx i{
+  font-size: 22px;
+  color: #999;
+}
+.ctc-info{
+  font-size: 22px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+.inbl{
+  display: inline-block;
+  margin-right: 30px;
+}
+.redes-bx{
+  display: flex;
+  margin-top: 25px;
+  align-items: center;
+}
+.redes-bx img{
+  width: 50px;
+  margin-right: 30px;
+}
+.click-redes{
+  font-size: 16px;
+  line-height: 1.2;
+}
+.sep{
+  width: 65%;
+  height: 5px;
+  background: var(--azul-claro);
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+.formacion-bx{
+  width: 95%;
+  grid-area: formacion;
+}
+.secc-txt{
+  font-size: 18px;
+  line-height: 1.4;
+}
+.experiencia-bx {
+  grid-area: experiencia;
+}
+.secc-txt > li{
+  list-style: disc;
+  list-style-position: inside;
+  line-height: 2;
+}
+.colaboraciones-bx {
+  grid-area: colaboraciones;
+  margin-top: 15px;
+}
+.h2-colab-bx{
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 25px;
+}
+.h2-colab-bx h2{
+  color: var(--verde-logo-1);
+}
+.h2-colab-bx>div {
+  width: 30%;
+  margin-left: 11px;
+}
+.h2-colab-bx>div img{
+  width: 100%;
+}
+.cards-bx{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card-hz{
+  width: 100%;
+  display: flex;
+  background: #fff;
+  margin-bottom: 30px;
+  -webkit-font-smoothing: antialiased;
+  transition: all 300ms;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.24);
+}
+.hv-card:hover {
+  transform: translateY(-2%);
+  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.16);
+}
+.img-card-hz-bx{
+  width: 50%;
+}
+.img-card-hz-bx img{
+  width: 100%;
+  display: block;
+}
+.cbz-card-hz-bx{
+  display: grid;
+  grid-template-rows: 25px repeat(16, auto);
+}
+.card-hz-ind{
+  grid-row: 1;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  background-color: #db813f;
+  padding-top: 5px;
+}
+.card-hz-blz{
+  grid-row: 9;
+  padding: 0 25px;
+}
+.card-hz-cbz{
+  grid-row: 10 / span 2;
+  padding: 0 25px;
+}
+.card-hz p,
+.card-vl p{
+  font-size: 16px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: var(--verde-logo-1);
+  margin-bottom: 10px;
+}
+.card-hz h4,
+.card-vl h4{
+  font-size: 28px;
+  line-height: 1.15;
+}
+.card-vl{
+  width: 47.5%;
+  background: #fff;
+  margin-bottom: 30px;
+  -webkit-font-smoothing: antialiased;
+  transition: all 300ms;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.24);
+}
+.card-vl img{
+  width: 100%;
+}
+.card-vl-ind{
+  height: 25px;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  background-color: #db813f;
+  padding-top: 5px;
+}
+.card-vl-cbz-bx{
+   padding: 15px 25px 15px;
+}
+.video-bx{
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 700px){
+  .nombre-bx{
+    grid-row: 3;
+    grid-column: 1 / span 2;
+  }
+  .foto-bx{
+    grid-row: 2;
+    grid-column: 1 / span 2;
+    position: relative;
+  }
+  .contacto-bx{
+    grid-row: 4;
+    grid-column: 1 / span 2;
+  }
+  .formacion-bx{
+    grid-row: 5;
+    grid-column: 1 / span 2;
+  }
+  .experiencia-bx{
+    grid-row: 6;
+    grid-column: 1 / span 2;
+  }
+  .colaboraciones-bx{
+    grid-row: 7;
+    grid-column: 1 / span 2;
+  }
 }
