@@ -113,6 +113,13 @@ a {
   z-index: 10;
   position: relative;
 }
+.pleca-mobile{
+  display: none;
+  width: 100%;
+  height: 85px;
+  background-color: #8F9491;
+  z-index: 15;
+}
 .inicio{
   font-size: 16px;
   font-family: 600;
@@ -410,6 +417,12 @@ a {
 }
 
 @media only screen and (max-width: 700px){
+  .pleca{
+    display: none;
+  }
+  .pleca-mobile{
+    display: block;
+  }
   .nombre-bx{
     grid-row: 3;
     grid-column: 1 / span 2;
