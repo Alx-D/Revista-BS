@@ -61,6 +61,12 @@ a {
   width: 95vw;
   max-width: 1100px;
 }
+.col2{
+  width: 47%;
+}
+.col3{
+  width: 31%;
+}
 .indicador {
   font-size: 25px;
   line-height: 1.2;
@@ -265,7 +271,7 @@ header {
   width: 100%;
   float: left;
   overflow: hidden;
-  background: #1c84b7;
+  background: #6ab8ac;
 }
 .mes1-top-foto-bx img {
   width: 100%;
@@ -372,30 +378,29 @@ header {
   line-height: 2;
   font-weight: bolder;
   text-align: center;
+  text-transform: uppercase;
   letter-spacing: 0.8px;
   color: white;
   padding: 0 0.4375rem;
   position: absolute;
   z-index: 5;
 }
-.blz-art1 {
+.blz-card-2col{
   font-size: 19px;
   text-transform: uppercase;
   margin-bottom: 8px;
 }
-.cbz-art1 {
+.cbz-card-2col{
   font-size: 35px;
   line-height: 1.15;
   font-weight: 700;
 }
-.autor-art1 {
+.autor-card{
   font-size: 15px;
-  font-weight: 700;
   margin-top: 10px;
 }
-.autoresp-art1 {
-  font-size: 15px;
-  font-weight: 400;
+.autor-card span{
+  font-weight: 700;
 }
 /* ARTICULOS Aside */
 .col2-art1 {
@@ -460,16 +465,16 @@ header {
   font-weight: 500;
   line-height: 1.1;
   text-transform: uppercase;
-  color: #1c84b7;
-  margin-bottom: 12px;
+  color: #2a6386;
+  margin-bottom: 16px;
 }
 .sum-esp1 {
   width: 100%;
-  font-size: 28px;
+  font-size: 25px;
   line-height: 1.1;
   font-weight: 600;
-  /* text-transform: uppercase; */
-  color: #e37b48;
+  text-transform: uppercase;
+  color: #40a091;
   margin-bottom: 30px;
 }
 .lista-esp1-bx {
@@ -478,18 +483,18 @@ header {
   justify-content: space-between;
 }
 .lista-esp1-izq {
-  width: 49%;
+  width: 95%;
   margin-right: 18px;
 }
-.lista-esp1-der {
+/* .lista-esp1-der {
   width: 49%;
   margin-right: 12px;
-}
+} */
 #esp1 li {
   margin-bottom: 20px;
 }
 .item-esp1 {
-  font-size: 17px;
+  font-size: 18px;
   line-height: 1.2;
   font-weight: 400;
   color: #1c84b7;
@@ -497,9 +502,11 @@ header {
 .item-esp1 span{
   color: #555;
 }
-.item-esp1:hover {
-  color: #e37b48;
+.item-esp1:hover,
+.item-esp1 span:hover {
+  color: #40a091;
 }
+
 .br-none {
   display: none;
 }
@@ -508,7 +515,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   align-content: center;
-  background: #e37b48;
+  background: #40a091;
 }
 .foto-esp1-bx {
   width: 100%;
@@ -520,6 +527,11 @@ header {
 }
 .bnr-esp1 {
   display: none;
+}
+@media screen and (max-width: 1100px){
+  .br-visible1100{
+    display: block;
+  }
 }
 @media screen and (max-width: 1040px){
   .cbz-esp1{
@@ -543,15 +555,19 @@ header {
   .cbz-esp1 {
     font-size: 62px;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
   }
   .sum-esp1 {
     font-size: 28px;
     text-align: center;
+    margin-bottom: 25px;
   }
   .lista-esp1-bx {
     width: 85%;
     margin: 0 auto 10px auto;
+  }
+  .br-visible1024{
+    display: block;
   }
   .item-esp1 {
     font-size: 18px;
@@ -680,7 +696,7 @@ header {
   background: #fff;
 }
 
-/* 1SALUD PARA VIVIR */
+/* 1SPV SALUD PARA VIVIR */
 #spv1 {
   margin-bottom: 20px;
 }
@@ -696,15 +712,7 @@ header {
   height: auto;
   margin-bottom: 45px;
 }
-.c2{
-  width: 46%;
-}
-.c3{
-  width: 31%;
-}
 .card-spv1 {
-  /* width: 46%; */
-  /* width: 31%; */
   margin-bottom: 45px;
   background: #fff;
   -webkit-font-smoothing: antialiased;
@@ -734,7 +742,7 @@ header {
   margin-bottom: 5px;
 }
 .cbz-spv1 {
-  font-size: 30px;
+  font-size: 35px;
   line-height: 1.2;
 }
 
@@ -1863,15 +1871,12 @@ th {
     margin: 0 6% 4% 6%;
     align-self: center;
   }
-  .cbz-art1 {
-    font-size: 30px;
+  .cbz-card-2col{
+    font-size: 32px;
   }
-  .blz-art1 {
+  .blz-card-2col{
     font-size: 17px;
     margin-bottom: 7px;
-  }
-  .autoresp-art1 {
-    font-size: 13px;
   }
   /* 1ARTICULOS Aside */
   .col2-art1 {
@@ -2182,7 +2187,7 @@ th {
     width: 48%;
   }
   .cbz-spv1 {
-    font-size: 25px;
+    font-size: 27px;
   }
   /* 92EDICIONES CARRUSEL */
   #edcr1 {
@@ -2510,15 +2515,12 @@ th {
     grid-row: 1/3;
     margin-left: 30px;
   }
-  .mes1-hr-1, .mes1-hr-2 {
-    display: none;
-  }
   .esp-th-bx {
     grid-column: 1/3;
     grid-row: 1/2;
     margin-bottom: 10px;
   }
-  .mes1-hr-1 {
+  .mes1-hr-1, .mes1-hr-2 {
     display: none;
   }
   .edi-th-bx {
@@ -2535,15 +2537,15 @@ th {
     margin: 0 0 4px;
   }
   .especial-cbz-th {
-    font-size: 32px;
+    font-size: 42px;
     line-height: 1.1;
   }
   .especial-txt-th {
-    font-size: 24px;
+    font-size: 30px;
     line-height: 1.1;
   }
   .editorial-cbz-th {
-    font-size: 27px;
+    font-size: 32px;
     line-height: 1.1;
   }
   .mes1-top-ceja-th {
@@ -2573,15 +2575,12 @@ th {
   .cbz-art1-bx {
     margin: 0 4% 4% 4%;
   }
-  .cbz-art1 {
+  .cbz-card-2col{
     font-size: 36px;
   }
-  .autor-art1 {
+  .autor-card{
     font-size: 16px;
     margin-top: 15px;
-  }
-  .autoresp-art1 {
-    font-size: 16px;
   }
   /* 74ESPECIAL */
   /* .lista-esp1-bx {
@@ -2623,13 +2622,13 @@ th {
     font-size: 21px;
   }
   .especial-cbz-th {
-    font-size: 29px;
+    font-size: 38px;
   }
   .especial-txt-th {
-    font-size: 22px;
+    font-size: 26px;
   }
   .editorial-cbz-th {
-    font-size: 25px;
+    font-size: 30px;
   }
   .mes1-top-cbz {
     font-size: 45px;
@@ -2638,15 +2637,11 @@ th {
     font-size: 20px;
   }
   /* 68ARTICULOS */
-  .cbz-art1 {
+  .cbz-card-2col{
     font-size: 34px;
   }
-  .autor-art1 {
-    font-size: 15px;
+  .autor-card{
     margin-top: 14px;
-  }
-  .autoresp-art1 {
-    font-size: 15px;
   }
   /* 68ESPECIAL */
 
@@ -2766,13 +2761,13 @@ th {
     margin-left: 20px;
   }
   .especial-cbz-th {
-    font-size: 27px;
+    font-size: 34px;
   }
   .especial-txt-th {
-    font-size: 20px;
+    font-size: 23px;
   }
   .editorial-cbz-th {
-    font-size: 22px;
+    font-size: 25px;
   }
   /* 58ESPECIAL */
   /* ESPECIAL CSS MES */
@@ -2825,20 +2820,20 @@ th {
     font-size: 20px;
   }
   .especial-cbz-th {
-    font-size: 25px;
+    font-size: 32px;
   }
   .especial-txt-th {
-    font-size: 18px;
+    font-size: 21px;
   }
   .editorial-cbz-th {
-    font-size: 20px;
+    font-size: 23px;
   }
   .mes1-top-cbz,
   .mes1-top-sumario {
     padding: 0 10px 0 10px;
   }
   /* 52ARTICULOS */
-  .blz-art1 {
+  .blz-card-2col{
     font-size: 16px;
     margin-bottom: 6px;
   }
@@ -2901,10 +2896,10 @@ th {
     font-size: 19px;
   }
   .especial-cbz-th {
-    font-size: 27px;
+    font-size: 30px;
   }
   .especial-txt-th {
-    font-size: 22px;
+    font-size: 21px;
   }
   .editorial-cbz-th {
     font-size: 23px;
@@ -2923,14 +2918,13 @@ th {
     font-size: 18px;
   }
   /* 48ARTICULOS */
-  .cbz-art1 {
+  .cbz-card-2col{
     font-size: 29px;
   }
   .card-art1 {
     margin-bottom: 35px;
   }
-  .autor-art1,
-  .autoresp-art1 {
+  .autor-card{
     font-size: 14px;
   }
   /* 48ESPECIAL */
@@ -3155,7 +3149,7 @@ th {
   .ceja-med {
     font-size: 12px;
   }
-  .blz-art1 {
+  .blz-card-2col{
     font-size: 15px;
     margin-bottom: 5px;
   }

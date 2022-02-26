@@ -69,6 +69,19 @@ a {
 .hv-trns-5:hover {
   transform: translateY(-5%);
 }
+.w15{
+  width: 15%;
+}
+.w50{
+  width: 50%;
+}
+.img-hz-bx{
+  overflow: hidden;
+}
+.img-hz-bx img{
+  width: 100%;
+  display: block;
+}
 
 .contenedor{
   width: 95vw;
@@ -108,6 +121,8 @@ a {
 }
 .pleca{
   grid-area: pleca;
+}
+.pleca-desktop{
   display: flex;
   background: var(--gris-claro);
   z-index: 10;
@@ -115,10 +130,6 @@ a {
 }
 .pleca-mobile{
   display: none;
-  width: 100%;
-  height: 85px;
-  background-color: #8F9491;
-  z-index: 15;
 }
 .inicio{
   font-size: 16px;
@@ -348,13 +359,6 @@ a {
   transform: translateY(-2%);
   box-shadow: 0 7px 14px rgba(0, 0, 0, 0.16);
 }
-.img-card-hz-bx{
-  width: 50%;
-}
-.img-card-hz-bx img{
-  width: 100%;
-  display: block;
-}
 .cbz-card-hz-bx{
   display: grid;
   grid-template-rows: 25px repeat(16, auto);
@@ -417,12 +421,30 @@ a {
 }
 
 @media only screen and (max-width: 700px){
-  .pleca{
+  .pleca-desktop{
     display: none;
   }
   .pleca-mobile{
+    grid-area: pleca;
+    margin-top: 10px;
     display: block;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 75px;
+    background-color: var(--gris-claro);
+    z-index: 20;
   }
+  /* .pleca-mobile-foto-bx{
+    width: 15%;
+    height: 75px;
+    overflow: hidden;
+  }
+  .pleca-mobile-foto-bx img{
+    width: 100%;
+    overflow: hidden;
+  } */
+
   .nombre-bx{
     grid-row: 3;
     grid-column: 1 / span 2;
@@ -431,6 +453,11 @@ a {
     grid-row: 2;
     grid-column: 1 / span 2;
     position: relative;
+  }
+  .foto-bx{
+    display: none;
+    position: sticky;
+    top: 0;
   }
   .contacto-bx{
     grid-row: 4;
