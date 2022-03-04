@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/estilos.css">
+  <link rel="stylesheet" href="/css/all.min.css">
+  <meta name="description" content="Artículos sobre el cuidado de la salud y prevención de enfermedades">
+  <meta name="keywords"
+    content="salud, saludable, vida, cuidado, bienestar, prevención, enfermedades, nutrición, psicología, niños, familia, adultos mayores, femeson, sonora">
+  <link rel="icon" type="image/png" href="../imgs/Revista_BS_favicon.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,300;0,400;1,400&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+    rel="stylesheet">
+
+  <title>Revista BS | Salud para vivir con sentido</title>
+
+  <style>
+    .rc-color {
+      position: relative;
+    }
+
+    .ex-icon {
+      width: 22%;
+      position: absolute;
+      top: -15px;
+      left: -10px;
+    }
+
+    .rc-foto-bx img {
+      width: 85%;
+      margin: 0 auto 20px;
+      display: block;
+    }
+
+    @media screen and (max-width: 768px) {
+      .ex-icon {
+        width: 20%;
+        top: -25px;
+        left: -20px;
+      }
+
+      .rc-foto-bx img {
+        width: 70%;
+        margin-top: 20px;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      .ex-icon {
+        width: 22%;
+      }
+
+      .rc-foto-bx img {
+        margin-top: 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="contenedor">
+
+    <!-- HEADER MOBILE -->
+    <div class="header-mobile-cont">
+
+      <div class="header-mobile-row-1">
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+
+        <div class="logo-mobile-bx">
+          <a href="/index.html">
+            <img src="/imgs/Revista-BS-logo-m.png">
+          </a>
+        </div>
+
+        <i class="fas fa-search"></i>
+      </div>
+
+      <div class="lema-mobile-bx">
+        <img src="/imgs/lema.png">
+      </div>
+
+      <nav>
+        <div class="menu-mobile" id="menu-enlaces">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Revista</a></li>
+            <li><a href="#">Artículos por tema</a></li>
+            <li><a href="#">Directorio médico</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- HEADER DESKTOP -->
+    <div class="header-cont">
+
+      <div class="header-col-izq">
+        <div class="revista-bs-logo-bx">
+          <a href="/index.html">
+            <img class="logo-header" src="/imgs/Revista-BS-logo-header.png" alt="Revista BS">
+          </a>
+        </div>
+      </div>
+
+      <div class="header-col-der">
+        <div class="header-row-1">
+          <div class="facebook">
+            <a class="f1" href="https://www.facebook.com">
+              <i class="fab fa-facebook fa-lg"></i> Revista BS
+            </a>
+          </div>
+          <p class="f2 femeson-leyenda">Órgano de vinculación y divulgación de <br> la Federación Médica de Sonora</p>
+          <div class="femeson-logo-bx">
+            <img src="/imgs/femeson-escudo.png" alt="">
+          </div>
+        </div>
+
+        <div class="header-row-2">
+          <div class="lema-bx">
+            <img src="/imgs/lema.png">
+          </div>
+          <div id="buscador">
+            <form>
+              <input type="text" placeholder="Buscar">
+            </form>
+          </div>
+        </div>
+
+        <nav>
+          <div class="menu-desktop">
+            <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Revista</a></li>
+              <li><a href="#">Artículos por tema</a></li>
+              <li><a href="#">Directorio médico</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+  </header>
+
+  <!-- BANNER HORIZONTAL -->
+  <div class="contenedor bnr-hz-01">
+    <a href="https://hondapremium.com/" target="blank"><img src="/imgs/Honda-diciembre-2020.png"></a>
+  </div>
+
+  <div class="contenedor m-0a nota-bx">
+    <article class="col-64">
+      <div class="f2 ceja-gde" style="background: #2a6386">SALUD BUCAL</div>
+      <p class="f1 fecha">Febrero 2022</p>
+
+      <p class="f1 balazo-1">Bruxismo: complicaciones</p>
+      <h1 class="f2 cabeza-1">Cuando necesita un “break”</h1>
+      <p class="f1 sumario-1">Con una alta prevalencia en nuestro país, el bruxismo es una patología que suele tener
+        impacto tanto en las piezas dentales como en las estructuras óseas y articulaciones de la boca</p>
+
+      <figure class="foto-nota-top-bx">
+        <img src="/2022/02/imgs/261-Dr-Carlos-Sanabia-BRUXISMO-1.jpg" alt="">
+      </figure>
+
+      <!-- COMPARTIR -->
+      <div class="compartir-bx">
+        <i class="fa fa-share"></i>
+        <p class="f1 compartir"> Compartir</p>
+        <a href="#" class="fab fa-whatsapp whatsapp-compartir" title="Enviar por Whatsapp"></a>
+        <a href="#" class="fab fa-facebook fa-lg facebook-compartir" title="Compartir en Facebook"></a>
+        <a href="#" class="fas fa-envelope envelope-compartir" title="Enviar por correo electrónico"></a>
+        <a href="#" class="fas fa-link link-compartir" title="Copiar enlace"></a>
+      </div>
+
+      <!-- CREDITO -->
+      <div class="credito-bx">
+        <figure class="credito-foto-bx">
+          <img src="/imgs/doctores/Dr-Carlos-Sanabia-Hurtado.jpg" alt="">
+        </figure>
+
+        <p class="f1 credito-autor"><strong>Odont. Carlos Aníbal Sanabia Hurtado</strong><br>Ortodoncia<br>
+          <a href="mailto:carsaan.85@gmail.com"><i>carsaan.85@gmail.com</i></a>
+        </p>
+      </div>
+
+      <div class="texto">
+        <p>El bruxismo, también conocido como la enfermedad silenciosa, es una patología que sufre aproximadamente un
+          70% de la población de México. Consiste en apretar de forma inconsciente la mandíbula y rechinar los dientes,
+          produciendo el desgaste de los mismos. Puede darse tanto por el día como por la noche, aunque el más frecuente
+          es el que se produce durante el sueño.</p>
+        <p>La mayoría de las veces, la persona afectada no es consciente de que tiene bruxismo hasta que otra le
+          advierte que al dormir rechina los dientes, o es el dentista quien le informa tras realizarle una revisión
+          dental rutinaria.</p>
+
+        <div class="rc-color grisc rc-der">
+          <div class="rc-foto-bx">
+            <div class="ex-icon"><img src="/imgs/exclamacion-icon.svg"></div>
+            <img src="/2022/02/imgs/261-Dr-Carlos-Sanabia-BRUXISMO-2.png" alt="">
+          </div>
+          <p class="f3 rc-color-texto" style="color: black; margin-bottom: 0;">Con el paso del tiempo, el bruxismo
+            tiende a causar desgaste dental, atiéndalo a tiempo.</p>
+        </div>
+
+        <p>El bruxismo suele aparecer a edades tempranas (generalmente en la adolescencia) y afecta en igual medida a
+          hombres y mujeres. Además, se trata de un hábito muy perjudicial que, en función de su frecuencia, puede
+          provocar desgastes extremos y dolor en la musculatura mandibular y en la articulación temporomandibular.</p>
+
+        <p class="descanso">Causas</p>
+        <p>Aunque existen diferentes teorías sobre las posibles causas de su aparición, por el momento se desconoce el
+          origen real de este problema de salud dental.</p>
+        <p>Un gran número de expertos coinciden en la idea de que el estrés y los trastornos del sueño podrían ser dos
+          de las principales causas de esta dolencia, aunque también contemplan otros factores que pueden intervenir en
+          la aparición del bruxismo como son: la mala alimentación, alineación inadecuada de los dientes, presencia de
+          trastornos respiratorios durante el sueño, malas posturas a la hora de dormir o ansiedad, entre otras.</p>
+
+        <p class="descanso">Consecuencias</p>
+        <p>Además de hipersensibilidad dental y dolor constante en los músculos faciales y en los dientes, el bruxismo
+          puede provocar otros problemas. Los revisamos a continuación.</p>
+        <ul class="lista-disco-nota">
+          <li><span style="font-weight: 600;">Hipersensibilidad aguda:</span> al rechinar los dientes, las piezas
+            dentales se desgastan, astillan y rompen, produciendo dolor en la zona mandibular.</li>
+          <li><span style="font-weight: 600;">Sensibilidad dental:</span> especialmente al frío, al calor y a los
+            alimentos dulces.</li>
+          <li><span style="font-weight: 600;">Irradiación del dolor:</span> el malestar puede extenderse a otros
+            órganos, produciendo dolor de cuello, oído o cabeza.</li>
+          <li><span style="font-weight: 600;">Insomnio:</span> el malestar producido por el dolor puede derivar en
+            dificultades y problemas para conciliar el sueño.</li>
+        </ul>
+        <p>
+          Cuando el problema del bruxismo no se corrige a tiempo suele desembocar en patologías o alteraciones
+          articulares y en una disyunción maxilar que puede producir trismo (un síntoma que dificulta o limita la
+          correcta apertura de la boca) e, incluso, llegar a generar una contractura muscular muy dolorosa.
+        </p>
+        <p>
+          Pero las consecuencias de apretar y rechinar los dientes durante el sueño pueden ser aún más serias. Pueden
+          surgir trastornos de la articulación temporomandibular susceptibles de causar dolor diurno de cabeza, oídos o
+          cuello, además de molestias al abrir la boca como dolor, chasquido en la articulación, dificultad para
+          masticar
+          y, si el problema es grave, incluso para hablar.
+        </p>
+
+        <div class="rc-color azulo rc-der">
+          <p class="f2 rc-color-cbz-1r" style="color: white;">Complicaciones</p>
+          <ul class="rc-color-lista">
+            <li>Hipersensibilidad dental</li>
+            <li>Dolores de cuello, oído o cabeza</li>
+            <li>Insomnio y mala calidad del sueño</li>
+            <li>Dificultad en apertura de la boca</li>
+            <li>Trastornos de la ATM</li>
+            <li>Tendencia a formación de caries</li>
+            <li>Problemas de maloclusión</li>
+          </ul>
+        </div>
+
+        <p>Una de las posibles consecuencias del bruxismo es la inflamación de los músculos del área mandibular y la
+          hipertrofia de los maseteros, que son los implicados en la masticación.</p>
+        <p>En cuanto a la estructura dental, como ya se ha señalado, este problema causa un desgaste del esmalte dental,
+          lo que facilita la formación de caries; favorece la sensibilidad al frío, al calor o a los dulces; e incluso
+          la posibilidad de que se rompa algún diente. También puede llegar a generar la maloclusión dental, lo que
+          requeriría un tratamiento de ortodoncia.</p>
+
+        <p class="descanso">Posibles tratamientos</p>
+        <p>El especialista en ATM (articulación témporomandibular) será el encargado de realizar el diagnóstico y
+          definir un tratamiento adecuado, después de valorar las posibles causas físicas y psicológicas que puedan
+          estar provocando el problema.</p>
+        <p>Los tratamientos para el bruxismo están principalmente orientados a reducir el rechinamiento de los dientes,
+          prevenir el desgaste del esmalte, eliminar el dolor y evitar posibles daños permanentes en la mandíbula. En
+          general, se distinguen dos tipos de tratamientos:</p>
+
+        <div class="foto-der">
+          <figure>
+            <img src="/2022/02/imgs/261-Dr-Carlos-Sanabia-BRUXISMO-3.jpg" alt="">
+          </figure>
+        </div>
+
+        <ul class="lista-disco-nota">
+          <li><span style="font-weight: 600;">Férula de descarga:</span> en la mayoría de los casos, especialmente
+            cuando se trata de bruxismo de predominio nocturno, el especialista recomienda al paciente el uso de una
+            férula de descarga. Se trata de una prótesis ajustada a la dentadura del paciente, que debe colocarse
+            durante las horas de sueño, y cuya función es intentar relajar y reconocer la articulación ATM para evitar
+            el rechinar de los dientes y el consecuente desgaste del esmalte.</li>
+          <li><span style="font-weight: 600;">Rehabilitación protésica:</span> en casos de bruxismo más avanzado, en los
+            que existe un importante desgaste dental y una disminución de la dimensión vertical que afecta a la
+            articulación temporomandibular, se recomienda rehabilitar protésicamente las piezas dentales con el fin de
+            recuperar la posición articular idónea.</li>
+        </ul>
+
+        <p class="descanso">Recomendaciones generales</p>
+        <p>En todos los casos, los especialistas aconsejan realizar cualquier tipo de actividad que ayude a controlar,
+          reducir o eliminar el estrés y la tensión muscular, ya que suelen ser desencadenantes del bruxismo; realizar
+          ejercicios de relajación, masajear las zonas musculares mandibulares afectadas y dormir las horas adecuadas
+          manteniendo una correcta postura corporal. La visita regular al odontólogo es la mejor manera de que pueda ser
+          diagnosticada. &nbsp;<i class="fas fa-square"></i></p>
+      </div>
+
+      <div class="ctc">
+        <p class="f1 ctc-sobre">Sobre el autor</p>
+        <p class="f1 ctc-nombre">Odont. Carlos Aníbal Sanabia Hurtado</p>
+        <p class="f1 ctc-especialidad">Ortodoncia</p>
+        <p class="f1 ctc-certificaciones"></p>
+        <p class="f1 ctc-cedulas">Cédula profesional: 7356522, Universidad Autónoma de Sinaloa <br
+            class="nonedw480">Cédula de especialidad: 10871921, Asociación Odontológica Mexicana para la Enseñanza y la
+          Investigación</p>
+        <p class="f1 ctc-empresa">SH Dental Care</p>
+        <a href="tel:">
+          <p class="f1 ctc-dom-tel" style="margin-bottom: 0;"><i class="fas fa-phone-alt"></i> (662) 262-0133 y (662) 152-8099</p>
+        </a>
+      </div>
+    </article>
+
+    <!-- ASIDE NOTA -->
+    <aside class="col-40">
+
+      <!-- BANNERS ASIDE -->
+      <div class="aside-bnrs-up">
+        <div class="bnr-250x250">
+          <a href="#">
+            <img src="/imgs/Hospital-GobEdo.png">
+          </a>
+        </div>
+      </div>
+
+      <!-- TEMAS DE INTERES -->
+      <div id="interes">
+        <hr style="border-top: 4px solid">
+        <p class="f2 indicador interes-ind-a">TEMAS DE INTERÉS</p>
+
+        <div class="interes-item">
+          <a href="#">
+            <img src="/2021/01/imgs/248-MNC-Lillian-Figueroa-ALIMENTOS-ORGANICOS-1.jpg" alt="">
+            <p>Alimentos orgánicos por su salud y el medio ambiente</p>
+          </a>
+        </div>
+
+        <div class="interes-item">
+          <a href="#">
+            <img src="/2021/01/imgs/248-Dra-Ana-Martinez-ENT-TERCERA-EDAD-1.jpg" alt="">
+            <p>ENT y tercera edad: Contra el reloj</p>
+          </a>
+        </div>
+
+        <div class="interes-item">
+          <a href="#">
+            <img src="/2021/01/imgs/248-Dr-Mario-Alvarez-HABITOS-CIRUGIA-1.jpg" alt="">
+            <p>Buscando las mejores condiciones en caso de cirugía oncológica</p>
+          </a>
+        </div>
+
+        <div class="interes-item">
+          <a href="#">
+            <img src="/2021/01/imgs/248-Redaccion-ENFERMEDADES-RESPIRATORIAS-1.jpg" alt="">
+            <p>En enfermedades respiratorias distinguir es la clave</p>
+          </a>
+        </div>
+      </div>
+
+      <!-- BANNERS ASIDE -->
+      <div class="aside-bnrs-stic">
+        <div class="bnr-vl-250x250 mb-70">
+          <a href="#">
+            <img src="/imgs/Hospital-GobEdo.png">
+          </a>
+        </div>
+
+        <div class="bnr-vl-250x250">
+          <a href="#">
+            <img src="/imgs/Hospital-GobEdo.png">
+          </a>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <div class="clear" style="margin-bottom: 70px;"></div>
+
+  <!-- BANNER HORIZONTAL -->
+  <div class="contenedor bnr-hz-01" style="margin-top: 20px">
+    <a href="https://www.hospitalsanjosehermosillo.com/" target="blank"><img src="/imgs/Hospital-San-Jose.jpg"></a>
+  </div>
+
+  <div class="altura-ajuste-footer"></div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-row-1">
+      <div class="f1 footer-mision">COMUNICAMOS VALOR</div>
+    </div>
+
+    <div class="footer-row-2">
+      <div class="contenedor footer-cont">
+
+        <div class="footer-col-1">
+          <div class="footer-BSlogo-bx"><img src="/imgs/Revista-BS-logo-footer.png"></div>
+
+          <div class="btn-siganos-pr">
+            <a href="#">
+              <p><strong>Síganos en</strong></p>
+              <p><i class="fab fa-facebook"></i> Revista BS</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="f1 footer-col-2">
+          <p class="anunciese"><strong>Anúnciese con nosotros</strong></p>
+          <p class="footer-tel">
+            <i class="fas fa-phone-alt footer-icon">&nbsp;</i>(662) 236 25 00
+          </p>
+          <a class="footer-email" href="mailto:publicidad@buenasalud.org">
+            <i class="fas fa-envelope footer-icon">&nbsp;</i>publicidad@buenasalud.org </a>
+          <p class="footer-direccion"><i class="fas fa-map-marker-alt footer-icon">&nbsp;</i>Quinta Mayor 181 Col. Las
+            Quintas, Hermosillo, Sonora, México CP 83240</p>
+        </div>
+
+        <div class="f1 footer-col-3">
+          <p><strong>©2021 Revista BS <br> Todos los derechos reservados</strong></p>
+          <p>Sin previa autorización, queda expresamente prohibida la publicación, retransmisión, edición y
+            cualquier otro uso de los contenidos.</p>
+          <a href="#">Política de Privacidad</a>
+          <a style="display: inline-block;" href="#">Términos y Condiciones</a>
+        </div>
+
+        <div class="btn-siganos">
+          <a href="#">
+            <p><strong>Síganos en</strong></p>
+            <p><i class="fab fa-facebook"></i> Revista BS</p>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="duarte-firma">
+        <a href="mailto:duartepublicidad@gmail.com">Sitio desarrollado por <strong>Duarte Publicidad</strong></a>
+      </div>
+
+    </div>
+    <div class="wid"></div>
+  </footer>
+</body>
+
+</html>

@@ -61,11 +61,20 @@ a {
   width: 95vw;
   max-width: 1100px;
 }
+.flex{
+  display: flex;
+}
 .col2{
   width: 47%;
 }
 .col3{
   width: 31%;
+}
+.w65{
+  width: 65%;
+}
+.w95{
+  width: 95%;
 }
 .indicador {
   font-size: 25px;
@@ -81,6 +90,9 @@ a {
 }
 .hv-trns-01:hover {
   transform: translateY(-1%);
+}
+ul li:last-child{
+  margin-bottom: 0;
 }
 
 /* HEADER */
@@ -231,24 +243,24 @@ header {
 }
 .esp-edi-inda {
   font-size: 21.5px;
-  margin: 4px 0 4px;
+  margin: 4px 0 6px;
   color: var(--verde-logo-1);
 }
 .especial-cbz-th {
-  font-size: 27.5px;
+  font-size: 30px;
   line-height: 1.2;
   font-weight: 700;
-  margin-bottom: 3px;
+  margin-bottom: 7px;
 }
 .especial-txt-th {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.3;
 }
 .col1-mes1 hr {
   margin-top: 20px;
 }
 .editorial-cbz-th {
-  font-size: 23px;
+  font-size: 26px;
   line-height: 1.3;
   font-weight: 600;
 }
@@ -1026,7 +1038,7 @@ header {
 .duarte-firma a {
   color: #fff;
 }
-/* ----------------------- */
+/* -- 1ALNZ -- */
 .cont-alnz {
   display: flex;
   flex-wrap: wrap;
@@ -1205,7 +1217,6 @@ header {
 .foto-nota-top-bx img {
   width: 100%;
 }
-
 /* COMPARTIR */
 .compartir-bx {
   height: 30px;
@@ -1251,7 +1262,6 @@ header {
   padding: 5px;
   margin-right: 10px;
 }
-
 /* CREDITO */
 .credito-bx {
   width: 100%;
@@ -1287,7 +1297,6 @@ header {
 .credito-autor i {
   font-size: 13px;
 }
-
 /* TEXTO NOTA */
 .texto {
   font-family: "Nunito Sans", sans-serif;
@@ -1298,7 +1307,7 @@ header {
   margin-bottom: 10px;
 }
 .texto p span {
-  font-size: 20px;
+  font-size: 21px;
   font-weight: 700;
 }
 .descanso {
@@ -1315,7 +1324,7 @@ header {
   width: 95%;
   padding: 25px;
   background: var(--gris-claro);
-  margin-top: 20px;
+  margin-top: 30px;
   margin-bottom: 20px;
 }
 .texto-resaltado-bx p{
@@ -1364,57 +1373,6 @@ header {
   font-size: 30px;
   font-weight: 600;
 }
-
-/* --------------- */
-.lista-graficos{
-  margin-left: 20px;
-}
-.lista-graficos p{
-  margin-left: 20%;
-  margin-bottom: 15px;
-  line-height: 1.4;
-}
-.grafico{
-  width: 15%;
-  float: left;
-  margin-right: 20px;
-}
-.grafico img{
-  width: 100%;
-}
-@media screen and (max-width:920px){
-  .lista-graficos{
-    margin-left: 10px;
-  }
-  .lista-graficos p{
-    margin-left: 22%;
-  }
-  .grafico{
-    width: 18%;
-    float: left;
-    margin-right: 20px;
-  }
-  .grafico img{
-    width: 100%;
-  }
-}
-@media screen and (max-width:480px){
-  .lista-graficos p{
-    margin-left: 24%;
-  }
-}
-@media screen and (max-width:360px){
-  .grafico{
-    width: 18%;
-  }
-}
-/* AVERIGUAR DONDE SE USO CLASE */
-/* .fuente {
-  font-size: 13.6px;
-  font-weight: 300;
-  margin-top: 25px;
-  margin-bottom: 15px;
-} */
 .fa-square {
   font-size: 12px;
   color: var(--gris-claro);
@@ -1424,7 +1382,6 @@ header {
   margin-top: 25px;
   line-height: 1;
 }
-
 /* 1RECUADROS COLOR Y GRIS*/
 .noneup680 {
   display: none;
@@ -1432,26 +1389,22 @@ header {
 .rc-color {
   width: 40%;
   border-radius: 17px;
-  padding: 25px;
+  padding: 22px 25px 20px 25px;
 }
 .rc-gris {
   width: 40%;
   padding: 25px;
   background: var(--gris-claro);
 }
-.rc-float-izq {
+.rc-izq {
   float: left;
   margin-top: 25px;
   margin-right: 35px;
   margin-bottom: 25px;
 }
-.rc-float-der {
+.rc-der {
   float: right;
   margin: 25px -50px 25px 35px;
-}
-/* AVERIGUAR ESTA CLASE EN HTML */
-.rc-gris img {
-  width: 90%;
 }
 .rc-foto-bx {
   width: 100%;
@@ -1459,13 +1412,15 @@ header {
 }
 .rc-foto-bx img {
   width: 100%;
+  margin: 0 auto 15px;
+  display: block;
 }
 .rc-color-cbz-1r,
 .rc-gris-cbz-1r {
   font-size: 25px;
-  line-height: 1.2;
+  line-height: 1.3;
   font-weight: 500;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   text-transform: uppercase;
   /* word-break: break-word;
   hyphens: auto; */
@@ -1501,12 +1456,84 @@ header {
   margin-left: 17px;
   color: #333;
 }
+.rc-color-lista-fas li {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  line-height: 1.15;
+  font-weight: 300;
+  list-style-type: none;
+  margin-bottom: 10px;
+  margin-left: 0px;
+  color: #ffffff;
+}
+
+/* ESTE MARGIN BOTTOM SE IGNORA (AUNQUE SEA IGUAL) PORQUE TEXT P YA LLEVA MARGIN BOTTOM */
 .rc-gris-texto p{
   margin-bottom: 10px;
 }
 .rc-fuente {
   font-size: 12px;
   line-height: 1;
+  margin-top: 15px;
+}
+/* 1FOTOS NOTA */
+.foto-izq{
+  width: 45%;
+  float: left;
+  margin: 20px 30px 15px 0;
+  overflow: hidden;
+}
+.foto-izq img {
+  width: 100%;
+}
+.foto-izq-pie {
+  width: 45%;
+  float: left;
+  margin: 25px 30px 30px 0;
+  overflow: hidden;
+}
+.foto-izq-pie img {
+  width: 100%;
+}
+.foto-der{
+  width: 40%;
+  float: right;
+  margin: 15px -10px 20px 30px;
+  overflow: hidden;
+}
+.foto-der img {
+  width: 100%;
+}
+.foto-der-pie {
+  width: 40%;
+  float: right;
+  margin: 15px -10px 50px 30px;
+  overflow: hidden;
+}
+.foto-der-pie img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+.foto-cnt-pie {
+  width: 95%;
+  margin: 30px auto 45px auto;
+  background: var(--gris-claro);
+}
+.foto-cnt-pie figure {
+  display: flex;
+}
+.foto-cnt-pie figure img {
+  width: 65%;
+}
+.foto-cnt-pie figcaption {
+  float: right;
+  padding: 20px;
+  align-self: center;
+}
+.pie {
+  font-size: 20px;
+  line-height: 1.3;
+  font-weight: 300;
 }
 /* TABLA */
 .tabla{
@@ -1540,109 +1567,6 @@ th {
     display: block;
     overflow-x: auto;
   }
-}
-/* BORRAR ESTAS CLASES CELDA */
-.celda4-bx {
-  margin-top: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-.celda4 {
-  flex: 0 23%;
-  margin-bottom: 2%;
-  font-family: "Roboto Condensed", sans-serif;
-  font-size: 15.6px;
-  font-weight: 300;
-  line-height: 1.15;
-  color: #ffffff;
-}
-.foto-nota-izq{
-  width: 45%;
-  float: left;
-  margin: 20px 30px 15px 0;
-  overflow: hidden;
-}
-.foto-nota-izq img {
-  width: 100%;
-}
-.foto-nota-pie-izq {
-  width: 45%;
-  float: left;
-  margin: 25px 30px 30px 0;
-  overflow: hidden;
-}
-.foto-nota-pie-izq img {
-  width: 100%;
-}
-.foto-nota-der{
-  width: 40%;
-  float: right;
-  margin: 15px -10px 20px 30px;
-  overflow: hidden;
-}
-.foto-nota-pie-der {
-  width: 40%;
-  float: right;
-  margin: 15px -10px 50px 30px;
-  overflow: hidden;
-}
-.pie-nota-bx {
-  width: 100%;
-  padding: 15px;
-}
-.foto-nota-pie-der img {
-  width: 100%;
-}
-.foto-nota-der img {
-  width: 100%;
-}
-
-/* FOTO NOTA CENTRADA */
-.foto-nota-pie-cnt {
-  width: 95%;
-  margin: 30px auto 45px auto;
-  background: var(--gris-claro);
-}
-.foto-nota-pie-cnt figure {
-  display: flex;
-}
-.foto-nota-pie-cnt figure img {
-  width: 65%;
-}
-.foto-nota-pie-cnt figcaption {
-  float: right;
-  padding: 20px;
-  align-self: center;
-}
-
-/* AVERIGUAR */
-/* .foto-nota-pie-der figure img {
-  width: 60%;
-} */
-/* .foto2561 {
-  width: 30%;
-  padding: 25px;
-  background: var(--gris-claro);
-  margin: 40px auto 50px auto;
-}
-.foto2561-bx {
-  width: 95%;
-  margin: 0 auto;
-}
-.foto2561-bx img {
-  width: 100%;
-} */
-/* .foto2561 p {
-  font-family: "Oswald", sans-serif;
-  font-size: 18px;
-  font-weight: 300;
-  line-height: 1.5;
-} */
-.pie {
-  font-size: 20px;
-  line-height: 1.3;
-  font-weight: 300;
 }
 /* 1ASIDE NOTA  */
 .aside-bnrs-up {
@@ -2265,17 +2189,17 @@ th {
     margin-bottom: 20px;
   }
   /* 92FOTO NOTA CENTRADA */
-  .foto-nota-pie-cnt {
+  .foto-cnt-pie {
     width: 90%;
     margin-bottom: 35px;
   }
-  .foto-nota-pie-cnt figure {
+  .foto-cnt-pie figure {
     display: initial;
   }
-  .foto-nota-pie-cnt figure img {
+  .foto-cnt-pie figure img {
     width: 100%;
   }
-  .foto-nota-pie-cnt figcaption {
+  .foto-cnt-pie figcaption {
     float: none;
     padding: 10px 15px 20px 15px;
   }
@@ -2299,13 +2223,13 @@ th {
     margin-left: 12px;
   }
   /* 92FOTO-NOTA */
-  .foto-nota-izq, .foto-nota-der {
+  .foto-izq, .foto-der {
     width: 80%;
     float: none;
     margin: 30px auto 30px;
   }
-  .foto-nota-pie-izq,
-  .foto-nota-pie-der {
+  .foto-izq-pie,
+  .foto-der-pie {
     width: 85%;
     float: none;
     margin: 30px auto 40px;
@@ -2378,7 +2302,7 @@ th {
     margin-bottom: 15px;
   }
   /* 82FOTO-NOTA */
-  .foto-nota-pie-der {
+  .foto-der-pie {
     margin-right: 0;
     margin: 15px -10px 50px 30px;
     overflow: hidden;
@@ -2387,7 +2311,7 @@ th {
     font-size: 17px;
   }
   /* 82RECUADROS */
-  .rc-float-der {
+  .rc-der {
     margin-right: -10px;
   }
   /* 82CTC */
@@ -2480,8 +2404,8 @@ th {
   .rc-gris {
     width: fit-content;
   }
-  .rc-float-izq,
-  .rc-float-der {
+  .rc-izq,
+  .rc-der {
     float: none;
     margin-top: 25px;
     margin-right: auto;
@@ -2489,7 +2413,6 @@ th {
     margin-left: auto;
   }
 }
-
 @media screen and (max-width: 740px) {
   /* 74HEADER MOBILE */
   .fa-bars, .fa-search {
@@ -2671,7 +2594,7 @@ th {
     border-radius: 13px;
   }
    /* 68FOTO-NOTA */
-   .foto-nota-izq, .foto-nota-der {
+   .foto-izq, .foto-der {
     width: 70%;
     margin: 25px auto 25px;
   }
@@ -2825,9 +2748,6 @@ th {
   .especial-txt-th {
     font-size: 21px;
   }
-  .editorial-cbz-th {
-    font-size: 23px;
-  }
   .mes1-top-cbz,
   .mes1-top-sumario {
     padding: 0 10px 0 10px;
@@ -2855,12 +2775,12 @@ th {
     font-size: 17px;
   }
   /* 52NOTAS-FOTOS */
-  /* .foto-nota-pie-izq {
+  /* .foto-izq-pie {
     width: 100%;
     float: none;
     margin: 30px auto 40px;
   }
-  .foto-nota-pie-der {
+  .foto-der-pie {
     width: 100%;
     float: none;
     margin: 30px auto 40px;
@@ -2899,10 +2819,9 @@ th {
     font-size: 30px;
   }
   .especial-txt-th {
-    font-size: 21px;
+    font-size: 20px;
   }
   .editorial-cbz-th {
-    font-size: 23px;
     line-height: 1.2;
   }
   .especial-txt-th {
@@ -3035,22 +2954,21 @@ th {
     font-size: 17px;
   }
   /* 48FOTO-NOTA */
-  .foto-nota-pie-cnt {
+  .foto-cnt-pie {
     width: 90%;
     margin-top: 20px;
     margin-bottom: 25px;
   }
-  .foto-nota-pie-cnt figcaption {
+  .foto-cnt-pie figcaption {
     padding-bottom: 15px;
   }
-  .foto-nota-izq, .foto-nota-der {
+  .foto-izq, .foto-der {
     width: 80%;
     margin: 20px auto 20px;
   }
   /* 48CTC */
   .nonedw480{
     display: none;
-
   }
   /* 48FOOTER */
   .footer-cont {
@@ -3142,9 +3060,6 @@ th {
   .ind-impr {
     font-size: 17px;
   }
-  .especial-txt-th {
-    font-size: 17px;
-  }
   /* 40ARTICULOS */
   .ceja-med {
     font-size: 12px;
@@ -3196,10 +3111,7 @@ th {
     margin-bottom: 10px;
   }
   .especial-cbz-th {
-    font-size: 24px;
-  }
-  .editorial-cbz-th {
-    font-size: 19px;
+    font-size: 27px;
   }
   /* 36FOOTER */
   .footer-cont {
@@ -3247,13 +3159,13 @@ th {
     margin: 0 0 2px;
   }
   .especial-cbz-th {
-    font-size: 23px;
+    font-size: 25px;
   }
   .especial-txt-th {
-    font-size: 16px;
+    font-size: 18px;
   }
   .editorial-cbz-th {
-    font-size: 19px;
+    font-size: 22px;
   }
   /* 34ESPECIAL */
   /* .cbz-esp1 {

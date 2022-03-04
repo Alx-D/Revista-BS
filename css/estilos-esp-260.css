@@ -575,7 +575,6 @@ footer{
   .header-col-2 h3{
     font-size: 23px;
   }
-  /* ASIDE */
   /* FOOTER */
   .footer-email {
     font-size: 17px;
@@ -1089,7 +1088,6 @@ footer{
     width: 45%;
     float: right;
     margin-left: 10px;
-    background: #25d366;
   }
   .dr-foto-bx-vd420 img{
     width: 100%;
