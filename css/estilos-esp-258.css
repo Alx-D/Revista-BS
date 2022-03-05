@@ -837,8 +837,9 @@ footer{
   }
   .header-mobile-row {
     display: flex;
-    margin: 15px0 auto;
+    margin: 15px auto;
     justify-content: space-between;
+    align-items: center;
   }
   .fa-bars {
     font-size: 5vw;

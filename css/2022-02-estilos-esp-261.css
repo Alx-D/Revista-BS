@@ -75,7 +75,7 @@ header{
 }
 .header-desktop-cont{
   display: flex;
-  padding: 30px 30px 0px 30px;
+  padding: 0px 30px 0px 30px;
   justify-content: space-between;
   align-items: center;
   background: var(--gris-claro);
@@ -91,21 +91,20 @@ header{
   width: 100%;
 }
 .header-col-2{
-  width: 60%;
+  width: 50%;
 }
 .indicador {
-  font-size: 21px;
+  font-size: 20px;
   font-weight: 400;
   color: #555;
-  margin-bottom: -5px;
 }
 .header-col-2 h1{
-  font-size: 50px;
+  font-size: 53px;
   line-height: 1.2;
-  font-weight: 700;
-  margin-bottom: -5px;
+  font-weight: 400;
+  text-transform: uppercase;
   color: var(--color261-1);
-  letter-spacing: 5px;
+  margin-bottom: 5px;
 }
 .header-col-2 h3{
   font-size: 28px;
@@ -115,7 +114,7 @@ header{
   /* letter-spacing: 1px; */
 }
 .header-col-3{
-  width: 16%;
+  width: 25%;
   margin-right: 15px;
 }
 .header-col-3 img{
@@ -378,20 +377,21 @@ article h1{
   font-size: 14px;
   font-weight: 300;
   line-height: 1.4;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
 }
 .ctc-empresa {
   font-size: 21px;
   line-height: 1.2;
   font-weight: 500;
+  margin-bottom: 8px;
 }
 .ctc-dom-tel {
   text-indent: -10px;
   margin-left: 25px;
   font-size: 16.5px;
   font-weight: 300;
-  line-height: 1;
-  margin-top: 10px;
+  line-height: 1.1;
+  margin-bottom: 8px;
 }
 .ctc-correo {
   font-size: 16.5px;
@@ -409,6 +409,16 @@ article h1{
 .ctc-foto img{
   width: 100%;
 }
+.ctc-redes {
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+.redes-icon {
+  font-size: 30px;
+  margin-right: 25px;
+  margin-bottom: 18px;
+}
+
 .clear {
   clear: both;
 }
@@ -546,16 +556,17 @@ footer{
 /*----- MEDIAS ------*/
 @media screen and (max-width: 1100px) {
   /* HEADER */
-  /* .indicador {
-    font-size: 21px;
+  .header-col-1 {
+    margin-right: 2%;
   }
   .header-col-2 h1{
-    font-size: 50px;
+    font-size: 5vw;
+    letter-spacing: initial;
   }
   .header-col-2 h3{
-    font-size: 2.4vw;
+    font-size: 2.5vw;
   }
-} */
+}
 @media screen and (max-width: 1024px) {
   /* HEADER */
   .flecha-svg-der{
@@ -588,12 +599,6 @@ footer{
   .flecha-svg-der{
     width: 35px;
   }
-  /* .header-col-2 h1{
-    font-size: 45px;
-  }
-  .header-col-2 h3{
-    font-size: 23px;
-  } */
   /* FOOTER */
   .footer-email {
     font-size: 17px;
@@ -616,17 +621,11 @@ footer{
   .flecha-svg-der{
     width: 30px;
   }
-  /* .header-col-2 h1{
-    font-size: 42px;
-  }
-  .header-col-2 h3{
-    font-size: 22px;
-  } */
   /* 92NOTA */
   article{
     padding-top: 20px;
   }
-    .nombre{
+  .nombre{
     font-size: 25px;
   }
   article h1{
@@ -664,12 +663,6 @@ footer{
     font-size: 18px;
   }
   /* NOTA */
-  .circulo-diabetes{
-    width: 50px;
-    height: 50px;
-    border: 7px solid #1677f2;
-    margin-right: 10px;
-  }
   .txt-esp-bx{
     display: initial;
   }
@@ -742,6 +735,9 @@ footer{
 }
 @media screen and (max-width: 780px){
   /* HEADER */
+  .header-desktop-cont {
+    padding-top: 15px;
+  }
   .header-col-1{
     margin-right: 4%;
   }
@@ -749,7 +745,7 @@ footer{
     width: 80%;
   }
   .indicador {
-    font-size: 2.3vw;
+    font-size: 2.2vw;
   }
   .header-col-2 h1{
     font-size: 6vw;
@@ -808,18 +804,17 @@ footer{
 @media screen and (max-width: 680px){
   /* HEADER */
   .header-desktop-cont{
-    padding: 30px 25px 0px 25px;
     display: none;
   }
   .header-mobile-cont{
     display: block;
     background: #e8e5e0;
-    padding: 15px 0 15px;
+    padding-top: 25px;
   }
   .header-mobile-row {
     display: flex;
-    margin: 15px0 auto;
     justify-content: space-between;
+    align-items: center;
   }
   .fa-bars {
     font-size: 5vw;
@@ -836,13 +831,9 @@ footer{
     font-size: 45px;
     margin-right: 20px;
   }
-  .hlmbx{
-    display: flex;
-    justify-content: center;
-  }
   .logo-mobile-bx{
-    width: 20vw;
-    margin-right: 3vw;
+    width: 30vw;
+    margin: 0 auto 10px;
   }
   .logo-mobile-bx img{
     width: 100%;
@@ -851,11 +842,27 @@ footer{
     align-self: center;
   }
   .indicador{
-    font-size: 3vw;
+    font-size: 2.7vw;
+    text-align: center;
+    margin-bottom: 5px;
+    letter-spacing: 10px;
   }
   .esp-mobile-bx h1{
-    font-size: 8vw;
-    margin-top: 5px;
+    font-size: 7vw;
+    line-height: 1;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--color261-1);
+    margin-bottom: 8px;
+  }
+  .esp-mobile-bx h3{
+    font-size: 3.8vw;
+    font-weight: 400;
+    line-height: 1;
+    text-align: center;
+    color: var(--color261-2);
+    margin-bottom: 10px;
   }
   .header-mobile-row-1 .flecha-svg-der{
     align-self: center;
@@ -900,12 +907,6 @@ footer{
   .nombre-bx{
     display: flex;
   }
-  .circulo-diabetes{
-    width: 45px;
-    height: 45px;
-    border: 7px solid #1677f2;
-    margin-right: 20px;
-  }
   .brvd680{
     display: block;
   }
@@ -942,6 +943,10 @@ footer{
   }
 }
 @media screen and (max-width: 580px){
+  /* HEADER */
+  /* .logo-mobile-bx{
+    width: 33vw;
+  } */
   /* NOTA */
   .nombre{
     font-size: 24px;
@@ -982,7 +987,13 @@ footer{
 @media screen and (max-width: 480px){
   /* HEADER */
   .header-desktop-cont{
-    padding: 30px 20px 0px 20px;
+    /* padding: 30px 20px 0px 20px; */
+  }
+  .logo-mobile-bx{
+    width: 38vw;
+  }
+  .indicador{
+    font-size: 3.3vw;
   }
   /* NOTA */
   article{
@@ -993,6 +1004,7 @@ footer{
   }
   .nombre{
     font-size: 22px;
+    margin-left: 0;
   }
   article h1{
     font-size: 45px;
@@ -1056,6 +1068,20 @@ footer{
 }
 @media screen and (max-width: 420px){
   /* 42HEADER MOBILE */
+  .header-mobile-cont{
+    padding-top: 20px;
+  }
+  .logo-mobile-bx{
+    width: 42vw;
+    margin-bottom: 5px;
+  }
+  .indicador{
+    letter-spacing: 7px;
+    margin-bottom: 3px;
+  }
+  .esp-mobile-bx h3{
+    font-size: 4vw;
+  }
   .fa-bars {
     font-size: 26px;
     margin-left: 15px;
@@ -1068,12 +1094,10 @@ footer{
   .dr-foto-bx-vd680{
     display: none;
   }
-  .circulo-diabetes{
-    display: none;
-  }
   .nombre-bx{
     width: 100%;
     background: var(--color261-1);
+    margin-bottom: 10px;
   }
   .nombre{
     color: white;
@@ -1117,11 +1141,6 @@ footer{
   }
   .migas  .fa-angle-right{
     font-size: 10px;
-  }
-  .circulo-diabetes{
-    width: 35px;
-    height: 35px;
-    border: 6px solid #1677f2;
   }
   .nombre{
     font-size: 20px;
