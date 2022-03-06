@@ -401,6 +401,14 @@ article h1{
 .ctc-foto img{
   width: 100%;
 }
+.ctc-redes {
+  font-size: 18px;
+  line-height: 1.1;
+  margin: 10px 3px;
+}
+.hv-txt:hover {
+  transform: translateY(-6%);
+}
 .clear {
   clear: both;
 }
