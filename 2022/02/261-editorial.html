@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/estilos.css">
+  <meta name="description" content="Artículos sobre el cuidado de la salud y prevención de enfermedades">
+  <meta name="keywords"
+    content="salud, saludable, vida, cuidado, bienestar, prevención, enfermedades, nutrición, psicología, niños, familia, adultos mayores, femeson, sonora">
+  <link rel="icon" type="image/png" href="/imgs/Revista-BS-favicon.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,300;0,400;1,400&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/7c1b686291.js" crossorigin="anonymous"></script>
+  <title>Revista BS | Salud para vivir con sentido</title>
+
+  <style>
+    .rc-gris-editorial {
+      width: 90%;
+      margin-top: 150px;
+      float: right;
+      padding: 25px;
+      background: var(--gris-claro);
+    }
+
+    .rc-gris-editorial-cbz {
+      font-size: 26px;
+      line-height: 1.3;
+      font-weight: 500;
+      margin-bottom: 17px;
+      text-transform: uppercase;
+      color: #494949;
+      font-stretch: expanded;
+    }
+
+    .rc-gris-editorial li {
+      font-family: "Oswald", sans-serif;
+      font-size: 21px;
+      line-height: 1.3;
+      color: #494949;
+      margin-top: 10px;
+      margin-bottom: 15px;
+      margin-left: 17px;
+    }
+
+    @media screen and (max-width: 980px) {
+      .rc-gris-editorial-cbz {
+        font-size: 23px;
+      }
+
+      .rc-gris-editorial li {
+        font-size: 20px;
+      }
+    }
+
+    @media screen and (max-width: 680px) {
+      .rc-gris-editorial {
+        width: auto;
+        float: none;
+        display: table;
+        margin: 25px auto 35px auto;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header class="contenedor">
+
+    <!-- HEADER MOBILE -->
+    <div class="header-mobile-cont">
+
+      <div class="header-mobile-row-1">
+        <i class="fas fa-bars" onclick="showMenu()"></i>
+
+        <div class="logo-mobile-bx">
+          <a href="/index.html">
+            <img src="/imgs/Revista-BS-logo-m.png">
+          </a>
+        </div>
+
+        <i class="fas fa-search"></i>
+      </div>
+
+      <div class="lema-mobile-bx">
+        <img src="/imgs/lema.png">
+      </div>
+
+      <nav>
+        <div class="menu-mobile" id="menu-enlaces">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Revista</a></li>
+            <li><a href="#">Artículos por tema</a></li>
+            <li><a href="#">Artículos por especialidad médica</a></li>
+            <li><a href="#">Directorio médico</a></li>
+            <li><a href="#">Femeson</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- HEADER DESKTOP -->
+    <div class="header-cont">
+
+      <div class="header-col-izq" style="position: relative;">
+        <div class="revista-bs-logo-bx">
+          <a href="/index.html">
+            <img class="logo-header" src="/imgs/Revista-BS-logo-header.png" alt="Revista BS">
+          </a>
+        </div>
+      </div>
+
+      <div class="header-col-der">
+        <div class="header-row-1">
+          <div class="facebook">
+            <a class="f1" href="https://www.facebook.com">
+              <i class="fab fa-facebook fa-lg"></i> Revista BS
+            </a>
+          </div>
+          <p class="f2 femeson-leyenda">Órgano de vinculación y divulgación de <br> la Federación Médica de Sonora</p>
+          <div class="femeson-logo-bx">
+            <img src="/imgs/femeson-escudo.png" alt="">
+          </div>
+        </div>
+
+        <div class="header-row-2">
+          <div class="lema-bx">
+            <img src="/imgs/lema.png">
+          </div>
+          <div id="buscador">
+            <form>
+              <input type="text" placeholder="Buscar">
+            </form>
+          </div>
+        </div>
+
+        <nav>
+          <div class="menu-desktop">
+            <ul>
+              <li><a href="#">Inicio</a></li>
+              <li><a href="#">Revista</a></li>
+              <li><a href="#">Artículos por tema</a></li>
+              <li><a href="#">Directorio médico</a></li>
+              <li><a href="#">Contacto</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <div class="clear"></div>
+    </div>
+  </header>
+
+  <!-- BANNER HORIZONTAL-->
+  <div class="contenedor bnr-hz-01">
+    <a href="https://hondapremium.com/" target="blank"><img src="/imgs/Honda-diciembre-2020.png"></a>
+  </div>
+
+  <div class="contenedor m-0a nota-bx">
+    <article class="col-60">
+      <div class="f2 ceja-gde verde1">EDITORIAL</div>
+      <p class="f1 fecha">Febrero 2022</p>
+
+      <h1 class="f1 editorial-cbz">Salud bucodental</h1>
+
+      <!-- COMPARTIR -->
+      <div class="compartir-bx">
+        <i class="fa fa-share"></i>
+        <p class="f1 compartir"> Compartir</p>
+        <a href="#" class="fab fa-whatsapp whatsapp-compartir" title="Enviar por Whatsapp"></a>
+        <a href="#" class="fab fa-facebook fa-lg facebook-compartir" title="Compartir en Facebook"></a>
+        <a href="#" class="fas fa-envelope envelope-compartir" title="Enviar por correo electrónico"></a>
+        <a href="#" class="fas fa-link link-compartir" title="Copiar enlace"></a>
+      </div>
+
+      <div class="credito-bx">
+        <figure class="credito-foto-bx">
+          <img src="/imgs/doctores/Dr-Fco-Javier-Muro-Davila.jpg" alt="">
+        </figure>
+        <p class="f1 credito-autor"><strong>Dr. Francisco Javier Muro Dávila</strong> <br> Editor en Jefe de Revista BS
+        </p>
+      </div>
+
+      <div class="texto">
+        <p>La salud bucodental es fundamental para gozar de buena salud y calidad de vida, la cavidad bucal contribuye a
+          la protección del cuerpo por medio de la masticación y deglución, también favorece el autoestima, expresión,
+          comunicación y estética facial.</p>
+        <p>La Organización Mundial de la Salud define la salud bucal como la ausencia de dolencias o trastornos en la
+          cavidad bucodental que limiten o repercutan a la persona en su bienestar psicosocial. Estas dolencias o
+          trastornos pueden ser dolor, cáncer, infecciones, llagas, hasta enfermedades periodontales, pérdida de dientes
+          o trastornos bucodentales.</p>
+        <p>A nivel mundial más del 90% de la población padece algún problema de salud bucal, siendo los más comunes la
+          caries y la enfermedad periodontal; sin embargo, sólo un 60% de ésta tiene acceso a los servicios de salud,
+          los cuales se limitan a acciones muy básicas del cuidado bucal; y las enfermedades bucodentales son la cuarta
+          patología más cara a tratar (Boletín Epidemiológico Semana 26, 2016, Secretaría de Salud).</p>
+        <p>Hay otros problemas bucales más complejos y de difícil manejo como el cáncer de boca, las enfermedades
+          infecciosas bucodentales, la maloclusión, los traumatismos físicos y las lesiones.</p>
+        <p>Practicar una buena higiene bucal y visitar al dentista frecuentemente es la mejor manera para evitar
+          problemas bucales, de esta forma podrá prevenir cualquier padecimiento a futuro.</p>
+        <p>Cepillado de dientes al menos dos veces al día, uso de hilo dental diariamente, uso de enjuague bucal
+          preferentemente sin alcohol, mantener una dieta saludable baja en azúcares y alimentos procesados, evitar el
+          consumo de tabaco y café, no abusar de blanqueamientos dentales y cambiar de cepillo dental cuando pierda su
+          firmeza son las principales recomendaciones para lograrlo.</p>
+
+        <div class="texto-resaltado-bx">
+          <p class="descanso" style="margin-top: 0;">Principales afecciones</p>
+          <p>Las bacterias que tenemos en la boca forman una película a las dos horas de habernos cepillado los dientes,
+            produciendo la llamada placa bacteriana. Si dicha placa, permanece en la boca durante 48 horas sin ser
+            cepillada, comienza a endurecerse con los iones que tenemos en la saliva y se transforma en sarro o cálculo.
+          </p>
+          <p>El sarro o cálculo adherido al diente y tejido gingival de la encía es un indicador significativo de
+            deficiente higiene bucal, se manifiesta con un color marrón o amarillento en los dientes o encías lo que es
+            considerado un importante factor de riesgo para afecciones más graves como caries, gingivitis y enfermedad
+            periodontal. Por tanto, tendremos más inflamación (gingivitis) o enfermedad periodontal “piorrea”.</p>
+          <p>Según los resultados del Sistema de Vigilancia Epidemiológica de Patologías Bucales (SIVEPAB) 2019, de
+            México, se examinó la cavidad bucal de un total de 99 mil seis niñas, niños y adolescentes de 0 a 19 años de
+            edad que acuden a los servicios de salud, y se encontró que cinco de cada diez de ellos, de seis a 19 años
+            de edad, tenían visibles detritos o cálculo en los dientes.</p>
+          <p>Del total de la población adulta examinada, 213 mil 619 personas, de 20 a 99 años de edad, se mostró que
+            68% tenían visibles detritos o cálculo sobre los dientes, el cual aumenta considerablemente con la edad,
+            alcanzando hasta 74.2% en el grupo de 60 a 64 años.</p>
+          <p>Respecto a dientes cariados, perdidos u obturados en dentición temporal, en el grupo de 1 a 10 años, se
+            muestra que los menores tienen 3.5 dientes afectados de los cuales tres estaban cariados.</p>
+          <p>La prevalencia de caries dental fue de 93.3% en la población adulta examinada, en todos los grupos ésta fue
+            superior a 84%; sin embargo, en la población a partir de los 40 años la prevalencia fue superior a 95%.</p>
+          <p>De 131 mil 903 pacientes adultos revisados, 59.2% tenían algún signo de enfermedad periodontal, 22% tenían
+            gingivitis.</p>
+          <p>La gingivitis y enfermedad periodontal representaba el quinto lugar dentro de las 20 principales causas de
+            enfermedad sujetas a vigilancia epidemiológica a nivel nacional en el año 2019, con 1.1 millones de casos
+            nuevos. Igualmente, en Sonora representaba el cuarto lugar como causa de enfermedad, con 37 mil 454 casos
+            nuevos, de acuerdo a la Secretaría de Salud.</p>
+          <p>El año 2020, por la pandemia y la disminución de la oferta de servicios, esta enfermedad bajó al décimo y
+            sexto lugar, respectivamente, como causa de enfermedad. Aún así, ésta y la caries son padecimientos muy
+            frecuentes, como se observa en la población revisada por SIVEPAB.</p>
+          <p>Cuide su salud bucal, visite a su dentista regularmente y procure su Buena Salud.</p>
+        </div>
+
+
+      </div>
+
+      <div class="ctc">
+        <p class="f1 ctc-sobre">Sobre el autor</p>
+        <p class="f1 ctc-nombre">Dr. Francisco Javier Muro Dávila</p>
+        <p class="f1 ctc-especialidad">Médico Cirujano (UNAM) <br>
+          Maestro en Salud Pública (SSA)</p>
+        <p class="f1 ctc-cedulas">Cédula Profesional 471325 <br>
+          Registro SSA 58352 ESPM-SSA 026403
+        </p>
+        <p class="f1 ctc-cargo">Editor en Jefe de Revista BS</p>
+        <a class="f1 ctc-correo" style="margin-bottom: 0;" href="mailto:fj_muro@hotmail.com"><i
+            class="fas fa-envelope"></i>
+          fj_muro@hotmail.com</a>
+      </div>
+    </article>
+
+    <!-- ASIDE NOTA -->
+    <aside class="col-40">
+
+      <!-- BANNERS ASIDE -->
+      <div class="aside-bnrs-up">
+        <div class="bnr-250x250">
+          <a href="#">
+            <img src="/imgs/Hospital-GobEdo.png">
+          </a>
+        </div>
+      </div>
+
+      <div class="aside-bnrs-stic">
+        <div class="bnr-vl-250x250 mb-70">
+          <a href="#">
+            <img src="/imgs/Hospital-GobEdo.png">
+          </a>
+        </div>
+
+        <div class="bnr-vl-250x250">
+          <a href="#">
+            <img src="/imgs/Hospital-GobEdo.png">
+          </a>
+        </div>
+      </div>
+    </aside>
+  </div>
+
+  <div class="clear" style="margin-bottom: 60px;"></div>
+
+  <!-- BANNER HORIZONTAL -->
+  <div class="contenedor bnr-hz-01" style="margin-top: 20px">
+    <a href="https://www.hospitalsanjosehermosillo.com/" target="blank"><img src="/imgs/Hospital-San-Jose.jpg"></a>
+  </div>
+
+  <!-- ANTERIORES -->
+  <div class="contenedor m-0a anteriores">
+    <hr style="border-top: 4px solid; margin-bottom: 25px">
+    <p class="f2 indicador">EDITORIALES ANTERIORES</p>
+    <div class="anteriores-bx">
+      <a href="" class="hv-txt-01">Covid-19 y salud pública</a>
+      <div class="lv"></div>
+      <a href="" class="hv-txt-01">Cáncer de próstata</a>
+      <div class="lv"></div>
+      <a href="" class="hv-txt-01">Cáncer de mama: prevención y control</a>
+      <div class="lv"></div>
+      <a href="" class="hv-txt-01">Cuidar la salud en el regreso a clases</a>
+    </div>
+  </div>
+
+  <div class="altura-ajuste-footer"></div>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-row-1">
+      <div class="f1 footer-mision">COMUNICAMOS VALOR</div>
+    </div>
+
+    <div class="footer-row-2">
+      <div class="contenedor footer-cont">
+
+        <div class="footer-col-1">
+          <div class="footer-BSlogo-bx"><img src="/imgs/Revista-BS-logo-footer.png"></div>
+
+          <div class="btn-siganos-pr">
+            <a href="#">
+              <p><strong>Síganos en</strong></p>
+              <p><i class="fab fa-facebook"></i> Revista BS</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="f1 footer-col-2">
+          <p class="anunciese"><strong>Anúnciese con nosotros</strong></p>
+          <p class="footer-tel">
+            <i class="fas fa-phone-alt footer-icon">&nbsp;</i>(662) 236 25 00
+          </p>
+          <a class="footer-email" href="mailto:publicidad@buenasalud.org">
+            <i class="fas fa-envelope footer-icon">&nbsp;</i>publicidad@buenasalud.org </a>
+          <p class="footer-direccion"><i class="fas fa-map-marker-alt footer-icon">&nbsp;</i>Quinta Mayor 181 Col. Las
+            Quintas, Hermosillo, Sonora, México CP 83240</p>
+        </div>
+
+        <div class="f1 footer-col-3">
+          <p><strong>©2021 Revista BS <br> Todos los derechos reservados</strong></p>
+          <p>Sin previa autorización, queda expresamente prohibida la publicación, retransmisión, edición y
+            cualquier otro uso de los contenidos.</p>
+          <a href="#">Política de Privacidad</a>
+          <a style="display: inline-block;" href="#">Términos y Condiciones</a>
+        </div>
+
+        <div class="btn-siganos">
+          <a href="#">
+            <p><strong>Síganos en</strong></p>
+            <p><i class="fab fa-facebook"></i> Revista BS</p>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="duarte-firma">
+        <a href="mailto:duartepublicidad@gmail.com">Sitio desarrollado por <strong>Duarte Publicidad</strong></a>
+      </div>
+
+    </div>
+    <div class="wid"></div>
+  </footer>
+
+  <script>
+    var menu_enlaces = document.getElementById("menu-enlaces");
+    function showMenu() {
+      menu_enlaces.style.left = "0";
+    }
+    function hideMenu() {
+      menu_enlaces.style.left = "-400px";
+    }
+  </script>
+
+</body>
+
+</html>
