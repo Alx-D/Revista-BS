@@ -111,9 +111,11 @@ a {
 .portada-secc-esp .foto {
   margin: 0 auto;
 }
-.portada-secc-esp .foto img {
+/* .portada-secc-esp .foto img {
   width: 86%;
-}
+} */
+
+
 .intro-secc-esp {
   background-color: var(--color261-3);
   padding: 30px 60px 40px;
