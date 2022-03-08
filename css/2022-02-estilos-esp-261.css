@@ -119,14 +119,18 @@ a {
   padding: 30px 60px 50px;
 }
 .intro-secc-esp h2 {
-  font-size: 30px;
+  font-size: 36px;
   font-weight: 600;
+  text-align: center;
   margin-bottom: 15px;
   color: var(--color261-1);
 }
+.intro-secc-esp .txt-esp {
+  text-align: center;
+}
 .click {
   background-color: #FE5E41;
-  font-size: 18px;
+  font-size: 17px;
   font-weight: 600;
   color: white;
   width: fit-content;
