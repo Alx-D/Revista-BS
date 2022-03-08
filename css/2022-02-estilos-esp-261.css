@@ -60,15 +60,14 @@ a {
 .grism {background: #bbbbae}
 .griso {background: #6d6d70}
 .lbco{color: white;}
-
 .contenedor {
   width: 100vw;
   max-width: 1100px;
 }
-
-main {
+.m-0a {
   margin: 0 auto;
 }
+
 .portada-secc-esp {
   background-color: var(--color261-2);
   position: relative;
@@ -137,6 +136,7 @@ main {
   left: 50%;
   transform: translate(-50%,0);
 }
+
 @media screen and (max-width: 1024px) {
   .portada-secc-esp .logo img {
     width: 22%;
@@ -221,7 +221,7 @@ header{
   padding: 0px 30px 0px 30px;
   justify-content: space-between;
   align-items: center;
-  background: var(--gris-claro);
+  background: var(--color261-4);
 }
 .header-col-1 {
   width: 15%;
