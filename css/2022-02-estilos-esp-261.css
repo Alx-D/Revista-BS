@@ -272,10 +272,10 @@ header{
 }
 .flecha-svg-der{
   width: 45px;
-  color: #bbbbae;
+  color: #F0B377;
 }
 .flecha-svg-der:hover {
-  color: #a7a690;
+  color: #F0935D;
   transform: translateY(-2%);
 }
 .remate-esp{
