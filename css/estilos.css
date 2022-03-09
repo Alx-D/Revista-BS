@@ -197,6 +197,52 @@ header {
   border: 1px var(--verde-logo-1);
   border-radius: 5px;
 }
+/* POP UP */
+.popup{
+  background-color: #ffffff;
+  width: 700px;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  left: 50%;
+  top: 50%;
+  font-family: "Poppins",sans-serif;
+  display: none;
+  text-align: center;
+  z-index: 100;
+  border-radius: 10px;
+  border: 2px grey solid;
+  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.16);
+}
+.popup a img {
+  width: 95%;
+}
+.popup button{
+  display: block;
+  margin:  0 0 20px auto;
+  background-color: transparent;
+  font-size: 30px;
+  color: #ffffff;
+  background: #03549a;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+@media screen and (max-width:480px) {
+  .popup{
+    width: 85%;
+  }
+  .popup button{
+    margin:  0 0 5px auto;
+    font-size: 15px;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+  }
+}
+
 /* COVID PREV */
 .covid-preventivo {
   margin: 25px auto 30px;

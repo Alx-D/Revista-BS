@@ -99,7 +99,6 @@ a {
   text-align: center;
   text-transform: uppercase;
   color: var(--color261-1);
-  text-align: center;
 }
 .portada-secc-esp .cbz-bx h3 {
   font-size: 28px;
@@ -114,8 +113,6 @@ a {
 /* .portada-secc-esp .foto img {
   width: 86%;
 } */
-
-
 .intro-secc-esp {
   background-color: var(--color261-3);
   padding: 30px 60px 40px;
@@ -228,6 +225,7 @@ a {
   }
   .portada-secc-esp .cbz-bx {
     width: 64%;
+    padding: 15px 0 7px;
   }
   .portada-secc-esp .cbz-bx h1 {
     font-size: 5.8vw;
@@ -235,18 +233,52 @@ a {
   .portada-secc-esp .cbz-bx h3 {
     font-size: 3.2vw;
   }
-
+  .intro-secc-esp {
+    padding: 25px 40px 30px;
+  }
+  .intro-secc-esp h2 {
+    font-size: 30px;
+  }
 }
-@media screen and (max-width: 520px){
-
+@media screen and (max-width: 520px) {
+  .click {
+    font-size: 15px;
+    padding: 10px 15px;
+  }
 }
+
 @media screen and (max-width: 480px){
-
+  .portada-secc-esp .cbz-bx {
+    padding: 10px 0 5px;
+  }
+  .portada-secc-esp .cbz-bx h1 {
+    margin-top: -4px;
+  }
+  .portada-secc-esp .cbz-bx h3 {
+    margin-top: -2px;
+  }
+  .intro-secc-esp {
+    padding: 20px 30px 25px;
+  }
+  .intro-secc-esp h2 {
+    font-size: 27px;
+  }
 }
 @media screen and (max-width: 420px){
-
+  .intro-secc-esp h2 {
+    font-size: 24px;
+  }
+  .click {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
 }
 @media screen and (max-width: 360px){
+  .intro-secc-esp h2 {
+    font-size: 20px;
+  }
+  .intro-secc-esp {
+    padding: 20px 25px 0px;  }
 
 }
 @media screen and (max-width: 340px){
