@@ -199,36 +199,48 @@ header {
 }
 /* POP UP */
 .popup{
-  background-color: #ffffff;
   width: 700px;
+  background-color: #ffffff;
   position: absolute;
-  transform: translate(-50%,-50%);
   left: 50%;
-  top: 50%;
-  font-family: "Poppins",sans-serif;
+  top: 70px;
+  /* top: 50%; */
+  transform: translate(-50%, 0%);
+  /* transform: translate(-50%,-50%); */
   display: none;
-  text-align: center;
   z-index: 100;
   border-radius: 10px;
-  border: 2px grey solid;
+  border: 2px #03549a solid;
   box-shadow: 0 7px 14px rgba(0, 0, 0, 0.16);
+  position: fixed;
 }
 .popup a img {
   width: 95%;
 }
 .popup button{
-  display: block;
-  margin:  0 0 20px auto;
-  background-color: transparent;
+  width: 40px;
+  height: 40px;
   font-size: 30px;
+  display: block;
+  margin:  0 0 10px auto;
+  background-color: transparent;
   color: #ffffff;
   background: #03549a;
   border-radius: 100%;
-  width: 40px;
-  height: 40px;
   border: none;
   outline: none;
   cursor: pointer;
+}
+.popup button::before{
+  content: 'CERRAR';
+  display: inline-block;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  color: #03549a;
+  position: absolute;
+  top: 10px;
+  right: 50px;
+  /* margin-left: -80px; */
 }
 @media screen and (max-width:480px) {
   .popup{
