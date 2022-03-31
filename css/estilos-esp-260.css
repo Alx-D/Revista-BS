@@ -41,6 +41,8 @@ a {
   --gris-claro: #e6e6de;
   --gris-medio: #bbbbae;
   --gris-oscuro: #6d6d70;
+  --color260-1: #1c84b7;
+  --color260-2: #e37b48;
 }
 .rojoc {background: #c3242b;}
 .rojoo {background: #a1262a;}
@@ -60,6 +62,220 @@ a {
   width: 100vw;
   max-width: 1100px;
 }
+.m-0a {
+  margin: 0 auto;
+}
+
+.portada-secc-esp {
+  background-color: var(--color260-1);
+  position: relative;
+}
+.portada-secc-esp img {
+  margin: 0 auto;
+}
+.portada-secc-esp .cbz-bx {
+  background-color: var(--color260-2);
+  color: #fff;
+  width: 65%;
+  padding: 25px 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+.portada-secc-esp .logo {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+}
+.portada-secc-esp .logo img {
+  width: 20%;
+}
+.portada-secc-esp .cbz-bx h1 {
+  font-size: 60px;
+  font-weight: 500;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--color261-1);
+}
+.portada-secc-esp .cbz-bx h3 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1;
+  text-align: center;
+  color: var(--color261-2);
+}
+.portada-secc-esp .foto {
+  margin: 0 auto;
+}
+.intro-secc-esp {
+  background-color: var(--color261-3);
+  padding: 30px 60px 40px;
+}
+.intro-secc-esp h2 {
+  font-size: 36px;
+  font-weight: 600;
+  text-align: center;
+  margin-bottom: 6px;
+  color: var(--color261-1);
+}
+.intro-secc-esp .txt-esp {
+  text-align: center;
+}
+.click {
+  background-color: #FE5E41;
+  font-size: 17px;
+  font-weight: 600;
+  color: white;
+  width: fit-content;
+  padding: 15px 20px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+
+@media screen and (max-width: 1024px) {
+  .portada-secc-esp .logo img {
+    width: 22%;
+  }
+  .portada-secc-esp .cbz-bx {
+    width: 60%;
+  }
+  .portada-secc-esp .cbz-bx h1 {
+    font-size: 56px;
+  }
+  .portada-secc-esp .cbz-bx h3 {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 920px) {
+  .portada-secc-esp .logo {
+    font-size: 18px;
+  }
+  .portada-secc-esp .logo img {
+    width: 24%;
+  }
+  .portada-secc-esp .cbz-bx {
+    width: 60%;
+    padding: 20px 0 10px;
+  }
+  .portada-secc-esp .cbz-bx h1 {
+    font-size: 48px;
+    margin-top: -8px;
+  }
+  .portada-secc-esp .cbz-bx h3 {
+    font-size: 25px;
+    margin-top: -4px;
+  }
+  .intro-secc-esp {
+    padding-top: 25px;
+    padding-bottom: 10px;
+  }
+}
+@media screen and (max-width: 820px){
+  .portada-secc-esp .logo img {
+    width: 24%;
+  }
+  .portada-secc-esp .cbz-bx {
+    width: 62%;
+  }
+  .portada-secc-esp .cbz-bx h1 {
+    font-size: 46px;
+  }
+  .portada-secc-esp .cbz-bx h3 {
+    font-size: 24px;
+  }
+  .intro-secc-esp h2 {
+    font-size: 33px;
+  }
+  .click {
+    font-size: 16px;
+    padding: 12px 15px;
+  }
+}
+@media screen and (max-width: 780px){
+  .portada-secc-esp .logo img {
+    width: 24%;
+  }
+  .portada-secc-esp .logo {
+    font-size: 17px;
+  }
+  .portada-secc-esp .cbz-bx {
+    width: 64%;
+  }
+  .portada-secc-esp .cbz-bx h1 {
+    font-size: 43px;
+  }
+  .portada-secc-esp .cbz-bx h3 {
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 680px){
+  .portada-secc-esp .logo img {
+    width: 26%;
+  }
+  .portada-secc-esp .logo {
+    font-size: 2.4vw;
+  }
+  .portada-secc-esp .cbz-bx {
+    width: 64%;
+    padding: 15px 0 7px;
+  }
+  .portada-secc-esp .cbz-bx h1 {
+    font-size: 5.8vw;
+  }
+  .portada-secc-esp .cbz-bx h3 {
+    font-size: 3.2vw;
+  }
+  .intro-secc-esp {
+    padding: 25px 40px 30px;
+  }
+  .intro-secc-esp h2 {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .click {
+    font-size: 15px;
+    padding: 10px 15px;
+  }
+}
+@media screen and (max-width: 480px){
+  .portada-secc-esp .cbz-bx {
+    padding: 10px 0 5px;
+  }
+  .portada-secc-esp .cbz-bx h1 {
+    margin-top: -4px;
+  }
+  .portada-secc-esp .cbz-bx h3 {
+    margin-top: -2px;
+  }
+  .intro-secc-esp {
+    padding: 20px 30px 25px;
+  }
+  .intro-secc-esp h2 {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 420px){
+  .intro-secc-esp h2 {
+    font-size: 24px;
+  }
+  .click {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
+}
+@media screen and (max-width: 360px){
+  .intro-secc-esp h2 {
+    font-size: 20px;
+  }
+  .intro-secc-esp {
+    padding: 20px 25px 0px;  }
+}
+
 
 /* HEADER */
 header{

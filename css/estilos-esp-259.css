@@ -865,11 +865,11 @@ footer{
     transition: 1s;
   }
   .menu-mobile ul {
-    padding: 40px;
+    padding: 30px;
   }
   .menu-mobile li {
     display: block;
-    margin-bottom: 25px;
+    margin-bottom: 17px;
   }
   .menu-mobile .fas {
     display: block;
