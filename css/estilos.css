@@ -193,10 +193,6 @@ header {
   text-transform: uppercase;
   color: #000100;
 }
-.colab-ind{
-  border: 1px var(--verde-logo-1);
-  border-radius: 5px;
-}
 /* POP UP */
 .popup{
   width: 700px;
@@ -204,9 +200,7 @@ header {
   position: absolute;
   left: 50%;
   top: 70px;
-  /* top: 50%; */
   transform: translate(-50%, 0%);
-  /* transform: translate(-50%,-50%); */
   display: none;
   z-index: 100;
   border-radius: 10px;
@@ -218,9 +212,9 @@ header {
   width: 95%;
 }
 .popup button{
+  font-size: 30px;
   width: 40px;
   height: 40px;
-  font-size: 30px;
   display: block;
   margin:  0 0 10px auto;
   background-color: transparent;
@@ -232,28 +226,51 @@ header {
   cursor: pointer;
 }
 .popup button::before{
+  position: absolute;
   content: 'CERRAR';
   display: inline-block;
   font-family: "Nunito Sans", sans-serif;
   font-size: 14px;
-  color: #03549a;
-  position: absolute;
   top: 10px;
-  right: 50px;
+  /* right: 50px; */
+  right: 7%;
+  color: #03549a;
   /* margin-left: -80px; */
 }
-@media screen and (max-width:480px) {
+@media screen and (max-width:699px) {
   .popup{
     width: 85%;
   }
   .popup button{
-    margin:  0 0 5px auto;
     font-size: 15px;
-    border-radius: 100%;
     width: 30px;
     height: 30px;
+    margin: 0 0 5px auto;
+  }
+  .popup button::before{
+    font-size: 12px;
+    top: 8px;
+    right: 35px;
   }
 }
+@media screen and (max-width:480px) {
+  .popup button{
+    font-size: 12px;
+    width: 25px;
+    height: 25px;
+  }
+  .popup button::before{
+    font-size: 10px;
+    top: 8px;
+    right: 30px;
+  }
+}
+
+/* .pleca{
+  height: 15px;
+  background-color: var(--naranja-claro);
+  margin-bottom: 30px;
+} */
 
 /* COVID PREV */
 .covid-preventivo {
@@ -1585,7 +1602,7 @@ header {
 }
 .foto-cnt-pie figcaption {
   float: right;
-  padding: 20px;
+  padding: 25px;
   align-self: center;
 }
 .pie {

@@ -1,80 +1,93 @@
 <!DOCTYPE html>
 <html lang="es">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/estilos.css">
-    <meta name="description" content="Artículos sobre el cuidado de la salud y prevención de enfermedades">
-    <meta name="keywords"
-      content="salud, saludable, vida, cuidado, bienestar, prevención, enfermedades, nutrición, psicología, niños, familia, adultos mayores, femeson, sonora">
-    <link rel="icon" type="image/png" href="../imgs/Revista_BS_favicon.png">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap" rel="stylesheet">
-    <link
-      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,300;0,400;1,400&display=swap"
-      rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap"
-      rel="stylesheet">
-    <script src="https://kit.fontawesome.com/7c1b686291.js" crossorigin="anonymous"></script>
-    <title>Revista BS</title>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/estilos.css">
+  <link rel="stylesheet" href="/css/all.min.css">
+  <meta name="description" content="Artículos sobre el cuidado de la salud y prevención de enfermedades">
+  <meta name="keywords"
+    content="salud, saludable, vida, cuidado, bienestar, prevención, enfermedades, nutrición, psicología, niños, familia, adultos mayores, femeson, sonora">
+  <link rel="icon" type="image/png" href="../imgs/Revista_BS_favicon.png">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,300;0,400;1,400&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+    rel="stylesheet">
+
+  <title>Revista BS | Salud para vivir con sentido</title>
+</head>
 
 <body>
-  <header class="contenedor" >
+  <header class="contenedor">
 
     <!-- HEADER MOBILE -->
-    <div class="header-cont-mobile">
+    <div class="header-mobile-cont">
 
-      <i class="fas fa-bars" onclick="showMenu()"></i>
+      <div class="header-mobile-row-1">
+        <i class="fas fa-bars" onclick="showMenu()"></i>
 
-      <div class="logo-mobile-bx">
-        <a href="index.html">
-          <img src="/imgs/Revista-BS-logo-m.png">
-        </a>
+        <div class="logo-mobile-bx">
+          <a href="/index.html">
+            <img src="/imgs/Revista-BS-logo-m.png">
+          </a>
+        </div>
+
+        <i class="fas fa-search"></i>
       </div>
+
       <div class="lema-mobile-bx">
-        <img src="imgs/lema.png">
+        <img src="/imgs/lema.png">
       </div>
 
-      <i class="fas fa-search"></i>
-
-      <p class="f1 header-leyenda-femeson">Órgano de vinculación y divulgación de la Federación Médica de Sonora</p>
+      <nav>
+        <div class="menu-mobile" id="menu-enlaces">
+          <i class="fas fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Revista</a></li>
+            <li><a href="#">Artículos por tema</a></li>
+            <li><a href="#">Directorio médico</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </div>
+      </nav>
     </div>
 
     <!-- HEADER DESKTOP -->
     <div class="header-cont">
+
       <div class="header-col-izq">
         <div class="revista-bs-logo-bx">
-          <a href="index.html">
+          <a href="/index.html">
             <img class="logo-header" src="/imgs/Revista-BS-logo-header.png" alt="Revista BS">
           </a>
         </div>
       </div>
 
-      <i class="fas fa-search"></i>
-
       <div class="header-col-der">
-
         <div class="header-row-1">
-
           <div class="facebook">
-            <a class="f1" href="https://www.facebook.com/RevistaBS" target="_blank">
+            <a class="f1" href="https://www.facebook.com">
               <i class="fab fa-facebook fa-lg"></i> Revista BS
-            </a></div>
-
-          <div class="femeson-logo-bx"><img src="/imgs/femeson-escudo.png" alt=""></div>
+            </a>
+          </div>
+          <p class="f2 femeson-leyenda">Órgano de vinculación y divulgación de <br> la Federación Médica de Sonora</p>
+          <div class="femeson-logo-bx">
+            <img src="/imgs/femeson-escudo.png" alt="">
+          </div>
         </div>
 
         <div class="header-row-2">
-
           <div class="lema-bx">
             <img src="/imgs/lema.png">
           </div>
-
           <div id="buscador">
             <form>
               <input type="text" placeholder="Buscar">
@@ -83,15 +96,12 @@
         </div>
 
         <nav>
-          <div class="menu" id="menu-enlaces">
-            <i class="fas fa-times" onclick="hideMenu()"></i>
+          <div class="menu-desktop">
             <ul>
               <li><a href="#">Inicio</a></li>
               <li><a href="#">Revista</a></li>
               <li><a href="#">Artículos por tema</a></li>
-              <li><a href="#">Artículos por especialidad médica</a></li>
               <li><a href="#">Directorio médico</a></li>
-              <li><a href="#">Femeson</a></li>
               <li><a href="#">Contacto</a></li>
             </ul>
           </div>
@@ -102,226 +112,230 @@
     </div>
   </header>
 
-    <!-- BANNER HORIZONTAL -->
-    <div class="banner-horizontal-1100x122">
-        <a href="https://www.hospitalsanjosehermosillo.com/" target="blank"><img src="../imgs/Hospital-San-Jose.jpg"
-                width="1100px" height="122px" alt=""></a>
-    </div>
+  <!-- BANNER HORIZONTAL -->
+  <div class="contenedor bnr-hz-01">
+    <a href="https://hondapremium.com/" target="blank"><img src="/imgs/Honda-diciembre-2020.png"></a>
+  </div>
 
-    <article id="col-60">
-        <div class="f2 ceja-gde morado">ADULTOS MAYORES</div>
-        <p class="f1 fecha">Enero 2021</p>
+  <div class="contenedor m-0a nota-bx">
+    <article class="col-64">
+      <div class="f2 ceja-gde morado">ADULTOS MAYORES</div>
+      <p class="f1 fecha">Enero 2021</p>
 
-        <h1 class="cabeza">Para abrazarlos otra vez</h1>
+      <p class="f1 balazo-1"></p>
+      <h1 class="f2 cabeza-1">Para abrazarlos otra vez</h1>
+      <p class="f1 sumario-1">El 24 de diciembre de 2020 arrancó el programa de vacunación contra Covid-19 en México,
+        entérese de lo que hay que saber respecto a la inmunización</p>
 
-        <p class="sumario">El 24 de diciembre de 2020 arrancó el programa de vacunación contra Covid-19 en México,
-            entérese de lo que hay que saber respecto a la inmunización</p>
+      <figure class="foto-nota-top-bx">
+        <img src="/2021/01/imgs/248-Redaccion-VACUNA-COVID-1.jpg" alt="">
+      </figure>
 
-        <figure class="foto-notatop">
-            <img src="/2021/01/imgs/248-Redaccion-VACUNA-COVID-1.jpg" alt="">
-        </figure>
+      <!-- COMPARTIR -->
+      <div class="compartir-bx">
+        <i class="fa fa-share"></i>
+        <p class="f1 compartir"> Compartir</p>
+        <a href="#" class="fab fa-whatsapp whatsapp-compartir" title="Enviar por Whatsapp"></a>
+        <a href="#" class="fab fa-facebook fa-lg facebook-compartir" title="Compartir en Facebook"></a>
+        <a href="#" class="fas fa-envelope envelope-compartir" title="Enviar por correo electrónico"></a>
+        <a href="#" class="fas fa-link link-compartir" title="Copiar enlace"></a>
+      </div>
 
-        <!-- COMPARTIR -->
-        <div class="barra-compartir-bx">
-            <i class="fa fa-share"></i>
-            <p class="f1 compartir"> Compartir</p>
+      <!-- CREDITO REDACCION-->
+      <div class="credito-rd-bx">
+        <p class="f1 credito-autor"><strong>Redacción BS</strong><br>
+          <a href="mailto:edicionrevistabs@gmail.com"><i>edicionrevistabs@gmail.com</i></a>
+        </p>
+      </div>
 
-            <a href="#" class="fab fa-whatsapp whatsapp-compartir" title="Enviar por Whatsapp"></a>
+      <div class="texto">
+        <p>Las vacunas contra Covid-19 son la esperanza en el horizonte para salir de la pandemia
+          que
+          ha azotado al mundo por cerca de un año, no obstante, al tratarse de un tema de salud, no están exentas
+          de
+          generar inquietudes.</p>
+        <p>En México, a enero de 2021, ya fueron aprobadas por la Comisión Federal para la
+          Protección
+          contra Riesgos Sanitarios (Cofepris) dos vacunas: Pfizer/BioNTech y la hecha por la Universidad de
+          Oxford y
+          AstraZeneca.</p>
+        <p>Mayo Clinic publicó recientemente en su sitio Web una guía con información relevante
+          sobre
+          las vacunas contra SARS-CoV-2, aquí le presentamos los puntos más importantes para México.</p>
 
-            <a href="#" class="fab fa-facebook fa-lg facebook-compartir" title="Compartir en Facebook"></a>
+        <p class="descanso">Beneficios</p>
+        <p>Ya que no existe una forma de saber cómo reaccionará cada individuo ante el Covid-19, y
+          los
+          casos más graves terminan en defunción; además del riesgo siempre latente de contagiar a la familia,
+          amigos
+          y otras personas cercanas, el principal beneficio de vacunarse es crear anticuerpos contra Covid-19, sin
+          necesidad de enfermarse.</p>
+        <p>La vacuna puede evitar que enferme, o bien, en caso de contagio, evitar un cuadro
+          grave.
+          Además, la inmunización ayuda a proteger a las personas que están cerca de contagiarse, esto es
+          especialmente importante para la población en riesgo de desarrollar complicaciones.</p>
 
-            <a href="#" class="fas fa-envelope envelope-compartir" title="Enviar por correo electrónico"></a>
+        <p class="descanso">Funcionamiento</p>
+        <p>Ambas vacunas aceptadas en México hasta el momento (enero de 2021) tienen una capacidad
+          de
+          proteger contra el SARS-CoV-2 de hasta 95%.</p>
+        <p>La vacuna de Pfizer no contiene versiones debilitadas o muertas del virus, sino se
+          compone
+          por ácido ribonucleico mensajero (ARNm). Es decir, que se introduce el contenido genético del
+          coronavirus a
+          través del ARNm, generando así que el sistema inmune tenga la información suficiente para combatir la
+          enfermedad (Infobae).</p>
 
-            <a href="#" class="fas fa-link link-compartir" title="Copiar enlace"></a>
+        <div class="rc-color rc-der azulc">
+          <p class="f2 rc-color-cbz-1r" style="color: #fff;">No baje la guardia</p>
+          <ul class="rc-color-lista">
+            <li>Recomendaciones de higiene y distanciamiento continúan</li>
+            <li><b>Ojo:</b> puede infectarse antes de generar inmunidad</li>
+            <li>Continúe el lavado frecuente de manos y distancia social</li>
+            <li>Evite asistir a lugares concurridos y utilice cubrebocas</li>
+            <li>Si presenta síntomas respiratorios, quédese en casa</li>
+          </ul>
         </div>
 
-        <div class="credito-bx"><p class="f1 credito-autor"><strong>Redacción BS</strong></p></div>
+        <p>Por su parte, la vacuna de AstraZeneca se basa en un virus de gripe común que fue
+          genéticamente modificado, así el organismo reconoce al SARS-CoV-2 como amenaza (Infobae). Ambas vacunas
+          requieren dos dosis que se aplican con 21 días de diferencia.</p>
 
-        <div class="texto">
-            <p>Las vacunas contra Covid-19 son la esperanza en el horizonte para salir de la pandemia
-                que
-                ha azotado al mundo por cerca de un año, no obstante, al tratarse de un tema de salud, no están exentas
-                de
-                generar inquietudes.</p>
-            <p>En México, a enero de 2021, ya fueron aprobadas por la Comisión Federal para la
-                Protección
-                contra Riesgos Sanitarios (Cofepris) dos vacunas: Pfizer/BioNTech y la hecha por la Universidad de
-                Oxford y
-                AstraZeneca.</p>
-            <p>Mayo Clinic publicó recientemente en su sitio Web una guía con información relevante
-                sobre
-                las vacunas contra SARS-CoV-2, aquí le presentamos los puntos más importantes para México.</p>
+        <p class="descanso">Seguridad</p>
+        <p>Una de las principales preocupaciones ante la inmunización es si puede transmitir la
+          enfermedad o si puede producir efectos secundarios.</p>
+        <p>Como se describió arriba, ninguna de las vacunas contiene virus activos, por lo que no
+          es
+          posible que provoque la enfermedad. Pero hay que tomar en cuenta que tarda algunas semanas que el cuerpo
+          genere inmunidad después de la aplicación de la vacuna, entonces usted puede infectarse de Covid-19
+          justo
+          antes o después de haber recibido la vacuna. Por ello es importante no bajar la guardia con las medidas
+          de
+          higiene y seguridad.</p>
+        <p>En cuanto a los efectos secundarios se encuentran dolor y enrojecimiento del área donde
+          se
+          aplicó la vacuna, fiebre, fatiga, dolor de cabeza, dolor muscular o articular y escalofríos.</p>
+        <p>Al aplicar la vacuna, se le dará un seguimiento por un lapso de 30 minutos para estar
+          al
+          pendiente de reacciones inmediatas. Generalmente los efectos secundarios aparecen en los primeros tres
+          días
+          tras la vacuna y suelen durar uno o dos días.</p>
+        <p>Ya que las vacunas pueden ocasionar efectos secundarios similares a los síntomas de
+          Covid-19, si ha estado expuesto a alguien con diagnóstico positivo y usted presenta síntomas más de tres
+          días después de haberse vacunado o con duración de más de dos días, aíslese y hágase una prueba
+          diagnóstica.
+        </p>
 
-            <p class="descanso">Beneficios</p>
-            <p>Ya que no existe una forma de saber cómo reaccionará cada individuo ante el Covid-19, y
-                los
-                casos más graves terminan en defunción; además del riesgo siempre latente de contagiar a la familia,
-                amigos
-                y otras personas cercanas, el principal beneficio de vacunarse es crear anticuerpos contra Covid-19, sin
-                necesidad de enfermarse.</p>
-            <p>La vacuna puede evitar que enferme, o bien, en caso de contagio, evitar un cuadro
-                grave.
-                Además, la inmunización ayuda a proteger a las personas que están cerca de contagiarse, esto es
-                especialmente importante para la población en riesgo de desarrollar complicaciones.</p>
+        <p class="descanso">Precauciones</p>
+        <p>Existen algunos grupos poblacionales que pueden sentir incertidumbre respecto a si
+          deben o
+          no optar por vacunarse, entre ellos están personas con alergias a vacunas o medicamentos y embarazadas.
+        </p>
+        <p>Quienes tienen antecedentes de reacciones alérgicas graves que no están relacionadas a
+          vacunas u otros medicamentos inyectables, pueden vacunarse y deben ser monitoreados por 30 días.</p>
 
-            <p class="descanso">Funcionamiento</p>
-            <p>Ambas vacunas aceptadas en México hasta el momento (enero de 2021) tienen una capacidad
-                de
-                proteger contra el SARS-CoV-2 de hasta 95%.</p>
-            <p>La vacuna de Pfizer no contiene versiones debilitadas o muertas del virus, sino se
-                compone
-                por ácido ribonucleico mensajero (ARNm). Es decir, que se introduce el contenido genético del
-                coronavirus a
-                través del ARNm, generando así que el sistema inmune tenga la información suficiente para combatir la
-                enfermedad (Infobae).</p>
-
-            <div class="recuadro-color azulc">
-                <p class="f2 rc-color-cbz-1r">No baje la guardia</p>
-                <hr class="separador-blanco">
-                <ul>
-                    <li>Recomendaciones de higiene y distanciamiento continúan</li>
-                    <li><b>Ojo:</b> puede infectarse antes de generar inmunidad</li>
-                    <li>Continúe el lavado frecuente de manos y distancia social</li>
-                    <li>Evite asistir a lugares concurridos y utilice cubrebocas</li>
-                    <li>Si presenta síntomas respiratorios, quédese en casa</li>
-                </ul>
-            </div>
-
-            <p>Por su parte, la vacuna de AstraZeneca se basa en un virus de gripe común que fue
-                genéticamente modificado, así el organismo reconoce al SARS-CoV-2 como amenaza (Infobae). Ambas vacunas
-                requieren dos dosis que se aplican con 21 días de diferencia.</p>
-
-            <p class="descanso">Seguridad</p>
-            <p>Una de las principales preocupaciones ante la inmunización es si puede transmitir la
-                enfermedad o si puede producir efectos secundarios.</p>
-            <p>Como se describió arriba, ninguna de las vacunas contiene virus activos, por lo que no
-                es
-                posible que provoque la enfermedad. Pero hay que tomar en cuenta que tarda algunas semanas que el cuerpo
-                genere inmunidad después de la aplicación de la vacuna, entonces usted puede infectarse de Covid-19
-                justo
-                antes o después de haber recibido la vacuna. Por ello es importante no bajar la guardia con las medidas
-                de
-                higiene y seguridad.</p>
-            <p>En cuanto a los efectos secundarios se encuentran dolor y enrojecimiento del área donde
-                se
-                aplicó la vacuna, fiebre, fatiga, dolor de cabeza, dolor muscular o articular y escalofríos.</p>
-            <p>Al aplicar la vacuna, se le dará un seguimiento por un lapso de 30 minutos para estar
-                al
-                pendiente de reacciones inmediatas. Generalmente los efectos secundarios aparecen en los primeros tres
-                días
-                tras la vacuna y suelen durar uno o dos días.</p>
-            <p>Ya que las vacunas pueden ocasionar efectos secundarios similares a los síntomas de
-                Covid-19, si ha estado expuesto a alguien con diagnóstico positivo y usted presenta síntomas más de tres
-                días después de haberse vacunado o con duración de más de dos días, aíslese y hágase una prueba
-                diagnóstica.
-            </p>
-
-            <p class="descanso">Precauciones</p>
-            <p>Existen algunos grupos poblacionales que pueden sentir incertidumbre respecto a si
-                deben o
-                no optar por vacunarse, entre ellos están personas con alergias a vacunas o medicamentos y embarazadas.
-            </p>
-            <p>Quienes tienen antecedentes de reacciones alérgicas graves que no están relacionadas a
-                vacunas u otros medicamentos inyectables, pueden vacunarse y deben ser monitoreados por 30 días.</p>
-
-            <figure class="foto-nota">
-                <img src="/2021/01/imgs/248-Redaccion-VACUNA-COVID-2.jpg" alt="">
-            </figure>
-
-            <p>Personas con reacción alérgica grave a otras vacunas o a medicamentos inyectables deben
-                consultar con su médico si pueden recibir la inmunización. Quienes son alérgicos a los polisorbatos no
-                deben
-                recibir la vacuna de ARNm, es decir, la de Pfizer.</p>
-            <p>Las gestantes o lactantes deben consultar con su médico riesgos y beneficios de ser
-                vacunadas; si se encuentran dentro de los grupos a los que se recomienda vacunar, pueden optar por
-                recibir
-                la inmunización.</p>
-            <p>Ya que las vacunas no se han probado en menores de 18 años, en unos casos, y en menores
-                de
-                16, en el caso de la BioNTech de Pfizer, los menores de esa edad no deben recibir la vacuna, pues aún no
-                hay
-                información sólida en cuanto a la seguridad para ese grupo poblacional.</p>
-
-            <p class="descanso">Ya tuve Covid</p>
-            <p>Haber tenido la enfermedad ofrece cierta inmunidad natural ante la reinfección, aún no
-                se
-                determina cuánto dura tal protección. Ya que una reinfección puede causar complicaciones graves, quienes
-                tuvieron Covid-19 deben vacunarse. Pueden hacerlo hasta 90 días después del diagnóstico, periodo poco
-                probable de reinfección. <i class="fas fa-square"></i></p>
-
-            <p class="f2 fuente">Fuentes: Mayo Clinic, Infobae</p>
+        <div class="foto-izq">
+          <figure>
+            <img src="/2021/01/imgs/248-Redaccion-VACUNA-COVID-2.jpg" alt="">
+          </figure>
         </div>
+
+        <p>Personas con reacción alérgica grave a otras vacunas o a medicamentos inyectables deben
+          consultar con su médico si pueden recibir la inmunización. Quienes son alérgicos a los polisorbatos no
+          deben
+          recibir la vacuna de ARNm, es decir, la de Pfizer.</p>
+        <p>Las gestantes o lactantes deben consultar con su médico riesgos y beneficios de ser
+          vacunadas; si se encuentran dentro de los grupos a los que se recomienda vacunar, pueden optar por
+          recibir
+          la inmunización.</p>
+        <p>Ya que las vacunas no se han probado en menores de 18 años, en unos casos, y en menores
+          de
+          16, en el caso de la BioNTech de Pfizer, los menores de esa edad no deben recibir la vacuna, pues aún no
+          hay
+          información sólida en cuanto a la seguridad para ese grupo poblacional.</p>
+
+        <p class="descanso">Ya tuve Covid</p>
+        <p>Haber tenido la enfermedad ofrece cierta inmunidad natural ante la reinfección, aún no
+          se
+          determina cuánto dura tal protección. Ya que una reinfección puede causar complicaciones graves, quienes
+          tuvieron Covid-19 deben vacunarse. Pueden hacerlo hasta 90 días después del diagnóstico, periodo poco
+          probable de reinfección.&nbsp;<i class="fas fa-square"></i></p>
+
+        <p class="f2 txt-fuente">Fuentes: Mayo Clinic, Infobae</p>
+      </div>
     </article>
 
-    <!-- ASIDE -->
+    <!-- ASIDE NOTA -->
     <aside class="col-40">
-        <!-- AJUSTE ALTURA -->
-        <div class="ajuste-altura-0001"></div>
 
-        <!-- BANNER VERTICAL -->
-        <div class="banner-vertical-300x300">
-            <a href="#">
-                <img src="../imgs/Hospital-GobEdo.png" width="300" height="300px">
-            </a>
+      <!-- BANNERS ASIDE -->
+      <div class="aside-bnrs-up">
+        <div class="bnr-250x250">
+          <a href="#">
+            <img src="/imgs/Hospital-GobEdo.png">
+          </a>
+        </div>
+      </div>
+
+      <!-- TEMAS DE INTERES -->
+      <div id="interes">
+        <hr style="border-top: 4px solid">
+        <p class="f2 indicador interes-ind-a">TEMAS DE INTERÉS</p>
+
+        <div class="interes-item">
+          <a href="#">
+            <img src="/2021/01/imgs/248-MNC-Lillian-Figueroa-ALIMENTOS-ORGANICOS-1.jpg" alt="">
+            <p>Alimentos orgánicos por su salud y el medio ambiente</p>
+          </a>
         </div>
 
-        <!-- TEMAS DE INTERES -->
-        <div id="interes">
-            <hr style="border-top: 4px solid">
-            <p class="f2 indicador interes-indicador-ajuste">TEMAS DE INTERÉS</p>
-
-            <div class="interes-item">
-                <a href="#">
-                    <img src="../2021-01/imgs/248-Lillian-Figueroa-ALIMENTOS-ORGANICOS-1-th.jpg" alt="">
-                    <p>Alimentos orgánicos por su salud y el medio ambiente</p>
-                </a>
-            </div>
-
-            <div class="interes-item">
-                <a href="#">
-                    <img src="../2021-01/imgs/248-Dra-Ana-Martinez-Ayala-ENT-TERCERA-EDAD-1-th.jpg" alt="">
-                    <p>ENT y tercera edad: Contra el reloj</p>
-                </a>
-            </div>
-
-            <div class="interes-item">
-                <a href="#">
-                    <img src="../2021-01/imgs/248-Dr-Mario-Alvarez-Bojorquez-HABITOS-CIRUGIA-1-th.jpg" alt="">
-                    <p>Buscando las mejores condiciones en caso de cirugía oncológica</p>
-                </a>
-            </div>
-
-            <div class="interes-item">
-                <a href="#">
-                    <img src="../2021-01/imgs/248-Redaccion-BS-ENFERMEDADES-RESPIRATORIAS-2-th.jpg" alt="">
-                    <p>En enfermedades respiratorias distinguir es la clave</p>
-                </a>
-            </div>
+        <div class="interes-item">
+          <a href="#">
+            <img src="/2021/01/imgs/248-Dra-Ana-Martinez-ENT-TERCERA-EDAD-1.jpg" alt="">
+            <p>ENT y tercera edad: Contra el reloj</p>
+          </a>
         </div>
 
-        <!-- BANNERS VERTICALES -->
-        <div class="banner-vertical-300x300">
-            <a href="#">
-                <img src="../imgs/Hospital-GobEdo.png" width="300" height="300px">
-            </a>
+        <div class="interes-item">
+          <a href="#">
+            <img src="/2021/01/imgs/248-Dr-Mario-Alvarez-HABITOS-CIRUGIA-1.jpg" alt="">
+            <p>Buscando las mejores condiciones en caso de cirugía oncológica</p>
+          </a>
         </div>
 
-        <div class="banner-vertical-300x300">
-            <a href="#">
-                <img src="../imgs/Hospital-GobEdo.png" width="300" height="300px">
-            </a>
+        <div class="interes-item">
+          <a href="#">
+            <img src="/2021/01/imgs/248-Redaccion-ENFERMEDADES-RESPIRATORIAS-1.jpg" alt="">
+            <p>En enfermedades respiratorias distinguir es la clave</p>
+          </a>
         </div>
+      </div>
+
+      <!-- BANNERS ASIDE -->
+      <div class="aside-bnrs-stic">
+        <div class="bnr-vl-250x250 mb-70">
+          <a href="#">
+            <img src="/imgs/Hospital-GobEdo.png">
+          </a>
+        </div>
+
+        <div class="bnr-vl-250x250">
+          <a href="#">
+            <img src="/imgs/Hospital-GobEdo.png">
+          </a>
+        </div>
+      </div>
     </aside>
+  </div>
 
-    <div class="clear"></div>
+  <div class="clear" style="margin-bottom: 70px;"></div>
 
-    <!-- BANNER HORIZONTAL -->
-    <div class="banner-horizontal-1100x122">
-        <a href="https://www.hospitalsanjosehermosillo.com/" target="blank"><img src="../imgs/Hospital-San-Jose.jpg"
-                width="1100px" height="122px" alt=""></a>
-    </div>
+  <!-- BANNER HORIZONTAL -->
+  <div class="contenedor bnr-hz-01" style="margin-top: 20px">
+    <a href="https://www.hospitalsanjosehermosillo.com/" target="blank"><img src="/imgs/Hospital-San-Jose.jpg"></a>
+  </div>
 
-    <div class="altura-ajuste-footer"></div>
+  <div class="altura-ajuste-footer"></div>
 
   <!-- FOOTER -->
   <footer>
@@ -333,10 +347,10 @@
       <div class="contenedor footer-cont">
 
         <div class="footer-col-1">
-          <a class="footer-BSlogo-bx" href="/index.html"><img src="/imgs/Revista-BS-logo-footer.png"></a>
+          <div class="footer-BSlogo-bx"><img src="/imgs/Revista-BS-logo-footer.png"></div>
 
           <div class="btn-siganos-pr">
-            <a href="https://www.facebook.com/RevistaBS" target="_blank">
+            <a href="#">
               <p><strong>Síganos en</strong></p>
               <p><i class="fab fa-facebook"></i> Revista BS</p>
             </a>
@@ -345,11 +359,14 @@
 
         <div class="f1 footer-col-2">
           <p class="anunciese"><strong>Anúnciese con nosotros</strong></p>
-          <a class="footer-tel" href="tel:6622362500"><i class="fas fa-phone-alt footer-icon">&nbsp;</i> (662) 236 2500</a>
+          <p class="footer-tel">
+            <i class="fas fa-phone-alt footer-icon">&nbsp;</i>(662) 236 25 00
+          </p>
           <a class="footer-email" href="mailto:publicidad@buenasalud.org">
-            <i class="fas fa-envelope footer-icon">&nbsp;</i>publicidad@buenasalud.org      </a>
-          <p class="footer-direccion" ><i class="fas fa-map-marker-alt footer-icon">&nbsp;</i>Quinta Mayor 181 Col. Las Quintas, Hermosillo, Sonora, México CP 83240</p>
-          </div>
+            <i class="fas fa-envelope footer-icon">&nbsp;</i>publicidad@buenasalud.org </a>
+          <p class="footer-direccion"><i class="fas fa-map-marker-alt footer-icon">&nbsp;</i>Quinta Mayor 181 Col. Las
+            Quintas, Hermosillo, Sonora, México CP 83240</p>
+        </div>
 
         <div class="f1 footer-col-3">
           <p><strong>©2021 Revista BS <br> Todos los derechos reservados</strong></p>
@@ -360,7 +377,7 @@
         </div>
 
         <div class="btn-siganos">
-          <a href="https://www.facebook.com/RevistaBS" target="_blank">
+          <a href="#">
             <p><strong>Síganos en</strong></p>
             <p><i class="fab fa-facebook"></i> Revista BS</p>
           </a>
@@ -373,7 +390,6 @@
       </div>
 
     </div>
-
     <div class="wid"></div>
   </footer>
 </body>
