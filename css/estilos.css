@@ -295,7 +295,7 @@ header {
   color: white;
   text-align: center;
 }
-/* 1MES Preventivos */
+/* 1MES PREVENTIVOS */
 .cont-mes1 {
   display: flex;
   justify-content: space-between;
@@ -339,7 +339,7 @@ header {
   line-height: 1.3;
   font-weight: 600;
 }
-/* 1MES Nota */
+/* 1MES NOTA */
 .col2-mes1 {
   flex-basis: 54%;
   transition: all 400ms;
@@ -386,7 +386,7 @@ header {
   line-height: 1.4;
   color: black;
 }
-/* ESTE MES Banners verticales */
+/* ESTE MES BANNERS */
 /* 250x250 */
 .col3-mes1 {
   flex-basis: 23%;
@@ -489,7 +489,7 @@ header {
 .autor-card span{
   font-weight: 700;
 }
-/* ARTICULOS Aside */
+/* ARTICULOS ASIDE */
 .col2-art1 {
   flex-basis: 27%;
   display: flex;
@@ -526,7 +526,7 @@ header {
   color: black;
   padding: 13px 55px 13px 15px;
 }
-/* 1ESPECIAL INICIO */
+/* 1ESPECIAL INICIO MEDIAS SCREEN AQUI MISMO*/
 #esp1 {
   width: 98vw;
   margin-bottom: 50px;
@@ -593,7 +593,6 @@ header {
 .item-esp1 span:hover {
   color: #40a091;
 }
-
 .br-none {
   display: none;
 }
@@ -755,7 +754,7 @@ header {
     display: inline;
   }
 }
-/* ESPECIAL FIN */
+/* 1ESPECIAL FIN */
 
 /* 1VIDEOS */
 #vid1 {
@@ -833,7 +832,7 @@ header {
   line-height: 1.2;
 }
 
-/* 1EDICIONES CARRUSEL */
+/* 1CARRUSEL */
 #edcr1 {
   margin: 0 auto 50px;
 }
@@ -906,8 +905,6 @@ header {
 }
 .cbz-ev1-bx {
   width: 100%;
-  /* display: flex; */
-  /* REVISAR SI ES NECESARIO DISP FLX */
 }
 .cbz-ev1 {
   font-size: 18px;
@@ -919,7 +916,6 @@ header {
   font-size: 32px;
   font-weight: bold;
 }
-
 /* .card-ev1:nth-child(2) {
   margin-bottom: 10px;
 } */
@@ -981,7 +977,6 @@ header {
 .card-corto1-carr figcaption:hover {
   color: slategrey;
 }
-
 /* 1FOOTER */
 .footer-row-1 {
   width: 100vw;
@@ -1113,7 +1108,7 @@ header {
 .duarte-firma a {
   color: #fff;
 }
-/* -- 1ALNZ -- */
+/* -- ALNZ INICIO -- */
 .cont-alnz {
   display: flex;
   flex-wrap: wrap;
@@ -1219,10 +1214,9 @@ header {
     margin-right: 0px;
   }
 }
-/* ------------------------------
------------------------------- */
+/* ALNZ FIN */
 
-/* 1NOTAS */
+/* NOTAS */
 .nota-bx {
   display: grid;
   grid-template-columns: 60% 40%;
@@ -1236,7 +1230,7 @@ header {
   width: 100%;
   position: relative;
 }
-/* 1CABEZA NOTA */
+/* CABEZA NOTA */
 .ceja-gde {
   font-size: 16px;
   line-height: 1.2;
@@ -1457,7 +1451,7 @@ header {
   margin-top: 25px;
   line-height: 1;
 }
-/* 1RECUADROS COLOR Y GRIS*/
+/* RECUADROS COLOR Y GRIS*/
 .noneup680 {
   display: none;
 }
@@ -1551,7 +1545,7 @@ header {
   line-height: 1;
   margin-top: 15px;
 }
-/* 1FOTOS NOTA */
+/* FOTOS NOTA */
 .foto-izq{
   width: 45%;
   float: left;
@@ -1643,65 +1637,9 @@ th {
     overflow-x: auto;
   }
 }
-/* 1ASIDE NOTA  */
-.aside-bnrs-up {
-  float: right;
-  width: 75%;
-  margin-top: 50px;
-}
-.aside-bnrs-stic {
-  float: right;
-  width: 75%;
-  margin-top: 50px;
-  position: sticky;
-  top: 40px;
-}
-/* TEMAS DE INTERES */
-#interes {
-  width: 70%;
-  float: right;
-  margin-top: 30px;
-  margin-bottom: 100px;
-}
-.interes-ind-a {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-.interes-item {
-  width: 100%;
-}
-.interes-item img {
-  width: 100%;
-}
-.interes-item p {
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 18px;
-  line-height: 1.4;
-  font-weight: 600;
-  margin-top: 5px;
-  margin-bottom: 40px;
-}
-.interes-item:hover {
-  transform: translateY(-2%);
-}
-.interes-item p:hover {
-  color: slategrey;
-}
+/* NOTAS FIN */
 
-/* CONTACTO-AUTOR */
-
-/* CTC EN ASIDE Y HASTA ABAJO
-.ctc {
-  width: 80%;
-  float: right;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  background: #344497;
-  padding: 25px;
-  border-radius: 0 25px 25px 25px;
-} */
-
+/* CONTACTO */
 .ctc {
   width: fit-content;
   max-width: 70%;
@@ -1771,6 +1709,62 @@ th {
   margin-bottom: 5px;
   word-break: break-all;
 }
+/* ASIDE NOTA  */
+.aside-bnrs-up {
+  float: right;
+  width: 75%;
+  margin-top: 50px;
+}
+.aside-bnrs-stic {
+  float: right;
+  width: 75%;
+  margin-top: 50px;
+  position: sticky;
+  top: 40px;
+}
+/* TEMAS DE INTERES */
+#interes {
+  width: 70%;
+  float: right;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+.interes-ind-a {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.interes-item {
+  width: 100%;
+}
+.interes-item img {
+  width: 100%;
+}
+.interes-item p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+.interes-item:hover {
+  transform: translateY(-2%);
+}
+.interes-item p:hover {
+  color: slategrey;
+}
+/* CONTACTO-AUTOR */
+/* CTC EN ASIDE Y HASTA ABAJO
+.ctc {
+  width: 80%;
+  float: right;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background: #344497;
+  padding: 25px;
+  border-radius: 0 25px 25px 25px;
+} */
 
 /* ANTERIORES */
 .anteriores {
@@ -1817,11 +1811,11 @@ th {
   .covid-preventivo p {
     font-size: 25px;
   }
-  /* 1MES Preventivos */
+  /* MES PREVENTIVOS */
   .col1-mes1 {
     flex-basis: 23%;
   }
-  /* 1MES Nota Mes */
+  /* MES NOTA */
   .col2-mes1 {
     flex-basis: 72%;
   }
@@ -1831,7 +1825,7 @@ th {
   .mes1-top-cbz {
     font-size: 45px;
   }
-  /* 1MES Bnrs verticales */
+  /* MES BANNERS  */
   /* 250x250 */
   .none-1024 {
     display: none;
@@ -1840,7 +1834,7 @@ th {
   .bnr-hz-01 {
     margin: 40px auto 50px;
   }
-  /* 1ARTICULOS */
+  /* ARTICULOS */
   /* .articulos-preventivos-cont {
     display: block
   } */
@@ -1877,7 +1871,7 @@ th {
     font-size: 17px;
     margin-bottom: 7px;
   }
-  /* 1ARTICULOS Aside */
+  /* ARTICULOS ASIDE */
   .col2-art1 {
     flex-basis: 100%;
     align-content: center;
@@ -1916,15 +1910,15 @@ th {
   .bnr-esp1 {
     display: block;
   }
-  /* 1ESPECIAL */
+  /* ESPECIAL */
   /* .sum-esp1 {
     font-size: 22px;
   } */
-  /* SALUD PARA */
+  /* SPV */
   .bnr-vl-02 {
     display: block;
   }
-  /* CARR EDICIONES */
+  /* CARRUSEL */
   .edi1-flecha-izq, .edi1-flecha-der {
     display: none;
   }
@@ -2005,20 +1999,6 @@ th {
   .lema-mobile-bx img {
     width: 100%;
   }
-  /* .header-leyenda-femeson {
-    width: 100%;
-    margin: 0 auto;
-    background: #275c6d;
-  } */
-  /* .header-leyenda-femeson p {
-    font-size: 15px;
-    line-height: 1.2;
-    font-weight: 400;
-    text-align: center;
-    padding: 5px 0 5px;
-    color: #fff;
-    text-transform: uppercase;
-  } */
   .menu-mobile {
     width: auto;
     height: 100vh;
@@ -2641,8 +2621,6 @@ th {
   .autor-card{
     margin-top: 14px;
   }
-  /* 68ESPECIAL */
-
   /* 68EVENTOS PREVENTIVOS */
   #ev1 {
     margin: 0 auto 10px;
@@ -2657,7 +2635,7 @@ th {
     width: 100%;
     margin: 0 auto 30px;
   }
-  /* 68NOTAS */
+  /* 68NOTA */
   .nota-bx {
     grid-template-columns: 100%;
   }
@@ -2673,7 +2651,7 @@ th {
     width: 70%;
     margin: 25px auto 25px;
   }
-  /* 68ASIDE NOTAS */
+  /* 68ASIDE NOTA */
   .col-40 {
     grid-column: 1/2;
   }
@@ -2849,22 +2827,6 @@ th {
     .anteriores-bx a {
     font-size: 17px;
   }
-  /* 52NOTAS-FOTOS */
-  /* .foto-izq-pie {
-    width: 100%;
-    float: none;
-    margin: 30px auto 40px;
-  }
-  .foto-der-pie {
-    width: 100%;
-    float: none;
-    margin: 30px auto 40px;
-  } */
-
-  /*QUITAR ESTE MARGIN, YA PUESTO EN 920*/
-  /* .pie {
-    margin-bottom: 15px;
-  } */
 }
 
 @media screen and (max-width: 480px) {
@@ -3079,8 +3041,7 @@ th {
   .ind-impr {
     font-size: 18px;
   }
-  /* 42ESPECIAL */
-  /* 42INFO-AUTOR */
+  /* 42CTC */
   .ctc-sobre{
     font-size: 13px;
   }
@@ -3104,14 +3065,6 @@ th {
     font-size: 15px;
     margin-bottom: 7px;
   }
-  /* .ctc-domtel {
-    text-indent: -8px;
-    margin-left: 17px;
-    font-size: 15.6px;
-    font-weight: 400;
-    color: #ffffff;
-    margin-bottom: 3.2px;
-  } */
   .ctc-correo {
     font-size: 14.5px;
   }
