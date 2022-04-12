@@ -1,30 +1,9 @@
-<!DOCTYPE html>
-<html lang="es">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/estilos.css">
-  <link rel="stylesheet" href="css/all.min.css">
-  <link rel="icon" type="image/png" href="/imgs/Revista-BS-favicon.png">
-  <meta name="description" content="Artículos sobre el cuidado de la salud y prevención de enfermedades">
-  <meta name="keywords"
-    content="salud, saludable, vida, cuidado, bienestar, prevención, enfermedades, nutrición, psicología, niños, familia, adultos mayores, sonora">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap" rel="stylesheet">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-    <!-- <script src="https://kit.fontawesome.com/7c1b686291.js" crossorigin="anonymous"></script> -->
-  <title>Revista BS | Salud para vivir con sentido</title>
-</head>
-
-<body>
-<?php include ('header.php') ?>
+<?php include 'header.php' ?>
 
   <div class="popup">
     <button id="close">&times;</button>
-    <a href="https://www.instagram.com/cdelnoroeste/?hl=es" target="_blank"><img src="ediciones/2022/02/imgs/Clinica-del-Noroeste-261.jpg" alt=""></a>
+    <a href="https://www.instagram.com/cdelnoroeste/?hl=es" target="_blank"><img src="banners/2022/Clinica-del-Noroeste-261.jpg" alt=""></a>
   </div>
 
 <script type="text/javascript">
@@ -122,7 +101,7 @@
 
   <!-- BANNER HORIZONTAL 1MES -->
   <div class="contenedor bnr-hz-01">
-    <a href="https://hondapremium.com/" target="blank"><img src="ediciones/2022/banners/Honda-diciembre-2020.png"></a>
+    <a href="https://hondapremium.com/" target="blank"><img src="banners/2022/Honda-diciembre-2020.png"></a>
   </div>
   <div class="bnr-hz-mob">Banner mobile</div>
 
@@ -166,12 +145,12 @@
         <div class="card-art1">
           <div class="f2 ceja-med" style="background: #2a6386">Salud bucal</div>
           <div class="foto-art1-bx">
-            <a href="ediciones/2022/02/261-anestesia-digital.html">
+            <a href="ediciones/2022/02/261-anestesia-digital.php">
               <img src="ediciones/2022/02/imgs/261-Dra-Yadira-Fimbres-ANESTESIA-DIGITAL-1.jpg" alt="">
             </a>
           </div>
           <div class="cbz-art1-bx">
-            <a href="ediciones/2022/02/261-anestesia-digital.html">
+            <a href="ediciones/2022/02/261-anestesia-digital.php">
               <p class="f2 blz-card-2col hv-txt-01" style="color:#40a091;">Anestesia digital</p>
               <h2 class="f1 cbz-card-2col hv-txt-01">Un poco de magia</h2>
               <p class="f1 autor-card"><span>Odont. Yadira Fimbres Fimbres</span><br>Odontopediatría</p>
@@ -235,13 +214,13 @@
         <div class="visible1024">
           <div class="bnr-vl-250x250" style="margin-right: 5%">
             <a href="#">
-              <img src="ediciones/2022/banners/Celtara 650x650 262.jpg">
+              <img src="banners/2022/Celtara-650x650-262.jpg">
             </a>
           </div>
 
           <div class="bnr-vl-250x250">
             <a href="#">
-              <img src="ediciones/2022/banners/Licona Hemodinamia 650x650 262.jpg">
+              <img src="banners/2022/Licona-Hemodinamia-650x650-262.jpg">
             </a>
           </div>
         </div>
@@ -254,7 +233,7 @@
 
   <!-- BANNER HORIZONTAL 1ESPECIAL -->
   <div class="contenedor bnr-hz-01 none-1024" style="margin-top: 20px">
-    <a href="https://www.hospitalsanjosehermosillo.com/" target="blank"><img src="ediciones/2022/banners/Hospital-San-Jose-2020.jpg"></a>
+    <a href="https://www.hospitalsanjosehermosillo.com/" target="blank"><img src="banners/2022/Hospital-San-Jose-2020.jpg"></a>
   </div>
 
 <!-- 1ESPECIAL -->
@@ -379,10 +358,6 @@
 
   <div class="clear"></div>
 
-  <div class="contenedor bnr-hz-01 bnr-esp1">
-    <a href="https://www.hospitalsanjosehermosillo.com/" target="blank"><img src="imgs/Hospital-San-Jose.jpg"></a>
-  </div>
-
   <!-- 1VIDEOS -->
   <section id="vid1">
 
@@ -435,7 +410,7 @@
 
   <!-- BANNER HORIZONTAL VIDEOS -->
   <div class="contenedor bnr-hz-01">
-    <a href="https://hondapremium.com/" target="blank"><img src="ediciones/2022/banners/Honda-diciembre-2020.png"></a>
+    <a href="https://hondapremium.com/" target="blank"><img src="banners/2022/Honda-diciembre-2020.png"></a>
   </div>
 
   <!-- 1SPV SALUD PARA VIVIR -->
@@ -615,7 +590,7 @@
 
   <!-- BANNER HORIZONTAL 1CARRUSEL -->
   <div class="contenedor bnr-hz-01">
-    <a href="https://www.hospitalsanjosehermosillo.com/" target="blank"><img src="ediciones/2022/banners/Hospital-San-Jose-2020.jpg"></a>
+    <a href="https://www.hospitalsanjosehermosillo.com/" target="blank"><img src="banners/2022/Hospital-San-Jose-2020.jpg"></a>
   </div>
 
   <!-- 1EVENTOS -->
@@ -796,7 +771,8 @@
     </script>
   </section>
 
-  <?php include ('footer.php') ?>
+  <!-- FOOTER -->
+  <?php include '\Revista_BS_website\footer.php' ?>
 
   <script>
     var menu_enlaces = document.getElementById("menu-enlaces");
