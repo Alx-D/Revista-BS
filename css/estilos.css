@@ -275,7 +275,7 @@ header {
 /* COVID PREV */
 .covid-preventivo {
   margin: 25px auto 30px;
-  background-color: red;
+  background-color: green;
   line-height: 1.2;
   padding: 10px 0;
   display: flex;
@@ -2002,11 +2002,13 @@ th {
   .menu-mobile {
     width: auto;
     height: 100vh;
-    text-align: left;
+    /* text-align: left; */
+    text-align: right;
     top: 0;
     left: -400px;
     position: fixed;
-    background: var(--verde-logo-1);
+    /* background: var(--verde-logo-1); */
+    background: red;
     z-index: 10;
     transition: 1s;
   }
