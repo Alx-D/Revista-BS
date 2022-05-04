@@ -275,8 +275,7 @@ header {
 /* COVID PREV */
 .covid-preventivo {
   margin: 25px auto 30px;
-  /* background-color: red; */
-  background-color: yellow;
+  background-color: red;
   line-height: 1.2;
   padding: 10px 0;
   display: flex;
@@ -500,14 +499,12 @@ header {
   display: none;
 }
 .bnr-vl-01 {
-  /* width: 100%; */
-  width: 297px;
+  width: 100%;
   height: 430px;
-  /* margin-bottom: 15px; */
-  margin-bottom: 500px;
+  margin-bottom: 15px;
 }
 .bnr-vl-01 img{
-  width: 297px;
+  width: 100%;
 }
 .leidas1 {
   width: 100%;
@@ -797,7 +794,6 @@ header {
   justify-content: space-between;
 }
 .bnr-vl-02 {
-  background: var(--gris-claro);
   display: none;
   width: 31%;
   height: auto;
@@ -835,6 +831,10 @@ header {
 .cbz-spv1 {
   font-size: 35px;
   line-height: 1.2;
+}
+.cont-flx{
+  width: 100%;
+  display: flex;
 }
 
 /* 1CARRUSEL */
@@ -1720,6 +1720,9 @@ th {
   width: 75%;
   margin-top: 50px;
 }
+.aside-bnrs-up img {
+  width: 100%;
+}
 .aside-bnrs-stic {
   float: right;
   width: 75%;
@@ -1731,7 +1734,7 @@ th {
 #interes {
   width: 70%;
   float: right;
-  margin-top: 30px;
+  margin-top: 50px;
   margin-bottom: 100px;
 }
 .interes-ind-a {
@@ -1922,6 +1925,11 @@ th {
   /* SPV */
   .bnr-vl-02 {
     display: block;
+    width: 48%;
+    margin: 25px auto 30px;
+  }
+  .bnr-vl-02 img{
+    width: 100%;
   }
   /* CARRUSEL */
   .edi1-flecha-izq, .edi1-flecha-der {
@@ -2165,9 +2173,6 @@ th {
   }
   /* 92SALUD PARA */
   .card-spv1 {
-    width: 48%;
-  }
-  .bnr-vl-02 {
     width: 48%;
   }
   .cbz-spv1 {
@@ -2593,9 +2598,7 @@ th {
     margin-bottom: 30px;
   }
   .bnr-vl-02 {
-    width: 75%;
-    margin: 0 auto 35px;
-    height: 350px;
+    width: 65%;
   }
 }
 
@@ -2904,6 +2907,10 @@ th {
     margin-bottom: 15px;
   } */
 
+  /* BNR PERLA MOB */
+  .bnr-vl-02 {
+    width: 85%;
+  }
   /* 48SPV */
   .cbz-spv1 {
     font-size: 28px;

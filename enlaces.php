@@ -1,21 +1,19 @@
-<?php include 'header.php' ?>
+<?php include ('includes/header.php') ?>
 
   <style>
     .col-60 a {
       font-family: "Nunito Sans", sans-serif;
-      ;
       color: black;
       display: block;
       margin-bottom: 4px;
     }
-
     .col-60 a:hover {
       color: blue;
     }
   </style>
 
-  <!-- BANNER HORIZONTAL -->
-  <?php include 'includes\bh0101.php' ?>
+  <!-- BANNER ORO 1 -->
+  <?php include 'includes\bnr-oro-01.php' ?>
 
   <div class="contenedor m-0a nota-bx">
     <article class="col-60">
@@ -162,11 +160,7 @@
 
       <!-- BANNERS ASIDE -->
       <div class="aside-bnrs-up">
-        <div class="bnr-250x250">
-          <a href="#">
-            <img src="ediciones/2022/banners/Celtara 650x650 262.jpg">
-          </a>
-        </div>
+        <?php include ('includes/bnr-marfil.php') ?>
       </div>
 
       <!-- TEMAS DE INTERES -->
@@ -203,19 +197,9 @@
         </div>
       </div>
 
-      <!-- BANNERS ASIDE -->
+      <!-- BANNERS RUBI ASIDE -->
       <div class="aside-bnrs-stic">
-        <div class="bnr-vl-250x250 mb-70">
-          <a href="#">
-            <img src="/ediciones/2022/banners/Celtara 650x650 262.jpg">
-          </a>
-        </div>
-
-        <div class="bnr-vl-250x250">
-          <a href="#">
-            <img src="/ediciones/2022/banners/Licona Hemodinamia 650x650 262.jpg">
-          </a>
-        </div>
+      <?php include 'includes\bnr-rubi.php' ?>
       </div>
     </aside>
   </div>

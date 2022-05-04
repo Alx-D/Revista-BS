@@ -76,15 +76,17 @@
         </a>
       </div>
 
-      <!-- BANNERS RUBI DESKTOP -->
-      <?php include ('includes/bnr-sq-01-10.php') ?>
+      <div class="col3-mes1 none-1024">
+        <!-- BANNERS RUBI DESKTOP -->
+        <?php include ('includes/bnr-rubi.php') ?>
+      </div>
     </div>
   </section>
 
   <div class="clear"></div>
 
   <!-- BANNER ORO 1 -->
-  <?php include ('includes/bnr-hz-01-10.php') ?>
+  <?php include ('includes/bnr-oro-01.php') ?>
 
   <!-- 1ARTICULOS -->
   <section class="contenedor m-0a">
@@ -157,12 +159,10 @@
       </div>
 
       <!-- ASIDE ARTICULOS -->
-      <!-- BANNER VERTICAL GRANDE -->
       <div class="col2-art1">
 
-        <div class="bnr-vl-01 none-1024">
-          <!-- <a href="#"><img src="banners/2022/Gutierrez-Urquidez-250.jpg" alt=""></a> -->
-        </div>
+        <!-- BANNER PERLA VERTICAL GRANDE -->
+        <?php include ('includes/bnr-perla.php') ?>
 
         <!-- MAS LEIDAS -->
         <div class="leidas1">
@@ -191,8 +191,8 @@
           </ol>
         </div>
 
-        <!-- BANNERS 250x250 VISIBLES ABAJO 1024 -->
-        <?php include ('includes/rubi-mob.php') ?>
+        <!-- BANNERS RUBI MOBILE VISIBLES ABAJO 1024 -->
+        <?php include ('includes/bnr-rubi-mob.php') ?>
 
       </div>
     </div>
@@ -201,7 +201,7 @@
   <div class="clear"></div>
 
   <!-- BANNER ORO2 -->
-  <?php include ('includes/bnr-hz-01-20.php') ?>
+  <?php include ('includes/bnr-oro-02.php') ?>
 
 <!-- 1ESPECIAL -->
   <section id="esp1" style="background: #DDFFFF;">
@@ -376,7 +376,7 @@
   </section>
 
   <!-- BANNER HORIZONTAL VIDEOS -->
-  <?php include ('includes/bnr-hz-01-10.php') ?>
+  <?php include ('includes/bnr-oro-01.php') ?>
 
   <!-- 1SPV SALUD PARA VIVIR -->
   <section id="spv1" class="contenedor m-0a">
@@ -411,11 +411,13 @@
         </a>
       </div>
 
-      <div class="bnr-vl-02">
-        <a href="#"></a>
+      <!-- BANNER PERLA MOBILE -->
+      <div class="cont-flx">
+      <?php include ('includes/bnr-perla-mob.php') ?>
       </div>
-
-      <div class="card-spv1" style="visibility: hidden;"></div>
+      
+      <!-- USAR EN NUM IMPAR DE NOTAS SPV -->
+      <!-- <div class="card-spv1" style="visibility: hidden;"></div> -->
 
     </div>
   </section>
@@ -554,7 +556,7 @@
   </section>
 
   <!-- BANNER HORIZONTAL 1CARRUSEL -->
-  <?php include ('includes/bnr-hz-01-20.php') ?>
+  <?php include ('includes/bnr-oro-02.php') ?>
 
   <!-- 1EVENTOS -->
   <section id="ev1" class="contenedor">
