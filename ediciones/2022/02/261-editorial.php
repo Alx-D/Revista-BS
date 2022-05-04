@@ -42,7 +42,8 @@
     }
   </style>
 
-<?php include ('../../../includes/header.php') ?>
+  <!-- HEAD HEADER -->
+  <?php include ('../../../includes/header.php') ?>
 
   <!-- BANNER HORIZONTAL-->
 <?php include ('../../../includes/bnr-oro-01.php') ?>
@@ -54,7 +55,6 @@
 
       <h1 class="f1 editorial-cbz">Salud bucodental</h1>
 
-      <!-- COMPARTIR -->
       <div class="compartir-bx">
         <i class="fa fa-share"></i>
         <p class="f1 compartir"> Compartir</p>
@@ -128,17 +128,7 @@
       </div>
 
       <div class="ctc">
-        <p class="f1 ctc-sobre">Sobre el autor</p>
-        <p class="f1 ctc-nombre">Dr. Francisco Javier Muro Dávila</p>
-        <p class="f1 ctc-especialidad">Médico Cirujano (UNAM) <br>
-          Maestro en Salud Pública (SSA)</p>
-        <p class="f1 ctc-cedulas">Cédula Profesional 471325 <br>
-          Registro SSA 58352 ESPM-SSA 026403
-        </p>
-        <p class="f1 ctc-cargo">Editor en Jefe de Revista BS</p>
-        <a class="f1 ctc-correo" style="margin-bottom: 0;" href="mailto:fj_muro@hotmail.com"><i
-            class="fas fa-envelope"></i>
-          fj_muro@hotmail.com</a>
+      <?php include ('../../../includes/ctc-muro-davila.html') ?>
       </div>
     </article>
 
@@ -182,17 +172,6 @@
   <?php include ('../../../includes/footer.php') ?>
 
   <script src="../../../scripts/menu-mob.js"></script>
-
-  <!-- <script>
-    var menu_enlaces = document.getElementById("menu-enlaces");
-    function showMenu() {
-      menu_enlaces.style.left = "0";
-    }
-    function hideMenu() {
-      menu_enlaces.style.left = "-400px";
-    }
-  </script> -->
-
 </body>
 
 </html>

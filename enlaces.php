@@ -162,9 +162,7 @@
       </div>
 
       <!-- TEMAS DE INTERES -->
-      <div id="interes">
         <?php include ('includes/interes.php') ?>
-      </div>
 
       <!-- BANNERS RUBI ASIDE -->
       <div class="aside-bnrs-stic">

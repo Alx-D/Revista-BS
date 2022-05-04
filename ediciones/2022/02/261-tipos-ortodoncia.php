@@ -1,7 +1,8 @@
-<?php include ('../../../includes/header.php') ?>
+  <!-- HEAD Y HEADER -->
+  <?php include ('../../../includes/header.php') ?>
 
-  <!-- BANNER HORIZONTAL -->
-  <?php include ('../../../includes/bnr-hz-01-10.php') ?>
+  <!-- BANNER ORO 1 -->
+  <?php include ('../../../includes/bnr-oro-01.php') ?>
 
   <div class="contenedor m-0a nota-bx">
     <article class="col-64">
@@ -13,7 +14,7 @@
       <p class="f1 sumario-1">Una de las preguntas más frecuentes que un paciente se hace es ¿cuál es el tratamiento de ortodoncia más adecuado para mí?, conozca las opciones que existen</p>
 
       <figure class="foto-nota-top-bx">
-        <img src="/revista/ediciones/2022/02/imgs/261-Dra-Cinthia-Borbon-TIPOS-ORTODONCIA-1.jpg" alt="">
+        <img src="/ediciones/2022/02/imgs/261-Dra-Cinthia-Borbon-TIPOS-ORTODONCIA-1.jpg" alt="">
       </figure>
 
       <!-- COMPARTIR -->
@@ -29,7 +30,7 @@
       <!-- CREDITO -->
       <div class="credito-bx">
         <figure class="credito-foto-bx">
-          <img src="/revista/imgs/doctores/Dra-Cinthia-Borbon-Esquer.jpg" alt="">
+          <img src="/imgs/doctores/Dra-Cinthia-Borbon-Esquer.jpg" alt="">
         </figure>
 
         <p class="f1 credito-autor"><strong>Odont. Cinthia Borbón Esquer</strong><br>Ortodoncia<br>
@@ -47,7 +48,7 @@
 
         <div class="foto-izq">
           <figure>
-            <img src="/revista/ediciones/2022/02/imgs/261-Dra-Cinthia-Borbon-TIPOS-ORTODONCIA-2.jpg" alt="">
+            <img src="/ediciones/2022/02/imgs/261-Dra-Cinthia-Borbon-TIPOS-ORTODONCIA-2.jpg" alt="">
           </figure>
         </div>
 
@@ -59,7 +60,7 @@
 
         <div class="foto-der">
           <figure>
-            <img src="/revista/ediciones/2022/02/imgs/261-Dra-Cinthia-Borbon-TIPOS-ORTODONCIA-3.jpg" alt="">
+            <img src="/ediciones/2022/02/imgs/261-Dra-Cinthia-Borbon-TIPOS-ORTODONCIA-3.jpg" alt="">
           </figure>
         </div>
 
@@ -73,41 +74,39 @@
       </div>
 
       <div class="ctc">
-        <p class="f1 ctc-sobre">Sobre el autor</p>
-        <p class="f1 ctc-nombre">Odont. Cinthia Lorena Borbón Esquer</p>
-        <p class="f1 ctc-especialidad">Ortodoncia</p>
-        <p class="f1 ctc-certificaciones"></p>
-        <p class="f1 ctc-cedulas">Cédula profesional: 5544124, Universidad Autónoma de Nayarit <br class="nonedw480">Cédula de especialidad: 7817630, Universidad Autónoma de Nayarit</p>
-        <p class="f1 ctc-empresa">Ortodoncia Estética</p>
-        <p class="f1 ctc-dom-tel"><i class="fas fa-map-marker-alt"></i> Garmendia 198, entre Coahuila y Everardo Monroy, Hermosillo, Sonora</p>
-        <a href="tel:">
-          <p class="f1 ctc-dom-tel" style="margin-bottom: 0;"><i class="fas fa-phone-alt"></i> (662) 217-2472</p>
-        </a>
+        <?php include ('../../../includes/ctc-borbon-esquer.html') ?>
       </div>
     </article>
 
     <!-- ASIDE NOTA -->
     <aside class="col-40">
 
-      <!-- BANNERS ASIDE -->
-      <?php include ('../../../includes/bnr-sq-02-10.php') ?>
+      <!-- BANNER MARFIL ASIDE -->
+      <div class="aside-bnrs-up">
+        <?php include ('../../../includes/bnr-marfil.php') ?>
+      </div>
 
       <!-- TEMAS DE INTERES -->
-      <?php include ('../../../includes/interes-10.php') ?>
+      <?php include ('../../../includes/interes.php') ?>
 
-      <!-- BANNERS ASIDE -->
-      <?php include ('../../../includes/bnr-sq-03-10.php') ?>
+      <!-- BANNERS RUBI ASIDE -->
+      <div class="aside-bnrs-stic">
+      <?php include ('../../../includes/bnr-rubi.php') ?>
+      </div>
     </aside>
   </div>
 
   <div class="clear" style="margin-bottom: 70px;"></div>
 
-  <!-- BANNER HORIZONTAL -->
-  <?php include ('../../../includes/bnr-hz-01-20.php') ?>
+  <!-- BANNER ORO 2 -->
+  <?php include ('../../../includes/bnr-oro-02.php') ?>
 
   <div class="altura-ajuste-footer"></div>
 
+   <!-- FOOTER -->
   <?php include ('../../../includes/footer.php') ?>
+
+  <script src="../../../scripts/menu-mob.js"></script>
 </body>
 
 </html>

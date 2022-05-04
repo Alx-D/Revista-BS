@@ -96,12 +96,12 @@
         <div class="card-art1">
           <div class="f2 ceja-med rojoc">CÁNCER</div>
           <div class="foto-art1-bx">
-            <a href="ediciones/2022/02/261-dia-mundial-vs-cancer.html">
+            <a href="ediciones/2022/02/261-dia-mundial-vs-cancer.php">
               <img src="ediciones/2022/02/imgs/261-Dr-Enrique-Avila-DIA-CANCER-1.jpg" alt="">
             </a>
           </div>
           <div class="cbz-art1-bx">
-            <a href="ediciones/2022/02/261-dia-mundial-vs-cancer.html">
+            <a href="ediciones/2022/02/261-dia-mundial-vs-cancer.php">
               <p class="f2 blz-card-2col hv-txt-01" style="color:#40a091;">Día Mundial Contra el Cáncer</p>
               <h2 class="f1 cbz-card-2col hv-txt-01">Atención para todos</h2>
               <p class="f1 autor-card"><span>Dr. Enrique Ávila Monteverde</span><br>Oncología quirúrgica</p>
@@ -112,12 +112,12 @@
         <div class="card-art1">
           <div class="f2 ceja-med" style="background: #2a6386">Salud bucal</div>
           <div class="foto-art1-bx">
-            <a href="ediciones/2022/02/261-implantes-dentales.html">
+            <a href="ediciones/2022/02/261-implantes-dentales.php">
               <img src="ediciones/2022/02/imgs/261-Dr-Alberto-Vazquez-IMPLANTES-DENTALES-1.jpg" alt="">
             </a>
           </div>
           <div class="cbz-art1-bx">
-            <a href="ediciones/2022/02/261-implantes-dentales.html">
+            <a href="ediciones/2022/02/261-implantes-dentales.php">
               <p class="f2 blz-card-2col hv-txt-01" style="color:#40a091;">Implantes dentales</p>
               <h2 class="f1 cbz-card-2col hv-txt-01">Sonrisas naturales y plenas</h2>
               <p class="f1 autor-card"><span>Odont. Alberto Vázquez Zavala</span><br> Rehabilitación oral e implantología</p>
@@ -128,12 +128,12 @@
         <div class="card-art1">
           <div class="f2 ceja-med" style="background: #2a6386">Salud bucal</div>
           <div class="foto-art1-bx">
-            <a href="ediciones/2022/02/261-anestesia-digital.html">
+            <a href="ediciones/2022/02/261-anestesia-digital.php">
               <img src="ediciones/2022/02/imgs/261-Dra-Yadira-Fimbres-ANESTESIA-DIGITAL-1.jpg" alt="">
             </a>
           </div>
           <div class="cbz-art1-bx">
-            <a href="ediciones/2022/02/261-anestesia-digital.html">
+            <a href="ediciones/2022/02/261-anestesia-digital.php">
               <p class="f2 blz-card-2col hv-txt-01" style="color:#40a091;">Anestesia digital</p>
               <h2 class="f1 cbz-card-2col hv-txt-01">Un poco de magia</h2>
               <p class="f1 autor-card"><span>Odont. Yadira Fimbres Fimbres</span><br>Odontopediatría</p>
@@ -144,12 +144,12 @@
         <div class="card-art1">
           <div class="f2 ceja-med" style="background: #2a6386">Salud bucal</div>
           <div class="foto-art1-bx">
-            <a href="ediciones/2022/02/261-cuidados-bucales-infantiles.html">
+            <a href="ediciones/2022/02/261-cuidados-bucales-infantiles.php">
               <img src="ediciones/2022/02/imgs/261-Dra-Karla-Lopez-CUIDADOS-PEDIATRIA-1.jpg" alt="">
             </a>
           </div>
           <div class="cbz-art1-bx">
-            <a href="ediciones/2022/02/261-cuidados-bucales-infantiles.html">
+            <a href="ediciones/2022/02/261-cuidados-bucales-infantiles.php">
               <p class="f2 blz-card-2col  hv-txt-01" style="color:#40a091;">Cuidados bucales infantiles</p>
               <h2 class="f1 cbz-card-2col hv-txt-01">Pequeñas sonrisas, enormes tesoros</h2>
               <p class="f1 autor-card"><span>Odont. Karla López Almazán</span><br>Odontopediatría</p>
