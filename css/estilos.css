@@ -275,7 +275,8 @@ header {
 /* COVID PREV */
 .covid-preventivo {
   margin: 25px auto 30px;
-  background-color: green;
+  /* background-color: red; */
+  background-color: yellow;
   line-height: 1.2;
   padding: 10px 0;
   display: flex;
@@ -499,10 +500,14 @@ header {
   display: none;
 }
 .bnr-vl-01 {
-  width: 100%;
+  /* width: 100%; */
+  width: 297px;
   height: 430px;
-  background: #e7e7e7;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
+  margin-bottom: 500px;
+}
+.bnr-vl-01 img{
+  width: 297px;
 }
 .leidas1 {
   width: 100%;
@@ -2001,15 +2006,13 @@ th {
   }
   .menu-mobile {
     width: auto;
-    height: 100vh;
-    /* text-align: left; */
-    text-align: right;
+    height: 75vh;
+    text-align: left;
     top: 0;
     left: -400px;
     position: fixed;
-    /* background: var(--verde-logo-1); */
-    background: red;
-    z-index: 10;
+    background: var(--verde-logo-1);
+    z-index: 50;
     transition: 1s;
   }
   .menu-mobile ul {

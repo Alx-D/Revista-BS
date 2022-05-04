@@ -1,119 +1,6 @@
-<!DOCTYPE html>
-<html lang="es">
+<?php include ('includes/header.php') ?>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/estilos.css">
-  <link rel="stylesheet" href="css/all.min.css">
-  <link rel="icon" type="image/png" href="/imgs/Revista-BS-favicon.png">
-  <link rel="apple-touch-icon" href="/imgs/apple-touch-icon.png">
-  <meta name="description" content="Artículos sobre el cuidado de la salud y prevención de enfermedades">
-  <meta name="keywords"
-    content="salud, saludable, vida, cuidado, bienestar, prevención, enfermedades, nutrición, psicología, niños, familia, adultos mayores, sonora">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap" rel="stylesheet">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;1,300;1,400&display=swap"
-    rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,300;0,400;1,400&display=swap"
-    rel="stylesheet">
-  <title>Revista BS | Salud para vivir con sentido</title>
-</head>
-
-<body>
-  <header class="contenedor">
-
-    <!-- HEADER MOBILE -->
-    <div class="header-mobile-cont">
-
-      <div class="header-mobile-row-1">
-        <i class="fas fa-bars" onclick="showMenu()"></i>
-
-        <div class="logo-mobile-bx">
-          <a href="/index.html">
-            <img src="imgs/Revista-BS-logo-m.png">
-          </a>
-        </div>
-
-        <i class="fas fa-search"></i>
-      </div>
-
-      <div class="lema-mobile-bx">
-        <img src="imgs/lema.png">
-      </div>
-
-      <nav>
-        <div class="menu-mobile" id="menu-enlaces">
-          <i class="fas fa-times" onclick="hideMenu()"></i>
-          <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Ediciones</a></li>
-            <li><a href="alianzas.html">Doctores colaboradores</a></li>
-            <li><a href="#">Entrevistas</a></li>
-            <li><a href="#">Eventos</a></li>
-            <li><a href="#">Artículos por especialidad médica</a></li>
-            <li><a href="enlaces.html">Contacto</a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-
-    <!-- HEADER DESKTOP -->
-    <div class="header-cont">
-
-      <div class="header-col-izq" style="position: relative;">
-        <div class="revista-bs-logo-bx">
-          <a href="#">
-            <img src="imgs/Revista-BS-logo-header.png" alt="Revista BS">
-          </a>
-        </div>
-      </div>
-
-      <div class="header-col-der">
-        <div class="header-row-1">
-          <div class="facebook">
-            <a class="f1" href="https://www.facebook.com/RevistaBS" target="_blank">
-              <i class="fab fa-facebook fa-lg"></i> Revista BS
-            </a>
-          </div>
-          <p class="f2 femeson-leyenda">Órgano de vinculación y divulgación de <br> la Federación Médica de Sonora</p>
-          <div class="femeson-logo-bx">
-            <img src="imgs/femeson-escudo.png" alt="">
-          </div>
-        </div>
-
-        <div class="header-row-2">
-          <div class="lema-bx">
-            <img src="imgs/lema.png">
-          </div>
-          <div id="buscador">
-            <form>
-              <input type="text" placeholder="Buscar">
-            </form>
-          </div>
-        </div>
-
-        <nav>
-          <div class="menu-desktop">
-            <ul>
-              <li><a class="hv-txt-01" href="#">Inicio</a></li>
-              <li><a class="hv-txt-01" href="#" target="blank">Ediciones</a></li>
-              <li><a class="hv-txt-01" href="alianzas.html">Doctores colaboradores</a></li>
-              <li><a class="hv-txt-01" href="#">Artículos por especialidad médica</a></li>
-              <li><a class="hv-txt-01" href="enlaces.html">Contacto</a></li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-
-      <div class="clear"></div>
-    </div>
-  </header>
-
-  <div class="popup">
+<div class="popup">
     <button id="close">&times;</button>
     <a href="https://www.instagram.com/cdelnoroeste/?hl=es" target="_blank"><img src="banners/2022/Clinica-del-Noroeste-261.jpg" alt=""></a>
   </div>
@@ -132,8 +19,6 @@
   });
 </script>
 
-<!-- <div class="pleca contenedor m-0a"></div> -->
-
   <!--PREVENTIVO COVID-->
   <div class="contenedor covid-preventivo">
     <a href="#">
@@ -149,7 +34,7 @@
         <div class="impresa-th-bx hv-trns-01">
           <a href="ediciones/2022/02/Revista-BS-261.pdf" target="blank">
             <p class="f2 ind-impr">EDICIÓN DIGITAL</p>
-            <figure><img src="imgs/portadas/portada-Revista-BS-261.jpg" alt="Revista BS #256"></figure>
+            <figure><img src="imgs/portadas/portada-Revista-BS-261.jpg" alt="Revista BS #261"></figure>
           </a>
         </div>
 
@@ -178,7 +63,7 @@
 
         <div class="f1 mes1-top-ceja morado">ESTE MES</div>
 
-        <a href="ediciones/2022/02/261-tipos-ortodoncia.html">
+        <a href="ediciones/2022/02/261-tipos-ortodoncia.php">
           <div class="mes1-top-foto-bx">
             <img src="ediciones/2022/02/imgs/261-Dra-Cinthia-Borbon-TIPOS-ORTODONCIA-1.jpg">
           </div>
@@ -191,31 +76,15 @@
         </a>
       </div>
 
-      <!-- BANNERS 250x250 -->
-      <div class="col3-mes1 none-1024">
-
-        <div class="bnr-vl-250x250 mb-70">
-          <a href="#">
-            <img src="banners/2022/Celtara-650x650-262.jpg">
-          </a>
-        </div>
-
-        <div class="bnr-vl-250x250">
-          <a href="#">
-            <img src="banners/2022/Licona-Hemodinamia-650x650-262.jpg">
-          </a>
-        </div>
-      </div>
+      <!-- BANNERS RUBI DESKTOP -->
+      <?php include ('includes/bnr-sq-01-10.php') ?>
     </div>
   </section>
 
   <div class="clear"></div>
 
-  <!-- BANNER HORIZONTAL 1MES -->
-  <div class="contenedor bnr-hz-01">
-    <a href="https://hondapremium.com/" target="blank"><img src="ediciones/2022/banners/Honda-diciembre-2020.png"></a>
-  </div>
-  <div class="bnr-hz-mob">Banner mobile</div>
+  <!-- BANNER ORO 1 -->
+  <?php include ('includes/bnr-hz-01-10.php') ?>
 
   <!-- 1ARTICULOS -->
   <section class="contenedor m-0a">
@@ -291,8 +160,8 @@
       <!-- BANNER VERTICAL GRANDE -->
       <div class="col2-art1">
 
-        <div class="bnr-vl-01 none-1024">bnr-vl-01
-          <a href="#"></a>
+        <div class="bnr-vl-01 none-1024">
+          <!-- <a href="#"><img src="banners/2022/Gutierrez-Urquidez-250.jpg" alt=""></a> -->
         </div>
 
         <!-- MAS LEIDAS -->
@@ -322,20 +191,8 @@
           </ol>
         </div>
 
-        <!-- BANNERS 205x250 VISIBLES ABAJO 1024 -->
-        <div class="visible1024">
-          <div class="bnr-vl-250x250" style="margin-right: 5%">
-            <a href="#">
-              <img src="banners/2022/Celtara-650x650-262.jpg">
-            </a>
-          </div>
-
-          <div class="bnr-vl-250x250">
-            <a href="#">
-              <img src="banners/2022/Licona-Hemodinamia-650x650-262.jpg">
-            </a>
-          </div>
-        </div>
+        <!-- BANNERS 250x250 VISIBLES ABAJO 1024 -->
+        <?php include ('includes/rubi-mob.php') ?>
 
       </div>
     </div>
@@ -343,10 +200,8 @@
 
   <div class="clear"></div>
 
-  <!-- BANNER HORIZONTAL 1ESPECIAL -->
-  <div class="contenedor bnr-hz-01 none-1024" style="margin-top: 20px">
-    <a href="https://www.hospitalsanjosehermosillo.com/" target="blank"><img src="banners/2022/Hospital-San-Jose-2020.jpg"></a>
-  </div>
+  <!-- BANNER ORO2 -->
+  <?php include ('includes/bnr-hz-01-20.php') ?>
 
 <!-- 1ESPECIAL -->
   <section id="esp1" style="background: #DDFFFF;">
@@ -412,7 +267,7 @@
             </li>
 
             <li>
-              <a href="ediciones/2022/02/261-Dra-Dulce-Montijo-.html">
+              <a href="ediciones/2022/02/261-Dra-Dulce-Montijo.html">
                 <p class="f1 item-esp1">
                   <strong>Odont. Dulce Karina <br class="br-none br-visible400">Montijo Flores</strong>
                   <br class="br-none br-visible1024">
@@ -470,10 +325,6 @@
 
   <div class="clear"></div>
 
-  <div class="contenedor bnr-hz-01 bnr-esp1">
-    <a href="https://www.hospitalsanjosehermosillo.com/" target="blank"><img src="imgs/Hospital-San-Jose.jpg"></a>
-  </div>
-
   <!-- 1VIDEOS -->
   <section id="vid1">
 
@@ -525,9 +376,7 @@
   </section>
 
   <!-- BANNER HORIZONTAL VIDEOS -->
-  <div class="contenedor bnr-hz-01">
-    <a href="https://hondapremium.com/" target="blank"><img src="ediciones/2022/banners/Honda-diciembre-2020.png"></a>
-  </div>
+  <?php include ('includes/bnr-hz-01-10.php') ?>
 
   <!-- 1SPV SALUD PARA VIVIR -->
   <section id="spv1" class="contenedor m-0a">
@@ -705,9 +554,7 @@
   </section>
 
   <!-- BANNER HORIZONTAL 1CARRUSEL -->
-  <div class="contenedor bnr-hz-01">
-    <a href="https://www.hospitalsanjosehermosillo.com/" target="blank"><img src="ediciones/2022/banners/Hospital-San-Jose-2020.jpg"></a>
-  </div>
+  <?php include ('includes/bnr-hz-01-20.php') ?>
 
   <!-- 1EVENTOS -->
   <section id="ev1" class="contenedor">
@@ -887,59 +734,8 @@
     </script>
   </section>
 
-  <!-- FOOTER -->
-  <footer>
-    <div class="footer-row-1">
-      <div class="f1 footer-mision">COMUNICAMOS VALOR</div>
-    </div>
-
-    <div class="footer-row-2">
-      <div class="contenedor footer-cont">
-
-        <div class="footer-col-1">
-          <a class="footer-BSlogo-bx" href="index.php"><img src="imgs/Revista-BS-logo-footer.png"></a>
-
-          <div class="btn-siganos-pr">
-            <a href="https://www.facebook.com/RevistaBS" target="_blank">
-              <p><strong>Síganos en</strong></p>
-              <p><i class="fab fa-facebook"></i> Revista BS</p>
-            </a>
-          </div>
-        </div>
-
-        <div class="f1 footer-col-2">
-          <p class="anunciese"><strong>Anúnciese con nosotros</strong></p>
-          <a class="footer-tel" href="tel:6622362500"><i class="fas fa-phone-alt footer-icon">&nbsp;</i> (662) 236 2500</a>
-          <a class="footer-email" href="mailto:publicidad@buenasalud.org">
-            <i class="fas fa-envelope footer-icon">&nbsp;</i>publicidad@buenasalud.org      </a>
-          <p class="footer-direccion" ><i class="fas fa-map-marker-alt footer-icon">&nbsp;</i>Quinta Mayor 181 Col. Las Quintas, Hermosillo, Sonora, México CP 83240</p>
-          </div>
-
-        <div class="f1 footer-col-3">
-          <p><strong>©2021 Revista BS <br> Todos los derechos reservados</strong></p>
-          <p>Sin previa autorización, queda expresamente prohibida la publicación, retransmisión, edición y
-            cualquier otro uso de los contenidos.</p>
-          <a href="#">Política de Privacidad</a>
-          <a style="display: inline-block;" href="#">Términos y Condiciones</a>
-        </div>
-
-        <div class="btn-siganos">
-          <a href="https://www.facebook.com/RevistaBS" target="_blank">
-            <p><strong>Síganos en</strong></p>
-            <p><i class="fab fa-facebook"></i> Revista BS</p>
-          </a>
-        </div>
-
-      </div>
-
-      <div class="duarte-firma">
-        <a href="mailto:duartepublicidad@gmail.com">Sitio desarrollado por <strong>Duarte Publicidad</strong></a>
-      </div>
-
-    </div>
-
-    <div class="wid"></div>
-  </footer>
+    <!-- FOOTER -->
+  <?php include ('includes/footer.php') ?>
 
   <script>
     var menu_enlaces = document.getElementById("menu-enlaces");
