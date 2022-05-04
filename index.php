@@ -51,7 +51,7 @@
         <hr class="mes1-hr-2">
 
         <div class="edi-th-bx">
-          <a href="ediciones/2022/02/261-editorial.html">
+          <a href="ediciones/2022/02/261-editorial.php">
             <p class="f2 esp-edi-inda">Editorial</p>
             <h2 class="f1 editorial-cbz-th hv-txt-01">Salud bucodental</h2>
           </a>
@@ -415,7 +415,7 @@
       <div class="cont-flx">
       <?php include ('includes/bnr-perla-mob.php') ?>
       </div>
-      
+
       <!-- USAR EN NUM IMPAR DE NOTAS SPV -->
       <!-- <div class="card-spv1" style="visibility: hidden;"></div> -->
 

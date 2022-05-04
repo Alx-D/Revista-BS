@@ -147,8 +147,6 @@
       <a href="ediciones/2022/02/261-Dra-Karla-Lopez.html">Odont. Karla Berenice López Almazán</a>
       <a href="ediciones/2022/02/261-Dra-Yadira-Fimbres.html">Odont. Yadira Inés Fimbres Fimbres</a>
       <br>
-      <a href="/prueba/index.php">prueba</a>
-      <br>
 
       <p class="f1"><strong>Alianzas</strong></p>
       <a href="alianzas.html">Alianzas</a>
@@ -158,63 +156,32 @@
     <!-- ASIDE NOTA -->
     <aside class="col-40">
 
-      <!-- BANNERS ASIDE -->
+      <!-- BANNER MARFIL ASIDE -->
       <div class="aside-bnrs-up">
         <?php include ('includes/bnr-marfil.php') ?>
       </div>
 
       <!-- TEMAS DE INTERES -->
       <div id="interes">
-        <hr style="border-top: 4px solid">
-        <p class="f2 indicador interes-ind-a">TEMAS DE INTERÉS</p>
-
-        <div class="interes-item">
-          <a href="#">
-            <img src="ediciones/2021/01/imgs/248-Lillian-Figueroa-ALIMENTOS-ORGANICOS-1-th.jpg" alt="">
-            <p>Alimentos orgánicos por su salud y el medio ambiente</p>
-          </a>
-        </div>
-
-        <div class="interes-item">
-          <a href="#">
-            <img src="ediciones/2021/01/imgs/248-Dra-Ana-Martinez-Ayala-ENT-TERCERA-EDAD-1-th.jpg" alt="">
-            <p>ENT y tercera edad: Contra el reloj</p>
-          </a>
-        </div>
-
-        <div class="interes-item">
-          <a href="#">
-            <img src="ediciones/2021/01/imgs/248-Dr-Mario-Alvarez-Bojorquez-HABITOS-CIRUGIA-1-th.jpg" alt="">
-            <p>Buscando las mejores condiciones en caso de cirugía oncológica</p>
-          </a>
-        </div>
-
-        <div class="interes-item">
-          <a href="#">
-            <img src="ediciones/2021/01/imgs/248-Redaccion-BS-ENFERMEDADES-RESPIRATORIAS-2-th.jpg" alt="">
-            <p>En enfermedades respiratorias distinguir es la clave</p>
-          </a>
-        </div>
+        <?php include ('includes/interes.php') ?>
       </div>
 
       <!-- BANNERS RUBI ASIDE -->
       <div class="aside-bnrs-stic">
-      <?php include 'includes\bnr-rubi.php' ?>
+      <?php include 'includes/bnr-rubi.php' ?>
       </div>
     </aside>
   </div>
 
   <div class="clear" style="margin-bottom: 70px;"></div>
 
-  <!-- BANNER HORIZONTAL -->
-  <div class="contenedor bnr-hz-01" style="margin-top: 20px">
-    <a href="https://www.hospitalsanjosehermosillo.com/" target="blank"><img src="/imgs/Hospital-San-Jose.jpg"></a>
-  </div>
+  <!-- BANNER ORO 2 -->
+  <?php include ('includes/bnr-oro-02.php') ?>
 
   <div class="altura-ajuste-footer"></div>
 
   <!-- FOOTER -->
-  <?php include 'C:\xampp\htdocs\Revista_BS_website\includes\footer.php' ?>
+  <?php include ('includes/footer.php') ?>
 
 
 </body>

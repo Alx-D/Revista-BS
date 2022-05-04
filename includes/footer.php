@@ -7,7 +7,7 @@
       <div class="contenedor footer-cont">
 
         <div class="footer-col-1">
-          <a class="footer-BSlogo-bx" href="index.php"><img src="imgs/Revista-BS-logo-footer.png"></a>
+          <a class="footer-BSlogo-bx" href="/index.php"><img src="/imgs/Revista-BS-logo-footer.png"></a>
 
           <div class="btn-siganos-pr">
             <a href="https://www.facebook.com/RevistaBS" target="_blank">
