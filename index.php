@@ -1,23 +1,27 @@
-<?php include ('includes/header.php') ?>
+<!-- HEAD -->
+<?php include('includes/head.php') ?>
 
-<div class="popup">
+<?php include('includes/header.php') ?>
+
+<body>
+  <div class="popup">
     <button id="close">&times;</button>
     <a href="https://www.instagram.com/cdelnoroeste/?hl=es" target="_blank"><img src="banners/2022/Clinica-del-Noroeste-261.jpg" alt=""></a>
   </div>
 
-<script type="text/javascript">
-  window.addEventListener("load", function () {
-    setTimeout(
-      function open(event) {
-        document.querySelector(".popup").style.display = "block";
-      },
-      500
-    )
-  });
-  document.querySelector("#close").addEventListener("click", function () {
-    document.querySelector(".popup").style.display = "none";
-  });
-</script>
+  <script type="text/javascript">
+    window.addEventListener("load", function() {
+      setTimeout(
+        function open(event) {
+          document.querySelector(".popup").style.display = "block";
+        },
+        500
+      )
+    });
+    document.querySelector("#close").addEventListener("click", function() {
+      document.querySelector(".popup").style.display = "none";
+    });
+  </script>
 
   <!--PREVENTIVO COVID-->
   <div class="contenedor covid-preventivo">
@@ -78,7 +82,7 @@
 
       <div class="col3-mes1 none-1024">
         <!-- BANNERS RUBI DESKTOP -->
-        <?php include ('includes/bnr-rubi.php') ?>
+        <?php include('includes/bnr-rubi.php') ?>
       </div>
     </div>
   </section>
@@ -86,7 +90,7 @@
   <div class="clear"></div>
 
   <!-- BANNER ORO 1 -->
-  <?php include ('includes/bnr-oro-01.php') ?>
+  <?php include('includes/bnr-oro-01.php') ?>
 
   <!-- 1ARTICULOS -->
   <section class="contenedor m-0a">
@@ -162,7 +166,7 @@
       <div class="col2-art1">
 
         <!-- BANNER PERLA VERTICAL GRANDE -->
-        <?php include ('includes/bnr-perla.php') ?>
+        <?php include('includes/bnr-perla.php') ?>
 
         <!-- MAS LEIDAS -->
         <div class="leidas1">
@@ -192,7 +196,7 @@
         </div>
 
         <!-- BANNERS RUBI MOBILE VISIBLES ABAJO 1024 -->
-        <?php include ('includes/bnr-rubi-mob.php') ?>
+        <?php include('includes/bnr-rubi-mob.php') ?>
 
       </div>
     </div>
@@ -201,9 +205,9 @@
   <div class="clear"></div>
 
   <!-- BANNER ORO2 -->
-  <?php include ('includes/bnr-oro-02.php') ?>
+  <?php include('includes/bnr-oro-02.php') ?>
 
-<!-- 1ESPECIAL -->
+  <!-- 1ESPECIAL -->
   <section id="esp1" style="background: #DDFFFF;">
     <div class="contenedor cont-esp1 m-0a">
       <div class="col1-esp1">
@@ -334,49 +338,25 @@
       <div class="frames">
         <div class="vid1-bx">
 
-          <iframe
-            src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F525258101972060%2F&show_text=true&width=560&t=0"
-            width="100%" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-            allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-            allowFullScreen="true">
+          <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F525258101972060%2F&show_text=true&width=560&t=0" width="100%" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true">
           </iframe>
         </div>
 
-        <div class="vid1-bx"><iframe
-            src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F871091170163519%2F&show_text=true&width=560&t=0"
-            width="100%" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-            allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-            allowFullScreen="true"></iframe></div>
+        <div class="vid1-bx"><iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F871091170163519%2F&show_text=true&width=560&t=0" width="100%" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe></div>
 
-        <div class="vid1-bx"><iframe
-            src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F1381143148904762%2F&show_text=true&width=560&t=0"
-            width="100%" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-            allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-            allowFullScreen="true"></iframe></div>
+        <div class="vid1-bx"><iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F1381143148904762%2F&show_text=true&width=560&t=0" width="100%" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe></div>
 
-        <div class="vid1-bx"><iframe
-            src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F742883103021631%2F&show_text=true&width=560&t=0"
-            width="100%" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-            allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-            allowFullScreen="true"></iframe></div>
+        <div class="vid1-bx"><iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F742883103021631%2F&show_text=true&width=560&t=0" width="100%" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe></div>
 
-        <div class="vid1-bx"><iframe
-            src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F4120319731331400%2F&show_text=true&width=560&t=0"
-            width="100%" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-            allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-            allowFullScreen="true"></iframe></div>
+        <div class="vid1-bx"><iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F4120319731331400%2F&show_text=true&width=560&t=0" width="100%" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe></div>
 
-        <div class="vid1-bx"><iframe
-            src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F2025613831073432%2F&show_text=true&width=560&t=0"
-            width="100%" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0"
-            allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
-            allowFullScreen="true"></iframe></div>
+        <div class="vid1-bx"><iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F2025613831073432%2F&show_text=true&width=560&t=0" width="100%" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe></div>
       </div>
     </div>
   </section>
 
   <!-- BANNER HORIZONTAL VIDEOS -->
-  <?php include ('includes/bnr-oro-01.php') ?>
+  <?php include('includes/bnr-oro-01.php') ?>
 
   <!-- 1SPV SALUD PARA VIVIR -->
   <section id="spv1" class="contenedor m-0a">
@@ -385,10 +365,9 @@
     <div class="cont-spv1">
 
       <div class="card-spv1 col2">
-        <a href="ediciones/2022/02/261-ortodoncia-cirugia-ortognatica.html">
+        <a href="ediciones/2022/02/261-ortodoncia-cirugia-ortognatica.php">
           <div class="f2 ceja-med" style="background: #2a6386">Salud bucal</div>
-          <div class="foto-spv1-bx"><img
-              src="ediciones/2022/02/imgs/261-Dra-Dayana-Duron-CIRUGIA-ORTO-1.jpg" alt="">
+          <div class="foto-spv1-bx"><img src="ediciones/2022/02/imgs/261-Dra-Dayana-Duron-CIRUGIA-ORTO-1.jpg" alt="">
           </div>
           <div class="cbz-spv1-bx">
             <p class="f2 blz-card-2col hv-txt-01" style="color:#40a091;">Ortodoncia y cirugía ortognática</p>
@@ -399,7 +378,7 @@
       </div>
 
       <div class="card-spv1 col2">
-        <a href="ediciones/2022/02/261-complicaciones-bruxismo.html">
+        <a href="ediciones/2022/02/261-complicaciones-bruxismo.php">
           <div class="f2 ceja-med" style="background: #2a6386">Salud bucal</div>
           <div class="foto-spv1-bx"><img src="ediciones/2022/02/imgs/261-Dr-Carlos-Sanabia-BRUXISMO-1.jpg" alt="">
           </div>
@@ -413,7 +392,7 @@
 
       <!-- BANNER PERLA MOBILE -->
       <div class="cont-flx">
-      <?php include ('includes/bnr-perla-mob.php') ?>
+        <?php include('includes/bnr-perla-mob.php') ?>
       </div>
 
       <!-- USAR EN NUM IMPAR DE NOTAS SPV -->
@@ -436,14 +415,14 @@
 
         <div class="portada-edcr1" id="portada-edcr1-0">
           <a href="ediciones/2022/01/Revista-BS-260.pdf" target="blank">
-            <img src="imgs/portadas/portada-Revista-BS-260.jpg" title="Revista BS #260"/>
+            <img src="imgs/portadas/portada-Revista-BS-260.jpg" title="Revista BS #260" />
             <h4 class="f1 num-portada-edcr1">Revista BS #260</h4>
           </a>
         </div>
 
         <div class="portada-edcr1" id="portada-edcr1-0">
           <a href="ediciones/2021/12/Revista-BS-259.pdf" target="blank">
-            <img src="imgs/portadas/portada-Revista-BS-259.jpg" title="Revista BS #259"/>
+            <img src="imgs/portadas/portada-Revista-BS-259.jpg" title="Revista BS #259" />
             <h4 class="f1 num-portada-edcr1">Revista BS #259</h4>
           </a>
         </div>
@@ -517,38 +496,42 @@
         var current = 0;
         var imagenes = new Array();
 
-        $(document).ready(function () {
+        $(document).ready(function() {
           var numImages = 6;
           if (numImages <= 3) {
             $('.edi1-flecha-der').css('display', 'none');
             $('.edi1-flecha-izq').css('display', 'none');
           }
-          $('.edi1-flecha-izq').on('click', function () {
+          $('.edi1-flecha-izq').on('click', function() {
             if (current > 0) {
               current = current - 1;
             } else {
               current = numImages - 3;
             }
-            $(".banda-edcr1").animate({ "left": -($('#portada-edcr1-' + current).position().left) }, 600);
+            $(".banda-edcr1").animate({
+              "left": -($('#portada-edcr1-' + current).position().left)
+            }, 600);
             return false;
           });
-          $('.edi1-flecha-izq').on('hover', function () {
+          $('.edi1-flecha-izq').on('hover', function() {
             $(this).css('opacity', '0.5');
-          }, function () {
+          }, function() {
             $(this).css('opacity', '1');
           });
-          $('.edi1-flecha-der').on('hover', function () {
+          $('.edi1-flecha-der').on('hover', function() {
             $(this).css('opacity', '0.5');
-          }, function () {
+          }, function() {
             $(this).css('opacity', '1');
           });
-          $('.edi1-flecha-der').on('click', function () {
+          $('.edi1-flecha-der').on('click', function() {
             if (numImages > current + 3) {
               current = current + 1;
             } else {
               current = 0;
             }
-            $(".banda-edcr1").animate({ "left": -($('#portada-edcr1-' + current).position().left) }, 600);
+            $(".banda-edcr1").animate({
+              "left": -($('#portada-edcr1-' + current).position().left)
+            }, 600);
             return false;
           });
         });
@@ -556,7 +539,7 @@
   </section>
 
   <!-- BANNER HORIZONTAL 1CARRUSEL -->
-  <?php include ('includes/bnr-oro-02.php') ?>
+  <?php include('includes/bnr-oro-02.php') ?>
 
   <!-- 1EVENTOS -->
   <section id="ev1" class="contenedor">
@@ -565,7 +548,7 @@
 
     <div class="cont-ev1">
       <div class="card-ev1 card-ev1-grid">
-        <a class="f1" href="ediciones/2021/11/258-congreso-oncologia-agp-osj.html">
+        <a class="f1" href="ediciones/2021/11/258-congreso-oncologia-agp-osj.php">
           <div class="foto-card-ev1-bx">
             <img src="ediciones/2021/11/imgs/258-CONGRESO-ONCOLOGIA-AGP-OSJ.jpg">
           </div>
@@ -576,7 +559,7 @@
       </div>
 
       <div class="card-ev1">
-        <a class="f1" href="ediciones/2021/10/257-caminata-san-jose.html">
+        <a class="f1" href="ediciones/2021/10/257-caminata-san-jose.php">
           <div class="foto-card-ev1-bx">
             <img src="ediciones/2021/10/imgs/257-CAMINATA-SAN-JOSE-04.jpg">
           </div>
@@ -586,40 +569,40 @@
         </a>
       </div>
 
-        <div class="card-ev1">
-          <a class="f1" href="ediciones/2021/10/257-congreso-oncologia-san-jose.html">
-            <div class="foto-card-ev1-bx ">
-              <img src="ediciones/2021/10/imgs/257-CONGRESO-ONCOLOGIA.jpg">
-            </div>
-            <div class="cbz-ev1-bx">
-              <h2 class="cbz-ev1">2 Congreso de oncología</h2>
-            </div>
-          </a>
-        </div>
+      <div class="card-ev1">
+        <a class="f1" href="ediciones/2021/10/257-congreso-oncologia-san-jose.php">
+          <div class="foto-card-ev1-bx ">
+            <img src="ediciones/2021/10/imgs/257-CONGRESO-ONCOLOGIA.jpg">
+          </div>
+          <div class="cbz-ev1-bx">
+            <h2 class="cbz-ev1">2 Congreso de oncología</h2>
+          </div>
+        </a>
+      </div>
 
-        <div class="card-ev1">
-          <a class="f1" href="#">
-            <div class="foto-card-ev1-bx">
-              <img src="ediciones/2020/10/imgs/245-Redaccion-Caminata-San-Jose-1.jpg">
-            </div>
-            <div class="cbz-ev1-bx">
-              <h2 class="cbz-ev1">3 Primer transplante hepático de donador vivo</h2>
-            </div>
-          </a>
-        </div>
+      <div class="card-ev1">
+        <a class="f1" href="#">
+          <div class="foto-card-ev1-bx">
+            <img src="ediciones/2020/10/imgs/245-Redaccion-Caminata-San-Jose-1.jpg">
+          </div>
+          <div class="cbz-ev1-bx">
+            <h2 class="cbz-ev1">3 Primer transplante hepático de donador vivo</h2>
+          </div>
+        </a>
+      </div>
 
-        <div class="card-ev1">
-          <a class="f1" href="#">
-            <div class="foto-card-ev1-bx">
-              <img src="ediciones/2020/10/imgs/245-Redaccion-Caminata-San-Jose-1.jpg">
-            </div>
-            <div class="cbz-ev1-bx">
-              <h2 class="cbz-ev1">4 Carrera por la Salud</h2>
-            </div>
-          </a>
-        </div>
+      <div class="card-ev1">
+        <a class="f1" href="#">
+          <div class="foto-card-ev1-bx">
+            <img src="ediciones/2020/10/imgs/245-Redaccion-Caminata-San-Jose-1.jpg">
+          </div>
+          <div class="cbz-ev1-bx">
+            <h2 class="cbz-ev1">4 Carrera por la Salud</h2>
+          </div>
+        </a>
+      </div>
 
-        <div class="card-ev1" style="visibility: hidden;"></div>
+      <div class="card-ev1" style="visibility: hidden;"></div>
 
     </div>
   </section>
@@ -698,55 +681,62 @@
       var current = 0;
       var imagenes = new Array();
 
-      $(document).ready(function () {
+      $(document).ready(function() {
         var numImages = 6;
         if (numImages <= 3) {
           $('.corto-flecha-der').css('display', 'none');
           $('.corto-flecha-izq').css('display', 'none');
         }
-        $('.corto-flecha-izq').on('click', function () {
+        $('.corto-flecha-izq').on('click', function() {
           if (current > 0) {
             current = current - 1;
           } else {
             current = numImages - 3;
           }
-          $(".banda-corto1-carr").animate({ "left": -($('#card-corto1-carr-' + current).position().left) }, 600);
+          $(".banda-corto1-carr").animate({
+            "left": -($('#card-corto1-carr-' + current).position().left)
+          }, 600);
           return false;
         });
-        $('.corto-flecha-izq').on('hover', function () {
+        $('.corto-flecha-izq').on('hover', function() {
           $(this).css('opacity', '0.5');
-        }, function () {
+        }, function() {
           $(this).css('opacity', '1');
         });
-        $('.corto-flecha-der').on('hover', function () {
+        $('.corto-flecha-der').on('hover', function() {
           $(this).css('opacity', '0.5');
-        }, function () {
+        }, function() {
           $(this).css('opacity', '1');
         });
-        $('.corto-flecha-der').on('click', function () {
+        $('.corto-flecha-der').on('click', function() {
           if (numImages > current + 3) {
             current = current + 1;
           } else {
             current = 0;
           }
-          $(".banda-corto1-carr").animate({ "left": -($('#card-corto1-carr-' + current).position().left) }, 600);
+          $(".banda-corto1-carr").animate({
+            "left": -($('#card-corto1-carr-' + current).position().left)
+          }, 600);
           return false;
         });
       });
     </script>
   </section>
 
-    <!-- FOOTER -->
-  <?php include ('includes/footer.php') ?>
+  <!-- FOOTER -->
+  <?php include('includes/footer.php') ?>
 
   <script>
     var menu_enlaces = document.getElementById("menu-enlaces");
+
     function showMenu() {
       menu_enlaces.style.left = "0";
     }
+
     function hideMenu() {
       menu_enlaces.style.left = "-400px";
     }
   </script>
 </body>
+
 </html>

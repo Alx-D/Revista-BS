@@ -1,52 +1,53 @@
 <style>
-    .rc-gris-editorial {
-      width: 90%;
-      margin-top: 150px;
-      float: right;
-      padding: 25px;
-      background: var(--gris-claro);
-    }
+  .rc-gris-editorial {
+    width: 90%;
+    margin-top: 150px;
+    float: right;
+    padding: 25px;
+    background: var(--gris-claro);
+  }
+  .rc-gris-editorial-cbz {
+    font-size: 26px;
+    line-height: 1.3;
+    font-weight: 500;
+    margin-bottom: 17px;
+    text-transform: uppercase;
+    color: #494949;
+    font-stretch: expanded;
+  }
+  .rc-gris-editorial li {
+    font-family: "Oswald", sans-serif;
+    font-size: 21px;
+    line-height: 1.3;
+    color: #494949;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 17px;
+  }
+  @media screen and (max-width: 980px) {
     .rc-gris-editorial-cbz {
-      font-size: 26px;
-      line-height: 1.3;
-      font-weight: 500;
-      margin-bottom: 17px;
-      text-transform: uppercase;
-      color: #494949;
-      font-stretch: expanded;
+      font-size: 23px;
     }
     .rc-gris-editorial li {
-      font-family: "Oswald", sans-serif;
-      font-size: 21px;
-      line-height: 1.3;
-      color: #494949;
-      margin-top: 10px;
-      margin-bottom: 15px;
-      margin-left: 17px;
+      font-size: 20px;
     }
-    @media screen and (max-width: 980px) {
-      .rc-gris-editorial-cbz {
-        font-size: 23px;
-      }
-      .rc-gris-editorial li {
-        font-size: 20px;
-      }
+  }
+  @media screen and (max-width: 680px) {
+    .rc-gris-editorial {
+      width: auto;
+      float: none;
+      display: table;
+      margin: 25px auto 35px auto;
     }
-    @media screen and (max-width: 680px) {
-      .rc-gris-editorial {
-        width: auto;
-        float: none;
-        display: table;
-        margin: 25px auto 35px auto;
-      }
-    }
-  </style>
+  }
+</style>
 
-  <!-- HEAD HEADER -->
-  <?php include ('../../../includes/header.php') ?>
+<?php include('../../../includes/head.php') ?>
 
-  <!-- BANNER HORIZONTAL-->
-<?php include ('../../../includes/bnr-oro-01.php') ?>
+<body>
+  <?php include('../../../includes/header.php') ?>
+
+  <?php include('../../../includes/bnr-oro-01.php') ?>
 
   <div class="contenedor m-0a nota-bx">
     <article class="col-60">
@@ -128,28 +129,27 @@
       </div>
 
       <div class="ctc">
-      <?php include ('../../../includes/ctc-muro-davila.html') ?>
+        <?php include('../../../includes/ctc-muro-davila.php') ?>
       </div>
     </article>
 
-    <!-- ASIDE NOTA -->
+    <!-- ASIDE EDITORIAL-->
     <aside class="col-40">
-
-      <!-- BANNERS MARFIL Y RUBI ASIDE -->
       <div class="aside-bnrs-up">
-        <?php include ('../../../includes/bnr-marfil.php') ?>
+        <?php include('../../../includes/bnr-marfil.php') ?>
       </div>
 
+      <?php include('../../../includes/interes.php') ?>
+
       <div class="aside-bnrs-stic">
-      <?php include ('../../../includes/bnr-rubi.php') ?>
+        <?php include('../../../includes/bnr-rubi.php') ?>
       </div>
     </aside>
   </div>
 
   <div class="clear" style="margin-bottom: 60px;"></div>
 
-  <!-- BANNER ORO 1 -->
-  <?php include ('../../../includes/bnr-oro-02.php') ?>
+  <?php include('../../../includes/bnr-oro-02.php') ?>
 
   <!-- ANTERIORES -->
   <div class="contenedor m-0a anteriores">
@@ -168,8 +168,7 @@
 
   <div class="altura-ajuste-footer"></div>
 
-  <!-- FOOTER -->
-  <?php include ('../../../includes/footer.php') ?>
+  <?php include('../../../includes/footer.php') ?>
 
   <script src="../../../scripts/menu-mob.js"></script>
 </body>
