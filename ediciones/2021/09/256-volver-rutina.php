@@ -3,7 +3,6 @@
 <body>
   <?php include('../../../includes/header.php') ?>
 
-  <!-- BANNER ORO 1 -->
   <?php include('../../../includes/bnr-oro-01.php') ?>
 
   <div class="contenedor m-0a nota-bx">
@@ -93,7 +92,6 @@
           en niños con TEA o TDAH. El juego es el medio por el cual los niños aprenden en la infancia y por tanto básico
           para el desarrollo integral de los niños para interiorizar roles, normas, valores, así como desarrollar el
           lenguaje y comunicación en edades preescolares.</p>
-        <!-- foto-nota CON PIE IZQ -->
         <div class="foto-izq-pie">
           <figure>
             <img src="/ediciones/2021/09/imgs/256-Psic-Jessica Mucino-RETOMAR-RUTINA-nt2.jpg" alt="">

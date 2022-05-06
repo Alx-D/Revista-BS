@@ -3,13 +3,11 @@
 <body>
 <?php include('../../../includes/header.php') ?>
 
-<!-- BANNER ORO 1 -->
 <?php include('../../../includes/bnr-oro-01.php') ?>
 
   <div class="contenedor m-0a nota-bx">
     <article class="col-60">
 
-      <!-- CABEZA -->
       <div class="f2 ceja-gde naranjao">NIÑOS • JÓVENES</div>
       <p class="f1 fecha">Septiembre 2021</p>
 
@@ -24,7 +22,6 @@
         <img src="/ediciones/2021/09/imgs/256-dr-guillermo-vargas-dolor-osteomuscular.jpg" alt="">
       </figure>
 
-      <!-- COMPARTIR -->
       <div class="compartir-bx">
         <i class="fa fa-share"></i>
         <p class="f1 compartir"> Compartir</p>
@@ -38,7 +35,6 @@
         <a href="#" class="fas fa-link link-compartir" title="Copiar enlace"></a>
       </div>
 
-      <!-- CREDITO -->
       <div class="credito-bx">
         <figure class="credito-foto-bx">
           <img src="/imgs/doctores/Dr-Guillermo-Vargas-Espinoza.jpg" alt="">
@@ -58,7 +54,6 @@
         <div class="rc-color naranjao rc-der fit680">
           <img src="/ediciones/2021/09/imgs/256-dr-guillermo-vargas-dolor-osteomuscular-2-nt.png" style="margin: 0 auto; display: block; margin-bottom: 5px;">
           <p class="f2 rc-color-cbz-1r" style="color: white;">Radiografía de la mochila correcta</p>
-          <!-- <p class="f3 rc-color-texto"></p> -->
           <ol class="rc-color-lista">
             <li style="list-style-type: decimal;">Tirantes gruesos y acolchados</li>
             <li style="list-style-type: decimal;">Diversos compartimentos para distribuir el peso</li>
@@ -101,7 +96,7 @@
 
     <!-- ASIDE NOTA -->
     <aside class="col-40">
-     
+
       <div class="aside-bnrs-up">
         <?php include('../../../includes/bnr-marfil.php') ?>
       </div>

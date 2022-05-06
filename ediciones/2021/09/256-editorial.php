@@ -13,7 +13,6 @@
 
       <h1 class="f1 editorial-cbz"><strong>Regreso a clases</strong>, el gran reinicio de la humanidad</h1>
 
-      <!-- COMPARTIR -->
       <div class="compartir-bx">
         <i class="fa fa-share"></i>
         <p class="f1 compartir"> Compartir</p>

@@ -116,7 +116,7 @@
       </div>
 
       <div class="ctc">
-        <?php include('../../../includes/ctc-buruel-arvizu.php') ?>
+        <?php include('../../../includes/ctc-burruel-arvizu.php') ?>
       </div>
     </article>
 

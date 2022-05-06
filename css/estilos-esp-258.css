@@ -834,14 +834,14 @@ footer{
 }
 @media screen and (max-width: 680px){
   /* HEADER */
-  .header-desktop-cont{
-    padding: 30px 25px 0px 25px;
-    display: none;
-  }
   .header-mobile-cont{
     display: block;
     background: #e8e5e0;
     padding: 15px 0 15px;
+  }
+  .header-desktop-cont{
+    padding: 30px 25px 0px 25px;
+    display: none;
   }
   .header-mobile-row {
     display: flex;
@@ -853,14 +853,14 @@ footer{
     font-size: 5vw;
     margin-left: 20px;
   }
-  .fa-bars, .fa-angle-right {
+  header .fa-bars, .fa-angle-right {
     display: block;
     visibility: visible;
     align-self: center;
     color: #777;
     z-index: 9;
   }
-  .fa-angle-right{
+  header .fa-angle-right{
     font-size: 45px;
     margin-right: 20px;
   }
@@ -922,6 +922,9 @@ footer{
     color: #fff;
   }
   /* NOTA */
+  .migas .fa-angle-right{
+    display: initial;
+  }
   article{
     padding: 25px 25px 80px;
   }

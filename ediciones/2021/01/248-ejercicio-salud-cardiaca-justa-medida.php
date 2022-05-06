@@ -20,7 +20,6 @@
         <img src="/ediciones/2021/01/imgs/248-Dr-Ivan-Serna-EJERCICIO-CORAZON-1.jpg" alt="">
       </figure>
 
-      <!-- COMPARTIR -->
       <div class="compartir-bx">
         <i class="fa fa-share"></i>
         <p class="f1 compartir"> Compartir</p>
@@ -30,7 +29,6 @@
         <a href="#" class="fas fa-link link-compartir" title="Copiar enlace"></a>
       </div>
 
-      <!-- CREDITO -->
       <div class="credito-bx">
         <figure class="credito-foto-bx">
           <img src="/imgs/doctores/Dr-Ivan-Serna-Santamaria.jpg" alt="">

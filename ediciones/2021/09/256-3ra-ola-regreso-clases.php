@@ -3,7 +3,6 @@
 <body>
 <?php include('../../../includes/header.php') ?>
 
-<!-- BANNER ORO 1 -->
 <?php include('../../../includes/bnr-oro-01.php') ?>
 
   <div class="contenedor m-0a nota-bx">
@@ -22,7 +21,6 @@
         <img src="/ediciones/2021/09/imgs/256-Dr-Francisco-Burruel-TERCERA-OLA-2.jpg" alt="">
       </figure>
 
-      <!-- COMPARTIR -->
       <div class="compartir-bx">
         <i class="fa fa-share"></i>
         <p class="f1 compartir"> Compartir</p>
@@ -36,7 +34,6 @@
         <a href="#" class="fas fa-link link-compartir" title="Copiar enlace"></a>
       </div>
 
-      <!-- CREDITO -->
       <div class="credito-bx">
         <figure class="credito-foto-bx">
           <img src="/imgs/doctores/Dr-Francisco-Burruel-Arvizu.jpg" alt="">
@@ -94,10 +91,8 @@
           se recomienda usar mascarilla si hay acumulación de personas.
         </p>
 
-        <!-- RECUADRO COLOR -->
         <div class="rc-gris rc-izq fit680">
           <p class="f2 rc-gris-cbz-1r">Medidas en las escuelas</p>
-          <!-- <p class="f3 rc-color-texto"></p> -->
           <ul class="rc-gris-lista">
             <li>Correcto uso del cubrebocas en todo momento</li>
             <li>Sana distancia por lo menos un metro</li>

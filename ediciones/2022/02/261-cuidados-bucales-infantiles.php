@@ -24,7 +24,6 @@
         <img src="/ediciones/2022/02/imgs/261-Dra-Karla-Lopez-CUIDADOS-PEDIATRIA-1.jpg" alt="">
       </figure>
 
-      <!-- COMPARTIR -->
       <div class="compartir-bx">
         <i class="fa fa-share"></i>
         <p class="f1 compartir"> Compartir</p>
@@ -34,7 +33,6 @@
         <a href="#" class="fas fa-link link-compartir" title="Copiar enlace"></a>
       </div>
 
-      <!-- CREDITO -->
       <div class="credito-bx">
         <figure class="credito-foto-bx">
           <img src="/imgs/doctores/Dra-Karla-Lopez-Almazan.jpg" alt="">

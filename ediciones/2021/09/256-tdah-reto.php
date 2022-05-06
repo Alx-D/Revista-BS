@@ -3,7 +3,6 @@
 <body>
   <?php include('../../../includes/header.php') ?>
 
-  <!-- BANNER ORO 1 -->
   <?php include('../../../includes/bnr-oro-01.php') ?>
 
   <div class="contenedor m-0a nota-bx">
@@ -11,7 +10,6 @@
       <div class="f2 ceja-gde naranjao">NIÑOS • JÓVENES</div>
       <p class="f1 fecha">Septiembre 2021</p>
 
-      <!-- CABEZA -->
       <p class="f1 balazo-1">TDAH</p>
       <h1 class="f2 cabeza-1">Cuando la atención es un reto</h1>
       <p class="f1 sumario-1">Inatención, hiperactividad e impulsividades son los principales síntomas del TDAH, trastorno que suele manifestarse sobre todo como deficiencias en el desempeño escolar</p>
@@ -20,7 +18,6 @@
         <img src="/ediciones/2021/09/imgs/256-Dr-Roberto-Nahuelcura-TDAH.jpg" alt="">
       </figure>
 
-      <!-- COMPARTIR -->
       <div class="compartir-bx">
         <i class="fa fa-share"></i>
         <p class="f1 compartir"> Compartir</p>
@@ -30,7 +27,6 @@
         <a href="#" class="fas fa-link link-compartir" title="Copiar enlace"></a>
       </div>
 
-      <!-- CREDITO -->
       <div class="credito-bx">
         <figure class="credito-foto-bx">
           <img src="/imgs/doctores/Dr-Roberto-Nahuelcura-Alvarez.jpg" alt="">

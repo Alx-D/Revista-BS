@@ -28,7 +28,6 @@
         <img src="/ediciones/2021/09/imgs/256-MCS-Diana-Ramirez-RETOMAR-HABITOS.jpg" alt="">
       </figure>
 
-      <!-- COMPARTIR -->
       <div class="compartir-bx">
         <i class="fa fa-share"></i>
         <p class="f1 compartir"> Compartir</p>

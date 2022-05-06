@@ -3,7 +3,6 @@
 <body>
   <?php include('../../../includes/header.php') ?>
 
-  <!-- BANNER ORO 1 -->
   <?php include('../../../includes/bnr-oro-01.php') ?>
 
   <div class="contenedor m-0a nota-bx">

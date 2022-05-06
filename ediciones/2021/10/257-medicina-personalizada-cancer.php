@@ -3,7 +3,6 @@
 <body>
   <?php include('../../../includes/header.php') ?>
 
-  <!-- BANNER ORO 1 -->
   <?php include('../../../includes/bnr-oro-01.php') ?>
 
   <div class="contenedor m-0a nota-bx">
@@ -20,7 +19,6 @@
         <img src="/ediciones/2021/10/imgs/257-Dr-Hasan-Brau-MEDICINA-PERSONALIZADA.jpg" alt="">
       </figure>
 
-      <!-- COMPARTIR -->
       <div class="compartir-bx">
         <i class="fa fa-share"></i>
         <p class="f1 compartir"> Compartir</p>

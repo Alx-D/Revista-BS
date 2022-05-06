@@ -27,7 +27,6 @@
         <img src="/ediciones/2021/09/imgs/256-Dr-Rogelio-Basaldua-VISTA.jpg" alt="">
       </figure>
 
-      <!-- COMPARTIR -->
       <div class="compartir-bx">
         <i class="fa fa-share"></i>
         <p class="f1 compartir"> Compartir</p>
@@ -41,7 +40,6 @@
         <a href="#" class="fas fa-link link-compartir" title="Copiar enlace"></a>
       </div>
 
-      <!-- CREDITO -->
       <div class="credito-bx">
         <figure class="credito-foto-bx">
           <img src="/imgs/doctores/Dr-Rogelio-Basaldua.jpg" alt="">

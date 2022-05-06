@@ -3,7 +3,6 @@
 <body>
   <?php include('../../../includes/header.php') ?>
 
-  <!-- BANNER ORO 1 -->
   <?php include('../../../includes/bnr-oro-01.php') ?>
 
 
@@ -21,7 +20,6 @@
         <img src="/ediciones/2022/02/imgs/261-Dra-Cinthia-Borbon-TIPOS-ORTODONCIA-1.jpg" alt="">
       </figure>
 
-      <!-- COMPARTIR -->
       <div class="compartir-bx">
         <i class="fa fa-share"></i>
         <p class="f1 compartir"> Compartir</p>
@@ -31,7 +29,6 @@
         <a href="#" class="fas fa-link link-compartir" title="Copiar enlace"></a>
       </div>
 
-      <!-- CREDITO -->
       <div class="credito-bx">
         <figure class="credito-foto-bx">
           <img src="/imgs/doctores/Dra-Cinthia-Borbon-Esquer.jpg" alt="">
@@ -125,15 +122,12 @@
     <!-- ASIDE NOTA -->
     <aside class="col-40">
 
-      <!-- BANNER MARFIL ASIDE -->
       <div class="aside-bnrs-up">
         <?php include('../../../includes/bnr-marfil.php') ?>
       </div>
 
-      <!-- TEMAS DE INTERES -->
       <?php include('../../../includes/interes.php') ?>
 
-      <!-- BANNERS RUBI ASIDE -->
       <div class="aside-bnrs-stic">
         <?php include('../../../includes/bnr-rubi.php') ?>
       </div>
@@ -142,12 +136,10 @@
 
   <div class="clear" style="margin-bottom: 70px;"></div>
 
-  <!-- BANNER ORO 2 -->
   <?php include('../../../includes/bnr-oro-02.php') ?>
 
   <div class="altura-ajuste-footer"></div>
 
-  <!-- FOOTER -->
   <?php include('../../../includes/footer.php') ?>
 
   <script src="../../../scripts/menu-mob.js"></script>

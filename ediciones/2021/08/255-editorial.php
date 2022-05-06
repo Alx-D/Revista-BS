@@ -5,7 +5,6 @@
 
 <?php include('../../../includes/bnr-oro-01.php') ?>
 
-  <!-- NOTA -->
   <div class="contenedor m-0a nota-bx">
     <article class="col-64">
 
@@ -35,12 +34,10 @@
 
   <div class="clear" style="margin-bottom: 70px;"></div>
 
-<!-- BANNER ORO 2 -->
 <?php include('../../../includes/bnr-oro-02.php') ?>
 
 <div class="altura-ajuste-footer"></div>
 
-<!-- FOOTER -->
 <?php include('../../../includes/footer.php') ?>
 
 <script src="../../../scripts/menu-mob.js"></script>

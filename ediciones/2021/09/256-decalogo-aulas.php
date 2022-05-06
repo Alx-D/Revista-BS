@@ -78,7 +78,6 @@
       <div class="f2 ceja-gde naranjao">NIÑOS • JÓVENES</div>
       <p class="f1 fecha">Septiembre 2021</p>
 
-      <!-- CABEZA -->
       <p class="f1 balazo-1">Decálogo aulas seguras</p>
       <h1 class="f2 cabeza-1">Por una salud de 10</h1>
       <p class="f1 sumario-1">En el mes de agosto junto al anuncio del regreso a clases presenciales, las autoridades educativas a nivel nacional dieron a conocer las claves para hacerlo de forma segura, entérese</p>
@@ -87,7 +86,6 @@
         <img src="/ediciones/2021/09/imgs/256-Decalogo-Medidas.jpg" alt="">
       </figure>
 
-      <!-- COMPARTIR -->
       <div class="compartir-bx">
         <i class="fa fa-share"></i>
         <p class="f1 compartir"> Compartir</p>
@@ -97,7 +95,6 @@
         <a href="#" class="fas fa-link link-compartir" title="Copiar enlace"></a>
       </div>
 
-      <!-- CREDITO -->
       <div class="credito-bx" style="margin-bottom: 20px;">
         <p class="f1 credito-autor"><strong>Redacción BS</strong><br>
           <a href="mailto:edicionrevistabs@gmail.com"><i>edicionrevistabs@gmail.com</i></a>
