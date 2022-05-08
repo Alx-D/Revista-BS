@@ -100,16 +100,10 @@ header{
   font-weight: 700;
   margin-bottom: -5px;
 }
-/* .header-col-2 h1 span{
-  font-size: 55px;
-  font-weight: 700;
-  letter-spacing: 10px;
-} */
 .header-col-2 h3{
   font-size: 28px;
   font-weight: 600;
   line-height: 1;
-  /* letter-spacing: 1px; */
 }
 .header-col-3{
   width: 16%;
@@ -117,21 +111,6 @@ header{
 }
 .header-col-3 img{
   width: 100%;
-}
-.header-col-4{
-  flex-basis: 4%;
-}
-.flecha-svg-der{
-  width: 45px;
-  color: #bbbbae;
-}
-.flecha-svg-der:hover {
-  color: #a7a690;
-  transform: translateY(-2%);
-}
-.remate-esp{
-  font-size: 14px;
-  color: #dbdbd2;
 }
 /* NOTA */
 article{
@@ -144,11 +123,19 @@ article{
 }
 .migas {
   font-size: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .migas  .fa-angle-right{
   font-size: 15px;
   margin-right: unset;
+}
+.fa-circle-arrow-right{
+  float: right;
+  font-size: 35px;
+  color: #ff6b5b;
+}
+.fa-circle-arrow-right:hover{
+  color: #ff4d3c;
 }
 .nombre-bx{
   margin-bottom: 20px;
@@ -257,15 +244,9 @@ article h1{
 .txt-esp-bx{
   display: flex;
   justify-content: space-between;
-
-  /* display: grid;
-  grid-template-columns: 60% 40%; */
 }
 .col-60{
   width: 58%;
-
-  /* grid-column: 1/2;
-  width: 98%; */
 }
 .txt-esp{
   font-family: "Nunito Sans", sans-serif;
@@ -291,6 +272,10 @@ article h1{
   font-weight: 500;
   margin-top: 20px;
 }
+.remate-esp{
+  font-size: 14px;
+  color: #dbdbd2;
+}
 
 /* ASIDE */
 .col-40{
@@ -298,15 +283,6 @@ article h1{
   float: right;
   right: 0;
   position: relative;
-
-  /* display: flex; */
-  /* align-content: space-between; */
-  /* flex-direction: column; */
-
-  /* grid-column: 2/3;
-  width: 92%;
-  justify-self: right;
-  position: relative; */
 }
 .dr-foto-bx{
   width: 100%;
@@ -329,7 +305,6 @@ article h1{
   background: #ff6b5b;
   border-radius: 12px;
   padding: 25px;
-  /* margin-top: 450px; */
 }
 .frc{
   font-size: 27px;
@@ -358,11 +333,10 @@ article h1{
   background: var(--azul-oscuro);
   border-radius: 12px;
   margin-top: 100px;
-  /* bottom: 0; */
-  /* position: absolute; */
-}
-.ctc-bx p, .ctc-bx a{
   font-family: "Nunito Sans", sans-serif;
+  color: white;
+}
+.ctc-bx a{
   color: white;
 }
 .ctc-conozca{
@@ -399,22 +373,24 @@ article h1{
 .ctc-empresa {
   font-size: 21px;
   font-weight: 500;
+  line-height: 1.2;
+  margin-bottom: 7px;
 }
-.ctc-dom-tel {
-  text-indent: -10px;
+.ctc-dom, .ctc-tel {
+  text-indent: -12px;
   margin-left: 25px;
   font-size: 16.5px;
   font-weight: 300;
-  line-height: 1;
-  margin-top: 10px;
+  line-height: 1.3;
+  margin-bottom: 7px;
 }
 .ctc-correo {
   font-size: 16.5px;
   line-height: 1;
   font-weight: 200;
   display: block;
-  margin-bottom: 7px;
   word-break: break-all;
+  margin-bottom: 7px;
 }
 .ctc-foto{
   width: 30%;
@@ -424,10 +400,18 @@ article h1{
 .ctc-foto img{
   width: 100%;
 }
-.ctc-redes {
+.ctc-click {
   font-size: 18px;
   line-height: 1.1;
-  margin: 10px 3px;
+  margin: 20px 0 12px;
+}
+.ctc-redes {
+  font-size: 17.5px;
+  line-height: 1;
+  font-weight: 200;
+  display: block;
+  word-break: break-all;
+  margin-bottom: 12px;
 }
 .hv-txt:hover {
   transform: translateY(-6%);
@@ -688,6 +672,9 @@ footer{
     font-size: 18px;
   }
   /* NOTA */
+  .fa-circle-arrow-right{
+    font-size: 30px;
+  }
   .circulo-diabetes{
     width: 50px;
     height: 50px;
@@ -837,16 +824,16 @@ footer{
   .header-mobile-cont{
     display: block;
     background: #e8e5e0;
-    padding: 15px 0 15px;
+    padding: 15px 0 5px;
   }
   .header-desktop-cont{
     padding: 30px 25px 0px 25px;
     display: none;
   }
   .header-mobile-row {
-    display: flex;
     margin: 15px auto;
-    justify-content: space-between;
+    display: flex;
+    justify-content: space-evenly;
     align-items: center;
   }
   .fa-bars {
@@ -924,6 +911,9 @@ footer{
   /* NOTA */
   .migas .fa-angle-right{
     display: initial;
+  }
+  .fa-circle-arrow-right{
+    font-size: 25px;
   }
   article{
     padding: 25px 25px 80px;
@@ -1101,6 +1091,9 @@ footer{
     margin-right: 15px;
   }
   /* NOTA */
+  .fa-circle-arrow-right{
+    font-size: 20px;
+  }
   .dr-foto-bx-vd680{
     display: none;
   }

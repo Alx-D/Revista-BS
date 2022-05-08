@@ -1,71 +1,8 @@
-<?php include ('../../../includes/head.php') ?>
+<?php include('../../../includes/head.php') ?>
 <link rel="stylesheet" href="/css/estilos-esp-258.css">
 
 <body>
-  <header class="contenedor">
-    <div class="header-mobile-cont">
-      <div class="header-mobile-row">
-        <i class="fas fa-bars" onclick="showMenu()"></i>
-        <div class="hlmbx">
-          <div class="logo-mobile-bx">
-            <a href="/index.php">
-              <img src="/imgs/Revista-BS-logo-header.png">
-            </a>
-          </div>
-          <div class="esp-mobile-bx">
-            <p class="f2 indicador">SECCIÓN ESPECIAL</p>
-            <h1 class="f1" style="color: #1677f2;">DIABETES</h1>
-          </div>
-        </div>
-        <a href="258-Dr-Francisco-Puebla.php"><i class="fas fa-angle-right"></i></a>
-      </div>
-
-      <nav>
-        <div class="menu-mobile" id="menu-enlaces">
-          <i class="fas fa-times" onclick="hideMenu()"></i>
-          <ul>
-            <li><a href="/index.php">Inicio</a></li>
-            <li><a href="/2021/11/258-Dra-Rosa-Maria-Acuna.php">Dra. Rosa María Acuña Ortiz</a></li>
-            <li><a href="/2021/11/258-Dra-Adria-Almada.php">Dra. Adria Jazmín Almada Córdova</a></li>
-            <li><a href="/2021/11/258-Dr-Ruben-Cardoza.php">Dr. Rubén Alfredo Cardoza Encinas</a></li>
-            <li><a href="/2021/11/258-Dr-Fernando-Platt.php">Dr. Fernando Platt Soto</a></li>
-            <li><a href="/2021/11/258-Nut-Andrea-Larios.php">Nut. Andrea Larios Coronado</a></li>
-            <li><a href="/2021/11/258-Dra-Irlanda-Lopez-Leal.php">Dra. Irlanda Nataly Lopez Leal</a></li>
-            <li><a href="/2021/11/258-Nut-Glenda-Morales.php">Nut. Glenda Morales Becerra</a></li>
-            <li><a href="/2021/11/258-Fis-Oscar-Flores.php">Fis. Oscar Daniel Flores López</a></li>
-            <li><a href="/2021/11/258-Dr-Francisco-Puebla.php">Dr. Francisco Rafael Puebla Zúñiga</a></li>
-            <li><a href="/2021/11/258-Dr-Joel-Verdugo.php">Dr. Joel Ernesto Verdugo Correa</a></li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-
-    <div class="header-desktop-cont">
-      <div class="header-col-1" style="position: relative;">
-        <div class="revista-bs-logo-bx">
-          <a href="/index.php">
-            <img src="/imgs/Revista-BS-logo-header.png" alt="Revista BS">
-          </a>
-        </div>
-      </div>
-      <div class="header-col-2">
-        <p class="f2 indicador">SECCIÓN ESPECIAL</p>
-        <h1 class="f1" style="color: #1677f2;">DIABETES</h1>
-        <h3 class="f1" style="color: #ff6b5b;"><i>Prevenir complicaciones para vivir plenamente</i></h3>
-      </div>
-      <div class="header-col-3">
-        <img src="/ediciones/2021/11/imgs/258-Secc-Especial-DIABETES-th.png" alt="">
-      </div>
-      <div class="header-col-4">
-        <a href="258-Dr-Francisco-Puebla.php">
-          <svg class="flecha-svg-der" viewBox="0 0 256 512">
-            <path fill="currentColor" d="M64 448c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L178.8 256L41.38 118.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160c12.5 12.5 12.5 32.75 0 45.25l-160 160C80.38 444.9 72.19 448 64 448z">
-            </path>
-          </svg>
-        </a>
-      </div>
-    </div>
-  </header>
+<?php include('includes/header-e258.php') ?>
 
   <article class="contenedor">
     <div class="f1 migas">
@@ -78,6 +15,9 @@
       <i class="fas fa-angle-right"></i>
       &nbsp;
       <p style="display: inline;">Noviembre 2021</p>
+
+      <a href="258-Dr-Francisco-Puebla.php" style="margin-left: auto;"><i class="fa-solid fa-circle-arrow-right"></i>
+      </a>
     </div>
 
     <div class="nombre-bx">
@@ -164,17 +104,7 @@
               <img src="/ediciones/2021/11/imgs/258-Dr-Fernando-Platt-3.png" alt="">
             </div>
             <p class="ctc-conozca" style="display: inline;">Conózcalo</p>
-            <p class="ctc-nombre">Dr. Fernando Platt Soto</p>
-            <p class="ctc-especialidad">Nefrología</p>
-            <p class="ctc-cedulas">Cédula 8932080</p>
-            <p class="ctc-empresa">Hospital San José, 4to. piso, módulo M</p>
-            <p class="ctc-dom-tel"><i class="fas fa-map-marker-alt"></i> Blvd. Morelos #340, Hermosillo, Sonora</p>
-            <a href="tel:">
-              <p class="f1 ctc-dom-tel"><i class="fas fa-phone-alt"></i> (662) 109-0570, (662) 109-0500 ext. 4100</p>
-            </a>
-            <p class="ctc-redes">Click para acceder a sus redes sociales</p>
-            <p class="ctc-dom-tel hv-txt"><i class="fab fa-facebook-square"></i> <a href="https://www.facebook.com/plattnefro" target="blank">Dr. Fernando Platt Soto</a></p>
-            <p class="ctc-dom-tel hv-txt"><i class="fas fa-globe"></i> <a href="https://www.plattnefro.com/" target="blank">plattnefro.com</a></p>
+            <?php include('../../../includes/ctc-platt-soto.php') ?>
           </div>
 
         </div>
