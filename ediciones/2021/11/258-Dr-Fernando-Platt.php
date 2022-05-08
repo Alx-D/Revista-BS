@@ -16,7 +16,7 @@
       &nbsp;
       <p style="display: inline;">Noviembre 2021</p>
 
-      <a href="258-Dr-Francisco-Puebla.php" style="margin-left: auto;"><i class="fa-solid fa-circle-arrow-right"></i>
+      <a href="/ediciones/2021/11/258-Nut-Andrea-Larios.php" style="margin-left: auto;"><i class="fa-solid fa-circle-arrow-right"></i>
       </a>
     </div>
 

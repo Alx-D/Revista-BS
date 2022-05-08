@@ -97,6 +97,7 @@
       <a href="ediciones/2021/12/259-vertigo.php">Cuando todo da vueltas</a>
 
       <a href="ediciones/2021/12/259-Dr-Asael-Castro.php">Dr. Asael Castro Pico</a>
+      <a href="ediciones/2021/12/259-Dr-Asael-Castro.html">Dr. Asael Castro Pico</a>
       <a href="ediciones/2021/12/259-Dr-Joel-Verdugo.php">Dr. Joel Ernesto Verdugo Correa</a>
       <a href="ediciones/2021/12/259-Dr-Mario-Vizcaino.php">Dr. Mario Benjamín Vizcaíno Ahumada</a>
       <a href="ediciones/2021/12/259-Dr-Rafael-Inigo.php">Dr. Rafael Francisco Iñigo Pavlovich</a>

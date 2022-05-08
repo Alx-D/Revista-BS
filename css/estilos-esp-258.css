@@ -92,7 +92,7 @@ header{
   font-size: 23px;
   font-weight: 400;
   color: #555;
-  margin-bottom: -5px;
+  margin-bottom: -2px;
 }
 .header-col-2 h1{
   font-size: 55px;
@@ -1063,6 +1063,9 @@ footer{
     font-size: 21px;
     line-height: 1.2;
     margin-top: 30px;
+  }
+  .nonedw480{
+    display: none;
   }
   /* ASIDE */
   .frt{

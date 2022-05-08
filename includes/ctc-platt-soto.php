@@ -1,5 +1,3 @@
-
-
 <p class="ctc-nombre">Dr. Fernando Platt Soto</p>
 <p class="ctc-especialidad">Nefrología</p>
 <p class="ctc-cedulas">Cédula profesional: 6835593, Universidad de Monterrey; <br class="nonedw480">Cédula de especialidad:
@@ -13,6 +11,6 @@
 
 <p class="ctc-click">Click para acceder a sus redes sociales</p>
 
-<a class="ctc-redes hv-txt" href="https://www.facebook.com/plattnefro"><i class="fab fa-facebook-square"></i> Dr. Fernando Platt Soto</a>
+<a class="ctc-redes hv-txt" href="https://www.facebook.com/plattnefro" target="blank"><i class="fab fa-facebook-square"></i> Dr. Fernando Platt Soto</a>
 
-<a class="ctc-redes hv-txt" style="margin-bottom: 0;" href="https://www.plattnefro.com/"><i class="fas fa-globe"></i> plattnefro.com</a>
+<a class="ctc-redes hv-txt" style="margin-bottom: 0;" href="https://www.plattnefro.com/" target="blank"><i class="fas fa-globe"></i> plattnefro.com</a>

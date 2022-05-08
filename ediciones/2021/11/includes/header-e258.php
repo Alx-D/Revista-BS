@@ -30,6 +30,7 @@
             <li><a href="/ediciones/2021/11/258-Fis-Oscar-Flores.php">Fis. Oscar Daniel Flores López</a></li>
             <li><a href="/ediciones/2021/11/258-Dr-Francisco-Puebla.php">Dr. Francisco Rafael Puebla Zúñiga</a></li>
             <li><a href="/ediciones/2021/11/258-Dr-Joel-Verdugo.php">Dr. Joel Ernesto Verdugo Correa</a></li>
+            <li><a href="/ediciones/2021/11/258-Dr-Sergio-Guerra.php">Dr. Sergio Guerra Landavazo</a></li>
           </ul>
         </div>
       </nav>
