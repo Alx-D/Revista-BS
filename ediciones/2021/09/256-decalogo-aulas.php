@@ -1,3 +1,4 @@
+<?php include('../../../includes/head.php') ?>
 <style>
     /* RC EDUCATEL */
     .rc-educatel {
@@ -12,13 +13,11 @@
       display: flex;
       align-content: center;
     }
-
     .icon-educatel {
       font-size: 70px;
       color: white;
       margin-right: 18px;
     }
-
     .rced1 {
       font-size: 30px;
       line-height: 1.2;
@@ -26,7 +25,6 @@
       text-transform: uppercase;
       font-weight: bold;
     }
-
     .rced2 {
       font-size: 25px;
       line-height: 1.2;
@@ -34,39 +32,31 @@
       text-transform: uppercase;
       margin-top: -7px;
     }
-
     @media screen and (max-width: 520px) {
       .icon-educatel {
         font-size: 50px;
         margin-right: 14px;
       }
-
       .rced1 {
         font-size: 27px;
       }
-
       .rced2 {
         font-size: 23px;
       }
     }
-
     @media screen and (max-width: 360px) {
       .icon-educatel {
         font-size: 40px;
         margin-right: 14px;
       }
-
       .rced1 {
         font-size: 25px;
       }
-
       .rced2 {
         font-size: 18px;
       }
     }
   </style>
-
-<?php include('../../../includes/head.php') ?>
 
 <body>
   <?php include('../../../includes/header.php') ?>

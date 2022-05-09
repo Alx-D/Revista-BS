@@ -1,3 +1,4 @@
+<?php include('../../../includes/head.php') ?>
 <style>
   @media screen and (min-width: 768px) {
     .rc-color {
@@ -5,8 +6,6 @@
     }
   }
 </style>
-
-<?php include('../../../includes/head.php') ?>
 
 <body>
   <?php include('../../../includes/header.php') ?>

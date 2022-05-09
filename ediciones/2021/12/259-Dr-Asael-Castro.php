@@ -16,7 +16,7 @@
       &nbsp;
       <p style="display: inline;">Diciembre 2021</p>
 
-      <a href="/2021/12/259-Dra-Alay-Nenninger.php" style="margin-left: auto;"><i class="fa-solid fa-circle-arrow-right"></i>
+      <a href="/ediciones/2021/12/259-Dra-Alay-Nenninger.php" style="margin-left: auto;"><i class="fa-solid fa-circle-arrow-right"></i>
       </a>
     </div>
 

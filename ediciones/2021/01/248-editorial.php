@@ -1,3 +1,4 @@
+<?php include('../../../includes/head.php') ?>
 <style>
 .rc-gris-editorial {
   width: 90%;
@@ -48,8 +49,6 @@
     margin: 25px auto 35px auto;}
   }
 </style>
-
-<?php include('../../../includes/head.php') ?>
 
 <body>
 <?php include('../../../includes/header.php') ?>

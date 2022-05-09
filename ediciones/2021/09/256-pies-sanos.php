@@ -1,28 +1,23 @@
+<?php include('../../../includes/head.php') ?>
 <style>
     .rc-gris {
       Width: 30%;
     }
-
     .w768 {
       display: none !important;
     }
-
     @media screen and (max-width: 768px) {
       .w1200 {
         display: none !important;
       }
-
       .w768 {
         display: initial !important;
       }
-
       .rc-gris {
         width: 100%;
       }
     }
   </style>
-
-<?php include('../../../includes/head.php') ?>
 
 <body>
  <?php include('../../../includes/header.php') ?>

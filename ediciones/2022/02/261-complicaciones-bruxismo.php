@@ -1,3 +1,4 @@
+<?php include('../../../includes/head.php') ?>
 <style>
   .rc-color {
     position: relative;
@@ -33,8 +34,6 @@
     }
   }
 </style>
-
-<?php include('../../../includes/head.php') ?>
 
 <body>
   <?php include('../../../includes/header.php') ?>

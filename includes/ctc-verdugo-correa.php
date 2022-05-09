@@ -4,7 +4,7 @@
   10138855, Universidad de Guadalajara</p>
 <p class="ctc-empresa">Hospital San José, 2do. piso, módulo C</p>
 <p class="ctc-dom"><i class="fas fa-map-marker-alt"></i> Blvd. Morelos #340, Hermosillo, Sonora</p>
-<a href="tel:">
+<a href="tel:+526621090524">
   <p class="ctc-tel"><i class="fas fa-phone-alt"></i> (662) 109-0524</p>
 </a>
 <a class="ctc-correo" href="mailto:dr.verdugo.nefrologo@gmail.com"><i class="fas fa-envelope"></i> dr.verdugo.nefrologo@gmail.com</a>

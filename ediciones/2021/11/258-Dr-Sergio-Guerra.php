@@ -91,8 +91,6 @@
             <?php include('../../../includes/ctc-guerra-landavazo.php') ?>
           </div>
         </div>
-
-
       </aside>
     </div>
   </article>

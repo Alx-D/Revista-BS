@@ -1,3 +1,4 @@
+<?php include('../../../includes/head.php') ?>
 <style>
   .liston {
     width: 13%;
@@ -10,8 +11,6 @@
     }
   }
 </style>
-
-<?php include('../../../includes/head.php') ?>
 
 <body>
   <?php include('../../../includes/header.php') ?>

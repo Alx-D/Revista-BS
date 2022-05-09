@@ -1,3 +1,4 @@
+<?php include('../../../includes/head.php') ?>
 <style>
   .logo {
     width: 17%;
@@ -22,8 +23,6 @@
     font-weight: 400;
   }
 </style>
-
-<?php include('../../../includes/head.php') ?>
 
 <body>
   <?php include('../../../includes/header.php') ?>

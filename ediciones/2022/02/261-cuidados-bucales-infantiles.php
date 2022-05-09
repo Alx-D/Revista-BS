@@ -1,10 +1,10 @@
+
+<?php include('../../../includes/head.php') ?>
 <style>
   .texto>p>span {
     color: #7c2f8b;
   }
 </style>
-
-<?php include('../../../includes/head.php') ?>
 
 <body>
   <?php include('../../../includes/header.php') ?>

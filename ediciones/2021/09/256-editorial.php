@@ -1,9 +1,9 @@
 <?php include('../../../includes/head.php') ?>
 
 <body>
-<?php include('../../../includes/header.php') ?>
+  <?php include('../../../includes/header.php') ?>
 
-<?php include('../../../includes/bnr-oro-01.php') ?>
+  <?php include('../../../includes/bnr-oro-01.php') ?>
 
   <div class="contenedor m-0a nota-bx">
 

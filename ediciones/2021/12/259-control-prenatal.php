@@ -111,7 +111,7 @@
       </div>
 
       <div class="ctc">
-        <?php include('../../../includes/ctc-vazquez-coronado.php') ?>
+        <?php include('../../../includes/ctc-vasquez-coronado.php') ?>
       </div>
     </article>
 
