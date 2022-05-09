@@ -2,7 +2,8 @@
 <link rel="stylesheet" href="/css/estilos-esp-259.css">
 <style>
     .dr-foto-bx img {
-      margin-top: -95px;
+      width: 90%;
+      margin-top: -95px auto auto 0;
     }
     .ctc-bx {
       margin-top: 15px;

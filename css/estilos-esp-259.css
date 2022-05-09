@@ -142,6 +142,7 @@ article{
   float: right;
   font-size: 35px;
   color: #ff6b5b;
+  z-index: 500;
 }
 .fa-circle-arrow-right:hover{
   color: #ff4d3c;
