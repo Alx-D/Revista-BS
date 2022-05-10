@@ -3,8 +3,7 @@
       <div class="header-mobile-row">
         <i class="fas fa-bars" onclick="showMenu()"></i>
 
-        <div class="hlmbx">
-
+        <div>
           <div class="logo-mobile-bx">
             <a href="/index.php">
               <img src="/imgs/Revista-BS-logo-m.png">
@@ -13,7 +12,7 @@
 
           <div class="esp-mobile-bx">
             <p class="f2 indicador">SECCIÓN ESPECIAL</p>
-            <h1 class="f3">Acuda con los expertos</h1>
+            <h1 class="f2">Acuda con los expertos</h1>
             <h3 class="f1">Conozca y consulte a los especialistas</h3>
           </div>
         </div>

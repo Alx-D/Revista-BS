@@ -15,7 +15,7 @@
       &nbsp;
       <p style="display: inline;">Enero 2022</p>
 
-      <a href="" style="margin-left: auto;"><i class="fa-solid fa-circle-arrow-right"></i>
+      <a href="/ediciones/2022/01/260-Nut-Ariela-Romo.php" style="margin-left: auto;"><i class="fa-solid fa-circle-arrow-right"></i>
       </a>
     </div>
 

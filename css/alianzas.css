@@ -63,7 +63,11 @@ a {
 .hv-txt:hover{
   color: slategrey;
 }
-.hv-trns-01:hover {
+/* quitar txt, poner color */
+.hv-color:hover{
+  color: slategrey;
+}
+.hv-trns-1:hover {
   transform: translateY(-1%);
 }
 .hv-trns-5:hover {
