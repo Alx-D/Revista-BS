@@ -355,6 +355,7 @@ article h1{
 }
 .ctc-especialidad {
   font-size: 20px;
+  line-height: 1.2;
   font-weight: 500;
   margin-bottom: 5px;
 }
@@ -372,9 +373,9 @@ article h1{
 }
 .ctc-empresa {
   font-size: 21px;
-  font-weight: 500;
   line-height: 1.2;
-  margin-bottom: 7px;
+  font-weight: 500;
+  margin-bottom: 8px;
 }
 .ctc-dom, .ctc-tel {
   text-indent: -12px;
@@ -392,14 +393,6 @@ article h1{
   word-break: break-all;
   margin-bottom: 7px;
 }
-.ctc-foto{
-  width: 30%;
-  float: right;
-  margin-left: 10px;
-}
-.ctc-foto img{
-  width: 100%;
-}
 .ctc-click {
   font-size: 18px;
   line-height: 1.1;
@@ -412,6 +405,14 @@ article h1{
   display: block;
   word-break: break-all;
   margin-bottom: 12px;
+}
+.ctc-foto{
+  width: 30%;
+  float: right;
+  margin-left: 10px;
+}
+.ctc-foto img{
+  width: 100%;
 }
 .hv-txt:hover {
   transform: translateY(-6%);
@@ -1148,7 +1149,7 @@ footer{
     font-size: 10px;
   }
   .migas  .fa-angle-right{
-    font-size: 10px;
+    font-size: 12px;
   }
   .circulo-diabetes{
     width: 35px;

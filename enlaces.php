@@ -123,6 +123,7 @@
       <a href="ediciones/2022/01/260-salud-mental.php">Salud mental</a>
       <a href="ediciones/2022/01/260-Seccion-Especial.php">Sección Especial 260</a>
       <a href="ediciones/2022/01/260-Dr-Gerardo-Quintanar.php">Dr. Gerardo Quintanar Fimbres</a>
+      <a href="ediciones/2022/01/260-Dr-Gerardo-Quintanar.html">Dr. Gerardo Quintanar Fimbres</a>
       <a href="ediciones/2022/01/260-Dr-Jose-Antonio-Gonzalez.php">Dr. José Antonio González Rincón</a>
       <a href="ediciones/2022/01/260-Dr-Kessec-Esquer.php">Dr. Kessec Roberto Esquer Moreno</a>
       <a href="ediciones/2022/01/260-Dra-Ludmilla-Ore.php">Dra. Ludmilla Ore Colio</a>

@@ -301,7 +301,7 @@ header{
   width: 100%;
 }
 .header-col-2{
-  width: 60%;
+  width: 65%;
 }
 .indicador {
   font-size: 20px;
@@ -309,10 +309,11 @@ header{
   color: #555;
 }
 .header-col-2 h1{
-  font-size: 50px;
+  font-size: 55px;
   line-height: 1.2;
-  font-weight: 500;
+  font-weight: 400;
   color: #1c84b7;
+  text-transform: uppercase;
 }
 .header-col-2 h3{
   font-size: 25px;
@@ -327,17 +328,6 @@ header{
 }
 .header-col-3 img{
   width: 100%;
-}
-.header-col-4{
-  flex-basis: 4%;
-}
-.flecha-svg-der{
-  width: 45px;
-  color: #bbbbae;
-}
-.flecha-svg-der:hover {
-  color: #a7a690;
-  transform: translateY(-2%);
 }
 .remate-esp{
   font-size: 14px;
@@ -359,6 +349,14 @@ article{
 .migas  .fa-angle-right{
   font-size: 15px;
   margin-right: unset;
+}
+.fa-circle-arrow-right{
+  float: right;
+  font-size: 35px;
+  color: #ff6b5b;
+}
+.fa-circle-arrow-right:hover{
+  color: #ff4d3c;
 }
 .nombre-bx{
   margin-bottom: 20px;
@@ -548,9 +546,10 @@ article h1{
   padding: 25px;
   background: #1c84b7;
   margin-top: 100px;
-}
-.ctc-bx p, .ctc-bx a{
   font-family: "Nunito Sans", sans-serif;
+  color: white;
+}
+.ctc-bx a{
   color: white;
 }
 .ctc-conozca{
@@ -569,7 +568,7 @@ article h1{
 }
 .ctc-especialidad {
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.1;
   font-weight: 500;
   margin-bottom: 5px;
 }
@@ -582,30 +581,56 @@ article h1{
 .ctc-cedulas {
   font-size: 14px;
   font-weight: 300;
-  line-height: 1.4;
+  line-height: 1.2;
   margin-bottom: 5px;
 }
 .ctc-empresa {
   font-size: 21px;
   line-height: 1.2;
   font-weight: 500;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 }
-.ctc-dom-tel {
-  text-indent: -10px;
+.ctc-dom, .ctc-tel {
+  text-indent: -12px;
   margin-left: 25px;
   font-size: 16.5px;
   font-weight: 300;
-  line-height: 1.1;
-  margin-bottom: 8px;
+  line-height: 1.2;
+}
+.ctc-dom {
+  margin-bottom: 3px;
+}
+.ctc-tel {
+  display: inline-block;
 }
 .ctc-correo {
   font-size: 16.5px;
   line-height: 1;
   font-weight: 200;
-  display: block;
-  margin-bottom: 7px;
+  display: inline-block;
   word-break: break-all;
+  margin-bottom: 8px;
+}
+.ctc-click {
+  font-size: 18px;
+  line-height: 1.1;
+  margin: 10px 0 5px;
+}
+.ctc-redes {
+  font-size: 17.5px;
+  line-height: 1;
+  font-weight: 200;
+  display: block;
+  word-break: break-all;
+  margin-bottom: 12px;
+}
+.redes-icon {
+  font-size: 30px;
+  margin-right: 25px;
+  margin-bottom: 18px;
+}
+.hv-txt:hover {
+  transform: translateY(-6%);
 }
 .ctc-foto{
   width: 30%;
@@ -614,16 +639,6 @@ article h1{
 }
 .ctc-foto img{
   width: 100%;
-}
-.ctc-redes {
-  font-size: 18px;
-  line-height: 1.1;
-  margin-bottom: 3px;
-}
-.redes-icon {
-  font-size: 30px;
-  margin-right: 25px;
-  margin-bottom: 18px;
 }
 .clear {
   clear: both;
@@ -869,6 +884,9 @@ footer{
     font-size: 18px;
   }
   /* NOTA */
+  .fa-circle-arrow-right{
+    font-size: 30px;
+  }
   .txt-esp-bx{
     display: initial;
   }
@@ -1107,6 +1125,12 @@ footer{
     color: #fff;
   }
   /* NOTA */
+  .migas .fa-angle-right{
+    display: initial;
+  }
+  .fa-circle-arrow-right{
+    font-size: 25px;
+  }
   article{
     padding: 25px 25px 80px;
   }
@@ -1290,6 +1314,9 @@ footer{
     margin-right: 15px;
   }
   /* NOTA */
+  .fa-circle-arrow-right{
+    font-size: 20px;
+  }
   .dr-foto-bx-vd680{
     display: none;
   }
