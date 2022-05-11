@@ -1,7 +1,7 @@
 <?php include('includes/head-e261.php') ?>
 
 <body>
-<?php include('includes/header-e261.php') ?>
+  <?php include('includes/header-e261.php') ?>
 
   <article class="contenedor">
     <div class="f1 migas">
@@ -14,12 +14,15 @@
       <i class="fas fa-angle-right"></i>
       &nbsp;
       <p style="display: inline;">Febrero 2022</p>
+
+      <a href="" style="margin-left: auto;"><i class="fa-solid fa-circle-arrow-right"></i>
+      </a>
     </div>
 
     <div class="nombre-bx">
-      <img class="diente-icon" src="imgs/261-diente.svg" alt="">
+      <img class="diente-icon" src="/ediciones/2022/02/imgs/261-diente.svg" alt="">
       <h3 class="f1 nombre">Odont. Alberto <br class="brvd680"> Vázquez Zavala</h3>
-      <img class="dr-foto-bx-vd420" src="imgs/261-Dr-Alberto-Vazquez-2.jpg" alt="">
+      <img class="dr-foto-bx-vd420" src="/ediciones/2022/02/imgs/261-Dr-Alberto-Vazquez-2.jpg" alt="">
     </div>
 
     <div class="txt-esp-bx">
@@ -29,7 +32,6 @@
           un tratamiento son sólo algunas de las ventajas de la odontología digital, conozca la perspectiva del doctor
           Alberto Vázquez Zavala</p>
 
-        <!-- COMPARTIR -->
         <div class="compartir-bx">
           <i class="fa fa-share"></i>
           <p class="f1 compartir"> Compartir</p>
@@ -46,12 +48,12 @@
         </div>
 
         <div class="dr-foto-bx-vd680">
-          <img src="imgs/261-Dr-Alberto-Vazquez-2.jpg" alt="">
+          <img src="/ediciones/2022/02/imgs/261-Dr-Alberto-Vazquez-2.jpg" alt="">
         </div>
 
         <div class="txt-esp">
           <div class="dr-foto-bx-vd840">
-            <img src="imgs/261-Dr-Alberto-Vazquez-1.jpg" alt="">
+            <img src="/ediciones/2022/02/imgs/261-Dr-Alberto-Vazquez-1.jpg" alt="">
           </div>
 
           <p>Considerados como odontología Premium, los procedimientos realizados con técnicas de odontología digital
@@ -90,7 +92,7 @@
 
       <aside class="col-40">
         <div class="dr-foto-bx">
-          <img src="imgs/261-Dr-Alberto-Vazquez-1.jpg" alt="">
+          <img src="/ediciones/2022/02/imgs/261-Dr-Alberto-Vazquez-1.jpg" alt="">
         </div>
 
         <div class="col-40-row-2">
@@ -103,23 +105,10 @@
 
           <div class="ctc-bx">
             <div class="ctc-foto">
-              <img src="/2022/02/imgs/261-Dr-Alberto-Vazquez-3.jpg" alt="">
+              <img src="/ediciones/2022/02/imgs/261-Dr-Alberto-Vazquez-3.jpg" alt="">
             </div>
             <p class="ctc-conozca" style="display: inline;">Conózcalo</p>
-            <p class="ctc-nombre">Odont. Alberto Vázquez Zavala</p>
-            <p class="ctc-especialidad">Rehabilitación oral e implantología</p>
-            <p class="ctc-cedulas">Cédula 10757052</p>
-            <p class="ctc-empresa">Clínica Oviedo-Zavala</p>
-            <p class="ctc-dom-tel"><i class="fas fa-map-marker-alt"></i> Blvd. Colosio #75 esq. con Madrid, Hermosillo, Sonora</p>
-            <a href="tel:">
-              <p class="f1 ctc-dom-tel"><i class="fas fa-phone-alt"></i> (662) 462-4946</p>
-            </a>
-            <p class="ctc-redes">Click para acceder a sus redes sociales</p>
-            <a class="redes-icon" href="https://www.facebook.com/DR.ALBERTOVAZQUEZ" target="blank" title="Dr. Alberto Vazquez"><i class="fab fa-facebook-square"></i></a>
-
-            <a class="redes-icon" href="https://www.instagram.com/dr_albertovazquez/" target="blank" title="@dr_albertovazquez"><i class="fab fa-instagram-square"></i></a>
-
-            <a class="redes-icon" href="https://www.youtube.com/channel/UClvPWDTOLop88jBf_aj0qoA" target="blank" title="Dr. Alberto Vazquez Zavala"><i class="fab fa-youtube-square"></i></a>
+            <?php include('../../../includes/ctc-vazquez-zavala.php') ?>
           </div>
         </div>
       </aside>
@@ -128,71 +117,9 @@
 
   <div class="clear"></div>
 
-  <footer class="contenedor">
-    <div class="footer-row-1">
-      <div class="f1 footer-mision">COMUNICAMOS VALOR</div>
-    </div>
+  <?php include('includes/footer-e261.php') ?>
 
-    <div class="footer-row-2">
-      <div class="footer-cont">
-
-        <div class="footer-col-1">
-          <a class="footer-BSlogo-bx" href="/index.php"><img src="/imgs/Revista-BS-logo-footer.png"></a>
-          <div class="btn-siganos-pr">
-            <a href="https://www.facebook.com/RevistaBS" target="_blank">
-              <p><strong>Síganos en</strong></p>
-              <p><i class="fab fa-facebook"></i> Revista BS</p>
-            </a>
-          </div>
-        </div>
-
-        <div class="f1 footer-col-2">
-          <p class="anunciese"><strong>Anúnciese con nosotros</strong></p>
-          <a class="footer-tel" href="tel:6622362500"><i class="fas fa-phone-alt footer-icon">&nbsp;</i> (662) 236 2500</a>
-          <a class="footer-email" href="mailto:publicidad@buenasalud.org">
-            <i class="fas fa-envelope footer-icon">&nbsp;</i>publicidad@buenasalud.org </a>
-          <p class="footer-direccion"><i class="fas fa-map-marker-alt footer-icon">&nbsp;</i>Quinta Mayor 181 Col. Las
-            Quintas, Hermosillo, Sonora, México CP 83240</p>
-        </div>
-
-        <div class="f1 footer-col-3">
-          <p><strong>©2021 Revista BS <br> Todos los derechos reservados</strong></p>
-          <p>Sin previa autorización, queda expresamente prohibida la publicación, retransmisión, edición y
-            cualquier otro uso de los contenidos.</p>
-          <a href="#">Política de Privacidad</a>
-          <a style="display: inline-block;" href="#">Términos y Condiciones</a>
-        </div>
-
-        <div class="btn-siganos">
-          <a href="https://www.facebook.com/RevistaBS" target="_blank">
-            <p><strong>Síganos en</strong></p>
-            <p><i class="fab fa-facebook"></i> Revista BS</p>
-          </a>
-        </div>
-
-      </div>
-
-      <div class="duarte-firma">
-        <a href="mailto:duartepublicidad@gmail.com">Sitio desarrollado por <strong>Duarte Publicidad</strong></a>
-      </div>
-
-    </div>
-
-    <div class="wid"></div>
-  </footer>
-
-  <script>
-    var menu_enlaces = document.getElementById("menu-enlaces");
-
-    function showMenu() {
-      menu_enlaces.style.left = "0";
-    }
-
-    function hideMenu() {
-      menu_enlaces.style.left = "-400px";
-    }
-  </script>
-
+  <script src="../../../scripts/menu-mob.js"></script>
 </body>
 
 </html>
