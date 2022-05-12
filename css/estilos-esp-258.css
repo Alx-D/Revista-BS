@@ -377,13 +377,16 @@ article h1{
   font-weight: 500;
   margin-bottom: 8px;
 }
+.ctc-bx>.fas, .ctc-tel {
+  display: inline-block;
+}
 .ctc-dom, .ctc-tel {
-  text-indent: -12px;
-  margin-left: 25px;
   font-size: 16.5px;
   font-weight: 300;
-  line-height: 1.3;
-  margin-bottom: 7px;
+  line-height: 1.2;
+}
+.ctc-dom {
+  margin-bottom: 3px;
 }
 .ctc-correo {
   font-size: 16.5px;
@@ -391,12 +394,16 @@ article h1{
   font-weight: 200;
   display: block;
   word-break: break-all;
-  margin-bottom: 7px;
+  margin-top: 5px;
 }
 .ctc-click {
   font-size: 18px;
   line-height: 1.1;
-  margin: 20px 0 12px;
+  margin: 15px 0 5px;
+}
+.redes-icon {
+  font-size: 30px;
+  margin-right: 25px;
 }
 .ctc-redes {
   font-size: 17.5px;
@@ -404,7 +411,10 @@ article h1{
   font-weight: 200;
   display: block;
   word-break: break-all;
-  margin-bottom: 12px;
+  margin-top: 5px
+}
+.hv-trns-5:hover {
+  transform: translateY(-5%);
 }
 .ctc-foto{
   width: 30%;

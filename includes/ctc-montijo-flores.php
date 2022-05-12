@@ -1,4 +1,4 @@
-<p class="ctc-nombre">Odont. Dulce Karina Montijo Flores</p>
+<p class="ctc-nombre">Dra. Dulce Karina Montijo Flores</p>
 <p class="ctc-especialidad">Odontología general</p>
 <p class="ctc-cedulas">Cédula 11843980</p>
 <p class="ctc-empresa">Clear and White</p>

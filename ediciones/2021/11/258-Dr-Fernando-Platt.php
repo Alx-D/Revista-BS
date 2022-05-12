@@ -1,8 +1,7 @@
-<?php include('../../../includes/head.php') ?>
-<link rel="stylesheet" href="/css/estilos-esp-258.css">
+<?php include('includes/head-e258.php') ?>
 
 <body>
-<?php include('includes/header-e258.php') ?>
+  <?php include('includes/header-e258.php') ?>
 
   <article class="contenedor">
     <div class="f1 migas">

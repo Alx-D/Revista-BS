@@ -3,12 +3,9 @@
 <p class="ctc-cedulas">Cédula 09165939</p>
 <p class="ctc-empresa">Centro Médico del Río, piso 3, módulo I</p>
 <p class="ctc-dom"><i class="fas fa-map-marker-alt"></i> Reforma #273, Hermosillo, Sonora</p>
-<a href="tel:+526624920250">
-  <p class="f1 ctc-tel"><i class="fas fa-phone-alt"></i> (662) 492-0250</p>
-</a>
-<a href="tel:+526622294092">
-  <p class="f1 ctc-tel"><i class="fas fa-mobile"></i> (662) 229-4092</p>
-</a>
+<a class="ctc-tel" href="tel:+526624920250">
+  <i class="fas fa-phone-alt"></i> (662) 492-0250</a>&nbsp
+<a class="f1 ctc-tel" href="tel:+526622294092"><i class="fas fa-mobile"></i> (662) 229-4092</a>
 
 <p class="ctc-click">Click para acceder a sus redes sociales</p>
 

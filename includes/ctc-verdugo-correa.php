@@ -10,8 +10,8 @@
 <a class="ctc-correo" href="mailto:dr.verdugo.nefrologo@gmail.com"><i class="fas fa-envelope"></i> dr.verdugo.nefrologo@gmail.com</a>
 
 <p class="ctc-click">Click para acceder a sus redes sociales</p>
-<a class="ctc-redes hv-txt" href="https://www.facebook.com/Nefrologia.Joel.Verdugo" target="blank"><i class="fab fa-facebook-square"></i> Nefrólogos Hermosillo. Dr. Joel Verdugo</a>
+<a class="redes-icon" href="https://www.facebook.com/Nefrologia.Joel.Verdugo" target="blank" title="Nefrólogos Hermosillo. Dr. Joel Verdugo"><i class="fab fa-facebook-square hv-trns-5"></i></a>
 
-<a class="ctc-redes hv-txt" href="https://www.instagram.com/dr.verdugo.nefrologo.hillo/" target="blank"><i class="fab fa-instagram-square"></i> @dr.verdugo.nefrologo.hillo</a>
+<a class="redes-icon" href="https://www.instagram.com/dr.verdugo.nefrologo.hillo/" target="blank" title="@dr.verdugo.nefrologo.hillo"><i class="fab fa-instagram-square hv-trns-5"></i></a>
 
 <p class="ctc-redes" style="margin-bottom: 0;"><i class="fab fa-google"></i> @Nefrologia-Joel-Verdugo</p>

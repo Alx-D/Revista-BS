@@ -98,7 +98,7 @@ header{
   margin-bottom: -5px;
 }
 .header-col-2 h1{
-  font-size: 60px;
+  font-size: 65px;
   line-height: 1.2;
   font-weight: 500;
   margin-bottom: -5px;
@@ -326,7 +326,7 @@ article h1{
   padding: 25px;
   background: #35644d;
   margin-top: 100px;
-  font-family: "Nunito Sans", sans-serif;
+  font-family: 'Roboto', sans-serif;
   color: white;
 }
 .ctc-bx a{
@@ -339,7 +339,7 @@ article h1{
   letter-spacing: 2px;
 }
 .ctc-nombre {
-  font-size: 23px;
+  font-size: 24px;
   line-height: 1.2;
   font-weight: 500;
   margin-top: 8px;
@@ -347,7 +347,7 @@ article h1{
   text-transform: unset;
 }
 .ctc-especialidad {
-  font-size: 20px;
+  font-size: 21px;
   font-weight: 400;
   margin-bottom: 5px;
 }
@@ -364,26 +364,27 @@ article h1{
   margin-bottom: 5px;
 }
 .ctc-empresa {
-  font-size: 21px;
+  font-size: 22px;
   font-weight: 400;
   line-height: 1.2;
   margin-bottom: 7px;
 }
+.ctc-bx>.fas, .ctc-tel {
+  display: inline-block;
+}
 .ctc-dom, .ctc-tel {
-  text-indent: -12px;
-  margin-left: 25px;
-  font-size: 16.5px;
+  font-size: 17.5px;
   font-weight: 300;
-  line-height: 1.3;
-  margin-bottom: 6px;
+  line-height: 1.2;
+  margin-bottom: 5px;
 }
 .ctc-correo {
-  font-size: 16.5px;
+  font-size: 17.5px;
   line-height: 1;
   font-weight: 200;
   display: block;
   word-break: break-all;
-  margin-bottom: 7px;
+  margin-top: 5px;
 }
 .ctc-foto{
   width: 30%;
@@ -396,7 +397,7 @@ article h1{
 .ctc-click {
   font-size: 19px;
   line-height: 1.1;
-  margin: 15px 0 12px;
+  margin: 10px 0 12px;
 }
 .ctc-redes {
   font-size: 18px;
@@ -404,7 +405,14 @@ article h1{
   font-weight: 200;
   display: block;
   word-break: break-all;
-  margin-bottom: 8px;
+  margin-top: 8px;
+}
+.redes-icon {
+  font-size: 30px;
+  margin-right: 25px;
+}
+.hv-trns-5:hover {
+  transform: translateY(-5%);
 }
 .hv-txt:hover {
   transform: translateY(-6%);

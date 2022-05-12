@@ -1,5 +1,4 @@
-<?php include('../../../includes/head.php') ?>
-<link rel="stylesheet" href="/css/estilos-esp-259.css">
+<?php include('includes/head-e259.php') ?>
 <style>
     .dr-fotocb-bx-vd840 {
       display: none;

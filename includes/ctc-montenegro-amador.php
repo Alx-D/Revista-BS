@@ -4,9 +4,8 @@
   especialidad: 8996872, Universidad Nacional Autónoma de México</p>
   <p class="ctc-empresa">Centro Médico del Río, módulo C</p>
   <p class="ctc-dom"><i class="fas fa-map-marker-alt"></i> Reforma #273, Hermosillo, Sonora</p>
-  <a href="tel:+526441687433">
-  <p class="ctc-tel"><i class="fas fa-phone-alt"></i> (644) 168-7433</p>
-  </a>
+  <a class="ctc-tel" href="tel:+526441687433">
+  <i class="fas fa-phone-alt"></i> (644) 168-7433</a>
   <a class="ctc-correo" href="mailto:dra.cmontenegro.oncologa@gmail.com"><i class="fas fa-envelope"></i> dra.cmontenegro.oncologa@gmail.com</a>
 
 <p class="ctc-click">Click para acceder a sus redes sociales</p>

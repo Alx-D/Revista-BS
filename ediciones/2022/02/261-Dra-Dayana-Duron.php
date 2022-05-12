@@ -15,13 +15,13 @@
       &nbsp;
       <p style="display: inline;">Febrero 2022</p>
 
-      <a href="" style="margin-left: auto;"><i class="fa-solid fa-circle-arrow-right"></i>
+      <a href="/ediciones/2022/02/261-Dra-Dulce-Montijo.php" style="margin-left: auto;"><i class="fa-solid fa-circle-arrow-right"></i>
       </a>
     </div>
 
     <div class="nombre-bx">
       <img class="diente-icon" src="/ediciones/2022/02/imgs/261-diente.svg" alt="">
-      <h3 class="f1 nombre">Odont. Dayana <br class="brvd680">Durón Rivas</h3>
+      <h3 class="f1 nombre">Dra. Dayana <br class="brvd680">Durón Rivas</h3>
       <img class="dr-foto-bx-vd420" src="/ediciones/2022/02/imgs/261-Dra-Dayana-Duron-2.jpg" alt="">
     </div>
 

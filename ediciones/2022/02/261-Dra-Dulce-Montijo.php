@@ -15,13 +15,13 @@
       &nbsp;
       <p style="display: inline;">Febrero 2022</p>
 
-      <a href="" style="margin-left: auto;"><i class="fa-solid fa-circle-arrow-right"></i>
+      <a href="/ediciones/2022/02/261-Dra-Karla-Lopez.php" style="margin-left: auto;"><i class="fa-solid fa-circle-arrow-right"></i>
       </a>
     </div>
 
     <div class="nombre-bx">
       <img class="diente-icon" src="/ediciones/2022/02/imgs/261-diente.svg" alt="">
-      <h3 class="f1 nombre">Odont. Dulce Karina <br class="brvd680">Montijo Flores</h3>
+      <h3 class="f1 nombre">Dra. Dulce Karina <br class="brvd680">Montijo Flores</h3>
       <img class="dr-foto-bx-vd420" src="/ediciones/2022/02/imgs/261-Dra-Dulce-Montijo-2.jpg" alt="">
     </div>
 

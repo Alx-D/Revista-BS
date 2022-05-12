@@ -1,4 +1,4 @@
-<p class="ctc-nombre">Odont. Carlos Aníbal Sanabia Hurtado</p>
+<p class="ctc-nombre">Dr. Carlos Aníbal Sanabia Hurtado</p>
 <p class="ctc-especialidad">Ortodoncia</p>
 <p class="ctc-cedulas">Cédula profesional: 7356522, Universidad Autónoma de Sinaloa; Cédula de especialidad: 10871921, Asociación Odontológica Mexicana para la Enseñanza y la Investigación</p>
 <p class="ctc-empresa">SH Dental Care</p>

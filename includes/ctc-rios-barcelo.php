@@ -1,4 +1,4 @@
-<p class="ctc-nombre">Odont. Germán Ríos Barceló</p>
+<p class="ctc-nombre">Dr. Germán Ríos Barceló</p>
 <p class="ctc-especialidad">Ortodoncia y ortopedia maxilofacial</p>
 <p class="ctc-cedulas">Cédula 5446021</p>
 <p class="ctc-empresa">Universidad ION</p>

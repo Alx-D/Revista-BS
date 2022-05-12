@@ -594,7 +594,7 @@ article h1{
   font-weight: 500;
   margin-bottom: 5px;
 }
-.ctc-bx .fas, .ctc-tel {
+.ctc-bx>.fas, .ctc-tel {
   display: inline-block;
 }
 .ctc-dom, .ctc-tel {
@@ -632,7 +632,7 @@ article h1{
   font-weight: 200;
   display: block;
   word-break: break-all;
-  margin-top: 4px;
+  margin-top: 8px;
 }
 .redes-icon {
   font-size: 30px;

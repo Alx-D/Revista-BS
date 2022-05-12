@@ -1,5 +1,4 @@
-<?php include('../../../includes/head.php') ?>
-<link rel="stylesheet" href="/css/estilos-esp-259.css">
+<?php include('includes/head-e259.php') ?>
 <style>
     .dr-foto-bx img {
       width: 90%;
@@ -16,7 +15,7 @@
   </style>
 
 <body>
-<?php include('includes/header-e259.php') ?>
+  <?php include('includes/header-e259.php') ?>
 
   <article class="contenedor">
     <div class="f1 migas">

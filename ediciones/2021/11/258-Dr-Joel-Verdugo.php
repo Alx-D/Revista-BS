@@ -1,11 +1,10 @@
-<?php include ('../../../includes/head.php') ?>
-<link rel="stylesheet" href="/css/estilos-esp-258.css">
+<?php include('includes/head-e258.php') ?>
 
 <body>
 <?php include('includes/header-e258.php') ?>
 
   <article class="contenedor">
-  <div class="f1 migas">
+    <div class="f1 migas">
       <a href="/index.php">Revista BS</a>
       &nbsp;
       <i class="fas fa-angle-right"></i>

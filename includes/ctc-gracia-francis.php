@@ -3,9 +3,8 @@
 <p class="ctc-cedulas">Cedula de Especialidad: 11979722; UNAM</p>
 <p class="ctc-empresa">Clínica Médica Nova</p>
 <p class="ctc-dom"><i class="fas fa-map-marker-alt"></i> Gastón Madrid #33, Hermosillo, Sonora</p>
-<a href="tel:+526621107782">
-  <p class="ctc-tel"><i class="fas fa-phone-alt"></i> (662) 110-7782</p>
-</a>
+<a class="ctc-tel" href="tel:+526621107782">
+  <i class="fas fa-phone-alt"></i> (662) 110-7782</a>
 <a class="ctc-correo" href="mailto:magygracia@gmail.com"><i class="fas fa-envelope"></i> magygracia@gmail.com</a>
 
 <p class="ctc-click">Click para acceder a sus redes sociales</p>

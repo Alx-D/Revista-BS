@@ -1,4 +1,4 @@
-<p class="ctc-nombre">Odont. Cinthia Lorena Borbón Esquer</p>
+<p class="ctc-nombre">Dra. Cinthia Lorena Borbón Esquer</p>
 <p class="ctc-especialidad">Ortodoncia</p>
 <p class="ctc-cedulas">Cédula profesional: 5544124, Universidad Autónoma de Nayarit. Cédula de
   especialidad: 7817630, Universidad Autónoma de Nayarit</p>

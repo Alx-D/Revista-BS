@@ -1,4 +1,4 @@
-<p class="ctc-nombre">Odont. Alberto Vázquez Zavala</p>
+<p class="ctc-nombre">Dr. Alberto Vázquez Zavala</p>
 <p class="ctc-especialidad">Rehabilitación oral e implantología</p>
 <p class="ctc-cedulas">Cédula 10757052</p>
 <p class="ctc-empresa">Clínica Oviedo-Zavala</p>

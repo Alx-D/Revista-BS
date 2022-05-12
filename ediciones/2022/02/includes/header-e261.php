@@ -25,15 +25,15 @@
       <ul>
         <li><a href="/index.php">Inicio</a></li>
         <li><a href="261-Seccion-Especial.php">Sección Especial</a></li>
-        <li><a href="261-Dr-Alberto-Vazquez.php">Odont. Alberto Vázquez Zavala</a></li>
-        <li><a href="261-Dr-Carlos-Sanabia.php">Odont. Carlos Sanabia Hurtado</a></li>
-        <li><a href="261-Dr-German-Rios.php">Odont. Germán Ríos Barceló</a></li>
-        <li><a href="261-Dr-Hector-Delgado.php">Odont. Héctor Delgado Contreras</a></li>
-        <li><a href="261-Dra-Cinthia-Borbon.php">Odont. Cinthia Borbón Esquer</a></li>
-        <li><a href="261-Dra-Dayana-Duron.php">Odont. Dayana Durón Rivas</a></li>
-        <li><a href="261-Dra-Dulce-Montijo.php">Odont. Dulce Montijo Flores</a></li>
-        <li><a href="261-Dra-Karla-Lopez.php">Odont. Karla López Almazán</a></li>
-        <li><a href="261-Dra-Yadira-Fimbres.php">Odont. Yadira Fimbres Fimbres</a></li>
+        <li><a href="/ediciones/2022/02/261-Dr-Alberto-Vazquez.php">Odont. Alberto Vázquez Zavala</a></li>
+        <li><a href="/ediciones/2022/02/261-Dr-Carlos-Sanabia.php">Odont. Carlos Sanabia Hurtado</a></li>
+        <li><a href="/ediciones/2022/02/261-Dr-German-Rios.php">Odont. Germán Ríos Barceló</a></li>
+        <li><a href="/ediciones/2022/02/261-Dr-Hector-Delgado.php">Odont. Héctor Delgado Contreras</a></li>
+        <li><a href="/ediciones/2022/02/261-Dra-Cinthia-Borbon.php">Odont. Cinthia Borbón Esquer</a></li>
+        <li><a href="/ediciones/2022/02/261-Dra-Dayana-Duron.php">Odont. Dayana Durón Rivas</a></li>
+        <li><a href="/ediciones/2022/02/261-Dra-Dulce-Montijo.php">Odont. Dulce Montijo Flores</a></li>
+        <li><a href="/ediciones/2022/02/261-Dra-Karla-Lopez.php">Odont. Karla López Almazán</a></li>
+        <li><a href="/ediciones/2022/02/261-Dra-Yadira-Fimbres.php">Odont. Yadira Fimbres Fimbres</a></li>
       </ul>
     </div>
   </nav>

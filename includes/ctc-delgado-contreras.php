@@ -1,4 +1,4 @@
-<p class="ctc-nombre">Odont. Héctor Delgado Contreras</p>
+<p class="ctc-nombre">Dr. Héctor Delgado Contreras</p>
 <p class="ctc-especialidad">Implantología</p>
 <p class="ctc-cedulas">Cédula 1580651</p>
 <p class="ctc-empresa">Centro de Implantología y Rehabilitación Dental</p>
