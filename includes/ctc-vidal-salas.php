@@ -1,5 +1,4 @@
-<p class="f1 ctc-sobre">Sobre el autor</p>
-<p class="f1 ctc-nombre">Mtra. Milca Vidal Salas</p>
-<p class="f1 ctc-especialidad">Nutrióloga</p>
-<p class="f1 ctc-cedulas">Maestra en Ciencias de la Salud, Universidad de Sonora</p>
-<a class="f1 ctc-correo" style="margin-bottom: 0;" href="mailto:"><i class="fas fa-envelope"></i> milcavidal@gmail.com</a>
+<p class="ctc-nombre">Mtra. Milca Vidal Salas</p>
+<p class="ctc-especialidad">Nutrióloga</p>
+<p class="ctc-cedulas">Maestra en Ciencias de la Salud, Universidad de Sonora</p>
+<a class="ctc-correo" href="mailto:milcavidal@gmail.com" style="margin-bottom: 0;"><i class="fas fa-envelope"></i> milcavidal@gmail.com</a>

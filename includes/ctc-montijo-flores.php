@@ -9,4 +9,5 @@
 
 <p class="ctc-click">Click para acceder a sus redes sociales</p>
 <a class="redes-icon" href="https://www.facebook.com/Dra-Dulce-K-Montijo-Flores-Odontolog%C3%ADa-General-115277509833788" target="blank" title="Dra. Dulce k montijo Flores - Odontología General"><i class="fab fa-facebook-square hv-trns-5"></i></a>
+
 <a class="redes-icon" href="https://www.instagram.com/dra.dulcemontijo/" target="blank" title="@dra.dulcemontijo"><i class="fab fa-instagram-square hv-trns-5"></i></a>

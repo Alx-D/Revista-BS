@@ -2,8 +2,7 @@
 <p class="ctc-especialidad">Pediatría</p>
 <p class="ctc-cedulas">Cédula 4700181</p>
 <p class="ctc-dom"><i class="fas fa-map-marker-alt"></i> Blvd. Morelos 669, interior 4, Col. La Paloma, Hermosillo, Sonora</p>
-<a class="ctc-tel" href="tel:+526623110283">
-  <i class="fas fa-phone-alt"></i> (662) 311-0283</a>
+<a class="ctc-tel" href="tel:+526623110283"><i class="fas fa-phone-alt"></i> (662) 311-0283</a>
 
 <p class="ctc-click">Click para acceder a sus redes sociales</p>
 

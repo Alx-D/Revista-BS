@@ -3,8 +3,7 @@
 <p class="ctc-cedulas">Cédula 7491432</p>
 <p class="ctc-empresa">Clínica del Noroeste, consultorio 204</p>
 <p class="ctc-dom"><i class="fas fa-map-marker-alt"></i> Colosio y Juárez, Hermosillo, Sonora</p>
-<a class="ctc-tel" href="tel:+526622125112">
-  <i class="fas fa-phone-alt"></i> (662) 212-5112</a>
+<a class="ctc-tel" href="tel:+526622125112"><i class="fas fa-phone-alt"></i> (662) 212-5112</a>
 
 <p class="ctc-click">Click para acceder a sus redes sociales</p>
 

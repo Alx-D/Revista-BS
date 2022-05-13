@@ -189,6 +189,7 @@
       </div>
 
       <div class="ctc">
+      <p class="f1 ctc-sobre">Sobre el autor</p>
       <?php include('../../../includes/ctc-muro-davila.php') ?>
       </div>
     </article>

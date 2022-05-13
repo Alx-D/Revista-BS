@@ -1,12 +1,10 @@
 <p class="ctc-nombre">Dr. Joel Ernesto Verdugo Correa</p>
 <p class="ctc-especialidad">Nefrología</p>
-<p class="ctc-cedulas">Cédula profesional: 6741136, Universidad Autónoma de Sinaloa; <br class="nonedw480">Cédula especialidad:
+<p class="ctc-cedulas">Cédula profesional: 6741136, Universidad Autónoma de Sinaloa. Cédula especialidad:
   10138855, Universidad de Guadalajara</p>
 <p class="ctc-empresa">Hospital San José, 2do. piso, módulo C</p>
 <p class="ctc-dom"><i class="fas fa-map-marker-alt"></i> Blvd. Morelos #340, Hermosillo, Sonora</p>
-<a href="tel:+526621090524">
-  <p class="ctc-tel"><i class="fas fa-phone-alt"></i> (662) 109-0524</p>
-</a>
+<a class="ctc-tel" href="tel:+526621090524"><i class="fas fa-phone-alt"></i> (662) 109-0524</a>
 <a class="ctc-correo" href="mailto:dr.verdugo.nefrologo@gmail.com"><i class="fas fa-envelope"></i> dr.verdugo.nefrologo@gmail.com</a>
 
 <p class="ctc-click">Click para acceder a sus redes sociales</p>

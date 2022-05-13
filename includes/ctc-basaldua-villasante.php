@@ -1,6 +1,5 @@
-<p class="f1 ctc-sobre">Sobre el autor</p>
-<p class="f1 ctc-nombre">Dr. Rogelio Pinito Basaldúa Villasante</p>
-<p class="f1 ctc-especialidad">Oftalmología</p>
-<p class="f1 ctc-cedulas">Cédula profesional: 2118830, Universidad Autónoma de Guadalajara; <br class="nonedw480">Cédula de especialidad: 0009483, Universidad Nacional Autónoma de México</p>
-<p class="f1 ctc-empresa">Novavisión y Bioplastía Clínica Médica Centenario</p>
-<p class="f1 ctc-dom-tel" style="margin-bottom: 0;"><i class="fas fa-phone-alt"></i> (662) 132-3406</p>
+<p class="ctc-nombre">Dr. Rogelio Pinito Basaldúa Villasante</p>
+<p class="ctc-especialidad">Oftalmología</p>
+<p class="ctc-cedulas">Cédula profesional: 2118830, Universidad Autónoma de Guadalajara. Cédula de especialidad: 0009483, Universidad Nacional Autónoma de México</p>
+<p class="ctc-empresa">Novavisión y Bioplastía Clínica Médica Centenario</p>
+<a class="ctc-tel" href="tel:+526621323406" style="margin-bottom: 0;"><i class="fas fa-phone-alt"></i> (662) 132-3406</a>

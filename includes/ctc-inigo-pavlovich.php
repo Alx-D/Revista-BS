@@ -3,8 +3,7 @@
 <p class="ctc-cedulas">Cédula 0004084</p>
 <p class="ctc-empresa">Centro Médico del Río, interior 6 y 7</p>
 <p class="ctc-dom"><i class="fas fa-map-marker-alt"></i> Reforma #273, Hermosillo, Sonora</p>
-<a class="ctc-tel" href="tel:+526622135877">
-  <i class="fas fa-phone-alt"></i> (662) 213-5877</a>
+<a class="ctc-tel" href="tel:+526622135877"><i class="fas fa-phone-alt"></i> (662) 213-5877</a>
 
 <p class="ctc-click">Click para acceder a sus redes sociales</p>
 

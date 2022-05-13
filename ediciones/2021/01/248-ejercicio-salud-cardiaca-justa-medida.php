@@ -189,7 +189,8 @@
           hay nada mejor que poder hacer esfuerzos sin cansarse y sentirse bien
           con su cuerpo. <i class="fas fa-square"></i></p>
 
-        <div class="ctc">
+        <div class="ctc-bx">
+        <p class="ctc-sobre">Sobre el autor</p>
         <?php include('../../../includes/ctc-serna-santamaria.php') ?>
         </div>
     </article>

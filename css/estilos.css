@@ -1646,7 +1646,7 @@ th {
 /* NOTAS FIN */
 
 /* CONTACTO */
-.ctc {
+.ctc-bx {
   width: fit-content;
   max-width: 70%;
   margin-top: 50px;
@@ -1656,77 +1656,96 @@ th {
   font-family: "Nunito Sans", sans-serif;
   color: #ffffff;
 }
-.ctc a{
-  color: #ffffff;
+.ctc-bx a{
+  color: white;
 }
-.ctc-sobre {
-  font-size: 16px;
-  margin-bottom: 10px;
+.ctc-conozca{
+  font-size: 27px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 .ctc-nombre {
-  font-size: 22px;
+  font-size: 23px;
   line-height: 1.2;
   font-weight: 600;
+  margin-top: 8px;
   margin-bottom: 5px;
+  text-transform: unset;
 }
 .ctc-especialidad {
-  font-size: 17px;
+  font-size: 20px;
+  line-height: 1.1;
   font-weight: 500;
   margin-bottom: 5px;
 }
 .ctc-certificaciones {
-  font-size: 14.8px;
+  font-size: 15px;
   font-weight: 400;
   line-height: 1.4;
   margin-bottom: 10px;
 }
 .ctc-cedulas {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 300;
-  line-height: 1.4;
-  margin-bottom: 10px;
-}
-.ctc-cargo {
-  font-size: 17px;
-  font-weight: 600;
-  margin-bottom: 10px;
+  line-height: 1.2;
+  margin-bottom: 5px;
 }
 .ctc-empresa {
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 21px;
+  line-height: 1.2;
+  font-weight: 500;
   margin-bottom: 5px;
+}
+.ctc-bx>.fas, .ctc-tel {
+  display: inline-block;
 }
 .ctc-dom, .ctc-tel {
-  text-indent: -8px;
-  margin-left: 17px;
-  font-size: 15.5px;
-  font-weight: 400;
-  color: #ffffff;
-  margin-bottom: 5px;
+  font-size: 16.5px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.ctc-dom {
+  margin-bottom: 3px;
 }
 .ctc-correo {
-  font-size: 15.5px;
-  line-height: 1;
-  font-weight: 200;
-  color: #ffffff;
-  display: block;
-  word-break: break-all;
-}
-.ctc-click {
-  font-size: 17px;
-  line-height: 1.1;
-  margin: 15px 0 12px;
-}
-.ctc-redes {
   font-size: 16.5px;
   line-height: 1;
   font-weight: 200;
   display: block;
   word-break: break-all;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
-.hv-txt:hover {
-  transform: translateY(-6%);
+.ctc-click {
+  font-size: 19px;
+  line-height: 1.1;
+  margin: 10px 0 5px;
+}
+.ctc-foto{
+  width: 33%;
+  float: right;
+  margin-left: 10px;
+}
+.ctc-foto img{
+  width: 100%;
+}
+.ctc-redes {
+  font-size: 17.5px;
+  line-height: 1;
+  font-weight: 200;
+  display: block;
+  word-break: break-all;
+  margin-top: 8px;
+}
+.redes-icon {
+  font-size: 30px;
+  margin-right: 25px;
+}
+.hv-trns-5:hover {
+  transform: translateY(-5%);
+}
+.clear {
+  clear: both;
 }
 /* ASIDE NOTA  */
 .aside-bnrs-up {

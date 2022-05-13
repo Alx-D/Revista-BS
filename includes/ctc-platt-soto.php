@@ -1,6 +1,6 @@
 <p class="ctc-nombre">Dr. Fernando Platt Soto</p>
 <p class="ctc-especialidad">Nefrología</p>
-<p class="ctc-cedulas">Cédula profesional: 6835593, Universidad de Monterrey; <br class="nonedw480">Cédula de especialidad:
+<p class="ctc-cedulas">Cédula profesional: 6835593, Universidad de Monterrey. Cédula de especialidad:
   8932080, Universidad de Guadalajara</p>
 <p class="ctc-empresa">Hospital San José, 4to. piso, módulo M</p>
 <p class="ctc-dom"><i class="fas fa-map-marker-alt"></i> Morelos #340, Hermosillo, Sonora</p>

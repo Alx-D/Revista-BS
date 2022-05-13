@@ -108,8 +108,8 @@
           recuperación y cicatrización posterior a la cirugía. <i class="fas fa-square"></i></p>
 
         <div class="ctc">
+        <p class="f1 ctc-sobre">Sobre el autor</p>
           <?php include('../../../includes/ctc-alvarez-bojorquez.php') ?>
-
         </div>
     </article>
 
