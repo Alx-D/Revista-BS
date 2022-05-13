@@ -65,7 +65,7 @@
         <p>En conjunto tomamos la decisión valorando beneficios y riesgos del manejo individual: vigilar y asesorar, iniciar con la administración de medicamentos o realizar procedimientos quirúrgicos. &nbsp;<i class="fas fa-square"></i></p>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
         <?php include('../../../includes/ctc-quintanar-fimbres.php') ?>
       </div>
     </article>

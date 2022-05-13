@@ -89,7 +89,7 @@
         <p>Así que mi recomendación es evaluar ortopédicamente a los niños por lo menos una vez al año, hasta el término de su crecimiento. &nbsp;<i class="fas fa-square"></i></p>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
         <?php include('../../../includes/ctc-gonzalez-rincon.php') ?>
       </div>
     </article>

@@ -115,7 +115,7 @@
           etapa de crecimiento de su hijo y de esa manera prevenir. &nbsp;<i class="fas fa-square"></i></p>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
         <?php include('../../../includes/ctc-burruel-arvizu.php') ?>
       </div>
     </article>

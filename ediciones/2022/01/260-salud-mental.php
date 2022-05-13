@@ -70,7 +70,7 @@
         <p>Consejos para equilibrar cuerpo-mente-espíritu: hacer ejercicio, dormir suficiente, comer sano, beber mucha agua, alejarse del estrés, conectarse con la naturaleza cada vez que pueda, y dar gracias por todas las cosas que le pasen en el día, incluso las pequeñas. Regalar su mejor sonrisa, rodearse de personas positivas, liberarse del resentimiento, practicar el perdón, ocupar su tiempo libre, y practicar la meditación. &nbsp;<i class="fas fa-square"></i></p>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
         <?php include('../../../includes/ctc-velarde-lohr.php') ?>
       </div>
     </article>

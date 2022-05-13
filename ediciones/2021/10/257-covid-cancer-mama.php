@@ -90,7 +90,7 @@
         <p class="f2" style="font-size: 14px;">* Tomado del Consenso Mexicano sobre Cáncer de Mama</p>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
         <?php include('../../../includes/ctc-garcia-marcano.php') ?>
       </div>
     </article>

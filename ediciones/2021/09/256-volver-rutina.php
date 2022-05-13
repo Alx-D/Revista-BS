@@ -129,7 +129,7 @@
           mejor manejo conductual en casa dependiendo el estilo de crianza y dinámica de cada familia. <i class="fas fa-square"></i></p>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
         <?php include('../../../includes/ctc-mucino-lopez.php') ?>
       </div>
     </article>

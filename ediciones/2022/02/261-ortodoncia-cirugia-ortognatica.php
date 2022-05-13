@@ -101,7 +101,7 @@
         <p>Una vez finalizada la ortodoncia, como en todos los pacientes, es necesario colocar aparatos de retención para evitar cualquier tipo de recidiva. &nbsp;<i class="fas fa-square"></i></p>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
         <?php include('../../../includes/ctc-duron-rivas.php') ?>
       </div>
     </article>

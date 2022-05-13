@@ -77,7 +77,7 @@
           años o más, diario o semanalmente ha consumido alcohol el 22.7%. &nbsp;<i class="fas fa-square"></i></p>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
         <?php include('../../../includes/ctc-muro-davila.php') ?>
       </div>
     </article>

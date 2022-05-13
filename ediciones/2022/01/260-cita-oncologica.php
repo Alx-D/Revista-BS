@@ -101,7 +101,7 @@
         <p>En caso de que exista una alta sospecha de presentar cáncer, se debe acudir con un oncólogo para completar el diagnóstico y así iniciar el tratamiento de forma oportuna. Recuerde que el diagnóstico oportuno siempre es una variable que afecta la evolución, tratamiento y pronóstico de los pacientes oncológicos, por lo tanto es sumamente importante que ante la menor duda o presencia de alguno de los síntomas previamente mencionados acudan a valoración por su médico de confianza. &nbsp;<i class="fas fa-square"></i></p>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
         <?php include('../../../includes/ctc-alvarez-bojorquez.php') ?>
       </div>
     </article>

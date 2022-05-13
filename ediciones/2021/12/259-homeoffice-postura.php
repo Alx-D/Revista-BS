@@ -118,7 +118,7 @@
           en su actividad y así evite lesiones que puedan llegar a ser incapacitantes. &nbsp;<i class="fas fa-square"></i></p>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
         <?php include('../../../includes/ctc-gonzalez-rincon.php') ?>
       </div>
     </article>

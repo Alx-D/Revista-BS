@@ -120,7 +120,7 @@
           en algunos hombres y no en otros, todas las personas somos diferentes. &nbsp;<i class="fas fa-square"></i></p>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
         <?php include('../../../includes/ctc-montenegro-amador.php') ?>
       </div>
     </article>

@@ -58,7 +58,7 @@
         <p>También son muy importantes los cuidados paliativos, la rehabilitación física y mental, pero sobre todas las cosas se debe ampliar el acceso y disponibilidad de los medicamentos y tratamientos contra el cáncer, lo cual evitaría sufrimiento y muertes prematuras. Consulte a su médico y procure la Buena Salud. &nbsp;<i class="fas fa-square"></i></p>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
         <?php include('../../../includes/ctc-muro-davila.php') ?>
       </div>
     </article>

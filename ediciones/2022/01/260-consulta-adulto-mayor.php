@@ -121,7 +121,7 @@
           momento de nuestra existencia una vida saludable y feliz. &nbsp;<i class="fas fa-square"></i></p>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
         <?php include('../../../includes/ctc-martinez-ayala.php') ?>
       </div>
     </article>

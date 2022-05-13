@@ -153,7 +153,7 @@
           especialista otorrinolaringólogo o neurólogo. &nbsp;<i class="fas fa-square"></i></p>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
         <?php include('../../../includes/ctc-gracia-francis.php') ?>
       </div>
     </article>

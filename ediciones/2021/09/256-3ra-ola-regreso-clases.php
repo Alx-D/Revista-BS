@@ -131,7 +131,7 @@
             class="fas fa-square"></i></p>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
         <p class="f1 ctc-sobre">Sobre el autor</p>
         <p class="f1 ctc-nombre">Dr. Francisco Burruel Arvizu</p>
         <p class="f1 ctc-especialidad">Pediatría</p>

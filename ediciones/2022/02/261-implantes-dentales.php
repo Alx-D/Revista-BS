@@ -95,7 +95,7 @@
         <p>Los implantes dentales no son una moda, la colocación y rehabilitación es sencilla en manos expertas, tome en cuenta la información y siempre acuda con un odontólogo con especialidad en implantes certificado. &nbsp;<i class="fas fa-square"></i></p>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
         <?php include('../../../includes/ctc-vazquez-zavala.html') ?>
         </a>
       </div>

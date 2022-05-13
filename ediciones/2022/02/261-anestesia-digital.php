@@ -70,7 +70,7 @@
         <p>Todos esos comentarios causan ansiedad en los niños y hacen que su tratamiento les parezca pesado, también hay que evitar frases como “si no te portas bien, te voy a llevar con el dentista”. Es momento de que hagamos equipo con los papás y crear una cultura de prevención, donde asistir al dentista, de una manera preventiva y periódica, sea parte cotidiana de un control de salud. &nbsp;<i class="fas fa-square"></i></p>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
         <?php include('../../../includes/ctc-fimbres-fimbres.php') ?>
       </div>
     </article>

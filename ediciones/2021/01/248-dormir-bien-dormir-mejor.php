@@ -124,7 +124,7 @@
           malestar. &nbsp;<i class="fas fa-square"></i></p>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
       <p class="f1 ctc-sobre">Sobre el autor</p>
       <?php include('../../../includes/ctc-avila-gamez.php') ?>
       </div>

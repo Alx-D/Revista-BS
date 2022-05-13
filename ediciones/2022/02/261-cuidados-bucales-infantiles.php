@@ -92,7 +92,7 @@
         <p><span>Primeros cuidados.</span> Algunos pacientes al nacer o durante los primeros meses de vida presentan alguna patología, como dientes neonatales, perlas de Epstein, frenillo lingual corto, fisura en el labio o paladar, hongo en cavidad bucal (candida albincans), etcétera. Es importante una consulta con el odontopediatra para darles la información correcta a los papás y saber qué cuidados o tratamiento requiere el menor. &nbsp;<i class="fas fa-square"></i></p>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
       <?php include('../../../includes/ctc-lopez-almazan.php') ?>
       </div>
     </article>

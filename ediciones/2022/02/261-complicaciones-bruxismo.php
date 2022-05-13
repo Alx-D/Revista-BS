@@ -183,7 +183,7 @@
           diagnosticada. &nbsp;<i class="fas fa-square"></i></p>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
         <?php include('../../../includes/ctc-sanabia-hurtado.php') ?>
       </div>
     </article>

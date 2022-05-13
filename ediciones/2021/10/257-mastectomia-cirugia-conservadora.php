@@ -73,7 +73,7 @@
           <p>Para finalizar, la decisión acerca de una modalidad terapéutica es muy personal para cada paciente y debe basarse en toda la información científica disponible así como en las características propias de cada persona. <i class="fas fa-square"></i></p>
         </div>
 
-        <div class="ctc">
+        <div class="ctc-bx">
           <?php include('../../../includes/ctc-alvarez-bojorquez.php') ?>
         </div>
     </article>

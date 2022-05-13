@@ -107,7 +107,7 @@
         <p>Todas las intervenciones que se realicen de forma oportuna impactarán de forma positiva en la evolución,
           recuperación y cicatrización posterior a la cirugía. <i class="fas fa-square"></i></p>
 
-        <div class="ctc">
+        <div class="ctc-bx">
         <p class="f1 ctc-sobre">Sobre el autor</p>
           <?php include('../../../includes/ctc-alvarez-bojorquez.php') ?>
         </div>

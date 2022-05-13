@@ -123,7 +123,7 @@
           tratamiento apropiado de las posibles complicaciones cardiovasculares de los tratamientos contra el cáncer. <i class="fas fa-square"></i></p>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
         <?php include('../../../includes/ctc-arroyo-rdgz.php') ?>
       </div>
     </article>

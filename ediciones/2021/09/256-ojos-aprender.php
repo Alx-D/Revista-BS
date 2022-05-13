@@ -103,7 +103,7 @@
         <p class="f2 txt-fuente">Fuente: kidshealth.org</p>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
       <?php include('../../../includes/ctc-basaldua-villasante.php') ?>
       </div>
     </article>

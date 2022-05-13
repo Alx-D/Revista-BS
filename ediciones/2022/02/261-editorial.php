@@ -85,7 +85,7 @@
         </div>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
         <?php include('../../../includes/ctc-muro-davila.php') ?>
       </div>
     </article>

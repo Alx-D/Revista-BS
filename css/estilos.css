@@ -1675,7 +1675,7 @@ th {
 }
 .ctc-especialidad {
   font-size: 20px;
-  line-height: 1.1;
+  line-height: 1.2;
   font-weight: 500;
   margin-bottom: 5px;
 }
@@ -1683,13 +1683,17 @@ th {
   font-size: 15px;
   font-weight: 400;
   line-height: 1.4;
-  margin-bottom: 10px;
+  margin-bottom: 7px;
 }
 .ctc-cedulas {
   font-size: 14px;
   font-weight: 300;
   line-height: 1.2;
-  margin-bottom: 5px;
+  margin-bottom: 7px;
+}
+.ctc-cargo {
+  font-size: 18px;
+  margin-bottom: 7px;
 }
 .ctc-empresa {
   font-size: 21px;
@@ -1796,7 +1800,7 @@ th {
 }
 /* CONTACTO-AUTOR */
 /* CTC EN ASIDE Y HASTA ABAJO
-.ctc {
+.ctc-bx {
   width: 80%;
   float: right;
   position: absolute;
@@ -2413,7 +2417,7 @@ th {
     margin-right: -10px;
   }
   /* 82CTC */
-  .ctc{
+  .ctc-bx{
     width: fit-content;
     max-width: 80%;
   }
@@ -2740,7 +2744,7 @@ th {
   }
   /* 68CONTACTO-AUTOR */
   /* CTC EN ASIDE Y HASTA ABAJO
-  .ctc {
+  .ctc-bx {
     width: 80%;
     float: left;
     position: unset;
@@ -3145,7 +3149,7 @@ th {
     font-size: 18px;
   }
   /* 40CTC */
-  .ctc{
+  .ctc-bx{
     max-width: 100%;
   }
   /* 40ESPECIAL */

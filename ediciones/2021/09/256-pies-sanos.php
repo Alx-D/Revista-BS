@@ -96,7 +96,7 @@
         <p>Si usted ve que sus hijos tienen pie plano, tienen mucho arco, se caen al correr o se tropiezan al caminar, los aquejan dolores en sus pies o piernas, le recomendamos acudir al especialista en podología para realizar un examen de biomecánica y poder descartar algún problema estructural o en su pisada. <i class="fas fa-square"></i></p>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
       <?php include('../../../includes/ctc-diaz-tamayo.php') ?>
       </div>
     </article>

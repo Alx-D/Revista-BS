@@ -101,7 +101,7 @@
         <p>En este año, en Sonora se presentan 6 casos nuevos de VIH por cada 100 mil habitantes, mientras que, fallecen 4 personas por casusas relacionadas al SIDA por cada 100 mil habitantes. Y se estima que 74 de cada 100 mil habitantes viven con la enfermedad. &nbsp;<i class="fas fa-square"></i></p>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
         <p class="f1 ctc-sobre">Sobre el autor</p>
         <p class="f1 ctc-nombre">Dr. Sergio Armando Salazar Arriola</p>
         <p class="f1 ctc-especialidad">Maestro en Salud Pública</p>

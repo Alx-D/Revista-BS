@@ -100,7 +100,7 @@
         <p>Consulte a su médico y procure la Buena Salud. &nbsp;<i class="fas fa-square"></i></p>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
         <p class="f1 ctc-sobre">Sobre el autor</p>
         <p class="f1 ctc-nombre">Dr. Francisco Javier Muro Dávila</p>
         <p class="f1 ctc-especialidad">Médico Cirujano (UNAM) <br>

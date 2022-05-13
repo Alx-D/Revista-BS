@@ -140,7 +140,7 @@
           mejorarán la salud de los niños y la familia para hacerle frente de la mejor manera a los retos de la vida. <i class="fas fa-square"></i></p>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
         <?php include('../../../includes/ctc-laura-ramirez.php') ?>
       </div>
     </article>

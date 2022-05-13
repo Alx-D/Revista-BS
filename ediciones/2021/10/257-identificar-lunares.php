@@ -73,7 +73,7 @@
             cambios repentinos en tamaño, forma y color. <i class="fas fa-square"></i></p>
         </div>
 
-        <div class="ctc">
+        <div class="ctc-bx">
           <?php include('../../../includes/ctc-zazueta-lopez.php') ?>
         </div>
     </article>

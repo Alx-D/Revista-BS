@@ -76,7 +76,7 @@
         <p>En la medida en que nos vinculemos más a la prevención para evitar el desarrollo del cáncer, inhibiendo la brecha de equidad existente, con las políticas públicas destinadas a ello, profesionalizando, destinando recursos, transparentándolos, brindando la atención oportuna y a tiempo, podemos crear un mejor futuro para ésta y las futuras generaciones. &nbsp;<i class="fas fa-square"></i></p>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
         <?php include('../../../includes/ctc-avila-monteverde.html') ?>
       </div>
     </article>

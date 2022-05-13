@@ -77,7 +77,7 @@
         <p>A modo de conclusión, debemos comprender que el diagnóstico temprano y oportuno por parte de un profesional médico especializado es nuestra mejor herramienta para proveer al afectado por TDAH de mayores expectativas y oportunidades para su futuro. <i class="fas fa-square"></i></p>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
         <?php include('../../../includes/ctc-nahuelcura-alvarez.php') ?>
       </div>
     </article>

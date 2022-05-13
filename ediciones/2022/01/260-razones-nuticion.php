@@ -84,7 +84,7 @@
         <p>Es difícil mantenernos motivamos en este largo proceso y continuar el tiempo que sea necesario para cada uno, pero también es difícil vivir con molestias, vivir inconforme con nuestro peso, nuestra imagen y nuestra salud, vivir con un padecimiento en descontrol y con las complicaciones que esto ocasiona. Afortunadamente usted puede decidir con qué -difícil- se quiere quedar. &nbsp;<i class="fas fa-square"></i></p>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
         <?php include('../../../includes/ctc-morales-becerra.php') ?>
       </div>
     </article>

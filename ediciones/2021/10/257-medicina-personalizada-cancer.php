@@ -94,7 +94,7 @@
           paciente y los medios de comunicación. <i class="fas fa-square"></i></p>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
         <?php include('../../../includes/ctc-brau-figueroa.php') ?>
       </div>
     </article>

@@ -132,7 +132,7 @@
           una dieta con muchas frutas y verduras, dejar de fumar y evitar alimentos ahumados o embutidos. &nbsp;<i class="fas fa-square"></i></p>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
         <?php include('../../../includes/ctc-alvarez-bojorquez.php') ?>
       </div>
     </article>

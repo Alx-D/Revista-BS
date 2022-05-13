@@ -110,7 +110,7 @@
           incluya quimioterapia y/o radioterapia particularizando cada caso. &nbsp;<i class="fas fa-square"></i></p>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
         <p class="f1 ctc-sobre" style="margin-bottom: 0;">LO AUTORES. La <b></b>doctora Martha Elena Chávez Rede </b>es
           especialista en oncología pediátrica por la Universidad Nacional Autónoma de México, el <b></b>doctor Mario
           Benjamín Vizcaíno Ahumada</b> es especialista en neurocirugía y cirugía de columna espinal en el Centro Médico

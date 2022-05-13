@@ -123,7 +123,7 @@
         </p>
       </div>
 
-      <div class="ctc">
+      <div class="ctc-bx">
         <?php include('../../../includes/ctc-verdugo-correa.php') ?>
       </div>
     </article>
