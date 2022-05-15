@@ -1,9 +1,8 @@
 <style>
   .tabla {
     width: 45%;
-    float: right;
     border-radius: 0;
-    margin: 25px -50px 25px 35px;
+    margin: 25px 0 25px;
   }
 
   .tabla th img {
@@ -95,6 +94,7 @@
           origen central no se agregan estos síntomas, pero se presentan dolor de cabeza e inestabilidad.</p>
         <p>Es importante mencionar que si hubo antecedentes de episodios similares o de enfermedades óticas agregadas,
           como secreción por el oído (otorrea), otitis media aguda de repetición, sugieren un origen periférico.</p>
+
         <table class="tabla grisc">
           <thead class="rojoc">
             <th style="border-bottom: 0;">Tipos de vértigo</th>
@@ -154,6 +154,7 @@
       </div>
 
       <div class="ctc-bx">
+        <p class="f1 ctc-sobre">Sobre el autor</p>
         <?php include('../../../includes/ctc-gracia-francis.php') ?>
       </div>
     </article>

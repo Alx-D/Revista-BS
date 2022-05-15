@@ -121,7 +121,7 @@
       <a href="ediciones/2022/01/260-ortopedia-infancia.php">Ortopedia infancia</a>
       <a href="ediciones/2022/01/260-razones-nuticion.php">Razones nutrición</a>
       <a href="ediciones/2022/01/260-salud-mental.php">Salud mental</a>
-      <a href="ediciones/2022/01/260-Seccion-Especial.php">Sección Especial 260</a>
+      <a href="ediciones/2022/01/260-Seccion-Especial.html">Sección Especial 260</a>
       <a href="ediciones/2022/01/260-Dr-Gerardo-Quintanar.php">Dr. Gerardo Quintanar Fimbres</a>
       <a href="ediciones/2022/01/260-Dr-Gerardo-Quintanar.html">Dr. Gerardo Quintanar Fimbres</a>
       <a href="ediciones/2022/01/260-Dr-Jose-Antonio-Gonzalez.php">Dr. José Antonio González Rincón</a>

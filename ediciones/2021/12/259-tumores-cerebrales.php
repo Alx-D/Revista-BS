@@ -111,7 +111,7 @@
       </div>
 
       <div class="ctc-bx">
-        <p class="f1 ctc-sobre" style="margin-bottom: 0;">LO AUTORES. La <b></b>doctora Martha Elena Chávez Rede </b>es
+        <p class="f1 ctc-certificaciones" style="margin-bottom: 0;">LO AUTORES. La <b></b>doctora Martha Elena Chávez Rede </b>es
           especialista en oncología pediátrica por la Universidad Nacional Autónoma de México, el <b></b>doctor Mario
           Benjamín Vizcaíno Ahumada</b> es especialista en neurocirugía y cirugía de columna espinal en el Centro Médico
           Nacional de Occidente, de manera conjunta tratan tumores cerebrales en niños.</p>

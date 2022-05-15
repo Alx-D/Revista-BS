@@ -101,7 +101,7 @@
           modelo hasta que pase la tercera ola de contagios.</p>
         <p>“Siempre dijimos que si volvían a clases cuando empezara el ciclo, los íbamos a mandar, pero como se vino
           la tercera ola, ya no los mandamos; pero sí estamos en la postura de mandarlos, eso de tomar clases por
-          computadora les aburre y dejan de poner atención”, compartió. <i class="fas fa-square"></i></p>
+          computadora les aburre y dejan de poner atención”, compartió. &nbsp;<i class="fas fa-square"></i></p>
       </div>
     </article>
 

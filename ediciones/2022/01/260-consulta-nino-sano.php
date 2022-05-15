@@ -116,6 +116,7 @@
       </div>
 
       <div class="ctc-bx">
+        <p class="f1 ctc-sobre">Sobre el autor</p>
         <?php include('../../../includes/ctc-burruel-arvizu.php') ?>
       </div>
     </article>

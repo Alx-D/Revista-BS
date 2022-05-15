@@ -97,6 +97,7 @@
       </div>
 
       <div class="ctc-bx">
+      <p class="f1 ctc-sobre">Sobre el autor</p>
       <?php include('../../../includes/ctc-diaz-tamayo.php') ?>
       </div>
     </article>

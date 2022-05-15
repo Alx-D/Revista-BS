@@ -1377,10 +1377,10 @@ header {
   font-size: 20px;
   line-height: 1.6;
 }
-.texto p {
+.texto>p {
   margin-bottom: 10px;
 }
-.texto p span {
+.texto>p span {
   font-size: 21px;
   font-weight: 700;
 }
@@ -1404,7 +1404,7 @@ header {
 .texto-resaltado-bx p{
   line-height: 1.5;
 }
-.texto li {
+.texto>li {
   margin-left: 30px;
 }
 .lista-letra-nota li {
@@ -1421,11 +1421,12 @@ header {
 }
 .lista-num-nota li {
   list-style-type: decimal;
+  margin-left: 17px;
   margin-right: 50px;
   line-height: 1.4;
   margin-bottom: 5px;
 }
-.texto .cita{
+.texto>.cita{
   font-family: "Nunito Sans", sans-serif;
   font-size: 15px;
   font-weight: 400;
@@ -1504,6 +1505,7 @@ header {
   line-height: 1.15;
   font-weight: 300;
   color: #ffffff;
+  margin-bottom: 5px;
 }
 .rc-gris-texto {
   font-size: 20px;
@@ -1656,7 +1658,7 @@ th {
   font-family: "Nunito Sans", sans-serif;
   color: #ffffff;
 }
-.ctc-bx a{
+.ctc-bx>a{
   color: white;
 }
 .ctc-conozca{
@@ -1669,9 +1671,8 @@ th {
   font-size: 23px;
   line-height: 1.2;
   font-weight: 600;
-  margin-top: 8px;
-  margin-bottom: 5px;
   text-transform: unset;
+  margin: 8px 0 5px;
 }
 .ctc-especialidad {
   font-size: 20px;
@@ -1699,7 +1700,7 @@ th {
   font-size: 21px;
   line-height: 1.2;
   font-weight: 500;
-  margin-bottom: 5px;
+  margin-bottom: 4px;
 }
 .ctc-bx>.fas, .ctc-tel {
   display: inline-block;
@@ -1708,9 +1709,10 @@ th {
   font-size: 16.5px;
   font-weight: 300;
   line-height: 1.2;
-}
-.ctc-dom {
   margin-bottom: 3px;
+}
+.ctc-tel{
+  margin-bottom: 7px;
 }
 .ctc-correo {
   font-size: 16.5px;
@@ -1723,7 +1725,7 @@ th {
 .ctc-click {
   font-size: 19px;
   line-height: 1.1;
-  margin: 10px 0 5px;
+  margin: 12px 0 5px;
 }
 .ctc-foto{
   width: 33%;
@@ -1739,7 +1741,7 @@ th {
   font-weight: 200;
   display: block;
   word-break: break-all;
-  margin-top: 8px;
+  margin-top: 6px;
 }
 .redes-icon {
   font-size: 30px;

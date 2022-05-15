@@ -93,7 +93,7 @@
         <p>Los signos y síntomas mencionados previamente suelen ser los más comunes que se manifiestan en pacientes con cáncer, pero la presencia de alguno o más de ellos no es diagnóstico de cáncer por sí sólo.</p>
         <div class="foto-der">
           <figure>
-            <img src="/2022/01/imgs/260-cita-oncologica-2.jpg" alt="">
+            <img src="/ediciones/2022/01/imgs/260-cita-oncologica-2.jpg" alt="">
           </figure>
         </div>
         <p>Existen múltiples enfermedades que pueden desarrollar síntomas similares a los presentados en pacientes con cáncer, por lo que es de vital importancia que si se detecta alguna alteración, sean valorados por su médico de cabecera.</p>
@@ -102,6 +102,7 @@
       </div>
 
       <div class="ctc-bx">
+        <p class="f1 ctc-sobre">Sobre el autor</p>
         <?php include('../../../includes/ctc-alvarez-bojorquez.php') ?>
       </div>
     </article>

@@ -45,7 +45,7 @@
         <hr class="mes1-hr-1">
 
         <div class="esp-th-bx">
-          <a href="ediciones/2022/02/261-Seccion-Especial.html">
+          <a href="ediciones/2022/02/261-Seccion-Especial.php">
             <p class="f2 esp-edi-inda">Especial</p>
             <h2 class="f1 especial-cbz-th hv-txt-01 guion">Salud bucal integral</h2>
             <p class="f1 especial-txt-th guion ">Expertos en hacerle sonreír</p>
@@ -213,7 +213,7 @@
       <div class="col1-esp1">
         <p class="f2 indicador esp1-inda">SECCIÓN ESPECIAL</p>
         <div class="cbz-esp1-bx">
-          <a href="ediciones/2022/02/261-Seccion-Especial.html">
+          <a href="ediciones/2022/02/261-Seccion-Especial.php">
             <p class="f2 cbz-esp1">Salud bucal <br class="br-none br-visible740">integral</p>
             <p class="f1 sum-esp1">Dientes sanos, <br class="br-none br-visible420">sonrisa deslumbrante</p>
           </a>

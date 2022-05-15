@@ -133,14 +133,7 @@
 
       <div class="ctc-bx">
         <p class="f1 ctc-sobre">Sobre el autor</p>
-        <p class="f1 ctc-nombre">Dr. Francisco Burruel Arvizu</p>
-        <p class="f1 ctc-especialidad">Pediatría</p>
-        <p class="f1 ctc-cedulas">Cédula profesional: 10481026, Universidad de Sonora; <br class="nonedw480">Cédula de especialidad: 11977523,
-          UNAM</p>
-        <p class="f1 ctc-empresa">Clínica del Noroeste, consultorio 216</p>
-        <p class="f1 ctc-dom-tel"><i class="fas fa-map-marker-alt"></i> Colosio y Juárez Col. Centro, Hermosillo, Sonora</p>
-        <p class="f1 ctc-dom-tel"><i class="fas fa-phone-alt"></i> (662) 213-5814 ext. 177</p>
-        <p class="f1 ctc-dom-tel" style="margin-bottom: 0;"><i class="fas fa-exclamation-circle"></i> Emergencias: (662) 103-0621</p>
+        <?php include('../../../includes/ctc-burruel-arvizu.php') ?>
       </div>
     </article>
 

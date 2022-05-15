@@ -94,6 +94,7 @@
     <aside class="col-40">
 
       <div class="aside-bnrs-up">
+      <p class="f1 ctc-sobre">Sobre el autor</p>
         <?php include('../../../includes/bnr-marfil.php') ?>
       </div>
 

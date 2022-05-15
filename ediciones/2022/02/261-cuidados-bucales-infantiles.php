@@ -93,7 +93,8 @@
       </div>
 
       <div class="ctc-bx">
-      <?php include('../../../includes/ctc-lopez-almazan.php') ?>
+        <p class="f1 ctc-sobre">Sobre el autor</p>
+        <?php include('../../../includes/ctc-lopez-almazan.php') ?>
       </div>
     </article>
 
