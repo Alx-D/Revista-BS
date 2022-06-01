@@ -313,15 +313,15 @@ a {
   grid-area: colaboraciones;
   margin-top: 15px;
 }
-.colab-bx .cbz-bx{
+.colab-bx>.cbz-bx{
   display: flex;
   align-items: baseline;
   margin-bottom: 25px;
 }
-.colab-bx .cbz-bx h2{
+.colab-bx>.cbz-bx h2{
   color: var(--verde-logo-1);
 }
-.colab-bx .cbz-bx>div {
+.colab-bx>.cbz-bx div {
   width: 30%;
   margin-left: 11px;
 }
@@ -333,26 +333,25 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.cards-bx .card {
+.card-hz{
+  width: 100%;
+  display: flex;
   background: #fff;
   margin-bottom: 30px;
   -webkit-font-smoothing: antialiased;
   transition: all 300ms;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.24);
 }
-.card .hz{
-  width: 100%;
-  display: flex;
-}
 .hv-card:hover {
   transform: translateY(-2%);
   box-shadow: 0 7px 14px rgba(0, 0, 0, 0.16);
 }
-.cbz-card-hz-bx{
+.card-hz>.cbz-bx{
   display: grid;
   grid-template-rows: 25px repeat(16, auto);
 }
-.card-hz-ind{
+.card-hz>.cbz-bx .ind{
+  width: 100%;
   grid-row: 1;
   font-size: 14px;
   font-weight: 500;
@@ -361,34 +360,51 @@ a {
   background-color: #db813f;
   padding-top: 5px;
 }
-.card-hz-blz{
+.card-hz>.cbz-bx .blz{
   grid-row: 9;
   padding: 0 25px;
 }
-.card-hz-cbz{
+.card-hz>.cbz-bx .cbz{
   grid-row: 10 / span 2;
   padding: 0 25px;
 }
-.card-hz p,
-.card-vl p{
+.cbz-bx>.blz{
   font-size: 16px;
   line-height: 1.2;
   text-transform: uppercase;
   color: var(--verde-logo-1);
   margin-bottom: 10px;
 }
-.card-hz h4,
-.card-vl h4{
+/* .card-hz p,
+.card-vl p{
+  font-size: 16px;
+  line-height: 1.2;
+  text-transform: uppercase;
+  color: var(--verde-logo-1);
+  margin-bottom: 10px;
+} */
+.cbz-bx>.cbz{
   font-size: 28px;
   line-height: 1.15;
 }
-.vl{
+/* .card-hz h4,
+.card-vl h4{
+  font-size: 28px;
+  line-height: 1.15;
+} */
+.card-vl{
   width: 47.5%;
+  background: #fff;
+  margin-bottom: 30px;
+  -webkit-font-smoothing: antialiased;
+  transition: all 300ms;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.24);
 }
-.card img, .card img{
+.card-vl img, .card-hz img{
   width: 100%;
+  display: block;
 }
-.card-vl-ind{
+.card-vl>.ind{
   height: 25px;
   font-size: 14px;
   font-weight: 500;
@@ -397,7 +413,7 @@ a {
   background-color: #db813f;
   padding-top: 5px;
 }
-.card-vl-cbz-bx{
+.card-vl>.cbz-bx{
    padding: 15px 25px 15px;
 }
 .video-bx{
