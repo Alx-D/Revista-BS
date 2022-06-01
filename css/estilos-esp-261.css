@@ -68,61 +68,45 @@ a {
   margin: 0 auto;
 }
 
-.portada-secc-esp {
-  background-color: var(--color261-2);
-  position: relative;
+.cbz-prtd-esp-bx {
+  width: 100%;
+  padding: 35px 0 25px;
+  background-color: var(--color261-4);
 }
-.portada-secc-esp img {
+.cbz-prtd-esp-bx img {
   margin: 0 auto;
 }
-.portada-secc-esp .cbz-bx {
-  background-color: var(--color261-4);
-  width: 65%;
-  padding: 25px 0;
-  position: absolute;
-  left: 50%;
-  transform: translate(-50%,0);
-}
-.portada-secc-esp .logo {
+.cbz-prtd-esp-bx .logo {
   margin: 0 auto;
   text-align: center;
   font-size: 20px;
   font-weight: 400;
   color: #555;
 }
-.portada-secc-esp .logo img {
+.cbz-prtd-esp-bx .logo img {
   width: 20%;
 }
-.portada-secc-esp .cbz-bx h1 {
-  font-size: 60px;
+.cbz-prtd-esp-bx h1 {
+  font-size: 75px;
   font-weight: 500;
   text-align: center;
   text-transform: uppercase;
   color: var(--color261-1);
 }
-.portada-secc-esp .cbz-bx h3 {
-  font-size: 28px;
+.cbz-prtd-esp-bx h3 {
+  font-size: 35px;
   font-weight: 600;
   line-height: 1;
   text-align: center;
   color: var(--color261-2);
 }
-.portada-secc-esp .foto {
+main .foto {
+  width: 100%;
   margin: 0 auto;
+  position: relative;
 }
-.intro-secc-esp {
-  background-color: var(--color261-3);
-  padding: 30px 60px 40px;
-}
-.intro-secc-esp h2 {
-  font-size: 36px;
-  font-weight: 600;
-  text-align: center;
-  margin-bottom: 6px;
-  color: var(--color261-1);
-}
-.intro-secc-esp .txt-esp {
-  text-align: center;
+main .foto img {
+  width: 100%;
 }
 .click {
   background-color: #FE5E41;
@@ -136,60 +120,60 @@ a {
   left: 50%;
   transform: translate(-50%,0);
 }
+.intro-esp {
+  background-color: var(--color261-3);
+  padding: 30px 60px 40px;
+}
+.intro-esp h2 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.2;
+  text-align: center;
+  margin-bottom: 6px;
+  color: var(--color261-1);
+}
+.intro-esp .txt-esp {
+  text-align: center;
+}
 
 @media screen and (max-width: 1024px) {
-  .portada-secc-esp .logo img {
+  .cbz-prtd-esp-bx .logo img {
     width: 22%;
   }
-  .portada-secc-esp .cbz-bx {
-    width: 60%;
-  }
-  .portada-secc-esp .cbz-bx h1 {
-    font-size: 56px;
-  }
-  .portada-secc-esp .cbz-bx h3 {
-    font-size: 27px;
+  .cbz-prtd-esp-bx h1 {
+    font-size: 70px;
   }
 }
 @media screen and (max-width: 920px) {
-  .portada-secc-esp .logo {
-    font-size: 18px;
-  }
-  .portada-secc-esp .logo img {
-    width: 24%;
-  }
-  .portada-secc-esp .cbz-bx {
-    width: 60%;
+  .cbz-prtd-esp-bx {
     padding: 20px 0 10px;
   }
-  .portada-secc-esp .cbz-bx h1 {
-    font-size: 48px;
-    margin-top: -8px;
+  .cbz-prtd-esp-bx .logo {
+    font-size: 18px;
   }
-  .portada-secc-esp .cbz-bx h3 {
-    font-size: 25px;
-    margin-top: -4px;
+  .cbz-prtd-esp-bx .logo img {
+    width: 24%;
   }
-  .intro-secc-esp {
+  .cbz-prtd-esp-bx h1 {
+    font-size: 65px;
+  }
+  .cbz-prtd-esp-bx h3 {
+    font-size: 33px;
+  }
+  .intro-esp {
     padding-top: 25px;
     padding-bottom: 10px;
   }
 }
 @media screen and (max-width: 820px){
-  .portada-secc-esp .logo img {
+  .cbz-prtd-esp-bx .logo img {
     width: 24%;
   }
-  .portada-secc-esp .cbz-bx {
-    width: 62%;
+  .cbz-prtd-esp-bx h1 {
+    font-size: 63px;
   }
-  .portada-secc-esp .cbz-bx h1 {
-    font-size: 46px;
-  }
-  .portada-secc-esp .cbz-bx h3 {
-    font-size: 24px;
-  }
-  .intro-secc-esp h2 {
-    font-size: 33px;
+  .intro-esp h2 {
+    font-size: 36px;
   }
   .click {
     font-size: 16px;
@@ -197,44 +181,40 @@ a {
   }
 }
 @media screen and (max-width: 780px){
-  .portada-secc-esp .logo img {
+  .cbz-prtd-esp-bx .logo img {
     width: 24%;
   }
-  .portada-secc-esp .logo {
+  .cbz-prtd-esp-bx .logo {
     font-size: 17px;
   }
-  .portada-secc-esp .cbz-bx {
-    width: 64%;
+  .cbz-prtd-esp-bx h1 {
+    font-size: 55px;
   }
-  .portada-secc-esp .cbz-bx h1 {
-    font-size: 43px;
-  }
-  .portada-secc-esp .cbz-bx h3 {
-    font-size: 22px;
+  .cbz-prtd-esp-bx h3 {
+    font-size: 27px;
   }
 }
 @media screen and (max-width: 680px){
-  .portada-secc-esp .logo img {
-    width: 26%;
-  }
-  .portada-secc-esp .logo {
-    font-size: 2.4vw;
-  }
-  .portada-secc-esp .cbz-bx {
-    width: 64%;
+  .cbz-prtd-esp-bx {
     padding: 15px 0 7px;
   }
-  .portada-secc-esp .cbz-bx h1 {
-    font-size: 5.8vw;
+  .cbz-prtd-esp-bx .logo img {
+    width: 26%;
   }
-  .portada-secc-esp .cbz-bx h3 {
-    font-size: 3.2vw;
+  .cbz-prtd-esp-bx .logo {
+    font-size: 2.4vw;
   }
-  .intro-secc-esp {
+  .cbz-prtd-esp-bx h1 {
+    font-size: 7.8vw;
+  }
+  .cbz-prtd-esp-bx h3 {
+    font-size: 4vw;
+  }
+  .intro-esp {
     padding: 25px 40px 30px;
   }
-  .intro-secc-esp h2 {
-    font-size: 30px;
+  .intro-esp h2 {
+    font-size: 33px;
   }
 }
 @media screen and (max-width: 520px) {
@@ -244,25 +224,19 @@ a {
   }
 }
 @media screen and (max-width: 480px){
-  .portada-secc-esp .cbz-bx {
+  .cbz-prtd-esp-bx {
     padding: 10px 0 5px;
   }
-  .portada-secc-esp .cbz-bx h1 {
-    margin-top: -4px;
-  }
-  .portada-secc-esp .cbz-bx h3 {
-    margin-top: -2px;
-  }
-  .intro-secc-esp {
+  .intro-esp {
     padding: 20px 30px 25px;
   }
-  .intro-secc-esp h2 {
-    font-size: 27px;
+  .intro-esp h2 {
+    font-size: 30px;
   }
 }
 @media screen and (max-width: 420px){
-  .intro-secc-esp h2 {
-    font-size: 24px;
+  .intro-esp h2 {
+    font-size: 26px;
   }
   .click {
     font-size: 14px;
@@ -270,10 +244,10 @@ a {
   }
 }
 @media screen and (max-width: 360px){
-  .intro-secc-esp h2 {
-    font-size: 20px;
+  .intro-esp h2 {
+    font-size: 23px;
   }
-  .intro-secc-esp {
+  .intro-esp {
     padding: 20px 25px 0px;  }
 }
 

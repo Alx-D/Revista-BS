@@ -63,7 +63,6 @@ a {
 .hv-txt:hover{
   color: slategrey;
 }
-/* quitar txt, poner color */
 .hv-color:hover{
   color: slategrey;
 }
@@ -79,10 +78,10 @@ a {
 .w50{
   width: 50%;
 }
-.img-hz-bx{
+.pleca-alnz .foto{
   overflow: hidden;
 }
-.img-hz-bx img{
+.pleca-alnz .foto img{
   width: 100%;
   display: block;
 }
@@ -123,16 +122,16 @@ a {
     "colaboraciones foto"
     "colaboraciones foto";
 }
-.pleca{
+.pleca-alnz{
   grid-area: pleca;
 }
-.pleca-desktop{
+.pleca-alnz .desktop{
   display: flex;
   background: var(--gris-claro);
   z-index: 10;
   position: relative;
 }
-.pleca-mobile{
+.pleca-alnz .mobile{
   display: none;
 }
 .inicio{
@@ -144,7 +143,7 @@ a {
   color: white;
   background: dodgerblue;
 }
-.logo-revista-bs-alnz{
+.pleca-alnz .logo{
   width: 95px;
   height: 75px;
   background: var(--gris-claro);
@@ -155,7 +154,7 @@ a {
   align-items: center;
   z-index: 10;
 }
-.logo-revista-bs-alnz img{
+.pleca-alnz .logo img{
   height: 65%;
 }
 .nombre-bx {
@@ -192,7 +191,7 @@ a {
   line-height: 1.1;
   color: #777;
   text-transform: uppercase;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .cedulas{
   font-size: 11px;
@@ -223,7 +222,7 @@ a {
 }
 .contacto-bx {
   grid-area: contacto;
-  margin-top: 40px;
+  margin-top: 50px;
 }
 .secc-cbz{
   font-size: 26px;
@@ -271,23 +270,7 @@ a {
   display: inline-block;
   margin-right: 30px;
 }
-.btn {
-  -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  font-family: Arial;
-  color: #ffffff;
-  font-size: 20px;
-  background: dodgerblue;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
-  margin-bottom: 15px;
-}
-.btn:hover {
-  background: #136bc0;
-  text-decoration: none;
-}
-.drsite{
+.msite{
   margin: 20px 0 30px;
 }
 .redes-bx{
@@ -326,23 +309,23 @@ a {
   list-style-position: inside;
   line-height: 2;
 }
-.colaboraciones-bx {
+.colab-bx {
   grid-area: colaboraciones;
   margin-top: 15px;
 }
-.h2-colab-bx{
+.colab-bx .cbz-bx{
   display: flex;
   align-items: baseline;
   margin-bottom: 25px;
 }
-.h2-colab-bx h2{
+.colab-bx .cbz-bx h2{
   color: var(--verde-logo-1);
 }
-.h2-colab-bx>div {
+.colab-bx .cbz-bx>div {
   width: 30%;
   margin-left: 11px;
 }
-.h2-colab-bx>div img{
+.colab-bx .cbz-bx>div img{
   width: 100%;
 }
 .cards-bx{
@@ -350,14 +333,16 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.card-hz{
-  width: 100%;
-  display: flex;
+.cards-bx .card {
   background: #fff;
   margin-bottom: 30px;
   -webkit-font-smoothing: antialiased;
   transition: all 300ms;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.24);
+}
+.card .hz{
+  width: 100%;
+  display: flex;
 }
 .hv-card:hover {
   transform: translateY(-2%);
@@ -397,15 +382,10 @@ a {
   font-size: 28px;
   line-height: 1.15;
 }
-.card-vl{
+.vl{
   width: 47.5%;
-  background: #fff;
-  margin-bottom: 30px;
-  -webkit-font-smoothing: antialiased;
-  transition: all 300ms;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.24);
 }
-.card-vl img{
+.card img, .card img{
   width: 100%;
 }
 .card-vl-ind{
