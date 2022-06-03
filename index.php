@@ -1,9 +1,9 @@
 <!-- HEAD -->
 <?php include('includes/head.php') ?>
 
+<body>
 <?php include('includes/header.php') ?>
 
-<body>
   <div class="popup">
     <button id="close">&times;</button>
     <a href="https://www.instagram.com/cdelnoroeste/?hl=es" target="_blank"><img src="banners/2022/Clinica-del-Noroeste-261.jpg" alt=""></a>

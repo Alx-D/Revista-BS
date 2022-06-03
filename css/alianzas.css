@@ -133,6 +133,16 @@ a {
   background: var(--gris-claro);
   z-index: 10;
   position: relative;
+  padding-right: 95px;
+}
+.inicio{
+  font-size: 16px;
+  font-family: 600;
+  line-height: 2;
+  letter-spacing: 2px;
+  padding: 0 20px;
+  color: white;
+  background: dodgerblue;
 }
 .pleca-alnz>.desktop .lema{
   width: 100%;
@@ -144,15 +154,6 @@ a {
   margin-top: auto;
   margin-bottom: auto;
   color: #aaa;
-}
-.inicio{
-  font-size: 16px;
-  font-family: 600;
-  line-height: 2;
-  letter-spacing: 2px;
-  padding: 0 20px;
-  color: white;
-  background: dodgerblue;
 }
 .pleca-alnz>.desktop .logo{
   width: 95px;
@@ -178,7 +179,7 @@ a {
   margin-bottom: 20px;
 }
 .espl-ind{
-  display: inline-block;
+  width: fit-content;
   font-size: 23px;
   font-weight: 700;
   text-transform: uppercase;
@@ -198,7 +199,7 @@ a {
 .cedulas{
   font-size: 11px;
   font-weight: 400;
-}
+  margin-bottom: 3px;}
 .foto-col{
   grid-area: foto;
 }
@@ -274,7 +275,7 @@ a {
   background-color: #f1f1f1;
   margin-bottom: 25px;
 }
-.inbl{
+.ctc-tel-bx a{
   display: inline-block;
   margin-right: 30px;
 }
@@ -301,6 +302,7 @@ a {
   margin-top: 35px;
   margin-bottom: 35px;
 }
+
 .formacion-bx{
   width: 95%;
   grid-area: formacion;
@@ -323,6 +325,7 @@ a {
   margin-bottom: 10px;
   line-height: 1.4;
 }
+/* 1COLAB */
 .colab-bx {
   grid-area: colaboraciones;
   margin-top: 15px;
@@ -390,8 +393,9 @@ a {
   color: var(--verde-logo-1);
   margin-bottom: 10px;
 }
-.cbz-bx>.cbz{
-  font-size: 28px;
+.cards-bx .cbz-bx .cbz{
+  font-size: 26px;
+  font-weight: 700;
   line-height: 1.1;
 }
 .card-vl{
@@ -552,10 +556,6 @@ footer{
 }
 
 @media only screen and (max-width: 1024px){
-  .nombre-bx h6{
-    font-size: 13px;
-    letter-spacing: 6px;
-  }
   .nombre{
     font-size: 62px;
   }
@@ -564,14 +564,14 @@ footer{
   }
 }
 @media only screen and (max-width: 990px){
+  .pleca-alnz>.desktop .lema{
+    letter-spacing: 8px;
+  }
   .contenedor-grid{
     grid-template-columns: 57% 38%;
   }
   .foto-bx{
     top: 100px;
-  }
-  .nombre-bx h6{
-    margin-bottom: 140px;
   }
   .nombre{
     font-size: 60px;
@@ -599,11 +599,9 @@ footer{
   .contenedor-grid{
     grid-template-columns: 60% 35%;
   }
-  .nombre-bx h6{
-    margin-bottom: 120px;
-  }
   .nombre{
-    font-size: 55px;
+    font-size: 56px;
+    margin-top: 140px;
   }
   .espl-ind{
     font-size: 18px;
@@ -615,17 +613,62 @@ footer{
     display: none;
   }
   .ctc-empresa {
-    font-size: 32px;
+    font-size: 30px;
   }
-  /* .foto-bx{
-    top: 140px;
-  } */
 }
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 768px){
+  /* .contenedor-grid{
+    width: 92vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+  } */
+  .contenedor-grid{
+    width: 92vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(33, auto);
+    gap: 0px 5%;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "foto"
+      "foto"
+      "foto"
+      "foto"
+      "foto"
+      "nombre"
+      "nombre"
+      "nombre"
+      "nombre"
+      "nombre"
+      "contacto"
+      "contacto"
+      "contacto"
+      "contacto"
+      "contacto"
+      "formacion"
+      "formacion"
+      "formacion"
+      "formacion"
+      "formacion"
+      "experiencia"
+      "experiencia"
+      "experiencia"
+      "experiencia"
+      "experiencia"
+      "colaboraciones"
+      "colaboraciones"
+      "colaboraciones"
+      "colaboraciones"
+      "colaboraciones"
+      "colaboraciones"
+      "colaboraciones"
+      "colaboraciones";
+  }
   .pleca-alnz>.desktop{
     display: none;
   }
-  /* ------ */
   .pleca-alnz>.mobile {
     display: block;
     width: 100vw;
@@ -655,134 +698,66 @@ footer{
     margin-left: 20px;
     color: dodgerblue;
   }
-
-  /* .header-mobile-row-1 {
-    display: flex;
-    align-content: center;
-  }
-  .fa-bars, .fa-search {
-    display: block;
-    visibility: visible;
-    font-size: 32px;
-    align-self: center;
-    color: #333;
-    z-index: 9;
-  }
-  .logo-mobile-bx {
-    width: 50%;
-    margin: 0 auto 15px;
-  }
-  .logo-mobile-bx img {
-    width: 100%;
-  }
-  .lema-mobile-bx {
-    width: 60%;
-    margin: 0 auto 15px;
-  }
-  .lema-mobile-bx img {
-    width: 100%;
-  }
-  .menu-mobile .fas {
-    display: block;
-    color: #fff;
-    margin: 20px 0 0 20px;
-    font-size: 22px;
-    cursor: pointer;
-    z-index: 11;
-  } */
-
-  /* ------- */
-
-  /* .pleca-alnz>.mobile{
-    grid-area: pleca;
-    margin-top: 10px;
-    padding: 0px 35px 0px 35px;
-    display: block;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    width: 100%;
-    height: 75px;
-    background-color: var(--gris-claro);
-    z-index: 20;
-  } */
-  /* .pleca-alnz>.mobile{
-    grid-area: pleca;
-    margin-top: 10px;
-    padding: 0px 35px 0px 35px;
-    display: block;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    width: 100%;
-    height: 75px;
-    background-color: var(--gris-claro);
-    z-index: 20;
-  } */
-  /* .pleca-alnz>.mobile .logo{
-    width: 50%;
-    margin: 0 auto 15px;
-  } */
-  /* .pleca-alnz>.mobile .logo  img{
-    width: 100%;
-  } */
-  /* .pleca-alnz>.mobile .lema{
-    display: block;
-    text-align: center;
-  } */
-  /* .top{
-    margin-top: auto;
-    margin-bottom: auto;
-  } */
-  /* .pleca-alnz>.mobile h3{
-    font-size: 18px;
-    font-weight: 400;
-  } */
-  /* .pleca-alnz>.mobile p{
-    font-size: 14px;
-    font-weight: 600;
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    color: dodgerblue;
-  } */
-  /* .pleca-alnz>.mobile .foto{
-    width: 15%;
-    height: 75px;
-    overflow: hidden;
-    margin-left: auto;
-  } */
-  /* .pleca-alnz>.mobile .foto img{
-    width: 100%;
-    overflow: hidden;
-  } */
-  .nombre-bx{
-    grid-row: 3;
-    grid-column: 1 / span 2;
-  }
   .foto-col{
-    grid-row: 2;
-    grid-column: 1 / span 2;
-    position: relative;
+    position: initial;
+    background-color: var(--gris-claro);
+  }
+  .agende{
+    display: none;
   }
   .foto-bx{
-    display: none;
-    position: sticky;
-    top: 0;
+    position: initial;
+    width: 50%;
+    margin: 0 auto;
   }
+  .nombre-bx{
+    padding: 0 25px;
+    background-color: var(--gris-claro);
+  }
+  .nombre{
+    font-size: 55px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .espl-ind{
+    margin: 0 auto 10px;
+  }
+  .especialidad, .cedulas {
+    text-align: center;
+  }
+  .nombre-bx :last-child{
+    margin-bottom: 30px;
+  }
+
   .contacto-bx{
-    grid-row: 4;
-    grid-column: 1 / span 2;
+    padding: 0 25px;
+    margin-top: 20px;
   }
+  .secc-cbz, .ctc-empresa, .ctc-info{
+    text-align: center;
+  }
+  .ctc-tel-bx{
+    display: flex;
+    justify-content: center;
+  }
+  .sep{
+    margin: 35px auto 35px;
+  }
+  .redes-bx{
+    display: flex;
+  }
+  /* ORDEN DE P */
+  .redes-bx p{
+    order: 1;
+  }
+
   .formacion-bx{
-    grid-row: 5;
-    grid-column: 1 / span 2;
+    background-color: #6dab51;
   }
   .experiencia-bx{
-    grid-row: 6;
-    grid-column: 1 / span 2;
+    background-color: #ebb730;
   }
   .colaboraciones-bx{
-    grid-row: 7;
-    grid-column: 1 / span 2;
+    background-color: aqua;
   }
 }

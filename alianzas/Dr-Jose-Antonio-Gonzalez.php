@@ -15,8 +15,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <title>Dr. José Antonio González Rincón | Revista BS</title>
 </head>
+
+<body>
 <header>
   <div class="pleca-alnz">
+
     <div class="desktop contenedor">
       <a class="f1 inicio hv-bck" href="/alianzas.html"><b>INICIO</b></a>
       <a class="logo" href="/index.php">
@@ -38,24 +41,23 @@
     </div>
   </div>
 </header>
-
-<body>
   <main class="contenedor-grid">
-    <div class="nombre-bx">
-      <h1 class="f1 nombre">Dr. José Antonio González Rincón</h1>
-      <div class="f1 espl-ind">Especialidad médica</div>
-      <div class="f1 especialidad">Traumatología <br> y Ortopedia</div>
-      <p class="f3 cedulas">Cédula profesional: 5084256, Universidad Michoacana de San Nicolás de Hidalgo</p>
-      <p class="f3 cedulas">Cédula de especialidad: 7342886, Universidad Nacional Autónoma de México</p>
-    </div>
 
-    <div class="foto-col">
+  <div class="foto-col">
       <div class="foto-bx">
         <img src="/alianzas/imgs/Dr-Jose-Antonio-Gonzalez.jpg" alt="">
         <div class="f1 agende">
           <a href="tel:+526622161492">Llame para agendar una cita <br class="br1024"> 662 216-1492</a>
         </div>
       </div>
+    </div>
+
+    <div class="nombre-bx">
+      <h1 class="f1 nombre">Dr. José Antonio González Rincón</h1>
+      <p class="f1 espl-ind">Especialidad médica</p>
+      <div class="f1 especialidad">Traumatología <br> y Ortopedia</div>
+      <p class="f3 cedulas"><b>Cédula profesional:</b> 5084256, Universidad Michoacana de San Nicolás de Hidalgo</p>
+      <p class="f3 cedulas"><b>Cédula de especialidad:</b> 7342886, Universidad Nacional Autónoma de México</p>
     </div>
 
     <div class="f1 contacto-bx">
@@ -69,12 +71,14 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d217.91720904592512!2d-110.97135128587185!3d29.08573711808838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ce843fac21686d%3A0x921d66eec2f39e58!2sCentro%20M%C3%A9dico%20Navarrete!5e0!3m2!1ses-419!2smx!4v1654108061521!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
       </div>
 
-      <a class="inbl" href="tel:+526622161492">
-        <p class="ctc-info"><i class="fas fa-phone-alt"></i> (662) 216-1492</p>
-      </a>
-      <a class="inbl" href="tel:+52662229-0213" title="Urgencias">
-        <p class="ctc-info"><i class="fas fa-exclamation-circle" style="color: red;"></i> (662) 229-0213</p>
-      </a>
+      <div class="ctc-tel-bx">
+        <a href="tel:+526622161492">
+          <p class="ctc-info hv-txt"><i class="fas fa-phone-alt"></i> (662) 216-1492</p>
+        </a>
+        <a href="tel:+52662229-0213" title="Urgencias">
+          <p class="ctc-info hv-txt"><i class="fas fa-exclamation-circle" style="color: red;"></i> (662) 229-0213</p>
+        </a>
+      </div>
 
       <p class="ctc-info msite"><a href="https://www.columnahermosillo.com/" class="hv-txt" target="blank">www.columnahermosillo.com</a> <i class="fas fa-mouse-pointer"></i>
       </p>

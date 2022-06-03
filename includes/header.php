@@ -25,7 +25,7 @@
           <ul>
             <li><a href="/index.php">Inicio</a></li>
             <li><a href="#">Ediciones</a></li>
-            <li><a href="/alianzas.html">Doctores colaboradores</a></li>
+            <li><a href="/alianzas.php">Doctores colaboradores</a></li>
             <li><a href="#vid1">Entrevistas</a></li>
             <li><a href="#ev1">Eventos</a></li>
             <li><a href="#">Artículos por especialidad médica</a></li>
@@ -75,7 +75,7 @@
             <ul>
               <li><a class="hv-txt-01" href="/index.php">Inicio</a></li>
               <li><a class="hv-txt-01" href="#">Ediciones</a></li>
-              <li><a class="hv-txt-01" href="/alianzas.html">Doctores colaboradores</a></li>
+              <li><a class="hv-txt-01" href="/alianzas.php">Doctores colaboradores</a></li>
               <li><a class="hv-txt-01" href="#">Artículos por especialidad médica</a></li>
               <li><a class="hv-txt-01" href="/enlaces.php">Contacto</a></li>
             </ul>
