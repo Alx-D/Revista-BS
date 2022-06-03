@@ -15,33 +15,52 @@
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <title>Dr. José Antonio González Rincón | Revista BS</title>
 </head>
-<header>
-  <div class="pleca-alnz">
-    <div class="desktop contenedor">
-      <a class="f1 inicio hv-bck" href="/alianzas.html"><b>INICIO</b></a>
-      <a class="logo" href="/index.php">
-        <img src="/imgs/Revista-BS-logo-250x195.png" alt="">
-      </a>
-      <p class="f3 lema">Salud para vivir con sentido</p>
-    </div>
 
-    <div class="mobile">
-      <div class="back">
-        <a href="/alianzas.html"><i class="fas fa-chevron-left"></i></a>
-      </div>
-      <div class="logo">
-        <a href="/index.php">
-          <img src="/imgs/Revista-BS-logo-m.png">
+<body class="contenedor">
+  <main>
+    <div class="pleca-alnz">
+      <div class="desktop">
+        <a class="f1 inicio hv-bck" href="/alianzas.html"><b>INICIO</b></a>
+        <a class="logo" href="/index.php">
+          <img src="/imgs/Revista-BS-logo-250x195.png" alt="">
         </a>
       </div>
-      <p class="f3 lema">Salud para vivir con sentido</p>
-    </div>
-  </div>
-</header>
 
-<body>
-  <main class="contenedor-grid">
+      <!-- ----- -->
+      <div class="mobile">
+
+        <div class="header-mobile-row-1">
+          <i class="fas fa-chevron-left"></i>
+
+          <div class="logo-mobile-bx">
+            <a href="/index.php">
+              <img src="/imgs/Revista-BS-logo-m.png">
+            </a>
+          </div>
+        </div>
+
+        <p class="f3 lema">Salud para vivir con sentido</p>
+      </div>
+      <!-- ----- -->
+
+      <!-- <div class="f1 mobile"> -->
+      <!-- <div class="logo">
+          <img src="/imgs/Revista-BS-logo-m.png" alt="">
+        </div>
+        <p class="f3 lema">Salud para vivir con sentido</p> -->
+
+      <!-- <div class="top">
+          <h3 style="display: block;">Dr. José Antonio González Rincón</h3>
+          <p style="display: block;">Traumatología y Ortopedia</p>
+        </div>
+        <div class="foto w15">
+          <img src="/alianzas/imgs/Dr-Jose-Antonio-Gonzalez-th.jpg" alt="">
+        </div> -->
+      <!-- </div> -->
+    </div>
+
     <div class="nombre-bx">
+      <h6 class="f3">Salud para vivir con sentido</h6>
       <h1 class="f1 nombre">Dr. José Antonio González Rincón</h1>
       <div class="f1 espl-ind">Especialidad médica</div>
       <div class="f1 especialidad">Traumatología <br> y Ortopedia</div>
@@ -106,7 +125,7 @@
     </div>
 
     <div class="f1 experiencia-bx">
-      <h3 class="secc-cbz">EXPERIENCIA y/o PROCEDIMIENTOS</h3>
+      <h3 class="secc-cbz">EXPERIENCIA</h3>
       <ul class="secc-txt" style="color: magenta;">
         <li>Lorem ipsum dolor sit amet consectetur</li>
         <li>Beatae dolorem, commodi quod laudantium assumenda</li>
@@ -116,7 +135,7 @@
       <div class="sep"></div>
     </div>
 
-    <div class="colab-bx">
+    <section class="colab-bx">
       <div class="cbz-bx">
         <h2 class="f1 secc-cbz">COLABORACIONES EN</h2>
         <div>
@@ -128,7 +147,7 @@
 
         <a class="card-hz hv-card" href="/ediciones/2022/01/260-ortopedia-infancia.php" target="blank">
 
-          <div class="w50" style="overflow: hidden;"><img src="/ediciones/2022/01/imgs/260-Dr-Jose-Antonio-Gonzalez-ORTOPEDIA-NINOS-1.jpg" alt="">
+          <div class="w50"><img src="/ediciones/2022/01/imgs/260-Dr-Jose-Antonio-Gonzalez-ORTOPEDIA-NINOS-1.jpg" alt="">
           </div>
 
           <div class="cbz-bx">
@@ -189,11 +208,8 @@
           </div>
         </a>
       </div>
-    </div>
+    </section>
   </main>
-
-  <div style="margin-bottom: 60px;"></div>
-  <?php include('../ediciones/2022/01/includes/footer-e260.php') ?>
 
   <script>
     var coll = document.getElementsByClassName("colapsable");
@@ -212,4 +228,5 @@
     }
   </script>
 </body>
+
 </html>

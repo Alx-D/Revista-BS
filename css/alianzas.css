@@ -78,25 +78,21 @@ a {
 .w50{
   width: 50%;
 }
-.pleca-alnz .foto{
-  overflow: hidden;
-}
-.pleca-alnz .foto img{
-  width: 100%;
-  display: block;
-}
-
 .contenedor{
   width: 95vw;
   max-width: 1100px;
   margin: 0 auto;
+}
+.contenedor-grid{
+  width: 95vw;
+  max-width: 1100px;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: 52% 45%;
-  grid-template-rows: repeat(25, auto);
-  gap: 0px 3%;
+  grid-template-columns: 52% 43%;
+  grid-template-rows: repeat(24, auto);
+  gap: 0px 5%;
   grid-auto-flow: row;
   grid-template-areas:
-    "pleca pleca"
     "nombre foto"
     "nombre foto"
     "nombre foto"
@@ -122,17 +118,32 @@ a {
     "colaboraciones foto"
     "colaboraciones foto";
 }
-.pleca-alnz{
-  grid-area: pleca;
+.pleca-alnz>.mobile{
+  display: none;
 }
-.pleca-alnz .desktop{
+.pleca-alnz>.foto{
+  overflow: hidden;
+}
+.pleca-alnz>.foto img{
+  width: 100%;
+  display: block;
+}
+.pleca-alnz>.desktop{
   display: flex;
   background: var(--gris-claro);
   z-index: 10;
   position: relative;
 }
-.pleca-alnz .mobile{
-  display: none;
+.pleca-alnz>.desktop .lema{
+  width: 100%;
+  font-size: 15.5px;
+  font-weight: 300;
+  letter-spacing: 12px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+  color: #aaa;
 }
 .inicio{
   font-size: 16px;
@@ -143,7 +154,7 @@ a {
   color: white;
   background: dodgerblue;
 }
-.pleca-alnz .logo{
+.pleca-alnz>.desktop .logo{
   width: 95px;
   height: 75px;
   background: var(--gris-claro);
@@ -160,19 +171,10 @@ a {
 .nombre-bx {
   grid-area: nombre;
 }
-.nombre-bx h6{
-  font-size: 16px;
-  font-weight: 300;
-  text-align: center;
-  letter-spacing: 10px;
-  text-transform: uppercase;
-  color: #aaa;
-  margin-top: 10px;
-  margin-bottom: 210px;
-}
 .nombre{
   font-size: 65px;
   line-height: 1.1;
+  margin-top: 170px;
   margin-bottom: 20px;
 }
 .espl-ind{
@@ -207,7 +209,12 @@ a {
 .foto-bx img{
   width: 100%;
 }
+.br1024{
+  display: none;
+}
 .agende{
+  font-size: 20px;
+  line-height: 1.3;
   width: 100%;
   left: 50%;
   transform: translate(-50%);
@@ -231,6 +238,7 @@ a {
 }
 .ctc-empresa {
   font-size: 36px;
+  line-height: 1.2;
   font-weight: 700;
   margin-bottom: 10px;
 }
@@ -304,10 +312,16 @@ a {
 .experiencia-bx {
   grid-area: experiencia;
 }
+.experiencia-bx ul{
+  list-style-type: disc;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  padding-inline-start: 20px;
+}
 .secc-txt > li{
-  list-style: disc;
-  list-style-position: inside;
-  line-height: 2;
+  margin-bottom: 10px;
+  line-height: 1.4;
 }
 .colab-bx {
   grid-area: colaboraciones;
@@ -337,7 +351,7 @@ a {
   width: 100%;
   display: flex;
   background: #fff;
-  margin-bottom: 30px;
+  margin-bottom: 45px;
   -webkit-font-smoothing: antialiased;
   transition: all 300ms;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.24);
@@ -351,14 +365,15 @@ a {
   grid-template-rows: 25px repeat(16, auto);
 }
 .card-hz>.cbz-bx .ind{
-  width: 100%;
   grid-row: 1;
+  width: 100%;
   font-size: 14px;
+  line-height: 1.7;
   font-weight: 500;
   text-align: center;
   color: white;
   background-color: #db813f;
-  padding-top: 5px;
+  padding-top: 3px;
 }
 .card-hz>.cbz-bx .blz{
   grid-row: 9;
@@ -375,27 +390,14 @@ a {
   color: var(--verde-logo-1);
   margin-bottom: 10px;
 }
-/* .card-hz p,
-.card-vl p{
-  font-size: 16px;
-  line-height: 1.2;
-  text-transform: uppercase;
-  color: var(--verde-logo-1);
-  margin-bottom: 10px;
-} */
 .cbz-bx>.cbz{
   font-size: 28px;
-  line-height: 1.15;
+  line-height: 1.1;
 }
-/* .card-hz h4,
-.card-vl h4{
-  font-size: 28px;
-  line-height: 1.15;
-} */
 .card-vl{
   width: 47.5%;
   background: #fff;
-  margin-bottom: 30px;
+  margin-bottom: 45px;
   -webkit-font-smoothing: antialiased;
   transition: all 300ms;
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.24);
@@ -419,32 +421,340 @@ a {
 .video-bx{
   margin-bottom: 30px;
 }
+/* FOOTER */
+footer{
+  margin: 0 auto;
+}
+.footer-row-1 {
+  background: var(--verde-logo-1)
+}
+.footer-mision {
+  font-size: 19px;
+  line-height: 2.4;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #fff;
+}
+.footer-row-2 {
+  height: auto;
+  background: #e8e5e0;
+}
+.footer-cont {
+  padding: 20px 30px 0;
+  display: flex;
+}
+.footer-col-2 {
+  width: 35%;
+  margin: 0 30px 0 70px;
+}
+.footer-BSlogo-bx {
+  width: 150px;
+}
+.footer-BSlogo-bx img {
+  width: 100%;
+}
+.anunciese, .footer-tel {
+  font-size: 19px;
+  margin-bottom: 5px;
+}
+.footer-icon {
+  font-size: 16px;
+  color: #696969;
+}
+.footer-email {
+  font-size: 18px;
+  text-decoration: underline;
+  display: inline-block;
+  margin-bottom: 10px;
+  white-space: nowrap;
+}
+.footer-direccion {
+  font-size: 15px;
+  line-height: 1.3;
+}
+.footer-col-3 {
+  width: 40%;
+}
+.footer-col-3 p {
+  font-size: 15px;
+  line-height: 1.3;
+  margin-bottom: 7px;
+}
+.footer-col-3 a {
+  font-size: 13px;
+  text-decoration: underline;
+  display: inline-block;
+  margin-right: 5px;
+}
+.btn-siganos {
+  width: 170px;
+  height: 70px;
+  border: 3px solid #eee;
+  border-radius: 6px;
+  background: #1778f2;
+  margin-top: 20px;
+  margin-left: 50px;
+  text-align: center;
+  padding-top: 6px;
+  box-shadow: 5px 6px 10px 0px #c2c2c2;
+}
+.btn-siganos p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  color: #fff;
+}
+.btn-siganos:hover {
+  background-color: #2d69bd;
+}
+.btn-siganos:active {
+  position: relative;
+  top: 1px;
+}
+.btn-siganos-pr {
+  display: none;
+  width: 150px;
+  height: 70px;
+  border: 3px solid #eee;
+  border-radius: 6px;
+  background: #1778f2;
+  margin-top: 20px;
+  margin-left: 50px;
+  text-align: center;
+  padding-top: 6px;
+  box-shadow: 5px 6px 10px 0px #c2c2c2;
+}
+.btn-siganos-pr p {
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 18px;
+  color: #fff;
+}
+.btn-siganos-pr:hover {
+  background-color: #2d69bd;
+}
+.btn-siganos-pr:active {
+  position: relative;
+  top: 1px;
+}
+.duarte-firma {
+  width: 265px;
+  margin: 50px auto 0;
+  font-family: sans-serif;
+  font-size: 12.5px;
+  line-height: 1.9;
+  color: #fff;
+  text-align: center;
+  background: #28539c;
+  border-radius: 8px;
+}
+.duarte-firma a {
+  color: #fff;
+}
 
-@media only screen and (max-width: 700px){
-  .pleca-desktop{
+@media only screen and (max-width: 1024px){
+  .nombre-bx h6{
+    font-size: 13px;
+    letter-spacing: 6px;
+  }
+  .nombre{
+    font-size: 62px;
+  }
+  .br1024{
+    display: block;
+  }
+}
+@media only screen and (max-width: 990px){
+  .contenedor-grid{
+    grid-template-columns: 57% 38%;
+  }
+  .foto-bx{
+    top: 100px;
+  }
+  .nombre-bx h6{
+    margin-bottom: 140px;
+  }
+  .nombre{
+    font-size: 60px;
+  }
+  .espl-ind{
+    font-size: 20px;
+  }
+  .especialidad{
+    font-size: 37px;
+  }
+  .secc-cbz{
+    font-size: 24px;
+  }
+  .ctc-empresa {
+    font-size: 34px;
+  }
+  .ctc-info, .contacto-bx .fas{
+    font-size: 20px;
+  }
+  .colapsable {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 880px){
+  .contenedor-grid{
+    grid-template-columns: 60% 35%;
+  }
+  .nombre-bx h6{
+    margin-bottom: 120px;
+  }
+  .nombre{
+    font-size: 55px;
+  }
+  .espl-ind{
+    font-size: 18px;
+  }
+  .especialidad{
+    font-size: 35px;
+  }
+  .br880{
     display: none;
   }
-  .pleca-mobile{
+  .ctc-empresa {
+    font-size: 32px;
+  }
+  /* .foto-bx{
+    top: 140px;
+  } */
+}
+@media only screen and (max-width: 800px){
+  .pleca-alnz>.desktop{
+    display: none;
+  }
+  /* ------ */
+  .pleca-alnz>.mobile {
+    display: block;
+    width: 100vw;
+  }
+  .pleca-alnz>.mobile .logo{
+    width: 45%;
+    margin: 20px auto 12px;
+  }
+  .pleca-alnz>.mobile .logo img{
+    width: 100%;
+  }
+  .pleca-alnz>.mobile .lema{
+    width: 100%;
+    height: 25px;
+    line-height: 25px;
+    background-color: var(--gris-medio);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+  .back a{
+    position: absolute;
+    font-size: 55px;
+    margin-left: 20px;
+    color: dodgerblue;
+  }
+
+  /* .header-mobile-row-1 {
+    display: flex;
+    align-content: center;
+  }
+  .fa-bars, .fa-search {
+    display: block;
+    visibility: visible;
+    font-size: 32px;
+    align-self: center;
+    color: #333;
+    z-index: 9;
+  }
+  .logo-mobile-bx {
+    width: 50%;
+    margin: 0 auto 15px;
+  }
+  .logo-mobile-bx img {
+    width: 100%;
+  }
+  .lema-mobile-bx {
+    width: 60%;
+    margin: 0 auto 15px;
+  }
+  .lema-mobile-bx img {
+    width: 100%;
+  }
+  .menu-mobile .fas {
+    display: block;
+    color: #fff;
+    margin: 20px 0 0 20px;
+    font-size: 22px;
+    cursor: pointer;
+    z-index: 11;
+  } */
+
+  /* ------- */
+
+  /* .pleca-alnz>.mobile{
     grid-area: pleca;
     margin-top: 10px;
+    padding: 0px 35px 0px 35px;
     display: block;
     display: flex;
     flex-direction: row;
+    justify-content: flex-end;
     width: 100%;
     height: 75px;
     background-color: var(--gris-claro);
     z-index: 20;
-  }
-  /* .pleca-mobile-foto-bx{
+  } */
+  /* .pleca-alnz>.mobile{
+    grid-area: pleca;
+    margin-top: 10px;
+    padding: 0px 35px 0px 35px;
+    display: block;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    height: 75px;
+    background-color: var(--gris-claro);
+    z-index: 20;
+  } */
+  /* .pleca-alnz>.mobile .logo{
+    width: 50%;
+    margin: 0 auto 15px;
+  } */
+  /* .pleca-alnz>.mobile .logo  img{
+    width: 100%;
+  } */
+  /* .pleca-alnz>.mobile .lema{
+    display: block;
+    text-align: center;
+  } */
+  /* .top{
+    margin-top: auto;
+    margin-bottom: auto;
+  } */
+  /* .pleca-alnz>.mobile h3{
+    font-size: 18px;
+    font-weight: 400;
+  } */
+  /* .pleca-alnz>.mobile p{
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: dodgerblue;
+  } */
+  /* .pleca-alnz>.mobile .foto{
     width: 15%;
     height: 75px;
     overflow: hidden;
-  }
-  .pleca-mobile-foto-bx img{
+    margin-left: auto;
+  } */
+  /* .pleca-alnz>.mobile .foto img{
     width: 100%;
     overflow: hidden;
   } */
-
   .nombre-bx{
     grid-row: 3;
     grid-column: 1 / span 2;
