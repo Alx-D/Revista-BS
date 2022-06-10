@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/estilos-esp-260.css">
+  <link rel="stylesheet" href="/css/estilos.css">
   <link rel="stylesheet" href="/css/all.min.css">
   <meta name="description" content="Artículos sobre el cuidado de la salud y prevención de enfermedades">
   <meta name="keywords"

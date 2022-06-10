@@ -2,8 +2,8 @@
 
 <body class="contenedor m-0a">
 
-  <header>
-    <div class="cbz-prtd-esp-bx">
+  <header id="prtdEspHdr">
+    <div class="cbz-bx">
       <div class="f2 logo">
         <a href="/index.php"><img src="/imgs/Revista-BS-logo-m.png"></a> &nbsp; SECCIÓN ESPECIAL
       </div>
@@ -12,7 +12,7 @@
     </div>
   </header>
 
-  <main>
+  <main id="prtdEspMain">
     <div class="foto">
       <div class="f1 click">
         De click sobre el doctor de su preferencia

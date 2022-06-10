@@ -433,11 +433,11 @@ footer{
   background: var(--verde-logo-1)
 }
 .footer-mision {
-  font-size: 19px;
-  line-height: 2.4;
-  font-weight: 700;
+  font-size: 16px;
+  line-height: 2.2;
+  font-weight: 600;
   text-align: center;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   color: #fff;
 }
 .footer-row-2 {

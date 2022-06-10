@@ -58,8 +58,11 @@ a {
 .lbco{color: white;}
 
 .contenedor {
-  width: 95vw;
+  width: 100vw;
   max-width: 1100px;
+}
+.m-0a {
+  margin: 0 auto;
 }
 .flex{
   display: flex;
@@ -81,9 +84,6 @@ a {
   line-height: 1.2;
   font-weight: 400;
   margin-bottom: 15px;
-}
-.m-0a {
-  margin: 0 auto;
 }
 .hv-txt-01:hover {
   color: slategrey;
@@ -988,11 +988,11 @@ header {
   background: var(--verde-logo-1)
 }
 .footer-mision {
-  font-size: 19px;
-  line-height: 2.4;
-  font-weight: 700;
+  font-size: 16px;
+  line-height: 2.2;
+  font-weight: 600;
   text-align: center;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   color: #fff;
 }
 .footer-row-2 {
@@ -1100,15 +1100,16 @@ header {
   top: 1px;
 }
 .duarte-firma {
-  width: 265px;
-  margin: 50px auto 0;
   font-family: sans-serif;
-  font-size: 12.5px;
+  font-size: 10.5px;
   line-height: 1.9;
+  width: fit-content;
+  margin: 50px auto 0;
+  padding: 0 15px;
   color: #fff;
   text-align: center;
   background: #28539c;
-  border-radius: 8px;
+  border-radius: 6px;
 }
 .duarte-firma a {
   color: #fff;
@@ -1382,7 +1383,7 @@ header {
   margin-bottom: 10px;
 }
 .texto>p span {
-  font-size: 21px;
+  font-size: 20px;
   font-weight: 700;
 }
 .descanso {
@@ -1404,6 +1405,10 @@ header {
 }
 .texto-resaltado-bx p{
   line-height: 1.5;
+}
+.texto-preg{
+  font-weight: 500;
+  margin-top: 20px;
 }
 .texto>li {
   margin-left: 30px;
@@ -1801,18 +1806,6 @@ th {
 .interes-item p:hover {
   color: slategrey;
 }
-/* CONTACTO-AUTOR */
-/* CTC EN ASIDE Y HASTA ABAJO
-.ctc-bx {
-  width: 80%;
-  float: right;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  background: #344497;
-  padding: 25px;
-  border-radius: 0 25px 25px 25px;
-} */
 
 /* ANTERIORES */
 .anteriores {
@@ -2866,11 +2859,7 @@ th {
   .item-esp1 {
     font-size: 18px;
   } */
-  /* 52FOOTER */
-  .duarte-firma {
-    width: 225px;
-    font-size: 11px;
-  }
+
   /* 52NOTAS */
     .anteriores-bx a {
     font-size: 17px;
@@ -3199,7 +3188,6 @@ th {
     flex-direction: column;
   }
   .duarte-firma {
-    width: 200px;
     font-size: 10px;
   }
   /* 36FRASE */

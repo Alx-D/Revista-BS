@@ -1,72 +1,5 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-ol, ul {
-  list-style: none;
-}
-a {
-  text-decoration: none;
-  color: black;
-}
-.f1 {
-  font-family: "Nunito Sans", sans-serif;
-}
-.f2 {
-  font-family: "Oswald", sans-serif;
-}
-.f3 {
-  font-family: "Roboto Condensed", sans-serif;
-}
-.guion {
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-  word-wrap: break-word;
-}
-:root {
-  --naranja-claro: #ebb730;
-  --naranja-oscuro: #db813f;
-  --azul-claro: #0094d7;
-  --azul-oscuro: #344497;
-  --morado: #612f8c;
-  --verde: #6dab51;
-  --rojo-oscuro: #953829;
-  --rojo: #b3272d;
-  --verde-logo-1: #275c6d;
-  --gris-claro: #e6e6de;
-  --gris-medio: #bbbbae;
-  --gris-oscuro: #6d6d70;
-  --color260-1: #1c84b7;
-  --color260-2: #e37b48;
-}
-.rojoc {background: #c3242b;}
-.rojoo {background: #a1262a;}
-.verde {background: #6dab51;}
-.azulo {background: #344497;}
-.azulc {background: #0094d7;}
-.naranjao {background: #db813f;}
-.naranjac {background: #ebb730;}
-.morado {background: #612f8c;}
-.verde1 {background: #275c6d;}
-.grisc {background: #e6e6de}
-.grism {background: #bbbbae}
-.griso {background: #6d6d70}
-.lbco{color: white;}
-
-.contenedor {
-  width: 100vw;
-  max-width: 1100px;
-}
-.m-0a {
-  margin: 0 auto;
-}
-
-.portada-secc-esp {
+/* REVISAR EN QUE PAG APLICA ESTE CSS? */
+/* .portada-secc-esp {
   background-color: var(--color260-1);
   position: relative;
 }
@@ -274,23 +207,23 @@ a {
   }
   .intro-secc-esp {
     padding: 20px 25px 0px;  }
-}
+} */
 
-/* HEADER */
-header{
+/* 1HDR ESP 260 */
+#hdresp260{
   margin: 0 auto;
 }
-.header-mobile-cont{
+#hdresp260 .header-mobile-cont{
   display: none;
 }
-.header-desktop-cont{
+#hdresp260 .header-desktop-cont{
   display: flex;
   padding: 20px 30px 0px;
   justify-content: space-between;
   align-items: center;
   background: #e3dfdd;
 }
-.header-col-1 {
+#hdresp260 .header-col-1 {
   width: 15%;
   margin-right: 3%;
 }
@@ -649,11 +582,11 @@ footer{
   background: var(--verde-logo-1)
 }
 .footer-mision {
-  font-size: 19px;
-  line-height: 2.4;
-  font-weight: 700;
+  font-size: 16px;
+  line-height: 2.2;
+  font-weight: 600;
   text-align: center;
-  letter-spacing: 1px;
+  letter-spacing: 2px;
   color: #fff;
 }
 .footer-row-2 {

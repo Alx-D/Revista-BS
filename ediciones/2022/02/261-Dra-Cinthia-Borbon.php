@@ -3,7 +3,7 @@
 <body>
   <?php include('includes/header-e261.php') ?>
 
-  <article class="contenedor">
+  <article id="espNota" class="contenedor">
     <div class="f1 migas">
       <a href="/index.php">Revista BS</a>
       &nbsp;
@@ -22,13 +22,13 @@
     <div class="nombre-bx">
       <img class="diente-icon" src="/ediciones/2022/02/imgs/261-diente.svg" alt="">
       <h3 class="f1 nombre">Dra. Cinthia Lorena <br class="brvd680">Borbón Esquer</h3>
-      <img class="dr-foto-bx-vd420" src="/ediciones/2022/02/imgs/261-Dra-Cinthia-Borbon-2.jpg" alt="">
+      <img class="esp-drFoto-vd420" src="/ediciones/2022/02/imgs/261-Dra-Cinthia-Borbon-2.jpg" alt="">
     </div>
 
-    <div class="txt-esp-bx">
+    <div class="txt-bx">
       <div class="col-60">
         <h1 class="f2">Prioridad en cualquier edad</h1>
-        <p class="f1 sumario-esp">Más allá de una cuestión de estética, para Cinthia Lorena Borbón Esquer la ortodoncia es materia de prevención y salud bucodental, conozca la opinión de la experta</p>
+        <p class="f1 sumario">Más allá de una cuestión de estética, para Cinthia Lorena Borbón Esquer la ortodoncia es materia de prevención y salud bucodental, conozca la opinión de la experta</p>
 
         <div class="compartir-bx">
           <i class="fa fa-share"></i>
@@ -45,12 +45,12 @@
           </p>
         </div>
 
-        <div class="dr-foto-bx-vd680">
+        <div class="esp-drFoto-vd680">
           <img src="/ediciones/2022/02/imgs/261-Dra-Cinthia-Borbon-2.jpg" alt="">
         </div>
 
-        <div class="txt-esp">
-          <div class="dr-foto-bx-vd840">
+        <div class="texto">
+          <div class="esp-drFoto-vd840">
             <img src="/ediciones/2022/02/imgs/261-Dra-Cinthia-Borbon-1.jpg" alt="">
           </div>
 
@@ -60,7 +60,7 @@
           <p>“La valoración temprana en niños es importante para una atención oportuna de afecciones tanto dentales como óseas”, explicó, “la ortodoncia preventiva e interceptiva nos ayudan a evitar problemas futuros que pueden ser más complicados de corregir en etapas de desarrollo más avanzadas”.</p>
           <p>Borbón Esquer comentó que incluso desde los “dientes de leche” los profesionales pueden detectar problemas de mordida y de espacio, de ahí que la revisión temprana sea la recomendación. “Lo ideal es una valoración antes del recambio dental, que comienza a los 6 años, y si no se encuentra algún problema, la revisión está indicada cada año para ir descartando afecciones en cada etapa del crecimiento y desarrollo”, indicó.</p>
 
-          <p class="descanso-esp">Ortodoncia ahora</p>
+          <p class="descanso">Ortodoncia ahora</p>
           <p>Resultados precisos y en menor tiempo es en el presente la meta de la ortodoncia, la entrevistada habló de los avances tecnológicos que marcan la tendencia en esta rama odontológica.</p>
           <p>
             “Los pacientes de hoy buscan tratamientos estéticos ya no tan largos, por lo que adaptándonos a esas necesidades tenemos la opción de uno de los tratamientos más estéticos, cómodos y predecibles que son los alineadores invisibles (Invisalign), y si lo combinamos con alguna técnica de ortodoncia acelerada como láser terapéutico, que es una práctica novedosa en nuestra área, nos da excelentes resultados”, describió.
@@ -71,18 +71,18 @@
       </div>
 
       <aside class="col-40">
-        <div class="dr-foto-bx">
+        <div class="esp-drFoto">
           <img src="/ediciones/2022/02/imgs/261-Dra-Cinthia-Borbon-1.jpg" alt="">
         </div>
 
         <div class="col-40-row-2">
-          <div class="formacion-bx">
+          <div class="espFrmBx">
             <img class="uni-logo" src="/imgs/Universidad-Autonoma-Nayarit.png" alt="">
-            <p class="f1 frc">Formación</p>
-            <p class="f1 frt">Con once años de experiencia, Cinthia Lorena Borbón Esquer es cirujano dentista y ortodoncista por la Universidad Autónoma de Nayarit. Está certificada por el sistema Invisalign y por el sistema digital Insignia. Es miembro de la Asociación Mexicana de Ortodoncia y del Colegio de Ortodoncistas, A.C. (AMO).</p>
+            <p class="f1 frm-cbz">Formación</p>
+            <p class="f1 frm-txt">Con once años de experiencia, Cinthia Lorena Borbón Esquer es cirujano dentista y ortodoncista por la Universidad Autónoma de Nayarit. Está certificada por el sistema Invisalign y por el sistema digital Insignia. Es miembro de la Asociación Mexicana de Ortodoncia y del Colegio de Ortodoncistas, A.C. (AMO).</p>
           </div>
 
-          <div class="ctc-bx">
+          <div id="espCtcBx">
             <div class="ctc-foto">
               <img src="/ediciones/2022/02/imgs/261-Dra-Cinthia-Borbon-3.jpg" alt="">
             </div>
@@ -96,7 +96,7 @@
 
   <div class="clear"></div>
 
-  <?php include('includes/footer-e261.php') ?>
+  <?php include('../../../includes/footer.php') ?>
 
   <script src="../../../scripts/menu-mob.js"></script>
 </body>
