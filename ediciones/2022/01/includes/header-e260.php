@@ -1,5 +1,5 @@
-<header id="hdresp260" class="contenedor">
-    <div class="header-mobile-cont">
+<header id="espHdr" class="contenedor">
+    <div class="mobile-cont">
       <div class="header-mobile-row">
         <i class="fas fa-bars" onclick="showMenu()"></i>
 
@@ -36,16 +36,16 @@
       </nav>
     </div>
 
-    <div class="header-desktop-cont">
+    <div class="desktop-cont">
       <div class="header-col-1" style="position: relative;">
-        <div class="revista-bs-logo-bx">
+        <div class="desktop-logo-bx">
           <a href="/index.php">
             <img src="/imgs/Revista-BS-logo-header.png" alt="Revista BS">
           </a>
         </div>
       </div>
       <div class="header-col-2">
-        <p class="f2 indicador">SECCIÓN ESPECIAL</p>
+        <p class="f2 desktop-indicador">SECCIÓN ESPECIAL</p>
         <h1 class="f2">Acuda con los expertos</h1>
         <h3 class="f1">Conozca y consulte a los especialistas</h3>
       </div>

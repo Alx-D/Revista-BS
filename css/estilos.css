@@ -96,10 +96,6 @@ ul li:last-child{
 }
 
 /* HEADER */
-header {
-  margin: 0 auto;
-  margin-top: 30px;
-}
 .fa-search {
   display: none;
   visibility: hidden;
@@ -1385,6 +1381,10 @@ header {
 .texto>p span {
   font-size: 20px;
   font-weight: 700;
+}
+.texto-preg{
+  font-weight: 500;
+  margin-top: 20px;
 }
 .descanso {
   font-size: 23px;

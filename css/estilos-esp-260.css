@@ -1,3 +1,7 @@
+:root{
+  --color260-1: #1c84b7;
+  --color260-2: #e37b48;
+}
 /* REVISAR EN QUE PAG APLICA ESTE CSS? */
 /* .portada-secc-esp {
   background-color: var(--color260-1);
@@ -209,251 +213,183 @@
     padding: 20px 25px 0px;  }
 } */
 
-/* 1HDR ESP 260 */
-#hdresp260{
+/* ENTREVISTA */
+/* HEADER */
+#espHdr{
   margin: 0 auto;
 }
-#hdresp260 .header-mobile-cont{
+#espHdr .mobile-cont{
   display: none;
 }
-#hdresp260 .header-desktop-cont{
+#espHdr .desktop-cont{
   display: flex;
   padding: 20px 30px 0px;
   justify-content: space-between;
   align-items: center;
   background: #e3dfdd;
 }
-#hdresp260 .header-col-1 {
+#espHdr .header-col-1 {
   width: 15%;
   margin-right: 3%;
 }
-.revista-bs-logo-bx {
+.desktop-logo-bx {
   width: 100%;
 }
-.revista-bs-logo-bx img {
+.desktop-logo-bx img {
   width: 100%;
 }
-.header-col-2{
+#espHdr .header-col-2{
   width: 65%;
 }
-.indicador {
+#espHdr .desktop-indicador {
   font-size: 20px;
   font-weight: 400;
   color: #555;
 }
-.header-col-2 h1{
+#espHdr .header-col-2 h1{
   font-size: 55px;
   line-height: 1.2;
   font-weight: 400;
-  color: #1c84b7;
+  color: var(--color260-1);
   text-transform: uppercase;
 }
-.header-col-2 h3{
-  font-size: 25px;
+#espHdr .header-col-2 h3{
+  font-size: 28px;
   font-weight: 400;
   line-height: 1;
-  color: #e37b48;
+  color: var(--color260-2);
 }
-.header-col-3{
+#espHdr .header-col-3{
   width: 16%;
   margin-right: 15px;
   background: #e37b48;
 }
-.header-col-3 img{
+#espHdr .header-col-3 img{
   width: 100%;
 }
-.remate-esp{
-  font-size: 14px;
-  color: #dbdbd2;
-}
-/* NOTA */
-article{
+
+/*ENTREVISTA*/
+#espNota{
   margin: 0 auto;
   padding: 30px 30px 80px;
   background: #f6f6f4;
 }
-.dr-foto-bx-vd420{
+#espNota .esp-drFoto-vd420{
   display: none;
 }
-.migas {
+#espNota .migas {
   font-size: 15px;
   margin-bottom: 20px;
 }
-.migas  .fa-angle-right{
+#espNota .migas  .fa-angle-right{
   font-size: 15px;
   margin-right: unset;
 }
-.fa-circle-arrow-right{
+#espNota .fa-circle-arrow-right{
   float: right;
   font-size: 35px;
   color: #ff6b5b;
 }
-.fa-circle-arrow-right:hover{
+#espNota .fa-circle-arrow-right:hover{
   color: #ff4d3c;
 }
-.nombre-bx{
+#espNota .nombre-bx{
   margin-bottom: 20px;
 }
-.indg{
+#espNota .indg{
   width: 15px;
   height: 20px;
   display: inline-block;
-  background: #1c84b7;
+  background: var(--color260-1);
   margin-right: 15px;
   align-self: center;
 }
-.nombre{
+#espNota .nombre{
   font-size: 27px;
   line-height: 1.1;
   font-weight: 700;
   text-transform: uppercase;
   display: inline;
-  color: #e37b48;
+  color: var(--color260-2);
 }
-.brvd680{
+#espNota .brvd680{
   display: none;
 }
-article h1{
+#espNota h1{
   font-size: 60px;
   line-height: 1.2;
   font-weight: 400;
   text-transform: uppercase;
   margin-bottom: 10px;
+  color: #444;
 }
-.sumario-esp{
+#espNota .sumario{
   font-size: 24px;
   line-height: 1.5;
   font-weight: 400;
   margin-bottom: 30px;
 }
-.dr-foto-bx-vd840{
+#espNota .dr-foto-bx-vd840{
   display: none;
 }
-.dr-foto-bx-vd680{
+#espNota .dr-foto-bx-vd680{
   display: none;
-}
- /* COMPARTIR */
-.compartir-bx {
-  height: 30px;
-  display: flex;
-  align-items: center;
-  margin-bottom: 30px;
-}
-.fa-share {
-  font-size: 18px;
-  margin-right: 5px;
-  color: #9999a1;
-}
-.compartir {
-  font-size: 16px;
-  margin-right: 15px;
-  color: #66666e;
-}
-.whatsapp-compartir {
-  font-size: 25px;
-  color: #25d366;
-  text-decoration: none;
-  padding: 5px;
-  margin-right: 10px;
-}
-.facebook-compartir {
-  font-size: 25px;
-  color: #1677f2;
-  text-decoration: none;
-  padding: 5px;
-  margin-right: 10px;
-}
-.envelope-compartir {
-  font-size: 23px;
-  color: #676869;
-  text-decoration: none;
-  padding: 5px;
-  margin-right: 10px;
-}
-.link-compartir {
-  font-size: 20px;
-  color: #676869;
-  text-decoration: none;
-  padding: 5px;
-  margin-right: 10px;
-}
-
-/* CREDITO */
-.credito-rd-bx {
-  width: 100%;
-  margin-bottom: 20px;
-}
-.credito-autor {
-  font-size: 15px;
-  line-height: 1.3;
-}
-.credito-autor strong {
-  color: var(--verde-logo-1);
-}
-.credito-autor i {
-  font-size: 13px;
 }
 
 /* TEXTO */
-.txt-esp-bx{
+#espNota .txt-bx{
   display: flex;
   justify-content: space-between;
 }
-.col-60{
+#espNota .col-60{
   width: 58%;
 }
-.txt-esp{
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 20px;
+.texto{
   font-weight: 300;
-  line-height: 1.6;
 }
-.txt-esp p {
+.texto>p {
   margin-bottom: 7px;
 }
-.txt-esp p span {
+.texto>p span {
   font-size: 20px;
   font-weight: 700;
 }
-.descanso-esp {
-  font-size: 23px;
-  line-height: 1.2;
-  font-weight: 700;
-  color: #e37b48;
-  margin-top: 40px;
+.descanso {
+  color: var(--color260-2);
 }
-.txt-esp-preg{
-  font-weight: 500;
-  margin-top: 20px;
+.remate-esp{
+  font-size: 14px;
+  color: #dbdbd2;
 }
 
 /* ASIDE */
-.col-40{
+#espNota .col-40{
   width: 38%;
   float: right;
   right: 0;
   position: relative;
 }
-.dr-foto-bx{
+#espNota .esp-drFoto{
   width: 100%;
   height: fit-content;
   margin-bottom: auto;
-  background: #e37b48;
+  background: var(--color260-2);
   overflow: hidden;
 }
-.dr-foto-bx img{
+#espNota .esp-drFoto img{
   width: 100%;
 }
-.col-40-row-2{
+#espNota .col-40-row-2{
   position: absolute;
   bottom: 0;
 }
-.formacion-bx{
+/* FORMACION */
+#espNota .espFrmBx{
   width: 100%;
   background: #e37b48;
   padding: 25px;
 }
-.frc{
+.espFrmBx .frm-cbz{
   font-size: 27px;
   font-weight: 800;
   color: white;
@@ -462,19 +398,19 @@ article h1{
   margin-bottom: 10px;
   display: inline;
 }
-.uni-logo{
+.espFrmBx .uni-logo{
   width: 65px;
   float: left;
   margin-right: 15px;
   margin-bottom: 10px;
 }
-.frt{
+.espFrmBx .frm-txt{
   font-size: 17px;
   line-height: 1.4;
   color: white;
 }
 /* CONTACTO-AUTOR */
-.ctc-bx{
+#espCtcBx{
   width: 100%;
   padding: 25px;
   background: #1c84b7;
@@ -482,16 +418,16 @@ article h1{
   font-family: "Nunito Sans", sans-serif;
   color: white;
 }
-.ctc-bx a{
+#espCtcBx a{
   color: white;
 }
-.ctc-conozca{
+#espCtcBx .ctc-conozca{
   font-size: 27px;
   font-weight: 800;
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-.ctc-nombre {
+#espCtcBx .ctc-nombre {
   font-size: 23px;
   line-height: 1.2;
   font-weight: 600;
@@ -499,42 +435,44 @@ article h1{
   margin-bottom: 5px;
   text-transform: unset;
 }
-.ctc-especialidad {
+#espCtcBx .ctc-especialidad {
   font-size: 20px;
   line-height: 1.1;
   font-weight: 500;
   margin-bottom: 5px;
 }
-.ctc-certificaciones {
+#espCtcBx .ctc-certificaciones {
   font-size: 15px;
   font-weight: 400;
   line-height: 1.4;
   margin-bottom: 10px;
 }
-.ctc-cedulas {
+#espCtcBx .ctc-cedulas {
   font-size: 14px;
   font-weight: 300;
   line-height: 1.2;
   margin-bottom: 5px;
 }
-.ctc-empresa {
+#espCtcBx .ctc-empresa {
   font-size: 21px;
   line-height: 1.2;
   font-weight: 500;
   margin-bottom: 5px;
 }
-.ctc-bx .fas, .ctc-tel {
+#espCtcBx>.fas,
+#espCtcBx .ctc-tel {
   display: inline-block;
 }
-.ctc-dom, .ctc-tel {
+#espCtcBx .ctc-dom,
+#espCtcBx .ctc-tel {
   font-size: 16.5px;
   font-weight: 300;
   line-height: 1.2;
 }
-.ctc-dom {
+#espCtcBx .ctc-dom {
   margin-bottom: 3px;
 }
-.ctc-correo {
+#espCtcBx .ctc-correo {
   font-size: 16.5px;
   line-height: 1;
   font-weight: 200;
@@ -542,12 +480,12 @@ article h1{
   word-break: break-all;
   margin-bottom: 8px;
 }
-.ctc-click {
+#espCtcBx .ctc-click {
   font-size: 18px;
   line-height: 1.1;
   margin: 10px 0 5px;
 }
-.ctc-redes {
+#espCtcBx .ctc-redes {
   font-size: 17.5px;
   line-height: 1;
   font-weight: 200;
@@ -555,19 +493,19 @@ article h1{
   word-break: break-all;
   margin-top: 4px;
 }
-.redes-icon {
+#espCtcBx .redes-icon {
   font-size: 30px;
   margin-right: 25px;
 }
 .hv-trns-5:hover {
   transform: translateY(-5%);
 }
-.ctc-foto{
+#espCtcBx .ctc-foto{
   width: 30%;
   float: right;
   margin-left: 10px;
 }
-.ctc-foto img{
+#espCtcBx .ctc-foto img{
   width: 100%;
 }
 .clear {
@@ -575,147 +513,20 @@ article h1{
 }
 
 /* FOOTER */
-footer{
+.footer-row-1,
+.footer-row-2{
+  width: 100vw;
+  max-width: 1100px;
   margin: 0 auto;
-}
-.footer-row-1 {
-  background: var(--verde-logo-1)
-}
-.footer-mision {
-  font-size: 16px;
-  line-height: 2.2;
-  font-weight: 600;
-  text-align: center;
-  letter-spacing: 2px;
-  color: #fff;
-}
-.footer-row-2 {
-  height: auto;
-  background: #e8e5e0;
 }
 .footer-cont {
   padding: 20px 30px 0;
-  display: flex;
-}
-.footer-col-2 {
-  width: 35%;
-  margin: 0 30px 0 70px;
-}
-.footer-BSlogo-bx {
-  width: 150px;
-}
-.footer-BSlogo-bx img {
-  width: 100%;
-}
-.anunciese, .footer-tel {
-  font-size: 19px;
-  margin-bottom: 5px;
-}
-.footer-icon {
-  font-size: 16px;
-  color: #696969;
-}
-.footer-email {
-  font-size: 18px;
-  text-decoration: underline;
-  display: inline-block;
-  margin-bottom: 10px;
-  white-space: nowrap;
-}
-.footer-direccion {
-  font-size: 15px;
-  line-height: 1.3;
-}
-.footer-col-3 {
-  width: 40%;
-}
-.footer-col-3 p {
-  font-size: 15px;
-  line-height: 1.3;
-  margin-bottom: 7px;
-}
-.footer-col-3 a {
-  font-size: 13px;
-  text-decoration: underline;
-  display: inline-block;
-  margin-right: 5px;
-}
-.btn-siganos {
-  width: 170px;
-  height: 70px;
-  border: 3px solid #eee;
-  border-radius: 6px;
-  background: #1778f2;
-  margin-top: 20px;
-  margin-left: 50px;
-  text-align: center;
-  padding-top: 6px;
-  box-shadow: 5px 6px 10px 0px #c2c2c2;
-}
-.btn-siganos p {
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 18px;
-  color: #fff;
-}
-.btn-siganos:hover {
-  background-color: #2d69bd;
-}
-.btn-siganos:active {
-  position: relative;
-  top: 1px;
-}
-.btn-siganos-pr {
-  display: none;
-  width: 150px;
-  height: 70px;
-  border: 3px solid #eee;
-  border-radius: 6px;
-  background: #1778f2;
-  margin-top: 20px;
-  margin-left: 50px;
-  text-align: center;
-  padding-top: 6px;
-  box-shadow: 5px 6px 10px 0px #c2c2c2;
-}
-.btn-siganos-pr p {
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 18px;
-  color: #fff;
-}
-.btn-siganos-pr:hover {
-  background-color: #2d69bd;
-}
-.btn-siganos-pr:active {
-  position: relative;
-  top: 1px;
-}
-.duarte-firma {
-  width: 265px;
-  margin: 50px auto 0;
-  font-family: sans-serif;
-  font-size: 12.5px;
-  line-height: 1.9;
-  color: #fff;
-  text-align: center;
-  background: #28539c;
-  border-radius: 8px;
-}
-.duarte-firma a {
-  color: #fff;
 }
 
+
+/* REVISAR A PARTIR DE AQUI */
+/* SE VE CONTENEDOR CON MENOS WIDTH DEBAJO DE 1024 */
 /*----- MEDIAS ------*/
-@media screen and (max-width: 1024px) {
-  /* HEADER */
-
-  /* FOOTER */
-  .footer-col-2 {
-    margin: 0 25px 0 40px;
-  }
-  .btn-siganos {
-    margin-left: 35px;
-  }
-}
 @media screen and (max-width: 1000px) {
   /* ASIDE */
   .ctc-foto{
@@ -836,7 +647,7 @@ footer{
     width: 100%;
     overflow: auto;
   }
-  .dr-foto-bx{
+  .esp-drFoto{
     display: none;
   }
   .col-40-row-2{
@@ -848,7 +659,7 @@ footer{
     margin-top: 0;
     float: left;
   }
-  .ctc-bx{
+  .#espCtcBx{
     width: 48%;
     float: right;
     position: initial;
@@ -953,10 +764,10 @@ footer{
 }
 @media screen and (max-width: 680px){
   /* HEADER */
-  .header-desktop-cont{
+  #espHdr .desktop-cont{
     display: none;
   }
-  .header-mobile-cont{
+  #espHdr .mobile-cont{
     display: block;
     background: #e3dfdd;
     padding-top: 25px;
@@ -1079,7 +890,7 @@ footer{
     margin-bottom: 25px;
     float: none;
   }
-  .ctc-bx{
+  .#espCtcBx{
     width: 100%;
     float: none;
   }
@@ -1206,7 +1017,7 @@ footer{
 }
 @media screen and (max-width: 420px){
   /* 42HEADER */
-  .header-mobile-cont{
+  #espHdr .mobile-cont{
     padding-top: 20px;
   }
   .header-mobile-row {
@@ -1247,13 +1058,13 @@ footer{
     align-self: center;
     line-height: 1.2;
   }
-  .dr-foto-bx-vd420{
+  #espNota .esp-drFoto-vd420{
     display: block;
     width: 45%;
     float: right;
     margin-left: 10px;
   }
-  .dr-foto-bx-vd420 img{
+  #espNota .esp-drFoto-vd420 img{
     width: 100%;
     display: block;
   }

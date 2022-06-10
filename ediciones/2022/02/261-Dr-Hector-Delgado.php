@@ -3,7 +3,7 @@
 <body>
   <?php include('includes/header-e261.php') ?>
 
-  <article class="contenedor">
+  <article id="espNota" class="contenedor">
     <div class="f1 migas">
       <a href="/index.php">Revista BS</a>
       &nbsp;
@@ -22,13 +22,13 @@
     <div class="nombre-bx">
       <img class="diente-icon" src="/ediciones/2022/02/imgs/261-diente.svg" alt="">
       <h3 class="f1 nombre">Dr. Héctor Delgado Contreras<br class="brvd680"></h3>
-      <img class="dr-foto-bx-vd420" src="/ediciones/2022/02/imgs/261-Dr-Hector-Delgado-2.jpg" alt="">
+      <img class="esp-drFoto-vd420" src="/ediciones/2022/02/imgs/261-Dr-Hector-Delgado-2.jpg" alt="">
     </div>
 
-    <div class="txt-esp-bx">
+    <div class="txt-bx">
       <div class="col-60">
         <h1 class="f2">Comodidad, estética y funcionalidad</h1>
-        <p class="f1 sumario-esp">Evitar movimiento de piezas dentales, interferencia en la masticación e, inclusive, problemas en la articulación temporomandibular es el objetivo los implantes dentales</p>
+        <p class="f1 sumario">Evitar movimiento de piezas dentales, interferencia en la masticación e, inclusive, problemas en la articulación temporomandibular es el objetivo los implantes dentales</p>
 
         <div class="compartir-bx">
           <i class="fa fa-share"></i>
@@ -45,12 +45,12 @@
           </p>
         </div>
 
-        <div class="dr-foto-bx-vd680">
+        <div class="esp-drFoto-vd680">
           <img src="/ediciones/2022/02/imgs/261-Dr-Hector-Delgado-2.jpg" alt="">
         </div>
 
-        <div class="txt-esp">
-          <div class="dr-foto-bx-vd840">
+        <div class="texto">
+          <div class="esp-drFoto-vd840">
             <img src="/ediciones/2022/02/imgs/261-Dr-Hector-Delgado-1.jpg" alt="">
           </div>
           <p>La boca, en tanto sistema, suele presentar desajustes en la medida que pierde alguna o algunas de sus piezas, es por ello que no debería tomarse a la ligera la falta de algún diente o muela en ningún momento de la vida.</p>
@@ -72,18 +72,18 @@
       </div>
 
       <aside class="col-40">
-        <div class="dr-foto-bx">
+        <div class="esp-drFoto">
           <img src="/ediciones/2022/02/imgs/261-Dr-Hector-Delgado-1.jpg" alt="">
         </div>
 
         <div class="col-40-row-2">
-          <div class="formacion-bx">
+          <div class="espFrmBx">
             <img class="uni-logo" src="/imgs/Universidad-Autonoma-Cd-Juarez.png" alt="">
-            <p class="f1 frc">Formación</p>
-            <p class="f1 frt">Con más de 30 años de experiencia, Héctor Delgado Contreras es cirujano dentista por la Universidad Autónoma de Ciudad Juárez. Realizó un diplomado en implantes dentales en la Universidad Autónoma de Baja California, así como un curso de estrategias quirúrgicas y protésicas avanzadas en MAP International Seminars, Florida, Estados Unidos, entre otros estudios. Está certificado por la Asociación Dental Mexicana y el Colegio de Dentistas de Hermosillo. Es miembro de la Asociación Dental Americana y de la Academia Latinoamericana de Impantología de Miami.</p>
+            <p class="f1 frm-cbz">Formación</p>
+            <p class="f1 frm-txt">Con más de 30 años de experiencia, Héctor Delgado Contreras es cirujano dentista por la Universidad Autónoma de Ciudad Juárez. Realizó un diplomado en implantes dentales en la Universidad Autónoma de Baja California, así como un curso de estrategias quirúrgicas y protésicas avanzadas en MAP International Seminars, Florida, Estados Unidos, entre otros estudios. Está certificado por la Asociación Dental Mexicana y el Colegio de Dentistas de Hermosillo. Es miembro de la Asociación Dental Americana y de la Academia Latinoamericana de Impantología de Miami.</p>
           </div>
 
-          <div class="ctc-bx">
+          <div id="espCtcBx">
             <div class="ctc-foto">
               <img src="/ediciones/2022/02/imgs/261-Dr-Hector-Delgado-3.jpg" alt="">
             </div>
@@ -97,7 +97,7 @@
 
   <div class="clear"></div>
 
-  <?php include('includes/footer-e261.php') ?>
+  <?php include('../../../includes/footer.php') ?>
 
   <script src="../../../scripts/menu-mob.js"></script>
 </body>

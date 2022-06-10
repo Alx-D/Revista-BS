@@ -3,7 +3,7 @@
 <body>
   <?php include('includes/header-e261.php') ?>
 
-  <article class="contenedor">
+  <article id="espNota" class="contenedor">
     <div class="f1 migas">
       <a href="/index.php">Revista BS</a>
       &nbsp;
@@ -22,13 +22,13 @@
     <div class="nombre-bx">
       <img class="diente-icon" src="/ediciones/2022/02/imgs/261-diente.svg" alt="">
       <h3 class="f1 nombre">Dra. Karla Berenice <br class="brvd680">López Almazán</h3>
-      <img class="dr-foto-bx-vd420" src="/ediciones/2022/02/imgs/261-Dra-Karla-Lopez-2.jpg" alt="">
+      <img class="esp-drFoto-vd420" src="/ediciones/2022/02/imgs/261-Dra-Karla-Lopez-2.jpg" alt="">
     </div>
 
-    <div class="txt-esp-bx">
+    <div class="txt-bx">
       <div class="col-60">
         <h1 class="f2">Al rescate de sus dientitos</h1>
-        <p class="f1 sumario-esp">Revista BS charló con la odontopediatra Karla Berenice López Almazán sobre los puntos clave de la salud bucal en los pacientes pediátricos, a continuación compartimos sus comentarios</p>
+        <p class="f1 sumario">Revista BS charló con la odontopediatra Karla Berenice López Almazán sobre los puntos clave de la salud bucal en los pacientes pediátricos, a continuación compartimos sus comentarios</p>
 
         <div class="compartir-bx">
           <i class="fa fa-share"></i>
@@ -45,12 +45,12 @@
           </p>
         </div>
 
-        <div class="dr-foto-bx-vd680">
+        <div class="esp-drFoto-vd680">
           <img src="/ediciones/2022/02/imgs/261-Dra-Karla-Lopez-2.jpg" alt="">
         </div>
 
-        <div class="txt-esp">
-          <div class="dr-foto-bx-vd840">
+        <div class="texto">
+          <div class="esp-drFoto-vd840">
             <img src="/ediciones/2022/02/imgs/261-Dra-Karla-Lopez-1.jpg" alt="">
           </div>
           <p class="txt-esp-preg" style="margin-bottom: 0;">¿Cuál es la importancia de la atención oportuna en odontopediatría?</p>
@@ -71,18 +71,18 @@
       </div>
 
       <aside class="col-40">
-        <div class="dr-foto-bx">
+        <div class="esp-drFoto">
           <img src="/ediciones/2022/02/imgs/261-Dra-Karla-Lopez-1.jpg" alt="">
         </div>
 
         <div class="col-40-row-2">
-          <div class="formacion-bx">
+          <div class="espFrmBx">
             <img class="uni-logo" src="/imgs/Universidad-Autonoma-Estado-Hidalgo.png" alt="">
-            <p class="f1 frc">Formación</p>
-            <p class="f1 frt">Con más de una década de experiencia, Karla Berenice López Almazán es cirujano dentista por la Universidad Autónoma del Estado de Hidalgo. Se especializó en odontopediatría en la Universidad Latinoamericana. Realizó diplomados en odontología del bebé y en ortopedia maxilar. Atiende bebés, niños y adolescentes. Está certificada por el Consejo Nacional de Odontología Infantil y es docente de pregrado en la Universidad de Sonora.</p>
+            <p class="f1 frm-cbz">Formación</p>
+            <p class="f1 frm-txt">Con más de una década de experiencia, Karla Berenice López Almazán es cirujano dentista por la Universidad Autónoma del Estado de Hidalgo. Se especializó en odontopediatría en la Universidad Latinoamericana. Realizó diplomados en odontología del bebé y en ortopedia maxilar. Atiende bebés, niños y adolescentes. Está certificada por el Consejo Nacional de Odontología Infantil y es docente de pregrado en la Universidad de Sonora.</p>
           </div>
 
-          <div class="ctc-bx">
+          <div id="espCtcBx">
             <div class="ctc-foto">
               <img src="/ediciones/2022/02/imgs/261-Dra-Karla-Lopez-3.jpg" alt="">
             </div>
@@ -96,7 +96,7 @@
 
   <div class="clear"></div>
 
-  <?php include('includes/footer-e261.php') ?>
+  <?php include('../../../includes/footer.php') ?>
 
   <script src="../../../scripts/menu-mob.js"></script>
 </body>

@@ -3,7 +3,7 @@
 <body>
   <?php include('includes/header-e260.php') ?>
 
-  <article class="contenedor">
+  <article id="espNota" class="contenedor">
     <div class="f1 migas">
       <a href="/index.php">Revista BS</a>
       &nbsp;
@@ -22,13 +22,13 @@
     <div class="nombre-bx">
       <div class="indg"></div>
       <h3 class="f1 nombre">Psic. Jeannette Patricia <br class="brvd680">Álvarez León</h3>
-      <img class="dr-foto-bx-vd420" src="/ediciones/2022/01/imgs/260-Psic-Patricia-Alvarez-2.jpg" alt="">
+      <img class="esp-drFoto-vd420" src="/ediciones/2022/01/imgs/260-Psic-Patricia-Alvarez-2.jpg" alt="">
     </div>
 
-    <div class="txt-esp-bx">
+    <div class="txt-bx">
       <div class="col-60">
         <h1 class="f2">Su tranquilidad importa</h1>
-        <p class="f1 sumario-esp">Entender la salud mental y emocional como una prioridad para poder arribar a un estado de plenitud fue la propuesta de la psicóloga Jeannette Patricia Álvarez León</p>
+        <p class="f1 sumario">Entender la salud mental y emocional como una prioridad para poder arribar a un estado de plenitud fue la propuesta de la psicóloga Jeannette Patricia Álvarez León</p>
 
         <div class="compartir-bx">
           <i class="fa fa-share"></i>
@@ -49,7 +49,7 @@
           <img src="/ediciones/2022/01/imgs/260-Psic-Patricia-Alvarez-2.jpg" alt="">
         </div>
 
-        <div class="txt-esp">
+        <div class="texto">
           <div class="dr-foto-bx-vd840">
             <img src="/ediciones/2022/01/imgs/260-Psic-Patricia-Alvarez-1.jpg" alt="">
           </div>
@@ -58,7 +58,7 @@
           <p>Casos como una pérdida significativa, como la muerte de un ser querido, o una enfermedad que implique la propia muerte fueron situaciones que la profesional señaló requieren del acompañamiento de un especialista para prevenir que deriven en duelos patológicos.</p>
           <p>“Un tanatólogo es un acompañante para el camino del duelo, así que su función es apoyar al doliente con las emociones, pensamientos y conflictos que surgen a partir de la pérdida de una persona”, señaló.</p>
 
-          <p class="descanso-esp">Derribar mitos</p>
+          <p class="descanso">Derribar mitos</p>
           <p>Ideas como que quien acude al psicólogo está loco o es débil, que la consulta psicológica es un lujo o que los especialistas en salud mental solucionan todo con fármacos son algunos de los prejuicios que Álvarez León intenta derribar desde su práctica.</p>
           <p>“Debemos tener en cuenta siempre que nuestra salud psicológica y emocional es una prioridad que debemos atender y no dejarla para después”, enfatizó. “Recordar que nuestro equilibrio psicológico impacta no sólo nuestra persona, sino todo nuestro entorno”.</p>
           <p>La entrevistada invitó a acercarse a un especialista en salud mental, sobre todo si está viviendo una situación como haber recibido diagnóstico de alguna enfermedad grave o crónica, usted mismo o un familiar; si está atravesando por algún duelo por pérdida; así como si tiene en casa problemas como alcoholismo de algún integrante de la familia que ocasionan disfuncionalidad y codependencia.</p>
@@ -67,18 +67,18 @@
       </div>
 
       <aside class="col-40">
-        <div class="dr-foto-bx">
+        <div class="esp-drFoto">
           <img src="/ediciones/2022/01/imgs/260-Psic-Patricia-Alvarez-1.jpg" alt="">
         </div>
 
         <div class="col-40-row-2">
-          <div class="formacion-bx">
+          <div class="espFrmBx">
             <img class="uni-logo" src="/imgs/Universidad-de-Sonora.png" alt="">
-            <p class="f1 frc">Formación</p>
-            <p class="f1 frt">Jeannette Patricia Álvarez León es licenciada en psicología en salud por la Universidad de Sonora, realizó una maestría en cuidados paliativos en la Universidad Kino y una más en tanatología en el Centro Universitario de Sonora. Tiene además un diplomado en adicciones a sustancias químicas y ha realizado talleres de suicidiología.</p>
+            <p class="f1 frm-cbz">Formación</p>
+            <p class="f1 frm-txt">Jeannette Patricia Álvarez León es licenciada en psicología en salud por la Universidad de Sonora, realizó una maestría en cuidados paliativos en la Universidad Kino y una más en tanatología en el Centro Universitario de Sonora. Tiene además un diplomado en adicciones a sustancias químicas y ha realizado talleres de suicidiología.</p>
           </div>
 
-          <div class="ctc-bx">
+          <div id="espCtcBx">
             <div class="ctc-foto">
               <img src="/ediciones/2022/01/imgs/260-Psic-Patricia-Alvarez-3.jpg" alt="">
             </div>
@@ -93,7 +93,7 @@
 
   <div class="clear"></div>
 
-  <?php include('includes/footer-e260.php') ?>
+  <?php include('../../../includes/footer.php') ?>
 
   <script src="../../../scripts/menu-mob.js"></script>
 </body>

@@ -3,7 +3,7 @@
 <body>
   <?php include('includes/header-e261.php') ?>
 
-  <article class="contenedor">
+  <article id="espNota" class="contenedor">
     <div class="f1 migas">
       <a href="/index.php">Revista BS</a>
       &nbsp;
@@ -22,13 +22,13 @@
     <div class="nombre-bx">
       <img class="diente-icon" src="/ediciones/2022/02/imgs/261-diente.svg" alt="">
       <h3 class="f1 nombre">Dra. Dayana <br class="brvd680">Durón Rivas</h3>
-      <img class="dr-foto-bx-vd420" src="/ediciones/2022/02/imgs/261-Dra-Dayana-Duron-2.jpg" alt="">
+      <img class="esp-drFoto-vd420" src="/ediciones/2022/02/imgs/261-Dra-Dayana-Duron-2.jpg" alt="">
     </div>
 
-    <div class="txt-esp-bx">
+    <div class="txt-bx">
       <div class="col-60">
         <h1 class="f2">Salud y belleza en equilibrio</h1>
-        <p class="f1 sumario-esp">Lograr una sonrisa bella y armoniosa es sólo una de las aplicaciones de la ortodoncia, la especialista Dayana Durón Rivas habló sobre este amplio campo de la odontología</p>
+        <p class="f1 sumario">Lograr una sonrisa bella y armoniosa es sólo una de las aplicaciones de la ortodoncia, la especialista Dayana Durón Rivas habló sobre este amplio campo de la odontología</p>
 
         <div class="compartir-bx">
           <i class="fa fa-share"></i>
@@ -45,12 +45,12 @@
           </p>
         </div>
 
-        <div class="dr-foto-bx-vd680">
+        <div class="esp-drFoto-vd680">
           <img src="/ediciones/2022/02/imgs/261-Dra-Dayana-Duron-2.jpg" alt="">
         </div>
 
-        <div class="txt-esp">
-          <div class="dr-foto-bx-vd840">
+        <div class="texto">
+          <div class="esp-drFoto-vd840">
             <img src="/ediciones/2022/02/imgs/261-Dra-Dayana-Duron-1.jpg" alt="">
           </div>
           <p>La posición incorrecta de los dientes o de la mordida puede tener consecuencias como desgaste de las piezas dentales, e inclusive otras aparentemente no relacionadas con la dentadura, como las migrañas, de ahí la importancia para los especialistas en ortodoncia de logar una alineación dentaria funcional y estética.</p>
@@ -58,7 +58,7 @@
           <p>La especialista en ortodoncia y ortopedia maxilofacial señaló que la infancia es la mejor etapa para guiar el crecimiento y corregir deformaciones, por ello es importante que los padres aprendan a identificar síntomas o condiciones que requieren atención desde ortodoncia: si el niño ronca, si la mandíbula se ve muy atrás o muy enfrente, si se chupa el dedo o si la posición de los dientes no es la ideal.</p>
           <p>“Mi consejo es que la primera visita al ortodoncista se realice antes de los 6 años de edad, para detectar posibles problemas de desarrollo dental antes de la erupción de los dientes permanentes, así como problemas de hábitos bucales y respiración bucal que nos pueden afectar durante el crecimiento”, destacó.</p>
 
-          <p class="descanso-esp">Su labor</p>
+          <p class="descanso">Su labor</p>
           <p>El campo de acción de la ortodoncia es amplio, comprende, además de la estética dental, tratamientos integrales para corregir todo tipo de maloclusiones, preparación para cirugía ortognática, atención a problemas en la articulación temporomandibular, pacientes con labio y paladar fisurado, entre otros.</p>
           <p>La ortodoncia con alineadores removibles es uno de los avances de su campo que destacó la especialista, pues además de ser una opción cómoda al usuario, permite resultados más predecibles debido a que la planeación se realiza digitalmente.</p>
           <p>Como recomendación, la profesional señaló que cuando se está en tratamiento de ortodoncia se deben reforzar los hábitos de higiene, el proceso de limpieza debe incluir, además del cepillado, el uso de hilo dental y enjuagues bucales.</p>
@@ -67,18 +67,18 @@
       </div>
 
       <aside class="col-40">
-        <div class="dr-foto-bx">
+        <div class="esp-drFoto">
           <img src="/ediciones/2022/02/imgs/261-Dra-Dayana-Duron-1.jpg" alt="">
         </div>
 
         <div class="col-40-row-2">
-          <div class="formacion-bx">
+          <div class="espFrmBx">
             <img class="uni-logo" src="/imgs/Universidad-Autonoma-Baja-California.png" alt="">
-            <p class="f1 frc">Formación</p>
-            <p class="f1 frt">Con 12 años de experiencia, Dayana Durón Rivas es cirujano dentista por la Universidad Autónoma de Baja California. Se especializó en ortodoncia y ortopedia maxilofacial en el Hospital Infantil de México “Federico Gómez”. Realizó un curso de ortopedia prequirúrgica en pacientes con labio y paladar fisurado. Es miembro certificado de la Asociación Mexicana de Ortodoncia, así como miembro activo del Colegio de Ortodoncia y Ortopedia Dentomaxilofacial de San Luis Río Colorado, Sonora.</p>
+            <p class="f1 frm-cbz">Formación</p>
+            <p class="f1 frm-txt">Con 12 años de experiencia, Dayana Durón Rivas es cirujano dentista por la Universidad Autónoma de Baja California. Se especializó en ortodoncia y ortopedia maxilofacial en el Hospital Infantil de México “Federico Gómez”. Realizó un curso de ortopedia prequirúrgica en pacientes con labio y paladar fisurado. Es miembro certificado de la Asociación Mexicana de Ortodoncia, así como miembro activo del Colegio de Ortodoncia y Ortopedia Dentomaxilofacial de San Luis Río Colorado, Sonora.</p>
           </div>
 
-          <div class="ctc-bx">
+          <div id="espCtcBx">
             <div class="ctc-foto">
               <img src="/ediciones/2022/02/imgs/261-Dra-Dayana-Duron-3.jpg" alt="">
             </div>
@@ -92,7 +92,7 @@
 
   <div class="clear"></div>
 
-  <?php include('includes/footer-e261.php') ?>
+  <?php include('../../../includes/footer.php') ?>
 
   <script src="../../../scripts/menu-mob.js"></script>
 </body>

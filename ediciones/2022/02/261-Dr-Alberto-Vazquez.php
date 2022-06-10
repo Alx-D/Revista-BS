@@ -3,7 +3,7 @@
 <body>
   <?php include('includes/header-e261.php') ?>
 
-  <article class="contenedor">
+  <article id="espNota" class="contenedor">
     <div class="f1 migas">
       <a href="/index.php">Revista BS</a>
       &nbsp;
@@ -22,13 +22,13 @@
     <div class="nombre-bx">
       <img class="diente-icon" src="/ediciones/2022/02/imgs/261-diente.svg" alt="">
       <h3 class="f1 nombre">Dr. Alberto <br class="brvd680"> Vázquez Zavala</h3>
-      <img class="dr-foto-bx-vd420" src="/ediciones/2022/02/imgs/261-Dr-Alberto-Vazquez-2.jpg" alt="">
+      <img class="esp-drFoto-vd420" src="/ediciones/2022/02/imgs/261-Dr-Alberto-Vazquez-2.jpg" alt="">
     </div>
 
-    <div class="txt-esp-bx">
+    <div class="txt-bx">
       <div class="col-60">
         <h1 class="f2">La revolución en el consultorio</h1>
-        <p class="f1 sumario-esp">Acortar los procesos y poder visualizar el resultado final antes inclusive de iniciar
+        <p class="f1 sumario">Acortar los procesos y poder visualizar el resultado final antes inclusive de iniciar
           un tratamiento son sólo algunas de las ventajas de la odontología digital, conozca la perspectiva del doctor
           Alberto Vázquez Zavala</p>
 
@@ -47,12 +47,12 @@
           </p>
         </div>
 
-        <div class="dr-foto-bx-vd680">
+        <div class="esp-drFoto-vd680">
           <img src="/ediciones/2022/02/imgs/261-Dr-Alberto-Vazquez-2.jpg" alt="">
         </div>
 
-        <div class="txt-esp">
-          <div class="dr-foto-bx-vd840">
+        <div class="texto">
+          <div class="esp-drFoto-vd840">
             <img src="/ediciones/2022/02/imgs/261-Dr-Alberto-Vazquez-1.jpg" alt="">
           </div>
 
@@ -78,7 +78,7 @@
             cómoda, agradable y predecible, pues podemos observar los resultados finales antes de comenzar. Es una de
             sus tantas ventajas”, subrayó.</p>
 
-          <p class="descanso-esp">Importancia de restaurar</p>
+          <p class="descanso">Importancia de restaurar</p>
           <p>Entendiendo la boca como un sistema, es de suma importancia restaurar piezas dentales faltantes o dañadas y
             así evitar sus complicaciones como que los dientes vecinos se inclinen o se separen, desgaste prematuro en
             otras piezas dentales, entre otros problemas.</p>
@@ -91,19 +91,19 @@
       </div>
 
       <aside class="col-40">
-        <div class="dr-foto-bx">
+        <div class="esp-drFoto">
           <img src="/ediciones/2022/02/imgs/261-Dr-Alberto-Vazquez-1.jpg" alt="">
         </div>
 
         <div class="col-40-row-2">
-          <div class="formacion-bx">
+          <div class="espFrmBx">
             <img class="uni-logo" src="/imgs/Universidad-Autonoma-Guadalajara-asu.png" alt="">
-            <p class="f1 frc">Formación</p>
-            <p class="f1 frt">Especialista en rehabilitación oral e implantología, el doctor Alberto Vázquez Zavala es egresado de Arizona State University y la Universidad Autónoma de Guadalajara. Funge como catedrático en la Universidad de Sonora. Es miembro del Consejo Mexicano de Rehabilitación y del Colegio de Dentistas de Hermosillo A.C.
+            <p class="f1 frm-cbz">Formación</p>
+            <p class="f1 frm-txt">Especialista en rehabilitación oral e implantología, el doctor Alberto Vázquez Zavala es egresado de Arizona State University y la Universidad Autónoma de Guadalajara. Funge como catedrático en la Universidad de Sonora. Es miembro del Consejo Mexicano de Rehabilitación y del Colegio de Dentistas de Hermosillo A.C.
             </p>
           </div>
 
-          <div class="ctc-bx">
+          <div id="espCtcBx">
             <div class="ctc-foto">
               <img src="/ediciones/2022/02/imgs/261-Dr-Alberto-Vazquez-3.jpg" alt="">
             </div>
@@ -117,7 +117,7 @@
 
   <div class="clear"></div>
 
-  <?php include('includes/footer-e261.php') ?>
+  <?php include('../../../includes/footer.php') ?>
 
   <script src="../../../scripts/menu-mob.js"></script>
 </body>

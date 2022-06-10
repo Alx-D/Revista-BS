@@ -3,7 +3,7 @@
 <body>
   <?php include('includes/header-e261.php') ?>
 
-  <article class="contenedor">
+  <article id="espNota" class="contenedor">
     <div class="f1 migas">
       <a href="/index.php">Revista BS</a>
       &nbsp;
@@ -22,13 +22,13 @@
     <div class="nombre-bx">
       <img class="diente-icon" src="/ediciones/2022/02/imgs/261-diente.svg" alt="">
       <h3 class="f1 nombre">Dr. Germán Ríos Barceló <br class="brvd680"></h3>
-      <img class="dr-foto-bx-vd420" src="/ediciones/2022/02/imgs/261-Dr-German-Rios-2.jpg" alt="">
+      <img class="esp-drFoto-vd420" src="/ediciones/2022/02/imgs/261-Dr-German-Rios-2.jpg" alt="">
     </div>
 
-    <div class="txt-esp-bx">
+    <div class="txt-bx">
       <div class="col-60">
         <h1 class="f2">Conocimiento, su legado</h1>
-        <p class="f1 sumario-esp">Bajo la visión de contribuir a la formación integral de odontólogos, Germán Ríos Barceló fundó en 2012 Universidad ION, a diez años habló con Revista BS sobre el camino recorrido</p>
+        <p class="f1 sumario">Bajo la visión de contribuir a la formación integral de odontólogos, Germán Ríos Barceló fundó en 2012 Universidad ION, a diez años habló con Revista BS sobre el camino recorrido</p>
 
         <div class="compartir-bx">
           <i class="fa fa-share"></i>
@@ -45,12 +45,12 @@
           </p>
         </div>
 
-        <div class="dr-foto-bx-vd680">
+        <div class="esp-drFoto-vd680">
           <img src="/ediciones/2022/02/imgs/261-Dr-German-Rios-2.jpg" alt="">
         </div>
 
-        <div class="txt-esp">
-          <div class="dr-foto-bx-vd840">
+        <div class="texto">
+          <div class="esp-drFoto-vd840">
             <img src="/ediciones/2022/02/imgs/261-Dr-German-Rios-1.jpg" alt="">
           </div>
 
@@ -59,7 +59,7 @@
           <p>El rector de Universidad ION contó que, en la actualidad, la institución cuenta con la licenciatura en odontología, y además con maestrías en endodoncia, ortodoncia y odontopediatría, posicionándose como la única entidad educativa del estado de Sonora que cuenta con tres posgrados del área de la salud bucal.</p>
           <p>“Ha sido un gran reto y a la vez una gran satisfacción ver cómo nuestra institución se ha convertido en una de las más reconocidas por su excelencia académica. También ha sido muy gratificante ver cómo nuestros egresados han ingresado a diferentes posgrados, siendo seleccionados por su muy buena preparación entre un número considerable de aspirantes”, señaló el también coordinador de la maestría en ortodoncia.</p>
 
-          <p class="descanso-esp">Compromiso de servir</p>
+          <p class="descanso">Compromiso de servir</p>
           <p> Una gran dedicación al estudio, ética, valores y un implacable espíritu de servicio son las principales aptitudes que debería de tener todo profesional de la salud de acuerdo con Ríos Barceló.</p>
           <p>Por su parte, señaló, la universidad tiene el claro compromiso de ofrecer preparación de excelencia para los profesionales de la salud bucal en ciernes.</p>
           <p>Así también, la institución reafirma su compromiso con la comunidad con el trabajo de su clínica adjunta, en la que estudiantes de licenciatura en odontología y especialistas realizan sus servicios supervisados por médicos profesionales. “Se ha brindado un sinnúmero de atenciones odontológicas generales y de especialidad a la comunidad en todos los niveles socioeconómicos”, apuntó.</p>
@@ -69,18 +69,18 @@
       </div>
 
       <aside class="col-40">
-        <div class="dr-foto-bx">
+        <div class="esp-drFoto">
           <img src="/ediciones/2022/02/imgs/261-Dr-German-Rios-1.jpg" alt="">
         </div>
 
         <div class="col-40-row-2">
-          <div class="formacion-bx">
+          <div class="espFrmBx">
             <img class="uni-logo" src="/imgs/UNAM.png" alt="">
-            <p class="f1 frc">Formación</p>
-            <p class="f1 frt">Más de cinco décadas de experiencia respaldan la labor de Germán Díaz Barceló. Cirujano dentista por la Universidad Nacional Autónoma de México y especialista en ortodoncia por el Centro Europeo de Ortodoncia (España). Rector y fundador de Universidad ION. Ha sido parte de Asociación Dental de Hermosillo, Asociación de Ortodoncia del Noroeste, Asociación Mexicana de Ortodoncia Colegio de Ortodoncistas y Asociación FACE de México.</p>
+            <p class="f1 frm-cbz">Formación</p>
+            <p class="f1 frm-txt">Más de cinco décadas de experiencia respaldan la labor de Germán Díaz Barceló. Cirujano dentista por la Universidad Nacional Autónoma de México y especialista en ortodoncia por el Centro Europeo de Ortodoncia (España). Rector y fundador de Universidad ION. Ha sido parte de Asociación Dental de Hermosillo, Asociación de Ortodoncia del Noroeste, Asociación Mexicana de Ortodoncia Colegio de Ortodoncistas y Asociación FACE de México.</p>
           </div>
 
-          <div class="ctc-bx">
+          <div id="espCtcBx">
             <div class="ctc-foto">
               <img src="/ediciones/2022/02/imgs/261-Dr-German-Rios-3.jpg" alt="">
             </div>
@@ -94,7 +94,7 @@
 
   <div class="clear"></div>
 
-  <?php include('includes/footer-e261.php') ?>
+  <?php include('../../../includes/footer.php') ?>
 
   <script src="../../../scripts/menu-mob.js"></script>
 </body>

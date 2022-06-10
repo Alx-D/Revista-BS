@@ -2,7 +2,7 @@
 
 <body class="contenedor m-0a">
 
-  <header id="prtdEspHdr">
+  <header id="espPrtHdr">
     <div class="cbz-bx">
       <div class="f2 logo">
         <a href="/index.php"><img src="/imgs/Revista-BS-logo-m.png"></a> &nbsp; SECCIÓN ESPECIAL
@@ -12,7 +12,7 @@
     </div>
   </header>
 
-  <main id="prtdEspMain">
+  <main id="espPrtMain">
     <div class="foto">
       <div class="f1 click">
         De click sobre el doctor de su preferencia

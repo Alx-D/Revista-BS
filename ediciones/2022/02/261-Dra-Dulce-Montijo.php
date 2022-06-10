@@ -3,7 +3,7 @@
 <body>
   <?php include('includes/header-e261.php') ?>
 
-  <article class="contenedor">
+  <article id="espNota" class="contenedor">
     <div class="f1 migas">
       <a href="/index.php">Revista BS</a>
       &nbsp;
@@ -22,13 +22,15 @@
     <div class="nombre-bx">
       <img class="diente-icon" src="/ediciones/2022/02/imgs/261-diente.svg" alt="">
       <h3 class="f1 nombre">Dra. Dulce Karina <br class="brvd680">Montijo Flores</h3>
-      <img class="dr-foto-bx-vd420" src="/ediciones/2022/02/imgs/261-Dra-Dulce-Montijo-2.jpg" alt="">
+      <img class="esp-drFoto-vd420
+      " src="/ediciones/2022/02/imgs/261-Dra-Dulce-Montijo-2.jpg" alt="">
     </div>
 
-    <div class="txt-esp-bx">
+    <div class="txt-bx">
       <div class="col-60">
         <h1 class="f2">Atención temprana y de calidad</h1>
-        <p class="f1 sumario-esp">Revista BS charló con la odontóloga Dulce Karina Montijo Flores sobre puntos clave de la odontología para la salud integral. A continuación sus comentarios</p>
+        <p class="f1 sumario
+        ">Revista BS charló con la odontóloga Dulce Karina Montijo Flores sobre puntos clave de la odontología para la salud integral. A continuación sus comentarios</p>
 
         <div class="compartir-bx">
           <i class="fa fa-share"></i>
@@ -45,12 +47,12 @@
           </p>
         </div>
 
-        <div class="dr-foto-bx-vd680">
+        <div class="esp-drFoto-vd680">
           <img src="/ediciones/2022/02/imgs/261-Dra-Dulce-Montijo-2.jpg" alt="">
         </div>
 
-        <div class="txt-esp">
-          <div class="dr-foto-bx-vd840">
+        <div class="texto">
+          <div class="esp-drFoto-vd840">
             <img src="/ediciones/2022/02/imgs/261-Dra-Dulce-Montijo-1.jpg" alt="">
           </div>
           <p class="txt-esp-preg">¿Cuál es la importancia de la valoración y atención oportuna en odontología?</p>
@@ -71,18 +73,18 @@
       </div>
 
       <aside class="col-40">
-        <div class="dr-foto-bx">
+        <div class="esp-drFoto">
           <img src="/ediciones/2022/02/imgs/261-Dra-Dulce-Montijo-1.jpg" alt="">
         </div>
 
         <div class="col-40-row-2">
-          <div class="formacion-bx">
+          <div class="espFrmBx">
             <img class="uni-logo" src="/imgs/Universidad-de-Sonora.png" alt="">
-            <p class="f1 frc">Formación</p>
-            <p class="f1 frt">Dulce Karina Montijo Flores es egresada de la licenciatura en odontología de la Universidad de Sonora, siendo estudiante comenzó su trayectoria profesional como asistente dental e instrumentista. Ha impartido la materia de operatoria dental tanto en la Universidad Vizcaya de las Américas, como en la Universidad de Sonora.</p>
+            <p class="f1 frm-cbz">Formación</p>
+            <p class="f1 frm-txt">Dulce Karina Montijo Flores es egresada de la licenciatura en odontología de la Universidad de Sonora, siendo estudiante comenzó su trayectoria profesional como asistente dental e instrumentista. Ha impartido la materia de operatoria dental tanto en la Universidad Vizcaya de las Américas, como en la Universidad de Sonora.</p>
           </div>
 
-          <div class="ctc-bx">
+          <div id="espCtcBx">
             <div class="ctc-foto">
               <img src="/ediciones/2022/02/imgs/261-Dra-Dulce-Montijo-3.jpg" alt="">
             </div>
@@ -96,7 +98,7 @@
 
   <div class="clear"></div>
 
-  <?php include('includes/footer-e261.php') ?>
+  <?php include('../../../includes/footer.php') ?>
 
   <script src="../../../scripts/menu-mob.js"></script>
 </body>

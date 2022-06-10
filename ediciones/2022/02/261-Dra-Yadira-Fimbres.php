@@ -3,7 +3,7 @@
 <body>
   <?php include('includes/header-e261.php') ?>
 
-  <article class="contenedor">
+  <article id="espNota" class="contenedor">
     <div class="f1 migas">
       <a href="/index.php">Revista BS</a>
       &nbsp;
@@ -22,13 +22,13 @@
     <div class="nombre-bx">
       <img class="diente-icon" src="/ediciones/2022/02/imgs/261-diente.svg" alt="">
       <h3 class="f1 nombre">Dra. Yadira Inés <br class="brvd680">Fimbres Fimbres</h3>
-      <img class="dr-foto-bx-vd420" src="/ediciones/2022/02/imgs/261-Dra-Yadira-Fimbres-2.jpg" alt="">
+      <img class="esp-drFoto-vd420" src="/ediciones/2022/02/imgs/261-Dra-Yadira-Fimbres-2.jpg" alt="">
     </div>
 
-    <div class="txt-esp-bx">
+    <div class="txt-bx">
       <div class="col-60">
         <h1 class="f2">Caries, el enemigo a vencer</h1>
-        <p class="f1 sumario-esp">Hasta un 80% de los menores de tres años tienen alguna lesión de caries, de ahí que el trabajo de la odontopediatra Yadira Fimbres está enfocado en prevenir este problema</p>
+        <p class="f1 sumario">Hasta un 80% de los menores de tres años tienen alguna lesión de caries, de ahí que el trabajo de la odontopediatra Yadira Fimbres está enfocado en prevenir este problema</p>
 
         <div class="compartir-bx">
           <i class="fa fa-share"></i>
@@ -45,12 +45,12 @@
           </p>
         </div>
 
-        <div class="dr-foto-bx-vd680">
+        <div class="esp-drFoto-vd680">
           <img src="/ediciones/2022/02/imgs/261-Dra-Yadira-Fimbres-2.jpg" alt="">
         </div>
 
-        <div class="txt-esp">
-          <div class="dr-foto-bx-vd840">
+        <div class="texto">
+          <div class="esp-drFoto-vd840">
             <img src="/ediciones/2022/02/imgs/261-Dra-Yadira-Fimbres-1.jpg" alt="">
           </div>
           <p>El desarrollo de las caries comprende varias etapas, este problema comienza como una manchita blanca que luego se torna amarilla, cuando hay una desmineralización más severa, después se hará una cavidad, en casos más avanzados, la caries puede alcanzar la pulpa o nervio del diente, explicó en entrevista con Revista BS Yadira Inés Fimbres Fimbres.</p>
@@ -61,7 +61,7 @@
             Por estas importantes funciones es crucial poner especial cuidado a los pequeños dientitos de leche de los menores, pues su pérdida puede tener implicaciones futuras en la dentición permanente.</p>
           <p>“Es muy importante acudir al odontopediatra desde que salga el primer dientito para darle indicación a los papás de cómo llevar el cuidado de higiene bucal, y evitar que tengan lesiones de caries”, apuntó.</p>
 
-          <p class="descanso-esp">Actuar a tiempo</p>
+          <p class="descanso">Actuar a tiempo</p>
           <p>Cuidar y preservar la función de los dientes de leche desde el momento en que comienzan a aparecer en la boquita de los bebés es una de las grandes misiones que mamás y papás tienen, la recomendación de la especialista es acudir a su primera consulta con el odontopediatra a los seis meses de vida del bebé, que es la edad en la que, en promedio, sale el primer diente.</p>
           <p>“Todo es cuestión de prevención. Lo que queremos es evitar que nuestros pacientitos lleguen a tratamiento. Lo más importante en odontopediatría es la prevención”, enfatizó.</p>
           <p>Con ánimo de promover hábitos de cuidado tempranos, la especialista dio algunas recomendaciones que permitirán a los pequeños gozar de una boquita sana y libre de dolor.</p>
@@ -70,19 +70,19 @@
       </div>
 
       <aside class="col-40">
-        <div class="dr-foto-bx">
+        <div class="esp-drFoto">
           <img src="/ediciones/2022/02/imgs/261-Dra-Yadira-Fimbres-1.jpg" alt="">
         </div>
 
         <div class="col-40-row-2">
-          <div class="formacion-bx">
+          <div class="espFrmBx">
             <img class="uni-logo" src="/imgs/Universidad-Autonoma-Chihuahua.png" alt="">
-            <p class="f1 frc">Formación</p>
-            <p class="f1 frt">Más de doce años de experiencia respaldan el trabajo de Yadira Fimbres
+            <p class="f1 frm-cbz">Formación</p>
+            <p class="f1 frm-txt">Más de doce años de experiencia respaldan el trabajo de Yadira Fimbres
               Fimbres. Cirujano dentista por la Universidad Autónoma de Chihuahua, se especializó en odontopediatría en la Universidad Autónoma de Ciudad Juárez. Está certificada por el Consejo Nacional de Odontología Infantil y por el Consejo Mexicano de Odontología Pediátrica.</p>
           </div>
 
-          <div class="ctc-bx">
+          <div id="espCtcBx">
             <div class="ctc-foto">
               <img src="/ediciones/2022/02/imgs/261-Dra-Yadira-Fimbres-3.png" alt="">
             </div>
@@ -96,7 +96,7 @@
 
   <div class="clear"></div>
 
-  <?php include('includes/footer-e261.php') ?>
+  <?php include('../../../includes/footer.php') ?>
 
   <script src="../../../scripts/menu-mob.js"></script>
 </body>
