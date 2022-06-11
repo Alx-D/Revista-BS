@@ -1,15 +1,18 @@
-<header class="contenedor">
-  <div class="header-mobile-cont">
-    <div class="header-mobile-row">
+<header id="espHdr" class="contenedor">
+
+  <div class="mobile-cont">
+    <div class="mobile-row">
       <i class="fas fa-bars" onclick="showMenu()"></i>
+
       <div class="hlmbx">
-        <div class="logo-mobile-bx">
+        <div class="mobile-logo-bx">
           <a href="/index.php">
             <img src="/imgs/Revista-BS-logo-header.png">
           </a>
         </div>
-        <div class="esp-mobile-bx">
-          <p class="f2 indicador">SECCIÓN ESPECIAL</p>
+
+        <div class="mobile-cbz-bx -esp-mobile-bx-">
+          <p class="f2 mobile-indicador">SECCIÓN ESPECIAL</p>
           <h1 class="f3" style="color: #365b49;">Salud para todos</h1>
         </div>
       </div>
@@ -37,16 +40,16 @@
     </nav>
   </div>
 
-  <div class="header-desktop-cont">
+  <div class="desktop-cont">
     <div class="header-col-1" style="position: relative;">
-      <div class="revista-bs-logo-bx">
+      <div class="desktop-logo-bx">
         <a href="/index.php">
           <img src="/imgs/Revista-BS-logo-header.png" alt="Revista BS">
         </a>
       </div>
     </div>
     <div class="header-col-2">
-      <p class="f2 indicador">SECCIÓN ESPECIAL</p>
+      <p class="f2 desktop-indicador">SECCIÓN ESPECIAL</p>
       <h1 class="f3" style="color: #365b49;">Salud para todos</h1>
       <h3 class="f3" style="color: #729a4a;">Logros y avances para festejar</h3>
     </div>
