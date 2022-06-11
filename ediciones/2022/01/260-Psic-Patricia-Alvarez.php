@@ -45,12 +45,12 @@
           </p>
         </div>
 
-        <div class="dr-foto-bx-vd680">
+        <div class="esp-drFoto-vd680">
           <img src="/ediciones/2022/01/imgs/260-Psic-Patricia-Alvarez-2.jpg" alt="">
         </div>
 
         <div class="texto">
-          <div class="dr-foto-bx-vd840">
+          <div class="esp-drFoto-vd840">
             <img src="/ediciones/2022/01/imgs/260-Psic-Patricia-Alvarez-1.jpg" alt="">
           </div>
           <p>Pensamientos negativos, catastróficos u obsesivos; deseos de morir o sensación de que la vida ya no tiene sentido; incapacidad para analizar situaciones con objetividad; sentirse desesperados, ansiosos o deprimidos son indicadores de que es necesario consultar a un especialista de la salud mental, comentó la psicóloga <b>Jeannette Patricia Álvarez León</b> en charla con Revista BS.</p>

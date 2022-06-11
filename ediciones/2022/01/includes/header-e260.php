@@ -1,6 +1,6 @@
 <header id="espHdr" class="contenedor">
     <div class="mobile-cont">
-      <div class="header-mobile-row">
+      <div class="mobile-row">
         <i class="fas fa-bars" onclick="showMenu()"></i>
 
         <div>
@@ -10,8 +10,8 @@
             </a>
           </div>
 
-          <div class="esp-mobile-bx">
-            <p class="f2 indicador">SECCIÓN ESPECIAL</p>
+          <div class="mobile-cbz-bx">
+            <p class="f2 mobile-indicador">SECCIÓN ESPECIAL</p>
             <h1 class="f2">Acuda con los expertos</h1>
             <h3 class="f1">Conozca y consulte a los especialistas</h3>
           </div>

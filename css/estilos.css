@@ -2809,6 +2809,7 @@ th {
     height: 56px;
     margin-right: 13px;
   }
+  /* TEXTO NOTA */
   .cabeza-1 {
     font-size: 52px;
   }
@@ -2983,6 +2984,10 @@ th {
   .link-compartir {
     font-size: 17px;
   }
+  /* CREDITO */
+  .credito-autor {
+    font-size: 13px;
+  }
   /* 48TEXTO NOTA */
   .texto {
     font-size: 17px;
@@ -3007,7 +3012,7 @@ th {
   .pie {
     font-size: 15px;
   }
-  /* 48 FRASE */
+  /* 48FRASE */
   .frase-bx{
     margin-top: 30px;
     margin-bottom: 20px;
@@ -3057,11 +3062,6 @@ th {
   }
   .btn-siganos-pr {
     width: 130px;
-  }
-  /* 48CABEZA NOTA */
-  /* CREDITO */
-  .credito-autor {
-    font-size: 13px;
   }
 }
 
