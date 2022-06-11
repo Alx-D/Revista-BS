@@ -1104,7 +1104,7 @@ ul li:last-child{
   padding: 0 15px;
   color: #fff;
   text-align: center;
-  background: #28539c;
+  background: #5c85c3;
   border-radius: 6px;
 }
 .duarte-firma a {
@@ -1385,6 +1385,7 @@ ul li:last-child{
 .texto-preg{
   font-weight: 500;
   margin-top: 20px;
+  margin-bottom: 0;
 }
 .descanso {
   font-size: 23px;

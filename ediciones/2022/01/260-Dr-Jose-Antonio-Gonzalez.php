@@ -1,9 +1,9 @@
 <?php include('includes/head-e260.php') ?>
 <style>
-  .dr-foto-bx{
+  .esp-drFoto{
     margin-top: -35px;
   }
-  .ctc-bx{
+  #espCtcBx{
     margin-top: 30px;
   }
 </style>
@@ -11,7 +11,7 @@
 <body>
   <?php include('includes/header-e260.php') ?>
 
-  <article class="contenedor">
+  <article id="espNota" class="contenedor">
     <div class="f1 migas">
       <a href="/index.php">Revista BS</a>
       &nbsp;
@@ -30,13 +30,13 @@
     <div class="nombre-bx">
       <div class="indg"></div>
       <h3 class="f1 nombre">Dr. José Antonio <br class="brvd680">González Rincón</h3>
-      <img class="dr-foto-bx-vd420" src="/ediciones/2022/01/imgs/260-Dr-Antonio-Gonzalez-2.jpg" alt="">
+      <img class="esp-drFoto-vd420" src="/ediciones/2022/01/imgs/260-Dr-Antonio-Gonzalez-2.jpg" alt="">
     </div>
 
-    <div class="txt-esp-bx">
+    <div class="txt-bx">
       <div class="col-60">
         <h1 class="f2">Cuidar la salud, preservar la movilidad</h1>
-        <p class="f1 sumario-esp">Prevenir, cuidar y tratar oportunamente problemas del sistema óseo, se verá reflejado en movilidad y una vida sin dolor, conozca la importancia de consultar al especialista</p>
+        <p class="f1 sumario">Prevenir, cuidar y tratar oportunamente problemas del sistema óseo, se verá reflejado en movilidad y una vida sin dolor, conozca la importancia de consultar al especialista</p>
 
         <div class="compartir-bx">
           <i class="fa fa-share"></i>
@@ -53,12 +53,12 @@
           </p>
         </div>
 
-        <div class="dr-foto-bx-vd680">
+        <div class="esp-drFoto-vd680">
           <img src="/ediciones/2022/01/imgs/260-Dr-Antonio-Gonzalez-2.jpg" alt="">
         </div>
 
-        <div class="txt-esp">
-          <div class="dr-foto-bx-vd840">
+        <div class="texto">
+          <div class="esp-drFoto-vd840">
             <img src="/ediciones/2022/01/imgs/260-Dr-Antonio-Gonzalez-1.jpg" alt="">
           </div>
           <p>Desgaste de articulaciones, malas posturas, dolores diversos y enfermedades de la columna vertebral son los problemas ortopédicos más comunes que atiende el doctor <b>José Antonio González Rincón</b> en su consultorio.</p>
@@ -71,18 +71,18 @@
       </div>
 
       <aside class="col-40">
-        <div class="dr-foto-bx">
+        <div class="esp-drFoto">
           <img src="/ediciones/2022/01/imgs/260-Dr-Antonio-Gonzalez-1.jpg" alt="">
         </div>
 
         <div class="col-40-row-2">
-          <div class="formacion-bx">
+          <div class="espFrmBx">
             <img class="uni-logo" src="/imgs/Universidad-Michoacana-San-Nicolas-Hidalgo.png" alt="">
-            <p class="f1 frc">Formación</p>
-            <p class="f1 frt">Originario de La Piedad, Michoacán, el doctor José Antonio González Rincón es médico cirujano por la Universidad Michoacana de San Nicolás de Hidalgo, es especialista en traumatología y ortopedia por la Universidad Nacional Autónoma de México, realizó un curso en adiestramiento en cirugía de columna vertebral y deformidades y está certificado por el Consejo Mexicano de Ortopedia y Traumatología, A. C.</p>
+            <p class="f1 frm-cbz">Formación</p>
+            <p class="f1 frm-txt">Originario de La Piedad, Michoacán, el doctor José Antonio González Rincón es médico cirujano por la Universidad Michoacana de San Nicolás de Hidalgo, es especialista en traumatología y ortopedia por la Universidad Nacional Autónoma de México, realizó un curso en adiestramiento en cirugía de columna vertebral y deformidades y está certificado por el Consejo Mexicano de Ortopedia y Traumatología, A. C.</p>
           </div>
 
-          <div class="ctc-bx">
+          <div id="espCtcBx">
             <div class="ctc-foto">
               <img src="/ediciones/2022/01/imgs/260-Dr-Antonio-Gonzalez-3.jpg" alt="">
             </div>
@@ -96,7 +96,7 @@
 
   <div class="clear"></div>
 
-  <?php include('includes/footer-e260.php') ?>
+  <?php include('../../../includes/footer.php') ?>
 
   <script src="../../../scripts/menu-mob.js"></script>
 </body>

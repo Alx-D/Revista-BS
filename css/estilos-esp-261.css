@@ -138,7 +138,7 @@
   font-size: 15px;
   margin-bottom: 30px;
 }
-#espNota .migas  .fa-angle-right{
+#espNota .migas .fa-angle-right{
   font-size: 15px;
   margin-right: unset;
 }
@@ -772,7 +772,7 @@
     font-size: 12px;
     margin-bottom: 20px;
   }
-  #espNota .migas  .fa-angle-right{
+  #espNota .migas .fa-angle-right{
     font-size: 12px;
   }
 }
@@ -936,7 +936,7 @@
    #espNota .migas {
     font-size: 10px;
   }
-  #espNota .migas  .fa-angle-right{
+  #espNota .migas .fa-angle-right{
     font-size: 10px;
   }
   #espNota .nombre{

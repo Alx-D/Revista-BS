@@ -281,7 +281,7 @@
   font-size: 15px;
   margin-bottom: 20px;
 }
-#espNota .migas  .fa-angle-right{
+#espNota .migas .fa-angle-right{
   font-size: 15px;
   margin-right: unset;
 }
@@ -312,7 +312,7 @@
   display: inline;
   color: var(--color260-2);
 }
-#espNota .brvd680{
+.brvd680{
   display: none;
 }
 #espNota h1{
@@ -329,10 +329,10 @@
   font-weight: 400;
   margin-bottom: 30px;
 }
-#espNota .dr-foto-bx-vd840{
+#espNota .esp-drFoto-vd840{
   display: none;
 }
-#espNota .dr-foto-bx-vd680{
+#espNota .esp-drFoto-vd680{
   display: none;
 }
  /* COMPARTIR */
@@ -392,7 +392,7 @@
 /* FORMACION */
 #espNota .espFrmBx{
   width: 100%;
-  background: #e37b48;
+  background: var(--color260-2);
   padding: 25px;
 }
 .espFrmBx .frm-cbz{
@@ -419,7 +419,7 @@
 #espCtcBx{
   width: 100%;
   padding: 25px;
-  background: #1c84b7;
+  background: var(--color260-1);
   margin-top: 100px;
   font-family: "Nunito Sans", sans-serif;
   color: white;
@@ -586,9 +586,8 @@
   }
   /* NOTA */
   /* REVISAR AQUI */
-  .fa-circle-arrow-right{
-    font-size: 300px;
-    color: blue;
+  #espNota .fa-circle-arrow-right{
+    font-size: 30px;
   }
   #espNota .txt-bx{
     display: initial;
@@ -720,21 +719,21 @@
     margin-bottom: 5px;
     letter-spacing: 10px;
   }
-  #espHdr .mobile-cbz-bx  h1{
+  #espHdr .mobile-cbz-bx h1{
     font-size: 7vw;
     line-height: 1;
     font-weight: 400;
     text-align: center;
     text-transform: uppercase;
-    color: #1c84b7;
+    color: var(--color260-1);
     margin-bottom: 5px;
   }
-  #espHdr .mobile-cbz-bx  h3{
+  #espHdr .mobile-cbz-bx h3{
     font-size: 3.8vw;
     font-weight: 400;
     line-height: 1;
     text-align: center;
-    color: #e37b48;
+    color: var(--color260-2);
     margin-bottom: 10px;
   }
   #espHdr .menu-mobile {
@@ -939,7 +938,7 @@
   #espNota .nombre-bx{
     width: 100%;
     margin-bottom: 20px;
-    background: #1c84b7;
+    background: var(--color260-1);
   }
   #espNota .nombre{
     color: white;
@@ -981,7 +980,7 @@
   #espNota .migas {
     font-size: 10px;
   }
-  #espNota .migas  .fa-angle-right{
+  #espNota .migas .fa-angle-right{
     font-size: 10px;
   }
   #espNota .nombre{

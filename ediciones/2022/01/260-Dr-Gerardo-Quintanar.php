@@ -3,7 +3,7 @@
 <body>
 <?php include('includes/header-e260.php') ?>
 
-  <article class="contenedor">
+  <article id="espNota" class="contenedor">
     <div class="f1 migas">
       <a href="/index.php">Revista BS</a>
       &nbsp;
@@ -22,13 +22,13 @@
     <div class="nombre-bx">
       <div class="indg"></div>
       <h3 class="f1 nombre">Dr. Gerardo <br class="brvd680">Quintanar Fimbres</h3>
-      <img class="dr-foto-bx-vd420" src="/ediciones/2022/01/imgs/260-Dr-Gerardo-Quintanar-2.jpg" alt="">
+      <img class="esp-drFoto-vd420" src="/ediciones/2022/01/imgs/260-Dr-Gerardo-Quintanar-2.jpg" alt="">
     </div>
 
-    <div class="txt-esp-bx">
+    <div class="txt-bx">
       <div class="col-60">
         <h1 class="f2">Tratar a tiempo, prevenir el deterioro</h1>
-        <p class="f1 sumario-esp">Detectar patologías a tiempo, ofrecer el mejor tratamiento posible y así prevenir
+        <p class="f1 sumario">Detectar patologías a tiempo, ofrecer el mejor tratamiento posible y así prevenir
           complicaciones es el objetivo de la visita periódica con el especialista en urología</p>
 
         <div class="compartir-bx">
@@ -46,12 +46,12 @@
           </p>
         </div>
 
-        <div class="dr-foto-bx-vd680">
+        <div class="esp-drFoto-vd680">
           <img src="/ediciones/2022/01/imgs/260-Dr-Gerardo-Quintanar-2.jpg" alt="">
         </div>
 
-        <div class="txt-esp">
-          <div class="dr-foto-bx-vd840">
+        <div class="texto">
+          <div class="esp-drFoto-vd840">
             <img src="/ediciones/2022/01/imgs/260-Dr-Gerardo-Quintanar-1.jpg" alt="">
           </div>
           <p>Abarcando el sistema urinario de ambos sexos y el reproductivo masculino, la urología cuenta con un amplio
@@ -72,7 +72,7 @@
             a tiempo, sí podemos curarlo y, en los demás casos, podemos ofrecer tratamientos para evitar su progresión”,
             señaló.</p>
 
-          <p class="descanso-esp">Cuidado integral</p>
+          <p class="descanso">Cuidado integral</p>
           <p>Recordando que el sector al que atienden los urólogos comprende también mujeres y niños, el doctor
             Quintanar Fimbres comentó algunos signos y síntomas que requieren acudir con este especialista de forma
             inmediata.</p>
@@ -91,18 +91,18 @@
       </div>
 
       <aside class="col-40">
-        <div class="dr-foto-bx">
+        <div class="esp-drFoto">
           <img src="/ediciones/2022/01/imgs/260-Dr-Gerardo-Quintanar-1.jpg" alt="">
         </div>
 
         <div class="col-40-row-2">
-          <div class="formacion-bx">
+          <div class="espFrmBx">
             <img class="uni-logo" src="/imgs/Universidad-Autonoma-de-Guadalajara.png" alt="">
-            <p class="f1 frc">Formación</p>
-            <p class="f1 frt">Con más de una década de experiencia, el doctor Quintanar Fimbres es médico cirujano por la Universidad Autónoma de Guadalajara y se especializó en urología en la Universidad Autónoma de Sinaloa. Realizó un curso en nefrectomía laparoscópica de la Sociedad Mexicana de Urologia. Está certificado por el Consejo Mexicano de Urología Nacional. Ha sido docente en la Universidad de Sonora y en la Universidad de Sinaloa.</p>
+            <p class="f1 frm-cbz">Formación</p>
+            <p class="f1 frm-txt">Con más de una década de experiencia, el doctor Quintanar Fimbres es médico cirujano por la Universidad Autónoma de Guadalajara y se especializó en urología en la Universidad Autónoma de Sinaloa. Realizó un curso en nefrectomía laparoscópica de la Sociedad Mexicana de Urologia. Está certificado por el Consejo Mexicano de Urología Nacional. Ha sido docente en la Universidad de Sonora y en la Universidad de Sinaloa.</p>
           </div>
 
-          <div class="ctc-bx">
+          <div id="espCtcBx">
             <div class="ctc-foto">
               <img src="/ediciones/2022/01/imgs/260-Dr-Gerardo-Quintanar-3.jpg" alt="">
             </div>
@@ -116,9 +116,8 @@
 
   <div class="clear"></div>
 
-  <?php include('includes/footer-e260.php') ?>
+  <?php include('../../../includes/footer.php') ?>
 
   <script src="../../../scripts/menu-mob.js"></script>
 </body>
-
 </html>

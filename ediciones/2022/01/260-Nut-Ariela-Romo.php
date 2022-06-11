@@ -3,7 +3,7 @@
 <body>
   <?php include('includes/header-e260.php') ?>
 
-  <article class="contenedor">
+  <article id="espNota" class="contenedor">
     <div class="f1 migas">
       <a href="/index.php">Revista BS</a>
       &nbsp;
@@ -22,13 +22,13 @@
     <div class="nombre-bx">
       <div class="indg"></div>
       <h3 class="f1 nombre">Nut. Ariela Lizeth <br class="brvd680">Romo de la Ree</h3>
-      <img class="dr-foto-bx-vd420" src="/ediciones/2022/01/imgs/260-Nut-Ariela-Romo-2.jpg" alt="">
+      <img class="esp-drFoto-vd420" src="/ediciones/2022/01/imgs/260-Nut-Ariela-Romo-2.jpg" alt="">
     </div>
 
-    <div class="txt-esp-bx">
+    <div class="txt-bx">
       <div class="col-60">
         <h1 class="f2">El cambio empieza hoy</h1>
-        <p class="f1 sumario-esp">Revista BS charló con la nutrióloga Ariela Lizeth Romo de la Ree sobre la importancia de la consulta nutricional en diferentes momentos de nuestra vida. Compartimos sus comentarios</p>
+        <p class="f1 sumario">Revista BS charló con la nutrióloga Ariela Lizeth Romo de la Ree sobre la importancia de la consulta nutricional en diferentes momentos de nuestra vida. Compartimos sus comentarios</p>
 
         <div class="compartir-bx">
           <i class="fa fa-share"></i>
@@ -45,44 +45,44 @@
           </p>
         </div>
 
-        <div class="dr-foto-bx-vd680">
+        <div class="esp-drFoto-vd680">
           <img src="/ediciones/2022/01/imgs/260-Nut-Ariela-Romo-2.jpg" alt="">
         </div>
 
-        <div class="txt-esp">
-          <div class="dr-foto-bx-vd840">
+        <div class="texto">
+          <div class="esp-drFoto-vd840">
             <img src="/ediciones/2022/01/imgs/260-Nut-Ariela-Romo-1.jpg" alt="">
           </div>
-          <p class="txt-esp-preg" style="margin-bottom: 0;">¿Cuál es la importancia del acompañamiento profesional en nutrición para cuidar del peso ideal?</p>
+          <p class="texto-preg" style="margin-bottom: 0;">¿Cuál es la importancia del acompañamiento profesional en nutrición para cuidar del peso ideal?</p>
           <i>“Nuestra meta siempre debe ser mantener un estilo de vida saludable en todos los pacientes. Mantener el peso adecuado no sólo a corto plazo, sino de por vida. Se cree que un plan se puede compartir o será igual para todos, cuando en realidad un profesional de salud debe de indicar un plan personalizado para cada paciente”.</i>
 
-          <p class="txt-esp-preg" style="margin-bottom: 0;">¿Qué casos y patologías requieren vigilancia por parte de un nutriólogo?</p>
+          <p class="texto-preg" style="margin-bottom: 0;">¿Qué casos y patologías requieren vigilancia por parte de un nutriólogo?</p>
           <i>“La mayoría de las patologías, si no es que todas, requieren guía de un especialista en nutrición, por mencionar algunas: obesidad y sobrepeso, hipotiroidismo, deficiencia renal, enfermedades hepáticas, diabetes, hipertensión, desnutrición, aterosclerosis, celiaquía, bulimia y anorexia”.</i>
 
-          <p class="txt-esp-preg" style="margin-bottom: 0;">¿Qué mitos o ideas preconcebidas sobre la consulta de nutrición se encuentra frecuentemente?</p>
+          <p class="texto-preg" style="margin-bottom: 0;">¿Qué mitos o ideas preconcebidas sobre la consulta de nutrición se encuentra frecuentemente?</p>
           <i>“Algunas personas creen que no deben de ir a consulta cuando 'no siguieron la dieta', cuando en realidad es en esos momentos cuando el paciente más debe de pedir una guía y atención del nutriólogo. Piénselo así: cuando acude al médico, va porque no se siente bien, no cuando se siente saludable. Es lo mismo en nutrición. Yo recomiendo a mis pacientes venir cuando sienten que no han tenido una buena alimentación, y quieren mejorar sus hábitos”.</i>
 
-          <p class="txt-esp-preg" style="margin-bottom: 0;">De manera general, ¿qué puntos clave deberíamos cuidar para tener una alimentación más saludable?</p>
+          <p class="texto-preg" style="margin-bottom: 0;">De manera general, ¿qué puntos clave deberíamos cuidar para tener una alimentación más saludable?</p>
           <i>“Hacer ejercicio por salud, no por pérdida de peso. Tomar dos litros de agua diarios. Consumir variedad de frutas y verduras. No abusar de alimentos empaquetados. Evitar el consumo de azúcar y sodio. No consumir calorías en exceso. Evitar el sedentarismo. Mantener una salud física, emocional y mental para lograr tener un bienestar integral”.</i>
 
-          <p class="txt-esp-preg" style="margin-bottom: 0;">¿Algún mensaje o recomendación que quiera mandar a los lectores?</p>
+          <p class="texto-preg" style="margin-bottom: 0;">¿Algún mensaje o recomendación que quiera mandar a los lectores?</p>
           <i>“Recuerden que el mantener un estilo de vida saludable conlleva tener salud física, emocional y mental. Si alguna de estas tres áreas no está saludable, muy probablemente las demás tampoco lo estarán. No dude en invertir en usted mismo. Invierta en su salud y en su cuerpo, que es donde vivirá toda la vida. No espere a ser diagnosticado con alguna enfermedad para empezar a cuidar su alimentación, empiece a cuidarla hoy”.</i> &nbsp;<i class="fas fa-square remate-esp"></i>
         </div>
       </div>
 
       <aside class="col-40">
-        <div class="dr-foto-bx">
+        <div class="esp-drFoto">
           <img src="/ediciones/2022/01/imgs/260-Nut-Ariela-Romo-1.jpg" alt="">
         </div>
 
         <div class="col-40-row-2">
-          <div class="formacion-bx">
+          <div class="espFrmBx">
             <img class="uni-logo" src="/imgs/ITESO.png" alt="">
-            <p class="f1 frc">Formación</p>
-            <p class="f1 frt">Con más de seis años de experiencia, Ariela Romo de la Ree es egresada del Instituto Tecnológico y de Estudios Superiores de Occidente como licenciada en nutrición y ciencias de los alimentos. Tiene un máster en nutrición y dietética por la Universidad Estatal de Arizona. Ha complementado su perfil con diversos diplo-mados en nutrición infantil, psicología de la alimentación, aparatología estética y corporal y en dieta cetogénica y ayuno intermitente.</p>
+            <p class="f1 frm-cbz">Formación</p>
+            <p class="f1 frm-txt">Con más de seis años de experiencia, Ariela Romo de la Ree es egresada del Instituto Tecnológico y de Estudios Superiores de Occidente como licenciada en nutrición y ciencias de los alimentos. Tiene un máster en nutrición y dietética por la Universidad Estatal de Arizona. Ha complementado su perfil con diversos diplo-mados en nutrición infantil, psicología de la alimentación, aparatología estética y corporal y en dieta cetogénica y ayuno intermitente.</p>
           </div>
 
-          <div class="ctc-bx">
+          <div id="espCtcBx">
             <div class="ctc-foto">
               <img src="/ediciones/2022/01/imgs/260-Nut-Ariela-Romo-3.jpg" alt="">
             </div>
@@ -96,9 +96,8 @@
 
   <div class="clear"></div>
 
-  <?php include('includes/footer-e260.php') ?>
+  <?php include('../../../includes/footer.php') ?>
 
   <script src="../../../scripts/menu-mob.js"></script>
 </body>
-
 </html>
