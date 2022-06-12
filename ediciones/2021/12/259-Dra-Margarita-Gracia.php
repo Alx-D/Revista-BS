@@ -1,21 +1,18 @@
 <?php include('includes/head-e259.php') ?>
 <style>
-    .dr-fotocb-bx-vd840 {
+  /* FOTOS CON BACK INCLUIDO */
+    .esp-drFotoCb-vd840 {
       display: none;
     }
-
-    .dr-fotocb-bx {
+    .esp-drFotoCb {
       width: 100%;
       margin-bottom: auto;
     }
-
-    .dr-fotocb-bx img {
+    .esp-drFotoCb img {
       width: 100%;
-      /* margin-top: -55px; */
     }
-
     @media screen and (max-width: 840px) {
-      .dr-fotocb-bx-vd840 {
+      .esp-drFotoCb-vd840 {
         display: block;
         width: 30%;
         float: right;
@@ -23,20 +20,17 @@
         margin-left: 20px;
         margin-bottom: 20px;
       }
-
-      .dr-fotocb-bx-vd840 img {
+      .esp-drFotoCb-vd840 img {
         width: 100%;
         margin-top: -80px;
         float: right;
       }
-
-      .dr-fotocb-bx {
+      .esp-drFotoCb {
         display: none;
       }
     }
-
     @media screen and (max-width: 680px) {
-      .dr-fotocb-bx-vd840 {
+      .esp-drFotoCb-vd840 {
         display: none;
       }
     }
@@ -45,7 +39,7 @@
 <body>
 <?php include('includes/header-e259.php') ?>
 
-  <article class="contenedor">
+  <article id="espNota" class="contenedor">
     <div class="f1 migas">
       <a href="/index.php">Revista BS</a>
       &nbsp;
@@ -63,13 +57,13 @@
 
     <div class="nombre-bx">
       <h3 class="f3 nombre">Dra. María Margarita <br class="brvd480">Gracia Francis</h3>
-      <img class="dr-foto-bx-vd420" src="/ediciones/2021/12/imgs/259-Dra-Margarita-Gracia-2.png" alt="">
+      <img class="esp-drFoto-vd420" src="/ediciones/2021/12/imgs/259-Dra-Margarita-Gracia-2.png" alt="">
     </div>
 
-    <div class="txt-esp-bx">
+    <div class="texto-bx">
       <div class="col-60">
         <h1>Tecnología de avanzada, atención de primera</h1>
-        <p class="f3 sumario-esp">Ofrecer atención con tecnología de punta, alcanzando los mejores resultados posibles, es un motivo de celebración para la doctora María Margarita Gracia Francis</p>
+        <p class="f3 sumario">Ofrecer atención con tecnología de punta, alcanzando los mejores resultados posibles, es un motivo de celebración para la doctora María Margarita Gracia Francis</p>
 
         <div class="compartir-bx">
           <i class="fa fa-share"></i>
@@ -86,12 +80,12 @@
           </p>
         </div>
 
-        <div class="dr-foto-bx-vd680">
+        <div class="esp-drFoto-vd680">
           <img src="/ediciones/2021/12/imgs/259-Dra-Margarita-Gracia-2.png" alt="">
         </div>
 
-        <div class="txt-esp">
-          <div class="dr-fotocb-bx-vd840">
+        <div class="texto">
+          <div class="esp-drFotoCb-vd840">
             <img src="/ediciones/2021/12/imgs/259-Dra-Margarita-Gracia-11.png" alt="">
           </div>
           <p>Mantener la alta calidad de atención a sus pacientes, incluyendo procedimientos seguros y con los mejores resultados posibles fue uno de los aspectos de este 2021 que destacó la doctora <b>María Margarita Gracia Francis</b> en entrevista exclusiva con Revista BS.</p>
@@ -99,7 +93,7 @@
           <p>Entre los avances recientes de su campo, la especialista subrayó la mayor accesibilidad a la rinoplastia ultrasónica, técnica quirúrgica de remodelado nasal en la cual se utilizan sierras y limas ultrasónicas de alta precisión.</p>
           <p>“La rinoplastia ultrasónica otorga un mayor control a la hora de modelar y cortar los huesos nasales permitiendo al cirujano conservar estructuras vitales del dorso nasal con la intención de realizar una rinoplastia preservadora con resultados naturales”, explicó.</p>
 
-          <p style="color: #35644d;" class="descanso-esp">Nuevo año, nuevo enfoque</p>
+          <p style="color: #35644d;" class="descanso">Nuevo año, nuevo enfoque</p>
           <p>El inicio de año es siempre un excelente momento para cultivar buenos hábitos. La especialista hizo énfasis en la importancia de la consulta para monitoreo periódico de la salud.</p>
           <p>“La intención de las revisiones periódicas consiste en detectar datos de alarma y prevenir complicaciones que pueden ser solucionadas a tiempo”, señaló. “La salud siempre es importante, muchas veces minimizamos las molestias, favoreciendo a alguna complicación”.</p>
           <p>Entender la salud como un estado completo de bienestar físico, mental y social, y no solamente como la ausencia de afecciones o enfermedades fue la recomendación de la doctora Gracia Francis, quien invitó a prestar atención también al aspecto psicológico.</p>
@@ -108,18 +102,18 @@
       </div>
 
       <aside class="col-40">
-        <div class="dr-fotocb-bx">
+        <div class="esp-drFotoCb">
           <img src="/ediciones/2021/12/imgs/259-Dra-Margarita-Gracia-11.png" alt="">
         </div>
 
         <div class="col-40-row-2">
-          <div class="formacion-bx">
+          <div class="espFrmBx">
             <img class="uni-logo" src="/imgs/Universidad-de-Monterrey.png" alt="">
-            <p class="f3 frc">Formación</p>
-            <p class="f3 frt">Egresada de la Universidad de Monterrey como médico, cirujano y partero, la doctora Gracia Francis se especializó en otorrinolaringología y cirugía de cabeza y cuello en el Hospital Juárez de México, con el respaldo de la Universidad Nacional Autónoma de México, realiza constantemente cursos y talleres de actualización en su área.</p>
+            <p class="f3 frm-cbz">Formación</p>
+            <p class="f3 frm-txt">Egresada de la Universidad de Monterrey como médico, cirujano y partero, la doctora Gracia Francis se especializó en otorrinolaringología y cirugía de cabeza y cuello en el Hospital Juárez de México, con el respaldo de la Universidad Nacional Autónoma de México, realiza constantemente cursos y talleres de actualización en su área.</p>
           </div>
 
-          <div class="ctc-bx">
+          <div id="espCtcBx">
             <div class="ctc-foto">
               <img src="/ediciones/2021/12/imgs/259-Dra-Margarita-Gracia-3.png" alt="">
             </div>

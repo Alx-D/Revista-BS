@@ -25,7 +25,7 @@
       <img class="esp-drFoto-vd420" src="/ediciones/2022/01/imgs/260-Dr-Kessec-Esquer-2.jpg" alt="">
     </div>
 
-    <div class="txt-bx">
+    <div class="texto-bx">
       <div class="col-60">
         <h1 class="f2">Problemas que roban el aliento</h1>
         <p class="f1 sumario">Con la valiosa comparación entre un ataque de asma que no deja respirar y una salud

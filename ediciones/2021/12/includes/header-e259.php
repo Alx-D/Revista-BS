@@ -13,7 +13,7 @@
 
         <div class="mobile-cbz-bx -esp-mobile-bx-">
           <p class="f2 mobile-indicador">SECCIÓN ESPECIAL</p>
-          <h1 class="f3" style="color: #365b49;">Salud para todos</h1>
+          <h1 class="f3">Salud para todos</h1>
         </div>
       </div>
     </div>
@@ -50,8 +50,8 @@
     </div>
     <div class="header-col-2">
       <p class="f2 desktop-indicador">SECCIÓN ESPECIAL</p>
-      <h1 class="f3" style="color: #365b49;">Salud para todos</h1>
-      <h3 class="f3" style="color: #729a4a;">Logros y avances para festejar</h3>
+      <h1 class="f3">Salud para todos</h1>
+      <h3 class="f3">Logros y avances para festejar</h3>
     </div>
     <div class="header-col-3">
       <img src="/ediciones/2021/12/imgs/259-Secc-Esp-th.png" alt="">

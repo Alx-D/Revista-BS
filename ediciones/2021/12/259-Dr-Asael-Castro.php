@@ -3,7 +3,7 @@
 <body>
   <?php include('includes/header-e259.php') ?>
 
-  <article class="contenedor">
+  <article id="espNota" class="contenedor">
     <div class="f1 migas">
       <a href="/index.php">Revista BS</a>
       &nbsp;
@@ -21,13 +21,13 @@
 
     <div class="nombre-bx">
       <h3 class="f3 nombre">Dr. Asael Castro Pico</h3>
-      <img class="dr-foto-bx-vd420" src="/ediciones/2021/12/imgs/259-Dr-Asael-Castro-2.png" alt="">
+      <img class="esp-drFoto-vd420" src="/ediciones/2021/12/imgs/259-Dr-Asael-Castro-2.png" alt="">
     </div>
 
-    <div class="txt-esp-bx">
+    <div class="texto-bx">
       <div class="col-60">
         <h1>Vanguardia y conocimiento</h1>
-        <p class="f3 sumario-esp">Comprometido con derribar ideas preconcebidas sobre la cirugía maxilofacial, Asael
+        <p class="f3 sumario">Comprometido con derribar ideas preconcebidas sobre la cirugía maxilofacial, Asael
           Castro Pico utiliza los últimos avances en este campo para lograr los mejores resultados</p>
 
         <div class="compartir-bx">
@@ -45,12 +45,12 @@
           </p>
         </div>
 
-        <div class="dr-foto-bx-vd680">
+        <div class="esp-drFoto-vd680">
           <img src="/ediciones/2021/12/imgs/259-Dr-Asael-Castro-2.png" alt="">
         </div>
 
-        <div class="txt-esp">
-          <div class="dr-foto-bx-vd840" style="margin-bottom: 100px;">
+        <div class="texto">
+          <div class="esp-drFoto-vd840" style="margin-bottom: 100px;">
             <img src="/ediciones/2021/12/imgs/259-Dr-Asael-Castro-1.png" alt="">
           </div>
           <p>La utilización de instrumentos de corte ultrasónicos y otros avances en el campo de la cirugía maxilofacial
@@ -69,7 +69,7 @@
             vasculares y nerviosas en el momento de realizar osteotomías, corte de hueso, u odontosección, corte de
             diente”, abundó.</p>
 
-          <p style="color: #35644d;" class="descanso-esp">Sí se pudo</p>
+          <p style="color: #35644d;" class="descanso">Sí se pudo</p>
           <p>En cuanto a su propia práctica, Castro Pico habló sobre logros alcanzados en el último año, entre los que
             destacó su capacitación continua a través de conferencias y cursos de nivel internacional a través de
             plataformas online.</p>
@@ -86,18 +86,18 @@
       </div>
 
       <aside class="col-40">
-        <div class="dr-foto-bx">
+        <div class="esp-drFoto">
           <img src="/ediciones/2021/12/imgs/259-Dr-Asael-Castro-1.png" alt="">
         </div>
 
         <div class="col-40-row-2">
-          <div class="formacion-bx">
+          <div class="espFrmBx">
             <img class="uni-logo" src="/imgs/UNAM.png" alt="">
-            <p class="f3 frc">Formación</p>
-            <p class="f3 frt">Egresado como cirujano dentista de la Universidad Autónoma de Sinaloa, Asael Castro Pico es especialista con más de diez años de experiencia en cirugía maxilofacial por el Centro Médico Nacional Siglo XXI del Instituto Mexicano del Seguro Social, con el respaldo de la UNAM. Cuenta con una certificación por el comité de trauma del American College of Surgeons. Está certificado por el Consejo Mexicano de Cirugía Oral y Maxilofacial y es miembro de la Asociación Mexicana de Cirugía Oral y Maxilofacial.</p>
+            <p class="f3 frm-cbz">Formación</p>
+            <p class="f3 frm-txt">Egresado como cirujano dentista de la Universidad Autónoma de Sinaloa, Asael Castro Pico es especialista con más de diez años de experiencia en cirugía maxilofacial por el Centro Médico Nacional Siglo XXI del Instituto Mexicano del Seguro Social, con el respaldo de la UNAM. Cuenta con una certificación por el comité de trauma del American College of Surgeons. Está certificado por el Consejo Mexicano de Cirugía Oral y Maxilofacial y es miembro de la Asociación Mexicana de Cirugía Oral y Maxilofacial.</p>
           </div>
 
-          <div class="ctc-bx">
+          <div  id="espCtcBx">
             <div class="ctc-foto">
               <img src="/ediciones/2021/12/imgs/259-Dr-Asael-Castro-3.png" alt="">
             </div>

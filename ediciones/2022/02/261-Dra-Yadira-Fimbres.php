@@ -25,7 +25,7 @@
       <img class="esp-drFoto-vd420" src="/ediciones/2022/02/imgs/261-Dra-Yadira-Fimbres-2.jpg" alt="">
     </div>
 
-    <div class="txt-bx">
+    <div class="texto-bx">
       <div class="col-60">
         <h1 class="f2">Caries, el enemigo a vencer</h1>
         <p class="f1 sumario">Hasta un 80% de los menores de tres años tienen alguna lesión de caries, de ahí que el trabajo de la odontopediatra Yadira Fimbres está enfocado en prevenir este problema</p>

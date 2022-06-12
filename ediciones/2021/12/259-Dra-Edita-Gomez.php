@@ -24,7 +24,7 @@
       <img class="esp-drFoto-vd420" src="/ediciones/2021/12/imgs/259-Dra-Edita-Gomez-2.png" alt="">
     </div>
 
-    <div class="txt-bx">
+    <div class="texto-bx">
       <div class="col-60">
         <h1>Aprender y prevenir</h1>
         <p class="f3 sumario">Aplicar lo que el confinamiento ha enseñado en pro de la salud de los más pequeños del hogar es el llamado de la doctora Edita María Gómez Paredes</p>

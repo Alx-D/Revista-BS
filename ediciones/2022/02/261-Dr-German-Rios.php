@@ -25,7 +25,7 @@
       <img class="esp-drFoto-vd420" src="/ediciones/2022/02/imgs/261-Dr-German-Rios-2.jpg" alt="">
     </div>
 
-    <div class="txt-bx">
+    <div class="texto-bx">
       <div class="col-60">
         <h1 class="f2">Conocimiento, su legado</h1>
         <p class="f1 sumario">Bajo la visión de contribuir a la formación integral de odontólogos, Germán Ríos Barceló fundó en 2012 Universidad ION, a diez años habló con Revista BS sobre el camino recorrido</p>

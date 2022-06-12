@@ -25,7 +25,7 @@
       <img class="esp-drFoto-vd420" src="/ediciones/2022/02/imgs/261-Dr-Alberto-Vazquez-2.jpg" alt="">
     </div>
 
-    <div class="txt-bx">
+    <div class="texto-bx">
       <div class="col-60">
         <h1 class="f2">La revolución en el consultorio</h1>
         <p class="f1 sumario">Acortar los procesos y poder visualizar el resultado final antes inclusive de iniciar

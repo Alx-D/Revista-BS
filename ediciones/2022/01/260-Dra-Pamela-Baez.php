@@ -26,7 +26,7 @@
       <img class="esp-drFoto-vd420" src="/ediciones/2022/01/imgs/260-Dra-Pamela-Baez-2.jpg" alt="">
     </div>
 
-    <div class="txt-bx">
+    <div class="texto-bx">
       <div class="col-60">
         <h1 class="f2">Cuidado célula a célula</h1>
         <p class="f1 sumario">Detectar patologías propias de la sangre, así como conocer el estado de salud general del organismo son algunas de las ventajas de consultar a un especialista en hematología</p>

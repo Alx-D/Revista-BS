@@ -25,7 +25,7 @@
       <img class="esp-drFoto-vd420" src="/ediciones/2022/01/imgs/260-Dr-Gerardo-Quintanar-2.jpg" alt="">
     </div>
 
-    <div class="txt-bx">
+    <div class="texto-bx">
       <div class="col-60">
         <h1 class="f2">Tratar a tiempo, prevenir el deterioro</h1>
         <p class="f1 sumario">Detectar patologías a tiempo, ofrecer el mejor tratamiento posible y así prevenir

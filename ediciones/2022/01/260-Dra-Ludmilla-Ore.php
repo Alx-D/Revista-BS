@@ -25,7 +25,7 @@
       <img class="esp-drFoto-vd420" src="/ediciones/2022/01/imgs/260-Dra-Ludmilla-Ore-2.jpg" alt="">
     </div>
 
-    <div class="txt-bx">
+    <div class="texto-bx">
       <div class="col-60">
         <h1 class="f2">Como relojitos</h1>
         <p class="f1 sumario">Revista BS charló con la ginecóloga Ludmilla Ore Colio para entender el papel de la visita periódica al ginecólogo en la salud y el bienestar de la mujer</p>

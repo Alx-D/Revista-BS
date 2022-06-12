@@ -33,7 +33,7 @@
       <img class="esp-drFoto-vd420" src="/ediciones/2022/01/imgs/260-Dr-Antonio-Gonzalez-2.jpg" alt="">
     </div>
 
-    <div class="txt-bx">
+    <div class="texto-bx">
       <div class="col-60">
         <h1 class="f2">Cuidar la salud, preservar la movilidad</h1>
         <p class="f1 sumario">Prevenir, cuidar y tratar oportunamente problemas del sistema óseo, se verá reflejado en movilidad y una vida sin dolor, conozca la importancia de consultar al especialista</p>

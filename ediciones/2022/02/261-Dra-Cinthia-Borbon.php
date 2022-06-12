@@ -25,7 +25,7 @@
       <img class="esp-drFoto-vd420" src="/ediciones/2022/02/imgs/261-Dra-Cinthia-Borbon-2.jpg" alt="">
     </div>
 
-    <div class="txt-bx">
+    <div class="texto-bx">
       <div class="col-60">
         <h1 class="f2">Prioridad en cualquier edad</h1>
         <p class="f1 sumario">Más allá de una cuestión de estética, para Cinthia Lorena Borbón Esquer la ortodoncia es materia de prevención y salud bucodental, conozca la opinión de la experta</p>

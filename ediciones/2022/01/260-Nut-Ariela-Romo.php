@@ -25,7 +25,7 @@
       <img class="esp-drFoto-vd420" src="/ediciones/2022/01/imgs/260-Nut-Ariela-Romo-2.jpg" alt="">
     </div>
 
-    <div class="txt-bx">
+    <div class="texto-bx">
       <div class="col-60">
         <h1 class="f2">El cambio empieza hoy</h1>
         <p class="f1 sumario">Revista BS charló con la nutrióloga Ariela Lizeth Romo de la Ree sobre la importancia de la consulta nutricional en diferentes momentos de nuestra vida. Compartimos sus comentarios</p>

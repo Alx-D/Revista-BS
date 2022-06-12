@@ -25,7 +25,7 @@
       <img class="esp-drFoto-vd420" src="/ediciones/2022/01/imgs/260-Psic-Patricia-Alvarez-2.jpg" alt="">
     </div>
 
-    <div class="txt-bx">
+    <div class="texto-bx">
       <div class="col-60">
         <h1 class="f2">Su tranquilidad importa</h1>
         <p class="f1 sumario">Entender la salud mental y emocional como una prioridad para poder arribar a un estado de plenitud fue la propuesta de la psicóloga Jeannette Patricia Álvarez León</p>

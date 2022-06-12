@@ -196,7 +196,7 @@
 }
 /* TEXTO */
 /* GRALES EN CSS PPAL Y VARIACIONES AQUI */
-#espNota .txt-bx{
+#espNota .texto-bx{
   display: flex;
   justify-content: space-between;
 }
@@ -467,7 +467,7 @@
   #espNota .fa-circle-arrow-right{
     font-size: 30px;
   }
-  #espNota .txt-bx{
+  #espNota .texto-bx{
     display: initial;
   }
   #espNota .col-60{

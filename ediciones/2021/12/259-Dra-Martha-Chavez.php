@@ -1,21 +1,17 @@
 <?php include('includes/head-e259.php') ?>
   <style>
-    .dr-fotocb-bx-vd840 {
+    .esp-drFotoCb-vd840 {
       display: none;
     }
-
-    .dr-fotocb-bx {
+    .esp-drFotoCb {
       width: 100%;
       margin-bottom: auto;
     }
-
-    .dr-fotocb-bx img {
+    .esp-drFotoCb img {
       width: 100%;
-      /* margin-top: -55px; */
     }
-
     @media screen and (max-width: 840px) {
-      .dr-fotocb-bx-vd840 {
+      .esp-drFotoCb-vd840 {
         display: block;
         width: 30%;
         float: right;
@@ -23,20 +19,17 @@
         margin-left: 20px;
         margin-bottom: 20px;
       }
-
-      .dr-fotocb-bx-vd840 img {
+      .esp-drFotoCb-vd840 img {
         width: 100%;
         margin-top: -80px;
         float: right;
       }
-
-      .dr-fotocb-bx {
+      .esp-drFotoCb {
         display: none;
       }
     }
-
     @media screen and (max-width: 680px) {
-      .dr-fotocb-bx-vd840 {
+      .esp-drFotoCb-vd840 {
         display: none;
       }
     }
@@ -45,7 +38,7 @@
 <body>
 <?php include('includes/header-e259.php') ?>
 
-  <article class="contenedor">
+  <article id="espNota" class="contenedor">
     <div class="f1 migas">
       <a href="/index.php">Revista BS</a>
       &nbsp;
@@ -63,13 +56,13 @@
 
     <div class="nombre-bx">
       <h3 class="f3 nombre">Dra. Martha Elena <br class="brvd480">Chávez Rede</h3>
-      <img class="dr-foto-bx-vd420" src="/ediciones/2021/12/imgs/259-Dra-Marta-Chavez-2.png" alt="">
+      <img class="esp-drFoto-vd420" src="/ediciones/2021/12/imgs/259-Dra-Marta-Chavez-2.png" alt="">
     </div>
 
-    <div class="txt-esp-bx">
+    <div class="texto-bx">
       <div class="col-60">
         <h1>Salud, obsequio invaluable</h1>
-        <p class="f3 sumario-esp">La atención a la salud y la prevención son el mejor regalo que como padres se puede ofrecer a los hijos fue la reflexión de la doctora Martha Elena Chávez Rede</p>
+        <p class="f3 sumario">La atención a la salud y la prevención son el mejor regalo que como padres se puede ofrecer a los hijos fue la reflexión de la doctora Martha Elena Chávez Rede</p>
 
         <div class="compartir-bx">
           <i class="fa fa-share"></i>
@@ -86,12 +79,12 @@
           </p>
         </div>
 
-        <div class="dr-foto-bx-vd680">
+        <div class="esp-drFoto-vd680">
           <img src="/ediciones/2021/12/imgs/259-Dra-Marta-Chavez-2.png" alt="">
         </div>
 
-        <div class="txt-esp">
-          <div class="dr-fotocb-bx-vd840">
+        <div class="texto">
+          <div class="esp-drFotoCb-vd840">
             <img src="/ediciones/2021/12/imgs/259-Dra-Marta-Chavez-1.png" alt="">
           </div>
           <p>Los avances recientes en el tratamiento del cáncer incluyen nuevas estrategias terapéuticas, como la introducción de anticuerpos monoclonales dirigidos a proteínas específicas de la célula cancerígena, o la mejora de la radioterapia que tiene como resultado disminuir sus efectos adversos a los tejidos sanos, explicó en conversación con Revista BS la doctora <b>Martha Elena Chávez Rede</b>.</p>
@@ -99,7 +92,7 @@
           <p>Así también, el reconocimiento que han adquirido en tiempo reciente los cuidados paliativos y los enfoques inter y multidisciplinario en el tratamiento del cáncer son logros en este campo que destacó la entrevistada.</p>
           <p>“Definitivamente son cambios que impactan de forma positiva en la sobrevida y el camino que han de recorrer el paciente y su familia”, expresó.</p>
 
-          <p style="color: #35644d;" class="descanso-esp">Balance 2021</p>
+          <p style="color: #35644d;" class="descanso">Balance 2021</p>
           <p>En cuanto a su propia práctica, Chávez Rede destacó la educación continua como un logro personal de este año, así como su constante lucha en la promoción de la detección oportuna del cáncer infantil.</p>
           <p>“Seguir siendo enfática y constante con los colegas, padres y madres de familia y todo aquél cercano a los niños respecto a la importancia de la asistencia a consulta de control de niño sano, puesto que no tenemos forma de realizar un screening para enfermedades malignas en este grupo etario”, compartió.</p>
           <p>En el mismo sentido, puso en relevancia el hecho de que el cáncer infantil no se puede prevenir, por lo tanto, el diagnóstico precoz y correcto es la vía para poder acceder a un tratamiento oportuno y eficaz.</p>
@@ -110,18 +103,18 @@
       </div>
 
       <aside class="col-40">
-        <div class="dr-fotocb-bx">
+        <div class="esp-drFotoCb">
           <img src="/ediciones/2021/12/imgs/259-Dra-Marta-Chavez-1.png" alt="">
         </div>
 
         <div class="col-40-row-2">
-          <div class="formacion-bx">
+          <div class="espFrmBx">
             <img class="uni-logo" src="/imgs/Universidad-Autonoma-Chihuahua.png" alt="">
-            <p class="f3 frc">Formación</p>
-            <p class="f3 frt">Egresada de la Universidad Autónoma de Chihuahua como médico, cirujano y partero, la doctora Martha Elena Chávez Rede se especializó en pediatría en la Universidad Autónoma de Nuevo León y en oncología pediátrica en la Universidad Nacional Autónoma de México. Es miembro de la Sociedad Mexicana de Oncología, de la Agrupación Mexicana de Onco Hematología Pediátrica y de la Sociedad Internacional de Oncología Pediátrica. Está certificada por Consejo Mexicano de Pediatría y Consejo Mexicano de Oncología Pediátrica.</p>
+            <p class="f3 frm-cbz">Formación</p>
+            <p class="f3 frm-txt">Egresada de la Universidad Autónoma de Chihuahua como médico, cirujano y partero, la doctora Martha Elena Chávez Rede se especializó en pediatría en la Universidad Autónoma de Nuevo León y en oncología pediátrica en la Universidad Nacional Autónoma de México. Es miembro de la Sociedad Mexicana de Oncología, de la Agrupación Mexicana de Onco Hematología Pediátrica y de la Sociedad Internacional de Oncología Pediátrica. Está certificada por Consejo Mexicano de Pediatría y Consejo Mexicano de Oncología Pediátrica.</p>
           </div>
 
-          <div class="ctc-bx">
+          <div id="espCtcBx">
             <div class="ctc-foto">
               <img src="/ediciones/2021/12/imgs/259-Dra-Marta-Chavez-3.png" alt="">
             </div>

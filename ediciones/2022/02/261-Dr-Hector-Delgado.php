@@ -25,7 +25,7 @@
       <img class="esp-drFoto-vd420" src="/ediciones/2022/02/imgs/261-Dr-Hector-Delgado-2.jpg" alt="">
     </div>
 
-    <div class="txt-bx">
+    <div class="texto-bx">
       <div class="col-60">
         <h1 class="f2">Comodidad, estética y funcionalidad</h1>
         <p class="f1 sumario">Evitar movimiento de piezas dentales, interferencia en la masticación e, inclusive, problemas en la articulación temporomandibular es el objetivo los implantes dentales</p>

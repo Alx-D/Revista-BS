@@ -25,7 +25,7 @@
       <img class="esp-drFoto-vd420" src="/ediciones/2022/02/imgs/261-Dra-Karla-Lopez-2.jpg" alt="">
     </div>
 
-    <div class="txt-bx">
+    <div class="texto-bx">
       <div class="col-60">
         <h1 class="f2">Al rescate de sus dientitos</h1>
         <p class="f1 sumario">Revista BS charló con la odontopediatra Karla Berenice López Almazán sobre los puntos clave de la salud bucal en los pacientes pediátricos, a continuación compartimos sus comentarios</p>

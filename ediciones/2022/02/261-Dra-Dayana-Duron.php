@@ -25,7 +25,7 @@
       <img class="esp-drFoto-vd420" src="/ediciones/2022/02/imgs/261-Dra-Dayana-Duron-2.jpg" alt="">
     </div>
 
-    <div class="txt-bx">
+    <div class="texto-bx">
       <div class="col-60">
         <h1 class="f2">Salud y belleza en equilibrio</h1>
         <p class="f1 sumario">Lograr una sonrisa bella y armoniosa es sólo una de las aplicaciones de la ortodoncia, la especialista Dayana Durón Rivas habló sobre este amplio campo de la odontología</p>

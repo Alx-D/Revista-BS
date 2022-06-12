@@ -1,3 +1,7 @@
+:root {
+  --color259-1: #729a4a;
+  --color259-3:#35644d;
+}
 /* HEADER */
 #espHdr{
   margin: 0 auto;
@@ -32,16 +36,18 @@
   margin-bottom: -5px;
 }
 #espHdr .header-col-2 h1{
-  font-size: 65px;
+  font-size: 62px;
   line-height: 1.2;
   font-weight: 500;
+  color: var(--color259-3);
   margin-bottom: -5px;
   text-transform: uppercase;
 }
 #espHdr .header-col-2 h3{
-  font-size: 28px;
+  font-size: 30px;
   font-weight: 400;
   line-height: 1;
+  color: var(--color259-1);
 }
 #espHdr .header-col-3{
   width: 16%;
@@ -86,14 +92,14 @@
   font-weight: 600;
   text-transform: uppercase;
   display: inline;
-  color: #729a4a;
+  color: var(--color259-1)
 }
 .brvd480{
   display: none;
 }
 #espNota h1{
   font-family: 'Libre Baskerville', serif;
-  font-size: 60px;
+  font-size: 65px;
   line-height: 1.2;
   font-weight: 400;
   margin-bottom: 10px;
@@ -111,7 +117,7 @@
   display: none;
 }
 /* TEXTO */
-#espNota .txt-bx{
+#espNota .texto-bx{
   display: flex;
   justify-content: space-between;
 }
@@ -157,7 +163,7 @@
 .espFrmBx .frm-cbz{
   font-size: 27px;
   font-weight: 600;
-  color: #35644d;
+  color: var(--color259-3);
   text-transform: uppercase;
   letter-spacing: 2px;
   margin-bottom: 10px;
@@ -172,13 +178,13 @@
 .espFrmBx .frm-txt{
   font-size: 17px;
   line-height: 1.3;
-  color: #35644d;
+  color: var(--color259-3)
 }
 /* CONTACTO-AUTOR */
 #espCtcBx {
   width: 100%;
   padding: 25px;
-  background: #35644d;
+  background: var(--color259-3);
   margin-top: 100px;
   font-family: 'Roboto', sans-serif;
   color: white;
@@ -288,7 +294,7 @@
   padding: 20px 30px 0;
 }
 
-/*----- MEDIAS ------*/
+/*----- MEDIAS GRALES------*/
 @media screen and (max-width: 1100px) {
   /* HEADER */
   #espHdr .desktop-indicador {
@@ -299,6 +305,11 @@
   }
   #espHdr .header-col-2 h3{
     font-size: 2.4vw;
+  }
+}
+@media screen and (max-width: 1024px){
+  .contenedor {
+    width: 100vw
   }
 }
 @media screen and (max-width: 1000px) {
@@ -330,8 +341,8 @@
   #espNota .nombre{
     font-size: 25px;
   }
-  #espNota  h1{
-    font-size: 55px;
+  #espNota h1{
+    font-size: 60px;
   }
   #espNota .sumario{
     font-size: 22px;
@@ -355,7 +366,7 @@
   .texto{
     margin-bottom: 40px;
   }
-  .esp-drFoto-vd840{
+  #espNota .esp-drFoto-vd840{
     display: block;
     background-image: url(/ediciones/2021/12/imgs/259-back-esp.png);
     width: 30%;
@@ -364,7 +375,7 @@
     margin-top: -40px;
     margin-left: 20px;
   }
-  .esp-drFoto-vd840 img{
+  #espNota .esp-drFoto-vd840 img{
     width: 100%;
     margin-top: -80px;
     float: right;
@@ -382,7 +393,7 @@
     width: 100%;
     position: initial;
   }
-  .espFrmBx {
+  #espNota .espFrmBx {
     width: 48%;
     margin-top: 0;
     float: left;
@@ -404,7 +415,7 @@
   .compartir-bx {
     margin-bottom: 20px;
   }
-  .header-col-2 h1{
+  #espHdr .header-col-2 h1{
     font-size: 45px;
   }
 }
@@ -484,6 +495,7 @@
     font-size: 7vw;
     font-weight: 500;
     margin-top: 5px;
+    color: var(--color259-3);
   }
   #espHdr .menu-mobile {
     width: auto;
@@ -549,7 +561,7 @@
     display: block;
   }
   /* ASIDE */
-  .espFrmBx{
+  #espNota .espFrmBx{
     width: 100%;
     margin-bottom: 25px;
     float: none;
@@ -567,10 +579,10 @@
 @media screen and (max-width: 580px){
   /* NOTA */
   #espNota .nombre{
-    font-size: 24px;
+    font-size: 23px;
   }
   #espNota h1{
-    font-size: 50px;
+    font-size: 55px;
     margin-bottom: 10px;
   }
   #espNota .sumario{
@@ -603,13 +615,13 @@
     padding: 20px 20px 80px;
   }
   #espNota .nombre{
-    font-size: 22px;
+    font-size: 21px;
   }
   .brvd480{
     display: block;
   }
   #espNota h1{
-    font-size: 45px;
+    font-size: 50px;
     margin-bottom: 10px;
   }
   #espNota .sumario{
@@ -638,8 +650,6 @@
   .credito-autor i {
     font-size: 11px;
   }
-
-
   /* NOTA */
   .texto{
     font-size: 18px;
@@ -672,26 +682,26 @@
   #espNota .fa-circle-arrow-right{
     font-size: 20px;
   }
-  .esp-drFoto-vd680{
+  #espNota .esp-drFoto-vd680{
     display: none;
   }
   #espNota .nombre-bx{
     width: 100%;
     background: #eccd89;
   }
-  #espNota .nombre{
-    font-size: 24px;
-    color: #35644d;
+  #espNota .nombre {
+    font-size: 23px;
+    color: var(--color259-3);
     margin-left: 20px;
     align-self: center;
     line-height: 1.2;
   }
-  #espNota .esp-drFoto-vd420{
+  #espNota .esp-drFoto-vd420 {
     display: block;
     width: 45%;
     float: right;
   }
-  #espNota .esp-drFoto-vd420 img{
+  #espNota .esp-drFoto-vd420 img {
     width: 100%;
     display: block;
   }
@@ -702,7 +712,7 @@
     margin: -15px auto 20px;
   }
   .espFrmBx .uni-logo{
-    width: 60px;
+    width: 54px;
     margin-right: 12px;
     margin-bottom: 5px;
   }
@@ -720,10 +730,10 @@
     font-size: 10px;
   }
   #espNota .nombre{
-    font-size: 22px;
+    font-size: 21px;
   }
   #espNota h1{
-    font-size: 38px;
+    font-size: 45px;
     margin-bottom: 10px;
   }
   #espNota .texto{
