@@ -3,7 +3,7 @@
 <body>
   <?php include('includes/header-e259.php') ?>
 
-  <article class="contenedor">
+  <article id="espNota" class="contenedor">
     <div class="f1 migas">
       <a href="/index.php">Revista BS</a>
       &nbsp;
@@ -21,13 +21,13 @@
 
     <div class="nombre-bx">
       <h3 class="f3 nombre">Dr. Mario Benjamín <br class="brvd480">Vizcaíno Ahumada</h3>
-      <img class="dr-foto-bx-vd420" src="/ediciones/2021/12/imgs/259-Dr-Mario-Vizcaino-2.png" alt="">
+      <img class="esp-drFoto-vd420" src="/ediciones/2021/12/imgs/259-Dr-Mario-Vizcaino-2.png" alt="">
     </div>
 
-    <div class="txt-esp-bx">
+    <div class="texto-bx">
       <div class="col-60">
         <h1>Buenos hábitos, columna sana</h1>
-        <p class="f3 sumario-esp">Desde el campo de la neurocirugía, el doctor Mario Benjamín Vizcaíno Ahumada realizó algunas recomendaciones para un 2022 con salud y bienestar</p>
+        <p class="f3 sumario">Desde el campo de la neurocirugía, el doctor Mario Benjamín Vizcaíno Ahumada realizó algunas recomendaciones para un 2022 con salud y bienestar</p>
 
         <div class="compartir-bx">
           <i class="fa fa-share"></i>
@@ -44,12 +44,12 @@
           </p>
         </div>
 
-        <div class="dr-foto-bx-vd680">
+        <div class="esp-drFoto-vd680">
           <img src="/ediciones/2021/12/imgs/259-Dr-Mario-Vizcaino-2.png" alt="">
         </div>
 
-        <div class="txt-esp">
-          <div class="dr-foto-bx-vd840" style="margin-bottom: 100px;">
+        <div class="texto">
+          <div class="esp-drFoto-vd840" style="margin-bottom: 100px;">
             <img src="/ediciones/2021/12/imgs/259-Dr-Mario-Vizcaino-1.png" alt="">
           </div>
           <p>Fomentar hábitos adecuados que mantengan la columna espinal en perfecto estado fue la recomendación del doctor <b>Mario Benjamín Vizcaíno Ahumada</b>, neurocirujano.</p>
@@ -57,7 +57,7 @@
           <p>Mantener el peso corporal en control, procurar una alimentación balanceada y evitar por completo el uso de tabaco fueron algunos puntos clave que enlistó.</p>
           <p>“Definitivamente, en busca de una salud mental y de columna espinal es fundamental realizar ejercicios de fortalecimiento muscular, primordialmente abdominal, de espalda, pierna y glúteo, lo que genera una importante protección de enfermedades de la columna espinal”, detalló.</p>
 
-          <p style="color: #35644d;" class="descanso-esp">Buenas nuevas</p>
+          <p style="color: #35644d;" class="descanso">Buenas nuevas</p>
           <p>Vizcaíno Ahumada habló de los últimos progresos de la neurocirugía que para él son motivo de celebración.</p>
           <p>“Se han presentado importantes avances tecnológicos en la neurocirugía, como mejores microscopios de trabajo, así como brazos robóticos y equipos de neuronavegación que representan una ayuda importante para la realización de procedimientos quirúrgicos más seguros y eficaces”, destacó.</p>
           <p>En cuanto a alcances de su propia práctica médica, el entrevistado subrayó la experiencia adquirida con preparación y actualización en técnicas quirúrgicas y la adopción de mejores equipos tecnológicos para cirugías más seguras.</p>
@@ -68,18 +68,18 @@
       </div>
 
       <aside class="col-40">
-        <div class="dr-foto-bx">
+        <div class="esp-drFoto">
           <img src="/ediciones/2021/12/imgs/259-Dr-Mario-Vizcaino-1.png" alt="">
         </div>
 
         <div class="col-40-row-2">
-          <div class="formacion-bx">
+          <div class="espFrmBx">
             <img class="uni-logo" src="/imgs/Universidad-de-Guadalajara.png" alt="">
-            <p class="f3 frc">Formación</p>
-            <p class="f3 frt">Con más de 10 años de experiencia, el doctor Mario Benjamín Vizcaíno Ahumada es médico, cirujano y partero por la Universidad de Guadalajara, se especializó en neurocirugía y cirugía de columna espinal en el Centro Médico Nacional de Occidente en Guadalajara. Realizó un adiestramiento en tumores y columna en Hannover, Alemania. En su práctica brinda tratamiento y cirugía de adultos y niños, patologías de cerebro y columna espinal.</p>
+            <p class="f3 frm-cbz">Formación</p>
+            <p class="f3 frm-txt">Con más de 10 años de experiencia, el doctor Mario Benjamín Vizcaíno Ahumada es médico, cirujano y partero por la Universidad de Guadalajara, se especializó en neurocirugía y cirugía de columna espinal en el Centro Médico Nacional de Occidente en Guadalajara. Realizó un adiestramiento en tumores y columna en Hannover, Alemania. En su práctica brinda tratamiento y cirugía de adultos y niños, patologías de cerebro y columna espinal.</p>
           </div>
 
-          <div class="ctc-bx">
+          <div id="espCtcBx">
             <div class="ctc-foto">
               <img src="/ediciones/2021/12/imgs/259-Dr-Mario-Vizcaino-3.png" alt="">
             </div>

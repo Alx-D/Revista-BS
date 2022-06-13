@@ -3,7 +3,7 @@
 <body>
 <?php include('includes/header-e259.php') ?>
 
-  <article class="contenedor">
+  <article id="espNota" class="contenedor">
     <div class="f1 migas">
       <a href="/index.php">Revista BS</a>
       &nbsp;
@@ -21,13 +21,13 @@
 
     <div class="nombre-bx">
       <h3 class="f3 nombre">Dra. Alay <br class="brvd480">Nenninger Hoyos</h3>
-      <img class="dr-foto-bx-vd420" src="/ediciones/2021/12/imgs/259-Dra-Alay-Nenninger-2.png" alt="">
+      <img class="esp-drFoto-vd420" src="/ediciones/2021/12/imgs/259-Dra-Alay-Nenninger-2.png" alt="">
     </div>
 
-    <div class="txt-esp-bx">
+    <div class="texto-bx">
       <div class="col-60">
         <h1>Aplicar lo aprendido, cuidar la salud</h1>
-        <p class="f3 sumario-esp">Poner en perspectiva lo que la pandemia por Covid-19 nos ha enseñado es una de las reflexiones de fin de año de la ginecóloga Alay Nenninger Hoyos</p>
+        <p class="f3 sumario">Poner en perspectiva lo que la pandemia por Covid-19 nos ha enseñado es una de las reflexiones de fin de año de la ginecóloga Alay Nenninger Hoyos</p>
 
         <div class="compartir-bx">
           <i class="fa fa-share"></i>
@@ -44,12 +44,12 @@
           </p>
         </div>
 
-        <div class="dr-foto-bx-vd680">
+        <div class="esp-drFoto-vd680">
           <img src="/ediciones/2021/12/imgs/259-Dra-Alay-Nenninger-2.png" alt="">
         </div>
 
-        <div class="txt-esp">
-          <div class="dr-foto-bx-vd840" style="margin-bottom: 80px;">
+        <div class="texto">
+          <div class="esp-drFoto-vd840" style="margin-bottom: 80px;">
             <img src="/ediciones/2021/12/imgs/259-Dra-Alay-Nenninger-1.png" alt="">
           </div>
           <p>No obstantes los grandes retos que ha implicado para los profesionales de la salud y la angustia para los pacientes y sus familias, tener en cuenta los avances con los que se le ha hecho frente al coronavirus es la propuesta de <b>Alay Nenninger Hoyos</b>, ginecóloga.</p>
@@ -57,7 +57,7 @@
           <p>Tanto en los ámbitos personal como profesional, la entrevistada destacó aspectos positivos que vivió durante 2021.</p>
           <p>“Este año ha sido de mucha enseñanza, sobre todo de lo que no podemos ver, el ámbito espiritual, creo que la distancia nos obligó a crear lazos de empatía y solidaridad tan necesarios en estos tiempos”, compartió.</p>
 
-          <p style="color: #35644d;" class="descanso-esp">Nuevo enfoque</p>
+          <p style="color: #35644d;" class="descanso">Nuevo enfoque</p>
           <p>Un especial interés de sus pacientes por dar a luz a través de parto natural fue un avance positivo desde el campo de la ginecología que la especialista reconoció de este último año.</p>
           <p>“Tuvimos muchísimas pacientes que desean tener su parto vía vaginal”, enfatizó, “y el acompañamiento es fundamental para un desenlace favorable, así que fue un año muy gratificante”.</p>
           <p>Para la salud en general, como para llevar un embarazo lo más sano posible, un viraje hacia los hábitos saludables fue la recomendación de la doctora Nenninger Hoyos quien hizo algunas recomendaciones para comenzar un 2022 más saludable.</p>
@@ -66,18 +66,18 @@
       </div>
 
       <aside class="col-40">
-        <div class="dr-foto-bx">
+        <div class="esp-drFoto">
           <img src="/ediciones/2021/12/imgs/259-Dra-Alay-Nenninger-1.png" alt="">
         </div>
 
         <div class="col-40-row-2">
-          <div class="formacion-bx">
+          <div class="espFrmBx">
             <img class="uni-logo" src="/imgs/Universidad-Autonoma-Baja-California.png" alt="">
-            <p class="f3 frc">Formación</p>
-            <p class="f3 frt">Egresada como médico general de la Universidad Autónoma de Baja California, la doctora Alay Nenninger Hoyos es especialista en ginecología y obstetricia por la Universidad Nacional Autónoma de México. Realizó un diplomado en colposcopía en Hospital General de México y uno más en ultrasonido en ginecología. Ha trabajado en diversos hospitales públicos y privados de Sonora.</p>
+            <p class="f3 frm-cbz">Formación</p>
+            <p class="f3 frm-txt">Egresada como médico general de la Universidad Autónoma de Baja California, la doctora Alay Nenninger Hoyos es especialista en ginecología y obstetricia por la Universidad Nacional Autónoma de México. Realizó un diplomado en colposcopía en Hospital General de México y uno más en ultrasonido en ginecología. Ha trabajado en diversos hospitales públicos y privados de Sonora.</p>
           </div>
 
-          <div class="ctc-bx">
+          <div id="espCtcBx">
             <div class="ctc-foto">
               <img src="/ediciones/2021/12/imgs/259-Dra-Alay-Nenninger-3.png" alt="">
             </div>

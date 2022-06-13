@@ -3,7 +3,7 @@
 <body>
 <?php include('includes/header-e259.php') ?>
 
-  <article class="contenedor">
+  <article id="espNota" class="contenedor">
     <div class="f1 migas">
       <a href="/index.php">Revista BS</a>
       &nbsp;
@@ -21,13 +21,13 @@
 
     <div class="nombre-bx">
       <h3 class="f3 nombre">Dra. Claudia Alejandra <br class="brvd480">Montenegro Amador</h3>
-      <img class="dr-foto-bx-vd420" src="/ediciones/2021/12/imgs/259-Dra-Claudia-Montenegro-2.png" alt="">
+      <img class="esp-drFoto-vd420" src="/ediciones/2021/12/imgs/259-Dra-Claudia-Montenegro-2.png" alt="">
     </div>
 
-    <div class="txt-esp-bx">
+    <div class="texto-bx">
       <div class="col-60">
         <h1>Luz que da esperanza</h1>
-        <p class="f3 sumario-esp">Agradecida por ayudar un año más a sus pacientes a vencer el cáncer y mejorar su calidad de vida, la doctora Montenegro Amador habló sobre la radioterapia en la actualidad</p>
+        <p class="f3 sumario">Agradecida por ayudar un año más a sus pacientes a vencer el cáncer y mejorar su calidad de vida, la doctora Montenegro Amador habló sobre la radioterapia en la actualidad</p>
 
         <div class="compartir-bx">
           <i class="fa fa-share"></i>
@@ -44,12 +44,12 @@
           </p>
         </div>
 
-        <div class="dr-foto-bx-vd680">
+        <div class="esp-drFoto-vd680">
           <img src="/ediciones/2021/12/imgs/259-Dra-Claudia-Montenegro-2.png" alt="">
         </div>
 
-        <div class="txt-esp">
-          <div class="dr-foto-bx-vd840" style="margin-bottom: 80px;">
+        <div class="texto">
+          <div class="esp-drFoto-vd840" style="margin-bottom: 80px;">
             <img src="/ediciones/2021/12/imgs/259-Dra-Claudia-Montenegro-1.png" alt="">
           </div>
           <p>Mediante el uso de rayos X, rayos gamma de alta energía, haces de electrones y otras radiaciones ionizantes, la radiooncología es el campo de la medicina que se dedica al diagnóstico, cuidados clínicos y terapéuticos de los pacientes oncológicos, expuso en charla con Revista BS la doctora <b>Claudia Alejandra Montenegro Amador</b>.</p>
@@ -65,18 +65,18 @@
       </div>
 
       <aside class="col-40">
-        <div class="dr-foto-bx">
+        <div class="esp-drFoto">
           <img src="/ediciones/2021/12/imgs/259-Dra-Claudia-Montenegro-1.png" alt="">
         </div>
 
         <div class="col-40-row-2">
-          <div class="formacion-bx">
+          <div class="espFrmBx">
             <img class="uni-logo" src="/imgs/UNAM.png" alt="">
-            <p class="f3 frc">Formación</p>
-            <p class="f3 frt">Médico cirujano, especialista en radiooncología, egresada de la Universidad Nacional Autónoma de México. Experta en el tratamiento y seguimiento de pacientes con cáncer. Labora de manera institucional en IMSS e ISSSTESON y de manera privada para Hospital CIMA y Hospital San José en Hermosillo.</p>
+            <p class="f3 frm-cbz">Formación</p>
+            <p class="f3 frm-txt">Médico cirujano, especialista en radiooncología, egresada de la Universidad Nacional Autónoma de México. Experta en el tratamiento y seguimiento de pacientes con cáncer. Labora de manera institucional en IMSS e ISSSTESON y de manera privada para Hospital CIMA y Hospital San José en Hermosillo.</p>
           </div>
 
-          <div class="ctc-bx">
+          <div id="espCtcBx">
             <div class="ctc-foto">
               <img src="/ediciones/2021/12/imgs/259-Dra-Claudia-Montenegro-3.png" alt="">
             </div>

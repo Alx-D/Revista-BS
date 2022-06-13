@@ -1,146 +1,83 @@
-* {
-  margin: 0px;
-  padding: 0px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-ol, ul {
-  list-style: none;
-}
-a {
-  text-decoration: none;
-  color: black;
-}
-.f1 {
-  font-family: "Nunito Sans", sans-serif;
-}
-.f2 {
-  font-family: "Oswald", sans-serif;
-}
-.f3 {
-  font-family: "Roboto Condensed", sans-serif;
-}
-.guion {
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  -ms-hyphens: auto;
-  hyphens: auto;
-  word-wrap: break-word;
-}
-:root {
-  --naranja-claro: #ebb730;
-  --naranja-oscuro: #db813f;
-  --azul-claro: #0094d7;
-  --azul-oscuro: #344497;
-  --morado: #612f8c;
-  --verde: #6dab51;
-  --rojo-oscuro: #953829;
-  --rojo: #b3272d;
-  --verde-logo-1: #275c6d;
-  --gris-claro: #e6e6de;
-  --gris-medio: #bbbbae;
-  --gris-oscuro: #6d6d70;
-}
-.rojoc {background: #c3242b;}
-.rojoo {background: #a1262a;}
-.verde {background: #6dab51;}
-.azulo {background: #344497;}
-.azulc {background: #0094d7;}
-.naranjao {background: #db813f;}
-.naranjac {background: #ebb730;}
-.morado {background: #612f8c;}
-.verde1 {background: #275c6d;}
-.grisc {background: #e6e6de}
-.grism {background: #bbbbae}
-.griso {background: #6d6d70}
-.lbco{color: white;}
-
-.contenedor {
-  width: 100vw;
-  max-width: 1100px;
-}
-
 /* HEADER */
-header{
+#espHdr {
   margin: 0 auto;
 }
-.header-mobile-cont{
+#espHdr .mobile-cont{
   display: none;
 }
-.header-desktop-cont{
+#espHdr .desktop-cont{
   display: flex;
   padding: 30px 30px 0px 30px;
   justify-content: space-between;
   align-items: center;
   background: #e8e5e0;
 }
-.header-col-1 {
+#espHdr .header-col-1 {
   width: 15%;
   margin-right: 3%;
 }
-.revista-bs-logo-bx {
+#espHdr .desktop-logo-bx {
   width: 100%;
 }
-.revista-bs-logo-bx img {
+#espHdr .desktop-logo-bx img {
   width: 100%;
 }
-.header-col-2{
+#espHdr .header-col-2{
   width: 60%;
 }
-.indicador {
+#espHdr .desktop-indicador {
   font-size: 23px;
   font-weight: 400;
   color: #555;
   margin-bottom: -2px;
 }
-.header-col-2 h1{
+#espHdr .header-col-2 h1{
   font-size: 55px;
   line-height: 1.2;
   font-weight: 700;
   margin-bottom: -5px;
 }
-.header-col-2 h3{
+#espHdr .header-col-2 h3{
   font-size: 28px;
   font-weight: 600;
   line-height: 1;
 }
-.header-col-3{
+#espHdr .header-col-3{
   width: 16%;
   margin-right: 15px;
 }
-.header-col-3 img{
+#espHdr .header-col-3 img{
   width: 100%;
 }
 /* NOTA */
-article{
+#espNota {
   margin: 0 auto;
   padding: 30px 30px 80px;
   background: #f6f6f4;
 }
-.dr-foto-bx-vd420{
+#espNota .esp-drFoto-vd420 {
   display: none;
 }
-.migas {
+#espNota .migas {
   font-size: 15px;
   margin-bottom: 10px;
 }
-.migas  .fa-angle-right{
+#espNota .migas .fa-angle-right{
   font-size: 15px;
   margin-right: unset;
 }
-.fa-circle-arrow-right{
+#espNota .fa-circle-arrow-right{
   float: right;
   font-size: 35px;
   color: #ff6b5b;
 }
-.fa-circle-arrow-right:hover{
+#espNota .fa-circle-arrow-right:hover{
   color: #ff4d3c;
 }
-.nombre-bx{
+#espNota .nombre-bx{
   margin-bottom: 20px;
 }
-.circulo-diabetes{
+#espNota .circulo-diabetes{
   width: 60px;
   height: 60px;
   display: inline-block;
@@ -148,7 +85,7 @@ article{
   border: 9px solid #1677f2;
   margin-right: 15px;
 }
-.nombre{
+#espNota .nombre{
   font-size: 27px;
   line-height: 1.1;
   font-weight: 700;
@@ -159,124 +96,46 @@ article{
 .brvd680{
   display: none;
 }
-article h1{
+#espNota h1{
   font-size: 60px;
   line-height: 1.2;
   font-weight: 400;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-.sumario-esp{
+.sumario{
   font-size: 24px;
   line-height: 1.5;
   font-weight: 400;
   margin-bottom: 30px;
 }
-.dr-foto-bx-vd840{
+#espNota .esp-drFoto-vd840{
   display: none;
 }
-.dr-foto-bx-vd680{
+#espNota .esp-drFoto-vd680{
   display: none;
 }
- /* COMPARTIR */
-.compartir-bx {
-  height: 30px;
-  display: flex;
-  align-items: center;
-  margin-bottom: 30px;
-}
-.fa-share {
-  font-size: 18px;
-  margin-right: 5px;
-  color: #9999a1;
-}
-.compartir {
-  font-size: 16px;
-  margin-right: 15px;
-  color: #66666e;
-}
-.whatsapp-compartir {
-  font-size: 25px;
-  color: #25d366;
-  text-decoration: none;
-  padding: 5px;
-  margin-right: 10px;
-}
-.facebook-compartir {
-  font-size: 25px;
-  color: #1677f2;
-  text-decoration: none;
-  padding: 5px;
-  margin-right: 10px;
-}
-.envelope-compartir {
-  font-size: 23px;
-  color: #676869;
-  text-decoration: none;
-  padding: 5px;
-  margin-right: 10px;
-}
-.link-compartir {
-  font-size: 20px;
-  color: #676869;
-  text-decoration: none;
-  padding: 5px;
-  margin-right: 10px;
-}
-
-/* CREDITO */
-.credito-rd-bx {
-  width: 100%;
-  margin-bottom: 20px;
-}
-.credito-autor {
-  font-size: 15px;
-  line-height: 1.3;
-}
-.credito-autor strong {
-  color: var(--verde-logo-1);
-}
-.credito-autor i {
-  font-size: 13px;
-}
-
 /* TEXTO */
-.txt-esp-bx{
+#espNota .texto-bx {
   display: flex;
   justify-content: space-between;
 }
-.col-60{
+#espNota .col-60{
   width: 58%;
 }
-.txt-esp{
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 20px;
+.texto{
   font-weight: 300;
   line-height: 1.6;
 }
-.txt-esp p {
+.texto>p {
   margin-bottom: 7px;
 }
-.txt-esp p span {
-  font-size: 20px;
-  font-weight: 700;
+.descanso {
+/* poner color */
 }
-.descanso-esp {
-  font-size: 23px;
-  line-height: 1.2;
-  font-weight: 700;
-  color: var(--verde-logo-1);
-  margin-top: 40px;
-}
-.txt-esp-preg{
-  font-weight: 500;
-  margin-top: 20px;
-}
-.remate-esp{
-  font-size: 14px;
+.remate{
   color: #dbdbd2;
 }
-
 /* ASIDE */
 .col-40{
   width: 38%;
@@ -432,159 +291,32 @@ article h1{
 }
 
 /* FOOTER */
-footer{
+.footer-row-1,
+.footer-row-2{
+  width: 100vw;
+  max-width: 1100px;
   margin: 0 auto;
-}
-.footer-row-1 {
-  background: var(--verde-logo-1)
-}
-.footer-mision {
-  font-size: 16px;
-  line-height: 2.2;
-  font-weight: 600;
-  text-align: center;
-  letter-spacing: 2px;
-  color: #fff;
-}
-.footer-row-2 {
-  height: auto;
-  background: #e8e5e0;
 }
 .footer-cont {
   padding: 20px 30px 0;
-  display: flex;
-}
-.footer-col-2 {
-  width: 35%;
-  margin: 0 30px 0 70px;
-}
-.footer-BSlogo-bx {
-  width: 150px;
-}
-.footer-BSlogo-bx img {
-  width: 100%;
-}
-.anunciese, .footer-tel {
-  font-size: 19px;
-  margin-bottom: 5px;
-}
-.footer-icon {
-  font-size: 16px;
-  color: #696969;
-}
-.footer-email {
-  font-size: 18px;
-  text-decoration: underline;
-  display: inline-block;
-  margin-bottom: 10px;
-  white-space: nowrap;
-}
-.footer-direccion {
-  font-size: 15px;
-  line-height: 1.3;
-}
-.footer-col-3 {
-  width: 40%;
-}
-.footer-col-3 p {
-  font-size: 15px;
-  line-height: 1.3;
-  margin-bottom: 7px;
-}
-.footer-col-3 a {
-  font-size: 13px;
-  text-decoration: underline;
-  display: inline-block;
-  margin-right: 5px;
-}
-.btn-siganos {
-  width: 170px;
-  height: 70px;
-  border: 3px solid #eee;
-  border-radius: 6px;
-  background: #1778f2;
-  margin-top: 20px;
-  margin-left: 50px;
-  text-align: center;
-  padding-top: 6px;
-  box-shadow: 5px 6px 10px 0px #c2c2c2;
-}
-.btn-siganos p {
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 18px;
-  color: #fff;
-}
-.btn-siganos:hover {
-  background-color: #2d69bd;
-}
-.btn-siganos:active {
-  position: relative;
-  top: 1px;
-}
-.btn-siganos-pr {
-  display: none;
-  width: 150px;
-  height: 70px;
-  border: 3px solid #eee;
-  border-radius: 6px;
-  background: #1778f2;
-  margin-top: 20px;
-  margin-left: 50px;
-  text-align: center;
-  padding-top: 6px;
-  box-shadow: 5px 6px 10px 0px #c2c2c2;
-}
-.btn-siganos-pr p {
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 18px;
-  color: #fff;
-}
-.btn-siganos-pr:hover {
-  background-color: #2d69bd;
-}
-.btn-siganos-pr:active {
-  position: relative;
-  top: 1px;
-}
-.duarte-firma {
-  width: 265px;
-  margin: 50px auto 0;
-  font-family: sans-serif;
-  font-size: 12.5px;
-  line-height: 1.9;
-  color: #fff;
-  text-align: center;
-  background: #28539c;
-  border-radius: 8px;
-}
-.duarte-firma a {
-  color: #fff;
 }
 
-/*----- MEDIAS ------*/
+/*----- MEDIAS GRALES------*/
 @media screen and (max-width: 1100px) {
   /* HEADER */
-  .indicador {
+  #espHdr .desktop-indicador {
     font-size: 21px;
   }
-  .header-col-2 h1{
+  #espHdr .header-col-2 h1{
     font-size: 50px;
   }
-  .header-col-2 h3{
+  #espHdr .header-col-2 h3{
     font-size: 2.4vw;
   }
 }
-@media screen and (max-width: 1024px) {
-  /* HEADER */
-  .flecha-svg-der{
-    width: 40px;
-  }
-  /* FOOTER */
-  .footer-col-2 {
-    margin: 0 25px 0 40px;
-  }
-  .btn-siganos {
-    margin-left: 35px;
+@media screen and (max-width: 1024px){
+  .contenedor {
+    width: 100vw
   }
 }
 @media screen and (max-width: 1000px) {
@@ -597,44 +329,21 @@ footer{
 }
 @media screen and (max-width: 980px){
   /* HEADER */
-  .header-cont{
+  #espHdr .header-cont{
     padding-top: 30px;
   }
-  .indicador {
+  #espHdr .desktop-indicador {
     font-size: 20px;
-  }
-  .flecha-svg-der{
-    width: 35px;
   }
   /* ASIDE */
   .dr-foto-bx{
     margin-top: 80px;
   }
-  /* FOOTER */
-  .footer-email {
-    font-size: 17px;
-  }
-  .footer-direccion {
-    font-size: 14px;
-  }
-  .footer-col-3 p {
-    font-size: 14px;
-    margin-bottom: 6px;
-  }
-  .footer-col-3 a {
-    font-size: 13px;
-  }
-  .btn-siganos {
-    margin-left: 30px;
-  }
 }
 @media screen and (max-width: 920px){
   /* HEADER */
-  .indicador {
+  #espHdr .desktop-indicador {
     font-size: 19px;
-  }
-  .flecha-svg-der{
-    width: 30px;
   }
   /* 92NOTA */
   article{
@@ -654,32 +363,10 @@ footer{
   .sumario-esp{
     font-size: 22px;
   }
-  /* 92FOOTER */
-  .footer-BSlogo-bx {
-    width: 120px;
-  }
-  .footer-BSlogo-bx img {
-    width: 100%;
-  }
-  .footer-col-2 {
-    margin: 0 25px 0 35px;
-  }
-  .footer-email {
-    font-size: 16px;
-  }
-  .btn-siganos {
-    width: 140px;
-    height: 64px;
-    margin-top: 15px;
-    margin-left: 15px;
-  }
-  .btn-siganos p {
-    font-size: 15px;
-  }
 }
 @media screen and (max-width: 840px){
   /* HEADER */
-  .indicador{
+  #espHdr .desktop-indicador {
     font-size: 18px;
   }
   /* NOTA */
@@ -754,139 +441,78 @@ footer{
   .nombre-bx{
     margin-bottom: 15px;
   }
-  /* 82FOOTER */
-  .footer-col-2 {
-    margin: 0 20px 0 30px;
-  }
-  .footer-col-3 {
-    width: 35%;
-  }
-  .footer-email {
-    font-size: 15px;
-  }
 }
 @media screen and (max-width: 780px){
   /* HEADER */
-  .header-col-1{
+  #espHdr .header-col-1{
     margin-right: 4%;
   }
-  .header-col-2{
+  #espHdr .header-col-2{
     width: 80%;
   }
-  .indicador {
+  #espHdr .desktop-indicador {
     font-size: 2.3vw;
   }
-  .header-col-2 h1{
+  #espHdr .header-col-2 h1{
     font-size: 6vw;
   }
-  .header-col-2 h3{
+  #espHdr .header-col-2 h3{
     font-size: 2.6vw;
     margin-bottom: 10px;
   }
-  .header-col-3{
-    display: none;
-  }
-}
-@media screen and (max-width: 768px){
-  /* 76FOOTER */
-  .footer-cont {
-    padding: 25px 40px 0 ;
-    flex-direction: column;
-  }
-  .footer-col-1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 15px;
-  }
-  .btn-siganos-pr {
-    display: inline-block;
-    margin: auto 0 auto;
-  }
-  .footer-row-2 {
-    height: auto;
-  }
-  .footer-col-2, .footer-col-3 {
-    width: 100%;
-    margin: 0 auto;
-  }
-  .footer-tel {
-    margin-right: 20px;
-  }
-  .footer-tel, .footer-email {
-    display: inline-block;
-  }
-  .anunciese, .footer-tel, .footer-email {
-    margin-bottom: 7px;
-  }
-  .footer-email {
-    font-size: 19px;
-  }
-  .footer-direccion {
-    font-size: 16px;
-    margin-bottom: 12px;
-  }
-  .btn-siganos {
+  #espHdr .header-col-3{
     display: none;
   }
 }
 @media screen and (max-width: 680px){
   /* HEADER */
-  .header-mobile-cont{
+  #espHdr .mobile-cont{
     display: block;
     background: #e8e5e0;
     padding: 15px 0 5px;
   }
-  .header-desktop-cont{
-    padding: 30px 25px 0px 25px;
+  #espHdr .desktop-cont{
     display: none;
   }
-  .header-mobile-row {
+  #espHdr .mobile-row {
     margin: 15px auto;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
   }
-  .fa-bars {
+  #espHdr .fa-bars {
     font-size: 5vw;
     margin-left: 20px;
   }
-  header .fa-bars, .fa-angle-right {
+  #espHdr .fa-bars {
     display: block;
     visibility: visible;
     align-self: center;
     color: #777;
     z-index: 9;
   }
-  header .fa-angle-right{
-    font-size: 45px;
-    margin-right: 20px;
-  }
-  .hlmbx{
+  #espHdr .hlmbx{
     display: flex;
     justify-content: center;
   }
-  .logo-mobile-bx{
+  #espHdr .mobile-logo-bx{
     width: 20vw;
     margin-right: 3vw;
   }
-  .logo-mobile-bx img{
+  #espHdr .mobile-logo-bx img{
     width: 100%;
   }
-  .esp-mobile-bx{
+  #espHdr .mobile-cbz-bx {
     align-self: center;
   }
-  .indicador{
+  #espHdr .mobile-indicador{
     font-size: 3vw;
   }
-  .esp-mobile-bx h1{
+  #espHdr .mobile-cbz-bx h1{
     font-size: 8vw;
     margin-top: 5px;
   }
-  .header-mobile-row-1 .flecha-svg-der{
-    align-self: center;
-  }
-  .menu-mobile {
+  #espHdr .menu-mobile {
     width: auto;
     height: 100vh;
     text-align: left;
@@ -897,14 +523,14 @@ footer{
     z-index: 10;
     transition: 1s;
   }
-  .menu-mobile ul {
+  #espHdr .menu-mobile ul {
     padding: 35px;
   }
-  .menu-mobile li {
+  #espHdr .menu-mobile li {
     display: block;
     margin-bottom: 22px;
   }
-  .menu-mobile .fas {
+  #espHdr .menu-mobile .fas {
     display: block;
     color: #fff;
     margin: 20px 0 0 20px;
@@ -912,7 +538,7 @@ footer{
     cursor: pointer;
     z-index: 11;
   }
-  .menu-mobile ul li a {
+  #espHdr .menu-mobile ul li a {
     font-family: "Oswald", sans-serif;
     font-size: 20px;
     font-weight: 400;
@@ -991,31 +617,22 @@ footer{
 }
 @media screen and (max-width: 520px){
   /* 52HEADER */
-  .fa-bars {
+  #espHdr .fa-bars {
     font-size: 28px;
     margin-left: 20px;
-  }
-  .fa-angle-right{
-    font-size: 38px;
-    margin-right: 20px;
   }
   /* 52NOTA */
   .migas {
     font-size: 12px;
     margin-bottom: 20px;
   }
-  .migas  .fa-angle-right{
+  .migas .fa-angle-right{
     font-size: 12px;
-  }
-  /* 52FOOTER */
-  .duarte-firma {
-    width: 225px;
-    font-size: 11px;
   }
 }
 @media screen and (max-width: 480px){
   /* HEADER */
-  .header-desktop-cont{
+  #espHdr .desktop-cont{
     padding: 30px 20px 0px 20px;
   }
   /* NOTA */
@@ -1038,6 +655,8 @@ footer{
   .sumario-esp{
     line-height: 1.3;
   }
+
+  /* REVISAR ESTA PARTE */
   /* COMPARTIR */
   .whatsapp-compartir,
   .facebook-compartir {
@@ -1083,26 +702,12 @@ footer{
     font-size: 15px;
     line-height: 1.3;
   }
-  /* 48FOOTER */
-  .footer-cont {
-    padding: 25px 30px 0;
-  }
-  .footer-mision {
-    font-size: 17px;
-  }
-  .btn-siganos-pr {
-    width: 130px;
-  }
 }
 @media screen and (max-width: 420px){
   /* 42HEADER MOBILE */
-  .fa-bars {
+  #espHdr .fa-bars {
     font-size: 26px;
     margin-left: 15px;
-  }
-  .fa-angle-right{
-    font-size: 32px;
-    margin-right: 15px;
   }
   /* NOTA */
   .fa-circle-arrow-right{
@@ -1148,17 +753,14 @@ footer{
 }
 @media screen and (max-width: 360px){
   /* 36HEADER MOBILE */
-  .fa-bars {
+  #espHdr .fa-bars {
     font-size: 25px;
-  }
-  .fa-angle-right{
-    font-size: 28px;
   }
    /* NOTA */
   .migas {
     font-size: 10px;
   }
-  .migas  .fa-angle-right{
+  .migas .fa-angle-right{
     font-size: 12px;
   }
   .circulo-diabetes{
@@ -1214,25 +816,7 @@ footer{
 }
 @media screen and (max-width: 340px){
   /* 34HEADER MOBILE */
-  .fa-bars {
+  #espHdr .fa-bars {
     font-size: 24px;
-  }
-  .fa-angle-right{
-    font-size: 26px;
-  }
-  /* 34FOOTER */
-  .footer-mision {
-    font-size: 14px;
-  }
-  .btn-siganos-pr {
-    display: none;
-  }
-  .btn-siganos {
-    display: block;
-    width: 55%;
-    margin-left: 0px;
-  }
-  .footer-email {
-    font-size: 17px;
   }
 }

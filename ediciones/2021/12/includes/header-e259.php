@@ -1,6 +1,7 @@
 <header id="espHdr" class="contenedor">
 
   <div class="mobile-cont">
+
     <div class="mobile-row">
       <i class="fas fa-bars" onclick="showMenu()"></i>
 
@@ -10,8 +11,7 @@
             <img src="/imgs/Revista-BS-logo-header.png">
           </a>
         </div>
-
-        <div class="mobile-cbz-bx -esp-mobile-bx-">
+        <div class="mobile-cbz-bx">
           <p class="f2 mobile-indicador">SECCIÓN ESPECIAL</p>
           <h1 class="f3">Salud para todos</h1>
         </div>

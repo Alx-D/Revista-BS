@@ -1647,6 +1647,10 @@ th {
   padding-top: 10px;
   color: white;
 }
+.remate{
+  font-size: 14px;
+  color: #dbdbd2;
+}
 @media screen and (max-width:1024px){
   .tabla{
     overflow-x: auto;

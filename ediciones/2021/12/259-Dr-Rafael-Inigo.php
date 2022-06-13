@@ -1,9 +1,21 @@
 <?php include('includes/head-e259.php') ?>
+<style>
+  .espFrmBx>div {
+    width: 100%;
+  }
+  .espFrmBx>div img {
+    width: 100%;
+    background-color: red;
+  }
+  #espCtcBx {
+    margin-top: auto;
+  }
+</style>
 
 <body>
 <?php include('includes/header-e259.php') ?>
 
-  <article class="contenedor">
+  <article id="espNota" class="contenedor">
     <div class="f1 migas">
       <a href="/index.php">Revista BS</a>
       &nbsp;
@@ -21,13 +33,13 @@
 
     <div class="nombre-bx">
       <h3 class="f3 nombre">Dr. Rafael Francisco <br class="brvd480">Iñigo Pavlovich</h3>
-      <img class="dr-foto-bx-vd420" src="/ediciones/2021/12/imgs/259-Dr-Rafael-Inigo-2.png" alt="">
+      <img class="esp-drFoto-vd420" src="/ediciones/2021/12/imgs/259-Dr-Rafael-Inigo-2.png" alt="">
     </div>
 
-    <div class="txt-esp-bx">
+    <div class="texto-bx">
       <div class="col-60">
         <h1>El placer de recordar</h1>
-        <p class="f3 sumario-esp">El doctor Rafael Francisco Iñigo Pavlovich realizó un recuento de las experiencias positivas que trajo este 2021 así como de algunos eventos destacados de su carrera</p>
+        <p class="f3 sumario">El doctor Rafael Francisco Iñigo Pavlovich realizó un recuento de las experiencias positivas que trajo este 2021 así como de algunos eventos destacados de su carrera</p>
 
         <div class="compartir-bx">
           <i class="fa fa-share"></i>
@@ -44,12 +56,12 @@
           </p>
         </div>
 
-        <div class="dr-foto-bx-vd680">
+        <div class="esp-drFoto-vd680">
           <img src="/ediciones/2021/12/imgs/259-Dr-Rafael-Inigo-2.png" alt="">
         </div>
 
-        <div class="txt-esp">
-          <div class="dr-foto-bx-vd840" style="margin-bottom: 100px;">
+        <div class="texto">
+          <div class="esp-drFoto-vd840" style="margin-bottom: 100px;">
             <img src="/ediciones/2021/12/imgs/259-Dr-Rafael-Inigo-1.png" alt="">
           </div>
           <p>Con más de 30 años de experiencia, el doctor <b>Rafael Iñigo Pavlovich</b> es especialista en cirugía de rodilla. Es egresado de la Universidad Autónoma de Aguascalientes como médico cirujano, se especializó en cirugía ortopédica y medicina del deporte en la Universidad de Tel Aviv, Israel. Tiene una subespecialidad en cirugía de rodilla del Centre Hospitalier Universitaire de Saint-Étienne, Francia. Obtuvo el grado de Doctor en Medicina y Cirugía por la Universidad Complutense de Madrid, mención honorífica “Cum Laude”.</p>
@@ -63,18 +75,18 @@
       </div>
 
       <aside class="col-40">
-        <div class="dr-foto-bx">
+        <div class="esp-drFoto">
           <img src="/ediciones/2021/12/imgs/259-Dr-Rafael-Inigo-1.png" alt="">
         </div>
 
         <div class="col-40-row-2">
-          <div class="formacion-bx">
-            <div><img src="/2021/12/imgs/259-Dr-Rafael-Inigo-4.jpg" alt=""></div>
+          <div class="espFrmBx">
+            <div><img src="/ediciones/2021/12/imgs/259-Dr-Rafael-Inigo-4.jpg" alt=""></div>
 
-            <p class="f3 frt">Con Roger Guillemin, Premio Nobel de 1977, en el congreso de la Clínica CEMTRO en Madrid.</p>
+            <p class="f3 frm-txt">Con Roger Guillemin, Premio Nobel de 1977, en el congreso de la Clínica CEMTRO en Madrid.</p>
           </div>
 
-          <div class="ctc-bx">
+          <div id="espCtcBx">
             <div class="ctc-foto">
               <img src="/ediciones/2021/12/imgs/259-Dr-Rafael-Inigo-3.png" alt="">
             </div>

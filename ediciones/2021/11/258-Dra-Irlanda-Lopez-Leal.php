@@ -1,9 +1,9 @@
-<?php include('includes/head-e258.php') ?>
+ <?php include('includes/head-e258.php') ?>
 
 <body>
 <?php include('includes/header-e258.php') ?>
 
-  <article class="contenedor">
+  <article id="espNota" class="contenedor">
     <div class="f1 migas">
       <a href="/index.php">Revista BS</a>
       &nbsp;
@@ -22,13 +22,13 @@
     <div class="nombre-bx">
       <div class="circulo-diabetes"></div>
       <h3 class="f1 nombre">Dra. Irlanda Nataly <br class="brvd680"> Lopez Leal</h3>
-      <img class="dr-foto-bx-vd420" src="/ediciones/2021/11/imgs/258-Dra-Irlanda-Lopez-2.png" alt="">
+      <img class="esp-drFoto-vd420" src="/ediciones/2021/11/imgs/258-Dra-Irlanda-Lopez-2.png" alt="">
     </div>
 
-    <div class="txt-esp-bx">
+    <div class="texto-bx">
       <div class="col-60">
         <h1 class="f2">Trato digno y de calidad</h1>
-        <p class="f1 sumario-esp">En México un tercio de los infartos y la mitad de las fallas renales crónicas son
+        <p class="f1 sumario">En México un tercio de los infartos y la mitad de las fallas renales crónicas son
           consecuencia de la diabetes, ahí la importancia de hacer frente a la enfermedad de mano de los especialistas
         </p>
 
@@ -47,12 +47,12 @@
           </p>
         </div>
 
-        <div class="dr-foto-bx-vd680">
+        <div class="esp-drFoto-vd680">
           <img src="/ediciones/2021/11/imgs/258-Dra-Irlanda-Lopez-2.png" alt="">
         </div>
 
-        <div class="txt-esp">
-          <div class="dr-foto-bx-vd840" style="margin-bottom: 150px;">
+        <div class="texto">
+          <div class="esp-drFoto-vd840" style="margin-bottom: 150px;">
             <img src="/ediciones/2021/11/imgs/258-Dra-Irlanda-Lopez-1.png" alt="">
           </div>
           <p>Con una prevalencia global estimada de 420 millones de personas, la diabetes es un problema de salud
@@ -80,7 +80,7 @@
             personas con diabetes merecen ser escuchadas, tratadas de la manera más digna, humana y con la mayor calidad
             posible”.</p>
 
-          <p style="color: #ff6b5b;" class="descanso-esp">Tomar acción ya</p>
+          <p style="color: #ff6b5b;" class="descanso">Tomar acción ya</p>
           <p>Además de las ya bien conocidas complicaciones de la diabetes, la entrevistada señaló que esta enfermedad
             también
             se asocia cada vez más con otras como cánceres, enfermedades del hígado, demencia, discapacidad, fragilidad
@@ -100,21 +100,21 @@
       </div>
 
       <aside class="col-40">
-        <div class="dr-foto-bx">
+        <div class="esp-drFoto">
           <img src="/ediciones/2021/11/imgs/258-Dra-Irlanda-Lopez-1.png" alt="">
         </div>
 
         <div class="col-40-row-2">
-          <div class="formacion-bx">
+          <div class="espFrmBx">
             <img class="uni-logo" src="/imgs/Universidad-de-Guadalajara.png" alt="">
-            <p class="f1 frc">Formación</p>
-            <p class="f1 frt">La doctora Irlanda Lopez Leal es especialista en endocrinología por el Centro Médico
+            <p class="f1 frm-cbz">Formación</p>
+            <p class="f1 frm-txt">La doctora Irlanda Lopez Leal es especialista en endocrinología por el Centro Médico
               Nacional de Occidente, con el respaldo de la Universidad de Guadalajara. Está certificada por el Consejo
               Mexicano de Endocrinología y es investigadora clínica adscrita a Investigación Médica de Sonora (INMEDS).
             </p>
           </div>
 
-          <div class="ctc-bx">
+          <div id="espCtcBx">
             <div class="ctc-foto">
               <img src="/ediciones/2021/11/imgs/258-Dra-Irlanda-Lopez-3.png" alt="">
             </div>
