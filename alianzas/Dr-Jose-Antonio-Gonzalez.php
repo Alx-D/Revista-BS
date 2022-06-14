@@ -18,39 +18,51 @@
 </head>
 
 <body class="alnz">
-<header>
-  <div class="pleca-alnz">
+  <header>
+    <div class="pleca-alnz">
 
-    <div class="desktop contenedor">
-      <a class="f1 inicio hv-bck" href="/alianzas.html"><b>INICIO</b></a>
-      <a class="logo" href="/index.php">
-        <img src="/imgs/Revista-BS-logo-250x195.png" alt="">
-      </a>
-      <p class="f3 lema">Salud para vivir con sentido</p>
-    </div>
-
-    <div class="mobile">
-      <div class="back">
-        <a href="/alianzas.html"><i class="fas fa-chevron-left"></i></a>
-      </div>
-      <div class="logo">
-        <a href="/index.php">
-          <img src="/imgs/Revista-BS-logo-m.png">
+      <div class="desktop contenedor">
+        <a class="f1 inicio hv-bck" href="/alianzas.html"><b>INICIO</b></a>
+        <a class="logo" href="/index.php">
+          <img src="/imgs/Revista-BS-logo-250x195.png" alt="">
         </a>
+        <p class="f3 lema">Salud para vivir con sentido</p>
       </div>
-      <p class="f3 lema">Salud para vivir con sentido</p>
+
+      <div class="mobile">
+        <div class="back">
+          <a href="/alianzas.html"><i class="fas fa-chevron-left"></i></a>
+        </div>
+        <div class="logo">
+          <a href="/index.php">
+            <img src="/imgs/Revista-BS-logo-m.png">
+          </a>
+        </div>
+        <p class="f3 lema">Salud para vivir con sentido</p>
+      </div>
     </div>
-  </div>
-</header>
+  </header>
+
   <main class="contenedor-grid">
 
-  <div class="foto-col">
+    <div class="foto-col">
       <div class="foto-bx">
-        <img src="/alianzas/imgs/Dr-Jose-Antonio-Gonzalez.jpg" alt="">
+        <picture>
+        <source media="(max-width: 768px)" srcset="/alianzas/imgs/Dr-Jose-Antonio-Gonzalez-m.jpg">
+          <img src="/alianzas/imgs/Dr-Jose-Antonio-Gonzalez.jpg" alt="">
+        </picture>
         <div class="f1 agende">
           <a href="tel:+526622161492">Llame para agendar una cita <br class="br1024"> 662 216-1492</a>
         </div>
       </div>
+
+      <!-- <div class="foto-bx">
+        <img src="/alianzas/imgs/Dr-Jose-Antonio-Gonzalez.jpg" alt="">
+        <div class="f1 agende">
+          <a href="tel:+526622161492">Llame para agendar una cita <br class="br1024"> 662 216-1492</a>
+        </div>
+      </div> -->
+
     </div>
 
     <div class="nombre-bx">
@@ -85,18 +97,20 @@
       </p>
 
       <div class="f1 redes-bx">
-        <a class="hv-trns-5" href="https://www.facebook.com/Columna-hermosillo-1534276236872116" target="blank"><img src="/alianzas/imgs/facebook-logo-120x120.png" alt="" title="@Columna-hermosillo, click para abrir en Facebook"></a>
+        <div>
+          <a class="hv-trns-5" href="https://www.facebook.com/Columna-hermosillo-1534276236872116" target="blank"><img src="/alianzas/imgs/facebook-logo-120x120.png" alt="" title="@Columna-hermosillo, click para abrir en Facebook"></a>
 
-        <a class="hv-trns-5" href="https://www.facebook.com/OrtopediaSonora" target="blank"><img src="/alianzas/imgs/facebook-logo-120x120.png" alt="" target="blank" title="@OrtopediaSonora, click para abrir en Facebook"></a>
+          <a class="hv-trns-5" href="https://www.facebook.com/OrtopediaSonora" target="blank"><img src="/alianzas/imgs/facebook-logo-120x120.png" alt="" target="blank" title="@OrtopediaSonora, click para abrir en Facebook"></a>
 
-        <a class="hv-trns-5" href="https://www.instagram.com/joseantoniogonzalezrincon/" target="blank"><img src="/alianzas/imgs/instagram-logo-120x120.png" alt="" title="@joseantoniogonzalezrincon, click para abrir en Instagram"></a>
+          <a class="hv-trns-5" href="https://www.instagram.com/joseantoniogonzalezrincon/" target="blank"><img src="/alianzas/imgs/instagram-logo-120x120.png" alt="" title="@joseantoniogonzalezrincon, click para abrir en Instagram"></a>
 
-        <a class="hv-trns-5" href="https://wa.me/526628478861" target="blank"><img src="/alianzas/imgs/whatsapp-logo-120x120.png" alt="" title="@joseantoniogonzalezrincon, click para abrir en Instagram"></a>
+          <a class="hv-trns-5" href="https://wa.me/526628478861" target="blank"><img src="/alianzas/imgs/whatsapp-logo-120x120.png" alt="" title="@joseantoniogonzalezrincon, click para abrir en Instagram"></a>
+        </di>
 
         <p class="f3 click-redes">Click para acceder a sus redes sociales</p>
       </div>
 
-      <div class="sep"></div>
+      <div class="separador"></div>
     </div>
 
     <div class="f1 formacion-bx">
@@ -107,7 +121,7 @@
         Autónoma de México, realizó un curso en adiestramiento en cirugía de columna vertebral y deformidades y está
         certificado por el Consejo Mexicano de Ortopedia y Traumatología, A. C.</p>
 
-      <div class="sep"></div>
+      <div class="separador"></div>
     </div>
 
     <div class="f1 experiencia-bx">
@@ -118,7 +132,7 @@
         <li>vitae magni corporis, sint minus architecto</li>
       </ul>
 
-      <div class="sep"></div>
+      <div class="separador"></div>
     </div>
 
     <div class="colab-bx">
@@ -218,4 +232,5 @@
     }
   </script>
 </body>
+
 </html>
