@@ -650,7 +650,7 @@
   #espNota .nombre{
     font-size: 22px;
   }
-  #espNota  h1{
+  #espNota h1{
     font-size: 45px;
     margin-bottom: 10px;
   }
@@ -677,7 +677,6 @@
   }
   .descanso {
     font-size: 21px;
-    line-height: 1.2;
     margin-top: 30px;
   }
   .nonedw480{
