@@ -70,7 +70,7 @@
           <p>Si bien 2021 ha sido un año de retos en el ámbito médico, es verdad que también existen motivos para celebrar. El entrevistado habló sobre sus actividades y práctica médica en este lapso.</p>
           <p>“Escribí varios capítulos de libros sobre lesiones de rodilla, me incliné a profundizar en la relación médico paciente y tratar de resolver problemas con nuevos abordajes”, compartió.</p>
           <p>Como una reflexión de fin de año, el doctor Iñigo Pavlovich rememoró algunas experiencias gratificantes de su carrera como la vez que se reunió con Roger Guillemin, descubridor de la hormona del crecimiento y Premio Nobel de 1977.</p>
-          <p>“El motivo de la reunión fue que le hice una invitación a pertenecer al Journal Latinoamericano de Ortopedia Artroscópia, donde fui editor en jefe. El profesor Gullemin aceptó el puesto honorario, la foto que comparto fue tomada durante el congreso de la Clínica CEMTRO en Madrid”, abundó. &nbsp;<i class="fas fa-square remate-esp"></i></p>
+          <p>“El motivo de la reunión fue que le hice una invitación a pertenecer al Journal Latinoamericano de Ortopedia Artroscópia, donde fui editor en jefe. El profesor Gullemin aceptó el puesto honorario, la foto que comparto fue tomada durante el congreso de la Clínica CEMTRO en Madrid”, abundó. &nbsp;<i class="fas fa-square remate"></i></p>
         </div>
       </div>
 

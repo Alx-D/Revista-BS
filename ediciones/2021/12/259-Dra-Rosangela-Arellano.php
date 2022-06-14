@@ -63,7 +63,7 @@
           <p>Un básico de cualquier temporada es la prevención, en el campo de la ginecología la consulta periódica de rutina es esencial para la salud y el bienestar de la mujer.</p>
           <p>“La importancia de realizar revisiones periódicas es poder actuar en el terreno de la medicina preventiva, ofreciendo revisiones completas con Papanicolaou, colposcopia, exploración mamaria y ultrasonido pélvico, y así detectar a tiempo cualquiera de nuestras enfermedades, inclusive cáncer”, subrayó.</p>
           <p>En ese mismo sentido, la doctora Arellano Zavala invitó a incluir la prevención en salud como un propósito a cumplir en el año que está por iniciar.</p>
-          <p>“Como esta pandemia nos ha dejado muy claro, nuestra salud es primero, sin ella se nos limita el buen vivir. Por eso, este 2022 las invito a tener como propósito acudir a su revisión ginecológica de forma anual, y no sólo cuando se sientan mal. Mis mejores deseos para este nuevo año, muchas bendiciones, prosperidad y, lo más importante, salud para todos”, finalizó. &nbsp;<i class="fas fa-square remate-esp"></i></p>
+          <p>“Como esta pandemia nos ha dejado muy claro, nuestra salud es primero, sin ella se nos limita el buen vivir. Por eso, este 2022 las invito a tener como propósito acudir a su revisión ginecológica de forma anual, y no sólo cuando se sientan mal. Mis mejores deseos para este nuevo año, muchas bendiciones, prosperidad y, lo más importante, salud para todos”, finalizó. &nbsp;<i class="fas fa-square remate"></i></p>
         </div>
       </div>
 

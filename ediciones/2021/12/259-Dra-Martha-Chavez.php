@@ -98,7 +98,7 @@
           <p>En el mismo sentido, puso en relevancia el hecho de que el cáncer infantil no se puede prevenir, por lo tanto, el diagnóstico precoz y correcto es la vía para poder acceder a un tratamiento oportuno y eficaz.</p>
           <p>“Con ello, podremos ofrecer mejor sobrevida, menor toxicidad por tratamientos agresivos, mejor calidad de vida y mayores tasas de éxito”, señaló.</p>
           <p>Que 2022 sea un año para el cuidado y la atención oportuna de la salud fue el llamado de la especialista.</p>
-          <p>“Los hijos son el regalo más preciado, ofrecerles lo mejor dentro de nuestras posibilidades incluye asegurar salud de calidad, visitas constantes al pediatra, esquemas completos de vacunación y conocer los datos de alarma, para conseguir que sean niños sanos que cumplan sus metas. Comprometámonos este nuevo año a incluir dentro de los propósitos la atención inmediata como un regalo y una oportunidad de vida”, finalizó. &nbsp;<i class="fas fa-square remate-esp"></i></p>
+          <p>“Los hijos son el regalo más preciado, ofrecerles lo mejor dentro de nuestras posibilidades incluye asegurar salud de calidad, visitas constantes al pediatra, esquemas completos de vacunación y conocer los datos de alarma, para conseguir que sean niños sanos que cumplan sus metas. Comprometámonos este nuevo año a incluir dentro de los propósitos la atención inmediata como un regalo y una oportunidad de vida”, finalizó. &nbsp;<i class="fas fa-square remate"></i></p>
         </div>
       </div>
 

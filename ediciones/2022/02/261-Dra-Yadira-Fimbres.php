@@ -65,7 +65,7 @@
           <p>Cuidar y preservar la función de los dientes de leche desde el momento en que comienzan a aparecer en la boquita de los bebés es una de las grandes misiones que mamás y papás tienen, la recomendación de la especialista es acudir a su primera consulta con el odontopediatra a los seis meses de vida del bebé, que es la edad en la que, en promedio, sale el primer diente.</p>
           <p>“Todo es cuestión de prevención. Lo que queremos es evitar que nuestros pacientitos lleguen a tratamiento. Lo más importante en odontopediatría es la prevención”, enfatizó.</p>
           <p>Con ánimo de promover hábitos de cuidado tempranos, la especialista dio algunas recomendaciones que permitirán a los pequeños gozar de una boquita sana y libre de dolor.</p>
-          <p>“Acudir regularmente al odontopediatra, cada seis meses a su limpieza y aplicación tópica de flúor, usar una pasta con flúor, mínimo mil partes por millón de flúor para que ayude a prevenir caries, es lo primordial. Cepillar tres veces al día, sobre todo en la noche, es muy importante que se duerman con los dientitos bien limpios”, concluyó. &nbsp;<i class="fas fa-square remate-esp"></i></p>
+          <p>“Acudir regularmente al odontopediatra, cada seis meses a su limpieza y aplicación tópica de flúor, usar una pasta con flúor, mínimo mil partes por millón de flúor para que ayude a prevenir caries, es lo primordial. Cepillar tres veces al día, sobre todo en la noche, es muy importante que se duerman con los dientitos bien limpios”, concluyó. &nbsp;<i class="fas fa-square remate"></i></p>
         </div>
       </div>
 

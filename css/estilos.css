@@ -1375,17 +1375,20 @@ ul li:last-child{
   font-size: 20px;
   line-height: 1.6;
 }
-.texto>p {
+.texto p {
   margin-bottom: 10px;
 }
-.texto>p span {
+.texto p span {
   font-size: 20px;
   font-weight: 700;
 }
 .texto-preg{
   font-weight: 500;
   margin-top: 20px;
-  margin-bottom: 0;
+}
+.texto-preg + p {
+  font-style: oblique;
+  margin-top: -7px;
 }
 .descanso {
   font-size: 23px;

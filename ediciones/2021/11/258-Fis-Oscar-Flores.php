@@ -63,7 +63,7 @@
           <p>Debido a la diversidad de complicaciones que un paciente con diabetes puede llegar a desarrollar, el control de esta enfermedad entre las diferentes especialidades implicadas es clave en su manejo.</p>
           <p>“Tenemos que estar muy bien comunicados el nutriólogo, el angiólogo, la medicina hiperbárica, etcétera, para poder desarrollar un buen plan de tratamiento, y así poder llevar por un buen camino al paciente, para que no tenga complicaciones”, subrayó el entrevistado.</p>
           <p>Aludiendo a la máxima de que prevenir es mejor que curar, el especialista destacó la importancia de actuar a conciencia para prevenir y detectar a tiempo la diabetes.</p>
-          <p>“Es muy importante estarse haciendo estudios de laboratorio, para ver cómo está la glucosa en sangre, y también los triglicéridos y el colesterol, porque aquí en Sonora tenemos altos índices de pacientes que adquieren diversas enfermedades metabólicas”, finalizó Oscar Daniel Flores López. &nbsp;<i class="fas fa-square remate-esp"></i></p>
+          <p>“Es muy importante estarse haciendo estudios de laboratorio, para ver cómo está la glucosa en sangre, y también los triglicéridos y el colesterol, porque aquí en Sonora tenemos altos índices de pacientes que adquieren diversas enfermedades metabólicas”, finalizó Oscar Daniel Flores López. &nbsp;<i class="fas fa-square remate"></i></p>
         </div>
       </div>
 

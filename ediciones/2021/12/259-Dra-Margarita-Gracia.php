@@ -97,7 +97,7 @@
           <p>El inicio de año es siempre un excelente momento para cultivar buenos hábitos. La especialista hizo énfasis en la importancia de la consulta para monitoreo periódico de la salud.</p>
           <p>“La intención de las revisiones periódicas consiste en detectar datos de alarma y prevenir complicaciones que pueden ser solucionadas a tiempo”, señaló. “La salud siempre es importante, muchas veces minimizamos las molestias, favoreciendo a alguna complicación”.</p>
           <p>Entender la salud como un estado completo de bienestar físico, mental y social, y no solamente como la ausencia de afecciones o enfermedades fue la recomendación de la doctora Gracia Francis, quien invitó a prestar atención también al aspecto psicológico.</p>
-          <p>“No se trata sólo del cuidado físico, también del estado mental. Acciones como limitar las situaciones de estrés y propiciar el optimismo son prácticas que no podemos perder de vista, ya que nos ayudarán a que nuestra salud física mejore”, concluyó la entrevistada. &nbsp;<i class="fas fa-square remate-esp"></i></p>
+          <p>“No se trata sólo del cuidado físico, también del estado mental. Acciones como limitar las situaciones de estrés y propiciar el optimismo son prácticas que no podemos perder de vista, ya que nos ayudarán a que nuestra salud física mejore”, concluyó la entrevistada. &nbsp;<i class="fas fa-square remate"></i></p>
         </div>
       </div>
 

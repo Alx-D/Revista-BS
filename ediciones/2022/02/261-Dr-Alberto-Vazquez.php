@@ -86,7 +86,7 @@
             resultados seguros y satisfactorios.</p>
           <p>“Al tratarse de la salud bucal siempre hay que informarse, indagar en la selección de su dentista,
             corroborar cédulas de especialidad. Es la mejor manera de ponernos en las manos correctas con total plenitud
-            y seguridad de que todo trabajo realizado es confiable”, finalizó. &nbsp;<i class="fas fa-square remate-esp"></i></p>
+            y seguridad de que todo trabajo realizado es confiable”, finalizó. &nbsp;<i class="fas fa-square remate"></i></p>
         </div>
       </div>
 

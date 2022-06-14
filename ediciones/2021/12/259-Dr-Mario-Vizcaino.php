@@ -63,7 +63,7 @@
           <p>En cuanto a alcances de su propia práctica médica, el entrevistado subrayó la experiencia adquirida con preparación y actualización en técnicas quirúrgicas y la adopción de mejores equipos tecnológicos para cirugías más seguras.</p>
           <p>“Realicé una importante cantidad de cirugías de cabeza y de columna espinal, resecciones exitosas de tumores cerebrales, clipajes de aneurismas cerebrales, hidrocefalias y malformaciones en niños, y un número considerable de cirugías de columna espinal”, compartió, “adquiriendo, así, una importante experiencia en mi ramo neuroquirúrgico y ayudando a mis pacientes”.</p>
           <p>El doctor Vizcaíno Ahumada mandó un mensaje final, llamando a los lectores a tener un 2022 más saludable.</p>
-          <p>“Los invito a que fomenten buenos hábitos alimenticios, que tengan una rutina de ejercicio y a que siempre busquen atención médica oportuna”, finalizó el entrevistado. &nbsp;<i class="fas fa-square remate-esp"></i></p>
+          <p>“Los invito a que fomenten buenos hábitos alimenticios, que tengan una rutina de ejercicio y a que siempre busquen atención médica oportuna”, finalizó el entrevistado. &nbsp;<i class="fas fa-square remate"></i></p>
         </div>
       </div>
 

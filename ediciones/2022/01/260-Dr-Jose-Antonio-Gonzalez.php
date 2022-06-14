@@ -66,7 +66,7 @@
           <p>“Es muy importante estar atentos de nuestra salud, y más de nuestro sistema locomotor que incluye nuestros huesos, articulaciones y músculos; para ello es posible detectar y atender tempranamente alguna situación anormal visitando a algún ortopedista para que realice una buena valoración a tiempo”, destacó.</p>
           <p>Dolor, principalmente de articulaciones como rodillas, caderas y hombros, así como limitación de la movilidad y pérdida de la función de la marcha o movilización son los síntomas que el especialista mencionó que requieren atención inmediata por un ortopedista.</p>
           <p>Abordando el aspecto de la prevención, el entrevistado señaló algunas medidas a tomar en cuenta para cuidar de la salud integral y, como resultado, cuidar del sistema locomotor.</p>
-          <p>“Las recomendaciones son mantener un buen peso adecuado, comer sanamente, evitar vicios como alcohol o cigarro, tener controladas las enfermedades que padezcan de fondo, realizar sus actividades diarias procurando la higiene de columna y tener el hábito de atenderse con el médico adecuado regularmente”, finalizó el doctor José Antonio González Rincón. &nbsp;<i class="fas fa-square remate-esp"></i></p>
+          <p>“Las recomendaciones son mantener un buen peso adecuado, comer sanamente, evitar vicios como alcohol o cigarro, tener controladas las enfermedades que padezcan de fondo, realizar sus actividades diarias procurando la higiene de columna y tener el hábito de atenderse con el médico adecuado regularmente”, finalizó el doctor José Antonio González Rincón. &nbsp;<i class="fas fa-square remate"></i></p>
         </div>
       </div>
 

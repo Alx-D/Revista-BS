@@ -95,7 +95,7 @@
           <p>“Se requiere que las instituciones de salud del país refuercen sus campañas preventivas, lleven a cabo
             programas de apoyo a pacientes con prediabetes, donde se eduque y se realicen detecciones tempranas para
             retrasar el desarrollo de la diabetes mellitus”, afirmó la doctora Irlanda Lopez Leal. &nbsp;<i
-              class="fas fa-square remate-esp"></i></p>
+              class="fas fa-square remate"></i></p>
         </div>
       </div>
 

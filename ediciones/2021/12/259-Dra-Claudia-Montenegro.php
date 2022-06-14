@@ -60,7 +60,7 @@
           <p>La radioterapia, comentó Montenegro Amador, ha permitido ampliar las posibilidades en el tratamiento del cáncer, por ejemplo, al complementar la cirugía conservadora en cáncer de mama.</p>
           <p>“Se ha vuelto indispensable en la medicina moderna con una perspectiva conservadora, ya que, en el cáncer de mama, permite a las pacientes evitar una mastectomía y su impacto emocional”, subrayó.</p>
           <p>Aprovechando el periodo de fin de año, la doctora invitó a realizar visitas periódicas al médico como una recomendación a favor de la prevención.</p>
-          <p>“Es conveniente hacer revisiones anuales. Un chequeo a tiempo puede detectar y facilitar la curación de muchas patologías. Así que no lo piense y pida cita con su médico para asegurarse de que todo funciona correctamente en su organismo”, exhortó la radiooncóloga Claudia Montenegro. &nbsp;<i class="fas fa-square remate-esp"></i></p>
+          <p>“Es conveniente hacer revisiones anuales. Un chequeo a tiempo puede detectar y facilitar la curación de muchas patologías. Así que no lo piense y pida cita con su médico para asegurarse de que todo funciona correctamente en su organismo”, exhortó la radiooncóloga Claudia Montenegro. &nbsp;<i class="fas fa-square remate"></i></p>
         </div>
       </div>
 

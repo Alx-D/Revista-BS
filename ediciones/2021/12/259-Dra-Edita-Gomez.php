@@ -63,7 +63,7 @@
           <p>Además de los ya bien conocidos hábitos saludables como alimentación balanceada, actividad física, vacunación y visitas periódicas al pediatra, la especialista recomendó procurar el adecuado consumo de proteína.</p>
           <p>“Mi consejo extra sería poner atención y énfasis en la ingesta de proteína, ya que de esto se fabrican hormonas, inmunoglobulinas y es el sustrato para la formación de hueso y tejido, por lo tanto, propicia que los niños tengan un crecimiento adecuado”, subrayó.</p>
           <p>Para finalizar, la entrevistada envió un cálido mensaje para los papás de sus pacientitos, esperando que 2022 sea el año para reconquistar la salud.</p>
-          <p>“¡Papis y mamis, muchas felicidades por todo el amor y cuidado que pusieron en su familia este año, lo hicieron excelente! Les invito a que sigan teniendo el mismo cuidado de la salud física y emocional de sus hijos. Este nuevo año es una oportunidad para compensar todo aquello de lo que, por salud, privamos a nuestros niños, me refiero a su actividad física y social. Dios les bendiga y cuide siempre, su amiga, doctora Edita”, expresó. &nbsp;<i class="fas fa-square remate-esp"></i></p>
+          <p>“¡Papis y mamis, muchas felicidades por todo el amor y cuidado que pusieron en su familia este año, lo hicieron excelente! Les invito a que sigan teniendo el mismo cuidado de la salud física y emocional de sus hijos. Este nuevo año es una oportunidad para compensar todo aquello de lo que, por salud, privamos a nuestros niños, me refiero a su actividad física y social. Dios les bendiga y cuide siempre, su amiga, doctora Edita”, expresó. &nbsp;<i class="fas fa-square remate"></i></p>
         </div>
       </div>
 

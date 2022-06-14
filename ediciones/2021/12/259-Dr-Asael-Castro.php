@@ -81,7 +81,7 @@
             para impactar también en la forma en que se percibe a su especialidad.</p>
           <p>“Quiero trabajar en la eliminación de tabúes e incluso temores de la población respecto a los tratamientos
             dentro de la cirugía maxilofacial, por medio de información constante y resultados de nuestros
-            tratamientos”, concluyó el entrevistado. &nbsp;<i class="fas fa-square remate-esp"></i></p>
+            tratamientos”, concluyó el entrevistado. &nbsp;<i class="fas fa-square remate"></i></p>
         </div>
       </div>
 

@@ -86,7 +86,7 @@
             experto invitó a no dejarse llevar por vergüenza y prejuicios, y consultar a tiempo cualquier molestia, por
             intrascendente que pueda parecer.</p>
           <p>“Diagnósticos oportunos mejoran la calidad de vida, no deje pasar tiempo con dudas o malestares por pena”,
-            finalizó el doctor Gerardo Quintanar Fimbres. &nbsp;<i class="fas fa-square remate-esp"></i></p>
+            finalizó el doctor Gerardo Quintanar Fimbres. &nbsp;<i class="fas fa-square remate"></i></p>
         </div>
       </div>
 

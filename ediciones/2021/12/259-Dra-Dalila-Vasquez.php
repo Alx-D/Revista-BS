@@ -62,7 +62,7 @@
           <p>“Ahora los nuevos tratamientos para la menopausia, por ejemplo, incluyen la meditación”, comentó. “Entonces creo al 100% que debemos de hacer ejercicio, meditar, simplemente relajarnos para liberar endorfinas”.</p>
           <p>Otro punto importante de la salud femenina es la prevención con monitoreo periódico y tamizaje para detección de cáncer, de ahí que acudir a consulta ginecológica anualmente sea crucial, así como realizarse una mamografía también de manera anual.</p>
           <p>Con los mejores deseos para el año que está por comenzar, la doctora Vasquez envió un cálido mensaje.</p>
-          <p>“Les deseo que tengan muy felices fiestas en compañía de su familia. Que el próximo sea un año mejor que éste. Hay que procurar pasar más tiempo con la familia. En esta época de Covid entendí que sin salud no somos nada, entonces les deseo mucha salud”, expresó la entrevistada. &nbsp;<i class="fas fa-square remate-esp"></i></p>
+          <p>“Les deseo que tengan muy felices fiestas en compañía de su familia. Que el próximo sea un año mejor que éste. Hay que procurar pasar más tiempo con la familia. En esta época de Covid entendí que sin salud no somos nada, entonces les deseo mucha salud”, expresó la entrevistada. &nbsp;<i class="fas fa-square remate"></i></p>
         </div>
       </div>
 

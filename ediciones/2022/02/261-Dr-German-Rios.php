@@ -64,7 +64,7 @@
           <p>Por su parte, señaló, la universidad tiene el claro compromiso de ofrecer preparación de excelencia para los profesionales de la salud bucal en ciernes.</p>
           <p>Así también, la institución reafirma su compromiso con la comunidad con el trabajo de su clínica adjunta, en la que estudiantes de licenciatura en odontología y especialistas realizan sus servicios supervisados por médicos profesionales. “Se ha brindado un sinnúmero de atenciones odontológicas generales y de especialidad a la comunidad en todos los niveles socioeconómicos”, apuntó.</p>
           <p>Con grandes expectativas para Universidad ION, Germán Ríos Barceló envió un cálido mensaje a interesados en la salud bucal, así como a la comunidad en general.</p>
-          <p>“Busquen siempre instituciones educativas comprometidas realmente con la enseñanza de calidad, que su planta docente esté conformada por gente reconocida por la comunidad por su ética y profesionalismo. Al igual que siempre busquen atención a su salud con profesionistas bien preparados con estudios reconocidos de nivel universitario y que cuenten con su cédula de especialidad que los avale”, concluyó. &nbsp;<i class="fas fa-square remate-esp"></i></p>
+          <p>“Busquen siempre instituciones educativas comprometidas realmente con la enseñanza de calidad, que su planta docente esté conformada por gente reconocida por la comunidad por su ética y profesionalismo. Al igual que siempre busquen atención a su salud con profesionistas bien preparados con estudios reconocidos de nivel universitario y que cuenten con su cédula de especialidad que los avale”, concluyó. &nbsp;<i class="fas fa-square remate"></i></p>
         </div>
       </div>
 

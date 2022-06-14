@@ -62,7 +62,7 @@
           <p>El campo de acción de la ortodoncia es amplio, comprende, además de la estética dental, tratamientos integrales para corregir todo tipo de maloclusiones, preparación para cirugía ortognática, atención a problemas en la articulación temporomandibular, pacientes con labio y paladar fisurado, entre otros.</p>
           <p>La ortodoncia con alineadores removibles es uno de los avances de su campo que destacó la especialista, pues además de ser una opción cómoda al usuario, permite resultados más predecibles debido a que la planeación se realiza digitalmente.</p>
           <p>Como recomendación, la profesional señaló que cuando se está en tratamiento de ortodoncia se deben reforzar los hábitos de higiene, el proceso de limpieza debe incluir, además del cepillado, el uso de hilo dental y enjuagues bucales.</p>
-          <p>“La ortodoncia no sólo cumple objetivos para que los dientes se vean lindos y derechos, sino que debe existir función, estabilidad y excelente salud periodontal para lograr casos exitosos”, finalizó Dayana Durón. &nbsp;<i class="fas fa-square remate-esp"></i></p>
+          <p>“La ortodoncia no sólo cumple objetivos para que los dientes se vean lindos y derechos, sino que debe existir función, estabilidad y excelente salud periodontal para lograr casos exitosos”, finalizó Dayana Durón. &nbsp;<i class="fas fa-square remate"></i></p>
         </div>
       </div>
 

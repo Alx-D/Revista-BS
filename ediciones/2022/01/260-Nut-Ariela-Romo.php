@@ -53,20 +53,20 @@
           <div class="esp-drFoto-vd840">
             <img src="/ediciones/2022/01/imgs/260-Nut-Ariela-Romo-1.jpg" alt="">
           </div>
-          <p class="texto-preg" style="margin-bottom: 0;">¿Cuál es la importancia del acompañamiento profesional en nutrición para cuidar del peso ideal?</p>
-          <i>“Nuestra meta siempre debe ser mantener un estilo de vida saludable en todos los pacientes. Mantener el peso adecuado no sólo a corto plazo, sino de por vida. Se cree que un plan se puede compartir o será igual para todos, cuando en realidad un profesional de salud debe de indicar un plan personalizado para cada paciente”.</i>
+          <p class="texto-preg">¿Cuál es la importancia del acompañamiento profesional en nutrición para cuidar del peso ideal?</p>
+          <p>“Nuestra meta siempre debe ser mantener un estilo de vida saludable en todos los pacientes. Mantener el peso adecuado no sólo a corto plazo, sino de por vida. Se cree que un plan se puede compartir o será igual para todos, cuando en realidad un profesional de salud debe de indicar un plan personalizado para cada paciente”.</p>
 
-          <p class="texto-preg" style="margin-bottom: 0;">¿Qué casos y patologías requieren vigilancia por parte de un nutriólogo?</p>
-          <i>“La mayoría de las patologías, si no es que todas, requieren guía de un especialista en nutrición, por mencionar algunas: obesidad y sobrepeso, hipotiroidismo, deficiencia renal, enfermedades hepáticas, diabetes, hipertensión, desnutrición, aterosclerosis, celiaquía, bulimia y anorexia”.</i>
+          <p class="texto-preg">¿Qué casos y patologías requieren vigilancia por parte de un nutriólogo?</p>
+          <p>“La mayoría de las patologías, si no es que todas, requieren guía de un especialista en nutrición, por mencionar algunas: obesidad y sobrepeso, hipotiroidismo, deficiencia renal, enfermedades hepáticas, diabetes, hipertensión, desnutrición, aterosclerosis, celiaquía, bulimia y anorexia”.</p>
 
-          <p class="texto-preg" style="margin-bottom: 0;">¿Qué mitos o ideas preconcebidas sobre la consulta de nutrición se encuentra frecuentemente?</p>
-          <i>“Algunas personas creen que no deben de ir a consulta cuando 'no siguieron la dieta', cuando en realidad es en esos momentos cuando el paciente más debe de pedir una guía y atención del nutriólogo. Piénselo así: cuando acude al médico, va porque no se siente bien, no cuando se siente saludable. Es lo mismo en nutrición. Yo recomiendo a mis pacientes venir cuando sienten que no han tenido una buena alimentación, y quieren mejorar sus hábitos”.</i>
+          <p class="texto-preg">¿Qué mitos o ideas preconcebidas sobre la consulta de nutrición se encuentra frecuentemente?</p>
+          <p>“Algunas personas creen que no deben de ir a consulta cuando 'no siguieron la dieta', cuando en realidad es en esos momentos cuando el paciente más debe de pedir una guía y atención del nutriólogo. Piénselo así: cuando acude al médico, va porque no se siente bien, no cuando se siente saludable. Es lo mismo en nutrición. Yo recomiendo a mis pacientes venir cuando sienten que no han tenido una buena alimentación, y quieren mejorar sus hábitos”.</p>
 
-          <p class="texto-preg" style="margin-bottom: 0;">De manera general, ¿qué puntos clave deberíamos cuidar para tener una alimentación más saludable?</p>
-          <i>“Hacer ejercicio por salud, no por pérdida de peso. Tomar dos litros de agua diarios. Consumir variedad de frutas y verduras. No abusar de alimentos empaquetados. Evitar el consumo de azúcar y sodio. No consumir calorías en exceso. Evitar el sedentarismo. Mantener una salud física, emocional y mental para lograr tener un bienestar integral”.</i>
+          <p class="texto-preg">De manera general, ¿qué puntos clave deberíamos cuidar para tener una alimentación más saludable?</p>
+          <p>“Hacer ejercicio por salud, no por pérdida de peso. Tomar dos litros de agua diarios. Consumir variedad de frutas y verduras. No abusar de alimentos empaquetados. Evitar el consumo de azúcar y sodio. No consumir calorías en exceso. Evitar el sedentarismo. Mantener una salud física, emocional y mental para lograr tener un bienestar integral”.</p>
 
-          <p class="texto-preg" style="margin-bottom: 0;">¿Algún mensaje o recomendación que quiera mandar a los lectores?</p>
-          <i>“Recuerden que el mantener un estilo de vida saludable conlleva tener salud física, emocional y mental. Si alguna de estas tres áreas no está saludable, muy probablemente las demás tampoco lo estarán. No dude en invertir en usted mismo. Invierta en su salud y en su cuerpo, que es donde vivirá toda la vida. No espere a ser diagnosticado con alguna enfermedad para empezar a cuidar su alimentación, empiece a cuidarla hoy”.</i> &nbsp;<i class="fas fa-square remate-esp"></i>
+          <p class="texto-preg">¿Algún mensaje o recomendación que quiera mandar a los lectores?</p>
+          <p>“Recuerden que el mantener un estilo de vida saludable conlleva tener salud física, emocional y mental. Si alguna de estas tres áreas no está saludable, muy probablemente las demás tampoco lo estarán. No dude en invertir en usted mismo. Invierta en su salud y en su cuerpo, que es donde vivirá toda la vida. No espere a ser diagnosticado con alguna enfermedad para empezar a cuidar su alimentación, empiece a cuidarla hoy”. &nbsp;<i class="fas fa-square remate"></i></p>
         </div>
       </div>
 

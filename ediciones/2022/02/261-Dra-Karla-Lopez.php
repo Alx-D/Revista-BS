@@ -53,20 +53,20 @@
           <div class="esp-drFoto-vd840">
             <img src="/ediciones/2022/02/imgs/261-Dra-Karla-Lopez-1.jpg" alt="">
           </div>
-          <p class="txt-esp-preg" style="margin-bottom: 0;">¿Cuál es la importancia de la atención oportuna en odontopediatría?</p>
-          <i>“Definitivamente, la prevención. Que los niños no pasen por caries, encías inflamadas, dolor, problemas estomacales, dificultad al masticar y comer. Mantener la salud bucal del paciente, o bien, si ya presenta algún problema, regresarle su bienestar, su función al hablar, al masticar, no padecer dolor, o infecciones y que el pacientito vuelva a sonreír”.</i>
+          <p class="texto-preg">¿Cuál es la importancia de la atención oportuna en odontopediatría?</p>
+          <p>“Definitivamente, la prevención. Que los niños no pasen por caries, encías inflamadas, dolor, problemas estomacales, dificultad al masticar y comer. Mantener la salud bucal del paciente, o bien, si ya presenta algún problema, regresarle su bienestar, su función al hablar, al masticar, no padecer dolor, o infecciones y que el pacientito vuelva a sonreír”.</p>
 
-          <p class="txt-esp-preg">¿Cuál es la edad ideal para la valoración con el odontopediatra y con qué regularidad hay que visitar al especialista?</p>
-          <i>“Desde bebés pueden presentar algunas patologías en boca, como diente natal o neonatal, perlas de Epstein, etcétera. Pero, definitivamente, al salir el primer diente son propensos a colonozación por bacterias que producen caries, por lo que se recomienda que su primera visita sea a más tardar al cumplir 1 año de edad. Después de esta primera visita y ya que el paciente esté sano, se recomienda cada seis meses la consulta con el odontopediatra para realizar limpieza dental con aplicación de flúor o remineralización. En los pacientitos que son más propensos a caries, se recomienda cada cuatro meses, y de esta forma mantenerlos sanos y atender a tiempo alguna nueva patología bucal”.</i>
+          <p class="texto-preg">¿Cuál es la edad ideal para la valoración con el odontopediatra y con qué regularidad hay que visitar al especialista?</p>
+          <p>“Desde bebés pueden presentar algunas patologías en boca, como diente natal o neonatal, perlas de Epstein, etcétera. Pero, definitivamente, al salir el primer diente son propensos a colonozación por bacterias que producen caries, por lo que se recomienda que su primera visita sea a más tardar al cumplir 1 año de edad. Después de esta primera visita y ya que el paciente esté sano, se recomienda cada seis meses la consulta con el odontopediatra para realizar limpieza dental con aplicación de flúor o remineralización. En los pacientitos que son más propensos a caries, se recomienda cada cuatro meses, y de esta forma mantenerlos sanos y atender a tiempo alguna nueva patología bucal”.</p>
 
-          <p class="txt-esp-preg">¿Cuáles son los principales problemas que atiende en su consultorio?</p>
-          <i>“Caries, desde pequeñas que se pueden detener o restaurar con una resina estética o un ionómero de vidrio, hasta caries con dolor que requieren de tratamientos pulpares y coronas. Dientes chuecos o maloclusiones, las podemos diagnosticar desde pequeños y corregir por medio de ortopedia maxilar, que consiste en aparatos que estimulan el crecimiento y corrigen a temprana edad”.</i>
+          <p class="texto-preg">¿Cuáles son los principales problemas que atiende en su consultorio?</p>
+          <p>“Caries, desde pequeñas que se pueden detener o restaurar con una resina estética o un ionómero de vidrio, hasta caries con dolor que requieren de tratamientos pulpares y coronas. Dientes chuecos o maloclusiones, las podemos diagnosticar desde pequeños y corregir por medio de ortopedia maxilar, que consiste en aparatos que estimulan el crecimiento y corrigen a temprana edad”.</p>
 
-          <p class="txt-esp-preg">Desde la odontopediatría, ¿cuáles son las recomendaciones para mantener la salud oral?</p>
-          <i>“Cepillado de dientes tres veces al día, bajo consumo de azúcares, uso de pastas con flúor, uso de hilo dental. Acudir con el odontopediatra cada seis o cuatro meses para sus limpiezas profesionales, ya que desde la primera consulta se da información a los papás sobre técnica de cepillado y qué pasta debe usar el paciente pediátrico”.</i>
+          <p class="texto-preg">Desde la odontopediatría, ¿cuáles son las recomendaciones para mantener la salud oral?</p>
+          <p>“Cepillado de dientes tres veces al día, bajo consumo de azúcares, uso de pastas con flúor, uso de hilo dental. Acudir con el odontopediatra cada seis o cuatro meses para sus limpiezas profesionales, ya que desde la primera consulta se da información a los papás sobre técnica de cepillado y qué pasta debe usar el paciente pediátrico”.</p>
 
-          <p class="txt-esp-preg">¿Algún mensaje o recomendación adicional que quiera enviar a los lectores?</p>
-          <i>“Recuerden que lo ideal es acudir por prevención bucal, ya que para los pacientitos son tratamientos agradables, sin dolor, sin anestesia, y que implican bajos costos. Entre más pronto se detecte alguna patología bucal, es más fácil eliminarla”.</i> &nbsp;<i class="fas fa-square remate-esp"></i>
+          <p class="texto-preg">¿Algún mensaje o recomendación adicional que quiera enviar a los lectores?</p>
+          <p>“Recuerden que lo ideal es acudir por prevención bucal, ya que para los pacientitos son tratamientos agradables, sin dolor, sin anestesia, y que implican bajos costos. Entre más pronto se detecte alguna patología bucal, es más fácil eliminarla”. &nbsp;<i class="fas fa-square remate"></i></p>
         </div>
       </div>
 

@@ -61,7 +61,7 @@
           <p>Un especial interés de sus pacientes por dar a luz a través de parto natural fue un avance positivo desde el campo de la ginecología que la especialista reconoció de este último año.</p>
           <p>“Tuvimos muchísimas pacientes que desean tener su parto vía vaginal”, enfatizó, “y el acompañamiento es fundamental para un desenlace favorable, así que fue un año muy gratificante”.</p>
           <p>Para la salud en general, como para llevar un embarazo lo más sano posible, un viraje hacia los hábitos saludables fue la recomendación de la doctora Nenninger Hoyos quien hizo algunas recomendaciones para comenzar un 2022 más saludable.</p>
-          <p>“La pandemia y la experiencia nos dicen que la base de una buena salud es la prevención, mantener buenos hábitos alimenticios y realizar ejercicio físico es fundamental para mejorar la respuesta inmune, por lo tanto, hacemos hincapié en mantener un estilo de vida saludable, lo cual también es importantísimo para llevar un embarazo con menor cantidad de complicaciones”, finalizó la entrevistada. &nbsp;<i class="fas fa-square remate-esp"></i></p>
+          <p>“La pandemia y la experiencia nos dicen que la base de una buena salud es la prevención, mantener buenos hábitos alimenticios y realizar ejercicio físico es fundamental para mejorar la respuesta inmune, por lo tanto, hacemos hincapié en mantener un estilo de vida saludable, lo cual también es importantísimo para llevar un embarazo con menor cantidad de complicaciones”, finalizó la entrevistada. &nbsp;<i class="fas fa-square remate"></i></p>
         </div>
       </div>
 

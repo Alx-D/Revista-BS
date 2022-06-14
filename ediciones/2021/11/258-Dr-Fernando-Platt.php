@@ -3,7 +3,7 @@
 <body>
   <?php include('includes/header-e258.php') ?>
 
-  <article class="contenedor">
+  <article id="espNota" class="contenedor">
     <div class="f1 migas">
       <a href="/index.php">Revista BS</a>
       &nbsp;
@@ -22,13 +22,13 @@
     <div class="nombre-bx">
       <div class="circulo-diabetes"></div>
       <h3 class="f1 nombre">Dr. Fernando <br class="brvd680"> Platt Soto</h3>
-      <img class="dr-foto-bx-vd420" src="/ediciones/2021/11/imgs/258-Dr-Fernando-Platt-2.png" alt="">
+      <img class="esp-drFoto-vd420" src="/ediciones/2021/11/imgs/258-Dr-Fernando-Platt-2.png" alt="">
     </div>
 
-    <div class="txt-esp-bx">
+    <div class="texto-bx">
       <div class="col-60">
         <h1 class="f2">Llegar a la meta</h1>
-        <p class="f1 sumario-esp">Mantener niveles adecuados de glucosa en sangre después del diagnóstico de diabetes es
+        <p class="f1 sumario">Mantener niveles adecuados de glucosa en sangre después del diagnóstico de diabetes es
           la clave para evitar sus diversas complicaciones, entre ellas el daño renal
         </p>
 
@@ -47,12 +47,12 @@
           </p>
         </div>
 
-        <div class="dr-foto-bx-vd680">
+        <div class="esp-drFoto-vd680">
           <img src="/ediciones/2021/11/imgs/258-Dr-Fernando-Platt-2.png" alt="">
         </div>
 
-        <div class="txt-esp">
-          <div class="dr-foto-bx-vd840" style="margin-bottom: 180px;">
+        <div class="texto">
+          <div class="esp-drFoto-vd840" style="margin-bottom: 180px;">
             <img src="/ediciones/2021/11/imgs/258-Dr-Fernando-Platt-1.png" alt="">
           </div>
           <p>El elevado nivel de glucosa ocasionado por la diabetes mellitus genera daño vascular en diferentes órganos;
@@ -68,7 +68,7 @@
             así como problemas del corazón, embolias, coágulos en arterias de las piernas, ceguera, etcétera”, subrayó.
           </p>
 
-          <p class="descanso-esp" style="color: #ff6b5b;">Atención a tiempo</p>
+          <p class="descanso">Atención a tiempo</p>
           <p>La labor del nefrólogo en pacientes con diabetes es fundamental, sobre todo hay que entender que su
             participación en el cuidado del paciente diabético desde un primer momento se traducirá en un mejor panorama
             para su salud renal.</p>
@@ -81,24 +81,24 @@
           <p>“Es muy importante que le den la importancia que se merece a la diabetes, y de esta manera no permitirle
             que cause daños a sus órganos. Visiten a un nefrólogo para revisar si hay datos de afección a los riñones,
             es mejor detectarlos de manera temprana para así preservar su función el mayor tiempo posible”, finalizó el
-            especialista. &nbsp;<i class="fas fa-square remate-esp"></i></p>
+            especialista. &nbsp;<i class="fas fa-square remate"></i></p>
         </div>
       </div>
 
       <aside class="col-40">
-        <div class="dr-foto-bx">
+        <div class="esp-drFoto">
           <img src="/ediciones/2021/11/imgs/258-Dr-Fernando-Platt-1.png" alt="">
         </div>
 
         <div class="col-40-row-2">
-          <div class="formacion-bx">
+          <div class="espFrmBx">
             <img class="uni-logo" src="/imgs/Universidad-de-Monterrey.png" alt="">
-            <p class="f1 frc">Formación</p>
-            <p class="f1 frt">Egresado de la Universidad de Monterrey como médico, cirujano y partero, el doctor Fernando Platt Soto se especializó en nefrología en el Instituto Mexicano del Seguro Social (IMSS) con el respaldo de la Universidad de Guadalajara. Es miembro del Consejo Mexicano de Nefrología. Además de su práctica privada es médico en el IMSS.
+            <p class="f1 frm-cbz">Formación</p>
+            <p class="f1 frm-txt">Egresado de la Universidad de Monterrey como médico, cirujano y partero, el doctor Fernando Platt Soto se especializó en nefrología en el Instituto Mexicano del Seguro Social (IMSS) con el respaldo de la Universidad de Guadalajara. Es miembro del Consejo Mexicano de Nefrología. Además de su práctica privada es médico en el IMSS.
             </p>
           </div>
 
-          <div class="ctc-bx">
+          <div id="espCtcBx">
             <div class="ctc-foto">
               <img src="/ediciones/2021/11/imgs/258-Dr-Fernando-Platt-3.png" alt="">
             </div>
@@ -117,5 +117,4 @@
 
   <script src="../../../scripts/menu-mob.js"></script>
 </body>
-
 </html>

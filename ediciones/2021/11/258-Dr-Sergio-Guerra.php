@@ -66,7 +66,7 @@
           <p>Desde una mirada más amplia aun, es crucial prevenir la diabetes actuando desde diferentes flancos.</p>
           <p>“Necesitamos controlar la crisis de obesidad que existe en el país, para eso se pueden establecer muchas campañas públicas”, dijo, “pero también tenemos que hacer conciencia y establecer medidas de control en la casa y optar por estilos de vida más saludables: alimentación, ejercicio, evitar el sedentarismo”.</p>
           <p>Para finalizar, el doctor Guerra comentó que es importante monitorear la salud y realizar análisis anualmente en búsqueda de diabetes o riesgo, sobre todo cuando se tienen antecedentes familiares para padecerlas.</p>
-          <p>“Cuando detectamos la diabetes desde fases tempranas podemos controlarlas y prevenir todas sus complicaciones, cuando la detectamos en fases avanzadas podemos evitar que progresen”, finalizó el especialista. &nbsp;<i class="fas fa-square remate-esp"></i></p>
+          <p>“Cuando detectamos la diabetes desde fases tempranas podemos controlarlas y prevenir todas sus complicaciones, cuando la detectamos en fases avanzadas podemos evitar que progresen”, finalizó el especialista. &nbsp;<i class="fas fa-square remate"></i></p>
         </div>
       </div>
 

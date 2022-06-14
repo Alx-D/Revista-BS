@@ -79,7 +79,7 @@
           <p>Además de adoptar hábitos saludables como dejar de fumar y realizar actividad física, el especialista destacó algunas situaciones en las que es fundamental la consulta con el nefrólogo: si se tienen factores de riesgo para enfermedad renal, padecer hipertensión, diabetes o infección de vías urinarias, así como tener enfermedad renal diagnosticada.</p>
           <p>“Pacientes que ya son conocidos de enfermedad renal, no dejar de acudir a valoraciones de acuerdo a sus etapas para poder evitar progresión acelerada. El objetivo es poder ofrecer una mejor calidad de vida”, recomendó.</p>
           <p>Bajo la perspectiva de que los dos últimos años han implicado crecimiento personal, familiar, profesional, el entrevistado invita a hacer frente a la pandemia con solidaridad.</p>
-          <p>“Debemos ser empáticos; cuidarnos con lo que ya conocemos no sólo se refleja como un acto de amor propio, sino un acto de amor hacia nuestras familias y demás seres queridos”, finalizó. &nbsp;<i class="fas fa-square remate-esp"></i></p>
+          <p>“Debemos ser empáticos; cuidarnos con lo que ya conocemos no sólo se refleja como un acto de amor propio, sino un acto de amor hacia nuestras familias y demás seres queridos”, finalizó. &nbsp;<i class="fas fa-square remate"></i></p>
         </div>
       </div>
 

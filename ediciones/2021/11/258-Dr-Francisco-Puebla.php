@@ -57,35 +57,34 @@
           <p>Revista BS entrevistó al doctor <b>Francisco Rafael Puebla Zúñiga</b> para conocer su punto de vista respecto al
             desarrollo y atención de la diabetes, compartimos sus comentarios.</p>
 
-          <p class="texto-preg" style="margin-bottom: 0;">¿Por qué la diabetes ha alcanzado su estatus de problema de salud pública?</p>
-          <p><i>Al ser uno de los principales factores que descompensan o desencadenan complicaciones en el paciente,
+          <p class="texto-preg">¿Por qué la diabetes ha alcanzado su estatus de problema de salud pública?</p>
+          <p>Al ser uno de los principales factores que descompensan o desencadenan complicaciones en el paciente,
               tanto micro como macrovasculares, ha alcanzado gran importancia y prevalencia en la población en general y
               esto ha repercutido sobre las comorbilidades y las complicaciones de los pacientes. La gran cantidad de
-              complicaciones que conlleva es lo que la ha hecho un problema de salud pública.</i></p>
+              complicaciones que conlleva es lo que la ha hecho un problema de salud pública.</p>
 
-          <p class="texto-preg" style="margin-bottom: 0;">¿Cómo impactan los hábitos de la población sonorense en el desarrollo de esta enfermedad?</p>
-          <p><i>Por genética y por el tipo de dieta. Al ser un estado fronterizo, es una dieta alta en carbohidratos, y
-              el estilo de vida sedentario, complican o favorecen el desarrollo de diabetes a edades tempranas.</i></p>
+          <p class="texto-preg">¿Cómo impactan los hábitos de la población sonorense en el desarrollo de esta enfermedad?</p>
+          <p>Por genética y por el tipo de dieta. Al ser un estado fronterizo, es una dieta alta en carbohidratos, y
+              el estilo de vida sedentario, complican o favorecen el desarrollo de diabetes a edades tempranas.</p>
 
-          <p class="texto-preg" style="margin-bottom: 0;">¿Cuál es la importancia del seguimiento adecuado en los pacientes con diabetes?</p>
-          <p><i>El internista se encarga de la valoración integral, no solamente ve diabetes, no solamente ve corazón o
+          <p class="texto-preg">¿Cuál es la importancia del seguimiento adecuado en los pacientes con diabetes?</p>
+          <p>El internista se encarga de la valoración integral, no solamente ve diabetes, no solamente ve corazón o
               pulmón, nosotros englobamos al paciente como un todo y manejamos las diferentes patologías y
-              comorbilidades sin que se contrapongan los tratamientos.</i></p>
+              comorbilidades sin que se contrapongan los tratamientos.</p>
 
-          <p class="texto-preg" style="margin-bottom: 0;">¿Podemos hablar de prevención?</p>
-          <p><i>Por carga genética los mexicanos estamos predispuestos a padecer de diabetes mellitus. Pero si ya
+          <p class="texto-preg">¿Podemos hablar de prevención?</p>
+          <p>Por carga genética los mexicanos estamos predispuestos a padecer de diabetes mellitus. Pero si ya
               sabemos que nuestros padres, tíos o abuelos tienen esa carga genética, creo que desde edades tempranas se
               debe promover el ejercicio, una buena alimentación y chequeos rutinarios con el médico. No esperarse al
               desarrollo de una enfermedad, porque cuando se detectan niveles elevados de glucosa, ya tenemos tiempo de
               evolución de la enfermedad, probablemente ya las complicaciones hayan empezado a desarrollarse a nivel
-              microscópico.</i></p>
+              microscópico.</p>
 
-          <p class="texto-preg" style="margin-bottom: 0;">Desde el punto de vista institucional, ¿qué hace falta para hacerle frente a este problema?</p>
-          <p><i>De manera institucional existen varios programas que se dedican a la prevención. Lamentablemente como
+          <p class="texto-preg">Desde el punto de vista institucional, ¿qué hace falta para hacerle frente a este problema?</p>
+          <p>De manera institucional existen varios programas que se dedican a la prevención. Lamentablemente como
               población en general no hay un buen apego a estos programas. Son programas buenos, que en el papel se ven
               bien, pero al momento de llevarlos a la práctica, no se desarrollan completamente, o el paciente no tiene
-              un apego por creencias, o muchas veces la cuestión económica no les permite apegarse a una dieta.
-            </i>&nbsp;<i class="fas fa-square remate-esp"></i></p>
+              un apego por creencias, o muchas veces la cuestión económica no les permite apegarse a una dieta. &nbsp;<i class="fas fa-square remate"></i></p>
 
         </div>
       </div>

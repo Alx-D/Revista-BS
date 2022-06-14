@@ -68,7 +68,7 @@
 <p>“La tortilla de harina, la cerveza y la carne crean la mayor cantidad de problemas metabólicos asociados a la obesidad en el sonorense”, indicó.</p>
 <p>De forma general son varios los flancos desde los que se puede prevenir la diabetes: salir a caminar cuatro veces por semana y llevar una dieta rica en cereales integrales, frutas y verduras. Además si se cuenta con antecedentes familiares para diabetes hay que llevar un monitoreo periódico de su estado de salud.</p>
 <p>“Si tiene un familiar directo con diabetes, debería realizarse laboratorios al menos una vez al año para revisar que sus niveles de glucosa se encuentran normales”, recomendó.&nbsp;<i
-  class="fas fa-square remate-esp"></i></p>
+  class="fas fa-square remate"></i></p>
         </div>
       </div>
 

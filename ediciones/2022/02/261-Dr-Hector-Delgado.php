@@ -63,11 +63,11 @@
           <p>De uso más reciente, se encuentran los implantes dentales, que pueden ser la alternativa que reúne comodidad, estética y funcionalidad, sin sacrificar piezas en buen estado.</p>
           <p>“En el presente, los implantes dentales son la mejor opción para sustituir piezas faltantes, van sumergidos dentro del hueso y son soporte para detener los dientes artificiales”, describió.</p>
 
-          <p>Constante perfeccionamiento</p>
+          <p class="descanso" >Constante perfeccionamiento</p>
           <p>Al igual que otras áreas de la odontología, la implantología se ha beneficiado de los avances tecnológicos médicos, haciendo su práctica más cómoda y eficiente.</p>
           <p>“Uno de los avances tecnológicos más destacados es el scanner intraoral, con el que se pueden hacer diseños y planeaciones, facilitando así un mejor diagnóstico y con más rapidez y precisión, con gusto informamos que contamos con estas herramientas para su comodidad”, detalló.</p>
           <p>Por todos sus beneficios y las herramientas actuales para lograrlo con éxito, atender dientes faltantes es una recomendación fundamental para la salud bucal integral.</p>
-          <p>“Si perdió un diente, sustitúyalo lo antes posible. Hoy por hoy el implante dental es la mejor opción”, concluyó. &nbsp;<i class="fas fa-square remate-esp"></i></p>
+          <p>“Si perdió un diente, sustitúyalo lo antes posible. Hoy por hoy el implante dental es la mejor opción”, concluyó. &nbsp;<i class="fas fa-square remate"></i></p>
         </div>
       </div>
 

@@ -81,7 +81,7 @@
           <p>“La diabetes es un ejemplo de enfermedad con la cual, al darle al paciente las herramientas, puede
             manejarse muy bien. Es por ello que controlar la diabetes es importante, si no lo hace, hay consecuencias
             con las que tendrá que lidiar más adelante en la vida”, advirtió el doctor Joel Ernesto Verdugo Correa.
-            &nbsp;<i class="fas fa-square remate-esp"></i></p>
+            &nbsp;<i class="fas fa-square remate"></i></p>
         </div>
       </div>
 

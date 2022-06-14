@@ -83,7 +83,7 @@
             hacer ejercicio, dieta balanceada, mantener los lazos con familiares, amigos y grupos de apoyo,
             participación en la comunidad en actividades que tengan un impacto social positivo, procurar un sueño
             reparador, tener un trabajo, tener una actividad recreativa, contacto con la naturaleza, tener una mascota,
-            practicar la meditación y técnicas de relajación. &nbsp;<i class="fas fa-square remate-esp"></i></p>
+            practicar la meditación y técnicas de relajación. &nbsp;<i class="fas fa-square remate"></i></p>
         </div>
       </div>
 

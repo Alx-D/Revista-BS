@@ -62,7 +62,7 @@
           <p>Ideas como que quien acude al psicólogo está loco o es débil, que la consulta psicológica es un lujo o que los especialistas en salud mental solucionan todo con fármacos son algunos de los prejuicios que Álvarez León intenta derribar desde su práctica.</p>
           <p>“Debemos tener en cuenta siempre que nuestra salud psicológica y emocional es una prioridad que debemos atender y no dejarla para después”, enfatizó. “Recordar que nuestro equilibrio psicológico impacta no sólo nuestra persona, sino todo nuestro entorno”.</p>
           <p>La entrevistada invitó a acercarse a un especialista en salud mental, sobre todo si está viviendo una situación como haber recibido diagnóstico de alguna enfermedad grave o crónica, usted mismo o un familiar; si está atravesando por algún duelo por pérdida; así como si tiene en casa problemas como alcoholismo de algún integrante de la familia que ocasionan disfuncionalidad y codependencia.</p>
-          <p>“El profesional le puede apoyar en cualquier situación que esté viviendo, así como alguna enfermedad tanto propia como de alguna persona significativa que le esté afectando; especialmente cuando sienta que su capacidad o recursos para resolver no son suficientes y requiere apoyo para visualizar otras alternativas para salir adelante”, finalizó Álvarez León. &nbsp;<i class="fas fa-square remate-esp"></i></p>
+          <p>“El profesional le puede apoyar en cualquier situación que esté viviendo, así como alguna enfermedad tanto propia como de alguna persona significativa que le esté afectando; especialmente cuando sienta que su capacidad o recursos para resolver no son suficientes y requiere apoyo para visualizar otras alternativas para salir adelante”, finalizó Álvarez León. &nbsp;<i class="fas fa-square remate"></i></p>
         </div>
       </div>
 
@@ -83,7 +83,6 @@
               <img src="/ediciones/2022/01/imgs/260-Psic-Patricia-Alvarez-3.jpg" alt="">
             </div>
             <p class="ctc-conozca" style="display: inline;">Conózcala</p>
-
             <?php include('../../../includes/ctc-alvarez-leon.php') ?>
           </div>
         </div>

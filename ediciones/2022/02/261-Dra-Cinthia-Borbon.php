@@ -66,7 +66,7 @@
             “Los pacientes de hoy buscan tratamientos estéticos ya no tan largos, por lo que adaptándonos a esas necesidades tenemos la opción de uno de los tratamientos más estéticos, cómodos y predecibles que son los alineadores invisibles (Invisalign), y si lo combinamos con alguna técnica de ortodoncia acelerada como láser terapéutico, que es una práctica novedosa en nuestra área, nos da excelentes resultados”, describió.
             Si bien, la ortodoncia preventiva e interceptiva es lo ideal, siempre es buen momento para atender problemas de alineamiento en dentadura o mordida, señaló Cinthia Lorena Borbón Esquer.
           </p>
-          <p>“No importa la edad que se tenga para llevar un tratamiento de ortodoncia, en la actualidad existen técnicas adecuadas para casi todo tipo de diagnósticos, así que nunca es tarde para una revisión y tratamiento para su problema, acérquense para una cita de valoración con algún especialista en ortodoncia”, finalizó. &nbsp;<i class="fas fa-square remate-esp"></i></p>
+          <p>“No importa la edad que se tenga para llevar un tratamiento de ortodoncia, en la actualidad existen técnicas adecuadas para casi todo tipo de diagnósticos, así que nunca es tarde para una revisión y tratamiento para su problema, acérquense para una cita de valoración con algún especialista en ortodoncia”, finalizó. &nbsp;<i class="fas fa-square remate"></i></p>
         </div>
       </div>
 

@@ -63,7 +63,7 @@
           <p>“Una vez que tengan los dientes definitivos ya es buen momento para comenzar con una ortodoncia, si es necesaria, ya que es mucho más fácil y rápido solucionar los problemas en la boca de un niño que aún está en desarrollo”, subrayó. “es recomendable llevar a su hijo al ortodoncista, como muy tarde, a los seis años”.</p>
           <p>El especialista hizo algunas recomendaciones para mantener la salud oral mientras se está en tratamiento de ortodoncia: utilizar un cepillo de cerdas suaves, cambiarlo cada tres o cuatro meses, usar pasta de dientes con flúor, que además de fortalecer sus dientes, ayudará a minimizar la sensibilidad que la ortodoncia pueda producir.</p>
           <p>“Dividir su boca en cuatro partes: izquierda, derecha, superior e inferior. De esta forma se asegura de limpiar cada una de ellas, preste mucha atención a la sección que se encuentra alrededor y en el centro de los brackets, cuando use el cepillo interproximal insértelo desde la parte superior del alambre y luego desde la inferior”, indicó.</p>
-          <p>Complacido de brindar la oportunidad a sus pacientes de tener una sonrisa hermosa y, en general, una salud bucal integral, el especialista expresó: “Lo mejor de ser dentista es que nunca dejamos de ayudar y, mucho menos, de aprender”. &nbsp;<i class="fas fa-square remate-esp"></i></p>
+          <p>Complacido de brindar la oportunidad a sus pacientes de tener una sonrisa hermosa y, en general, una salud bucal integral, el especialista expresó: “Lo mejor de ser dentista es que nunca dejamos de ayudar y, mucho menos, de aprender”. &nbsp;<i class="fas fa-square remate"></i></p>
         </div>
       </div>
 

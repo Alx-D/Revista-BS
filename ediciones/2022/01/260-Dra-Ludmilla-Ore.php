@@ -54,22 +54,22 @@
             <img src="/ediciones/2022/01/imgs/260-Dra-Ludmilla-Ore-1.jpg" alt="">
           </div>
           <p class="texto-preg">¿Cuál es la importancia de la visita periódica en ginecología?</p>
-          <p><i>“La prevención. La medicina debe estar basada en lo preventivo. Por eso se sugiere que por lo menos una vez al año acudan a su visita rutinaria de ginecología”.</i></p>
+          <p>“La prevención. La medicina debe estar basada en lo preventivo. Por eso se sugiere que por lo menos una vez al año acudan a su visita rutinaria de ginecología”.</p>
 
           <p class="texto-preg">¿Cuándo deben comenzar las mujeres a realizar visita periódica ginecológica y con qué regularidad?</p>
-          <p><i>“No es necesario esperar a tener vida sexual activa para comenzar a ir a la consulta de rutina. Pueden empezar desde el inicio de su regla, para ir valorando si hay cambios en el patrón menstrual. Además también cuando inician su vida sexual, pero de preferencia es una visita tras su menarca, es decir, su primera menstruación. En cuanto a periodicidad, al menos una vez al año y si llega a haber algún síntoma o algún dato de alarma ginecológico, acudir de inmediato”.</i></p>
+          <p>“No es necesario esperar a tener vida sexual activa para comenzar a ir a la consulta de rutina. Pueden empezar desde el inicio de su regla, para ir valorando si hay cambios en el patrón menstrual. Además también cuando inician su vida sexual, pero de preferencia es una visita tras su menarca, es decir, su primera menstruación. En cuanto a periodicidad, al menos una vez al año y si llega a haber algún síntoma o algún dato de alarma ginecológico, acudir de inmediato”.</p>
 
           <p class="texto-preg">¿Qué síntomas y signos ameritan visitar al ginecólogo de manera inmediata?</p>
-          <p><i>“Los síntomas que deben atender rápidamente son dolor intenso en los periodos menstruales, algún cambio en su flujo vaginal, ya sea cambio de coloración u olor, algún bulto o alguna anormalidad en alguno de los senos”.</i></p>
+          <p>“Los síntomas que deben atender rápidamente son dolor intenso en los periodos menstruales, algún cambio en su flujo vaginal, ya sea cambio de coloración u olor, algún bulto o alguna anormalidad en alguno de los senos”.</p>
 
           <p class="texto-preg">¿Qué pruebas y estudios son los de rutina?</p>
-          <p><i>“Los estudios que se hacen de rutina, cuando la paciente ya inició vida sexual, son el papanicolaou de manera anual, también se les hace ultrasonido ya sea pélvico o vaginal y exploración mamaria. Si la paciente no ha iniciado vida sexual y va nada más para valorar el patrón menstrual, se les hace su ultrasonido y se les enseña a hacerse su exploración mamaria. Además en todo caso se hace interrogatorio para detección de factores de riesgo”.</i></p>
+          <p>“Los estudios que se hacen de rutina, cuando la paciente ya inició vida sexual, son el papanicolaou de manera anual, también se les hace ultrasonido ya sea pélvico o vaginal y exploración mamaria. Si la paciente no ha iniciado vida sexual y va nada más para valorar el patrón menstrual, se les hace su ultrasonido y se les enseña a hacerse su exploración mamaria. Además en todo caso se hace interrogatorio para detección de factores de riesgo”.</p>
 
           <p class="texto-preg">¿Cuáles son los principales problemas detectados en su consultorio?</p>
-          <p><i>“Los principales problemas que encontramos en consulta son alteraciones en las células cervicales por infecciones como virus del papiloma, además se pueden descartar quistes o algún mioma, es decir, enfermedades ya sea de ovarios o útero, así como de glándulas mamarias”.</i></p>
+          <p>“Los principales problemas que encontramos en consulta son alteraciones en las células cervicales por infecciones como virus del papiloma, además se pueden descartar quistes o algún mioma, es decir, enfermedades ya sea de ovarios o útero, así como de glándulas mamarias”.</p>
 
           <p class="texto-preg">¿Algún mensaje o recomendación que quiera mandar a las lectoras para cuidar de su salud?</p>
-          <p><i>“Además de su revisión periódica, estén atentas a cualquier cambio en su patrón menstrual, realicen su autoexploración mamaria mensual 5 a 7 días después de que termine su regla, y estar siempre pendientes de cualquier cambio o síntoma nuevo”.</i> &nbsp;<i class="fas fa-square remate-esp"></i></p>
+          <p>“Además de su revisión periódica, estén atentas a cualquier cambio en su patrón menstrual, realicen su autoexploración mamaria mensual 5 a 7 días después de que termine su regla, y estar siempre pendientes de cualquier cambio o síntoma nuevo”. &nbsp;<i class="fas fa-square remate"></i></p>
         </div>
       </div>
 

@@ -66,7 +66,7 @@
           <p>“Los leucocitos son las células que nos protegen contra las infecciones, por lo que cuando éstos se afectan, los principales síntomas son infecciones de repetición o infecciones severas no esperadas”, apuntó.</p>
           <p>Cuando se presenta algún problema en las plaquetas y las proteínas de coagulación tendrán lugar moretones, sangrados de encías, de nariz o menstruaciones abundantes en el caso de mujeres.</p>
           <p>Para cuidar de la salud de la sangre, así como de la salud integral, la especialista recomendó incluir en sus chequeos anuales una biometría hemática, además, si se tienen enfermedades de la sangre ya conocidas, así como secuelas hematológicas de cáncer, la revisión periódica por el especialista en hematología es crucial.</p>
-          <p>“Quiero invitar a nuestros lectores a unirse a los programas de donación altruista de sangre; todos los individuos sanos pueden compartir de su salud y de su amor apoyando a los pacientes que requieren sangre ya que con su donación nos dan mucho y no quita nada”, finalizó la doctora Báez Islas. &nbsp;<i class="fas fa-square remate-esp"></i></p>
+          <p>“Quiero invitar a nuestros lectores a unirse a los programas de donación altruista de sangre; todos los individuos sanos pueden compartir de su salud y de su amor apoyando a los pacientes que requieren sangre ya que con su donación nos dan mucho y no quita nada”, finalizó la doctora Báez Islas. &nbsp;<i class="fas fa-square remate"></i></p>
         </div>
       </div>
 
