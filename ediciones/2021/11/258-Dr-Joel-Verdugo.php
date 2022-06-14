@@ -3,7 +3,7 @@
 <body>
 <?php include('includes/header-e258.php') ?>
 
-  <article class="contenedor">
+  <article id="espNota" class="contenedor">
     <div class="f1 migas">
       <a href="/index.php">Revista BS</a>
       &nbsp;
@@ -22,13 +22,13 @@
     <div class="nombre-bx">
       <div class="circulo-diabetes"></div>
       <h3 class="f1 nombre">Dr. Joel Ernesto <br class="brvd680"> Verdugo Correa</h3>
-      <img class="dr-foto-bx-vd420" src="/ediciones/2021/11/imgs/258-Dr-Joel-Verdugo-2.png" alt="">
+      <img class="esp-drFoto-vd420" src="/ediciones/2021/11/imgs/258-Dr-Joel-Verdugo-2.png" alt="">
     </div>
 
-    <div class="txt-esp-bx">
+    <div class="texto-bx">
       <div class="col-60">
         <h1 class="f2">Frene las complicaciones</h1>
-        <p class="f1 sumario-esp">Uno de cada cuatro adultos con diabetes desarrollará insuficiencia renal, de ahí la
+        <p class="f1 sumario">Uno de cada cuatro adultos con diabetes desarrollará insuficiencia renal, de ahí la
           importancia de cuidar de sus riñones si recibió diagnóstico de esta enfermedad</p>
 
         <div class="compartir-bx">
@@ -46,12 +46,12 @@
           </p>
         </div>
 
-        <div class="dr-foto-bx-vd680">
+        <div class="esp-drFoto-vd680">
           <img src="/ediciones/2021/11/imgs/258-Dr-Joel-Verdugo-2.png" alt="">
         </div>
 
-        <div class="txt-esp">
-          <div class="dr-foto-bx-vd840" style="margin-bottom: 170px;">
+        <div class="texto">
+          <div class="esp-drFoto-vd840" style="margin-bottom: 170px;">
             <img src="/ediciones/2021/11/imgs/258-Dr-Joel-Verdugo-1.png" alt="">
           </div>
           <p>Los altos niveles de azúcar en la sangre derivados de la diabetes mellitus van dañando progresivamente los
@@ -65,7 +65,7 @@
           <p>“Cuando se acude de manera tardía, muchas veces la única opción que hay de tratamiento es iniciar ya sea la
             diálisis peritoneal, hemodiálisis o bien, el trasplante renal”, señaló.</p>
 
-          <p style="color: #ff6b5b;" class="descanso-esp">Detección a tiempo</p>
+          <p class="descanso">Detección a tiempo</p>
           <p>En los pacientes con diabetes es necesario realizar periódicamente un examen de orina en busca de exceso de
             albúmina, ya que una cantidad alta de esa proteína es una señal clara de daño renal; el especialista
             recomendó realizar este estudio una vez al año, así también acudir a revisión con el nefrólogo en ese mismo
@@ -86,15 +86,15 @@
       </div>
 
       <aside class="col-40">
-        <div class="dr-foto-bx">
+        <div class="esp-drFoto">
           <img src="/ediciones/2021/11/imgs/258-Dr-Joel-Verdugo-1.png" alt="">
         </div>
 
         <div class="col-40-row-2">
-          <div class="formacion-bx">
+          <div class="espFrmBx">
             <img class="uni-logo" src="/imgs/Universidad-Autonoma-Sinaloa.png" alt="">
-            <p class="f1 frc">Formación</p>
-            <p class="f1 frt">Originario de Los Mochis, Sinaloa, el doctor Verdugo Correa es médico general por la
+            <p class="f1 frm-cbz">Formación</p>
+            <p class="f1 frm-txt">Originario de Los Mochis, Sinaloa, el doctor Verdugo Correa es médico general por la
               Universidad Autónoma de Sinaloa, realizó la especialidad en nefrología en la Universidad de Guadalajara.
               Está certificado por el Consejo Mexicano de Nefrología. Es profesor en la Universidad de Sonora y en las
               especialidades de medicina interna y familiar del Hospital General del Estado y del IMSS. Ofrece consulta
@@ -102,7 +102,7 @@
               Sonora.</p>
           </div>
 
-          <div class="ctc-bx">
+          <div id="espCtcBx">
             <div class="ctc-foto">
               <img src="/ediciones/2021/11/imgs/258-Dr-Joel-Verdugo-3.png" alt="">
             </div>

@@ -386,7 +386,7 @@
     width: 100%;
     overflow: auto;
   }
-  #espNota .esp-drFoto{
+  #espNota .esp-drFoto {
     display: none;
   }
   #espNota .col-40-row-2{
@@ -561,7 +561,7 @@
     display: block;
   }
   /* ASIDE */
-  #espNota .espFrmBx{
+  #espNota .espFrmBx {
     width: 100%;
     margin-bottom: 25px;
     float: none;
@@ -682,7 +682,7 @@
   #espNota .fa-circle-arrow-right{
     font-size: 20px;
   }
-  #espNota .esp-drFoto-vd680{
+  #espNota .esp-drFoto-vd680 {
     display: none;
   }
   #espNota .nombre-bx{

@@ -3,7 +3,7 @@
 <body>
 <?php include('includes/header-e258.php') ?>
 
-  <article class="contenedor">
+  <article id="espNota" class="contenedor">
   <div class="f1 migas">
       <a href="/index.php">Revista BS</a>
       &nbsp;
@@ -22,13 +22,13 @@
     <div class="nombre-bx">
       <div class="circulo-diabetes"></div>
       <h3 class="f1 nombre">Dr. Sergio Guerra<br class="brvd680"> Landavazo</h3>
-      <img class="dr-foto-bx-vd420" src="/ediciones/2021/11/imgs/258-Dr-Sergio-Guerra-2.png" alt="">
+      <img class="esp-drFoto-vd420" src="/ediciones/2021/11/imgs/258-Dr-Sergio-Guerra-2.png" alt="">
     </div>
 
-    <div class="txt-esp-bx">
+    <div class="texto-bx">
       <div class="col-60">
         <h1 class="f2">Prevenir secuelas, objetivo principal</h1>
-        <p class="f1 sumario-esp">Las consecuencias de la diabetes se ven materializadas en incapacidad para trabajar e incluso en la pérdida de autonomía de los pacientes, ahí la importancia de prevenirla</p>
+        <p class="f1 sumario">Las consecuencias de la diabetes se ven materializadas en incapacidad para trabajar e incluso en la pérdida de autonomía de los pacientes, ahí la importancia de prevenirla</p>
 
         <div class="compartir-bx">
           <i class="fa fa-share"></i>
@@ -45,12 +45,12 @@
           </p>
         </div>
 
-        <div class="dr-foto-bx-vd680">
+        <div class="esp-drFoto-vd680">
           <img src="/ediciones/2021/11/imgs/258-Dr-Sergio-Guerra-2.png" alt="">
         </div>
 
-        <div class="txt-esp">
-          <div class="dr-foto-bx-vd840" style="margin-bottom: 210px;">
+        <div class="texto">
+          <div class="esp-drFoto-vd840" style="margin-bottom: 210px;">
             <img src="/ediciones/2021/11/imgs/258-Dr-Sergio-Guerra-1.png" alt="">
           </div>
           <p>La alta prevalencia de diabetes tiene como resultado el desarrollo de otras enfermedades entre las que se destacan cardiopatías, ceguera y nefropatía, entre otras que merman la calidad de vida de los pacientes.</p>
@@ -60,7 +60,7 @@
           <p>El impacto final de la diabetes y otras enfermedades crónicas trasciende al individuo y afecta a la familia en conjunto debido a los costos de la enfermedad y la incapacidad que muchas veces causa en el paciente.</p>
           <p>“Termina mermando la calidad de vida de los propios pacientes y de su familia, que tienen que brindarle atención y hacerse cargo de los costos que genera la enfermedad y sus complicaciones”, apuntó.</p>
 
-          <p style="color: #ff6b5b;" class="descanso-esp">Atender a tiempo</p>
+          <p class="descanso">Atender a tiempo</p>
           <p>Una vez establecido el diagnóstico de diabetes, resulta clave llevar un control periódico con un especialista que le asesore para mantener en control su enfermedad.</p>
           <p>“Es muy importante llevar el seguimiento de las enfermedades crónicas y degenerativas, con una persona que le asegure que lleva un control adecuado, que le vea de forma integral y que pueda manejar en forma adecuada todos los padecimientos asociados”, recomendó el especialista.</p>
           <p>Desde una mirada más amplia aun, es crucial prevenir la diabetes actuando desde diferentes flancos.</p>
@@ -71,18 +71,18 @@
       </div>
 
       <aside class="col-40">
-        <div class="dr-foto-bx">
+        <div class="esp-drFoto">
           <img src="/ediciones/2021/11/imgs/258-Dr-Sergio-Guerra-1.png" alt="">
         </div>
 
         <div class="col-40-row-2">
-          <div class="formacion-bx">
+          <div class="espFrmBx">
             <img class="uni-logo" src="/imgs/Universidad-Michoacana-San-Nicolas-Hidalgo.png" alt="">
-            <p class="f1 frc">Formación</p>
-            <p class="f1 frt">Egresado como médico, cirujano y partero de la Universidad Michoacana de San Nicolás de Hidalgo, el doctor Sergio Guerra Landavazo se especializó en medicina interna en la Universidad Autónoma de Sinaloa.</p>
+            <p class="f1 frm-cbz">Formación</p>
+            <p class="f1 frm-txt">Egresado como médico, cirujano y partero de la Universidad Michoacana de San Nicolás de Hidalgo, el doctor Sergio Guerra Landavazo se especializó en medicina interna en la Universidad Autónoma de Sinaloa.</p>
           </div>
 
-          <div class="ctc-bx">
+          <div id="espCtcBx">
             <div class="ctc-foto">
               <img src="/ediciones/2021/11/imgs/258-Internistas-Hermosillo.png" alt="">
             </div>

@@ -80,7 +80,7 @@
             personas con diabetes merecen ser escuchadas, tratadas de la manera más digna, humana y con la mayor calidad
             posible”.</p>
 
-          <p style="color: #ff6b5b;" class="descanso">Tomar acción ya</p>
+          <p class="descanso">Tomar acción ya</p>
           <p>Además de las ya bien conocidas complicaciones de la diabetes, la entrevistada señaló que esta enfermedad
             también
             se asocia cada vez más con otras como cánceres, enfermedades del hígado, demencia, discapacidad, fragilidad
@@ -132,5 +132,4 @@
 
   <script src="../../../scripts/menu-mob.js"></script>
 </body>
-
 </html>
