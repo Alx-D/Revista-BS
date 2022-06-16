@@ -74,7 +74,7 @@
     </div>
 
     <div class="f1 contacto-bx">
-      <h3 class="secc-cbz">CONSULTA EN</h3>
+      <h3 class="cbz">CONSULTA EN</h3>
       <p class="ctc-empresa">Centro Médico Navarrete</p>
       <p class="ctc-info"><i class="fas fa-map-marker-alt"></i> Blvd. Navarrete #97, esquina con Américas, <br class="br880">Hermosillo, Sonora</p>
 
@@ -88,7 +88,7 @@
         <a href="tel:+526622161492">
           <p class="ctc-info hv-txt"><i class="fas fa-phone-alt"></i> (662) 216-1492</p>
         </a>
-        <a href="tel:+52662229-0213" title="Urgencias">
+        <a href="tel:+526622290213" title="Urgencias">
           <p class="ctc-info hv-txt"><i class="fas fa-exclamation-circle" style="color: red;"></i> (662) 229-0213</p>
         </a>
       </div>
@@ -97,15 +97,14 @@
       </p>
 
       <div class="f1 redes-bx">
-        <div>
+
           <a class="hv-trns-5" href="https://www.facebook.com/Columna-hermosillo-1534276236872116" target="blank"><img src="/alianzas/imgs/facebook-logo-120x120.png" alt="" title="@Columna-hermosillo, click para abrir en Facebook"></a>
 
           <a class="hv-trns-5" href="https://www.facebook.com/OrtopediaSonora" target="blank"><img src="/alianzas/imgs/facebook-logo-120x120.png" alt="" target="blank" title="@OrtopediaSonora, click para abrir en Facebook"></a>
 
           <a class="hv-trns-5" href="https://www.instagram.com/joseantoniogonzalezrincon/" target="blank"><img src="/alianzas/imgs/instagram-logo-120x120.png" alt="" title="@joseantoniogonzalezrincon, click para abrir en Instagram"></a>
 
-          <a class="hv-trns-5" href="https://wa.me/526628478861" target="blank"><img src="/alianzas/imgs/whatsapp-logo-120x120.png" alt="" title="@joseantoniogonzalezrincon, click para abrir en Instagram"></a>
-        </di>
+          <a class="hv-trns-5" href="https://wa.me/526628478861" target="blank"><img src="/alianzas/imgs/whatsapp-logo-120x120.png" alt="" title="Envie un mensaje por Whatsapp"></a>
 
         <p class="f3 click-redes">Click para acceder a sus redes sociales</p>
       </div>
@@ -113,9 +112,9 @@
       <div class="separador"></div>
     </div>
 
-    <div class="f1 formacion-bx">
-      <h3 class="secc-cbz">FORMACIÓN</h3>
-      <p class="secc-txt"><b></b> Originario de La Piedad, Michoacán, el doctor José Antonio González Rincón es médico
+    <div class="f1 formacion">
+      <h3 class="cbz">FORMACIÓN</h3>
+      <p class="txt"><b></b> Originario de La Piedad, Michoacán, el doctor José Antonio González Rincón es médico
         cirujano por la Universidad
         Michoacana de San Nicolás de Hidalgo, es especialista en traumatología y ortopedia por la Universidad Nacional
         Autónoma de México, realizó un curso en adiestramiento en cirugía de columna vertebral y deformidades y está
@@ -124,9 +123,9 @@
       <div class="separador"></div>
     </div>
 
-    <div class="f1 experiencia-bx">
-      <h3 class="secc-cbz">EXPERIENCIA y/o PROCEDIMIENTOS</h3>
-      <ul class="secc-txt" style="color: magenta;">
+    <div class="f1 experiencia">
+      <h3 class="cbz">EXPERIENCIA y/o PROCEDIMIENTOS</h3>
+      <ul class="txt">
         <li>Lorem ipsum dolor sit amet consectetur</li>
         <li>Beatae dolorem, commodi quod laudantium assumenda</li>
         <li>vitae magni corporis, sint minus architecto</li>
@@ -135,9 +134,9 @@
       <div class="separador"></div>
     </div>
 
-    <div class="colab-bx">
+    <div class="colaboraciones-bx">
       <div class="cbz-bx">
-        <h2 class="f1 secc-cbz">COLABORACIONES EN</h2>
+        <h2 class="f1 cbz" style="color: magenta;">COLABORACIONES EN</h2>
         <div>
           <img src="/imgs/Revista-BS-logo-m.png" alt="">
         </div>
