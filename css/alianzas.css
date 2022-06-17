@@ -174,14 +174,11 @@
   grid-area: contacto;
   margin-top: 50px;
 }
-.alnz .cbz {
+.alnz .secc-cbz {
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 5px;
 }
-
-/* ESTANDARIZAR CLASES  CENTRAR EXP Y FORM*/
-
 .alnz .ctc-empresa {
   font-size: 36px;
   line-height: 1.2;
@@ -243,7 +240,7 @@
 }
 .alnz .separador{
   width: 65%;
-  height: 5px;
+  height: 4px;
   background: var(--azul-claro);
   margin-top: 35px;
   margin-bottom: 35px;
@@ -270,24 +267,25 @@
   margin-bottom: 10px;
   line-height: 1.4;
 }
+
 /* 1COLABORACIONES */
-.alnz .colaboraciones-bx {
+.alnz .colaboraciones {
   grid-area: colaboraciones;
   margin-top: 15px;
 }
-.alnz .colaboraciones-bx>.cbz-bx{
+.alnz .colaboraciones>.cbz-bx{
   display: flex;
   align-items: baseline;
   margin-bottom: 25px;
 }
-.alnz .colaboraciones-bx>.cbz-bx h2{
+.alnz .colaboraciones>.cbz-bx h2{
   color: var(--verde-logo-1);
 }
-.alnz .colaboraciones-bx>.cbz-bx div {
+.alnz .colaboraciones>.cbz-bx div {
   width: 30%;
   margin-left: 11px;
 }
-.alnz .colaboraciones-bx .cbz-bx>div img{
+.alnz .colaboraciones .cbz-bx>div img{
   width: 100%;
 }
 .alnz .cards-bx{
@@ -295,79 +293,85 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.alnz .card-hz{
-  width: 100%;
+.alnz .card {
+  margin-bottom: 20px;
   display: flex;
-  background: #fff;
-  margin-bottom: 45px;
+  align-items: center;
+  margin-bottom: 35px;
   -webkit-font-smoothing: antialiased;
   transition: all 300ms;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.24);
+  box-shadow: 1px 3px 11px rgba(0, 0, 0, 0.24);
 }
 .hv-card:hover {
   transform: translateY(-2%);
-  box-shadow: 0 7px 14px rgba(0, 0, 0, 0.16);
+  box-shadow: 1px 7px 14px rgba(0, 0, 0, 0.16);
 }
-.alnz .card-hz>.cbz-bx{
-  display: grid;
-  grid-template-rows: 25px repeat(16, auto);
-}
-.alnz .card-hz>.cbz-bx .ind{
-  grid-row: 1;
+.cardHz {
   width: 100%;
-  font-size: 14px;
-  line-height: 1.7;
-  font-weight: 500;
-  text-align: center;
-  color: white;
-  background-color: #db813f;
-  padding-top: 3px;
 }
-.alnz .card-hz>.cbz-bx .blz{
-  grid-row: 9;
-  padding: 0 25px;
-}
-.alnz .card-hz>.cbz-bx .cbz{
-  grid-row: 10 / span 2;
-  padding: 0 25px;
-}
-.alnz .cbz-bx>.blz{
-  font-size: 16px;
-  line-height: 1.2;
-  text-transform: uppercase;
-  color: var(--verde-logo-1);
-  margin-bottom: 10px;
-}
-.alnz .cards-bx .cbz-bx .cbz{
-  font-size: 26px;
-  font-weight: 700;
-  line-height: 1.1;
-}
-.alnz .card-vl{
+.cardVl {
   width: 47.5%;
-  background: #fff;
-  margin-bottom: 45px;
-  -webkit-font-smoothing: antialiased;
-  transition: all 300ms;
-  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.24);
+  flex-direction: column;
 }
-.alnz .card-vl img,
-.alnz .card-hz img{
+.alnz .cardHz .imgBx {
+  width: 45%;
+}
+.alnz .cardHz .imgBx img {
   width: 100%;
   display: block;
 }
-.alnz .card-vl>.ind{
-  height: 25px;
-  font-size: 14px;
-  font-weight: 500;
-  text-align: center;
-  color: white;
+.alnz .cardHz .cbzBx {
+  width: 47%;
+  margin-left: 20px;
+}
+.alnz .cbzBx .ind {
+  width: fit-content;
+  font-size: 13px;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 3px;
+  padding: 4px 8px;
+  margin-bottom: 12px;
   background-color: #db813f;
-  padding-top: 5px;
 }
-.alnz .card-vl>.cbz-bx{
-   padding: 15px 25px 15px;
+.alnz .cbzBx .blz {
+  font-size: 16px;
+  line-height: 1.1;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: var(--verde-logo-1);
 }
+.alnz .cbzBx .cbz {
+  font-size: 26px;
+  line-height: 1.1;
+}
+.alnz .cardVl .imgBx {
+  width: 100%;
+  overflow: hidden;
+}
+.alnz .cardVl .imgBx img {
+  width: 100%;
+}
+.alnz .cardVl .cbzBx {
+  width: 87%;
+  margin-bottom: 15px;
+}
+.alnz .cardVl .ind {
+  margin-top: -5px;
+}
+.alnz .entrevista .ind {
+  margin-top: initial;
+  background-color: var(--verde-logo-1);
+}
+.alnz .entrevista .cbzBx {
+  width: 87%;
+}
+
+/* REVISAR COMO PONER MARGIN SOLO EN ENTREVISTA CARD HZ */
+.alnz .entrevista .cbzBx .cbz {
+  /* margin-bottom: 20px; */
+}
+
 .alnz .video-bx{
   margin-bottom: 30px;
 }
@@ -673,26 +677,31 @@
   .alnz .click-redes {
     margin-top: 10px;
   }
-  .alnz .formacion-bx,
-  .alnz .experiencia-bx,
-  .alnz .colaboraciones-bx {
+  .alnz .formacion,
+  .alnz .experiencia,
+  .alnz .colaboraciones {
     width: 90%;
     margin: 0 auto;
   }
   .alnz .secc-txt {
     text-align: center;
   }
-  .alnz .experiencia-bx ul {
+  .alnz .experiencia ul {
     list-style: none;
     color: magenta;
   }
-  .alnz .colaboraciones-bx {
-    background-color: aqua;
+  .alnz .experiencia ul li {
+    margin-bottom: 10px;
   }
-
+  .alnz .colaboraciones .cbz-bx {
+    justify-content: center;
+  }
   /* FOOTER */
+  .separador-footer {
+    margin-top: 10px;
+  }
   .footer-row-2{
-    width: 95vw;
+    margin-top: 25px;
   }
 }
 @media only screen and (max-width: 340px) {
