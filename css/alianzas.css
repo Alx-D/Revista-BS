@@ -130,7 +130,7 @@
   left: 50%;
   transform: translate(-50%);
   text-align: center;
-  padding: 10px 0 15px;
+  padding: 10px 10px 15px;
   background-color: #db813f;
   position: absolute;
   margin-bottom: 20px;
@@ -174,7 +174,7 @@
   grid-area: contacto;
   margin-top: 50px;
 }
-.alnz .secc-cbz {
+.alnz .seccCbz {
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 5px;
@@ -249,8 +249,8 @@
   width: 95%;
   grid-area: formacion;
 }
-.alnz .txt{
-  font-size: 18px;
+.alnz .seccTxt {
+  font-size: 20px;
   line-height: 1.4;
 }
 .alnz .experiencia {
@@ -263,7 +263,7 @@
   margin-block-end: 1em;
   padding-inline-start: 20px;
 }
-.alnz .txt > li{
+.alnz .seccTxt > li{
   margin-bottom: 10px;
   line-height: 1.4;
 }
@@ -273,19 +273,19 @@
   grid-area: colaboraciones;
   margin-top: 15px;
 }
-.alnz .colaboraciones>.cbz-bx{
+.alnz .colaboraciones .seccCbzBx {
   display: flex;
   align-items: baseline;
   margin-bottom: 25px;
 }
-.alnz .colaboraciones>.cbz-bx h2{
+.alnz .colaboraciones .seccCbzBx h2{
   color: var(--verde-logo-1);
 }
-.alnz .colaboraciones>.cbz-bx div {
+.alnz .colaboraciones .seccCbzBx div {
   width: 30%;
   margin-left: 11px;
 }
-.alnz .colaboraciones .cbz-bx>div img{
+.alnz .colaboraciones .seccCbzBx>div img{
   width: 100%;
 }
 .alnz .cards-bx{
@@ -315,6 +315,7 @@
 }
 .alnz .cardHz .imgBx {
   width: 45%;
+  background-color: red;
 }
 .alnz .cardHz .imgBx img {
   width: 100%;
@@ -323,6 +324,7 @@
 .alnz .cardHz .cbzBx {
   width: 47%;
   margin-left: 20px;
+  margin-bottom: 15px;
 }
 .alnz .cbzBx .ind {
   width: fit-content;
@@ -334,14 +336,14 @@
   margin-bottom: 12px;
   background-color: #db813f;
 }
-.alnz .cbzBx .blz {
+.alnz .card .cbzBx .blz {
   font-size: 16px;
   line-height: 1.1;
   text-transform: uppercase;
   margin-bottom: 10px;
   color: var(--verde-logo-1);
 }
-.alnz .cbzBx .cbz {
+.alnz .card .cbzBx .cbz {
   font-size: 26px;
   line-height: 1.1;
 }
@@ -366,14 +368,8 @@
 .alnz .entrevista .cbzBx {
   width: 87%;
 }
-
-/* REVISAR COMO PONER MARGIN SOLO EN ENTREVISTA CARD HZ */
-.alnz .entrevista .cbzBx .cbz {
-  /* margin-bottom: 20px; */
-}
-
-.alnz .video-bx{
-  margin-bottom: 30px;
+.alnz .video-bx {
+  margin-bottom: 35px;
 }
 .separador-footer {
   width: 95vw;
@@ -428,7 +424,7 @@
   background: initial;
 }
 .duarte-firma a {
-  color: #444;
+  color: #777;
 }
 
 @media only screen and (max-width: 1024px){
@@ -461,7 +457,7 @@
   .alnz .especialidad{
     font-size: 37px;
   }
-  .alnz .secc-cbz{
+  .alnz .seccCbz {
     font-size: 24px;
   }
   .alnz .ctc-empresa {
@@ -497,10 +493,10 @@
   .alnz .especialidad{
     font-size: 33px;
   }
-  .br880{
+  .br880 {
     display: none;
   }
-  .alnz .secc-cbz{
+  .alnz .seccCbz{
     font-size: 22px;
   }
   .alnz .ctc-empresa {
@@ -510,25 +506,21 @@
   .alnz .contacto-bx .fas{
     font-size: 18px;
   }
-  .alnz .video-bx{
-    margin-bottom: 10px;
+  .alnz .cardHz .imgBx img {
+    height: 100%;
+    overflow: hidden;
   }
-  .alnz .card-hz>.cbz-bx .ind,
-  .alnz .card-vl>.ind {
-    font-size: 13px;
+  .alnz .cbzBx .ind {
+    font-size: 12px;
   }
-  .alnz .cbz-bx>.blz{
-    font-size: 15px;
+  .alnz .card .cbzBx .blz {
+    font-size: 14px;
   }
-  .alnz .cards-bx .cbz-bx .cbz{
+  .alnz .card .cbzBx .cbz {
     font-size: 24px;
   }
-  .alnz .card-hz,
-  .alnz .card-vl {
-    margin-bottom: 30px;
-  }
-  .alnz .secc-txt {
-  font-size: 17px;
+  .alnz .seccTxt {
+  font-size: 18px;
   }
 }
 @media only screen and (max-width: 820px) {
@@ -634,7 +626,6 @@
     background-color: var(--gris-claro);
   }
   .alnz .nombre{
-    font-size: 55px;
     text-align: center;
     margin-top: 20px;
   }
@@ -652,10 +643,16 @@
     padding: 0 25px;
     margin-top: 25px;
   }
-  .alnz .secc-cbz,
+  .alnz .seccCbz,
   .alnz .ctc-empresa,
   .alnz .ctc-info {
     text-align: center;
+  }
+  .alnz .colaboraciones .seccCbzBx {
+    justify-content: center;
+  }
+  .alnz .colaboraciones .seccCbzBx div {
+    width: 25%;
   }
   .alnz .ctc-info {
     font-size: 20px;
@@ -683,7 +680,8 @@
     width: 90%;
     margin: 0 auto;
   }
-  .alnz .secc-txt {
+  .alnz .seccTxt {
+    font-size: 20px;
     text-align: center;
   }
   .alnz .experiencia ul {
@@ -693,16 +691,45 @@
   .alnz .experiencia ul li {
     margin-bottom: 10px;
   }
-  .alnz .colaboraciones .cbz-bx {
-    justify-content: center;
+  .alnz .cbzBx .ind {
+    font-size: 13px;
+  }
+  .alnz .card .cbzBx .blz {
+    font-size: 16px;
+  }
+  .alnz .card .cbzBx .cbz {
+    font-size: 26px;
   }
   /* FOOTER */
   .separador-footer {
     margin-top: 10px;
   }
   .footer-row-2{
+    width: 90vw;
     margin-top: 25px;
   }
+}
+
+@media only screen and (max-width: 520px) {
+  .alnz .nombre{
+    font-size: 50px;
+  }
+  .alnz .seccTxt {
+    font-size: 18px;
+  }
+  .alnz .colaboraciones .seccCbzBx div {
+    width: 28%;
+  }
+  .alnz .cbzBx .ind {
+    font-size: 12px;
+  }
+  .alnz .card .cbzBx .blz {
+    font-size: 15px;
+  }
+  .alnz .card .cbzBx .cbz {
+    font-size: 24px;
+  }
+
 }
 @media only screen and (max-width: 340px) {
   .anunciese {

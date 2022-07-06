@@ -52,7 +52,7 @@
           <img src="/alianzas/imgs/Dr-Jose-Antonio-Gonzalez.jpg" alt="">
         </picture>
         <div class="f1 agende">
-          <a href="tel:+526622161492">Llame para agendar una cita <br class="br1024"> 662 216-1492</a>
+          <a href="tel:+526622161492">Agende una cita <br class="br1024"> 662 216 1492</a>
         </div>
       </div>
 
@@ -66,7 +66,7 @@
     </div>
 
     <div class="nombre-bx">
-      <h1 class="f1 nombre">Dr. José Antonio González Rincón</h1>
+      <h1 class="f1 nombre">Dr. José Antonio <br> González Rincón</h1>
       <p class="f1 espl-ind">Especialidad médica</p>
       <div class="f1 especialidad">Traumatología <br> y Ortopedia</div>
       <p class="f3 cedulas"><b>Cédula profesional:</b> 5084256, Universidad Michoacana de San Nicolás de Hidalgo</p>
@@ -74,7 +74,7 @@
     </div>
 
     <div class="f1 contacto-bx">
-      <h3 class="secc-cbz">CONSULTA EN</h3>
+      <h3 class="seccCbz">CONSULTA EN</h3>
       <p class="ctc-empresa">Centro Médico Navarrete</p>
       <p class="ctc-info"><i class="fas fa-map-marker-alt"></i> Blvd. Navarrete #97, esquina con Américas, <br class="br880">Hermosillo, Sonora</p>
 
@@ -86,14 +86,14 @@
 
       <div class="ctc-tel-bx">
         <a href="tel:+526622161492">
-          <p class="ctc-info hv-txt"><i class="fas fa-phone-alt"></i> (662) 216-1492</p>
+          <p class="ctc-info hv-txt hv-trns-5"><i class="fas fa-phone-alt"></i> (662) 216-1492</p>
         </a>
         <a href="tel:+526622290213" title="Urgencias">
-          <p class="ctc-info hv-txt"><i class="fas fa-exclamation-circle" style="color: red;"></i> (662) 229-0213</p>
+          <p class="ctc-info hv-txt hv-trns-5"><i class="fas fa-exclamation-circle" style="color: red;"></i> (662) 229-0213</p>
         </a>
       </div>
 
-      <p class="ctc-info msite"><a href="https://www.columnahermosillo.com/" class="hv-txt" target="blank">www.columnahermosillo.com</a> <i class="fas fa-mouse-pointer"></i>
+      <p class="ctc-info msite hv-trns-5"><a href="https://www.columnahermosillo.com/" class="hv-txt" target="blank">www.columnahermosillo.com</a> <i class="fas fa-mouse-pointer"></i>
       </p>
 
       <div class="f1 redes-bx">
@@ -113,8 +113,8 @@
     </div>
 
     <div class="f1 formacion">
-      <h3 class="secc-cbz">FORMACIÓN</h3>
-      <p class="secc-txt"><b></b> Originario de La Piedad, Michoacán, el doctor José Antonio González Rincón es médico
+      <h3 class="seccCbz">FORMACIÓN</h3>
+      <p class="seccTxt">Originario de La Piedad, Michoacán, el doctor José Antonio González Rincón es médico
         cirujano por la Universidad
         Michoacana de San Nicolás de Hidalgo, es especialista en traumatología y ortopedia por la Universidad Nacional
         Autónoma de México, realizó un curso en adiestramiento en cirugía de columna vertebral y deformidades y está
@@ -124,8 +124,8 @@
     </div>
 
     <div class="f1 experiencia">
-      <h3 class="secc-cbz">EXPERIENCIA y/o PROCEDIMIENTOS</h3>
-      <ul class="secc-txt">
+      <h3 class="seccCbz">EXPERIENCIA y/o PROCEDIMIENTOS</h3>
+      <ul class="seccTxt">
         <li>Lorem ipsum dolor sit amet consectetur</li>
         <li>Beatae dolorem, commodi quod laudantium assumenda</li>
         <li>vitae magni corporis, sint minus architecto</li>
@@ -135,8 +135,8 @@
     </div>
 
     <div class="colaboraciones">
-      <div class="cbz-bx">
-        <h2 class="f1 secc-cbz" style="color: magenta;">COLABORACIONES EN</h2>
+      <div class="seccCbzBx">
+        <h2 class="f1 seccCbz" style="color: magenta;">COLABORACIONES EN</h2>
         <div>
           <img src="/imgs/Revista-BS-logo-m.png" alt="">
         </div>
@@ -178,9 +178,17 @@
           </div>
         </a>
 
-        <iframe class="video-bx" src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F3069315943384795%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+        <div id="fb-root"></div>
+        <script async="1" defer="1" crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v14.0" nonce="tLxnF5Jk"></script>
+        <div class="fb-video video-bx" data-href="https://www.facebook.com/RevistaBS/videos/982524315985330">
+          <blockquote cite="https://www.facebook.com/RevistaBS/videos/982524315985330/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/RevistaBS/videos/982524315985330/">Hormonas en la mujer después de los 40 - Dra Elizabeth Amaya</a>
+            Posted by <a href="https://www.facebook.com/460026737358062">Revista BS</a> on Tuesday, May 24, 2022
+          </blockquote>
+        </div>
 
-
+        <!-- <div class="video-bx">
+          <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F982524315985330%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+        </div> -->
 
         <a class="card cardVl hv-card entrevista" href="/ediciones/2022/01/260-ortopedia-infancia.php" target="blank">
           <div class="cbzBx">

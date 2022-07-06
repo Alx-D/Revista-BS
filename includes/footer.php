@@ -31,7 +31,7 @@
         </div>
 
         <div class="f1 footer-col-3">
-          <p><strong>©2021 Revista BS <br> Todos los derechos reservados</strong></p>
+          <p><strong>©2022 Revista BS <br> Todos los derechos reservados</strong></p>
 
           <p>Sin previa autorización, queda expresamente prohibida la publicación, retransmisión, edición y
             cualquier otro uso de los contenidos.</p>
