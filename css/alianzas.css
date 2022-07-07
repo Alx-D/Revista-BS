@@ -24,13 +24,13 @@
   max-width: 1100px;
   margin: 0 auto;
 }
-.alnz .pleca-alnz>.mobile{
+.alnz .pleca-alnz>.mobile {
   display: none;
 }
-.alnz .pleca-alnz>.foto{
+.alnz .pleca-alnz>.foto {
   overflow: hidden;
 }
-.alnz .pleca-alnz>.foto img{
+.alnz .pleca-alnz>.foto img {
   width: 100%;
   display: block;
 }
@@ -50,7 +50,7 @@
   color: white;
   background: dodgerblue;
 }
-.alnz .pleca-alnz>.desktop .lema{
+.alnz .pleca-alnz>.desktop .lema {
   width: 100%;
   font-size: 15.5px;
   font-weight: 300;
@@ -61,7 +61,7 @@
   margin-bottom: auto;
   color: #aaa;
 }
-.alnz .pleca-alnz>.desktop .logo{
+.alnz .pleca-alnz>.desktop .logo {
   width: 95px;
   height: 75px;
   background: var(--gris-claro);
@@ -72,10 +72,10 @@
   align-items: center;
   z-index: 10;
 }
-.alnz .pleca-alnz .logo img{
+.alnz .pleca-alnz .logo img {
   height: 65%;
 }
-.alnz .contenedor-grid{
+.alnz .contenedor-grid {
   width: 92vw;
   max-width: 1100px;
   margin: 0 auto;
@@ -169,6 +169,9 @@
   font-size: 11px;
   font-weight: 400;
   margin-bottom: 3px;
+}
+.alnz .br480 {
+  display: none;
 }
 .alnz .contacto-bx {
   grid-area: contacto;
@@ -543,14 +546,14 @@
     width: 100vw;
     margin: 0 auto;
   }
-  .alnz .pleca-alnz>.mobile .logo{
+  .alnz .pleca-alnz>.mobile .logo {
     width: 45%;
     margin: 20px auto 12px;
   }
-  .alnz .pleca-alnz>.mobile .logo img{
+  .alnz .pleca-alnz>.mobile .logo img {
     width: 100%;
   }
-  .alnz .pleca-alnz>.mobile .lema{
+  .alnz .pleca-alnz>.mobile .lema {
     width: 100%;
     height: 25px;
     line-height: 25px;
@@ -710,7 +713,24 @@
   }
 }
 
+@media only screen and (max-width: 640px) {
+  .alnz .pleca-alnz>.mobile .logo{
+    width: 50%;
+    margin: 20px auto 12px;
+  }
+  .alnz .pleca-alnz>.mobile .lema  {
+    font-size: 12px;
+  }
+}
+
 @media only screen and (max-width: 520px) {
+  .alnz .pleca-alnz>.mobile .logo{
+    width: 55%;
+    margin: 20px auto 12px;
+  }
+  .alnz .foto-bx {
+    width: 60%;
+  }
   .alnz .nombre{
     font-size: 50px;
   }
@@ -729,7 +749,95 @@
   .alnz .card .cbzBx .cbz {
     font-size: 24px;
   }
-
+}
+@media only screen and (max-width: 480px) {
+  .alnz .back a {
+    font-size: 40px;
+  }
+  .alnz .nombre {
+    font-size: 45px;
+  }
+  .alnz .br480 {
+    display: block;
+  }
+  .alnz .ctc-empresa {
+    font-size: 26px;
+  }
+  .alnz .ctc-info {
+    font-size: 18px;
+  }
+  .alnz .ctc-tel-bx {
+    display: flex;
+    flex-direction: column;
+  }
+  .alnz .ctc-tel-bx .ctc-info,
+  .alnz .msite a {
+    font-size: 22px;
+  }
+  .alnz .ctc-tel-bx a:first-child {
+    margin-bottom: 15px;
+  }
+  .alnz .seccTxt {
+    font-size: 17px;
+  }
+  .alnz .cbzBx .ind {
+    font-size: 12px;
+  }
+  .alnz .card .cbzBx .blz {
+    font-size: 14px;
+  }
+  .alnz .card .cbzBx .cbz {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .alnz .back a {
+    font-size: 37px;
+  }
+  .alnz .foto-bx {
+    width: 65%;
+  }
+  .alnz .nombre {
+    font-size: 40px;
+  }
+  .alnz .espl-ind{
+    font-size: 16px;
+  }
+  .alnz .especialidad {
+    font-size: 30px;
+  }
+  .alnz .br480 {
+    display: block;
+  }
+  .alnz .ctc-empresa {
+    font-size: 26px;
+  }
+  .alnz .ctc-info {
+    font-size: 18px;
+  }
+  .alnz .ctc-tel-bx {
+    display: flex;
+    flex-direction: column;
+  }
+  .alnz .ctc-tel-bx .ctc-info,
+  .alnz .msite a {
+    font-size: 22px;
+  }
+  .alnz .ctc-tel-bx a:first-child {
+    margin-bottom: 15px;
+  }
+  .alnz .seccTxt {
+    font-size: 17px;
+  }
+  .alnz .cbzBx .ind {
+    font-size: 12px;
+  }
+  .alnz .card .cbzBx .blz {
+    font-size: 14px;
+  }
+  .alnz .card .cbzBx .cbz {
+    font-size: 22px;
+  }
 }
 @media only screen and (max-width: 340px) {
   .anunciese {

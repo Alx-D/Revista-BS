@@ -69,8 +69,8 @@
       <h1 class="f1 nombre">Dr. José Antonio <br> González Rincón</h1>
       <p class="f1 espl-ind">Especialidad médica</p>
       <div class="f1 especialidad">Traumatología <br> y Ortopedia</div>
-      <p class="f3 cedulas"><b>Cédula profesional:</b> 5084256, Universidad Michoacana de San Nicolás de Hidalgo</p>
-      <p class="f3 cedulas"><b>Cédula de especialidad:</b> 7342886, Universidad Nacional Autónoma de México</p>
+      <p class="f3 cedulas"><b>Cédula profesional:</b> <br class="br480"> 5084256, Universidad Michoacana de San Nicolás de Hidalgo</p>
+      <p class="f3 cedulas"><b>Cédula de especialidad:<br class="br480"></b> 7342886, Universidad Nacional Autónoma de México</p>
     </div>
 
     <div class="f1 contacto-bx">
