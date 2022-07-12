@@ -233,9 +233,13 @@
   margin-top: 25px;
   align-items: center;
 }
+.alnz .redes-bx>div {
+  display: flex;
+  flex-direction: row;
+}
 .alnz .redes-bx img{
   width: 50px;
-  margin-right: 30px;
+  margin: 0 15px 0;
 }
 .alnz .click-redes {
   font-size: 16px;
@@ -318,7 +322,6 @@
 }
 .alnz .cardHz .imgBx {
   width: 45%;
-  background-color: red;
 }
 .alnz .cardHz .imgBx img {
   width: 100%;
@@ -429,7 +432,6 @@
 .duarte-firma a {
   color: #777;
 }
-
 @media only screen and (max-width: 1024px){
   .alnz .nombre{
     font-size: 62px;
@@ -486,7 +488,7 @@
   .alnz .contenedor-grid{
     grid-template-columns: 60% 35%;
   }
-  .alnz .nombre{
+  .alnz .nombre {
     font-size: 55px;
     margin-top: 140px;
   }
@@ -508,10 +510,6 @@
   .alnz .ctc-info,
   .alnz .contacto-bx .fas{
     font-size: 18px;
-  }
-  .alnz .cardHz .imgBx img {
-    height: 100%;
-    overflow: hidden;
   }
   .alnz .cbzBx .ind {
     font-size: 12px;
@@ -640,7 +638,7 @@
     text-align: center;
   }
   .alnz .nombre-bx :last-child {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
   }
   .alnz .contacto-bx {
     padding: 0 25px;
@@ -712,8 +710,7 @@
     margin-top: 25px;
   }
 }
-
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 650px) {
   .alnz .pleca-alnz>.mobile .logo{
     width: 50%;
     margin: 20px auto 12px;
@@ -721,8 +718,10 @@
   .alnz .pleca-alnz>.mobile .lema  {
     font-size: 12px;
   }
+  .alnz .click-redes {
+    text-align: center;
+  }
 }
-
 @media only screen and (max-width: 520px) {
   .alnz .pleca-alnz>.mobile .logo{
     width: 55%;
@@ -734,20 +733,34 @@
   .alnz .nombre{
     font-size: 50px;
   }
+  .alnz .seccCbz{
+    font-size: 20px;
+  }
   .alnz .seccTxt {
     font-size: 18px;
   }
   .alnz .colaboraciones .seccCbzBx div {
     width: 28%;
   }
-  .alnz .cbzBx .ind {
-    font-size: 12px;
+  .cardHz {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
   }
-  .alnz .card .cbzBx .blz {
-    font-size: 15px;
+  .alnz .cardHz .imgBx,
+  .alnz .cardHz .cbzBx {
+    width: 100%;
+  }
+  .cardVl {
+    width: 100%;
+    flex-direction: column;
+  }
+  .alnz .cardHz .cbzBx,
+  .alnz .cardVl .cbzBx {
+    width: 90%;
   }
   .alnz .card .cbzBx .cbz {
-    font-size: 24px;
+    font-size: 26px;
   }
 }
 @media only screen and (max-width: 480px) {
@@ -772,7 +785,7 @@
   }
   .alnz .ctc-tel-bx .ctc-info,
   .alnz .msite a {
-    font-size: 22px;
+    font-size: 20px;
   }
   .alnz .ctc-tel-bx a:first-child {
     margin-bottom: 15px;
@@ -780,19 +793,14 @@
   .alnz .seccTxt {
     font-size: 17px;
   }
-  .alnz .cbzBx .ind {
-    font-size: 12px;
-  }
-  .alnz .card .cbzBx .blz {
-    font-size: 14px;
-  }
-  .alnz .card .cbzBx .cbz {
-    font-size: 22px;
-  }
 }
 @media only screen and (max-width: 420px) {
   .alnz .back a {
-    font-size: 37px;
+    font-size: 36px;
+  }
+  .alnz .pleca-alnz>.mobile .lema  {
+    font-size: 10px;
+    letter-spacing: 2px;
   }
   .alnz .foto-bx {
     width: 65%;
@@ -804,44 +812,59 @@
     font-size: 16px;
   }
   .alnz .especialidad {
-    font-size: 30px;
+    font-size: 28px;
   }
   .alnz .br480 {
     display: block;
   }
+  .alnz .cedulas {
+    font-size: 9px;
+  }
   .alnz .ctc-empresa {
     font-size: 26px;
-  }
-  .alnz .ctc-info {
-    font-size: 18px;
   }
   .alnz .ctc-tel-bx {
     display: flex;
     flex-direction: column;
   }
-  .alnz .ctc-tel-bx .ctc-info,
-  .alnz .msite a {
-    font-size: 22px;
+  .alnz .colaboraciones .seccCbzBx {
+    flex-direction: column;
+    justify-content: center;
+    align-items: initial;
   }
-  .alnz .ctc-tel-bx a:first-child {
-    margin-bottom: 15px;
+  .alnz .colaboraciones .seccCbzBx div {
+    margin: 0 auto;
   }
-  .alnz .seccTxt {
-    font-size: 17px;
+}
+@media only screen and (max-width: 380px) {
+  .alnz .click-redes {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 340px) {
+  .alnz .back a {
+    font-size: 33px;
+  }
+  .alnz .nombre{
+    font-size: 34px;
+  }
+  .alnz .cedulas {
+    font-size: 8px;
+  }
+  .alnz .ctc-empresa {
+    font-size: 23px;
+  }
+ .alnz .msite a {
+    font-size: 19px;
   }
   .alnz .cbzBx .ind {
     font-size: 12px;
   }
   .alnz .card .cbzBx .blz {
-    font-size: 14px;
+    font-size: 15px;
   }
   .alnz .card .cbzBx .cbz {
-    font-size: 22px;
-  }
-}
-@media only screen and (max-width: 340px) {
-  .anunciese {
-    font-size: 15px;
+    font-size: 24px;
   }
   .footer-tel {
     font-size: 16px;
@@ -851,5 +874,31 @@
   }
   .footer-direccion {
     font-size: 12px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .alnz .back a {
+    font-size: 30px;
+  }
+  .alnz .nombre {
+    font-size: 32px;
+  }
+  .alnz .especialidad {
+    font-size: 26px;
+  }
+  .alnz .seccCbz{
+    font-size: 18px;
+  }
+  .alnz .ctc-info {
+    font-size: 17px;
+  }
+  .alnz .ctc-tel-bx .ctc-info {
+    font-size: 19px;
+  }
+  .alnz .msite a {
+    font-size: 17px;
+  }
+  .alnz .seccTxt {
+    font-size: 16px;
   }
 }

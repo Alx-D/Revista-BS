@@ -98,13 +98,17 @@
 
       <div class="f1 redes-bx">
 
-        <a class="hv-trns-5" href="https://www.facebook.com/Columna-hermosillo-1534276236872116" target="blank"><img src="/alianzas/imgs/facebook-logo-120x120.png" alt="" title="@Columna-hermosillo, click para abrir en Facebook"></a>
+        <div>
+          <a class="hv-trns-5" href="https://www.facebook.com/Columna-hermosillo-1534276236872116" target="blank"><img src="/alianzas/imgs/facebook-logo-120x120.png" alt="" title="@Columna-hermosillo, click para abrir en Facebook"></a>
 
-        <a class="hv-trns-5" href="https://www.facebook.com/OrtopediaSonora" target="blank"><img src="/alianzas/imgs/facebook-logo-120x120.png" alt="" target="blank" title="@OrtopediaSonora, click para abrir en Facebook"></a>
+          <a class="hv-trns-5" href="https://www.facebook.com/OrtopediaSonora" target="blank"><img src="/alianzas/imgs/facebook-logo-120x120.png" alt="" target="blank" title="@OrtopediaSonora, click para abrir en Facebook"></a>
+        </div>
 
-        <a class="hv-trns-5" href="https://www.instagram.com/joseantoniogonzalezrincon/" target="blank"><img src="/alianzas/imgs/instagram-logo-120x120.png" alt="" title="@joseantoniogonzalezrincon, click para abrir en Instagram"></a>
+        <div>
+          <a class="hv-trns-5" href="https://www.instagram.com/joseantoniogonzalezrincon/" target="blank"><img src="/alianzas/imgs/instagram-logo-120x120.png" alt="" title="@joseantoniogonzalezrincon, click para abrir en Instagram"></a>
 
-        <a class="hv-trns-5" href="https://wa.me/526628478861" target="blank"><img src="/alianzas/imgs/whatsapp-logo-120x120.png" alt="" title="Envie un mensaje por Whatsapp"></a>
+          <a class="hv-trns-5" href="https://wa.me/526628478861" target="blank"><img src="/alianzas/imgs/whatsapp-logo-120x120.png" alt="" title="Envie un mensaje por Whatsapp"></a>
+      </div>
 
         <p class="f3 click-redes">Click para acceder a sus redes sociales</p>
       </div>
