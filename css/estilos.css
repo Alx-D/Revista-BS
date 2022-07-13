@@ -664,7 +664,7 @@ ul li:last-child{
     margin-right: 0;
   }
   .col2-esp1 {
-    width: 85%;
+    width: 95%;
     margin: 0 auto;
   }
   .foto-esp1-bx {
@@ -2259,9 +2259,6 @@ th {
   .footer-BSlogo-bx {
     width: 120px;
   }
-  .footer-BSlogo-bx img {
-    width: 100%;
-  }
   .footer-col-2 {
     margin: 0 25px 0 35px;
   }
@@ -3249,6 +3246,9 @@ th {
   } */
 
   /* 34FOOTER */
+  .footer-BSlogo-bx {
+    width: 100px;
+  }
   .footer-mision {
     font-size: 14px;
   }

@@ -156,6 +156,8 @@
       <p class="f1"><strong>Alianzas</strong></p>
       <a href="alianzas.php">Alianzas</a>
       <a href="/alianzas/alnz-Dr-Jose-Antonio-Gonzalez.php"></a>
+      <br>
+      <a href="fontSizes.html">Responsive Font Sizes</a>
     </article>
 
     <!-- ASIDE NOTA -->

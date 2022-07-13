@@ -166,7 +166,8 @@
   margin-bottom: 20px;
 }
 .alnz .cedulas {
-  font-size: 11px;
+  font-size: clamp(0.5rem, 0.1458rem + 1.6667vw, 0.6875rem);
+  /* font-size: 11px; */
   font-weight: 400;
   margin-bottom: 3px;
 }
@@ -818,7 +819,7 @@
     display: block;
   }
   .alnz .cedulas {
-    font-size: 9px;
+    /* font-size: 9px; */
   }
   .alnz .ctc-empresa {
     font-size: 26px;
@@ -849,7 +850,7 @@
     font-size: 34px;
   }
   .alnz .cedulas {
-    font-size: 8px;
+    /* font-size: 8px; */
   }
   .alnz .ctc-empresa {
     font-size: 23px;
