@@ -14,7 +14,7 @@
 
   <main id="espPrtMain">
     <div class="foto">
-      <div class="f1 click">
+      <div class="f1 click blink">
         De click sobre el doctor de su preferencia
       </div>
       <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1100 800">
@@ -84,10 +84,9 @@
 
     <div class="intro-esp">
       <h2 class="f1"><b>Salud,</b> motivo para sonreír</h2>
-      <div class="f1 txt-esp">
+      <div class="f1">
         <p>¿Qué implica sonreír? Además de un estado de ánimo, una boca libre de molestias y una dentadura que brinde
-          confianza son fundamentales para realizar ese acto que puede ser expresión de plenitud y de empatía.</p>
-        <p>Mucho se ha dicho que sonreír puede darle un giro a cualquier situación, pero es verdad que, desde el ámbito de
+          confianza son fundamentales para realizar ese acto que puede ser expresión de plenitud y de empatía. Mucho se ha dicho que sonreír puede darle un giro a cualquier situación, pero es verdad que, desde el ámbito de
           la salud, habría que comenzar por hablar sobre lo mucho que puede cambiar la vida de un individuo al recuperar
           el bienestar de su boca. Por ello, dedicamos esta edición a la salud bucal integral.</p>
       </div>

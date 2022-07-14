@@ -142,7 +142,8 @@
   grid-area: nombre;
 }
 .alnz .nombre {
-  font-size: 65px;
+  font-size: clamp(2.0625rem, 4.5455vw + 1.1534rem, 4.0625rem);
+  /* font-size: 65px; */
   line-height: 1.1;
   margin-top: 170px;
   margin-bottom: 20px;
@@ -434,9 +435,9 @@
   color: #777;
 }
 @media only screen and (max-width: 1024px){
-  .alnz .nombre{
+  /* .alnz .nombre{
     font-size: 62px;
-  }
+  } */
   .br1024{
     display: block;
   }
@@ -454,9 +455,9 @@
   .alnz .foto-bx{
     top: 100px;
   }
-  .alnz .nombre{
+  /* .alnz .nombre{
     font-size: 60px;
-  }
+  } */
   .alnz .espl-ind{
     font-size: 20px;
   }
@@ -490,7 +491,7 @@
     grid-template-columns: 60% 35%;
   }
   .alnz .nombre {
-    font-size: 55px;
+    /* font-size: 55px; */
     margin-top: 140px;
   }
   .alnz .espl-ind{
@@ -558,7 +559,8 @@
     line-height: 25px;
     background-color: var(--gris-medio);
     color: #fff;
-    font-size: 14px;
+    font-size: clamp(0.6875rem, 1.25vw + 0.4219rem, 0.875rem);
+    /* font-size: 14px; */
     font-weight: 300;
     text-align: center;
     letter-spacing: 4px;
@@ -716,9 +718,9 @@
     width: 50%;
     margin: 20px auto 12px;
   }
-  .alnz .pleca-alnz>.mobile .lema  {
+  /* .alnz .pleca-alnz>.mobile .lema  {
     font-size: 12px;
-  }
+  } */
   .alnz .click-redes {
     text-align: center;
   }
@@ -731,9 +733,9 @@
   .alnz .foto-bx {
     width: 60%;
   }
-  .alnz .nombre{
+  /* .alnz .nombre{
     font-size: 50px;
-  }
+  } */
   .alnz .seccCbz{
     font-size: 20px;
   }
@@ -768,9 +770,9 @@
   .alnz .back a {
     font-size: 40px;
   }
-  .alnz .nombre {
+  /* .alnz .nombre {
     font-size: 45px;
-  }
+  } */
   .alnz .br480 {
     display: block;
   }
@@ -800,15 +802,15 @@
     font-size: 36px;
   }
   .alnz .pleca-alnz>.mobile .lema  {
-    font-size: 10px;
+    /* font-size: 10px; */
     letter-spacing: 2px;
   }
   .alnz .foto-bx {
     width: 65%;
   }
-  .alnz .nombre {
+  /* .alnz .nombre {
     font-size: 40px;
-  }
+  } */
   .alnz .espl-ind{
     font-size: 16px;
   }
@@ -846,12 +848,12 @@
   .alnz .back a {
     font-size: 33px;
   }
-  .alnz .nombre{
+  /* .alnz .nombre{
     font-size: 34px;
-  }
-  .alnz .cedulas {
-    /* font-size: 8px; */
-  }
+  } */
+  /* .alnz .cedulas {
+    font-size: 8px;
+  } */
   .alnz .ctc-empresa {
     font-size: 23px;
   }
@@ -881,9 +883,9 @@
   .alnz .back a {
     font-size: 30px;
   }
-  .alnz .nombre {
+  /* .alnz .nombre {
     font-size: 32px;
-  }
+  } */
   .alnz .especialidad {
     font-size: 26px;
   }

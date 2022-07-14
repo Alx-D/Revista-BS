@@ -26,7 +26,7 @@
   <!--PREVENTIVO COVID-->
   <div class="contenedor covid-preventivo">
     <a href="#">
-      <p><i class="fas fa-exclamation-circle fa-lg"></i><span> COVID-19:</span> INFORMACIÓN IMPORTANTE, ARTÍCULOS RELACIONADOS</p>
+      <p><i class="fas fa-exclamation-circle fa-lg"></i><span> AVISO:</span> SITIO EN CONSTRUCCIÓN</p>
     </a>
   </div>
 
