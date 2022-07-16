@@ -16,10 +16,10 @@
           </div>
       </a>
 
-      <a class="alnz-card" href="alnz-Dr-Joel-Verdugo-Correa.html">
+      <a class="alnz-card" href="alianzas/Dra-Cynthia-Virgen-Michel.php">
         <div class="alnz-nombre-bx">
-          <h3 class="f1 alnz-nombre">Dra. Irlanda Nataly Lopez Leal</h3>
-          <p class="f3 alnz-espl">Endocrinología</p>
+          <h3 class="f1 alnz-nombre">Dra. Cynthia Virgen Michel</h3>
+          <p class="f3 alnz-espl">Gastroenterología</p>
         </div>
         <div class="alnz-foto-bx">
           <img src="/2021/11/imgs/258-Dra-Irlanda-Lopez-2.png" alt="">
