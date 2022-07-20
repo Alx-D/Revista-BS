@@ -81,7 +81,7 @@
       </div>
 
       <div class="col3-mes1 none-1024">
-        <!-- BANNERS RUBI DESKTOP -->
+        <!-- BANNERS COL-3 TOP RUBI DESKTOP -->
         <?php include('includes/bnr-rubi.php') ?>
       </div>
     </div>
@@ -204,9 +204,6 @@
 
   <div class="clear"></div>
 
-  <!-- BANNER ORO2 -->
-  <?php include('includes/bnr-oro-02.php') ?>
-
   <!-- 1ESPECIAL -->
   <section id="esp1" style="background: #DDFFFF;">
     <div class="contenedor cont-esp1 m-0a">
@@ -328,6 +325,9 @@
   </section>
 
   <div class="clear"></div>
+
+    <!-- BANNER ORO2 -->
+    <?php include('includes/bnr-oro-02.php') ?>
 
   <!-- 1VIDEOS -->
   <section id="vid1">

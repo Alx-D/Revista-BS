@@ -66,6 +66,7 @@
           <div id="buscador">
             <form>
               <input type="text" placeholder="Buscar">
+
             </form>
           </div>
         </div>

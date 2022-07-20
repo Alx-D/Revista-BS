@@ -162,7 +162,7 @@ ul li:last-child{
   width: 100%;
 }
 #buscador {
-  width: 32%;
+  flex-basis: 32%;
 }
 #buscador input[type="text"] {
   width: 100%;
@@ -1113,13 +1113,36 @@ ul li:last-child{
 .duarte-firma a {
   color: #fff;
 }
+/* -- 1ALNZ INICIO -- */
+.alnzFront .col-12 {
+  width: 100%;
+  margin-top: 65px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.alnzFront .col-12 h1 {
+  font-size: 36px;
+  margin-bottom: 25px;
+  color: #444;
+}
+.alnzFront .col-12 button {
+  background: #0094d7;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  padding: 25px;
+  border: 0;
+  border-radius: 15px;
+  margin: 0 15px 0 15px;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+}
 
-/* -- ALNZ INICIO -- */
-.cont-alnz {
+.contAlnzCards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-top: 50px;
+  margin-top: 60px;
 }
 .alnz-card{
   width: 23%;
@@ -1129,9 +1152,10 @@ ul li:last-child{
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
+  position: relative;
 }
 .alnz-nombre-bx{
-  width: 55%;
+  flex-basis: 55%;
   align-self: center;
   z-index: 10;
 }
@@ -1142,21 +1166,27 @@ ul li:last-child{
   color: white;
   margin-left: 20px;
   margin-bottom: 7px;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
 }
 .alnz-espl{
   font-size: 17px;
   line-height: 1.2;
   color: white;
   margin-left: 20px;
+  text-shadow: 2px 2px 6px rgba(0,0,0,0.4);
 }
 .alnz-foto-bx{
-  width: 45%;
+  flex-basis: 45%;
+  height: 100%;
   overflow: hidden;
+  position: absolute;
+  right: 0;
 }
 .alnz-foto-bx img{
   height: 100%;
 }
-.alnz-card:hover{
+.alnz-card:hover,
+.alnzFront .col-12 button:hover {
   transform: translateY(-7px);
   transition: ease .3s;
   background: #007ab1;

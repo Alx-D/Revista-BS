@@ -110,6 +110,41 @@
     "colaboraciones foto"
     "colaboraciones foto";
 }
+.alnz .contenedorGrid02 {
+  width: 92vw;
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 43% 52%;
+  grid-template-rows: repeat(24, auto);
+  gap: 0px 5%;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "foto nombre"
+    "foto nombre"
+    "foto nombre"
+    "foto nombre"
+    "foto nombre"
+    "foto contacto"
+    "foto contacto"
+    "foto contacto"
+    "foto contacto"
+    "foto contacto"
+    "foto contacto"
+    "foto contacto"
+    "foto formacion"
+    "foto formacion"
+    "foto experiencia"
+    "foto experiencia"
+    "foto colaboraciones"
+    "foto colaboraciones"
+    "foto colaboraciones"
+    "foto colaboraciones"
+    "foto colaboraciones"
+    "foto colaboraciones"
+    "foto colaboraciones"
+    "foto colaboraciones";
+}
 .alnz .foto-col {
   grid-area: foto;
 }
@@ -453,7 +488,7 @@
     letter-spacing: 8px;
   }
   .alnz .contenedor-grid{
-    grid-template-columns: 57% 38%;
+    grid-template-columns: 38% 57%;
   }
   .alnz .foto-bx{
     top: 100px;
@@ -491,7 +526,7 @@
     font-size: 14px;
   }
   .alnz .contenedor-grid{
-    grid-template-columns: 60% 35%;
+    grid-template-columns: 35% 60%;
   }
   .alnz .nombre {
     /* font-size: 55px; */
@@ -575,7 +610,8 @@
     margin-left: 25px;
     color: dodgerblue;
   }
-  .alnz .contenedor-grid {
+  .alnz .contenedor-grid,
+  .alnz .contenedorGrid02 {
     width: 100vw;
     grid-template-columns: 100%;
     grid-template-rows: repeat(33, auto);

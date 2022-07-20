@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="/css/estilos.css">
   <link rel="stylesheet" href="/css/alianzas.css">
   <link rel="stylesheet" href="/css/all.min.css">
-  <meta name="description" content="Artículos, entrevistas del Doctor Joel Verdugo Correo en Revista BS">
+  <meta name="description" content="Artículos, entrevistas del Doctor José Antonio González en Revista BS">
   <meta name="keywords" content="">
   <link rel="icon" type="image/png" href="/imgs/Revista-BS-favicon.png">
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -107,7 +107,7 @@
         <div>
           <a class="hv-trns-5" href="https://www.instagram.com/joseantoniogonzalezrincon/" target="blank"><img src="/alianzas/imgs/instagram-logo-120x120.png" alt="" title="@joseantoniogonzalezrincon, click para abrir en Instagram"></a>
 
-          <a class="hv-trns-5" href="https://wa.me/526628478861" target="blank"><img src="/alianzas/imgs/whatsapp-logo-120x120.png" alt="" title="Envie un mensaje por Whatsapp"></a>
+          <a class="hv-trns-5" href="https://wa.me/526622161492" target="blank"><img src="/alianzas/imgs/whatsapp-logo-120x120.png" alt="" title="Envie un mensaje por Whatsapp"></a>
       </div>
 
         <p class="f3 click-redes">Click para acceder a sus redes sociales</p>
