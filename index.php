@@ -2,9 +2,9 @@
 <?php include('includes/head.php') ?>
 
 <body>
-<?php include('includes/header.php') ?>
+  <?php include('includes/header.php') ?>
 
-  <div class="popup">
+  <!-- <div class="popup">
     <button id="close">&times;</button>
     <a href="https://www.instagram.com/cdelnoroeste/?hl=es" target="_blank"><img src="banners/2022/Clinica-del-Noroeste-261.jpg" alt=""></a>
   </div>
@@ -21,70 +21,43 @@
     document.querySelector("#close").addEventListener("click", function() {
       document.querySelector(".popup").style.display = "none";
     });
-  </script>
+  </script> -->
 
-  <!--PREVENTIVO COVID-->
-  <div class="contenedor covid-preventivo">
-    <a href="#">
-      <p><i class="fas fa-exclamation-circle fa-lg"></i><span> AVISO:</span> SITIO EN CONSTRUCCIÓN</p>
-    </a>
-  </div>
 
   <!-- 1MES -->
   <section class="contenedor m-0a">
 
-    <div class="cont-mes1">
-      <div class="col1-mes1">
-        <div class="impresa-th-bx hv-trns-01">
-          <a href="ediciones/2022/02/Revista-BS-261.pdf" target="blank">
-            <p class="f2 ind-impr">EDICIÓN DIGITAL</p>
-            <figure><img src="imgs/portadas/portada-Revista-BS-261.jpg" alt="Revista BS #261"></figure>
-          </a>
-        </div>
+    <hr class="prtd-hr">
 
-        <hr class="mes1-hr-1">
+    <div class="prtd-cont">
 
-        <div class="esp-th-bx">
-          <a href="ediciones/2022/02/261-Seccion-Especial.php">
-            <p class="f2 esp-edi-inda">Especial</p>
-            <h2 class="f1 especial-cbz-th hv-txt-01 guion">Salud bucal integral</h2>
-            <p class="f1 especial-txt-th guion ">Expertos en hacerle sonreír</p>
-          </a>
-        </div>
-
-        <hr class="mes1-hr-2">
-
-        <div class="edi-th-bx">
-          <a href="ediciones/2022/02/261-editorial.php">
-            <p class="f2 esp-edi-inda">Editorial</p>
-            <h2 class="f1 editorial-cbz-th hv-txt-01">Salud bucodental</h2>
-          </a>
-        </div>
-      </div>
-
-      <!-- 1MES NOTA -->
-      <div class="col2-mes1 hv-trns-01">
-
-        <div class="f1 mes1-top-ceja morado">ESTE MES</div>
-
-        <a href="ediciones/2022/02/261-tipos-ortodoncia.php">
-          <div class="mes1-top-foto-bx">
-            <img src="ediciones/2022/02/imgs/261-Dra-Cinthia-Borbon-TIPOS-ORTODONCIA-1.jpg">
-          </div>
-
-          <div class="f2 mes1-top-ceja-th" style="background: #6ab8ac">Salud bucal</div>
-
-          <h2 class="f1 mes1-top-cbz hv-txt-01">Una opción para cada sonrisa</h2>
-
-          <p class="f1 mes1-top-sumario">Una de las preguntas más frecuentes que un paciente se hace es ¿cuál es el tratamiento de ortodoncia más adecuado para mí?, conozca las opciones que existen</p>
+      <div class="prtd-revista-bx hv-trns-01">
+        <a href="ediciones/2022/02/Revista-BS-261.pdf" target="blank">
+          <figure><img src="imgs/portadas/portada-Revista-BS-261.jpg" alt="Revista BS #261" title="Revista BS #261"></figure>
         </a>
       </div>
 
-      <div class="col3-mes1 none-1024">
-        <!-- BANNERS COL-3 TOP RUBI DESKTOP -->
-        <?php include('includes/bnr-rubi.php') ?>
+      <div class="prtd-prev-bx">
+        <p class="f1 prtd-prev-mes">ENERO 2023</p>
+        <p class="f1 prtd-prev-blz">Especialistas médicos enfocados en la prevención</p>
+        <h1 class="f1 prtd-prev-cbz">Prevenir es saludable</h1>
+
+        <hr class="prtd-prev-hr">
+
+        <p class="f1 prtd-prev-edit-ind">Editorial:</p>
+        <h2 class="f2 prtd-prev-edit-cbz">Programa de Vacunación contra Covid-19</h2>
       </div>
-    </div>
+
+      <iframe class="cajavideo" src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F982524315985330%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+
+      <!-- <div class="prtd-video-cont">
+        <div class="prtd-video-bx">
+
+        </div>
+      </div> -->
+
+
+
   </section>
 
   <div class="clear"></div>
@@ -326,8 +299,8 @@
 
   <div class="clear"></div>
 
-    <!-- BANNER ORO2 -->
-    <?php include('includes/bnr-oro-02.php') ?>
+  <!-- BANNER ORO2 -->
+  <?php include('includes/bnr-oro-02.php') ?>
 
   <!-- 1VIDEOS -->
   <section id="vid1">

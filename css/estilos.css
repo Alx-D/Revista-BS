@@ -42,6 +42,8 @@ a {
   --gris-claro: #e6e6de;
   --gris-medio: #bbbbae;
   --gris-oscuro: #6d6d70;
+
+  --verde05: #3699a5;
 }
 .rojoc {background: #c3242b;}
 .rojoo {background: #a1262a;}
@@ -101,95 +103,61 @@ ul li:last-child{
   display: none;
   visibility: hidden;
 }
-.header-cont {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 .header-mobile-cont {
   display: none;
 }
-.header-col-izq {
-  flex-basis: 19%;
-  margin-right: 2%;
-}
-.revista-bs-logo-bx img {
+.header-pleca {
   width: 100%;
+  height: 20px;
+  background: var(--verde05);
+  margin: 0 auto;
+  top: 0;
 }
-.header-col-der {
-  flex-basis: 82%;
-}
-.header-row-1 {
+.header-row {
   width: 100%;
+  margin-top: 40px;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  margin-bottom: 5px;
+  justify-content: space-between;
 }
 .facebook {
-  font-size: 15px;
+  font-size: 17px;
   font-weight: 700;
-  margin-right: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .facebook a {
   color: #1677f2;
 }
-.femeson-leyenda {
-  font-size: 12px;
-  line-height: 1.1;
-  font-weight: 300;
-  text-align: right;
-  margin-right: 10px;
+.revista-bs-logo-bx {
+  width: 200px;
+}
+.revista-bs-logo-bx img {
+  width: 100%;
 }
 .femeson-logo-bx {
-  width: 5%;
+  width: 4%;
   height: auto;
 }
 .femeson-logo-bx img {
   width: 100%;
 }
-.header-row-2 {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 4px;
+.slogan {
+  margin-top: 10px;
 }
-.lema-bx {
-  width: 65%;
+.slogan p {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  color: var(--verde-logo-1);
+  text-align: center;
 }
-.lema-bx img {
-  width: 100%;
+.slogan p span {
+  color: var(--naranja-oscuro
+  );
 }
-#buscador {
-  flex-basis: 32%;
-}
-#buscador input[type="text"] {
-  width: 100%;
-  border: 2px solid #aaa;
-  border-radius: 5px;
-  padding: 4%;
-  margin-bottom: 10px;
-}
-.menu-desktop {
-  width: 98%;
-  margin: 0 auto;
-}
-.menu-desktop ul {
-  display: flex;
-  justify-content: space-between;
-}
-.menu-desktop ul li {
-  display: inline-block;
-}
-.menu-desktop li a {
-  /* font-family: "Nunito Sans", sans-serif; */
-  font-family: "Oswald", sans-serif;
-  font-size: 18px;
-  font-weight: 400;
-  text-transform: uppercase;
-  color: #000100;
-}
+
 /* POP UP */
 .popup{
   width: 700px;
@@ -263,79 +231,83 @@ ul li:last-child{
   }
 }
 
-/* .pleca{
-  height: 15px;
-  background-color: var(--naranja-claro);
-  margin-bottom: 30px;
-} */
-
-/* COVID PREV */
-.covid-preventivo {
-  margin: 25px auto 30px;
-  background-color: red;
-  line-height: 1.2;
-  padding: 10px 0;
+/* PORTADA */
+.prtd-cont {
+  height: 280px;
   display: flex;
-  justify-content: center;
+  margin-bottom: 70px;
+  justify-content: space-evenly;
   align-items: center;
 }
-.covid-preventivo p span {
-  font-size: 37px;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: bolder;
-  color: rgb(250, 240, 151);
+.prtd-hr {
+  margin: 25px 0 60px;
+  background-color: var(--gris-claro);
+  height: 5px;
+  border: 0;
 }
-.covid-preventivo p {
-  font-size: 37px;
-  font-family: "Nunito Sans", sans-serif;
-  font-weight: bolder;
-  color: white;
-  text-align: center;
-}
-/* 1MES PREVENTIVOS */
-.cont-mes1 {
-  display: flex;
-  justify-content: space-between;
-}
-.col1-mes1 {
-  flex-basis: 18%;
-  margin-right: 2.5%;
-}
-.col1-mes1 img {
-  width: 100%;
-}
-.impresa-th-bx {
+.prtd-revista-bx {
+  width: 22%;
   transition: all 400ms;
 }
-.ind-impr {
-  font-size: 25px;
-  font-weight: 400;
-  line-height: 1.1;
-  margin-bottom: 10px;
+.prtd-revista-bx img {
+  width: 100%;
 }
-.esp-edi-inda {
-  font-size: 21.5px;
-  margin: 4px 0 6px;
+.prtd-prev-bx {
+  width: 44%;
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  justify-content: center;
+  position: relative;
+  background-color: #25d366;
+}
+.prtd-prev-mes {
+  font-size: 18px;
+  top: 0;
+  position: absolute;
+}
+.prtd-prev-blz {
+  font-size: 23px;
+  line-height: 1.2;
+  margin-top: 25px;
+}
+.prtd-prev-cbz {
+  font-size: 42px;
+  margin-bottom: 15px;
+}
+.prtd-prev-hr {
+  margin: 0 0 20px;
+  background-color: var(--gris-claro);
+  height: 3px;
+  border: 0;
+}
+.prtd-prev-edit-ind {
+  font-size: 22px;
   color: var(--verde-logo-1);
 }
-.especial-cbz-th {
-  font-size: 30px;
-  line-height: 1.2;
-  font-weight: 700;
-  margin-bottom: 7px;
+.prtd-prev-edit-cbz {
+  font-size: 25px;
 }
-.especial-txt-th {
-  font-size: 20px;
-  line-height: 1.3;
+
+.cajavideo {
+  width: 30%;
+  height: auto;
+  /* vertical-align: middle; */
+  margin: auto 0;
 }
-.col1-mes1 hr {
-  margin-top: 20px;
+/* .prtd-video-cont {
+  width: 30%;
+  background-color: black;
+  /* display: flex; */
 }
-.editorial-cbz-th {
-  font-size: 26px;
-  line-height: 1.3;
-  font-weight: 600;
+.prtd-video-bx {
+  width: 100%;
 }
+.prtd-video-bx iframe {
+  width: 100%;
+} */
+
+
 /* 1MES NOTA */
 .col2-mes1 {
   flex-basis: 54%;
