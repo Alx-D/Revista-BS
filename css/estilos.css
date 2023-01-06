@@ -38,11 +38,10 @@ a {
   --verde: #6dab51;
   --rojo-oscuro: #953829;
   --rojo: #b3272d;
-  --verde-logo-1: #275c6d;
+  --verde-logo-1: #22657b;
   --gris-claro: #e6e6de;
   --gris-medio: #bbbbae;
   --gris-oscuro: #6d6d70;
-
   --verde05: #3699a5;
 }
 .rojoc {background: #c3242b;}
@@ -66,18 +65,8 @@ a {
 .m-0a {
   margin: 0 auto;
 }
-
-.indicador {
-  font-size: 25px;
-  line-height: 1.2;
-  font-weight: 400;
-  margin-bottom: 15px;
-}
 .hv-txt-01:hover {
-  color: slategrey;
-}
-.hv-trns-01:hover {
-  transform: translateY(-2%);
+  color: var(--azul-claro);
 }
 ul li:last-child{
   margin-bottom: 0;
@@ -107,7 +96,7 @@ ul li:last-child{
 }
 .facebook-bx {
   width: 4%;
-  font-size: 33px;
+  font-size: 30px;
 }
 .facebook-bx a {
   color: #1677f2;
@@ -234,6 +223,9 @@ ul li:last-child{
 .prtd-revista-bx img {
   width: 100%;
 }
+.prtd-revista-bx:hover {
+  transform: translateY(-2%);
+}
 .prtd-prev-bx {
   width: 41%;
   display: flex;
@@ -249,11 +241,12 @@ ul li:last-child{
   margin-top: 45px;
 }
 .prtd-prev-cbz {
-  font-size: 48px;
+  font-size: 55px;
+  font-weight: 400;
   margin-bottom: 35px;
 }
 .prtd-prev-hr {
-  margin: 0 0 20px;
+  margin-bottom: 35px;
   background-color: var(--gris-claro);
   height: 3px;
   border: 0;
@@ -281,9 +274,9 @@ ul li:last-child{
   clear: both;
 }
 
-/* BANNER HORIZONTAL 1100x122 */
+/* BANNER HORIZONTAL*/
 .bnr-hz-01 {
-  margin: 40px auto 60px;
+  margin: 80px auto 80px;
 }
 .bnr-hz-01 img {
   width: 100%;
@@ -300,8 +293,6 @@ ul li:last-child{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 50px;
-  padding-bottom: 20px;
 }
 .ediciones-bx {
   width: 23%;
@@ -311,40 +302,69 @@ ul li:last-child{
 .ediciones-bx img {
   width: 100%;
 }
-
-
 .ediciones-bx:hover {
-  transform: translateY(-5%);
-  transition: all 400ms;
+  transform: translateY(-4%);
+  transition: all 500ms;
+}
+.ediciones-bx h4 {
+  text-align: center;
+  font-weight: 500;
+}
+.ediciones-bx:nth-last-child(-n+4) {
+  margin-bottom: 0;
+}
+
+/* 1VIDEOS */
+.videos {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  background-color: #242527;
+}
+.frames {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  padding: 40px 35px 50px;
+}
+.videos-bx {
+  width: 31%;
+  margin-bottom: 30px;
+  background: #fff;
 }
 
 /* 1FOOTER */
-.footer-row-1 {
-  width: 100vw;
-  background: var(--verde-logo-1)
+footer {
+  display: flex;
+  flex-direction: column;
+}
+.footer-hr {
+  margin: 20px 0 35px;
+  background-color: var(--gris-claro);
+  height: 5px;
+  border: 0;
 }
 .footer-mision {
-  font-size: clamp(0.875rem, 0.3333vw + 0.8083rem, 1rem);
-  /* font-size: 16px; */
+  font-size: clamp(1rem, 1.1364vw + 0.7727rem, 1.625rem);
   line-height: 2.2;
   font-weight: 600;
   text-align: center;
   letter-spacing: 2px;
-  color: #fff;
+  color: var(--naranja-oscuro);
+  margin-bottom: 40px;
 }
-.footer-row-2 {
-  width: 100vw;
-  height: auto;
-  background: var(--gris-claro);
-}
-.footer-cont {
-  margin: 0 auto;
-  padding-top: 20px;
+.footer-row {
   display: flex;
-}
-.footer-col-2 {
-  width: 35%;
-  margin: 0 30px 0 70px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
 }
 .footer-BSlogo-bx {
   width: 150px;
@@ -352,21 +372,28 @@ ul li:last-child{
 .footer-BSlogo-bx img {
   width: 100%;
 }
-.anunciese,
+.footer-col-2 {
+  width: 35%;
+  margin-left: 60px;
+  display: flex;
+  flex-direction: column;
+}
 .footer-tel {
   font-size: 19px;
   line-height: 1.1;
-  margin-bottom: 10px;
+  display: inline-block;
+  margin-bottom: 17px;
 }
 .footer-icon {
-  font-size: 16px;
-  color: #696969;
+  font-size: 18px;
+  margin-right: 7px;
+  color: var(--gris-oscuro);
 }
 .footer-email {
   font-size: 18px;
   text-decoration: underline;
   display: inline-block;
-  margin-bottom: 10px;
+  margin-bottom: 17px;
   white-space: nowrap;
 }
 .footer-direccion {
@@ -374,84 +401,39 @@ ul li:last-child{
   line-height: 1.3;
 }
 .footer-col-3 {
-  width: 40%;
+  width: 35%;
+  margin-left: 60px;
 }
 .footer-col-3 p {
   font-size: 15px;
   line-height: 1.3;
   margin-bottom: 7px;
 }
-.footer-col-3 a {
-  font-size: 13px;
-  text-decoration: underline;
-  display: block;
-  float: left;
-  margin-right: 15px;
-  margin-bottom: 3px;
+footer .facebook-bx {
+  margin-left: 60px;
 }
-.btn-siganos {
-  width: 170px;
-  height: 70px;
-  border-radius: 6px;
-  background: #1778f2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
-  margin-left: 50px;
+.footer-pleca {
+  width: 100%;
+  background: var(--verde05);
+  margin: 55px auto 0;
   text-align: center;
-  box-shadow: 5px 6px 10px 0 #c2c2c2;
-}
-.btn-siganos p {
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 18px;
-  color: #fff;
-}
-.btn-siganos:hover {
-  background-color: #2d69bd;
-}
-.btn-siganos:active {
-  position: relative;
-  top: 1px;
-}
-.btn-siganos-pr {
-  display: none;
-  width: 150px;
-  height: 70px;
-  border-radius: 6px;
-  background: #1778f2;
-  margin-top: 20px;
-  margin-left: 50px;
-  text-align: center;
-  padding-top: 7px;
-  box-shadow: 5px 6px 10px 0 #c2c2c2;
-}
-.btn-siganos-pr p {
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 18px;
-  color: #fff;
-}
-.btn-siganos-pr:hover {
-  background-color: #2d69bd;
-}
-.btn-siganos-pr:active {
-  position: relative;
-  top: 1px;
+  bottom: 0;
+  padding: 7px 0;
 }
 .duarte-firma {
   font-family: sans-serif;
-  font-size: 10.5px;
-  line-height: 1.9;
-  width: fit-content;
-  margin: 50px auto 0;
-  padding: 0 15px;
-  text-align: center;
-  background: #5c85c3;
-  border-radius: 6px;
+  font-size: 11px;
+  /* line-height: 1.9; */
+  color: #fff;
 }
 .duarte-firma a {
   color: #fff;
 }
+
+
+
+
+
 /* -- 1ALNZ INICIO -- */
 .alnzFront .col-12 {
   width: 100%;
@@ -1251,7 +1233,7 @@ th {
   .none-1024 {
     display: none;
   }
-  /* BANNER HORIZONTAL 1100x122 */
+  /* BANNER HORIZONTAL*/
   .bnr-hz-01 {
     margin: 40px auto 50px;
   }
