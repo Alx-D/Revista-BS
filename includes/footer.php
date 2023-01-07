@@ -27,18 +27,13 @@
       </div>
 
       <div class="facebook-bx">
-          <a href="https://www.facebook.com/RevistaBS" target="_blank" title="Visítenos en Facebook">
-            <i class="fab fa-facebook fa-lg"></i></a>
-        </div>
+        <a href="https://www.facebook.com/RevistaBS" target="_blank" title="Visítenos en Facebook">
+          <i class="fab fa-facebook fa-lg"></i></a>
+      </div>
     </div>
 
     <div class="footer-pleca">
-    <a class="duarte-firma" href="mailto:duartepublicidad@gmail.com">Sitio desarrollado por <strong>Duarte Publicidad</strong></a>
+      <a class="duarte-firma" href="mailto:duartepublicidad@gmail.com">Sitio desarrollado por <strong>Duarte Publicidad</strong></a>
     </div>
-
-    <!-- <div class="duarte-firma">
-        <a href="mailto:duartepublicidad@gmail.com">Sitio desarrollado por <strong>Duarte Publicidad</strong></a>
-      </div> -->
-
     <!-- <div class="wid"></div> -->
   </footer>

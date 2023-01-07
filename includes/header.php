@@ -44,6 +44,7 @@
           <i>Salud para vivir <span>con sentido</span></i>
         </p>
       </div>
+      <hr class="header-hr">
       <div class="clear"></div>
     </div>
   </header>

@@ -7,9 +7,7 @@
   <!-- PORTADA -->
   <section class="contenedor m-0a">
 
-    <hr class="prtd-hr">
-
-    <div class="prtd-cont">
+     <div class="prtd-cont">
 
       <div class="prtd-revista-bx">
         <a href="ediciones/2022/02/Revista-BS-261.pdf" target="blank">
@@ -26,8 +24,10 @@
 
         <hr class="prtd-prev-hr">
 
-        <p class="f1 prtd-prev-edit-ind">Editorial:</p>
-        <h2 class="f2 prtd-prev-edit-cbz">Programa de Vacunación contra Covid-19</h2>
+        <a href="ediciones/2023/01/271-editorial.php">
+          <p class="f1 prtd-prev-edit-ind">Editorial:</p>
+          <h2 class="f2 prtd-prev-edit-cbz">Programa de Vacunación contra Covid-19</h2>
+        </a>
       </div>
 
       <div class="prtd-video-bx">
@@ -38,7 +38,7 @@
   <div class="clear"></div>
 
   <!-- BANNER PORTADA 1 -->
-  <?php include('includes/bnr-prtd-01.php') ?>
+  <?php include('includes/bnr-hz-01.php') ?>
 
   <div class="clear"></div>
 
@@ -73,7 +73,7 @@
     </div>
 
     <!-- BANNER PORTADA 2 -->
-    <?php include('includes/bnr-prtd-02.php') ?>
+    <?php include('includes/bnr-hz-02.php') ?>
 
     <div class="ediciones-bx">
       <a href="ediciones/2021/09/Revista-BS-256.pdf" target="blank">
@@ -105,7 +105,7 @@
   </section>
 
   <!-- BANNER PORTADA 1 -->
-  <?php include('includes/bnr-prtd-01.php') ?>
+  <?php include('includes/bnr-hz-01.php') ?>
 
   <!-- 1VIDEOS -->
   <section class="videos">
