@@ -11,22 +11,22 @@
 
       <div class="prtd-revista-bx">
         <a href="ediciones/2022/02/Revista-BS-261.pdf" target="blank">
-          <figure><img src="imgs/portadas/portada-Revista-BS-261.jpg" alt="Revista BS #261" title="Revista BS #261"></figure>
+          <figure><img src="ediciones/2022/271/BS271-portada.gif" alt="Revista BS #261" title="Revista BS #261"></figure>
         </a>
       </div>
 
       <div class="prtd-prev-bx">
         <p class="f1 prtd-prev-mes">ENERO 2023</p>
         <a href="ediciones/2022/02/Revista-BS-261.pdf" target="blank">
-          <p class="f1 prtd-prev-blz">Especialistas médicos enfocados en la prevención</p>
-          <h1 class="f2 prtd-prev-cbz">Prevenir es saludable</h1>
+          <p class="f1 prtd-prev-blz">Edición especial 24 aniversario</p>
+          <h1 class="f2 prtd-prev-cbz">Nogales saludable</h1>
         </a>
 
         <hr class="prtd-prev-hr">
 
-        <a href="ediciones/2023/01/271-editorial.php">
+        <a href="ediciones/2022/271/271-editorial.php">
           <p class="f1 prtd-prev-edit-ind">Editorial:</p>
-          <h2 class="f2 prtd-prev-edit-cbz">Programa de Vacunación contra Covid-19</h2>
+          <h2 class="f2 prtd-prev-edit-cbz">Prioridades en salud para 2023</h2>
         </a>
       </div>
 
@@ -42,19 +42,19 @@
 
   <div class="clear"></div>
 
-  <!-- 1 EDICIONES -->
+  <!-- 1EDICIONES -->
   <section class="ediciones">
     <div class="ediciones-bx">
-      <a href="ediciones/2022/01/Revista-BS-260.pdf" target="blank">
-        <img src="imgs/portadas/portada-Revista-BS-260.jpg" title="Revista BS #260" />
-        <h4 class="f1 hv-txt-01">Revista BS #260</h4>
+      <a href="ediciones/2022/270/Revista-BS-270.pdf" target="blank">
+        <img src="ediciones/2022/270/BS270-portada.jpg" title="Revista BS #270" />
+        <h4 class="f1 hv-txt-01">Revista BS #270</h4>
       </a>
     </div>
 
     <div class="ediciones-bx">
-      <a href="ediciones/2021/12/Revista-BS-259.pdf" target="blank">
-        <img src="imgs/portadas/portada-Revista-BS-259.jpg" title="Revista BS #259" />
-        <h4 class="f1 hv-txt-01">Revista BS #259</h4>
+      <a href="ediciones/2022/269/Revista-BS-269.pdf" target="blank">
+        <img src="ediciones/2022/269/BS269-portada.jpg" title="Revista BS #269" />
+        <h4 class="f1 hv-txt-01">Revista BS #269</h4>
       </a>
     </div>
 
