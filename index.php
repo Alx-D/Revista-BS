@@ -45,10 +45,17 @@
   <!-- 1EDICIONES -->
   <section class="ediciones">
     <div class="ediciones-bx">
-      <a href="ediciones/2022/270/Revista-BS-270.pdf" target="blank">
+
+      <a class="pdf-desk" href="ediciones/2022/270/alta.pdf" target="blank">
         <img src="ediciones/2022/270/BS270-portada.jpg" title="Revista BS #270" />
         <h4 class="f1 hv-txt-01">Revista BS #270</h4>
       </a>
+
+      <a class="pdf-mob" href="ediciones/2022/270/baja.pdf" target="blank">
+        <img src="ediciones/2022/270/BS270-portada.jpg" title="Revista BS #270" />
+        <h4 class="f1 hv-txt-01">Revista BS #270</h4>
+      </a>
+      
     </div>
 
     <div class="ediciones-bx">
@@ -59,16 +66,16 @@
     </div>
 
     <div class="ediciones-bx">
-      <a href="ediciones/2021/11/Revista-BS-258.pdf" target="blank">
-        <img src="imgs/portadas/portada-Revista-BS-258.jpg" title="Revista BS #258" />
-        <h4 class="f1 hv-txt-01">Revista BS #258</h4>
+      <a href="ediciones/2022/268/Revista-BS-268.pdf" target="blank">
+        <img src="ediciones/2022/268/BS268-portada.jpg" title="Revista BS #268" />
+        <h4 class="f1 hv-txt-01">Revista BS #268</h4>
       </a>
     </div>
 
     <div class="ediciones-bx">
-      <a href="ediciones/2021/10/Revista-BS-257.pdf" target="blank">
-        <img src="imgs/portadas/portada-Revista-BS-257.jpg" title="Revista BS #257" />
-        <h4 class="f1 hv-txt-01">Revista BS #257</h4>
+      <a href="ediciones/2022/267/Revista-BS-267.pdf" target="blank">
+        <img src="ediciones/2022/267/BS267-portada.gif" title="Revista BS #267" />
+        <h4 class="f1 hv-txt-01">Revista BS #267</h4>
       </a>
     </div>
 
@@ -76,30 +83,30 @@
     <?php include('includes/bnr-hz-02.php') ?>
 
     <div class="ediciones-bx">
-      <a href="ediciones/2021/09/Revista-BS-256.pdf" target="blank">
-        <img src="imgs/portadas/portada-Revista-BS-256.jpg" title="Revista BS #256" />
-        <h4 class="f1 hv-txt-01">Revista BS #256</h4>
+      <a href="ediciones/2022/266/Revista-BS-266.pdf" target="blank">
+        <img src="ediciones/2022/266/BS266-portada.jpg" title="Revista BS #266" />
+        <h4 class="f1 hv-txt-01">Revista BS #266</h4>
       </a>
     </div>
 
     <div class="ediciones-bx">
-      <a href="ediciones/2021/08/Revista-BS-255.pdf" target="blank">
-        <img src="imgs/portadas/portada-Revista-BS-255.jpg" title="Revista BS #255" />
-        <h4 class="f1 hv-txt-01">Revista BS #255</h4>
+      <a href="ediciones/2022/265/Revista-BS-265.pdf" target="blank">
+        <img src="ediciones/2022/265/BS265-portada.jpg" title="Revista BS #265" />
+        <h4 class="f1 hv-txt-01">Revista BS #265</h4>
       </a>
     </div>
 
     <div class="ediciones-bx">
-      <a href="" target="blank">
-        <img src="imgs/portadas/portada-Revista-BS-254.jpg" title="Revista BS #254" />
-        <h4 class="f1 hv-txt-01">Revista BS #254</h4>
+      <a href="ediciones/2022/264/Revista-BS-264.pdf" target="blank">
+        <img src="ediciones/2022/264/BS264-portada.jpg" title="Revista BS #264" />
+        <h4 class="f1 hv-txt-01">Revista BS #264</h4>
       </a>
     </div>
 
     <div class="ediciones-bx">
-      <a href="" target="blank">
-        <img src="imgs/portadas/portada-Revista-BS-253.jpg" title="Revista BS #253" />
-        <h4 class="f1 hv-txt-01">Revista BS #253</h4>
+      <a href="ediciones/2022/263/Revista-BS-263.pdf" target="blank">
+        <img src="ediciones/2022/263/BS263-portada.jpg" title="Revista BS #263" />
+        <h4 class="f1 hv-txt-01">Revista BS #263</h4>
       </a>
     </div>
   </section>

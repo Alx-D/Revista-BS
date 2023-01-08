@@ -287,6 +287,9 @@ ul li:last-child{
 }
 
 /* 1EDICIONES */
+.pdf-mob {
+  display: none;
+}
 .ediciones {
   width: 100%;
   max-width: 1200px;
@@ -881,6 +884,17 @@ footer .facebook-bx {
 }
 
 /*------MEDIAS SCREEN INICIO GRAL------*/
+
+@media screen and (max-width: 700px) {
+  .pdf-desk {
+    display: none;
+  }
+  .pdf-mob {
+    display: block;
+  }
+}
+
+
 @media screen and (max-width: 1024px) {
   .contenedor {
     width: 92vw
