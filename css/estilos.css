@@ -73,13 +73,6 @@ ul li:last-child{
 }
 
 /* HEADER */
-.fa-search {
-  display: none;
-  visibility: hidden;
-}
-.header-mobile-cont {
-  display: none;
-}
 .header-pleca {
   width: 100%;
   height: 15px;
@@ -95,7 +88,7 @@ ul li:last-child{
   justify-content: space-between;
 }
 .facebook-bx {
-  width: 4%;
+  width: 40px;
   font-size: 30px;
 }
 .facebook-bx a {
@@ -111,7 +104,7 @@ ul li:last-child{
   width: 100%;
 }
 .femeson-logo-bx {
-  width: 4%;
+  width: 40px;
 }
 .femeson-logo-bx img {
   width: 100%;
@@ -129,7 +122,7 @@ ul li:last-child{
   );
 }
 .header-hr {
-  margin: 20px 0 50px;
+  margin: 15px 0 70px;
   background-color: var(--gris-claro);
   height: 5px;
   border: 0;
@@ -219,15 +212,26 @@ ul li:last-child{
 .prtd-revista-bx {
   width: 25%;
   transition: all 400ms;
+  text-align: center;
 }
 .prtd-revista-bx img {
   width: 100%;
+  margin-bottom: 7px;
 }
 .prtd-revista-bx:hover {
   transform: translateY(-2%);
 }
+.prtd-revista-bx div {
+  display: flex;
+  justify-content: space-evenly;
+}
+.prtd-revista-bx a {
+  font-size: 17px;
+  font-weight: 600;
+  text-align: center;
+}
 .prtd-prev-bx {
-  width: 41%;
+  width: 40%;
   display: flex;
   flex-direction: column;
   align-items: right;
@@ -242,7 +246,8 @@ ul li:last-child{
   color: var(--verde-logo-1);
 }
 .prtd-prev-cbz {
-  font-size: 60px;
+  /* font-size: 60px; */
+  font-size: clamp(1.125rem, 4.7727vw + 0.1705rem, 3.75rem);;
   font-weight: 400;
   margin-bottom: 35px;
 }
@@ -260,17 +265,21 @@ ul li:last-child{
   font-size: 35px;
   font-weight: 400;
 }
-.prtd-video-bx {
+.prtd-video-cont {
   width: 30%;
   height: 325px;
   display: flex;
+  align-content: center;
+}
+.prtd-video-bx {
+  width: 100%;
+  align-self: center;
 }
 .prtd-video-bx iframe {
   width: 100%;
-  display: block;
-  margin-top: 55px;
+  height: 200px;
+  margin-bottom: 15px;
 }
-
 .clear {
   clear: both;
 }
@@ -305,16 +314,18 @@ ul li:last-child{
 .ediciones-bx img {
   width: 100%;
 }
+.ediciones-bx h4 {
+  text-align: center;
+  font-weight: 500;
+  line-height: 1.2;
+}
 .ediciones-bx:hover {
   transform: translateY(-4%);
   transition: all 500ms;
 }
-.ediciones-bx h4 {
-  text-align: center;
-  font-weight: 500;
-}
-.ediciones-bx:nth-last-child(-n+4) {
-  margin-bottom: 0;
+.ediciones-dbl-bx div {
+  display: flex;
+  justify-content: space-evenly;
 }
 
 /* 1VIDEOS */
@@ -661,7 +672,7 @@ footer .facebook-bx {
   font-weight: 400;
   line-height: 1.6;
 }
-/* FRASE */
+/* NOTA FRASE */
 .frase-bx{
   width: 100%;
   display: flex;
@@ -686,7 +697,7 @@ footer .facebook-bx {
   margin-top: 25px;
   line-height: 1;
 }
-/* FOTOS NOTA */
+/* NOTA FOTOS */
 .nt-foto-bx {
   width: 95%;
   margin: 60px auto 65px auto;
@@ -808,7 +819,7 @@ footer .facebook-bx {
 .clear {
   clear: both;
 }
-/* ASIDE NOTA  */
+/* ASIDE NOTAS */
 .aside-bnrs-up {
   float: right;
   width: 75%;
@@ -828,73 +839,8 @@ footer .facebook-bx {
 .aside-bnrs-stic img {
   width: 100%;
 }
-/* TEMAS DE INTERES */
-#interes {
-  width: 70%;
-  float: right;
-  margin-top: 50px;
-  margin-bottom: 100px;
-}
-.interes-ind-a {
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-.interes-item {
-  width: 100%;
-}
-.interes-item img {
-  width: 100%;
-}
-.interes-item p {
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 18px;
-  line-height: 1.4;
-  font-weight: 600;
-  margin-top: 5px;
-  margin-bottom: 40px;
-}
-.interes-item:hover {
-  transform: translateY(-2%);
-}
-.interes-item p:hover {
-  color: slategrey;
-}
-
-/* ANTERIORES */
-.anteriores {
-  margin-bottom: 70px;
-}
-.anteriores-bx {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
-.anteriores-bx a {
-  width: 22%;
-  font-family: "Nunito Sans", sans-serif;
-  font-size: 24px;
-  line-height: 1.2;
-  font-weight: 600;
-  color: var(--verde-logo-1);
-  padding-right: 0 10px;
-}
-.lv {
-  border-right: 2px solid;
-  height: 55px;
-}
 
 /*------MEDIAS SCREEN INICIO GRAL------*/
-
-@media screen and (max-width: 700px) {
-  .pdf-desk {
-    display: none;
-  }
-  .pdf-mob {
-    display: block;
-  }
-}
-
-
 @media screen and (max-width: 1024px) {
   .contenedor {
     width: 92vw
@@ -1070,72 +1016,6 @@ footer .facebook-bx {
 }
 
 @media screen and (max-width: 980px) {
-  /* MENU */
-  .header-cont {
-    display: none !important;
-  }
-  .header-mobile-cont {
-    display: block;
-  }
-  .header-mobile-row-1 {
-    display: flex;
-    align-content: center;
-  }
-  .fa-bars, .fa-search {
-    display: block;
-    visibility: visible;
-    font-size: 32px;
-    align-self: center;
-    color: #333;
-    z-index: 9;
-  }
-  .logo-mobile-bx {
-    width: 50%;
-    margin: 0 auto 15px;
-  }
-  .logo-mobile-bx img {
-    width: 100%;
-  }
-  .lema-mobile-bx {
-    width: 60%;
-    margin: 0 auto 15px;
-  }
-  .lema-mobile-bx img {
-    width: 100%;
-  }
-  .menu-mobile {
-    width: auto;
-    height: fit-content;
-    text-align: left;
-    top: 0;
-    left: -400px;
-    position: fixed;
-    background: var(--verde-logo-1);
-    z-index: 50;
-    transition: 1s;
-  }
-  .menu-mobile ul {
-    padding: 40px;
-  }
-  .menu-mobile li {
-    display: block;
-    margin-bottom: 22px;
-  }
-  .menu-mobile .fas {
-    display: block;
-    color: #fff;
-    margin: 20px 0 0 20px;
-    font-size: 22px;
-    cursor: pointer;
-    z-index: 11;
-  }
-  .menu-mobile ul li a {
-    font-family: "Oswald", sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    text-transform: uppercase;
-    color: #fff;
-  }
   /* COVID PREV */
   .covid-preventivo {
     margin: 0 auto 40px;
@@ -1257,30 +1137,13 @@ footer .facebook-bx {
 }
 
 @media screen and (max-width: 920px) {
-  /* 92COVID PREV */
-  .covid-preventivo p span,
-  .covid-preventivo p {
-    font-size: 21px;
-  }
-  /* 92SALUD PARA */
-  .card-spv1 {
+  .ediciones-bx {
     width: 48%;
+    background: #fff;
   }
-  .cbz-spv1 {
-    font-size: 27px;
-  }
-  /* 92EDICIONES CARRUSEL */
-  #edcr1 {
-    margin-top: -10px;
-  }
-  #cont-edcr1 {
-    height: 242px;
-  }
-  .banda-edcr1>div {
-    width: 180px;
-    height: 242px;
-    margin-left: 35px;
-  }
+
+
+
   /* 92EVENTOS */
   #ev1 {
     margin: 0 auto 40px;
@@ -1484,6 +1347,15 @@ footer .facebook-bx {
 }
 
 @media screen and (max-width: 768px) {
+  .revista-bs-logo-bx {
+    width: 150px;
+  }
+  .pdf-desk {
+    display: none;
+  }
+  .pdf-mob {
+    display: block;
+  }
   /* 76COVID PREV */
   .covid-preventivo {
     margin: 0 auto 30px;
@@ -1571,10 +1443,6 @@ footer .facebook-bx {
   }
 }
 @media screen and (max-width: 740px) {
-  /* 74HEADER MOBILE */
-  .fa-bars, .fa-search {
-    font-size: 30px;
-  }
   /* 74MES */
   .cont-mes1 {
     display: flex;
@@ -1814,18 +1682,6 @@ footer .facebook-bx {
 }
 
 @media screen and (max-width: 580px) {
-  /* 58HEADER MOBILE */
-  .fa-bars, .fa-search {
-    font-size: 28px;
-  }
-  .logo-mobile-bx {
-    width: 60%;
-    margin: 0 auto 10px;
-  }
-  .lema-mobile-bx {
-    width: 70%;
-    margin: 0 auto 10px;
-  }
   /* 58MES */
   .col1-mes1 {
     margin-bottom: 40px;
@@ -1889,6 +1745,22 @@ footer .facebook-bx {
 }
 
 @media screen and (max-width: 520px) {
+  .revista-bs-logo-bx {
+    width: 120px;
+  }
+  .facebook-bx {
+    font-size: 24px;
+  }
+  .femeson-logo-bx {
+    width: 35px;
+  }
+
+
+
+
+
+
+
   /* 52MES */
   .ind-impr {
     font-size: 19px;
@@ -1927,6 +1799,16 @@ footer .facebook-bx {
 }
 
 @media screen and (max-width: 480px) {
+  .ediciones-bx {
+    width: 95%;
+    background: #fff;
+    margin: 0 auto;
+  }
+
+
+
+
+
   /* 48COVID PREV */
   .covid-preventivo {
     margin: 0 auto 20px;
@@ -2125,14 +2007,10 @@ footer .facebook-bx {
 }
 
 @media screen and (max-width: 420px) {
-  /* 42HEADER MOBILE */
-  .fa-bars, .fa-search {
-    font-size: 26px;
-  }
+  /* 42COVID PREV */
   .covid-preventivo {
     padding: 7px 0 7px;
   }
-  /* 42COVID PREV */
   .covid-preventivo p span,
   .covid-preventivo p    {
     font-size: 16px;
@@ -2219,10 +2097,6 @@ footer .facebook-bx {
   .indicador {
     font-size: 20px;
   }
-  /* 36HEADER MOBILE */
-  .fa-bars, .fa-search {
-    font-size: 25px;
-  }
   /* 36COVID PREV */
   .covid-preventivo p span,
   .covid-preventivo p    {
@@ -2261,17 +2135,6 @@ footer .facebook-bx {
 }
 
 @media screen and (max-width: 340px) {
-  /* 34HEADER MOBILE */
-  .fa-bars, .fa-search {
-    font-size: 24px;
-  }
-  .logo-mobile-bx {
-    width: 65%;
-    margin: 0 auto 7px;
-  }
-  .lema-mobile-bx {
-    width: 75%;
-  }
   /* 34COVID PREV */
   .covid-preventivo p span,
   .covid-preventivo p    {
