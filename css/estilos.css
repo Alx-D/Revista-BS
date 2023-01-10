@@ -122,7 +122,7 @@ ul li:last-child{
   );
 }
 .header-hr {
-  margin: 15px 0 70px;
+  margin: 15px 0 50px;
   background-color: var(--gris-claro);
   height: 5px;
   border: 0;
@@ -203,16 +203,22 @@ ul li:last-child{
 
 /* 1PORTADA */
 .prtd-cont {
-  height: 325px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 70px;
+}
+.prtd-col-1 {
+  width: 67%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .prtd-revista-bx {
-  width: 25%;
+  width: 40%;
   transition: all 400ms;
   text-align: center;
+  margin-right: 3.5%;
+  align-self: center;
 }
 .prtd-revista-bx img {
   width: 100%;
@@ -231,7 +237,7 @@ ul li:last-child{
   text-align: center;
 }
 .prtd-prev-bx {
-  width: 40%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   align-items: right;
@@ -259,21 +265,23 @@ ul li:last-child{
 }
 .prtd-prev-edit-ind {
   font-size: 22px;
+  line-height: 1.2;
   color: var(--verde-logo-1);
 }
 .prtd-prev-edit-cbz {
   font-size: 35px;
   font-weight: 400;
+  line-height: 1.2;
 }
 .prtd-video-cont {
   width: 30%;
+  /* width: 360px; */
   height: 325px;
   display: flex;
-  align-content: center;
+  flex-direction: column;
 }
 .prtd-video-bx {
   width: 100%;
-  align-self: center;
 }
 .prtd-video-bx iframe {
   width: 100%;
@@ -883,7 +891,7 @@ footer .facebook-bx {
   }
   /* BANNER HORIZONTAL*/
   .bnr-hz-01 {
-    margin: 40px auto 50px;
+    margin: 70px auto 70px;
   }
   /* ARTICULOS */
   .cont-art1 {
@@ -1016,6 +1024,39 @@ footer .facebook-bx {
 }
 
 @media screen and (max-width: 980px) {
+  .revista-bs-logo-bx {
+    width: 175px;
+  }
+  .prtd-cont {
+    flex-direction: column;
+  }
+  .prtd-col-1 {
+    width: 95%;
+    align-content: center;
+  }
+  .prtd-revista-bx,
+  .prtd-prev-bx {
+    width: 48%;
+    margin-bottom: 40px;
+  }
+  .prtd-video-cont {
+    width: 95%;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    padding: 0 35px;
+    border: 1px solid #878a8f;
+  }
+  .prtd-video-bx {
+    width: 100%;
+  }
+  .prtd-video-txt {
+    margin-left: 30px;
+  }
+
+
+
   /* COVID PREV */
   .covid-preventivo {
     margin: 0 auto 40px;
@@ -1140,6 +1181,9 @@ footer .facebook-bx {
   .ediciones-bx {
     width: 48%;
     background: #fff;
+  }
+  .videos-bx {
+    width: 48%;
   }
 
 
@@ -1507,7 +1551,7 @@ footer .facebook-bx {
   }
   /* 74BANNER HORIZONTAL */
   .bnr-hz-01 {
-    margin: 70px auto 70px;
+    margin: 60px auto 60px;
   }
   /* 74ARTICULOS */
   .ceja-med {
@@ -1746,7 +1790,7 @@ footer .facebook-bx {
 
 @media screen and (max-width: 520px) {
   .revista-bs-logo-bx {
-    width: 120px;
+    width: 125px;
   }
   .facebook-bx {
     font-size: 24px;
