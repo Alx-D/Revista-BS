@@ -34,15 +34,17 @@
 
       <div class="prtd-video-cont">
         <div class="prtd-video-bx">
-          <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F982524315985330%2F&show_text=false&width=560&t=0" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+          <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v15.0" nonce="EZGyza9t"></script>
+          <div class="fb-video" data-href="https://www.facebook.com/RevistaBS/videos/982524315985330/" data-width="420" data-show-text="false">
+          </div>
         </div>
+
         <div>
-        <p class="f1 prtd-video-txt">
+          <p class="f1 prtd-video-txt">
             Charla con la Dra. Elizabeth Amaya Sandoval <b>Hormonas en la mujer después de los 40 años</b>, cortesía de Celtara Medical & Professional Center.
           </p>
         </div>
       </div>
-    </div>
 
   </section>
 

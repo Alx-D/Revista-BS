@@ -8,6 +8,11 @@
       <div class="footer-col-1">
         <a class="footer-BSlogo-bx" href="/index.php"><img src="/imgs/Revista-BS-logo-footer.png">
         </a>
+
+        <div class="facebook-bx vsbldw768">
+        <a href="https://www.facebook.com/RevistaBS" target="_blank" title="Visítenos en Facebook">
+          <i class="fab fa-facebook fa-lg"></i></a>
+      </div>
       </div>
 
       <div class="f1 footer-col-2">
@@ -21,12 +26,12 @@
       </div>
 
       <div class="f1 footer-col-3">
-        <p><strong>©2023 Revista BS <br> Todos los derechos reservados</strong></p>
+        <p><strong>©2023 Revista BS <br class="nonedw768"> Todos los derechos reservados</strong></p>
         <p>Sin previa autorización, queda expresamente prohibida la publicación, retransmisión, edición y
           cualquier otro uso de los contenidos.</p>
       </div>
 
-      <div class="facebook-bx">
+      <div class="facebook-bx nonedw768">
         <a href="https://www.facebook.com/RevistaBS" target="_blank" title="Visítenos en Facebook">
           <i class="fab fa-facebook fa-lg"></i></a>
       </div>
