@@ -276,7 +276,7 @@ ul li:last-child{
 .prtd-video-cont {
   width: 30%;
   /* width: 360px; */
-  height: 325px;
+  height: 300px;
   display: flex;
   flex-direction: column;
 }
@@ -307,58 +307,53 @@ ul li:last-child{
 .pdf-mob {
   display: none;
 }
-.ediciones {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+.ediciones-cont {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  row-gap: 50px;
 }
-.ediciones-bx {
-  width: 23%;
+.edicion-bx {
+  width: 29%;
   background: #fff;
 }
-.ediciones-bx img {
+.edicion-bx img {
   width: 100%;
 }
-.ediciones-bx h4 {
+.edicion-bx h4 {
   text-align: center;
   font-weight: 500;
   line-height: 1.2;
 }
-.ediciones-bx:hover {
+.edicion-bx:hover {
   transform: translateY(-4%);
   transition: all 500ms;
 }
-.ediciones-dbl-bx div {
+.edicion-dbl-bx div {
   display: flex;
   justify-content: space-evenly;
 }
 
 /* 1VIDEOS */
-.videos {
-  width: 100%;
+.videos-bk {
+  width: 100vw;
   max-width: 1200px;
   margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-bottom: 70px;
   background-color: #242527;
 }
-.frames {
+.videos-cont {
   width: 100%;
-  margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  row-gap: 50px;
+  padding: 60px 35px;
   margin-bottom: 50px;
-  padding: 60px 35px 10px;
 }
-.videos-bx {
+/* 10 de padding en padre y 50 de margin-bottom en hijo ya suman 60 del padding-top del padre CAMBIO: use "row-gap" para los interespacios de los ediciones y video-bx, caniuse */
+.video-bx {
   width: 31%;
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
   background: #fff;
 }
 
@@ -395,7 +390,7 @@ footer {
 }
 .footer-col-2 {
   width: 35%;
-  margin-left: 60px;
+  margin-left: 70px;
   display: flex;
   flex-direction: column;
 }
@@ -849,42 +844,16 @@ footer .facebook-bx {
 }
 
 /*------MEDIAS SCREEN INICIO GRAL------*/
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1200px) {
   .contenedor {
-    width: 92vw
+    width: 92vw;
   }
-  .indicador {
-    font-size: 22px;
+  .videos-cont {
+    padding: 60px 0;
   }
-  /* MENU */
-  .menu-desktop li a {
-    font-size: 16.5px;
-  }
-  /* PREVENTIVO COVID */
-  .covid-preventivo {
-    margin: 20px auto 35px;
-  }
-  .covid-preventivo p span {
-    font-size: 25px;
-  }
-  .covid-preventivo p {
-    font-size: 25px;
-  }
-  /* MES PREVENTIVOS */
-  .col1-mes1 {
-    flex-basis: 23%;
-  }
-  /* MES NOTA */
-  .col2-mes1 {
-    flex-basis: 72%;
-  }
-  .mes1-top-ceja {
-    font-size: 18px;
-  }
-  .mes1-top-cbz {
-    font-size: 45px;
-  }
-  /* MES BANNERS  */
+}
+@media screen and (max-width: 1024px) {
+    /* MES BANNERS  */
   /* 250x250 */
   .none-1024 {
     display: none;
@@ -892,130 +861,6 @@ footer .facebook-bx {
   /* BANNER HORIZONTAL*/
   .bnr-hz-01 {
     margin: 70px auto 70px;
-  }
-  /* ARTICULOS */
-  .cont-art1 {
-    display: block
-  }
-  .col1-art1 {
-    flex-basis: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  .card-art1 {
-    width: 48%;
-    display: block;
-    height: auto;
-    margin-bottom: 40px;
-  }
-  .foto-art1-bx {
-    width: 100%;
-    margin-bottom: 10px;
-  }
-  .foto-art1-bx img {
-    width: 100%;
-  }
-  .cbz-art1-bx {
-    margin: 0 6% 4% 6%;
-    align-self: center;
-  }
-  .cbz-card-2col{
-    font-size: 32px;
-  }
-  .blz-card-2col{
-    font-size: 17px;
-    margin-bottom: 7px;
-  }
-  /* ARTICULOS ASIDE */
-  .col2-art1 {
-    flex-basis: 100%;
-    align-content: center;
-    justify-content: space-between;
-    margin-bottom: 40px;
-  }
-  .bnr-vl-01 {
-    display: none;
-  }
-  .visible1024 {
-    flex-basis: 65%;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-  }
-  .bnr-vl-250x250 {
-    align-self: center;
-  }
-  .leidas1 {
-    flex-basis: 32%;
-  }
-  .mas-inda {
-    text-align: left;
-  }
-  .leidas1 h3 {
-    font-family: "Oswald", sans-serif;
-    font-size: 18px;
-    line-height: 22px;
-    font-weight: 200;
-    color: black;
-    padding: 13px 55px 13px 15px;
-  }
-  .leidas1 li:last-child {
-    display: none;
-  }
-  .bnr-esp1 {
-    display: block;
-  }
-  /* ESPECIAL */
-  /* .sum-esp1 {
-    font-size: 22px;
-  } */
-  /* SPV */
-  .bnr-vl-02 {
-    display: block;
-    width: 48%;
-    margin: 25px auto 30px;
-  }
-  .bnr-vl-02 img{
-    width: 100%;
-  }
-  /* CARRUSEL */
-  .edi1-flecha-izq, .edi1-flecha-der {
-    display: none;
-  }
-  .banda-edcr1 {
-    width: unset;
-    left: unset;
-    position: unset;
-    overflow: auto;
-    white-space: nowrap;
-  }
-  .banda-edcr1>div {
-    float: none;
-    display: inline-block;
-  }
-  /* EVENTOS */
-  .cbz-ev1 {
-    font-size: 16px;
-  }
-  .cbz-ev1-top {
-    font-size: 24px;
-  }
-  /* CORTO */
-  .corto-flecha-izq, .corto-flecha-der {
-    display: none;
-  }
-  .banda-corto1-carr {
-    width: unset;
-    left: unset;
-    position: unset;
-    overflow: auto;
-    white-space: nowrap;
-  }
-  .banda-corto1-carr>div {
-    float: none;
-    /* float: unset; */
-    display: inline-block;
   }
   /* FOOTER */
   .footer-col-2 {
@@ -1056,90 +901,6 @@ footer .facebook-bx {
   }
 
 
-
-  /* COVID PREV */
-  .covid-preventivo {
-    margin: 0 auto 40px;
-  }
-  .covid-preventivo p span,
-  .covid-preventivo p {
-    font-size: 23px;
-  }
-  /* ESPECIAL */
-  /* .cont-esp1 {
-    flex-direction: column;
-  }
-  .col1-esp1 {
-    width: 100%;
-  }
-  .cbz-esp1-bx {
-    width: 90%;
-    margin: 0 auto;
-  }
-  .cbz-esp1 {
-    font-size: 57px;
-    text-align: center;
-    margin-bottom: 15px;
-  }
-  .sum-esp1 {
-    text-align: center;
-    font-size: 28px;
-  }
-  .lista-esp1-bx {
-    width: 85%;
-    margin: 0 auto 10px auto;
-  }
-  .item-esp1 {
-    font-size: 18px;
-  }
-  .lista-esp1-izq,
-  .lista-esp1-der {
-    margin-right: 0;
-  }
-  .col2-esp1 {
-    width: 85%;
-    margin: 0 auto;
-  }
-  .foto-esp1-bx {
-    width: 100%;
-    height: auto;
-    margin: 0 auto;
-  }
-  .foto-esp1-bx img {
-    width: 100%;
-  } */
-
-  /* VIDEOS */
-  .frames {
-    width: 98%;
-  }
-  .vid1-bx {
-    width: 48%;
-    margin-bottom: 30px;
-    background: #fff;
-  }
-  /* EVENTOS */
-  #ev1 {
-    margin: 0 auto 70px;
-  }
-  .cont-ev1 {
-    display: grid;
-    grid-template-columns: repeat(3, 31%);
-    gap: 3%;
-  }
-  .card-ev1-grid {
-    grid-column: 1/1;
-    grid-row: 1/1;
-  }
-  .card-ev1:nth-child(2) {
-    margin-bottom: 12px;
-  }
-  .cbz-ev1 {
-    font-size: 20px;
-  }
-  .cbz-ev1-top {
-    font-size: 20px;
-  }
   /* FOOTER */
   .footer-email {
     font-size: 17px;
@@ -1178,44 +939,14 @@ footer .facebook-bx {
 }
 
 @media screen and (max-width: 920px) {
-  .ediciones-bx {
-    width: 48%;
-    background: #fff;
+  .edicion-bx {
+    width: 47%;
+    justify-content: space-evenly;
   }
-  .videos-bx {
-    width: 48%;
+  .video-bx {
+    width: 47%;
   }
 
-
-
-  /* 92EVENTOS */
-  #ev1 {
-    margin: 0 auto 40px;
-  }
-  .cont-ev1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-  .card-ev1{
-    width: 48%;
-    height: auto;
-    margin-bottom: 20px;
-    transition: all 300ms;
-  }
-  .card-ev1:nth-child(2) {
-    margin-bottom: unset;
-  }
-  .cbz-ev1 {
-    font-size: 20px;
-  }
-  .cbz-ev1-top {
-    font-size: 22px;
-  }
-  /* 92CORTO */
-  .card-corto1-carr figcaption {
-    font-size: 20px;
-  }
   /* 92FOOTER */
   .footer-BSlogo-bx {
     width: 120px;
@@ -1305,6 +1036,18 @@ footer .facebook-bx {
   }
   .frase{
     font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 840px){
+  .prtd-video-cont {
+    flex-direction: column;
+  }
+  .prtd-video-bx {
+    width: 60%;
+  }
+  .ediciones-cont {
+    padding: 0 10px 0 10px;
   }
 }
 
@@ -1727,6 +1470,26 @@ footer .facebook-bx {
 
 @media screen and (max-width: 580px) {
   /* 58MES */
+  .ediciones-cont {
+    row-gap: 60px;
+  }
+  .edicion-bx {
+    width: 92%;
+    margin: 0 auto;
+  }
+  .videos-cont {
+    row-gap: 60px;
+  }
+  .video-bx {
+    width: 92%;
+    margin: 0 auto;
+  }
+
+
+
+
+
+
   .col1-mes1 {
     margin-bottom: 40px;
   }
@@ -1843,7 +1606,7 @@ footer .facebook-bx {
 }
 
 @media screen and (max-width: 480px) {
-  .ediciones-bx {
+  .edicion-bx {
     width: 95%;
     background: #fff;
     margin: 0 auto;
