@@ -3,9 +3,8 @@
 <body>
   <?php include('../../../includes/header.php') ?>
 
-  <div class="esp40top"></div>
   <?php include('../../../includes/bnr-hz-01.php') ?>
-  <div class="esp80btm"></div>
+  <div class="prt-bnr-spc-bt"></div>
 
   <div class="contenedor m-0a nota-bx">
     <article class="col-60">
@@ -80,9 +79,9 @@
     </aside>
   </div>
 
-  <div class="esp40top"></div>
+  <div class="prt-bnr-spc-bt"></div>
   <?php include('../../../includes/bnr-hz-01.php') ?>
-  <div class="esp80btm"></div>
+  <div class="prt-bnr-spc-bt"></div>
 
   <?php include('../../../includes/footer.php') ?>
 

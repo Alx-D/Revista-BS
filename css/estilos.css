@@ -202,84 +202,84 @@ ul li:last-child{
 }
 
 /* 1PORTADA */
-.prtd-cont {
+.prt-cont {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.prtd-col-1 {
+.prt-col-1 {
   width: 67%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.prtd-revista-bx {
+.prt-revista-bx {
   width: 40%;
   transition: all 400ms;
   text-align: center;
   margin-right: 3.5%;
   align-self: center;
 }
-.prtd-revista-bx img {
+.prt-revista-bx img {
   width: 100%;
   margin-bottom: 7px;
 }
-.prtd-revista-bx:hover {
+.prt-revista-bx:hover {
   transform: translateY(-2%);
 }
-.prtd-revista-bx div {
+.prt-revista-bx div {
   display: flex;
   justify-content: space-evenly;
 }
-.prtd-revista-bx a {
+.prt-revista-bx a {
   font-size: 17px;
   font-weight: 600;
   text-align: center;
 }
-.prtd-prev-bx {
+.prt-prev-bx {
   width: 60%;
   display: flex;
   flex-direction: column;
   align-items: right;
 }
-.prtd-prev-mes {
+.prt-prev-mes {
   font-size: 17px;
   margin-bottom: 45px;
 }
-.prtd-prev-blz {
+.prt-prev-blz {
   font-size: 22px;
   line-height: 1.2;
   color: var(--verde-logo-1);
 }
-.prtd-prev-cbz {
+.prt-prev-cbz {
   /* font-size: 60px; */
   font-size: clamp(3.125rem, 1.6129vw + 2.5403rem, 3.75rem);
   font-weight: 400;
   line-height: 1.2;
 }
-.prtd-prev-hr {
+.prt-prev-hr {
   margin: 35px 0 35px;
   background-color: var(--gris-claro);
   height: 3px;
   border: 0;
 }
-.prtd-prev-edit-ind {
+.prt-prev-edit-ind {
   font-size: 22px;
   line-height: 1.2;
   color: var(--verde-logo-1);
 }
-.prtd-prev-edit-cbz {
+.prt-prev-edit-cbz {
   /* font-size: 35px; */
   font-size: clamp(1.875rem, 0.8065vw + 1.5827rem, 2.1875rem);;
   font-weight: 400;
   line-height: 1.2;
 }
-.prtd-video-cont {
+.prt-video-cont {
   width: 30%;
   display: flex;
   flex-direction: column;
 }
-.prtd-video-bx {
+.prt-video-bx {
   width: 100%;
   margin-bottom: 15px;
 }
@@ -294,14 +294,11 @@ ul li:last-child{
 .bnr-hz-01 img {
   width: 100%;
 }
-.esp40top {
-  margin: 40px auto 0;
+.prt-bnr-spc-tp {
+  height: 80px;
 }
-.esp80top {
-  margin: 80px auto 0;
-}
-.esp80btm {
-  margin: 0 auto 80px;
+.prt-bnr-spc-bt {
+  height: 80px;
 }
 .bnr-hz-01-mob {
   display: none;
@@ -643,7 +640,7 @@ footer .facebook-bx {
   color: var(--verde-logo-1);
   margin-top: 40px;
 }
-.nt-txt-resaltado{
+.nt-txt-resaltado {
   font-size: 23px;
 }
 .nt-txt-resaltado-bx {
@@ -653,7 +650,7 @@ footer .facebook-bx {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.nt-txt-resaltado-bx p{
+.nt-txt-resaltado-bx p {
   line-height: 1.5;
   color: var(--verde-logo-1);
   margin-bottom: 0;
@@ -882,19 +879,19 @@ footer .facebook-bx {
   .revista-bs-logo-bx {
     width: 175px;
   }
-  .prtd-cont {
+  .prt-cont {
     flex-direction: column;
   }
-  .prtd-col-1 {
+  .prt-col-1 {
     width: 95%;
     align-content: center;
   }
-  .prtd-revista-bx,
-  .prtd-prev-bx {
+  .prt-revista-bx,
+  .prt-prev-bx {
     width: 48%;
     margin-bottom: 40px;
   }
-  .prtd-video-cont {
+  .prt-video-cont {
     width: 95%;
     flex-direction: row;
     align-items: center;
@@ -902,10 +899,10 @@ footer .facebook-bx {
     padding: 35px 35px;
     border: 1px solid #878a8f;
   }
-  .prtd-video-bx {
+  .prt-video-bx {
     margin-bottom: 0;
   }
-  .prtd-video-txt {
+  .prt-video-txt {
     margin-left: 30px;
   }
   /* FOOTER */
@@ -1027,16 +1024,16 @@ footer .facebook-bx {
 }
 
 @media screen and (max-width: 840px){
-  .prtd-video-cont {
+  .prt-video-cont {
     flex-direction: column;
   }
-  .prtd-video-bx {
+  .prt-video-bx {
     width: 100%;
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
   }
-  .prtd-video-txt {
+  .prt-video-txt {
     margin-left: 0;
     text-align: center;
   }
@@ -1165,7 +1162,7 @@ footer .facebook-bx {
     margin: 0 auto;
   }
   .footer-tel {
-    margin-right: 20px;
+    margin-right: 19px;
   }
   .footer-direccion {
     margin-bottom: 18px;
@@ -1199,10 +1196,10 @@ footer .facebook-bx {
   }
 }
 @media screen and (max-width: 740px) {
-  .prtd-prev-mes {
+  .prt-prev-mes {
     margin-bottom: 10px;
   }
-  .prtd-prev-hr {
+  .prt-prev-hr {
     margin: 10px 0 10px;
   }
 
@@ -1263,36 +1260,20 @@ footer .facebook-bx {
   .ediciones-cont {
     row-gap: 40px;
   }
+  .prt-bnr-spc-tp {
+    height: 60px;
+  }
+  .prt-bnr-spc-bt {
+    height: 60px;
+  }
 
-
-
-  /* 68ARTICULOS */
-  .cbz-card-2col{
-    font-size: 34px;
-  }
-  .autor-card{
-    margin-top: 14px;
-  }
-  /* 68EVENTOS PREVENTIVOS */
-  #ev1 {
-    margin: 0 auto 10px;
-  }
-  .cont-ev1 {
-    flex-direction: column;
-  }
-  .card-ev1:nth-child(2) {
-    margin-bottom: 30px;
-  }
-  .card-ev1 {
-    width: 100%;
-    margin: 0 auto 30px;
-  }
   /* 68NOTA */
   .nota-bx {
     grid-template-columns: 100%;
+    padding: 0 5px 0 5px;
   }
-  .balazo-1 {
-    font-size: 23px;
+  article {
+    margin-bottom: 20px;
   }
   /* 68RECUADROS */
   .rc-color {
@@ -1345,25 +1326,25 @@ footer .facebook-bx {
   .bnr-mob {
     display: block;
   }
-  .prtd-col-1 {
+  .prt-col-1 {
     flex-direction: column;
     justify-content: center;
   }
-  .prtd-revista-bx {
+  .prt-revista-bx {
     width: 85%;
   }
-  .prtd-prev-bx {
+  .prt-prev-bx {
     width: 85%;
     text-align: center;
   }
-  .prtd-prev-mes {
+  .prt-prev-mes {
     margin-bottom: 20px;
   }
-  .prtd-prev-hr {
+  .prt-prev-hr {
     margin: 20px 0 20px;
   }
-  .prtd-prev-blz,
-  .prtd-prev-edit-ind {
+  .prt-prev-blz,
+  .prt-prev-edit-ind {
     font-size: clamp(1.125rem, 1.5385vw + 0.8173rem, 1.375rem);
   }
   .edicion-bx {
@@ -1409,10 +1390,10 @@ footer .facebook-bx {
   .femeson-logo-bx {
     width: 35px;
   }
-  .prtd-video-cont {
+  .prt-video-cont {
     padding: 20px 20px;
   }
-  .prtd-video-bx {
+  .prt-video-bx {
     margin-bottom: 10px;
   }
 
@@ -1462,6 +1443,13 @@ footer .facebook-bx {
 }
 
 @media screen and (max-width: 480px) {
+  .header-hr {
+    margin-bottom: 35px;
+  }
+  .prt-bnr-spc-bt {
+    height: 40px;
+
+  }
   #ediciones h3,
   #videos h3{
     font-size: 25px;
@@ -1474,53 +1462,6 @@ footer .facebook-bx {
     margin: 0 auto;
   }
 
-
-
-
-
-  /* 48COVID PREV */
-  .covid-preventivo {
-    margin: 0 auto 20px;
-  }
-  /* 48MES */
-  .impresa-th-bx {
-    grid-column: 3/4;
-    grid-row: 1/2;
-    margin-left: 25px;
-  }
-  .esp-th-bx {
-    grid-column: 1/3;
-    grid-row: 1/3;
-    align-self: center;
-  }
-  .edi-th-bx {
-    grid-column: 1/4;
-    grid-row: 3/4;
-  }
-  .ind-impr {
-    font-size: 19px;
-  }
-  .especial-cbz-th {
-    font-size: 30px;
-  }
-  .especial-txt-th {
-    font-size: 20px;
-  }
-  .editorial-cbz-th {
-    line-height: 1.2;
-  }
-  .especial-txt-th {
-    line-height: 1.2;
-  }
-  .mes1-top-ceja-th {
-    font-size: 14px;
-  }
-  .mes1-top-cbz {
-    font-size: 36px;
-  }
-  .mes1-top-sumario {
-    font-size: 18px;
-  }
   /* 48ARTICULOS */
   .cbz-card-2col{
     font-size: 29px;
@@ -1551,14 +1492,7 @@ footer .facebook-bx {
   .bnr-vl-02 {
     width: 85%;
   }
-  /* 48SPV */
-  .cbz-spv1 {
-    font-size: 28px;
-  }
-  /* 48EVENTOS */
-  .cbz-ev1 {
-    font-size: 20px;
-  }
+
   /* 48NOTA */
   .nt-ceja {
     font-size: 13px;
@@ -1615,12 +1549,17 @@ footer .facebook-bx {
   }
   .nt-txt-resaltado-bx {
     padding: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
-  .nt-txt-resaltado{
-    font-size: 21px;
+  .nt-txt-resaltado {
+    font-size: 19px;
   }
   .nt-pie {
     font-size: 15px;
+  }
+  .nt-foto-bx {
+    margin: 30px auto 35px auto;
   }
   /* 48FRASE */
   .frase-bx{
@@ -1790,10 +1729,10 @@ footer .facebook-bx {
 }
 
 @media screen and (max-width: 340px) {
-  .prtd-prev-cbz{
+  .prt-prev-cbz{
     font-size: 40px;
   }
-  .prtd-prev-edit-cbz {
+  .prt-prev-edit-cbz {
     font-size: 25px;
   }
 
