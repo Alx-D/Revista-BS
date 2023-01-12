@@ -5,4 +5,4 @@
   <a class="bnr-mob" href="https://hondapremium.com/" target="blank"><img src="/banners/2022/banner-disponible-550.gif"></a>
 
 </div>
-<div class="bnr-hz-mob"></div>
+<div class="bnr-hz-01-mob"></div>

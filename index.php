@@ -51,12 +51,16 @@
   <div class="clear"></div>
 
   <!-- BANNER PORTADA 1 -->
+  <div class="esp80top"></div>
   <?php include('includes/bnr-hz-01.php') ?>
+  <div class="esp80btm"></div>
 
   <div class="clear"></div>
 
   <!-- 1EDICIONES -->
-  <section class="contenedor m-0a">
+  <section id="ediciones" class="contenedor m-0a">
+
+  <h3 class="f1">EDICIONES RECIENTES</h3>
 
     <div class="ediciones-cont">
       <div class="edicion-bx">
@@ -148,12 +152,17 @@
   </section>
 
   <!-- BANNER PORTADA 1 -->
+  <div class="esp80top"></div>
   <?php include('includes/bnr-hz-01.php') ?>
+  <div class="esp80btm"></div>
 
   <!-- 1VIDEOS -->
-  <section class="videos-bk">
+  <section id="videos" class="videos-bk">
 
     <div class="contenedor m-0a">
+
+    <h3 class="f1">ENTREVISTAS Y VIDEOS</h3>
+
       <div class="videos-cont">
 
         <div class="video-bx">
