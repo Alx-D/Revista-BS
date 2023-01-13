@@ -16,10 +16,15 @@
       <div class="compartir-bx">
         <i class="fa fa-share"></i>
         <p class="f1 compartir"> Compartir</p>
-        <a href="#" class="fab fa-whatsapp whatsapp-compartir" title="Enviar por Whatsapp"></a>
-        <a href="#" class="fab fa-facebook fa-lg facebook-compartir" title="Compartir en Facebook"></a>
-        <a href="#" class="fas fa-envelope envelope-compartir" title="Enviar por correo electrónico"></a>
-        <a href="#" class="fas fa-link link-compartir" title="Copiar enlace"></a>
+
+        <a href="https://api.whatsapp.com/send?text=https://www.revistabs.com/ediciones/2022/271/271-editorial.php" data-action="share/whatsapp/share" class="fab fa-whatsapp whatsapp-compartir" title="Enviar por Whatsapp"></a>
+
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//www.revistabs.com/ediciones/2022/271/271-editorial.php" class="fab fa-facebook fa-lg facebook-compartir" title="Compartir en Facebook"></a>
+
+        <!-- <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fdetermined-feynman-986b16.netlify.app%2F&layout=button&size=small&width=94&height=20&appId" width="94" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> -->
+
+        <a href="mailto:?subject=Prioridades en salud para 2023&amp;body=Editorial de Revista BS https://www.revistabs.com/ediciones/2022/271/271-editorial.php"
+   title="Share by Email" class="fas fa-envelope envelope-compartir" title="Enviar por correo electrónico"></a>
       </div>
 
       <div class="nt-credito-bx">
@@ -44,7 +49,7 @@
         <div class="nt-foto-bx">
           <figure>
             <img src="/imgs/nota-master-foto.jpg" alt="">
-            <figcaption class="nt-txt-resaltado">
+            <figcaption>
               Se debe promover la salud y los estilos de vida saludables, reducir los ambientes obesogénicos y crear conciencia en la población sobre la calidad y contenido nutrimental de los alimentos, así como la importancia del ejercicio.
             </figcaption>
           </figure>
