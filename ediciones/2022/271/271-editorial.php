@@ -21,8 +21,6 @@
 
         <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A//www.revistabs.com/ediciones/2022/271/271-editorial.php" class="fab fa-facebook fa-lg facebook-compartir" title="Compartir en Facebook"></a>
 
-        <!-- <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fdetermined-feynman-986b16.netlify.app%2F&layout=button&size=small&width=94&height=20&appId" width="94" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe> -->
-
         <a href="mailto:?subject=Prioridades en salud para 2023&amp;body=Editorial de Revista BS https://www.revistabs.com/ediciones/2022/271/271-editorial.php"
    title="Share by Email" class="fas fa-envelope envelope-compartir" title="Enviar por correo electrónico"></a>
       </div>
@@ -85,7 +83,7 @@
   </div>
 
   <div class="prt-bnr-spc-bt"></div>
-  <?php include('../../../includes/bnr-hz-01.php') ?>
+  <?php include('../../../includes/bnr-hz-02.php') ?>
   <div class="prt-bnr-spc-bt"></div>
 
   <?php include('../../../includes/footer.php') ?>

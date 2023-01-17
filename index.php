@@ -4,12 +4,12 @@
 <body>
   <?php include('includes/header.php') ?>
 
-  <!-- <div class="popup">
+  <div class="popup">
     <button id="close">&times;</button>
-    <a href="https://www.instagram.com/cdelnoroeste/?hl=es" target="_blank"><img src="banners/2022/Clinica-del-Noroeste-261.jpg" alt=""></a>
-  </div> -->
+    <a href="https://www.instagram.com/cdelnoroeste/?hl=es" target="_blank"><img src="banners/2022/Clinica-del-Noroeste-BS271.jpg" alt=""></a>
+  </div>
 
-  <!-- <script type="text/javascript">
+  <script type="text/javascript">
     window.addEventListener("load", function() {
       setTimeout(
         function open(event) {
@@ -21,7 +21,7 @@
     document.querySelector("#close").addEventListener("click", function() {
       document.querySelector(".popup").style.display = "none";
     });
-  </script> -->
+  </script>
 
   <!-- PORTADA -->
   <section id="portada" class="contenedor m-0a">
