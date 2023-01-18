@@ -40,5 +40,4 @@
     <div class="footer-pleca">
       <a class="duarte-firma" href="mailto:duartepublicidad@gmail.com">Sitio desarrollado por <strong>Duarte Publicidad</strong></a>
     </div>
-    <!-- <div class="wid"></div> -->
   </footer>

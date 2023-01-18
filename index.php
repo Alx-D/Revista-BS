@@ -4,12 +4,14 @@
 <body>
   <?php include('includes/header.php') ?>
 
-  <!-- <div class="popup">
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v15.0" nonce="EZGyza9t"></script>
+
+  <div class="popup">
     <button id="close">&times;</button>
     <a href="https://www.instagram.com/cdelnoroeste/?hl=es" target="_blank"><img src="banners/2022/Clinica-del-Noroeste-BS271.jpg" alt=""></a>
-  </div> -->
+  </div>
 
-  <!-- <script type="text/javascript">
+  <script type="text/javascript">
     window.addEventListener("load", function() {
       setTimeout(
         function open(event) {
@@ -21,7 +23,7 @@
     document.querySelector("#close").addEventListener("click", function() {
       document.querySelector(".popup").style.display = "none";
     });
-  </script> -->
+  </script>
 
   <!-- PORTADA -->
   <section id="portada" class="contenedor m-0a">
@@ -33,15 +35,23 @@
         <div class="prt-rvst-bx">
           <img src="ediciones/2022/271/BS271-portadas.gif" title="Revista BS #271">
           <div class="edcn-pdf-desk">
-            <a class="f1 nonedw768 hv-txt-01" href="ediciones/2022/271/Revista-BS-271-Esp1.pdf" target="_blank"><h3>Especial 1</h3></a>
+            <a class="f1 nonedw768 hv-txt-01" href="ediciones/2022/271/Revista-BS-271-Esp1.pdf" target="_blank">
+              <h3>Especial 1</h3>
+            </a>
 
-            <a class="f1 nonedw768 hv-txt-01" href="ediciones/2022/271/Revista-BS-271-Esp2.pdf" target="_blank"><h3>Especial 2</h3></a>
+            <a class="f1 nonedw768 hv-txt-01" href="ediciones/2022/271/Revista-BS-271-Esp2.pdf" target="_blank">
+              <h3>Especial 2</h3>
+            </a>
           </div>
 
           <div>
-            <a class="f1 pdf-mob hv-txt-01" href="ediciones/2022/271/Revista-BS-271-Esp1-m.pdf" target="_blank"><h3>Especial 1</h3></a>
+            <a class="f1 pdf-mob hv-txt-01" href="ediciones/2022/271/Revista-BS-271-Esp1-m.pdf" target="_blank">
+              <h3>Especial 1</h3>
+            </a>
 
-            <a class="f1 pdf-mob hv-txt-01" href="ediciones/2022/271/Revista-BS-271-Esp2-m.pdf" target="_blank"><h3>Especial 2</h3></a>
+            <a class="f1 pdf-mob hv-txt-01" href="ediciones/2022/271/Revista-BS-271-Esp2-m.pdf" target="_blank">
+              <h3>Especial 2</h3>
+            </a>
           </div>
         </div>
         <div class="prt-prev-bx">
@@ -60,7 +70,6 @@
 
       <div class="prt-video-cont">
         <div class="prt-video-bx">
-          <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v15.0" nonce="EZGyza9t"></script>
           <div class="fb-video" data-href="https://www.facebook.com/RevistaBS/videos/982524315985330/" data-width="420" data-show-text="false">
           </div>
         </div>
@@ -186,37 +195,44 @@
       <div class="videos-cont">
 
         <div class="video-bx">
-          <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F525258101972060%2F&show_text=true&width=560&t=0" width="100%" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true">
-          </iframe>
+          <div class="fb-video" data-href="https://www.facebook.com/RevistaBS/videos/525258101972060/" data-width="500" data-show-text="false">
+          </div>
+          <p class="f1">El Dr Mario Alvarez nos habla que existen factores de riesgo para cáncer de colon que no se pueden modificar como antecedentes familiares, tener más de 50 años, enfermedad inflamatoria intestinal y desarrollar pólipos de colon, entérese de los factores que sí puede modificar para prevenir.</p>
         </div>
 
-        <div class="video-bx"><iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F871091170163519%2F&show_text=true&width=560&t=0" width="100%" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe></div>
+        <div class="video-bx">
+          <div class="fb-video" data-href="https://www.facebook.com/RevistaBS/videos/871091170163519/" data-width="500" data-show-text="false"></div>
+          <p class="f1">Despeje todas sus dudas sobre las vacunas contra el Covid-19, platicaremos con Dr Alejandro González Mares. Hágale llegar todas sus inquietudes</p>
+        </div>
 
-        <div class="video-bx"><iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F1381143148904762%2F&show_text=true&width=560&t=0" width="100%" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe></div>
+        <div class="video-bx">
+          <div class="fb-video" data-href="https://www.facebook.com/RevistaBS/videos/1381143148904762/" data-width="500" data-show-text="false">
+          </div>
+          <p class="f1">La enfermedad renal crónica (ERC) es un padecimiento que merma la vida del 10% de la población mundial. En vísperas del Día Mundial del Riñón, estaremos platicando en vivo con el nefrólogo Dr. Fernando Platt Soto sobre la campaña 2021: Viviendo Bien con la Enfermedad Renal organizada por la Sociedad Internacional de Nefrología.</p>
+        </div>
 
-        <div class="video-bx"><iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F742883103021631%2F&show_text=true&width=560&t=0" width="100%" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe></div>
+        <div class="video-bx">
+          <div class="fb-video" data-href="https://www.facebook.com/RevistaBS/videos/742883103021631/" data-width="500" data-show-text="false"></div>
+          <p class="f1">¿PCR, antígeno o de anticuerpos? ¿Cuál prueba es adecuada para diagnóstico? ¿En qué momento debe realizarse cada una? Son algunas de las dudas respecto a la pruebas de Covid-19.Resuelva éstas y otras preguntas en entrevista en vivo al Químico Biólogo Rhenzo Devora de Laboratorio BioClínico Martinez.</p>
+        </div>
 
-        <div class="video-bx"><iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F4120319731331400%2F&show_text=true&width=560&t=0" width="100%" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe></div>
+        <div class="video-bx">
+          <div class="fb-video" data-href="https://www.facebook.com/RevistaBS/videos/4120319731331400/" data-width="500" data-show-text="false">
+          </div>
+          <p class="f1">Te invitamos a nuestra conversación con el Miguel Francisco Abril García, en esta transmisión hablaremos sobre prevención de COVID-19, reforzar los cuidados en esta temporada y cómo detectarlo. ¡Prepárate para tomar nota y aprovecha para resolver tus dudas con un experto!</p>
+        </div>
 
-        <div class="video-bx"><iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F2025613831073432%2F&show_text=true&width=560&t=0" width="100%" height="350" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe></div>
+        <div class="video-bx">
+          <div class="fb-video" data-href="https://www.facebook.com/RevistaBS/videos/2025613831073432/" data-width="500" data-show-text="false">
+          </div>
+          <p class="f1">Alrededor de 6.2 millones de mexicanos con diabetes tienen insuficiencia renal en sus distintas etapas, existen además otras causas para esta enfermedad, como hipertensión arterial sistémica, enfermedades autoinmunes, infecciones, antecedentes congénitos, problemas obstructivos y daño por fármacos. Entérese de las consecuencias para salud pública de este padecimiento con el Dr. Fernando Platt Soto</p>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- FOOTER -->
   <?php include('includes/footer.php') ?>
-
-  <script>
-    var menu_enlaces = document.getElementById("menu-enlaces");
-
-    function showMenu() {
-      menu_enlaces.style.left = "0";
-    }
-
-    function hideMenu() {
-      menu_enlaces.style.left = "-400px";
-    }
-  </script>
 </body>
 
 </html>
