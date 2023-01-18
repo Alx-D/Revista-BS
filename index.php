@@ -4,12 +4,12 @@
 <body>
   <?php include('includes/header.php') ?>
 
-  <div class="popup">
+  <!-- <div class="popup">
     <button id="close">&times;</button>
     <a href="https://www.instagram.com/cdelnoroeste/?hl=es" target="_blank"><img src="banners/2022/Clinica-del-Noroeste-BS271.jpg" alt=""></a>
-  </div>
+  </div> -->
 
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
     window.addEventListener("load", function() {
       setTimeout(
         function open(event) {
@@ -21,7 +21,7 @@
     document.querySelector("#close").addEventListener("click", function() {
       document.querySelector(".popup").style.display = "none";
     });
-  </script>
+  </script> -->
 
   <!-- PORTADA -->
   <section id="portada" class="contenedor m-0a">
@@ -29,14 +29,21 @@
     <div class="prt-cont">
 
       <div class="prt-col-1">
+
         <div class="prt-rvst-bx">
           <img src="ediciones/2022/271/BS271-portadas.gif" title="Revista BS #271">
+          <div class="edcn-pdf-desk">
+            <a class="f1 nonedw768 hv-txt-01" href="ediciones/2022/271/Revista-BS-271-Esp1.pdf" target="_blank"><h3>Especial 1</h3></a>
+
+            <a class="f1 nonedw768 hv-txt-01" href="ediciones/2022/271/Revista-BS-271-Esp2.pdf" target="_blank"><h3>Especial 2</h3></a>
+          </div>
+
           <div>
-            <a class="f1 hv-txt-01" href="ediciones/2022/270/alta.pdf" target="_blank">Especial 1</a>
-            <a class="f1 hv-txt-01" href="ediciones/2022/270/baja.pdf" target="_blank">Especial 2</a>
+            <a class="f1 pdf-mob hv-txt-01" href="ediciones/2022/271/Revista-BS-271-Esp1-m.pdf" target="_blank"><h3>Especial 1</h3></a>
+
+            <a class="f1 pdf-mob hv-txt-01" href="ediciones/2022/271/Revista-BS-271-Esp2-m.pdf" target="_blank"><h3>Especial 2</h3></a>
           </div>
         </div>
-
         <div class="prt-prev-bx">
           <p class="f1 prt-prev-mes">ENERO 2023</p>
           <a class="hv-txt-01" href="ediciones/2022/02/Revista-BS-261.pdf" target="blank">
@@ -82,86 +89,81 @@
 
     <div class="edcns-cont">
       <div class="edcn-bx">
-        <a class="edcn-pdf-desk" href="ediciones/2022/270/Revista-BS-270.pdf" target="blank">
+        <a class="nonedw768" href="ediciones/2022/270/Revista-BS-270.pdf" target="blank">
           <img src="ediciones/2022/270/BS270-portada.jpg" title="Revista BS #270" />
           <h4 class="f1 hv-txt-01">Revista BS #270</h4>
         </a>
 
-        <a class="edcn-pdf-mob" href="ediciones/2022/270/Revista-BS-270-m.pdf" target="blank">
+        <a class="pdf-mob" href="ediciones/2022/270/Revista-BS-270-m.pdf" target="blank">
           <img src="ediciones/2022/270/BS270-portada.jpg" title="Revista BS #270" />
           <h4 class="f1 hv-txt-01">Revista BS #270</h4>
         </a>
       </div>
 
       <div class="edcn-bx">
-        <a class="edcn-pdf-desk" href="ediciones/2022/269/Revista-BS-269.pdf" target="blank">
+        <a class="nonedw768" href="ediciones/2022/269/Revista-BS-269.pdf" target="blank">
           <img src="ediciones/2022/269/BS269-portada.jpg" title="Revista BS #269" />
           <h4 class="f1 hv-txt-01">Revista BS #269</h4>
         </a>
 
-        <a class="edcn-pdf-mob" href="ediciones/2022/269/Revista-BS-269-m.pdf" target="blank">
+        <a class="pdf-mob" href="ediciones/2022/269/Revista-BS-269-m.pdf" target="blank">
           <img src="ediciones/2022/269/BS269-portada.jpg" title="Revista BS #269" />
           <h4 class="f1 hv-txt-01">Revista BS #269</h4>
         </a>
       </div>
 
       <div class="edcn-bx">
-        <a class="edcn-pdf-desk" href="ediciones/2022/268/Revista-BS-268.pdf" target="blank">
+        <a class="nonedw768" href="ediciones/2022/268/Revista-BS-268.pdf" target="blank">
           <img src="ediciones/2022/268/BS268-portada.jpg" title="Revista BS #268" />
           <h4 class="f1 hv-txt-01">Revista BS #268</h4>
         </a>
 
-        <a class="edcn-pdf-mob" href="ediciones/2022/268/Revista-BS-268-m.pdf" target="blank">
+        <a class="pdf-mob" href="ediciones/2022/268/Revista-BS-268-m.pdf" target="blank">
           <img src="ediciones/2022/268/BS268-portada.jpg" title="Revista BS #268" />
           <h4 class="f1 hv-txt-01">Revista BS #268</h4>
         </a>
       </div>
 
       <div class="edcn-bx">
-        <div class="edcn-pdf-desk">
-          <img src="ediciones/2022/267/BS267-portadas.gif" title="Revista BS #267">
-          <div>
-            <a class="f1 hv-txt-01" href="ediciones/2022/267/Revista-BS-267-Esp1.pdf" target="_blank">
-              <h4>#267 Especial 1</h4>
-            </a>
-            <a class="f1 hv-txt-01" href="ediciones/2022/267/Revista-BS-267-Esp2.pdf" target="_blank">
-              <h4>#267 Especial 2</h4>
-            </a>
-          </div>
+        <img src="ediciones/2022/267/BS267-portadas.gif" title="Revista BS #267">
+        <div class="edcn-pdf-desk nonedw768">
+          <a class="f1 hv-txt-01" href="ediciones/2022/267/Revista-BS-267-Esp1.pdf" target="_blank">
+            <h4>#267 Especial 1</h4>
+          </a>
+          <a class="f1 hv-txt-01" href="ediciones/2022/267/Revista-BS-267-Esp2.pdf" target="_blank">
+            <h4>#267 Especial 2</h4>
+          </a>
         </div>
 
-        <div class="edcn-pdf-mob">
-          <img src="ediciones/2022/267/BS267-portadas.gif" title="Revista BS #267">
-          <div>
-            <a class="f1 hv-txt-01" href="ediciones/2022/267/Revista-BS-267-Esp1-m.pdf" target="_blank">
-              <h4>#267 Especial 1</h4>
-            </a>
-            <a class="f1 hv-txt-01" href="ediciones/2022/267/Revista-BS-267-Esp2-m.pdf" target="_blank">
-              <h4>#267 Especial 2</h4>
-            </a>
-          </div>
+        <div class="pdf-mob">
+          <a class="f1 hv-txt-01" href="ediciones/2022/267/Revista-BS-267-Esp1-m.pdf" target="_blank">
+            <h4>#267 Especial 1</h4>
+          </a>
+          <a class="f1 hv-txt-01" href="ediciones/2022/267/Revista-BS-267-Esp2-m.pdf" target="_blank">
+            <h4>#267 Especial 2</h4>
+          </a>
         </div>
       </div>
 
       <div class="edcn-bx">
-        <a class="edcn-pdf-desk" href="ediciones/2022/266/Revista-BS-266.pdf" target="blank">
+        <a class="nonedw768" href="ediciones/2022/266/Revista-BS-266.pdf" target="blank">
           <img src="ediciones/2022/266/BS266-portada.jpg" title="Revista BS #266" />
           <h4 class="f1 hv-txt-01">Revista BS #266</h4>
         </a>
 
-        <a class="edcn-pdf-mob" href="ediciones/2022/266/Revista-BS-266-m.pdf" target="blank">
+        <a class="pdf-mob" href="ediciones/2022/266/Revista-BS-266-m.pdf" target="blank">
           <img src="ediciones/2022/266/BS266-portada.jpg" title="Revista BS #266" />
           <h4 class="f1 hv-txt-01">Revista BS #266</h4>
         </a>
       </div>
 
       <div class="edcn-bx">
-        <a class="edcn-pdf-desk" href="ediciones/2022/265/Revista-BS-265.pdf" target="blank">
+        <a class="nonedw768" href="ediciones/2022/265/Revista-BS-265.pdf" target="blank">
           <img src="ediciones/2022/265/BS265-portada.jpg" title="Revista BS #265" />
           <h4 class="f1 hv-txt-01">Revista BS #265</h4>
         </a>
 
-        <a class="edcn-pdf-mob" href="ediciones/2022/265/Revista-BS-265-m.pdf" target="blank">
+        <a class="pdf-mob" href="ediciones/2022/265/Revista-BS-265-m.pdf" target="blank">
           <img src="ediciones/2022/265/BS265-portada.jpg" title="Revista BS #265" />
           <h4 class="f1 hv-txt-01">Revista BS #265</h4>
         </a>

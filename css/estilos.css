@@ -202,6 +202,9 @@ ul li:last-child{
 }
 
 /* 1PORTADA */
+.pdf-mob {
+  display: none;
+}
 .prt-cont {
   display: flex;
   justify-content: space-between;
@@ -231,8 +234,8 @@ ul li:last-child{
   display: flex;
   justify-content: space-evenly;
 }
-.prt-rvst-bx a {
-  font-size: 17px;
+.prt-rvst-bx h3 {
+  font-size: 18px;
   font-weight: 600;
   text-align: center;
 }
@@ -244,7 +247,7 @@ ul li:last-child{
 }
 .prt-prev-mes {
   font-size: 17px;
-  margin-bottom: 45px;
+  margin-bottom: 30px;
 }
 .prt-prev-blz {
   font-size: 22px;
@@ -258,7 +261,7 @@ ul li:last-child{
   line-height: 1.2;
 }
 .prt-prev-hr {
-  margin: 35px 0 35px;
+  margin: 25px 0 25px;
   background-color: var(--gris-claro);
   height: 3px;
   border: 0;
@@ -307,9 +310,6 @@ ul li:last-child{
 }
 
 /* 1EDICIONES */
-.edcn-pdf-mob {
-  display: none;
-}
 #ediciones h3 {
   font-size: 30px;
   font-weight: 400;
@@ -880,18 +880,15 @@ footer .facebook-bx {
   .nonedw768 {
     display: none;
   }
+  .pdf-mob {
+    display: block;
+  }
   .vsbldw768 {
     display: inline-block;
     margin: auto 0 auto;
   }
   .revista-bs-logo-bx {
     width: 150px;
-  }
-  .edcn-pdf-desk {
-    display: none;
-  }
-  .edcn-pdf-mob {
-    display: block;
   }
   /* 76FOOTER */
   .footer-mision {
