@@ -195,35 +195,35 @@
       <div class="videos-cont">
 
         <div class="video-bx">
-          <div class="fb-video" data-href="https://www.facebook.com/RevistaBS/videos/525258101972060/" data-width="500" data-show-text="false">
+          <div class="fb-video" data-href="https://www.facebook.com/RevistaBS/videos/525258101972060/" data-width="auto" data-show-text="false">
           </div>
           <p class="f1">El Dr Mario Alvarez nos habla que existen factores de riesgo para cáncer de colon que no se pueden modificar como antecedentes familiares, tener más de 50 años, enfermedad inflamatoria intestinal y desarrollar pólipos de colon, entérese de los factores que sí puede modificar para prevenir.</p>
         </div>
 
         <div class="video-bx">
-          <div class="fb-video" data-href="https://www.facebook.com/RevistaBS/videos/871091170163519/" data-width="500" data-show-text="false"></div>
+          <div class="fb-video" data-href="https://www.facebook.com/RevistaBS/videos/871091170163519/" data-width="auto" data-show-text="false"></div>
           <p class="f1">Despeje todas sus dudas sobre las vacunas contra el Covid-19, platicaremos con Dr Alejandro González Mares. Hágale llegar todas sus inquietudes</p>
         </div>
 
         <div class="video-bx">
-          <div class="fb-video" data-href="https://www.facebook.com/RevistaBS/videos/1381143148904762/" data-width="500" data-show-text="false">
+          <div class="fb-video" data-href="https://www.facebook.com/RevistaBS/videos/1381143148904762/" data-width="auto" data-show-text="false">
           </div>
           <p class="f1">La enfermedad renal crónica (ERC) es un padecimiento que merma la vida del 10% de la población mundial. En vísperas del Día Mundial del Riñón, estaremos platicando en vivo con el nefrólogo Dr. Fernando Platt Soto sobre la campaña 2021: Viviendo Bien con la Enfermedad Renal organizada por la Sociedad Internacional de Nefrología.</p>
         </div>
 
         <div class="video-bx">
-          <div class="fb-video" data-href="https://www.facebook.com/RevistaBS/videos/742883103021631/" data-width="500" data-show-text="false"></div>
+          <div class="fb-video" data-href="https://www.facebook.com/RevistaBS/videos/742883103021631/" data-width="auto" data-show-text="false"></div>
           <p class="f1">¿PCR, antígeno o de anticuerpos? ¿Cuál prueba es adecuada para diagnóstico? ¿En qué momento debe realizarse cada una? Son algunas de las dudas respecto a la pruebas de Covid-19.Resuelva éstas y otras preguntas en entrevista en vivo al Químico Biólogo Rhenzo Devora de Laboratorio BioClínico Martinez.</p>
         </div>
 
         <div class="video-bx">
-          <div class="fb-video" data-href="https://www.facebook.com/RevistaBS/videos/4120319731331400/" data-width="500" data-show-text="false">
+          <div class="fb-video" data-href="https://www.facebook.com/RevistaBS/videos/4120319731331400/" data-width="auto" data-show-text="false">
           </div>
           <p class="f1">Te invitamos a nuestra conversación con el Miguel Francisco Abril García, en esta transmisión hablaremos sobre prevención de COVID-19, reforzar los cuidados en esta temporada y cómo detectarlo. ¡Prepárate para tomar nota y aprovecha para resolver tus dudas con un experto!</p>
         </div>
 
         <div class="video-bx">
-          <div class="fb-video" data-href="https://www.facebook.com/RevistaBS/videos/2025613831073432/" data-width="500" data-show-text="false">
+          <div class="fb-video" data-href="https://www.facebook.com/RevistaBS/videos/2025613831073432/" data-width="auto" data-show-text="false">
           </div>
           <p class="f1">Alrededor de 6.2 millones de mexicanos con diabetes tienen insuficiencia renal en sus distintas etapas, existen además otras causas para esta enfermedad, como hipertensión arterial sistémica, enfermedades autoinmunes, infecciones, antecedentes congénitos, problemas obstructivos y daño por fármacos. Entérese de las consecuencias para salud pública de este padecimiento con el Dr. Fernando Platt Soto</p>
         </div>
