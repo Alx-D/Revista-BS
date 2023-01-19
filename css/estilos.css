@@ -401,7 +401,7 @@ ul li:last-child{
   }
 .video-bx p {
   font-size: 15px;
-  padding: 20px 17px 15px;
+  padding: 15px 17px 15px;
 }
 /* 1FOOTER */
 footer {
@@ -648,7 +648,7 @@ footer .facebook-bx {
   width: 100%;
 }
 .nt-foto-bx figcaption {
-  font-size: 23px;
+  font-size: 22px;
   font-weight: 600;
   color: var(--verde-logo-1);
   padding: 20px 25px 20px 25px;
@@ -761,7 +761,7 @@ footer .facebook-bx {
 .clear {
   clear: both;
 }
-/* ASIDE NOTAS */
+/* BANNERS ASIDE */
 .aside-bnrs-up {
   float: right;
   width: 75%;
@@ -926,6 +926,9 @@ footer .facebook-bx {
   .revista-bs-logo-bx {
     width: 150px;
   }
+  .nt-foto-bx figcaption {
+    font-size: 20px;
+  }
   /* 76FOOTER */
   .footer-mision {
     margin-bottom: 20px;
@@ -1006,13 +1009,13 @@ footer .facebook-bx {
     display: flex;
     width: 75%;
     float: none;
-    margin: 50px auto 70px;
+    margin: 6vh auto 5vh;
   }
   .aside-bnrs-stic {
     display: flex;
     width: 75%;
     float: none;
-    margin: 50px auto 0;
+    margin: 0 auto;
     position: initial;
   }
 }
@@ -1059,9 +1062,6 @@ footer .facebook-bx {
   .video-bx {
     width: 92%;
     margin: 0 auto;
-  }
-  .video-bx p {
-    padding-top: 15px;
   }
   /* 58COMPARTIR */
   .compartir-bx {
@@ -1141,7 +1141,7 @@ footer .facebook-bx {
   }
   /* 48TEXTO NOTA */
   .nt-txt {
-    font-size: 17px;
+    font-size: 18px;
     line-height: 1.4;
   }
   .nt-txt p {

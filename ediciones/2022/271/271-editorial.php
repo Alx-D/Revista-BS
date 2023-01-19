@@ -27,7 +27,7 @@
 
       <div class="nt-credito-bx">
         <figure class="nt-credito-foto-bx">
-          <img src="/imgs/doctores/Dr-Fco-Javier-Muro-Davila.jpg" alt="">
+          <img src="/imgs/Dr-Fco-Javier-Muro-Davila.jpg" alt="">
         </figure>
         <p class="f1 nt-credito-autor"><strong>Dr. Francisco Javier Muro Dávila</strong> <br> Editor en Jefe de Revista BS
         </p>
@@ -46,7 +46,7 @@
 
         <div class="nt-foto-bx">
           <figure>
-            <img src="/ediciones/2022/271/271-editorial.jpg" alt="">
+          <img src="/ediciones/2022/271/271-editorial.jpg" alt="">
             <figcaption>
               Se debe promover la salud y los estilos de vida saludables, reducir los ambientes obesogénicos y crear conciencia en la población sobre la calidad y contenido nutrimental de los alimentos, así como la importancia del ejercicio.
             </figcaption>
@@ -87,8 +87,5 @@
   <div class="prt-bnr-spc-bt"></div>
 
   <?php include('../../../includes/footer.php') ?>
-
-  <script src="../../../scripts/menu-mob.js"></script>
 </body>
-
 </html>
