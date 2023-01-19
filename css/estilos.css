@@ -387,6 +387,18 @@ ul li:last-child{
   width: 31%;
   background: #fff;
 }
+.video-bx-fb {
+  padding-bottom: 56.25%;
+  position:relative;
+  height:0;
+}
+.video-bx-fb iframe {
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+  }
 .video-bx p {
   font-size: 15px;
   padding: 20px 17px 15px;
@@ -1047,6 +1059,9 @@ footer .facebook-bx {
   .video-bx {
     width: 92%;
     margin: 0 auto;
+  }
+  .video-bx p {
+    padding-top: 15px;
   }
   /* 58COMPARTIR */
   .compartir-bx {
