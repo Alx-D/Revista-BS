@@ -46,7 +46,7 @@
 
         <div class="nt-foto-bx">
           <figure>
-            <img src="/imgs/nota-master-foto.jpg" alt="">
+            <img src="/ediciones/2022/271/271-editorial.jpg" alt="">
             <figcaption>
               Se debe promover la salud y los estilos de vida saludables, reducir los ambientes obesogénicos y crear conciencia en la población sobre la calidad y contenido nutrimental de los alimentos, así como la importancia del ejercicio.
             </figcaption>

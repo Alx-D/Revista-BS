@@ -6,12 +6,12 @@
 
   <!-- <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v15.0" nonce="EZGyza9t"></script> -->
 
-  <!-- <div class="popup">
+  <div class="popup">
     <button id="close">&times;</button>
     <a href="https://www.instagram.com/cdelnoroeste/?hl=es" target="_blank"><img src="banners/2022/Clinica-del-Noroeste-BS271.jpg" alt=""></a>
-  </div> -->
+  </div>
 
-  <!-- <script type="text/javascript">
+  <script type="text/javascript">
     window.addEventListener("load", function() {
       setTimeout(
         function open(event) {
@@ -23,7 +23,7 @@
     document.querySelector("#close").addEventListener("click", function() {
       document.querySelector(".popup").style.display = "none";
     });
-  </script> -->
+  </script>
 
   <!-- 1PORTADA -->
   <section id="portada" class="contenedor m-0a">
