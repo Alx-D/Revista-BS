@@ -25,7 +25,7 @@
     });
   </script>
 
-  <!-- PORTADA -->
+  <!-- 1PORTADA -->
   <section id="portada" class="contenedor m-0a">
 
     <div class="prt-cont">
@@ -70,15 +70,12 @@
 
       <div class="prt-video-cont">
         <div class="prt-video-bx">
-          <div class="fb-video" data-href="https://www.facebook.com/RevistaBS/videos/982524315985330/" data-width="420" data-show-text="false">
+          <div class="fb-video" data-href="https://www.facebook.com/RevistaBS/videos/982524315985330/" data-width="auto" data-show-text="false">
           </div>
         </div>
-
-        <div>
-          <p class="f1 prt-video-txt">
-            Charla con la Dra. Elizabeth Amaya Sandoval <b>Hormonas en la mujer después de los 40 años</b>, cortesía de Celtara Medical & Professional Center.
-          </p>
-        </div>
+        <p class="f1 prt-video-txt">
+          Charla con la Dra. Elizabeth Amaya Sandoval <b>Hormonas en la mujer después de los 40 años</b>, cortesía de Celtara Medical & Professional Center.
+        </p>
       </div>
   </section>
 

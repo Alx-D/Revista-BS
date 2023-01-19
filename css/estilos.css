@@ -286,6 +286,11 @@ ul li:last-child{
   width: 100%;
   margin-bottom: 15px;
 }
+.fb-video {
+  width: 100%;
+  left: 0;
+  top: 0;
+}
 .clear {
   clear: both;
 }
@@ -788,9 +793,11 @@ footer .facebook-bx {
     border: 1px solid #878a8f;
   }
   .prt-video-bx {
+    width: 45%;
     margin-bottom: 0;
   }
   .prt-video-txt {
+    width: 50%;
     margin-left: 30px;
   }
   /* FOOTER */
@@ -833,13 +840,14 @@ footer .facebook-bx {
     flex-direction: column;
   }
   .prt-video-bx {
-    width: 100%;
+    width: 70%;
     margin-bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
   .prt-video-txt {
+    width: 100%;
     margin-left: 0;
     text-align: center;
   }
@@ -1052,6 +1060,7 @@ footer .facebook-bx {
     padding: 20px 20px;
   }
   .prt-video-bx {
+    width: 50%;
     margin-bottom: 10px;
   }
 }
