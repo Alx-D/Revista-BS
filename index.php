@@ -6,12 +6,12 @@
 
   <!-- <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v15.0" nonce="EZGyza9t"></script> -->
 
-  <div class="popup">
+  <!-- <div class="popup">
     <button id="close">&times;</button>
     <a href="https://www.instagram.com/cdelnoroeste/?hl=es" target="_blank"><img src="banners/2022/Clinica-del-Noroeste-BS271.jpg" alt=""></a>
-  </div>
+  </div> -->
 
-  <script type="text/javascript">
+  <!-- <script type="text/javascript">
     window.addEventListener("load", function() {
       setTimeout(
         function open(event) {
@@ -23,7 +23,7 @@
     document.querySelector("#close").addEventListener("click", function() {
       document.querySelector(".popup").style.display = "none";
     });
-  </script>
+  </script> -->
 
   <!-- 1PORTADA -->
   <section id="portada" class="contenedor m-0a">
@@ -32,7 +32,7 @@
 
       <div class="prt-col-1">
 
-        <div class="prt-rvst-bx">
+        <div class="prt-rvst-bx hv-trnsY-2">
           <img src="ediciones/2022/271/BS271-portadas.gif" title="Revista BS #271">
           <div class="edcn-pdf-desk">
             <a class="f1 nonedw768 hv-txt-01" href="ediciones/2022/271/Revista-BS-271-Esp1.pdf" target="_blank">
@@ -56,7 +56,7 @@
         </div>
         <div class="prt-prev-bx">
           <p class="f1 prt-prev-mes">ENERO 2023</p>
-          <a class="hv-txt-01" href="ediciones/2022/02/Revista-BS-261.pdf" target="blank">
+          <a href="" target="blank">
             <p class="f1 prt-prev-blz">Edición especial 24 aniversario</p>
             <h1 class="f2 prt-prev-cbz">Nogales saludable</h1>
           </a>
@@ -71,7 +71,6 @@
       <div class="prt-video-cont">
         <div class="prt-video-bx">
           <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F982524315985330%2F&show_text=false&width=560&t=0" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
-
           <!-- <div class="fb-video" data-href="https://www.facebook.com/RevistaBS/videos/982524315985330/" data-width="auto" data-show-text="false">
           </div> -->
         </div>
@@ -96,7 +95,7 @@
     <h3 class="f1">EDICIONES RECIENTES</h3>
 
     <div class="edcns-cont">
-      <div class="edcn-bx">
+      <div class="edcn-bx hv-trnsY-4">
         <a class="nonedw768" href="ediciones/2022/270/Revista-BS-270.pdf" target="blank">
           <img src="ediciones/2022/270/BS270-portada.jpg" title="Revista BS #270" />
           <h4 class="f1 hv-txt-01">Revista BS #270</h4>
@@ -108,7 +107,7 @@
         </a>
       </div>
 
-      <div class="edcn-bx">
+      <div class="edcn-bx hv-trnsY-4">
         <a class="nonedw768" href="ediciones/2022/269/Revista-BS-269.pdf" target="blank">
           <img src="ediciones/2022/269/BS269-portada.jpg" title="Revista BS #269" />
           <h4 class="f1 hv-txt-01">Revista BS #269</h4>
@@ -120,7 +119,7 @@
         </a>
       </div>
 
-      <div class="edcn-bx">
+      <div class="edcn-bx hv-trnsY-4">
         <a class="nonedw768" href="ediciones/2022/268/Revista-BS-268.pdf" target="blank">
           <img src="ediciones/2022/268/BS268-portada.jpg" title="Revista BS #268" />
           <h4 class="f1 hv-txt-01">Revista BS #268</h4>
@@ -132,7 +131,7 @@
         </a>
       </div>
 
-      <div class="edcn-bx">
+      <div class="edcn-bx hv-trnsY-4">
         <img src="ediciones/2022/267/BS267-portadas.gif" title="Revista BS #267">
         <div class="edcn-pdf-desk nonedw768">
           <a class="f1 hv-txt-01" href="ediciones/2022/267/Revista-BS-267-Esp1.pdf" target="_blank">
@@ -153,7 +152,7 @@
         </div>
       </div>
 
-      <div class="edcn-bx">
+      <div class="edcn-bx hv-trnsY-4">
         <a class="nonedw768" href="ediciones/2022/266/Revista-BS-266.pdf" target="blank">
           <img src="ediciones/2022/266/BS266-portada.jpg" title="Revista BS #266" />
           <h4 class="f1 hv-txt-01">Revista BS #266</h4>
@@ -165,7 +164,7 @@
         </a>
       </div>
 
-      <div class="edcn-bx">
+      <div class="edcn-bx hv-trnsY-4">
         <a class="nonedw768" href="ediciones/2022/265/Revista-BS-265.pdf" target="blank">
           <img src="ediciones/2022/265/BS265-portada.jpg" title="Revista BS #265" />
           <h4 class="f1 hv-txt-01">Revista BS #265</h4>
@@ -179,10 +178,68 @@
     </div>
   </section>
 
+  <div class="clear"></div>
+
   <!-- BANNER PORTADA 1 -->
   <div class="prt-bnr-spc-tp"></div>
   <?php include('includes/bnr-hz-02.php') ?>
   <div class="prt-bnr-spc-bt"></div>
+
+  <div class="clear"></div>
+
+  <!-- 1DIRMEDICO -->
+  <section id="dirmdc" class="contenedor m0-a">
+
+  <h3 class="f1">DIRECTORIO MÉDICO</h3>
+
+    <div class="dirmdc-cont">
+
+      <div class="dirmdc-dr-bx hv-trnsY-3">
+        <a class="hv-txt-01" href="">
+        <div class="dirmdc-dr-ft">
+          <img src="/dirmedico/fotos/Dra-Dalila-Vasquez-card.jpg" alt="">
+        </div>
+        <p class="f1 dirmdc-dr-nm">Dra. Dalila Vasquez</p>
+        <p class="f2 dirmdc-dr-esp">Ginecología y Obstetricia</p>
+        </a>
+      </div>
+
+      <div class="dirmdc-dr-bx hv-trnsY-3 hv-txt-01">
+      <div class="dirmdc-dr-ft">
+          <img src="" alt="">
+        </div>
+        <p class="f1 dirmdc-dr-nm">Dr. José Antonio González</p>
+        <p class="f2 dirmdc-dr-esp">Ortopedia y Traumatología</p>
+      </div>
+
+      <div class="dirmdc-dr-bx hv-trnsY-3 hv-txt-01">
+      <div class="dirmdc-dr-ft">
+          <img src="" alt="">
+        </div>
+        <p class="f1 dirmdc-dr-nm">Dra. Claudia Montenegro</p>
+        <p class="f2 dirmdc-dr-esp">Radio-Oncología</p>
+      </div>
+
+      <div class="dirmdc-dr-bx hv-trnsY-3 hv-txt-01">
+      <div class="dirmdc-dr-ft">
+          <img src="/dirmedico/fotos/Dr-Joel-Verdugo-card.jpg" alt="">
+        </div>
+        <p class="f1 dirmdc-dr-nm">Dr. Joel Verdugo Correa</p>
+        <p class="f2 dirmdc-dr-esp">Nefrología</p>
+      </div>
+
+      <div class="dirmdc-dr-bx hv-trnsY-3 hv-txt-01">
+      <a class="hv-txt-01" href="">
+        <div class="dirmdc-dr-ft">
+          <img src="/dirmedico/fotos/Dra-Ludmilla-Ore-card.jpg" alt="">
+        </div>
+        <p class="f1 dirmdc-dr-nm">Dra. Ludmilla Ore Colio</p>
+        <p class="f2 dirmdc-dr-esp">Ginecología y Obstetricia</p>
+        </a>
+      </div>
+
+    </div>
+  </section>
 
   <!-- 1VIDEOS -->
   <section id="videos" class="videos-bk">
@@ -249,5 +306,4 @@
   <!-- FOOTER -->
   <?php include('includes/footer.php') ?>
 </body>
-
 </html>

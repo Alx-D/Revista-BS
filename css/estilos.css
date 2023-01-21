@@ -61,6 +61,7 @@ a {
 .contenedor {
   width: 100vw;
   max-width: 1200px;
+  margin: 0 auto;
 }
 .m-0a {
   margin: 0 auto;
@@ -68,6 +69,23 @@ a {
 .hv-txt-01:hover {
   color: var(--azul-claro);
 }
+.hv-trnsY-2:hover {
+  transform: translateY(-2%);
+  transition: all 200ms;
+}
+.hv-trnsY-3:hover {
+  transform: translateY(-3%);
+  transition: all 200ms;
+}
+.hv-trnsY-4:hover {
+  transform: translateY(-4%);
+  transition: all 500ms;
+}
+.hv-trnsY-5:hover {
+  transform: translateY(-5%);
+  transition: all 500ms;
+}
+.hv
 ul li:last-child{
   margin-bottom: 0;
 }
@@ -227,9 +245,6 @@ ul li:last-child{
   width: 100%;
   margin-bottom: 7px;
 }
-.prt-rvst-bx:hover {
-  transform: translateY(-2%);
-}
 .prt-rvst-bx div {
   display: flex;
   justify-content: space-evenly;
@@ -325,7 +340,8 @@ ul li:last-child{
 }
 
 /* 1EDICIONES */
-#ediciones h3 {
+#ediciones h3,
+#dirmdc h3 {
   font-size: 30px;
   font-weight: 400;
   text-align: center;
@@ -350,13 +366,43 @@ ul li:last-child{
   font-weight: 500;
   line-height: 1.2;
 }
-.edcn-bx:hover {
-  transform: translateY(-4%);
-  transition: all 500ms;
-}
 .edicion-dbl-bx div {
   display: flex;
   justify-content: space-evenly;
+}
+
+/* 1DIRMEDICO */
+#dirmdc {
+  margin-bottom: 80px;
+}
+.dirmdc-cont {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: pink;
+}
+.dirmdc-dr-bx {
+  width: 240px;
+  height: 312px;
+}
+.dirmdc-dr-ft {
+  width: 175px;
+  height: 215px;
+  margin: 0 auto 18px;
+  background-color: lightgray;
+}
+.dirmdc-dr-bx p {
+  text-align: center;
+  padding: 0 4px;
+}
+.dirmdc-dr-nm {
+  font-size: 22px;
+  line-height: 1;
+  margin-bottom: 5px;
+}
+.dirmdc-dr-esp {
+  font-size: 18px;
+  font-weight: 300;
 }
 
 /* 1VIDEOS */
@@ -754,9 +800,6 @@ footer .facebook-bx {
 .redes-icon {
   font-size: 30px;
   margin-right: 25px;
-}
-.hv-trns-5:hover {
-  transform: translateY(-5%);
 }
 .clear {
   clear: both;
