@@ -4,12 +4,12 @@
 <body>
   <?php include('includes/header.php') ?>
 
-  <!-- <div class="popup">
+  <div class="popup">
     <button id="close">&times;</button>
     <a href="https://www.instagram.com/cdelnoroeste/?hl=es" target="_blank"><img src="banners/2022/Clinica-del-Noroeste-BS271.jpg" alt=""></a>
-  </div> -->
+  </div>
 
-  <!-- <script type="text/javascript">
+  <script type="text/javascript">
     window.addEventListener("load", function() {
       setTimeout(
         function open(event) {
@@ -21,7 +21,7 @@
     document.querySelector("#close").addEventListener("click", function() {
       document.querySelector(".popup").style.display = "none";
     });
-  </script> -->
+  </script>
 
   <!-- 1PORTADA -->
   <section id="portada" class="contenedor m-0a">
@@ -54,10 +54,10 @@
         </div>
         <div class="prt-prev-bx">
           <p class="f1 prt-prev-mes">ENERO 2023</p>
-          <a href="" target="blank">
-            <p class="f1 prt-prev-blz">Edición especial 24 aniversario</p>
-            <h1 class="f2 prt-prev-cbz">Nogales saludable</h1>
-          </a>
+
+          <p class="f1 prt-prev-blz">Edición especial 24 aniversario</p>
+          <h1 class="f2 prt-prev-cbz">Nogales saludable</h1>
+
           <hr class="prt-prev-hr">
           <a class="hv-txt-01" href="ediciones/2022/271/271-editorial.php">
             <p class="f1 prt-prev-edit-ind">Editorial</p>
