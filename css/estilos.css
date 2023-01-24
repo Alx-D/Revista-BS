@@ -962,6 +962,13 @@ footer .facebook-bx {
   .pdf-mob {
     display: block;
   }
+  .pdf-mob h3 {
+    width: auto;
+    padding: 4px 10px;
+    color: #fff;
+    background-color: #1677f2;
+    border-radius: 5px;
+  }
   .vsbldw768 {
     display: inline-block;
     margin: auto 0 auto;
