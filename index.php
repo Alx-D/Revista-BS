@@ -4,8 +4,6 @@
 <body>
   <?php include('includes/header.php') ?>
 
-  <!-- <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v15.0" nonce="EZGyza9t"></script> -->
-
   <!-- <div class="popup">
     <button id="close">&times;</button>
     <a href="https://www.instagram.com/cdelnoroeste/?hl=es" target="_blank"><img src="banners/2022/Clinica-del-Noroeste-BS271.jpg" alt=""></a>
@@ -71,8 +69,6 @@
       <div class="prt-video-cont">
         <div class="prt-video-bx">
           <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F982524315985330%2F&show_text=false&width=560&t=0" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
-          <!-- <div class="fb-video" data-href="https://www.facebook.com/RevistaBS/videos/982524315985330/" data-width="auto" data-show-text="false">
-          </div> -->
         </div>
         <p class="f1 prt-video-txt">
           Charla con la Dra. Elizabeth Amaya Sandoval <b>Hormonas en la mujer después de los 40 años</b>, cortesía de Celtara Medical & Professional Center.
@@ -187,60 +183,6 @@
 
   <div class="clear"></div>
 
-  <!-- 1DIRMEDICO -->
-  <section id="dirmdc" class="contenedor m0-a">
-
-  <h3 class="f1">DIRECTORIO MÉDICO</h3>
-
-    <div class="dirmdc-cont">
-
-      <div class="dirmdc-dr-bx hv-trnsY-3">
-        <a class="hv-txt-01" href="">
-        <div class="dirmdc-dr-ft">
-          <img src="/dirmedico/fotos/Dra-Dalila-Vasquez-card.jpg" alt="">
-        </div>
-        <p class="f1 dirmdc-dr-nm">Dra. Dalila Vasquez</p>
-        <p class="f2 dirmdc-dr-esp">Ginecología y Obstetricia</p>
-        </a>
-      </div>
-
-      <div class="dirmdc-dr-bx hv-trnsY-3 hv-txt-01">
-      <div class="dirmdc-dr-ft">
-          <img src="" alt="">
-        </div>
-        <p class="f1 dirmdc-dr-nm">Dr. José Antonio González</p>
-        <p class="f2 dirmdc-dr-esp">Ortopedia y Traumatología</p>
-      </div>
-
-      <div class="dirmdc-dr-bx hv-trnsY-3 hv-txt-01">
-      <div class="dirmdc-dr-ft">
-          <img src="" alt="">
-        </div>
-        <p class="f1 dirmdc-dr-nm">Dra. Claudia Montenegro</p>
-        <p class="f2 dirmdc-dr-esp">Radio-Oncología</p>
-      </div>
-
-      <div class="dirmdc-dr-bx hv-trnsY-3 hv-txt-01">
-      <div class="dirmdc-dr-ft">
-          <img src="/dirmedico/fotos/Dr-Joel-Verdugo-card.jpg" alt="">
-        </div>
-        <p class="f1 dirmdc-dr-nm">Dr. Joel Verdugo Correa</p>
-        <p class="f2 dirmdc-dr-esp">Nefrología</p>
-      </div>
-
-      <div class="dirmdc-dr-bx hv-trnsY-3 hv-txt-01">
-      <a class="hv-txt-01" href="">
-        <div class="dirmdc-dr-ft">
-          <img src="/dirmedico/fotos/Dra-Ludmilla-Ore-card.jpg" alt="">
-        </div>
-        <p class="f1 dirmdc-dr-nm">Dra. Ludmilla Ore Colio</p>
-        <p class="f2 dirmdc-dr-esp">Ginecología y Obstetricia</p>
-        </a>
-      </div>
-
-    </div>
-  </section>
-
   <!-- 1VIDEOS -->
   <section id="videos" class="videos-bk">
 
@@ -254,48 +196,42 @@
           <div class="video-bx-fb">
             <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F525258101972060%2F&show_text=false&width=560&t=0" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
           </div>
-          <!-- <div class="fb-video" data-href="https://www.facebook.com/RevistaBS/videos/525258101972060/" data-width="auto" data-show-text="false">
-          </div> -->
           <p class="f1">El Dr. Mario Alvarez nos habla que existen factores de riesgo para cáncer de colon que no se pueden modificar como antecedentes familiares, tener más de 50 años, enfermedad inflamatoria intestinal y desarrollar pólipos de colon, entérese de los factores que sí puede modificar para prevenir.</p>
         </div>
 
         <div class="video-bx">
           <div class="video-bx-fb">
-          <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F871091170163519%2F&show_text=false&width=560&t=0" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+            <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F731031431171760%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
           </div>
-          <!-- <div class="fb-video" data-href="https://www.facebook.com/RevistaBS/videos/871091170163519/" data-width="auto" data-show-text="false"></div> -->
-          <p class="f1">Despeje todas sus dudas sobre las vacunas contra el Covid-19, platicaremos con Dr Alejandro González Mares. Hágale llegar todas sus inquietudes</p>
+          <p class="f1">Con motivo del Día Nacional del odontólogo, Celtara Medical & Professional Center trae para usted una charla vía Facebook Live con Venezia Jordan de My Clinic Dental, quien compartirá las aplicaciones de la tecnología iTero 5D para tratamientos estéticos dentales.</p>
         </div>
 
         <div class="video-bx">
           <div class="video-bx-fb">
-          <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F1381143148904762%2F&show_text=false&width=560&t=0" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+            <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F1381143148904762%2F&show_text=false&width=560&t=0" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
           </div>
           <div class="fb-video" data-href="https://www.facebook.com/RevistaBS/videos/1381143148904762/" data-width="auto" data-show-text="false">
           </div>
-          <p class="f1">La enfermedad renal crónica (ERC) es un padecimiento que merma la vida del 10% de la población mundial. En vísperas del Día Mundial del Riñón, estaremos platicando en vivo con el nefrólogo Dr. Fernando Platt Soto sobre la campaña 2021: Viviendo Bien con la Enfermedad Renal organizada por la Sociedad Internacional de Nefrología.</p>
+          <p class="f1">La enfermedad renal crónica (ERC) es un padecimiento que merma la vida del 10% de la población mundial. En vísperas del Día Mundial del Riñón, estaremos platicando en vivo con el nefrólogo Dr. Fernando Platt Soto sobre la campaña "Viviendo Bien con la Enfermedad Renal" organizada por la Sociedad Internacional de Nefrología.</p>
         </div>
 
         <div class="video-bx">
           <div class="video-bx-fb">
-          <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F742883103021631%2F&show_text=false&width=560&t=0" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+            <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F742883103021631%2F&show_text=false&width=560&t=0" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
           </div>
-          <!-- <div class="fb-video" data-href="https://www.facebook.com/RevistaBS/videos/742883103021631/" data-width="auto" data-show-text="false"></div> -->
           <p class="f1">¿PCR, antígeno o de anticuerpos? ¿Cuál prueba es adecuada para diagnóstico? ¿En qué momento debe realizarse cada una? Son algunas de las dudas respecto a la pruebas de Covid-19.Resuelva éstas y otras preguntas en entrevista en vivo al Químico Biólogo Rhenzo Devora de Laboratorio BioClínico Martinez.</p>
         </div>
 
         <div class="video-bx">
           <div class="video-bx-fb">
-          <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F4120319731331400%2F&show_text=false&width=560&t=0" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+            <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F198696195437472%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
           </div>
-          <!-- <div class="fb-video" data-href="https://www.facebook.com/RevistaBS/videos/4120319731331400/" data-width="auto" data-show-text="false">
-          </div> -->
-          <p class="f1">Te invitamos a nuestra conversación con el Dr. Miguel Francisco Abril García, en esta transmisión hablaremos sobre prevención de COVID-19, reforzar los cuidados en esta temporada y cómo detectarlo. ¡Prepárate para tomar nota y aprovecha para resolver tus dudas con un experto!</p>
+          <p class="f1">Conoce al equipo de la Clinica de Neurociencias-México-Cuba en Hermosillo. Ellos nos hablarán sobre la importancia del trabajo en conjunto de las especialidades de neurología, psiquiatría y psicología con el fin de diagnosticar con mayor precisión los problemas mentales y emocionales y así ayudar a prevenir problemas mayores.</p>
         </div>
 
         <div class="video-bx">
           <div class="video-bx-fb">
-          <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F2431214323840889%2F&show_text=false&width=560&t=0" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+            <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F2431214323840889%2F&show_text=false&width=560&t=0" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
           </div>
           <p class="f1">Entérese de la importancia de la radiooncología para tratar el cáncer en la actualidad. Platicamos con la Dra. Claudia Montenegro, Radiooncologa.</p>
         </div>
@@ -306,4 +242,5 @@
   <!-- FOOTER -->
   <?php include('includes/footer.php') ?>
 </body>
+
 </html>
