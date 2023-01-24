@@ -183,6 +183,65 @@
 
   <div class="clear"></div>
 
+  <!-- 1DIRMEDICO -->
+  <section id="dirmdc" class="contenedor m0-a">
+
+    <h3 class="f1">DIRECTORIO MÉDICO</h3>
+
+    <div class="dirmdc-cont">
+
+      <div class="dirmdc-dr-bx hv-trnsY-3">
+        <a class="hv-txt-01" href="">
+          <div class="dirmdc-dr-ft">
+            <img src="/dirmedico/fotos/Dra-Dalila-Vasquez-card.jpg" alt="">
+          </div>
+          <p class="f1 dirmdc-dr-nm">Dra. Dalila Vasquez</p>
+          <p class="f2 dirmdc-dr-esp">Ginecología y Obstetricia</p>
+        </a>
+      </div>
+
+      <div class="dirmdc-dr-bx hv-trnsY-3 hv-txt-01">
+        <div class="dirmdc-dr-ft">
+          <img src="" alt="">
+        </div>
+        <p class="f1 dirmdc-dr-nm">Dr. José Antonio González</p>
+        <p class="f2 dirmdc-dr-esp">Ortopedia y Traumatología</p>
+      </div>
+
+      <div class="dirmdc-dr-bx hv-trnsY-3 hv-txt-01">
+        <div class="dirmdc-dr-ft">
+          <img src="" alt="">
+        </div>
+        <p class="f1 dirmdc-dr-nm">Dra. Claudia Montenegro</p>
+        <p class="f2 dirmdc-dr-esp">Radio-Oncología</p>
+      </div>
+
+      <div class="dirmdc-dr-bx hv-trnsY-3 hv-txt-01">
+        <div class="dirmdc-dr-ft">
+          <img src="/dirmedico/fotos/Dr-Joel-Verdugo-card.jpg" alt="">
+        </div>
+        <p class="f1 dirmdc-dr-nm">Dr. Joel Verdugo Correa</p>
+        <p class="f2 dirmdc-dr-esp">Nefrología</p>
+      </div>
+
+      <div class="dirmdc-dr-bx hv-trnsY-3 hv-txt-01">
+        <a class="hv-txt-01" href="">
+          <div class="dirmdc-dr-ft">
+            <img src="/dirmedico/fotos/Dra-Ludmilla-Ore-card.jpg" alt="">
+          </div>
+          <p class="f1 dirmdc-dr-nm">Dra. Ludmilla Ore Colio</p>
+          <p class="f2 dirmdc-dr-esp">Ginecología y Obstetricia</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <div class="prt-bnr-spc-tp"></div>
+  <?php include('includes/bnr-hz-01.php') ?>
+  <div class="prt-bnr-spc-bt"></div>
+
+  <div class="clear"></div>
+
   <!-- 1VIDEOS -->
   <section id="videos" class="videos-bk">
 
