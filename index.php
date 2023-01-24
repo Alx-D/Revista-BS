@@ -70,9 +70,7 @@
         <div class="prt-video-bx">
           <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F982524315985330%2F&show_text=false&width=560&t=0" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
         </div>
-        <p class="f1 prt-video-txt">
-          Charla con la Dra. Elizabeth Amaya Sandoval <b>Hormonas en la mujer después de los 40 años</b>, cortesía de Celtara Medical & Professional Center.
-        </p>
+        <p class="f1 prt-video-txt">Charla con la <b>Dra. Elizabeth Amaya Sandoval</b> <i>"Hormonas en la mujer después de los 40 años"</i>, cortesía de Celtara Medical & Professional Center.</p>
       </div>
   </section>
 
@@ -196,14 +194,14 @@
           <div class="video-bx-fb">
             <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F525258101972060%2F&show_text=false&width=560&t=0" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
           </div>
-          <p class="f1">El Dr. Mario Alvarez nos habla que existen factores de riesgo para cáncer de colon que no se pueden modificar como antecedentes familiares, tener más de 50 años, enfermedad inflamatoria intestinal y desarrollar pólipos de colon, entérese de los factores que sí puede modificar para prevenir.</p>
+          <p class="f1">El <b>Dr. Mario Alvarez</b>, cirujano oncólogo, nos habla sobre los factores de riesgo no modificables para desarrollar cáncer de colon. Además, menciona la importancia de tener una dieta saludable, hacer ejercicio regularmente y evitar el tabaquismo para reducir el riesgo de desarrollar esta enfermedad. También recomienda realizar una detección temprana a partir de los 50 años o antes si tiene antecedentes familiares de cáncer de colon.</p>
         </div>
 
         <div class="video-bx">
           <div class="video-bx-fb">
             <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F731031431171760%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
           </div>
-          <p class="f1">Con motivo del Día Nacional del odontólogo, Celtara Medical & Professional Center trae para usted una charla vía Facebook Live con Venezia Jordan de My Clinic Dental, quien compartirá las aplicaciones de la tecnología iTero 5D para tratamientos estéticos dentales.</p>
+          <p class="f1">Con motivo del Día Nacional del odontólogo, Celtara Medical & Professional Center trae para usted una charla vía Facebook Live con la <b>Dra. Venezia Jordan</b> de My Clinic Dental, quien compartirá las aplicaciones de la tecnología iTero 5D para tratamientos estéticos dentales.</p>
         </div>
 
         <div class="video-bx">
@@ -212,28 +210,28 @@
           </div>
           <div class="fb-video" data-href="https://www.facebook.com/RevistaBS/videos/1381143148904762/" data-width="auto" data-show-text="false">
           </div>
-          <p class="f1">La enfermedad renal crónica (ERC) es un padecimiento que merma la vida del 10% de la población mundial. En vísperas del Día Mundial del Riñón, estaremos platicando en vivo con el nefrólogo Dr. Fernando Platt Soto sobre la campaña "Viviendo Bien con la Enfermedad Renal" organizada por la Sociedad Internacional de Nefrología.</p>
+          <p class="f1">La enfermedad renal crónica (ERC) es un padecimiento que merma la vida del 10% de la población mundial. En vísperas del Día Mundial del Riñón, estaremos platicando en vivo con el nefrólogo <b>Dr. Fernando Platt Soto</b> sobre la campaña "Viviendo Bien con la Enfermedad Renal" organizada por la Sociedad Internacional de Nefrología.</p>
         </div>
 
         <div class="video-bx">
           <div class="video-bx-fb">
-            <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F742883103021631%2F&show_text=false&width=560&t=0" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+          <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F4611008005606866%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
           </div>
-          <p class="f1">¿PCR, antígeno o de anticuerpos? ¿Cuál prueba es adecuada para diagnóstico? ¿En qué momento debe realizarse cada una? Son algunas de las dudas respecto a la pruebas de Covid-19.Resuelva éstas y otras preguntas en entrevista en vivo al Químico Biólogo Rhenzo Devora de Laboratorio BioClínico Martinez.</p>
+          <p class="f1">La <b>psicóloga Patricia Álvarez</b> nos habla sobre la importancia del acompañamiento psicológico a pacientes con cáncer para ayudarlos a manejar el estrés, la ansiedad y la depresión relacionadas con la enfermedad, y ayudarlos a mejorar su calidad de vida y su capacidad para afrontar el tratamiento del cáncer.</p>
         </div>
 
         <div class="video-bx">
           <div class="video-bx-fb">
             <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F198696195437472%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
           </div>
-          <p class="f1">Conoce al equipo de la Clinica de Neurociencias-México-Cuba en Hermosillo. Ellos nos hablarán sobre la importancia del trabajo en conjunto de las especialidades de neurología, psiquiatría y psicología con el fin de diagnosticar con mayor precisión los problemas mentales y emocionales y así ayudar a prevenir problemas mayores.</p>
+          <p class="f1">Conoce al equipo de la <b>Clinica de Neurociencias-México-Cuba</b> en Hermosillo. Ellos nos hablarán sobre la importancia del trabajo en conjunto de las especialidades de neurología, psiquiatría y psicología con el fin de diagnosticar con mayor precisión los problemas mentales y emocionales y así ayudar a prevenir problemas mayores.</p>
         </div>
 
         <div class="video-bx">
           <div class="video-bx-fb">
             <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F2431214323840889%2F&show_text=false&width=560&t=0" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
           </div>
-          <p class="f1">Entérese de la importancia de la radiooncología para tratar el cáncer en la actualidad. Platicamos con la Dra. Claudia Montenegro, Radiooncologa.</p>
+          <p class="f1">De acuerdo a la <b>doctora Claudia Montenegro</b>, especialista en radiooncología, ésta es una opción valiosa en el tratamiento del cáncer de próstata. La radioterapia es eficaz en reducir el tamaño del tumor y en prevenir su regresión, especialmente en casos tempranos de cáncer de próstata. Además, puede ser utilizada en conjunto con la cirugía para mejorar los resultados del tratamiento.</p>
         </div>
       </div>
     </div>
