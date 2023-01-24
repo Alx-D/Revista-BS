@@ -200,31 +200,36 @@
         </a>
       </div>
 
-      <div class="dirmdc-dr-bx hv-trnsY-3 hv-txt-01">
+      <div class="dirmdc-dr-bx hv-trnsY-3">
+        <a class="hv-txt-01" href="">
         <div class="dirmdc-dr-ft">
-          <img src="" alt="">
+          <img src="/dirmedico/fotos/Dr-Jose-Antonio-Gonzalez-card.jpg" alt="">
         </div>
         <p class="f1 dirmdc-dr-nm">Dr. José Antonio González</p>
         <p class="f2 dirmdc-dr-esp">Ortopedia y Traumatología</p>
+        </a>
       </div>
 
-      <div class="dirmdc-dr-bx hv-trnsY-3 hv-txt-01">
-        <div class="dirmdc-dr-ft">
-          <img src="" alt="">
+      <div class="dirmdc-dr-bx hv-trnsY-3">
+        <a class="hv-txt-01" href=""><div class="dirmdc-dr-ft">
+          <img src="/dirmedico/fotos/Dra-Claudia-Montenegro-card.jpg" alt="">
         </div>
         <p class="f1 dirmdc-dr-nm">Dra. Claudia Montenegro</p>
         <p class="f2 dirmdc-dr-esp">Radio-Oncología</p>
+      </a>
       </div>
 
-      <div class="dirmdc-dr-bx hv-trnsY-3 hv-txt-01">
+      <div class="dirmdc-dr-bx hv-trnsY-3">
+        <a class="hv-txt-01" href="">
         <div class="dirmdc-dr-ft">
           <img src="/dirmedico/fotos/Dr-Joel-Verdugo-card.jpg" alt="">
         </div>
         <p class="f1 dirmdc-dr-nm">Dr. Joel Verdugo Correa</p>
         <p class="f2 dirmdc-dr-esp">Nefrología</p>
+        </a>
       </div>
 
-      <div class="dirmdc-dr-bx hv-trnsY-3 hv-txt-01">
+      <div class="dirmdc-dr-bx hv-trnsY-3">
         <a class="hv-txt-01" href="">
           <div class="dirmdc-dr-ft">
             <img src="/dirmedico/fotos/Dra-Ludmilla-Ore-card.jpg" alt="">

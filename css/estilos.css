@@ -379,7 +379,6 @@ ul li:last-child{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  background-color: pink;
 }
 .dirmdc-dr-bx {
   width: 240px;
