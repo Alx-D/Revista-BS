@@ -59,7 +59,7 @@ a {
 .lbco{color: white;}
 
 .contenedor {
-  width: 100vw;
+  width: 92vw;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -85,7 +85,6 @@ a {
   transform: translateY(-5%);
   transition: all 500ms;
 }
-.hv
 ul li:last-child{
   margin-bottom: 0;
 }
@@ -388,7 +387,7 @@ ul li:last-child{
   width: 175px;
   height: 215px;
   margin: 0 auto 18px;
-  background-color: lightgray;
+  background-color: #62d0f8;
 }
 .dirmdc-dr-bx p {
   text-align: center;
@@ -825,9 +824,6 @@ footer .facebook-bx {
 
 /*------MEDIAS SCREEN INICIO GRAL------*/
 @media screen and (max-width: 1200px) {
-  .contenedor {
-    width: 92vw;
-  }
   .videos-cont {
     padding: 40px 0 60px;
   }

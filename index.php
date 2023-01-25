@@ -189,7 +189,7 @@
       <div class="dirmdc-dr-bx hv-trnsY-3">
         <a class="hv-txt-01" href="">
           <div class="dirmdc-dr-ft">
-            <img src="/dirmedico/fotos/Dra-Dalila-Vasquez-card.jpg" alt="">
+            <img src="/dirmedico/fotos/Dra-Dalila-Vasquez-card.png" alt="">
           </div>
           <p class="f1 dirmdc-dr-nm">Dra. Dalila Vasquez</p>
           <p class="f2 dirmdc-dr-esp">Ginecología y Obstetricia</p>
@@ -197,38 +197,39 @@
       </div>
 
       <div class="dirmdc-dr-bx hv-trnsY-3">
-        <a class="hv-txt-01" href="">
-        <div class="dirmdc-dr-ft">
-          <img src="/dirmedico/fotos/Dr-Jose-Antonio-Gonzalez-card.jpg" alt="">
-        </div>
-        <p class="f1 dirmdc-dr-nm">Dr. José Antonio González</p>
-        <p class="f2 dirmdc-dr-esp">Ortopedia y Traumatología</p>
-        </a>
-      </div>
-
-      <div class="dirmdc-dr-bx hv-trnsY-3">
-        <a class="hv-txt-01" href=""><div class="dirmdc-dr-ft">
-          <img src="/dirmedico/fotos/Dra-Claudia-Montenegro-card.jpg" alt="">
-        </div>
-        <p class="f1 dirmdc-dr-nm">Dra. Claudia Montenegro</p>
-        <p class="f2 dirmdc-dr-esp">Radio-Oncología</p>
-      </a>
-      </div>
-
-      <div class="dirmdc-dr-bx hv-trnsY-3">
-        <a class="hv-txt-01" href="">
-        <div class="dirmdc-dr-ft">
-          <img src="/dirmedico/fotos/Dr-Joel-Verdugo-card.jpg" alt="">
-        </div>
-        <p class="f1 dirmdc-dr-nm">Dr. Joel Verdugo Correa</p>
-        <p class="f2 dirmdc-dr-esp">Nefrología</p>
+        <a class="hv-txt-01" href="/dirmedico/Dr-Jose-Antonio-Gonzalez.php">
+          <div class="dirmdc-dr-ft">
+            <img src="/dirmedico/fotos/Dr-Jose-Antonio-Gonzalez-card.jpg" alt="">
+          </div>
+          <p class="f1 dirmdc-dr-nm">Dr. José Antonio González</p>
+          <p class="f2 dirmdc-dr-esp">Ortopedia y Traumatología</p>
         </a>
       </div>
 
       <div class="dirmdc-dr-bx hv-trnsY-3">
         <a class="hv-txt-01" href="">
           <div class="dirmdc-dr-ft">
-            <img src="/dirmedico/fotos/Dra-Ludmilla-Ore-card.jpg" alt="">
+            <img src="/dirmedico/fotos/Dra-Claudia-Montenegro-card.png" alt="">
+          </div>
+          <p class="f1 dirmdc-dr-nm">Dra. Claudia Montenegro</p>
+          <p class="f2 dirmdc-dr-esp">Radio-Oncología</p>
+        </a>
+      </div>
+
+      <div class="dirmdc-dr-bx hv-trnsY-3">
+        <a class="hv-txt-01" href="">
+          <div class="dirmdc-dr-ft">
+            <img src="/dirmedico/fotos/Dr-Joel-Verdugo-card.png" alt="">
+          </div>
+          <p class="f1 dirmdc-dr-nm">Dr. Joel Verdugo Correa</p>
+          <p class="f2 dirmdc-dr-esp">Nefrología</p>
+        </a>
+      </div>
+
+      <div class="dirmdc-dr-bx hv-trnsY-3">
+        <a class="hv-txt-01" href="">
+          <div class="dirmdc-dr-ft">
+            <img src="/dirmedico/fotos/Dra-Ludmilla-Ore-card.png" alt="">
           </div>
           <p class="f1 dirmdc-dr-nm">Dra. Ludmilla Ore Colio</p>
           <p class="f2 dirmdc-dr-esp">Ginecología y Obstetricia</p>
@@ -277,7 +278,7 @@
 
         <div class="video-bx">
           <div class="video-bx-fb">
-          <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F4611008005606866%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+            <iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2FRevistaBS%2Fvideos%2F4611008005606866%2F&show_text=false&width=560&t=0" width="560" height="314" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
           </div>
           <p class="f1">La <b>psicóloga Patricia Álvarez</b> nos habla sobre la importancia del acompañamiento psicológico a pacientes con cáncer para ayudarlos a manejar el estrés, la ansiedad y la depresión relacionadas con la enfermedad, y ayudarlos a mejorar su calidad de vida y su capacidad para afrontar el tratamiento del cáncer.</p>
         </div>
