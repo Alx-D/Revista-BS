@@ -187,7 +187,7 @@
     <div class="dirmdc-cont">
 
       <div class="dirmdc-dr-bx hv-trnsY-3">
-        <a class="hv-txt-01" href="">
+        <a class="hv-txt-01" href="/dirmedico/Dr-Jose-Antonio-Gonzalez2.php">
           <div class="dirmdc-dr-ft">
             <img src="/dirmedico/fotos/Dra-Dalila-Vasquez-card.png" alt="">
           </div>
