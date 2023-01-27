@@ -182,7 +182,7 @@
   <!-- 1DIRMEDICO -->
   <section id="dirmdc" class="contenedor m0-a">
 
-    <h3 class="f1">DIRECTORIO MÉDICO</h3>
+    <h3 class="f1">SU DOCTOR DE CONFIANZA</h3>
 
     <div class="dirmdc-cont">
 

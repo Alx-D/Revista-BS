@@ -269,8 +269,8 @@ ul li:last-child{
   color: var(--verde-logo-1);
 }
 .prt-prev-cbz {
-  /* font-size: 60px; */
-  font-size: clamp(3.125rem, 1.6129vw + 2.5403rem, 3.75rem);
+  font-size: 65px;
+  font-size: clamp(3.44rem, 1.42vw + 3.15rem, 4.06rem);
   font-weight: 400;
   line-height: 1.2;
 }
@@ -286,8 +286,8 @@ ul li:last-child{
   color: var(--verde-logo-1);
 }
 .prt-prev-edit-cbz {
-  /* font-size: 35px; */
-  font-size: clamp(1.875rem, 0.8065vw + 1.5827rem, 2.1875rem);;
+  font-size: 40px;
+  font-size: clamp(2.06rem, 0.99vw + 1.86rem, 2.5rem);
   font-weight: 400;
   line-height: 1.2;
 }
@@ -459,7 +459,7 @@ footer {
   border: 0;
 }
 .footer-mision {
-  font-size: clamp(1rem, 1.1364vw + 0.7727rem, 1.625rem);
+  font-size: clamp(1.06rem, 1.28vw + 0.81rem, 1.63rem);
   line-height: 2.2;
   font-weight: 600;
   text-align: center;
@@ -1084,7 +1084,7 @@ footer .facebook-bx {
   }
   .prt-prev-blz,
   .prt-prev-edit-ind {
-    font-size: clamp(1.125rem, 1.5385vw + 0.8173rem, 1.375rem);
+    font-size: clamp(1.19rem, 1.54vw + 0.88rem, 1.44rem);
   }
   .prt-video-bx {
     width: 90%;
