@@ -99,6 +99,39 @@
           <div class="separador"></div>
         </div>
 
+        <div class="f1 experiencia">
+          <h3 class="seccCbz">ESPECIALISTA EN</h3>
+          <ul>
+            <li>Traumatología y ortopedia</li>
+            <li>Cirugía de columna</li>
+            <li>Lesiones y fracturas</li>
+          </ul>
+
+          <div class="separador"></div>
+        </div>
+
+        <div class="f1 frm">
+          <h3 class="seccCbz">FORMACIÓN</h3>
+          <p class="seccTxt">Originario de La Piedad, Michoacán, el doctor José Antonio González Rincón es médico
+            cirujano por la Universidad
+            Michoacana de San Nicolás de Hidalgo, es especialista en traumatología y ortopedia por la Universidad Nacional
+            Autónoma de México, realizó un curso en adiestramiento en cirugía de columna vertebral y deformidades y está
+            certificado por el Consejo Mexicano de Ortopedia y Traumatología, A. C.</p>
+
+          <div class="separador"></div>
+        </div>
+
+        <div class="f1 frm">
+          <h3 class="seccCbz">FORMACIÓN</h3>
+          <p class="seccTxt">Originario de La Piedad, Michoacán, el doctor José Antonio González Rincón es médico
+            cirujano por la Universidad
+            Michoacana de San Nicolás de Hidalgo, es especialista en traumatología y ortopedia por la Universidad Nacional
+            Autónoma de México, realizó un curso en adiestramiento en cirugía de columna vertebral y deformidades y está
+            certificado por el Consejo Mexicano de Ortopedia y Traumatología, A. C.</p>
+
+          <div class="separador"></div>
+        </div>
+
       </div>
 
       <div class="fotoCol">

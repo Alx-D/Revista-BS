@@ -151,8 +151,12 @@
   font-weight: 400;
   margin-bottom: 4px;
 }
-.hxpCont .infoCol .ctcBx {
+.hxpCont .ctcBx {
   margin-top: 50px;
+}
+.hxpCont .seccTxt {
+  font-size: 20px;
+  line-height: 1.4;
 }
 .hxpCont .infoCol .seccCbz {
   font-size: 26px;
@@ -228,4 +232,17 @@
   background: var(--azul-claro);
   margin-top: 35px;
   margin-bottom: 35px;
+}
+.hxpCont .experiencia ul {
+  list-style-type: disc;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  padding-inline-start: 20px;
+}
+.hxpCont .experiencia li {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 10px;
 }
