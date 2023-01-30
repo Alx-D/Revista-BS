@@ -20,7 +20,7 @@
 <body>
   <header class="sdcHdr">
     <div class="pleca">
-      <div class="dsktp cntndr1100">
+      <div class="dsktp contenedor">
         <a class="f1 inicio" href="#"><b>INICIO</b></a>
         <p class="f3 slogan">Salud para vivir con sentido</p>
         <a class="logo" href="/index.php">
@@ -46,11 +46,11 @@
     </div>
   </header>
 
-  <section class="cntndr1100">
+  <section class="contenedor">
     <div class="hxpCont">
 
-      <div class="infoCol">
-        <div class="nmBx">
+      <div class="infoCol">infoCol
+        <!-- <div class="nmBx">
           <h1 class="f1 nombre">Dr. José Antonio <br> González Rincón</h1>
           <p class="f1 esplInd">Especialidad médica</p>
           <div class="f1 espl">Traumatología <br> y Ortopedia</div>
@@ -78,7 +78,7 @@
             </a>
           </div>
 
-          <p class="ctcInfo site hvTrns-5"><a href="https://www.columnahermosillo.com/" class="hvTxt" target="blank">www.columnahermosillo.com</a> <i class="fas fa-mouse-pointer"></i>
+          <p class="ctcInfo hvTrns-5"><a href="https://www.columnahermosillo.com/" class="hvTxt" target="blank">www.columnahermosillo.com</a> <i class="fas fa-mouse-pointer"></i>
           </p>
 
           <div class="f1 rdsBx">
@@ -90,8 +90,6 @@
 
             <div>
               <a class="hvTrns-5" href="https://www.instagram.com/joseantoniogonzalezrincon/" target="blank"><img src="/dirmedico/imgs/instagram-logo-120x120.png" alt="" title="@joseantoniogonzalezrincon, click para abrir en Instagram"></a>
-
-              <a class="hvTrns-5" href="https://wa.me/526622161492" target="blank"><img src="/dirmedico/imgs/whatsapp-logo-120x120.png" alt="" title="Envie un mensaje por Whatsapp"></a>
             </div>
 
             <p class="f3">Click para acceder a sus redes sociales</p>
@@ -122,64 +120,70 @@
         </div>
 
         <div class="f1 mgz">
-          <h3 class="seccCbz">ARTÍCULOS Y ENTREVISTAS EN <span>REVISTA BS</span></h3>
+          <h3 class="seccCbz">ARTÍCULOS Y ENTREVISTAS <br> EN <span>REVISTA BS</span></h3>
 
           <div class="mgzCont">
             <div class="mgzBx">
-              <a href="/dirmedico/dres/JAGR/Dr-Jose-Antonio-Gonzalez-BS269-p24-m.pdf">
-                <img src="/dirmedico/dres/JAGR/Dr-Jose-Antonio-Gonzalez-BS269-p24.jpg" alt="">
+              <a href="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS269-p24-m.pdf" target="_blank">
+                <img src="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS269-p24.jpg" alt="">
               </a>
             </div>
 
             <div class="mgzBx">
-              <a href="/dirmedico/dres/JAGR/Dr-Jose-Antonio-Gonzalez-BS266-p14-15-m.pdf">
-                <img src="/dirmedico/dres/JAGR/Dr-Jose-Antonio-Gonzalez-BS266-p14-15.jpg" alt="">
+              <a href="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS266-p14-15-m.pdf" target="_blank">
+                <img src="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS266-p14-15.jpg" alt="">
               </a>
             </div>
 
             <div class="mgzBx">
-              <a href="/dirmedico/dres/JAGR/Dr-Jose-Antonio-Gonzalez-BS265-p14-15-m.pdf">
-                <img src="/dirmedico/dres/JAGR/Dr-Jose-Antonio-Gonzalez-BS265-p14-15.jpg" alt="">
+              <a href="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS265-p14-15-m.pdf" target="_blank">
+                <img src="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS265-p14-15.jpg" alt="">
               </a>
             </div>
 
             <div class="mgzBx">
-              <a href="/dirmedico/dres/JAGR/Dr-Jose-Antonio-Gonzalez-BS260-p20-21-m.pdf">
-                <img src="/dirmedico/dres/JAGR/Dr-Jose-Antonio-Gonzalez-BS260-p20-21.jpg" alt="">
+              <a href="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS260-p20-21-m.pdf" target="_blank">
+                <img src="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS260-p20-21.jpg" alt="">
               </a>
             </div>
 
             <div class="mgzBx">
-              <a href="/dirmedico/dres/JAGR/Dr-Jose-Antonio-Gonzalez-BS259-p8-m.pdf">
-                <img src="/dirmedico/dres/JAGR/Dr-Jose-Antonio-Gonzalez-BS259-p8.jpg" alt="">
+              <a href="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS259-p8-m.pdf" target="_blank">
+                <img src="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS259-p8.jpg" alt="">
               </a>
             </div>
 
             <div class="mgzBx">
-              <a href="/dirmedico/dres/JAGR/Dr-Jose-Antonio-Gonzalez-BS253-p10-m.pdf">
-                <img src="/dirmedico/dres/JAGR/Dr-Jose-Antonio-Gonzalez-BS253-p10.jpg" alt="">
+              <a href="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS253-p10-m.pdf" target="_blank">
+                <img src="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS253-p10.jpg" alt="">
               </a>
             </div>
           </div>
-          <div class="separador"></div>
-        </div>
+        </div> -->
 
       </div>
 
-      <div class="fotoCol">
-        <div class="fotoBx">
-          <picture>
-            <source media="(max-width: 768px)" srcset="/dirmedico/dres/JAGR/Dr-Jose-Antonio-Gonzalez-m.jpg">
-            <img src="/dirmedico/dres/JAGR/Dr-Jose-Antonio-Gonzalez.jpg" alt="">
-          </picture>
-          <div class="f1 agende">
-            <a href="tel:+526622161492">Agende una cita <br class="br1024"> 662 216 1492</a>
+      <div class="fotoCol">fotocol
+        <!-- <div class="fotoBx">
+          <div class="fotoBx">
+            <picture>
+              <source media="(max-width: 768px)" srcset="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-m.jpg">
+              <img src="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez.jpg" alt="">
+            </picture>
+
+            <div class="f1 agende">
+              <p>AGENDE UNA CITA</p>
+              <div>
+                <a href="tel:+526622161492"><i class="fas fa-phone-alt"></i> 662 216 1492</a>
+                <a href="https://wa.me/526622290213"><i class="fa-brands fa-whatsapp"></i> 662 229 0213</a>
+              </di>
+            </div>
           </div>
-        </div>
+        </div> -->
       </div>
-
-    </div>
   </section>
+
+  <?php include('../includes/footer.php') ?>
 
   <script>
     var coll = document.getElementsByClassName("colapsable");
@@ -198,5 +202,4 @@
     }
   </script>
 </body>
-
 </html>
