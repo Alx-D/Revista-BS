@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/estilos.css">
   <link rel="stylesheet" href="/css/all.min.css">
+  <link rel="stylesheet" href="/css/estilos.css">
   <link rel="stylesheet" href="/css/dirmedico.css">
   <meta name="description" content="Artículos, entrevistas del Doctor José Antonio González en Revista BS">
   <meta name="keywords" content="">
@@ -121,14 +121,46 @@
           <div class="separador"></div>
         </div>
 
-        <div class="f1 frm">
-          <h3 class="seccCbz">FORMACIÓN</h3>
-          <p class="seccTxt">Originario de La Piedad, Michoacán, el doctor José Antonio González Rincón es médico
-            cirujano por la Universidad
-            Michoacana de San Nicolás de Hidalgo, es especialista en traumatología y ortopedia por la Universidad Nacional
-            Autónoma de México, realizó un curso en adiestramiento en cirugía de columna vertebral y deformidades y está
-            certificado por el Consejo Mexicano de Ortopedia y Traumatología, A. C.</p>
+        <div class="f1 mgz">
+          <h3 class="seccCbz">ARTÍCULOS Y ENTREVISTAS EN <span>REVISTA BS</span></h3>
 
+          <div class="mgzCont">
+            <div class="mgzBx">
+              <a href="/dirmedico/dres/JAGR/Dr-Jose-Antonio-Gonzalez-BS269-p24-m.pdf">
+                <img src="/dirmedico/dres/JAGR/Dr-Jose-Antonio-Gonzalez-BS269-p24.jpg" alt="">
+              </a>
+            </div>
+
+            <div class="mgzBx">
+              <a href="/dirmedico/dres/JAGR/Dr-Jose-Antonio-Gonzalez-BS266-p14-15-m.pdf">
+                <img src="/dirmedico/dres/JAGR/Dr-Jose-Antonio-Gonzalez-BS266-p14-15.jpg" alt="">
+              </a>
+            </div>
+
+            <div class="mgzBx">
+              <a href="/dirmedico/dres/JAGR/Dr-Jose-Antonio-Gonzalez-BS265-p14-15-m.pdf">
+                <img src="/dirmedico/dres/JAGR/Dr-Jose-Antonio-Gonzalez-BS265-p14-15.jpg" alt="">
+              </a>
+            </div>
+
+            <div class="mgzBx">
+              <a href="/dirmedico/dres/JAGR/Dr-Jose-Antonio-Gonzalez-BS260-p20-21-m.pdf">
+                <img src="/dirmedico/dres/JAGR/Dr-Jose-Antonio-Gonzalez-BS260-p20-21.jpg" alt="">
+              </a>
+            </div>
+
+            <div class="mgzBx">
+              <a href="/dirmedico/dres/JAGR/Dr-Jose-Antonio-Gonzalez-BS259-p8-m.pdf">
+                <img src="/dirmedico/dres/JAGR/Dr-Jose-Antonio-Gonzalez-BS259-p8.jpg" alt="">
+              </a>
+            </div>
+
+            <div class="mgzBx">
+              <a href="/dirmedico/dres/JAGR/Dr-Jose-Antonio-Gonzalez-BS253-p10-m.pdf">
+                <img src="/dirmedico/dres/JAGR/Dr-Jose-Antonio-Gonzalez-BS253-p10.jpg" alt="">
+              </a>
+            </div>
+          </div>
           <div class="separador"></div>
         </div>
 
@@ -137,8 +169,8 @@
       <div class="fotoCol">
         <div class="fotoBx">
           <picture>
-            <source media="(max-width: 768px)" srcset="/dirmedico/fotos/Dr-Jose-Antonio-Gonzalez-m.jpg">
-            <img src="/dirmedico/fotos/Dr-Jose-Antonio-Gonzalez.jpg" alt="">
+            <source media="(max-width: 768px)" srcset="/dirmedico/dres/JAGR/Dr-Jose-Antonio-Gonzalez-m.jpg">
+            <img src="/dirmedico/dres/JAGR/Dr-Jose-Antonio-Gonzalez.jpg" alt="">
           </picture>
           <div class="f1 agende">
             <a href="tel:+526622161492">Agende una cita <br class="br1024"> 662 216 1492</a>
@@ -148,8 +180,6 @@
 
     </div>
   </section>
-
-
 
   <script>
     var coll = document.getElementsByClassName("colapsable");

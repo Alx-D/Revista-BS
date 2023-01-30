@@ -89,7 +89,7 @@
   justify-content: space-between;
 }
 .hxpCont .infoCol {
-  width: 52%;
+  width: 50%;
 }
 .hxpCont .fotoCol {
   width: 45%;
@@ -154,14 +154,14 @@
 .hxpCont .ctcBx {
   margin-top: 50px;
 }
-.hxpCont .seccTxt {
-  font-size: 20px;
-  line-height: 1.4;
-}
 .hxpCont .infoCol .seccCbz {
   font-size: 26px;
   font-weight: 600;
   margin-bottom: 5px;
+}
+.hxpCont .infoCol .seccTxt {
+  font-size: 18px;
+  line-height: 1.4;
 }
 .hxpCont .infoCol .ctcEmpresa {
   font-size: 36px;
@@ -246,3 +246,14 @@
   line-height: 1.4;
   margin-bottom: 10px;
 }
+.hxpCont .mgz span {
+  color: var(--verde-logo-1)
+}
+.hxpCont .mgzCont {
+  display: flex;
+  flex-direction: column;
+}
+.hxpCont .mgzCont .mgzBx {
+  margin-bottom: 30px;
+}
+

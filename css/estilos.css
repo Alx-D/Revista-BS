@@ -370,7 +370,7 @@ ul li:last-child{
   justify-content: space-evenly;
 }
 
-/* 1DIRMEDICO */
+/* 1SDC */
 #dirmdc {
   margin-bottom: 80px;
 }
@@ -382,6 +382,9 @@ ul li:last-child{
 .dirmdc-dr-bx {
   width: 240px;
   height: 312px;
+  width: 190px;
+  width: 15%;
+  height: auto;
 }
 .dirmdc-dr-ft {
   width: 175px;
