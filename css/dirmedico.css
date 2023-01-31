@@ -82,18 +82,22 @@
     color: dodgerblue;
   }
 }
-.hxpCont {
+.hxpContFlex1 {
   display: flex;
   justify-content: space-between;
   margin-bottom: 100px;
 }
+.hxpContFlex2 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  margin-bottom: 100px;
+}
 .hxpCont .infoCol {
   width: 50%;
-  background-color: #db813f;
 }
 .hxpCont .fotoCol {
   width: 45%;
-  background-color: aqua;
 }
 .hxpCont .fotoBx img {
   width: 100%;

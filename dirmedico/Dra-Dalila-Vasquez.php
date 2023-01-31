@@ -46,11 +46,11 @@
     </div>
   </header>
 
-  <section class="contenedor">
-    <div class="hxpCont">
+  <section class="contenedor ">
 
-      <div class="infoCol">infoCol
-        <!-- <div class="nmBx">
+    <div class="hxpCont hxpContFlex2">
+      <div class="infoCol">
+        <div class="nmBx">
           <h1 class="f1 nombre">Dr. José Antonio <br> González Rincón</h1>
           <p class="f1 esplInd">Especialidad médica</p>
           <div class="f1 espl">Traumatología <br> y Ortopedia</div>
@@ -159,28 +159,28 @@
               </a>
             </div>
           </div>
-        </div> -->
-
+        </div>
       </div>
 
-      <div class="fotoCol">fotocol
-        <!-- <div class="fotoBx">
-          <div class="fotoBx">
-            <picture>
-              <source media="(max-width: 768px)" srcset="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-m.jpg">
-              <img src="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez.jpg" alt="">
-            </picture>
 
-            <div class="f1 agende">
-              <p>AGENDE UNA CITA</p>
-              <div>
-                <a href="tel:+526622161492"><i class="fas fa-phone-alt"></i> 662 216 1492</a>
-                <a href="https://wa.me/526622290213"><i class="fa-brands fa-whatsapp"></i> 662 229 0213</a>
+      <div class="fotoCol">
+        <div class="fotoBx">
+          <picture>
+            <source media="(max-width: 768px)" srcset="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-m.jpg">
+            <img src="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez.jpg" alt="">
+          </picture>
+
+          <div class="f1 agende">
+            <p>AGENDE UNA CITA</p>
+            <div>
+              <a href="tel:+526622161492"><i class="fas fa-phone-alt"></i> 662 216 1492</a>
+              <a href="https://wa.me/526622290213"><i class="fa-brands fa-whatsapp"></i> 662 229 0213</a>
               </di>
             </div>
           </div>
-        </div> -->
+        </div>
       </div>
+    </div>
   </section>
 
   <?php include('../includes/footer.php') ?>
@@ -202,4 +202,5 @@
     }
   </script>
 </body>
+
 </html>
