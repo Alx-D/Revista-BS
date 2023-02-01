@@ -14,7 +14,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-  <title>Dr. José Antonio González Rincón | Revista BS</title>
+  <title>Dra. Dalila Vasquez Coronado | Revista BS</title>
 </head>
 
 <body>
@@ -51,46 +51,39 @@
     <div class="hxpCont hxpContFlex2">
       <div class="infoCol">
         <div class="nmBx">
-          <h1 class="f1 nombre">Dr. José Antonio <br> González Rincón</h1>
+          <h1 class="f1 nombre">Dra. Dalila <br> Vasquez Coronado</h1>
           <p class="f1 esplInd">Especialidad médica</p>
-          <div class="f1 espl">Traumatología <br> y Ortopedia</div>
-          <p class="f3 cedulas"><b>Cédula profesional:</b> <br class="br480"> 5084256, Universidad Michoacana de San Nicolás de Hidalgo</p>
-          <p class="f3 cedulas"><b>Cédula de especialidad:<br class="br480"></b> 7342886, Universidad Nacional Autónoma de México</p>
+          <div class="f1 espl">Ginecología<br> y obstetricia</div>
+          <p class="f3 cedulas"><b>Cédula profesional:</b> <br class="br480"> 5866523, Universidad de Sonora</p>
+          <p class="f3 cedulas"><b>Cédula de especialidad:<br class="br480"></b> 7440367, Universidad Nacional Autónoma de México</p>
         </div>
 
         <div class="f1 ctcBx">
           <h3 class="seccCbz">CONSULTA EN</h3>
-          <p class="ctcEmpresa">Centro Médico Navarrete</p>
-          <p class="ctcInfo"><i class="fas fa-map-marker-alt"></i> Blvd. Navarrete #97, esquina con Américas, <br class="br880">Hermosillo, Sonora</p>
+          <!-- <p class="ctcEmpresa"></p> -->
+          <p class="ctcInfo"><i class="fas fa-map-marker-alt"></i> San Luis Potosí #102 esquina con Escobedo, <br class="br880">Hermosillo, Sonora</p>
 
           <button type="button" class="f1 colapsable">Abrir ubicación en mapa <i class="fa fa-chevron-down"></i></button>
 
           <div class="mapa">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d217.91720904592512!2d-110.97135128587185!3d29.08573711808838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ce843fac21686d%3A0x921d66eec2f39e58!2sCentro%20M%C3%A9dico%20Navarrete!5e0!3m2!1ses-419!2smx!4v1654108061521!5m2!1ses-419!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d217.90785977470927!2d-110.95883495548662!3d29.090155828883947!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ce8436d061244d%3A0x4b7b981f3f8b914!2sConsultorios%20San%20Benito!5e0!3m2!1ses-419!2smx!4v1675210479245!5m2!1ses-419!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
 
           <div class="ctcTelBx">
-            <a href="tel:+526622161492">
-              <p class="ctcInfo hvTxt hvTrns-5"><i class="fas fa-phone-alt"></i> (662) 216-1492</p>
-            </a>
-            <a href="tel:+526622290213" title="Urgencias">
-              <p class="ctcInfo hvTxt hvTrns-5"><i class="fas fa-exclamation-circle" style="color: red;"></i> (662) 229-0213</p>
+            <a href="tel:+526622102021">
+              <p class="ctcInfo hvTxt hvTrns-5"><i class="fas fa-phone-alt"></i> 662 210 2021</p>
             </a>
           </div>
 
-          <p class="ctcInfo hvTrns-5"><a href="https://www.columnahermosillo.com/" class="hvTxt" target="blank">www.columnahermosillo.com</a> <i class="fas fa-mouse-pointer"></i>
-          </p>
+          <div class="spc05"></div>
 
           <div class="f1 rdsBx">
             <div>
-              <a class="hvTrns-5" href="https://www.facebook.com/Columna-hermosillo-1534276236872116" target="blank"><img src="/dirmedico/imgs/facebook-logo-120x120.png" alt="" title="@Columna-hermosillo, click para abrir en Facebook"></a>
+              <a class="hvTrns-5" href="https://www.facebook.com/dradalyvasquez" target="blank"><img src="/dirmedico/imgs/facebook-logo-120x120.png" alt="" title="Dra. Dalila Vásquez, click para abrir en Facebook"></a>
 
-              <a class="hvTrns-5" href="https://www.facebook.com/OrtopediaSonora" target="blank"><img src="/dirmedico/imgs/facebook-logo-120x120.png" alt="" target="blank" title="@OrtopediaSonora, click para abrir en Facebook"></a>
+              <a class="hvTrns-5" href="https://www.instagram.com/dradalyvasquez/" target="blank"><img src="/dirmedico/imgs/instagram-logo-120x120.png" alt="" title="@dradalyvasquez, click para abrir en Instagram"></a>
             </div>
-
-            <div>
-              <a class="hvTrns-5" href="https://www.instagram.com/joseantoniogonzalezrincon/" target="blank"><img src="/dirmedico/imgs/instagram-logo-120x120.png" alt="" title="@joseantoniogonzalezrincon, click para abrir en Instagram"></a>
-            </div>
+            <div></div>
 
             <p class="f3">Click para acceder a sus redes sociales</p>
           </div>
@@ -100,9 +93,11 @@
         <div class="f1 experiencia">
           <h3 class="seccCbz">ESPECIALISTA EN</h3>
           <ul>
-            <li>Traumatología y ortopedia</li>
-            <li>Cirugía de columna</li>
-            <li>Lesiones y fracturas</li>
+            <li>Colposcopía</li>
+            <li>Métodos anticonceptivos</li>
+            <li>Climaterio y menopausia</li>
+            <li>Embarazo y parto</li>
+            <li>Infecciones vaginales</li>
           </ul>
 
           <div class="separador"></div>
@@ -110,11 +105,7 @@
 
         <div class="f1 frm">
           <h3 class="seccCbz">FORMACIÓN</h3>
-          <p class="seccTxt">Originario de La Piedad, Michoacán, el doctor José Antonio González Rincón es médico
-            cirujano por la Universidad
-            Michoacana de San Nicolás de Hidalgo, es especialista en traumatología y ortopedia por la Universidad Nacional
-            Autónoma de México, realizó un curso en adiestramiento en cirugía de columna vertebral y deformidades y está
-            certificado por el Consejo Mexicano de Ortopedia y Traumatología, A. C.</p>
+          <p class="seccTxt">La doctora Vasquez Coronado es egresada de la Universidad de Sonora como médico general, se especializó en ginecología y obstetricia en el Hospital Integral de la Mujer del Estado de Sonora, avalada por la Universidad Nacional Autónoma de México. Realizó un diplomado en ultrasonido ginecoobstétrico, avalado por la Universidad Autónoma de Guerrero, y un diplomado en colposcopía y patología del tracto genital y del complejo anoperineal, avalado por la UNAM.</p>
 
           <div class="separador"></div>
         </div>
@@ -166,20 +157,19 @@
       <div class="fotoCol">
         <div class="fotoBx">
           <picture>
-            <source media="(max-width: 768px)" srcset="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-m.jpg">
-            <img src="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez.jpg" alt="">
+            <source media="(max-width: 768px)" srcset="/dirmedico/dres/dvac/Dra-Dalila-Vasquez-m.jpg">
+            <img src="/dirmedico/dres/dvac/Dra-Dalila-Vasquez.png" alt="" style="background-color: #fabad6;">
           </picture>
 
           <div class="f1 agende">
             <p>AGENDE UNA CITA</p>
             <div>
-              <a href="tel:+526622161492"><i class="fas fa-phone-alt"></i> 662 216 1492</a>
-              <a href="https://wa.me/526622290213"><i class="fa-brands fa-whatsapp"></i> 662 229 0213</a>
-              </di>
+              <a href="tel:+526622102021"><i class="fas fa-phone-alt"></i> 662 210 2021</a>
             </div>
           </div>
         </div>
       </div>
+    </div>
     </div>
   </section>
 

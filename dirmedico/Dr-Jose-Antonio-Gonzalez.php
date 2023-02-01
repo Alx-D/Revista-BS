@@ -71,10 +71,10 @@
 
           <div class="ctcTelBx">
             <a href="tel:+526622161492">
-              <p class="ctcInfo hvTxt hvTrns-5"><i class="fas fa-phone-alt"></i> (662) 216-1492</p>
+              <p class="ctcInfo hvTxt hvTrns-5"><i class="fas fa-phone-alt"></i> 662 2161492</p>
             </a>
             <a href="tel:+526622290213" title="Urgencias">
-              <p class="ctcInfo hvTxt hvTrns-5"><i class="fas fa-exclamation-circle" style="color: red;"></i> (662) 229-0213</p>
+              <p class="ctcInfo hvTxt hvTrns-5"><i class="fas fa-exclamation-circle" style="color: red;"></i> 662 229 0213</p>
             </a>
           </div>
 
@@ -175,11 +175,11 @@
             <div>
               <a href="tel:+526622161492"><i class="fas fa-phone-alt"></i> 662 216 1492</a>
               <a href="https://wa.me/526622290213"><i class="fa-brands fa-whatsapp"></i> 662 229 0213</a>
-              </di>
             </div>
           </div>
         </div>
       </div>
+    </div>
     </div>
   </section>
 
