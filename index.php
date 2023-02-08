@@ -31,6 +31,23 @@
       <div class="prt-col-1">
 
         <div class="prt-rvst-bx hv-trnsY-2">
+          <div class="edcn-pdf-desk">
+            <a class="f1 hv-txt-01 nonedw768" href="ediciones/2023/272/Revista-BS-272.pdf" target="_blank">
+              <img src="ediciones/2023/272/BS272-portada.jpg" title="Revista BS #271">
+              <h3 >Revista BS #272</h3>
+            </a>
+          </div>
+
+          <div>
+            <a class="f1 pdf-mob hv-txt-01" href="ediciones/2022/271/Revista-BS-271-Esp1-m.pdf" target="_blank">
+              <img src="ediciones/2023/272/BS272-portada.jpg" title="Revista BS #271">
+              <h3 class="hv-txt-01">Revista BS #272</h3>
+            </a>
+          </div>
+        </div>
+
+        <!-- PORTADA DOBLE -->
+        <!-- <div class="prt-rvst-bx hv-trnsY-2">
           <img src="ediciones/2022/271/BS271-portadas.gif" title="Revista BS #271">
           <div class="edcn-pdf-desk">
             <a class="f1 nonedw768 hv-txt-01" href="ediciones/2022/271/Revista-BS-271-Esp1.pdf" target="_blank">
@@ -51,15 +68,18 @@
               <h3>Especial 2</h3>
             </a>
           </div>
-        </div>
+        </div> -->
+
         <div class="prt-prev-bx">
-          <p class="f1 prt-prev-mes">ENERO 2023</p>
-            <p class="f1 prt-prev-blz">Edición especial 24 aniversario</p>
-            <h1 class="f2 prt-prev-cbz">Nogales saludable</h1>
+          <p class="f1 prt-prev-mes">ESTE MES</p>
+          <a class="hv-txt-01" href="ediciones/2023/272/Revista-BS-272.pdf">
+          <p class="f1 prt-prev-blz">Enfermedades endocrinas y autoinmunes:</p>
+          <h1 class="f2 prt-prev-cbz">Una batalla que se libra cada día</h1>
+          </a>
           <hr class="prt-prev-hr">
-          <a class="hv-txt-01" href="ediciones/2022/271/271-editorial.php">
+          <a class="hv-txt-01" href="ediciones/2023/272/272-editorial.php">
             <p class="f1 prt-prev-edit-ind">Editorial</p>
-            <h2 class="f2 prt-prev-edit-cbz">Prioridades en salud para 2023</h2>
+            <h2 class="f2 prt-prev-edit-cbz">Enfermedades endocrinas y autoinmunes</h2>
           </a>
         </div>
       </div>
@@ -87,6 +107,27 @@
     <h3 class="f1">EDICIONES RECIENTES</h3>
 
     <div class="edcns-cont">
+      <div class="edcn-bx hv-trnsY-4">
+        <img src="ediciones/2022/271/BS271-portadas.gif" title="Revista BS #271">
+        <div class="edcn-pdf-desk nonedw768">
+          <a class="f1" href="ediciones/2022/271/Revista-BS-271-Esp1.pdf" target="_blank">
+            <h4 class="hv-txt-01">#271 Especial 1</h4>
+          </a>
+          <a class="f1" href="ediciones/2022/271/Revista-BS-271-Esp2.pdf" target="_blank">
+            <h4 class="hv-txt-01">#271 Especial 2</h4>
+          </a>
+        </div>
+
+        <div class="pdf-mob">
+          <a class="f1" href="ediciones/2022/271/Revista-BS-271-Esp1-m.pdf" target="_blank">
+            <h4 class="hv-txt-01">#271 Especial 1</h4>
+          </a>
+          <a class="f1" href="ediciones/2022/271/Revista-BS-271-Esp2-m.pdf" target="_blank">
+            <h4 class="hv-txt-01">#271 Especial 2</h4>
+          </a>
+        </div>
+      </div>
+
       <div class="edcn-bx hv-trnsY-4">
         <a class="nonedw768" href="ediciones/2022/270/Revista-BS-270.pdf" target="blank">
           <img src="ediciones/2022/270/BS270-portada.jpg" title="Revista BS #270" />
@@ -126,11 +167,11 @@
       <div class="edcn-bx hv-trnsY-4">
         <img src="ediciones/2022/267/BS267-portadas.gif" title="Revista BS #267">
         <div class="edcn-pdf-desk nonedw768">
-          <a class="f1 hv-txt-01" href="ediciones/2022/267/Revista-BS-267-Esp1.pdf" target="_blank">
-            <h4>#267 Especial 1</h4>
+          <a class="f1" href="ediciones/2022/267/Revista-BS-267-Esp1.pdf" target="_blank">
+            <h4 class="hv-txt-01">#267 Especial 1</h4>
           </a>
-          <a class="f1 hv-txt-01" href="ediciones/2022/267/Revista-BS-267-Esp2.pdf" target="_blank">
-            <h4>#267 Especial 2</h4>
+          <a class="f1" href="ediciones/2022/267/Revista-BS-267-Esp2.pdf" target="_blank">
+            <h4 class="hv-txt-01">#267 Especial 2</h4>
           </a>
         </div>
 
@@ -153,18 +194,6 @@
         <a class="pdf-mob" href="ediciones/2022/266/Revista-BS-266-m.pdf" target="blank">
           <img src="ediciones/2022/266/BS266-portada.jpg" title="Revista BS #266" />
           <h4 class="f1 hv-txt-01">Revista BS #266</h4>
-        </a>
-      </div>
-
-      <div class="edcn-bx hv-trnsY-4">
-        <a class="nonedw768" href="ediciones/2022/265/Revista-BS-265.pdf" target="blank">
-          <img src="ediciones/2022/265/BS265-portada.jpg" title="Revista BS #265" />
-          <h4 class="f1 hv-txt-01">Revista BS #265</h4>
-        </a>
-
-        <a class="pdf-mob" href="ediciones/2022/265/Revista-BS-265-m.pdf" target="blank">
-          <img src="ediciones/2022/265/BS265-portada.jpg" title="Revista BS #265" />
-          <h4 class="f1 hv-txt-01">Revista BS #265</h4>
         </a>
       </div>
     </div>

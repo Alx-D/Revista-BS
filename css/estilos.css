@@ -269,8 +269,8 @@ ul li:last-child{
   color: var(--verde-logo-1);
 }
 .prt-prev-cbz {
-  font-size: 65px;
-  font-size: clamp(3.44rem, 1.42vw + 3.15rem, 4.06rem);
+  /* font-size: 55px; */
+  font-size: clamp(2.5rem, 2.193vw + 2.034rem, 3.4375rem);
   font-weight: 400;
   line-height: 1.2;
 }
@@ -286,8 +286,8 @@ ul li:last-child{
   color: var(--verde-logo-1);
 }
 .prt-prev-edit-cbz {
-  font-size: 40px;
-  font-size: clamp(2.06rem, 0.99vw + 1.86rem, 2.5rem);
+  /* font-size: 35px; */
+  font-size: clamp(1.5625rem, 1.462vw + 1.2518rem, 2.1875rem);
   font-weight: 400;
   line-height: 1.2;
 }
@@ -368,6 +368,9 @@ ul li:last-child{
 .edicion-dbl-bx div {
   display: flex;
   justify-content: space-evenly;
+}
+.edcns-cont h4:hover {
+  transform: scale(115%);
 }
 
 /* 1SDC */
@@ -686,8 +689,17 @@ footer .facebook-bx {
   color: var(--verde-logo-1);
   margin-bottom: 0;
 }
+.nt-txt li {
+  margin-left: 30px;
+}
+.lista-disco-nota li {
+  list-style-type: disc;
+  margin-right: 50px;
+  line-height: 1.4;
+  margin-bottom: 5px;
+}
 .nt-foto-bx {
-  width: 95%;
+  width: 90%;
   margin: 60px auto 65px auto;
   background-color: var(--gris-claro);
 }
@@ -700,6 +712,7 @@ footer .facebook-bx {
   color: var(--verde-logo-1);
   padding: 20px 25px 20px 25px;
 }
+
 /* NOTAS FIN */
 
 /* CONTACTO */
@@ -1255,10 +1268,10 @@ footer .facebook-bx {
 }
 @media screen and (max-width: 340px) {
   .prt-prev-cbz{
-    font-size: 40px;
+    /* font-size: 40px; */
   }
   .prt-prev-edit-cbz {
-    font-size: 25px;
+    /* font-size: 25px; */
   }
   /* 34FOOTER */
   .footer-BSlogo-bx {

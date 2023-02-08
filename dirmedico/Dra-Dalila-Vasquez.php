@@ -115,38 +115,26 @@
 
           <div class="mgzCont">
             <div class="mgzBx">
-              <a href="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS269-p24-m.pdf" target="_blank">
-                <img src="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS269-p24.jpg" alt="">
+              <a href="/dirmedico/dres/dvac/Dra-Dalila-Vasquez-BS269-p12-13-m.pdf" target="_blank">
+                <img src="/dirmedico/dres/dvac/Dra-Dalila-Vasquez-BS269-p12-13.jpg" alt="">
               </a>
             </div>
 
             <div class="mgzBx">
-              <a href="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS266-p14-15-m.pdf" target="_blank">
-                <img src="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS266-p14-15.jpg" alt="">
+              <a href="/dirmedico/dres/dvac/Dra-Dalila-Vasquez-BS264-p16-m.pdf" target="_blank">
+                <img src="/dirmedico/dres/dvac/Dra-Dalila-Vasquez-BS264-p16.jpg" alt="">
               </a>
             </div>
 
             <div class="mgzBx">
-              <a href="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS265-p14-15-m.pdf" target="_blank">
-                <img src="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS265-p14-15.jpg" alt="">
+              <a href="/dirmedico/dres/dvac/Dra-Dalila-Vasquez-BS259-p25-m.pdf" target="_blank">
+                <img src="/dirmedico/dres/dvac/Dra-Dalila-Vasquez-BS259-p25.jpg" alt="">
               </a>
             </div>
 
             <div class="mgzBx">
-              <a href="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS260-p20-21-m.pdf" target="_blank">
-                <img src="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS260-p20-21.jpg" alt="">
-              </a>
-            </div>
-
-            <div class="mgzBx">
-              <a href="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS259-p8-m.pdf" target="_blank">
-                <img src="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS259-p8.jpg" alt="">
-              </a>
-            </div>
-
-            <div class="mgzBx">
-              <a href="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS253-p10-m.pdf" target="_blank">
-                <img src="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS253-p10.jpg" alt="">
+              <a href="/dirmedico/dres/dvac/Dra-Dalila-Vasquez-BS247-p18-m.pdf" target="_blank">
+                <img src="/dirmedico/dres/dvac/Dra-Dalila-Vasquez-BS247-p18.jpg" alt="">
               </a>
             </div>
           </div>
@@ -157,7 +145,7 @@
       <div class="fotoCol">
         <div class="fotoBx">
           <picture>
-            <source media="(max-width: 768px)" srcset="/dirmedico/dres/dvac/Dra-Dalila-Vasquez-m.jpg">
+            <source media="(max-width: 768px)" srcset="">
             <img src="/dirmedico/dres/dvac/Dra-Dalila-Vasquez.png" alt="" style="background-color: #fabad6;">
           </picture>
 
