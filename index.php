@@ -6,10 +6,10 @@
 
   <!-- <div class="popup">
     <button id="close">&times;</button>
-    <a href="https://www.instagram.com/cdelnoroeste/?hl=es" target="_blank"><img src="banners/2022/Clinica-del-Noroeste-BS271.jpg" alt=""></a>
-  </div> -->
+    <a href="https://www.instagram.com/cdelnoroeste/?hl=es" target="_blank"><img src="banners/2023/Clinica-del-Noroeste-BS272.jpg" alt=""></a>
+  </div>
 
-  <!-- <script type="text/javascript">
+  <script type="text/javascript">
     window.addEventListener("load", function() {
       setTimeout(
         function open(event) {
@@ -29,52 +29,27 @@
     <div class="prt-cont">
 
       <div class="prt-col-1">
-
         <div class="prt-rvst-bx hv-trnsY-2">
           <div class="edcn-pdf-desk">
             <a class="f1 hv-txt-01 nonedw768" href="ediciones/2023/272/Revista-BS-272.pdf" target="_blank">
               <img src="ediciones/2023/272/BS272-portada.jpg" title="Revista BS #271">
-              <h3 >Revista BS #272</h3>
+              <h3>Revista BS #272</h3>
             </a>
           </div>
 
           <div>
-            <a class="f1 pdf-mob hv-txt-01" href="ediciones/2022/271/Revista-BS-271-Esp1-m.pdf" target="_blank">
+            <a class="f1 pdf-mob hv-txt-01" href="ediciones/2023/272/Revista-BS-272-m.pdf" target="_blank">
               <img src="ediciones/2023/272/BS272-portada.jpg" title="Revista BS #271">
               <h3 class="hv-txt-01">Revista BS #272</h3>
             </a>
           </div>
         </div>
 
-        <!-- PORTADA DOBLE -->
-        <!-- <div class="prt-rvst-bx hv-trnsY-2">
-          <img src="ediciones/2022/271/BS271-portadas.gif" title="Revista BS #271">
-          <div class="edcn-pdf-desk">
-            <a class="f1 nonedw768 hv-txt-01" href="ediciones/2022/271/Revista-BS-271-Esp1.pdf" target="_blank">
-              <h3>Especial 1</h3>
-            </a>
-
-            <a class="f1 nonedw768 hv-txt-01" href="ediciones/2022/271/Revista-BS-271-Esp2.pdf" target="_blank">
-              <h3>Especial 2</h3>
-            </a>
-          </div>
-
-          <div>
-            <a class="f1 pdf-mob hv-txt-01" href="ediciones/2022/271/Revista-BS-271-Esp1-m.pdf" target="_blank">
-              <h3>Especial 1</h3>
-            </a>
-
-            <a class="f1 pdf-mob hv-txt-01" href="ediciones/2022/271/Revista-BS-271-Esp2-m.pdf" target="_blank">
-              <h3>Especial 2</h3>
-            </a>
-          </div>
-        </div> -->
-
         <div class="prt-prev-bx">
           <p class="f1 prt-prev-mes">ESTE MES</p>
-          <a class="hv-txt-01" href="ediciones/2023/272/Revista-BS-272.pdf">
-          <p class="f1 prt-prev-blz">Enfermedades endocrinas y autoinmunes:</p>
-          <h1 class="f2 prt-prev-cbz">Una batalla que se libra cada día</h1>
+          <a class="hv-txt-01" href="ediciones/2023/272/Revista-BS-272.pdf" target="_blank">
+            <p class="f1 prt-prev-blz">Enfermedades endocrinas y autoinmunes:</p>
+            <h1 class="f2 prt-prev-cbz">Una batalla que se libra cada día</h1>
           </a>
           <hr class="prt-prev-hr">
           <a class="hv-txt-01" href="ediciones/2023/272/272-editorial.php">
