@@ -58,30 +58,6 @@
 .sdcHdr .mbl {
   display: none;
 }
-
-@media only screen and (max-width: 768px){
-  .sdcHdr .dsktp {
-    display: none;
-  }
-  .sdcHdr .mbl {
-    display: block;
-    width: 100vw;
-    margin: 0 auto;
-  }
-  .sdcHdr .mbl .logo {
-    width: 50%;
-    margin: 20px auto 12px;
-  }
-  .sdcHdr .mbl .logo img {
-    width: 100%;
-  }
-  .sdcHdr .mbl .back a {
-    position: absolute;
-    font-size: 45px;
-    margin-left: 25px;
-    color: dodgerblue;
-  }
-}
 .hxpContFlex1 {
   display: flex;
   justify-content: space-between;
@@ -99,12 +75,12 @@
 .hxpCont .fotoCol {
   width: 45%;
 }
-.hxpCont .fotoBx img {
-  width: 100%;
-}
 .hxpCont .fotoBx {
   position: sticky;
   top: 0;
+}
+.hxpCont .fotoBx img {
+  width: 100%;
 }
 .hxpCont .fotoBx .agende {
   width: 100%;
@@ -143,15 +119,15 @@
 }
 .hxpCont .infoCol .nombre {
   /* font-size: 65px; */
-  font-size: clamp(2rem, 4.69vw + 1.06rem, 4.06rem);
+  font-size: clamp(2.125rem, 4.6784vw + 1.1308rem, 4.125rem);
   line-height: 1.1;
   margin-top: 230px;
   margin-bottom: 30px;
 }
 .hxpCont .infoCol .esplInd {
   width: fit-content;
-  font-size: 23px;
-  font-size: clamp(1rem, 0.99vw + 0.8rem, 1.44rem);
+  /* font-size: 23px; */
+  font-size: clamp(1.0625rem, 0.8772vw + 0.8761rem, 1.4375rem);
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: .75px;
@@ -162,7 +138,7 @@
 }
 .hxpCont .infoCol .espl {
   /* font-size: 40px; */
-  font-size: clamp(1.63rem, 1.99vw + 1.23rem, 2.5rem);
+  font-size: clamp(1.75rem, 1.7544vw + 1.3772rem, 2.5rem);
   font-weight: 700;
   line-height: 1.1;
   color: #777;
@@ -183,7 +159,7 @@
   margin-bottom: 4px;
 }
 .hxpCont .infoCol .seccTxt {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.4;
 }
 .hxpCont .infoCol .ctcEmpresa {
@@ -281,6 +257,131 @@
   flex-direction: column;
 }
 .hxpCont .mgzCont .mgzBx {
+  width: fit-content;
   margin-bottom: 30px;
 }
+.hxpCont .mgzCont img {
+  width: 100%;
+}
+@media only screen and (max-width: 990px){
+  .sdcHdr .dsktp .slogan {
+    letter-spacing: 8px;
+  }
+  .hxpCont .infoCol {
+    width: 57%;
+  }
+  .hxpCont .fotoCol {
+    width: 38%;
+  }
+  .hxpCont .fotoBx {
+    top: 100px;
+  }
+  .hxpCont .infoCol .seccCbz {
+    font-size: 24px;
+  }
+  .hxpCont .infoCol .ctcEmpresa {
+    font-size: 34px;
+  }
+  .hxpCont .infoCol .fas,
+  .hxpCont .infoCol .ctcInfo {
+    font-size: 20px;
+  }
+  .hxpCont .infoCol .colapsable {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 880px){
+  .sdcHdr .dsktp .slogan {
+    font-size: 14px;
+  }
+  .hxpCont .infoCol {
+    width: 60%;
+  }
+  .hxpCont .fotoCol {
+    width: 35%;
+  }
+  .br880 {
+    display: none;
+  }
+  .hxpCont .infoCol .nombre {
+    margin-top: 180px;
+  }
+
+  /* poner margenes a especialidad cedulas y consulta en */
+  .hxpCont .infoCol .seccCbz {
+    font-size: 22px;
+  }
+  .hxpCont .infoCol .ctcEmpresa {
+    font-size: 30px;
+  }
+  .hxpCont .infoCol .fas,
+  .hxpCont .infoCol .ctcInfo {
+    font-size: 18px;
+  }
+  .hxpCont .infoCol .seccTxt {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 768px){
+  .sdcHdr .dsktp {
+    display: none;
+  }
+  .sdcHdr .mbl {
+    display: block;
+    width: 100vw;
+    margin: 20px auto 0px;
+  }
+  .sdcHdr .mbl .back a {
+    position: absolute;
+    font-size: 45px;
+    margin-left: 25px;
+    color: dodgerblue;
+  }
+  .sdcHdr .mbl .logo {
+    width: 50%;
+    margin: 20px auto 8px;
+  }
+  .sdcHdr .mbl .logo img {
+    width: 100%;
+  }
+  .sdcHdr .mbl .slogan p {
+    font-size: 33px;
+  }
+  .hxpContFlex1,
+  .hxpContFlex2 {
+    flex-direction: column-reverse;
+  }
+  .hxpCont .fotoBx .agende {
+    display: none;
+  }
+  .hxpCont .fotoCol {
+    width: 100vw;
+    background-color: var(--gris-claro);
+    margin-top: 20px;
+  }
+  .hxpCont .infoCol {
+    width: 100%;
+  }
+  .hxpCont .fotoBx {
+    position: initial;
+    width: 50%;
+    margin: 0 auto;
+  }
+  .hxpCont .infoCol {
+    text-align: center;
+  }
+  .hxpCont .infoCol .nombre {
+    margin-top: 35px;
+  }
+  .hxpCont .infoCol .esplInd {
+    margin: 0 auto 10px;
+  }
+  .hxpCont .infoCol .espl {
+    margin-bottom: 20px;
+
+  }
+
+
+}
+
 
