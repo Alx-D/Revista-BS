@@ -191,7 +191,7 @@
     <div class="dirmdc-cont">
 
       <div class="dirmdc-dr-bx hv-trnsY-3">
-        <a class="hv-txt-01" href="/dirmedico/Dra-Dalila-Vasquez.php">
+        <a class="hv-txt-01" href="/dirmedico/Dra-Dalila-Vasquez.php" target="_blank">
           <div class="dirmdc-dr-ft">
             <img src="/dirmedico/imgs/Dra-Dalila-Vasquez-card.png" alt="">
           </div>
@@ -201,7 +201,7 @@
       </div>
 
       <div class="dirmdc-dr-bx hv-trnsY-3">
-        <a class="hv-txt-01" href="/dirmedico/Dr-Jose-Antonio-Gonzalez.php">
+        <a class="hv-txt-01" href="/dirmedico/Dr-Jose-Antonio-Gonzalez.php" target="_blank">
           <div class="dirmdc-dr-ft">
             <img src="/dirmedico/imgs/Dr-Jose-Antonio-Gonzalez-card.jpg" alt="">
           </div>

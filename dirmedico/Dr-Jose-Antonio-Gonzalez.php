@@ -124,38 +124,38 @@
 
           <div class="mgzCont">
             <div class="mgzBx">
-              <a href="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS269-p24-m.pdf" target="_blank">
-                <img src="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS269-p24.jpg" alt="">
+              <a href="/dirmedico/dres/jagr/BS269-24-m.pdf" target="_blank">
+                <img src="/dirmedico/dres/jagr/BS269-24.jpg" alt="">
               </a>
             </div>
 
             <div class="mgzBx">
-              <a href="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS266-p14-15-m.pdf" target="_blank">
-                <img src="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS266-p14-15.jpg" alt="">
+              <a href="/dirmedico/dres/jagr/BS266-14-15-m.pdf" target="_blank">
+                <img src="/dirmedico/dres/jagr/BS266-14-15.jpg" alt="">
               </a>
             </div>
 
             <div class="mgzBx">
-              <a href="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS265-p14-15-m.pdf" target="_blank">
-                <img src="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS265-p14-15.jpg" alt="">
+              <a href="/dirmedico/dres/jagr/BS265-14-15-m.pdf" target="_blank">
+                <img src="/dirmedico/dres/jagr/BS265-14-15.jpg" alt="">
               </a>
             </div>
 
             <div class="mgzBx">
-              <a href="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS260-p20-21-m.pdf" target="_blank">
-                <img src="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS260-p20-21.jpg" alt="">
+              <a href="/dirmedico/dres/jagr/BS260-20-21-m.pdf" target="_blank">
+                <img src="/dirmedico/dres/jagr/BS260-20-21.jpg" alt="">
               </a>
             </div>
 
             <div class="mgzBx">
-              <a href="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS259-p8-m.pdf" target="_blank">
-                <img src="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS259-p8.jpg" alt="">
+              <a href="/dirmedico/dres/jagr/BS259-8-m.pdf" target="_blank">
+                <img src="/dirmedico/dres/jagr/BS259-8.jpg" alt="">
               </a>
             </div>
 
             <div class="mgzBx">
-              <a href="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS253-p10-m.pdf" target="_blank">
-                <img src="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-BS253-p10.jpg" alt="">
+              <a href="/dirmedico/dres/jagr/BS253-10-m.pdf" target="_blank">
+                <img src="/dirmedico/dres/jagr/BS253-10.jpg" alt="">
               </a>
             </div>
           </div>

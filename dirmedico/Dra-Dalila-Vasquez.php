@@ -115,26 +115,26 @@
 
           <div class="mgzCont">
             <div class="mgzBx">
-              <a href="/dirmedico/dres/dvac/Dra-Dalila-Vasquez-BS269-p12-13-m.pdf" target="_blank">
-                <img src="/dirmedico/dres/dvac/Dra-Dalila-Vasquez-BS269-p12-13.jpg" alt="">
+              <a href="/dirmedico/dres/dvac/BS269-12-13-m.pdf" target="_blank">
+                <img src="/dirmedico/dres/dvac/BS269-12-13.jpg" alt="">
               </a>
             </div>
 
             <div class="mgzBx">
-              <a href="/dirmedico/dres/dvac/Dra-Dalila-Vasquez-BS264-p16-m.pdf" target="_blank">
-                <img src="/dirmedico/dres/dvac/Dra-Dalila-Vasquez-BS264-p16.jpg" alt="">
+              <a href="/dirmedico/dres/dvac/BS264-16-m.pdf" target="_blank">
+                <img src="/dirmedico/dres/dvac/BS264-16.jpg" alt="">
               </a>
             </div>
 
             <div class="mgzBx">
-              <a href="/dirmedico/dres/dvac/Dra-Dalila-Vasquez-BS259-p25-m.pdf" target="_blank">
-                <img src="/dirmedico/dres/dvac/Dra-Dalila-Vasquez-BS259-p25.jpg" alt="">
+              <a href="/dirmedico/dres/dvac/BS259-25-m.pdf" target="_blank">
+                <img src="/dirmedico/dres/dvac/BS259-25.jpg" alt="">
               </a>
             </div>
 
             <div class="mgzBx">
-              <a href="/dirmedico/dres/dvac/Dra-Dalila-Vasquez-BS247-p18-m.pdf" target="_blank">
-                <img src="/dirmedico/dres/dvac/Dra-Dalila-Vasquez-BS247-p18.jpg" alt="">
+              <a href="/dirmedico/dres/dvac/BS247-18-m.pdf" target="_blank">
+                <img src="/dirmedico/dres/dvac/BS247-18.jpg" alt="">
               </a>
             </div>
           </div>
@@ -146,7 +146,10 @@
         <div class="fotoBx">
           <picture>
             <source media="(max-width: 768px)" srcset="">
-            <img src="/dirmedico/dres/dvac/Dra-Dalila-Vasquez.png" alt="" style="background-color: #fabad6;">
+            <img src="/dirmedico/dres/dvac/Dra-Dalila-Vasquez.png" alt="" style="background: rgb(255,255,255); background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(250,186,214,1) 35%);">
+
+
+
           </picture>
 
           <div class="f1 agende">
