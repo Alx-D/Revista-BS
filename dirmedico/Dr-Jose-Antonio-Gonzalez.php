@@ -49,6 +49,7 @@
   <section class="contenedor ">
 
     <div class="hxpCont hxpContFlex1">
+
       <div class="infoCol">
         <div class="nmBx">
           <h1 class="f1 nombre">Dr. José Antonio <br> González Rincón</h1>
@@ -161,8 +162,7 @@
           </div>
         </div>
       </div>
-
-
+      
       <div class="fotoCol">
         <div class="fotoBx">
           <picture>
@@ -179,7 +179,6 @@
           </div>
         </div>
       </div>
-    </div>
     </div>
   </section>
 
