@@ -32,16 +32,20 @@
         <div class="back">
           <a href="#"><i class="fas fa-chevron-left"></i></a>
         </div>
-        <div class="logo">
-          <a href="/index.php">
-            <img src="/imgs/Revista-BS-logo-m.png">
-          </a>
-        </div>
-        <div class="slogan">
-          <p>
-            <i>Salud para vivir <span>con sentido</span></i>
-          </p>
-        </div>
+
+        <div class="logoBx">
+          <div class="logo">
+            <a href="/index.php">
+              <img src="/imgs/Revista-BS-logo-m.png">
+            </a>
+          </div>
+          <div class="slogan">
+            <p>
+              <i>Salud para vivir <span>con sentido</span></i>
+            </p>
+          </div>
+        </div >
+
       </div>
     </div>
   </header>
@@ -62,7 +66,7 @@
         <div class="f1 ctcBx">
           <h3 class="seccCbz">CONSULTA EN</h3>
           <p class="ctcEmpresa">Centro Médico Navarrete</p>
-          <p class="ctcInfo"><i class="fas fa-map-marker-alt"></i> Blvd. Navarrete #97, esquina con Américas, <br class="br880">Hermosillo, Sonora</p>
+          <p class="ctcInfo"><i class="fas fa-map-marker-alt">&nbsp;</i> Blvd. Navarrete #97, esquina con Américas, <br class="br880">Hermosillo, Sonora</p>
 
           <button type="button" class="f1 colapsable">Abrir ubicación en mapa <i class="fa fa-chevron-down"></i></button>
 
@@ -72,14 +76,14 @@
 
           <div class="ctcTelBx">
             <a href="tel:+526622161492">
-              <p class="ctcInfo hvTxt hvTrns-5"><i class="fas fa-phone-alt"></i> 662 2161492</p>
+              <p class="ctcInfo hvTxt hvTrns-5"><i class="fas fa-phone-alt">&nbsp;</i> 662 216 1492</p>
             </a>
             <a href="tel:+526622290213" title="Urgencias">
-              <p class="ctcInfo hvTxt hvTrns-5"><i class="fas fa-exclamation-circle" style="color: red;"></i> 662 229 0213</p>
+              <p class="ctcInfo hvTxt hvTrns-5"><i class="fas fa-exclamation-circle" style="color: red;">&nbsp;</i> 662 229 0213</p>
             </a>
           </div>
 
-          <p class="ctcInfo hvTrns-5"><a href="https://www.columnahermosillo.com/" class="hvTxt" target="blank">www.columnahermosillo.com</a> <i class="fas fa-mouse-pointer"></i>
+          <p class="ctcInfo hvTrns-5"><a href="https://www.columnahermosillo.com/" class="hvTxt" target="blank">www.columnahermosillo.com</a>&nbsp; <i class="fas fa-mouse-pointer"></i>
           </p>
 
           <div class="f1 rdsBx">
@@ -162,7 +166,7 @@
           </div>
         </div>
       </div>
-      
+
       <div class="fotoCol">
         <div class="fotoBx">
           <picture>

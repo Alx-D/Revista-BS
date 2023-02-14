@@ -18,7 +18,7 @@
 </head>
 
 <body>
-  <header class="sdcHdr">
+<header class="sdcHdr">
     <div class="pleca">
       <div class="dsktp contenedor">
         <a class="f1 inicio" href="#"><b>INICIO</b></a>
@@ -32,16 +32,20 @@
         <div class="back">
           <a href="#"><i class="fas fa-chevron-left"></i></a>
         </div>
-        <div class="logo">
-          <a href="/index.php">
-            <img src="/imgs/Revista-BS-logo-m.png">
-          </a>
-        </div>
-        <div class="slogan">
-          <p>
-            <i>Salud para vivir <span>con sentido</span></i>
-          </p>
-        </div>
+
+        <div class="logoBx">
+          <div class="logo">
+            <a href="/index.php">
+              <img src="/imgs/Revista-BS-logo-m.png">
+            </a>
+          </div>
+          <div class="slogan">
+            <p>
+              <i>Salud para vivir <span>con sentido</span></i>
+            </p>
+          </div>
+        </div >
+
       </div>
     </div>
   </header>
