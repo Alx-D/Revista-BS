@@ -65,7 +65,7 @@
         <div class="f1 ctcBx">
           <h3 class="seccCbz">CONSULTA EN</h3>
           <!-- <p class="ctcEmpresa"></p> -->
-          <p class="ctcInfo"><i class="fas fa-map-marker-alt"></i> San Luis Potosí #102 esquina con Escobedo, <br class="br880">Hermosillo, Sonora</p>
+          <p class="ctcTxt"><i class="fas fa-map-marker-alt"></i> San Luis Potosí #102 esquina con Escobedo, <br class="br880">Hermosillo, Sonora</p>
 
           <button type="button" class="f1 colapsable">Abrir ubicación en mapa <i class="fa fa-chevron-down"></i></button>
 
@@ -75,7 +75,7 @@
 
           <div class="ctcTelBx">
             <a href="tel:+526622102021">
-              <p class="ctcInfo hvTxt hvTrns-5"><i class="fas fa-phone-alt"></i> 662 210 2021</p>
+              <p class="ctcTxt hvTxt hvTrns-5"><i class="fas fa-phone-alt"></i> 662 210 2021</p>
             </a>
           </div>
 

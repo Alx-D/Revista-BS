@@ -32,14 +32,14 @@
         <div class="prt-rvst-bx hv-trnsY-2">
           <div class="edcn-pdf-desk">
             <a class="f1 hv-txt-01 nonedw768" href="ediciones/2023/272/Revista-BS-272.pdf" target="_blank">
-              <img src="ediciones/2023/272/BS272-portada.jpg" title="Revista BS #271">
+              <img src="ediciones/2023/272/BS272-portada.jpg" title="Revista BS #272">
               <h3>Revista BS #272</h3>
             </a>
           </div>
 
           <div>
             <a class="f1 pdf-mob hv-txt-01" href="ediciones/2023/272/Revista-BS-272-m.pdf" target="_blank">
-              <img src="ediciones/2023/272/BS272-portada.jpg" title="Revista BS #271">
+              <img src="ediciones/2023/272/BS272-portada.jpg" title="Revista BS #272">
               <h3 class="hv-txt-01">Revista BS #272</h3>
             </a>
           </div>
@@ -52,9 +52,9 @@
             <h1 class="f2 prt-prev-cbz">Una batalla que se libra cada día</h1>
           </a>
           <hr class="prt-prev-hr">
-          <a class="hv-txt-01" href="ediciones/2023/272/272-editorial.php">
+          <a class="hv-txt-01" href="ediciones/2023/273/273-editorial.php">
             <p class="f1 prt-prev-edit-ind">Editorial</p>
-            <h2 class="f2 prt-prev-edit-cbz">Enfermedades endocrinas y autoinmunes</h2>
+            <h2 class="f2 prt-prev-edit-cbz">Principales factores de riesgo para la salud</h2>
           </a>
         </div>
       </div>

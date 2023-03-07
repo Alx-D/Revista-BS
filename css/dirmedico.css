@@ -145,7 +145,7 @@
 }
 .hxpCont .infoCol .cedulas {
   /* font-size: 14px; */
-  font-size: clamp(0.69rem, 0.43vw + 0.6rem, 0.88rem);
+  font-size: clamp(0.65rem, 0.43vw + 0.6rem, 0.88rem);
   font-weight: 400;
   margin-bottom: 4px;
 }
@@ -169,10 +169,11 @@
   font-size: 22px;
   color: #999;
 }
-.hxpCont .infoCol .ctcInfo {
+.hxpCont .infoCol .ctcTxt {
   font-size: 22px;
   line-height: 1.2;
   margin-bottom: 15px;
+  color: red;
 }
 .hxpCont .infoCol .colapsable {
   width: 100%;
@@ -203,7 +204,7 @@
   display: inline-block;
   margin-right: 30px;
 }
-.hxpCont .infoCol .ctcBx .ctcInfo a:nth-child(1) {
+.hxpCont .infoCol .ctcBx .ctcTxt a:nth-child(1) {
   display: inline-block;
   margin-bottom: 10px;
 }
@@ -294,7 +295,7 @@
     margin-top: 160px;
   }
   .hxpCont .infoCol .fas,
-  .hxpCont .infoCol .ctcInfo {
+  .hxpCont .infoCol .ctcTxt {
     font-size: 20px;
   }
   .hxpCont .infoCol .colapsable {
@@ -327,10 +328,10 @@
     margin-bottom: 20px;
   }
   .hxpCont .infoCol .fas,
-  .hxpCont .infoCol .ctcInfo {
+  .hxpCont .infoCol .ctcTxt {
     font-size: 18px;
   }
-  .hxpCont .infoCol .ctcInfo {
+  .hxpCont .infoCol .ctcTxt {
     margin-bottom: 10px;
   }
 }
@@ -378,13 +379,14 @@
   }
   .hxpCont .fotoCol {
     width: auto;
+    width: 100vw;
     /* margin-top: 20px; */
     margin-top: clamp(10px, 3vw, 20px );
     background-color: var(--gris-claro);
   }
   .hxpCont .fotoBx {
     position: initial;
-    width: clamp(200px, 70%, 400px);
+    width: clamp(240px, 70%, 400px);
     margin: 0 auto;
   }
   .hxpCont .fotoBx img {
@@ -400,8 +402,8 @@
   }
   .hxpCont .infoCol .nombre {
     font-size: clamp(2rem, 5.3738vw + 0.8581rem, 3.4375rem);
-    margin-top: clamp(20px, 4.5vw, 30px);
-    margin-bottom: clamp(20px, 4.5vw, 30px);
+    margin-top: clamp(17px, 4.5vw, 30px);
+    margin-bottom: clamp(17px, 4.5vw, 30px);
   }
   .hxpCont .infoCol .esplInd {
     font-size: clamp(0.875rem, 1.1682vw + 0.6268rem, 1.1875rem);
@@ -419,7 +421,7 @@
     font-size: clamp(1.2188rem, 1.986vw + 0.7967rem, 1.75rem);
   }
   .hxpCont .infoCol .fas,
-  .hxpCont .infoCol .ctcInfo {
+  .hxpCont .infoCol .ctcTxt {
     font-size: clamp(1.0313rem, 0.3505vw + 0.9568rem, 1.125rem);
   }
   .hxpCont .infoCol .colapsable {
