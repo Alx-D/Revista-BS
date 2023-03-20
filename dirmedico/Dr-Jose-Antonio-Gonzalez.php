@@ -57,7 +57,7 @@
       <div class="infoCol">
         <div class="nmBx">
           <h1 class="f1 nombre">Dr. José Antonio <br> González Rincón</h1>
-          <p class="f1 esplInd">Especialidad médica</p>
+          <p class="f1 esplInd">Especialidad&nbspmédica</p>
           <div class="f1 espl">Traumatología <br> y Ortopedia</div>
           <p class="f3 cedulas"><b>Cédula profesional:</b> <br class="br480"> 5084256, Universidad Michoacana de San Nicolás de Hidalgo</p>
           <p class="f3 cedulas"><b>Cédula de especialidad:<br class="br480"></b> 7342886, Universidad Nacional Autónoma de México</p>
@@ -113,7 +113,7 @@
           <div class="separador"></div>
         </div>
 
-        <div class="f1 frm">
+        <div class="f1 forma">
           <h3 class="seccCbz">FORMACIÓN</h3>
           <p class="seccTxt">Originario de La Piedad, Michoacán, el doctor José Antonio González Rincón es médico
             cirujano por la Universidad

@@ -88,6 +88,10 @@ a {
 ul li:last-child{
   margin-bottom: 0;
 }
+.d768 {
+  display: none;
+}
+
 
 /* HEADER */
 .header-pleca {
@@ -953,6 +957,14 @@ footer .facebook-bx {
   .rcNota {
     padding: 20px;
   }
+  .rcCbz {
+    font-size: 23px;
+  }
+  .rcNota ul li {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 12px;
+  }
 }
 @media screen and (max-width: 840px){
   .prt-video-cont {
@@ -993,9 +1005,12 @@ footer .facebook-bx {
   .nt-credito-bx {
     margin-bottom: 30px;
   }
-  /* 82CABEZA */
+  /* 82NOTA */
   .nt-edit-cbz {
     font-size: 50px;
+  }
+  .rcDer {
+    margin-right: -15px;
   }
   /* 82CTC */
   .ctc-bx{
@@ -1009,22 +1024,40 @@ footer .facebook-bx {
   }
 }
 @media screen and (max-width: 768px) {
-  .nonedw768 {
+  .dno768 {
     display: none;
+  }
+  .d768 {
+    display: block;
   }
   .pdf-mob {
     display: block;
   }
-  .vsbldw768 {
+  /* LOGO FACE SI TODO OK, BORRAR ESTO */
+  /* footer .facebook-bx {
     display: inline-block;
     margin: auto 0 auto;
-  }
+  } */
   .revista-bs-logo-bx {
     width: 150px;
   }
   .nt-foto-bx figcaption {
     font-size: 20px;
   }
+  /* 768NOTAS */
+  .rcNota {
+    /* width: fit-content; */
+    width: 90%;
+    border-radius: 13px;
+  }
+  .rcDer {
+    float: none;
+    margin-top: 25px;
+    margin-right: auto;
+    margin-bottom: 25px;
+    margin-left: auto;
+  }
+
   /* 76FOOTER */
   .footer-mision {
     margin-bottom: 20px;
@@ -1221,6 +1254,11 @@ footer .facebook-bx {
   .nt-edit-cbz {
     font-size: 40px;
   }
+  .rcNota ul li {
+    /* text-wrap: balance; */
+    font-size: 17px;
+  }
+
   /* COMPARTIR */
   .whatsapp-compartir,
   .facebook-compartir {
@@ -1303,6 +1341,9 @@ footer .facebook-bx {
   }
 }
 @media screen and (max-width: 360px) {
+  .rcCbz {
+    font-size: 20px;
+  }
   /* 36FOOTER */
   .duarte-firma {
     font-size: 11px;
