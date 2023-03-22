@@ -10,17 +10,19 @@
 .hvTrns-5:hover {
   transform: translateY(-5%);
 }
+/* Si el contenedor va así aplican los dos widths y funciona el 100vw en 768 */
 .contenedor {
-  max-width: 1100px !important;
+  width: 100vw;
+  max-width: 1100px;
 }
-.sdcHdr .dsktp {
+#dec header .dsktp {
   display: flex;
   background: var(--gris-claro);
   z-index: 10;
   position: relative;
   padding-right: 95px;
 }
-.sdcHdr .dsktp .inicio {
+#dec header .dsktp .inicio {
   font-size: 16px;
   font-family: 600;
   line-height: 2;
@@ -29,10 +31,10 @@
   color: white;
   background-color: dodgerblue;
 }
-.sdcHdr .dsktp .inicio:hover {
+#dec header .dsktp .inicio:hover {
   background: #136bc0;
 }
-.sdcHdr .dsktp .slogan {
+#dec header .dsktp .slogan {
   font-size: 15.5px;
   font-weight: 300;
   text-transform: uppercase;
@@ -41,7 +43,7 @@
   margin: auto auto;
   color: #aaa;
 }
-.sdcHdr .dsktp .logo {
+#dec header .dsktp .logo {
   width: 95px;
   height: 75px;
   background: var(--gris-claro);
@@ -52,10 +54,10 @@
   align-items: center;
   z-index: 10;
 }
-.sdcHdr .dsktp .logo img {
+#dec header .dsktp .logo img {
   height: 65%;
 }
-.sdcHdr .mbl {
+#dec header .mbl {
   display: none;
 }
 .hxpContFlex1 {
@@ -69,25 +71,26 @@
   flex-direction: row-reverse;
   margin-bottom: 40px;
 }
-.hxpCont .infoCol {
+#dec .hxp .infoCol {
   width: 50%;
 }
-.hxpCont .fotoCol {
+#dec .hxp .fotoCol {
   width: 45%;
+  background-color: pink;
 }
-.hxpCont .fotoBx {
+#dec .hxp .fotoBx {
   position: sticky;
   top: 0;
 }
-.hxpCont .fotoBx img {
+#dec .hxp .fotoBx img {
   width: 100%;
 }
-.hxpCont .fotoBx .agende {
+#dec .hxp .fotoBx .agende {
   width: 100%;
   padding: 20px 10px 15px;
   background-color: #db813f;
 }
-.hxpCont .fotoBx .agende p {
+#dec .hxp .fotoBx .agende p {
   /* font-size: 1.5rem; */
   font-size: clamp(1.1875rem, 1.9608vw + 0.2451rem, 1.5rem);
   font-weight: 600;
@@ -97,32 +100,32 @@
   color: #fff;
   margin-bottom: 3px;
 }
-.hxpCont .fotoBx .agende div {
+#dec .hxp .fotoBx .agende div {
   display: flex;
   justify-content: center;
   gap: 55px;
 }
-.hxpCont .fotoBx .agende a {
+#dec .hxp .fotoBx .agende a {
   /* font-size: 1.5rem; */
   font-size: clamp(1.1875rem, 1.9608vw + 0.2451rem, 1.5rem);
   font-weight: 600;
   color: #fff;
 }
-.hxpCont .fotoBx .agende a:hover {
+#dec .hxp .fotoBx .agende a:hover {
   transform: translateY(-5%);
 }
 
-.hxpCont .nmBx {
+#dec .hxp .nmBx {
   margin-bottom: 50px;
 }
-.hxpCont .infoCol .nombre {
+#dec .hxp .infoCol .nombre {
   /* font-size: 65px; 50 */
   font-size: clamp(3.125rem, 5.8594vw + 0.3125rem, 4.0625rem);
   line-height: 1.1;
   margin-top: 230px;
   margin-bottom: 30px;
 }
-.hxpCont .infoCol .esplInd {
+#dec .hxp .infoCol .esplInd {
   width: fit-content;
   /* font-size: 23px; 19 */
   font-size: clamp(1.1875rem, 1.5686vw + 0.4336rem, 1.4375rem);
@@ -134,7 +137,7 @@
   color: white;
   margin-bottom: 8px;
 }
-.hxpCont .infoCol .espl {
+#dec .hxp .infoCol .espl {
   /* font-size: 40px; 34 */
   font-size: clamp(2.125rem, 2.3529vw + 0.9941rem, 2.5rem);
   font-weight: 700;
@@ -143,38 +146,34 @@
   text-transform: uppercase;
   margin-bottom: 30px;
 }
-.hxpCont .infoCol .cedulas {
-  /* font-size: 14px; */
-  font-size: clamp(0.65rem, 0.43vw + 0.6rem, 0.88rem);
+#dec .hxp .infoCol .cedulas {
+  font-size: clamp(0.625rem, 0.5848vw + 0.5007rem, 0.875rem);
   font-weight: 400;
   margin-bottom: 4px;
 }
-
-.hxpCont .infoCol .seccCbz {
-  /* font-size: 26px; 21 */
+#dec .hxp .infoCol .seccCbz {
   font-size: clamp(1.3125rem, 1.9608vw + 0.3701rem, 1.625rem);
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: 1px;
   margin-bottom: 4px;
 }
-.hxpCont .infoCol .ctcEmpresa {
-  /* font-size: 36px; 28*/
+#dec .hxp .infoCol .ctcEmpresa {
   font-size: clamp(1.75rem, 3.1373vw + 0.2422rem, 2.25rem);
   line-height: 1.2;
   font-weight: 700;
   margin-bottom: 10px;
 }
-.hxpCont .infoCol .fas {
+#dec .hxp .infoCol .fas {
   font-size: 22px;
   color: #999;
 }
-.hxpCont .infoCol .ctcTxt {
+#dec .hxp .infoCol .ctcTxt {
   font-size: 21px;
   line-height: 1.2;
   margin-bottom: 15px;
 }
-.hxpCont .infoCol .colapsable {
+#dec .hxp .infoCol .colapsable {
   width: 100%;
   font-size: 18px;
   display: flex;
@@ -188,187 +187,185 @@
   margin-bottom: 20px;
 }
 .active,
-.hxpCont .colapsable:hover {
+#dec .hxp .colapsable:hover {
   color: white;
   background-color: #8F9491;
 }
-.hxpCont .infoCol .mapa {
+#dec .hxp .infoCol .mapa {
   padding: 0 18px;
   display: none;
   overflow: hidden;
   background-color: #f1f1f1;
   margin-bottom: 35px;
 }
-.hxpCont .infoCol .ctcTelBx a {
+#dec .hxp .infoCol .ctcTelBx a {
   display: inline-block;
   margin-right: 30px;
 }
-.hxpCont .infoCol .ctcBx .ctcTxt a:nth-child(1) {
+#dec .hxp .infoCol .ctcBx .ctcTxt a:nth-child(1) {
   display: inline-block;
   margin-bottom: 10px;
 }
-.hxpCont .infoCol .rdsBx {
+#dec .hxp .infoCol .rdsBx {
   display: flex;
   align-items: center;
 }
-.hxpCont .infoCol .rdsBx div {
+#dec .hxp .infoCol .rdsBx div {
   display: flex;
 }
-.hxpCont .infoCol .rdsBx img {
+#dec .hxp .infoCol .rdsBx img {
   width: 50px;
   margin: 0 15px 0;
 }
-.hxpCont .infoCol .rdsBx p {
+#dec .hxp .infoCol .rdsBx p {
   font-size: 16px;
   line-height: 1.2;
 }
-.hxpCont .infoCol .separador {
+#dec .hxp .infoCol .separador {
   width: 65%;
   height: 4px;
-  background: var(--azul-claro);
+  background-color: var(--azul-claro);
   margin-top: 50px;
   margin-bottom: 50px;
 }
-
-.hxpCont .experiencia ul {
+#dec .hxp .experiencia ul {
   list-style-type: disc;
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
   padding-inline-start: 20px;
 }
-.hxpCont .experiencia li {
-  /* font-size: 30px 27 ; */
+#dec .hxp .experiencia li {
   font-size: clamp(1.6875rem, 1.1765vw + 1.1221rem, 1.875rem);
   font-weight: 600;
   line-height: 1.3;
   margin-bottom: 5px;
 }
-.hxpCont .forma .seccCbz {
+#dec .hxp .forma .seccCbz {
   margin-bottom: 10px;
 }
-.hxpCont .infoCol .seccTxt {
+#dec .hxp .infoCol .seccTxt {
   /* font-size: 20px 17; */
   font-size: clamp(1.0625rem, 1.1765vw + 0.4971rem, 1.25rem);
   line-height: 1.4;
 }
 
-.hxpCont .mgz span {
+#dec .hxp .mgz span {
   font-weight: 700;
   color: var(--verde-logo-1)
 }
-.hxpCont .infoCol .mgz h3 {
+#dec .hxp .infoCol .mgz h3 {
   margin-bottom: 30px;
 }
-.hxpCont .mgzCont {
+#dec .hxp .mgzCont {
   display: flex;
   flex-direction: column;
 }
-.hxpCont .mgzCont .mgzBx {
+#dec .hxp .mgzCont .mgzBx {
   width: fit-content;
   margin-bottom: 30px;
 }
-.hxpCont .mgzCont img {
+#dec .hxp .mgzCont img {
   width: 100%;
 }
 @media only screen and (max-width: 1100px){
-  .hxpCont .fotoBx .agende div {
+  #dec .hxp .fotoBx .agende div {
     flex-direction: column;
     text-align: center;
     gap: 3px;
   }
 }
 @media only screen and (max-width: 1024px){
-  .hxpCont .infoCol .nombre {
+  #dec .hxp .infoCol .nombre {
     margin-top: 180px;
   }
 }
 @media only screen and (max-width: 990px){
-  .sdcHdr .dsktp .slogan {
+  #dec header .dsktp .slogan {
     letter-spacing: 8px;
   }
-  .hxpCont .infoCol {
+  #dec .hxp .infoCol {
     width: 52.5%;
   }
-  .hxpCont .fotoCol {
+  #dec .hxp .fotoCol {
     width: 42.5%;
   }
-  .hxpCont .infoCol .nombre {
+  #dec .hxp .infoCol .nombre {
     margin-top: 160px;
   }
-  .hxpCont .infoCol .fas,
-  .hxpCont .infoCol .ctcTxt {
+  #dec .hxp .infoCol .fas,
+  #dec .hxp .infoCol .ctcTxt {
     font-size: 20px;
   }
-  .hxpCont .infoCol .colapsable {
+  #dec .hxp .infoCol .colapsable {
     font-size: 16px;
   }
 }
 @media only screen and (max-width: 880px){
-  .sdcHdr .dsktp .slogan {
+  #dec header .dsktp .slogan {
     font-size: 14px;
   }
-  .hxpCont .infoCol {
+  #dec .hxp .infoCol {
     width: 55%;
   }
-  .hxpCont .fotoCol {
+  #dec .hxp .fotoCol {
     width: 40%;
   }
-  .hxpCont .fotoBx {
+  #dec .hxp .fotoBx {
     top: 35px;
   }
   .br880 {
     display: none;
   }
-  .hxpCont .fotoBx .agende {
+  #dec .hxp .fotoBx .agende {
     padding: 12px 10px 12px;
   }
-  .hxpCont .infoCol .nombre {
+  #dec .hxp .infoCol .nombre {
     margin-top: 120px;
   }
-  .hxpCont .infoCol .espl {
+  #dec .hxp .infoCol .espl {
     margin-bottom: 20px;
   }
-  .hxpCont .infoCol .fas,
-  .hxpCont .infoCol .ctcTxt {
+  #dec .hxp .infoCol .fas,
+  #dec .hxp .infoCol .ctcTxt {
     font-size: 18px;
   }
-  .hxpCont .infoCol .ctcTxt {
+  #dec .hxp .infoCol .ctcTxt {
     margin-bottom: 10px;
   }
 }
 @media only screen and (max-width: 768px){
-  .sdcHdr .dsktp {
+  #dec header .dsktp {
     display: none;
   }
-  .sdcHdr .mbl {
+  #dec header .mbl {
     display: block;
-    width: 100vw !important;
-    margin: 20px auto 0px;
+    margin: 20px auto 10px;
     display: flex;
     align-items: center;
   }
-  .sdcHdr .mbl .back {
+  #dec header .mbl .back {
     position: absolute;
   }
-  .sdcHdr .mbl .back a {
+  #dec header .mbl .back a {
     /* font-size: 45px 30 ; */
     font-size: clamp(1.875rem, 3.5047vw + 1.1303rem, 2.8125rem);
     margin-left: 3vw;
     color: dodgerblue;
   }
-  .sdcHdr .mbl .logoBx {
-    width: 100%;
+  #dec header .mbl .logoBx {
+    width: 80%;
+    margin: 0 auto;
   }
-  .sdcHdr .mbl .logo {
+  #dec header .mbl .logo {
     width: clamp(170px, 50vw, 360px);
     margin: 0px auto 5px;
     margin-bottom: clamp(3px, 1vw, 5px)
   }
-  .sdcHdr .mbl .logo img {
+  #dec header .mbl .logo img {
     width: 100%;
   }
-  .sdcHdr .mbl .slogan p {
+  #dec header .mbl .slogan p {
     /* font-size: 33px  17.5; */
     font-size: clamp(1.0938rem, 3.6215vw + 0.3242rem, 2.0625rem);
   }
@@ -376,74 +373,73 @@
   .hxpContFlex2 {
     flex-direction: column-reverse;
   }
-  .hxpCont .fotoBx .agende {
+  #dec .hxp .fotoBx .agende {
     display: none;
   }
-  .hxpCont .fotoCol {
-    width: auto;
-    width: 100vw;
-    /* margin-top: 20px; */
+  #dec .hxp .fotoCol {
+    width: 100%;
     margin-top: clamp(10px, 3vw, 20px );
     background-color: var(--gris-claro);
   }
-  .hxpCont .fotoBx {
+  #dec .hxp .fotoBx {
     position: initial;
     width: clamp(240px, 70%, 400px);
     margin: 0 auto;
+    background-color: #db813f;
   }
-  .hxpCont .fotoBx img {
+  #dec .hxp .fotoBx img {
     display: block;
   }
-  .hxpCont .infoCol {
+  #dec .hxp .infoCol {
     width: 100%;
     text-align: center;
     /* background-color: pink; */
   }
-  .hxpCont .nmBx {
+  #dec .hxp .nmBx {
     margin-bottom: clamp(35px, 5.5vw, 50px);
   }
-  .hxpCont .infoCol .nombre {
+  #dec .hxp .infoCol .nombre {
     font-size: clamp(2rem, 5.3738vw + 0.8581rem, 3.4375rem);
     margin-top: clamp(17px, 4.5vw, 30px);
     margin-bottom: clamp(17px, 4.5vw, 30px);
   }
-  .hxpCont .infoCol .esplInd {
+  #dec .hxp .infoCol .esplInd {
     font-size: clamp(0.875rem, 1.1682vw + 0.6268rem, 1.1875rem);
     margin: 0 auto 8px;
   }
-  .hxpCont .infoCol .espl {
+  #dec .hxp .infoCol .espl {
     font-size: clamp(1.375rem, 4.2056vw + 0.4813rem, 2.5rem);
     margin-bottom: 20px;
     margin-bottom: clamp(15px, 2.5vw, 20px);
   }
-  .hxpCont .infoCol .seccCbz {
+  #dec .hxp .infoCol .seccCbz {
     font-size: clamp(1.1rem, 0.7944vw + 0.9312rem, 1.3125rem);
   }
-  .hxpCont .infoCol .ctcEmpresa {
+  #dec .hxp .infoCol .ctcEmpresa {
     font-size: clamp(1.2188rem, 1.986vw + 0.7967rem, 1.75rem);
   }
-  .hxpCont .infoCol .fas,
-  .hxpCont .infoCol .ctcTxt {
+  #dec .hxp .infoCol .fas,
+  #dec .hxp .infoCol .ctcTxt {
     /* font-size: 18px; */
     font-size: clamp(1.0313rem, 0.3505vw + 0.9568rem, 1.125rem);
   }
-  .hxpCont .infoCol .colapsable {
+  #dec .hxp .infoCol .colapsable {
     width: clamp(295px, 85%, 530px);
     margin: 0 auto 20px;
   }
-  .hxpCont .infoCol .mapa {
+  #dec .hxp .infoCol .mapa {
     margin: 0 auto 35px;
   }
-  .hxpCont .infoCol .rdsBx {
+  #dec .hxp .infoCol .rdsBx {
     justify-content: center;
   }
-  .hxpCont .infoCol .separador {
+  #dec .hxp .infoCol .separador {
     margin: 40px auto 40px;
   }
-  .hxpCont .experiencia ul {
+  #dec .hxp .experiencia ul {
     list-style: none;
   }
-  .hxpCont .mgzCont {
+  #dec .hxp .mgzCont {
     align-items: center;
   }
 
@@ -454,13 +450,13 @@
 }
 
 @media only screen and (max-width: 440px){
-  .hxpCont .infoCol .esplInd {
+  #dec .hxp .infoCol .esplInd {
     /* margin-bottom: 5px; */
   }
 }
 
 @media only screen and (max-width: 340px) {
-  .hxpCont .infoCol .rdsBx p {
+  #dec .hxp .infoCol .rdsBx p {
     font-size: 14px;
   }
 }

@@ -18,173 +18,175 @@
 </head>
 
 <body>
-  <header class="sdcHdr">
-    <div class="pleca">
-      <div class="dsktp contenedor">
-        <a class="f1 inicio" href="#"><b>INICIO</b></a>
-        <p class="f3 slogan">Salud para vivir con sentido</p>
-        <a class="logo" href="/index.php">
-          <img src="/imgs/Revista-BS-logo-250x195.png" alt="">
-        </a>
-      </div>
-
-      <div class="mbl">
-        <div class="back">
-          <a href="/index.php"><i class="fas fa-chevron-left"></i></a>
+  <div id="dec">
+    <header>
+      <div class="pleca">
+        <div class="dsktp contenedor">
+          <a class="f1 inicio" href="#"><b>INICIO</b></a>
+          <p class="f3 slogan">Salud para vivir con sentido</p>
+          <a class="logo" href="/index.php">
+            <img src="/imgs/Revista-BS-logo-250x195.png" alt="">
+          </a>
         </div>
 
-        <div class="logoBx">
-          <div class="logo">
-            <a href="/index.php">
-              <img src="/imgs/Revista-BS-logo-m.png">
-            </a>
+        <div class="mbl">
+          <div class="back">
+            <a href="/index.php"><i class="fas fa-chevron-left"></i></a>
           </div>
-          <div class="slogan">
-            <p>
-              <i>Salud para vivir <span>con sentido</span></i>
+
+          <div class="logoBx">
+            <div class="logo">
+              <a href="/index.php">
+                <img src="/imgs/Revista-BS-logo-m.png">
+              </a>
+            </div>
+            <div class="slogan">
+              <p>
+                <i>Salud para vivir <span>con sentido</span></i>
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </header>
+
+    <section class="contenedor">
+
+      <div class="hxp hxpContFlex1">
+
+        <div class="infoCol">
+          <div class="nmBx">
+            <h1 class="f1 nombre">Dr. José Antonio <br> González Rincón</h1>
+            <p class="f1 esplInd">Especialidad&nbspmédica</p>
+            <div class="f1 espl">Traumatología <br> y Ortopedia</div>
+            <p class="f3 cedulas"><b>Cédula profesional:</b> <br class="br480"> 5084256, Universidad Michoacana de San Nicolás de Hidalgo</p>
+            <p class="f3 cedulas"><b>Cédula de especialidad:<br class="br480"></b> 7342886, Universidad Nacional Autónoma de México</p>
+          </div>
+
+          <div class="f1 ctcBx">
+            <h3 class="seccCbz">CONSULTA EN</h3>
+            <p class="ctcEmpresa">Centro Médico Navarrete</p>
+            <p class="ctcTxt"><i class="fas fa-map-marker-alt">&nbsp;</i> Blvd. Navarrete #97, esquina con Américas, <br class="br880">Hermosillo, Sonora</p>
+
+            <button type="button" class="f1 colapsable">Abrir ubicación en mapa <i class="fa fa-chevron-down"></i></button>
+
+            <div class="mapa">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d217.91720904592512!2d-110.97135128587185!3d29.08573711808838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ce843fac21686d%3A0x921d66eec2f39e58!2sCentro%20M%C3%A9dico%20Navarrete!5e0!3m2!1ses-419!2smx!4v1654108061521!5m2!1ses-419!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+
+            <div class="ctcTelBx">
+              <a href="tel:+526622161492">
+                <p class="ctcTxt hvTxt hvTrns-5"><i class="fas fa-phone-alt">&nbsp;</i> 662 216 1492</p>
+              </a>
+              <a href="tel:+526622290213" title="Urgencias">
+                <p class="ctcTxt hvTxt hvTrns-5"><i class="fas fa-exclamation-circle" style="color: red;">&nbsp;</i> 662 229 0213</p>
+              </a>
+            </div>
+
+            <p class="ctcTxt hvTrns-5"><a href="https://www.columnahermosillo.com/" class="hvTxt" target="blank">www.columnahermosillo.com</a>&nbsp; <i class="fas fa-mouse-pointer"></i>
             </p>
-          </div>
-        </div >
 
-      </div>
-    </div>
-  </header>
+            <div class="f1 rdsBx">
+              <div>
+                <a class="hvTrns-5" href="https://www.facebook.com/Columna-hermosillo-1534276236872116" target="blank"><img src="/dirmedico/imgs/facebook-logo-120x120.png" alt="" title="@Columna-hermosillo, click para abrir en Facebook"></a>
 
-  <section class="contenedor ">
+                <a class="hvTrns-5" href="https://www.facebook.com/OrtopediaSonora" target="blank"><img src="/dirmedico/imgs/facebook-logo-120x120.png" alt="" target="blank" title="@OrtopediaSonora, click para abrir en Facebook"></a>
+              </div>
 
-    <div class="hxpCont hxpContFlex1">
+              <div>
+                <a class="hvTrns-5" href="https://www.instagram.com/joseantoniogonzalezrincon/" target="blank"><img src="/dirmedico/imgs/instagram-logo-120x120.png" alt="" title="@joseantoniogonzalezrincon, click para abrir en Instagram"></a>
+              </div>
 
-      <div class="infoCol">
-        <div class="nmBx">
-          <h1 class="f1 nombre">Dr. José Antonio <br> González Rincón</h1>
-          <p class="f1 esplInd">Especialidad&nbspmédica</p>
-          <div class="f1 espl">Traumatología <br> y Ortopedia</div>
-          <p class="f3 cedulas"><b>Cédula profesional:</b> <br class="br480"> 5084256, Universidad Michoacana de San Nicolás de Hidalgo</p>
-          <p class="f3 cedulas"><b>Cédula de especialidad:<br class="br480"></b> 7342886, Universidad Nacional Autónoma de México</p>
-        </div>
-
-        <div class="f1 ctcBx">
-          <h3 class="seccCbz">CONSULTA EN</h3>
-          <p class="ctcEmpresa">Centro Médico Navarrete</p>
-          <p class="ctcTxt"><i class="fas fa-map-marker-alt">&nbsp;</i> Blvd. Navarrete #97, esquina con Américas, <br class="br880">Hermosillo, Sonora</p>
-
-          <button type="button" class="f1 colapsable">Abrir ubicación en mapa <i class="fa fa-chevron-down"></i></button>
-
-          <div class="mapa">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d217.91720904592512!2d-110.97135128587185!3d29.08573711808838!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x86ce843fac21686d%3A0x921d66eec2f39e58!2sCentro%20M%C3%A9dico%20Navarrete!5e0!3m2!1ses-419!2smx!4v1654108061521!5m2!1ses-419!2smx" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <p class="f3">Click para acceder a sus redes sociales</p>
+            </div>
+            <div class="separador"></div>
           </div>
 
-          <div class="ctcTelBx">
-            <a href="tel:+526622161492">
-              <p class="ctcTxt hvTxt hvTrns-5"><i class="fas fa-phone-alt">&nbsp;</i> 662 216 1492</p>
-            </a>
-            <a href="tel:+526622290213" title="Urgencias">
-              <p class="ctcTxt hvTxt hvTrns-5"><i class="fas fa-exclamation-circle" style="color: red;">&nbsp;</i> 662 229 0213</p>
-            </a>
+          <div class="f1 experiencia">
+            <h3 class="seccCbz">ESPECIALISTA EN</h3>
+            <ul>
+              <li>Traumatología y ortopedia</li>
+              <li>Cirugía de columna</li>
+              <li>Lesiones y fracturas</li>
+            </ul>
+
+            <div class="separador"></div>
           </div>
 
-          <p class="ctcTxt hvTrns-5"><a href="https://www.columnahermosillo.com/" class="hvTxt" target="blank">www.columnahermosillo.com</a>&nbsp; <i class="fas fa-mouse-pointer"></i>
-          </p>
+          <div class="f1 forma">
+            <h3 class="seccCbz">FORMACIÓN</h3>
+            <p class="seccTxt">Originario de La Piedad, Michoacán, el doctor José Antonio González Rincón es médico
+              cirujano por la Universidad
+              Michoacana de San Nicolás de Hidalgo, es especialista en traumatología y ortopedia por la Universidad Nacional
+              Autónoma de México, realizó un curso en adiestramiento en cirugía de columna vertebral y deformidades y está
+              certificado por el Consejo Mexicano de Ortopedia y Traumatología, A. C.</p>
 
-          <div class="f1 rdsBx">
-            <div>
-              <a class="hvTrns-5" href="https://www.facebook.com/Columna-hermosillo-1534276236872116" target="blank"><img src="/dirmedico/imgs/facebook-logo-120x120.png" alt="" title="@Columna-hermosillo, click para abrir en Facebook"></a>
-
-              <a class="hvTrns-5" href="https://www.facebook.com/OrtopediaSonora" target="blank"><img src="/dirmedico/imgs/facebook-logo-120x120.png" alt="" target="blank" title="@OrtopediaSonora, click para abrir en Facebook"></a>
-            </div>
-
-            <div>
-              <a class="hvTrns-5" href="https://www.instagram.com/joseantoniogonzalezrincon/" target="blank"><img src="/dirmedico/imgs/instagram-logo-120x120.png" alt="" title="@joseantoniogonzalezrincon, click para abrir en Instagram"></a>
-            </div>
-
-            <p class="f3">Click para acceder a sus redes sociales</p>
+            <div class="separador"></div>
           </div>
-          <div class="separador"></div>
+
+          <div class="f1 mgz">
+            <h3 class="seccCbz">ARTÍCULOS Y ENTREVISTAS <br> EN <span>REVISTA BS</span></h3>
+
+            <div class="mgzCont">
+              <div class="mgzBx">
+                <a href="/dirmedico/dres/jagr/BS269-24-m.pdf" target="_blank">
+                  <img src="/dirmedico/dres/jagr/BS269-24.jpg" alt="">
+                </a>
+              </div>
+
+              <div class="mgzBx">
+                <a href="/dirmedico/dres/jagr/BS266-14-15-m.pdf" target="_blank">
+                  <img src="/dirmedico/dres/jagr/BS266-14-15.jpg" alt="">
+                </a>
+              </div>
+
+              <div class="mgzBx">
+                <a href="/dirmedico/dres/jagr/BS265-14-15-m.pdf" target="_blank">
+                  <img src="/dirmedico/dres/jagr/BS265-14-15.jpg" alt="">
+                </a>
+              </div>
+
+              <div class="mgzBx">
+                <a href="/dirmedico/dres/jagr/BS260-20-21-m.pdf" target="_blank">
+                  <img src="/dirmedico/dres/jagr/BS260-20-21.jpg" alt="">
+                </a>
+              </div>
+
+              <div class="mgzBx">
+                <a href="/dirmedico/dres/jagr/BS259-8-m.pdf" target="_blank">
+                  <img src="/dirmedico/dres/jagr/BS259-8.jpg" alt="">
+                </a>
+              </div>
+
+              <div class="mgzBx">
+                <a href="/dirmedico/dres/jagr/BS253-10-m.pdf" target="_blank">
+                  <img src="/dirmedico/dres/jagr/BS253-10.jpg" alt="">
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
 
-        <div class="f1 experiencia">
-          <h3 class="seccCbz">ESPECIALISTA EN</h3>
-          <ul>
-            <li>Traumatología y ortopedia</li>
-            <li>Cirugía de columna</li>
-            <li>Lesiones y fracturas</li>
-          </ul>
+        <div class="fotoCol">
+          <div class="fotoBx">
+            <picture>
+              <source media="(max-width: 768px)" srcset="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-m.jpg">
+              <img src="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez.jpg" alt="">
+            </picture>
 
-          <div class="separador"></div>
-        </div>
-
-        <div class="f1 forma">
-          <h3 class="seccCbz">FORMACIÓN</h3>
-          <p class="seccTxt">Originario de La Piedad, Michoacán, el doctor José Antonio González Rincón es médico
-            cirujano por la Universidad
-            Michoacana de San Nicolás de Hidalgo, es especialista en traumatología y ortopedia por la Universidad Nacional
-            Autónoma de México, realizó un curso en adiestramiento en cirugía de columna vertebral y deformidades y está
-            certificado por el Consejo Mexicano de Ortopedia y Traumatología, A. C.</p>
-
-          <div class="separador"></div>
-        </div>
-
-        <div class="f1 mgz">
-          <h3 class="seccCbz">ARTÍCULOS Y ENTREVISTAS <br> EN <span>REVISTA BS</span></h3>
-
-          <div class="mgzCont">
-            <div class="mgzBx">
-              <a href="/dirmedico/dres/jagr/BS269-24-m.pdf" target="_blank">
-                <img src="/dirmedico/dres/jagr/BS269-24.jpg" alt="">
-              </a>
-            </div>
-
-            <div class="mgzBx">
-              <a href="/dirmedico/dres/jagr/BS266-14-15-m.pdf" target="_blank">
-                <img src="/dirmedico/dres/jagr/BS266-14-15.jpg" alt="">
-              </a>
-            </div>
-
-            <div class="mgzBx">
-              <a href="/dirmedico/dres/jagr/BS265-14-15-m.pdf" target="_blank">
-                <img src="/dirmedico/dres/jagr/BS265-14-15.jpg" alt="">
-              </a>
-            </div>
-
-            <div class="mgzBx">
-              <a href="/dirmedico/dres/jagr/BS260-20-21-m.pdf" target="_blank">
-                <img src="/dirmedico/dres/jagr/BS260-20-21.jpg" alt="">
-              </a>
-            </div>
-
-            <div class="mgzBx">
-              <a href="/dirmedico/dres/jagr/BS259-8-m.pdf" target="_blank">
-                <img src="/dirmedico/dres/jagr/BS259-8.jpg" alt="">
-              </a>
-            </div>
-
-            <div class="mgzBx">
-              <a href="/dirmedico/dres/jagr/BS253-10-m.pdf" target="_blank">
-                <img src="/dirmedico/dres/jagr/BS253-10.jpg" alt="">
-              </a>
+            <div class="f1 agende">
+              <p>AGENDE UNA CITA</p>
+              <div>
+                <a href="tel:+526622161492"><i class="fas fa-phone-alt"></i> 662 216 1492</a>
+                <a href="https://wa.me/526622290213"><i class="fa-brands fa-whatsapp"></i> 662 229 0213</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-      <div class="fotoCol">
-        <div class="fotoBx">
-          <picture>
-            <source media="(max-width: 768px)" srcset="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez-m.jpg">
-            <img src="/dirmedico/dres/jagr/Dr-Jose-Antonio-Gonzalez.jpg" alt="">
-          </picture>
-
-          <div class="f1 agende">
-            <p>AGENDE UNA CITA</p>
-            <div>
-              <a href="tel:+526622161492"><i class="fas fa-phone-alt"></i> 662 216 1492</a>
-              <a href="https://wa.me/526622290213"><i class="fa-brands fa-whatsapp"></i> 662 229 0213</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+    </section>
+  </div>
 
   <?php include('../includes/footer.php') ?>
 
