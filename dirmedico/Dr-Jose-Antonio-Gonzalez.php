@@ -103,7 +103,7 @@
             <div class="separador"></div>
           </div>
 
-          <div class="f1 experiencia">
+          <div class="f1 destacados">
             <h3 class="seccCbz">ESPECIALISTA EN</h3>
             <ul>
               <li>Traumatología y ortopedia</li>
@@ -114,7 +114,7 @@
             <div class="separador"></div>
           </div>
 
-          <div class="f1 forma">
+          <div class="f1 formacion">
             <h3 class="seccCbz">FORMACIÓN</h3>
             <p class="seccTxt">Originario de La Piedad, Michoacán, el doctor José Antonio González Rincón es médico
               cirujano por la Universidad
