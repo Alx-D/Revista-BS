@@ -344,7 +344,7 @@ ul li:last-child{
 
 /* 1EDICIONES */
 #ediciones h3,
-#dirmdc h3 {
+#dirMdc h3 {
   font-size: 30px;
   font-weight: 400;
   text-align: center;
@@ -377,45 +377,85 @@ ul li:last-child{
   transform: scale(115%);
 }
 
-/* 1SDC */
-#dirmdc {
+/* 1DEC */
+#dirMdc {
   margin-bottom: 80px;
 }
 .dirmdc-cont {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  /* justify-content: center; */
   row-gap: 50px;
+  column-gap: 3%;
 }
 .dirmdc-dr-bx {
-  /* flex-basis: 14%; */
   flex-basis: 14%;
-  flex-shrink: 1;
-  /* width: 12vw; */
   height: auto;
-  /* display: block; */
 }
+/* Activar este y desacitvar el dirmdc-dr-ft img hace que los 6 bxs de los dres hagan wrap*/
+/* .dirmdc-dr-ft img {
+  display: block;
+} */
 .dirmdc-dr-ft {
-  /* width: 175px; */
   width: 100%;
-  /* height: 215px; */
-  /* display: block; */
   height: auto;
   margin: 0 auto 18px;
   background-color: #62d0f8;
+}
+.dirmdc-dr-ft img {
+  width: 100%;
+  display: block;
 }
 .dirmdc-dr-bx p {
   text-align: center;
   padding: 0 4px;
 }
 .dirmdc-dr-nm {
-  font-size: 22px;
-  line-height: 1;
+  font-size: 21px;
+  line-height: 1.1;
   margin-bottom: 5px;
 }
 .dirmdc-dr-esp {
   font-size: 18px;
+  line-height: 1.1;
   font-weight: 300;
+}
+@media screen and (max-width: 1024px){
+  .dirmdc-dr-bx {
+    flex-basis: 16.5%;
+  }
+  .dirmdc-dr-bx:last-child {
+    display: none;
+  }
+}
+@media screen and (max-width: 920px){
+  .dirmdc-dr-bx {
+    flex-basis: 21%;
+  }
+  .dirmdc-dr-bx:nth-last-child(2) {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px){
+  .dirmdc-cont {
+    padding: 0 15px;
+  }
+  .dirmdc-dr-bx {
+    flex-basis: 27.5%;
+  }
+  .dirmdc-dr-bx:last-child {
+    display: initial;
+  }
+  .dirmdc-dr-bx:nth-last-child(2) {
+    display: initial;
+  }
+}
+@media screen and (max-width: 580px){
+  .dirmdc-dr-bx {
+    flex-basis: 45%;
+  }
+
 }
 
 /* 1VIDEOS */
@@ -1228,7 +1268,7 @@ footer .facebook-bx {
     margin-bottom: 35px;
   }
   #ediciones h3,
-  #dirmdc h3,
+  #dirMdc h3,
   #videos h3 {
     font-size: 25px;
     letter-spacing: unset;

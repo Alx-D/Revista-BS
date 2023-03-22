@@ -204,12 +204,12 @@
 }
 #dec .hxp .infoCol .ctcBx .ctcTxt a:nth-child(1) {
   display: inline-block;
-  margin-bottom: 10px;
 }
 #dec .hxp .infoCol .rdsBx {
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  margin-top: 10px;
 }
 #dec .hxp .infoCol .rdsBx div {
   display: flex;
@@ -438,6 +438,7 @@
   }
   #dec .hxp .infoCol .rdsBx {
     justify-content: center;
+    margin-top: 15px;
   }
   #dec .hxp .infoCol .separador {
     margin: 40px auto 40px;
@@ -453,16 +454,11 @@
     align-items: center;
   }
 }
-
-@media only screen and (max-width: 560px){
-}
-
 @media only screen and (max-width: 440px){
   #dec .hxp .infoCol .esplInd {
     /* margin-bottom: 5px; */
   }
 }
-
 @media only screen and (max-width: 340px) {
   #dec .hxp .infoCol .rdsBx p {
     font-size: 14px;

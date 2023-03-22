@@ -4,7 +4,7 @@
 <body>
   <?php include('includes/header.php') ?>
 
-  <div class="popup">
+  <!-- <div class="popup">
     <button id="close">&times;</button>
     <a href="https://www.instagram.com/cdelnoroeste/?hl=es" target="_blank"><img src="banners/2023/Clinica-del-Noroeste-BS273.jpg" alt=""></a>
   </div>
@@ -21,7 +21,7 @@
     document.querySelector("#close").addEventListener("click", function() {
       document.querySelector(".popup").style.display = "none";
     });
-  </script>
+  </script> -->
 
   <!-- 1PORTADA -->
   <section id="portada" class="contenedor m-0a">
@@ -190,8 +190,8 @@
 
   <div class="clear"></div>
 
-  <!-- 1DIRMEDICO -->
-  <section id="dirmdc" class="contenedor m0-a">
+  <!-- 1DEC -->
+  <section id="dirMdc" class="contenedor m0-a">
 
     <h3 class="f1">SU DOCTOR DE CONFIANZA</h3>
 
@@ -218,7 +218,7 @@
       </div>
 
       <div class="dirmdc-dr-bx hv-trnsY-3">
-        <a class="hv-txt-01" href="">
+        <a class="hv-txt-01" href="/dirmedico/Dr-Jose-Antonio-Gonzalez.php" target="_blank">
           <div class="dirmdc-dr-ft">
             <img src="/dirmedico/imgs/Dra-Claudia-Montenegro-card.png" alt="">
           </div>
