@@ -18,11 +18,11 @@
 </head>
 
 <body>
-  <div id="dec">
+  <div id="hxp">
     <header>
       <div class="pleca">
         <div class="dsktp contenedor">
-          <a class="f1 inicio" href="#"><b>INICIO</b></a>
+          <a class="f1 inicio" href="/index.php/#dirMdc"><b>INICIO</b></a>
           <p class="f3 slogan">Salud para vivir con sentido</p>
           <a class="logo" href="/index.php">
             <img src="/imgs/Revista-BS-logo-250x195.png" alt="">
@@ -31,7 +31,7 @@
 
         <div class="mbl">
           <div class="back">
-            <a href="/index.php"><i class="fas fa-chevron-left"></i></a>
+            <a href="/index.php/#dirMdc"><i class="fas fa-chevron-left"></i></a>
           </div>
 
           <div class="logoBx">
@@ -53,7 +53,7 @@
 
     <section class="contenedor">
 
-      <div class="hxp hxpContFlex1">
+      <div class="hxpContFlex1">
 
         <div class="infoCol">
           <div class="nmBx">
